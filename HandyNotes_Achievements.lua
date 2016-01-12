@@ -51,6 +51,7 @@ end
 function HNA:OnEnter(mapFile, coord)
     tooltip = QTip:Acquire(ADDON_NAME, 2, "LEFT", "RIGHT")
     local firstRow = true
+    local previousAchievementID
     for c, _, _, _, _, _, row in HNA:GetNodes(mapFile, nil, nil) do
         if HNA:HandyNotesCoordsNear(c, coord) and HNA:Valid(row) then
             local achievementID, criterion = unpack(row)
@@ -123,7 +124,7 @@ end
 
 
 local function notifyUpdate(event)
-    print(string.format("%s:%s()", ADDON_NAME, event))
+    -- print(string.format("%s:%s()", ADDON_NAME, event))
     HNA:UpdateVisible()
     HNA:SendMessage("HandyNotes_NotifyUpdate", ADDON_NAME)
 end
