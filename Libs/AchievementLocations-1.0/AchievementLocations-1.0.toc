@@ -1,0 +1,21 @@
+## Interface: 60200
+## Title: Lib AchievementLocations-1.0
+## Version: 0.3.0
+## Author: rbrian
+
+AchievementLocations-1.0.lua
+AchievementLocations_data.lua
+AchievementLocations_cartography.lua
+AchievementLocations_soloable.lua
+AchievementLocations_group.lua
+AchievementLocations_pvp.lua
+
+AchievementLocations_seasonal_brew.lua
+AchievementLocations_seasonal_children.lua
+AchievementLocations_seasonal_darkmoon.lua
+AchievementLocations_seasonal_hallow.lua
+AchievementLocations_seasonal_love.lua
+AchievementLocations_seasonal_lunar.lua
+AchievementLocations_seasonal_mid.lua
+AchievementLocations_seasonal_noble.lua
+AchievementLocations_seasonal_winter.lua

@@ -1,0 +1,45 @@
+## Interface: 60200
+## Title: HandyNotes: Achievements
+## Description: Shows location of incomplete achievements
+## Version: 0.4.0
+## Author: rbrian
+## Dependencies: HandyNotes
+## SavedVariablesPerCharacter: HandyNotes_Achievements_CleanContinents
+## SavedVariablesPerCharacter: HandyNotes_Achievements_ShowCompleted
+## X-Category: Map & Minimap
+## X-Curse-Project-Name: HandyNotes: Achievements
+## X-Email: brian@rbrian.com
+## X-Website: https://github.com/idiomatic/HandyNotes_Achievements
+## X-License: MIT
+
+Libs/LibStub/LibStub.lua
+Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
+Libs/AceAddon-3.0/AceAddon-3.0.lua
+#Libs/AceDB-3.0/AceDB-3.0.lua
+Libs/AceEvent-3.0/AceEvent-3.0.lua
+Libs/AceTimer-3.0/AceTimer-3.0.lua
+Libs/LibQTip-1.0/LibQTip-1.0.lua
+
+#Libs/GarbageCollect-1.0/GarbageCollect-1.0.lua
+#Libs/Memoize-1.0/Memoize-1.0.lua
+Libs/MapExcursion-1.0/MapExcursion-1.0.lua
+Libs/MapMap-1.0/MapMap-1.0.lua
+Libs/InstanceLocations-1.0/InstanceLocations-1.0.lua
+
+Libs/AchievementLocations-1.0/AchievementLocations-1.0.lua
+Libs/AchievementLocations-1.0/AchievementLocations_data.lua
+Libs/AchievementLocations-1.0/AchievementLocations_cartography.lua
+Libs/AchievementLocations-1.0/AchievementLocations_soloable.lua
+Libs/AchievementLocations-1.0/AchievementLocations_group.lua
+Libs/AchievementLocations-1.0/AchievementLocations_pvp.lua
+Libs/AchievementLocations-1.0/AchievementLocations_seasonal_brew.lua
+Libs/AchievementLocations-1.0/AchievementLocations_seasonal_children.lua
+Libs/AchievementLocations-1.0/AchievementLocations_seasonal_darkmoon.lua
+Libs/AchievementLocations-1.0/AchievementLocations_seasonal_hallow.lua
+Libs/AchievementLocations-1.0/AchievementLocations_seasonal_love.lua
+Libs/AchievementLocations-1.0/AchievementLocations_seasonal_lunar.lua
+Libs/AchievementLocations-1.0/AchievementLocations_seasonal_mid.lua
+Libs/AchievementLocations-1.0/AchievementLocations_seasonal_noble.lua
+Libs/AchievementLocations-1.0/AchievementLocations_seasonal_winter.lua
+
+HandyNotes_Achievements.lua
