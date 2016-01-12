@@ -13,13 +13,14 @@ local EMPTY = {}
 AchievementLocations.byMap = AchievementLocations.byMap or {}
 
 
-function AchievementLocations:AddLocation(mapFile, achievementID, criterion, x, y, options)
+function AchievementLocations:AddLocation(mapFile, achievementID, x, y, options)
     local row
     if type(mapFile) == "table" then
         row = mapFile
         mapFile = table.remove(row, 1)
     else
-        row = {achievementID, criterion, x, y}
+        row = {achievementID, x, y}
+        row.criterion = options.criterion
         row.note = options.note
         row.action = options.action
     end

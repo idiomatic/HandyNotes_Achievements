@@ -40,14 +40,13 @@ sheet.getRows achievementWorksheet, {query: 'mapfile != ""', orderby: 'mapfile'}
         out.write ", #{achievementid}"
         if x or y
             out.write ", #{x}, #{y}"
-        else
-            out.write ", nil, nil"
 
         if criterion
-            out.write ", criterion=#{criterionid}"
-        else
             out.write ", criterion=#{JSON.stringify criterion}"
-        out.write ", floor=#{JSON.stringify floor}" if floor
+        else if criterionid
+            out.write ", criterion=#{criterionid}"
+
+        out.write ", floor=#{floor}" if floor
         out.write ", action=#{JSON.stringify action}" if action
         out.write ", item=#{JSON.stringify itemid}" if itemid
         out.write ", note=#{JSON.stringify note}" if note

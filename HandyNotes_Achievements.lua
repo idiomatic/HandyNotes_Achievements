@@ -54,7 +54,8 @@ function HNA:OnEnter(mapFile, coord)
     local previousAchievementID
     for c, _, _, _, _, _, row in HNA:GetNodes(mapFile, nil, nil) do
         if HNA:HandyNotesCoordsNear(c, coord) and HNA:Valid(row) then
-            local achievementID, criterion = unpack(row)
+            local achievementID = row[1]
+            local criterion = row.criterion
 
             local _, name, points, completed, _, _, _, description, _, _, _, _, _, _ = GetAchievementInfo(achievementID)
             
@@ -73,7 +74,6 @@ function HNA:OnEnter(mapFile, coord)
                 tooltip:AddLine(description)
                 previousAchievementID = achievementID
             end
-
 
             if criterion then
                 local criterionDescription, quantityString
@@ -218,7 +218,7 @@ function HNA:GetNodes(mapFile, minimap, dungeonLevel)
         local rows = AchievementLocations:Get(mapFile)
         for _, row in ipairs(rows or EMPTY) do
             if self:Valid(row) then
-                coroutine.yield(mapFile, x or row[3], y or row[4], row)
+                coroutine.yield(mapFile, x or row[2], y or row[3], row)
             end
         end
 
