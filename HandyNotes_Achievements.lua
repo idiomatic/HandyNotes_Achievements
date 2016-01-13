@@ -127,8 +127,7 @@ function HNA:OnInitialize()
 end
 
 
-local function notifyUpdate(event)
-    -- print(string.format("%s:%s()", ADDON_NAME, event))
+local function notifyUpdate(frame, event)
     HNA:UpdateVisible()
     HNA:SendMessage("HandyNotes_NotifyUpdate", ADDON_NAME)
 end
@@ -174,7 +173,7 @@ function HNA:PLAYER_ENTERING_WORLD(event)
     -- XXX
     options = {}
     HandyNotes:RegisterPluginDB(ADDON_NAME, self, options)
-    notifyUpdate(event)
+    notifyUpdate(nil, event)
 end
 
 
