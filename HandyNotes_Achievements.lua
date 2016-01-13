@@ -17,12 +17,12 @@ local QTip = LibStub("LibQTip-1.0")
 assert(QTip, string.format("%s requires LibQTip-1.0", ADDON_NAME))
 
 
-local ICON_PATH = "Interface/AchievementFrame/UI-Achievement-TinyShield"
-local ICON_SCALE = 5
-local ICON_ALPHA = 1.0
-local NEAR = 0.03
-local DEFAULT_X, DEFAULT_Y = 0.5, 0.5
-local ZONE_X, ZONE_Y = 0.5, 0.5
+HNA.ICON_PATH = "Interface/AchievementFrame/UI-Achievement-TinyShield"
+HNA.ICON_SCALE = 5
+HNA.ICON_ALPHA = 1.0
+HNA.NEAR = 0.03
+HNA.DEFAULT_COORD = 50005000
+HNA.ZONE_COORD = 50005000
 
 local EMPTY = {}
 local visible = {}
@@ -44,7 +44,7 @@ function HNA:HandyNotesCoordsNear(c, coord)
     -- within 3% of the map
     local dx = (c - coord) / 1e8
     local dy = (c % 1e4 - coord % 1e4) / 1e4
-    return dx * dx + dy * dy < NEAR * NEAR
+    return dx * dx + dy * dy < self.NEAR * self.NEAR
 end
 
 
@@ -195,51 +195,55 @@ end
 
 function HNA:Valid(row)
     local achievementID = row[1]
-    if not visible[achievementID] then
-        return false
-    end
+    if not visible[achievementID] then return false end
     local _, _, _, completed, _, _, _, _, _, _, _, _, earnedByMe, _ = GetAchievementInfo(achievementID)
-    if not completed and row.criterion then
-        if type(row.criterion) == "number" then
-            _, _, completed = GetAchievementCriteriaInfoByID(achievementID, row.criterion)
-        else
-            _, _, completed = HNA:GetAchievementCriteriaInfoByDescription(achievementID, row.criterion)
-        end
+    if completed then return false end
+
+    if type(row.criterion) == "number" then
+        _, _, completed = GetAchievementCriteriaInfoByID(achievementID, row.criterion)
+    elseif type(row.criterion) == "string" then
+        _, _, completed = HNA:GetAchievementCriteriaInfoByDescription(achievementID, row.criterion)
     end
-    if not completed and row.quest then
-        completed = IsQuestFlaggedCompleted(row.quest)
+    if completed then return false end
+
+    if row.quest then
+        return not IsQuestFlaggedCompleted(row.quest)
     end
-    return not completed
+
+    return true
 end
 
 
 function HNA:GetNodes(mapFile, minimap, dungeonLevel)
-    local function validRows(mapFile, x, y)
+    -- recursive function to generate valid achievements, sometimes projected into outer zones or consolidated pins
+    local function validRows(mapFile, overrideMapFile, overrideCoord)
         local rows = AchievementLocations:Get(mapFile)
         for _, row in ipairs(rows or EMPTY) do
             if self:Valid(row) then
-                coroutine.yield(mapFile, x or row[2], y or row[3], row)
+                local coord = row[2] and row[3] and row[2] * 1e8 + row[3] * 1e4
+                coroutine.yield(overrideMapFile or mapFile, overrideCoord or coord or self.DEFAULT_COORD, row)
             end
         end
 
         local zones = HandyNotes:GetContinentZoneList(mapFile)
         for _, subMap in ipairs(zones or EMPTY) do
             local subMapFile = HandyNotes:GetMapIDtoMapFile(subMap)
-            -- put zone on the world map, all on one pin
-            validRows(subMapFile, x or ZONE_X, y or ZONE_Y)
+            -- put this zone's achievements on the world map, all on one pin
+            -- overrideMapFile and overrideCoord are likely nil
+            validRows(subMapFile, overrideMapFile, overrideCoord or (HandyNotes_Achievements_CleanContinents and self.ZONE_COORD))
         end
 
         local instances = InstanceLocations:GetBelow(mapFile)
-        for _, subMapFile in ipairs(instances or EMPTY) do
-            local _, instanceX, instanceY = unpack(InstanceLocations:GetLocation(subMapFile))
-            validRows(subMapFile, x or instanceX, y or instanceY)
-            -- print(string.format("recurse %s", subMapFile))
+        for _, instanceMapFile in ipairs(instances or EMPTY) do
+            local overrideMapFile, instanceX, instanceY = unpack(InstanceLocations:GetLocation(instanceMapFile))
+            local coord = instanceX and instanceY and instanceX * 1e8 + instanceY * 1e4
+            validRows(instanceMapFile, overrideMapFile, overrideCoord or coord)
         end
     end
 
     local rowsCo = coroutine.create(validRows)
     return function(state, value)
-        local status, mF, x, y, row = coroutine.resume(rowsCo, mapFile)
+        local status, mF, coord, row = coroutine.resume(rowsCo, mapFile)
         if not status then
             print(string.format("|cffff0000%s Error:|r %s", ADDON_NAME, tostring(mF)))
             return nil
@@ -247,9 +251,8 @@ function HNA:GetNodes(mapFile, minimap, dungeonLevel)
         if not row then
             return nil
         end
-        local coord =  (x or DEFAULT_X) * 1e8 + (y or DEFAULT_Y) * 1e4
         -- HandyNotes does iterators wrong: the first value should be a iterator variable (cursor), eliminating the need for a "value" closure or coroutine
-        -- added row for tooltip embellishment
-        return coord, mF, ICON_PATH, ICON_SCALE, ICON_ALPHA, nil, row
+        -- added row for OnEnter
+        return coord, mF, self.ICON_PATH, self.ICON_SCALE, self.ICON_ALPHA, nil, row
     end, nil
 end
