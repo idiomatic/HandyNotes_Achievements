@@ -27,6 +27,7 @@ HNA.ZONE_COORD = 50005000
 local EMPTY = {}
 local visible = {}
 local tooltip
+local activeNodes = {}
 
 
 function HNA:GetAchievementCriteriaInfoByDescription(achievementID, description)
@@ -48,12 +49,15 @@ function HNA:HandyNotesCoordsNear(c, coord)
 end
 
 
-function HNA:OnEnter(mapFile, coord)
+function HNA:OnEnter(mapFile, nearCoord)
     tooltip = QTip:Acquire(ADDON_NAME, 2, "LEFT", "RIGHT")
     local firstRow = true
     local previousAchievementID
-    for c, _, _, _, _, _, row in HNA:GetNodes(mapFile, nil, nil) do
-        if HNA:HandyNotesCoordsNear(c, coord) and HNA:Valid(row) then
+
+    for nodeIndex = 1, #activeNodes[mapFile], 2 do
+        local nodes = activeNodes[mapFile]
+        local coord, row = nodes[nodeIndex], nodes[nodeIndex + 1]
+        if HNA:HandyNotesCoordsNear(coord, nearCoord) and HNA:Valid(row) then
             local achievementID = row[1]
             local criterion = row.criterion
 
@@ -241,6 +245,10 @@ function HNA:GetNodes(mapFile, minimap, dungeonLevel)
         end
     end
 
+    for _, nodes in pairs(activeNodes) do
+        wipe(nodes)
+    end
+
     local rowsCo = coroutine.create(validRows)
     return function(state, value)
         local status, mF, coord, row = coroutine.resume(rowsCo, mapFile)
@@ -251,6 +259,11 @@ function HNA:GetNodes(mapFile, minimap, dungeonLevel)
         if not row then
             return nil
         end
+        if not activeNodes[mF] then
+            activeNodes[mF] = {}
+        end
+        table.insert(activeNodes[mF], coord)
+        table.insert(activeNodes[mF], row)
         -- HandyNotes does iterators wrong: the first value should be a iterator variable (cursor), eliminating the need for a "value" closure or coroutine
         -- added row for OnEnter
         return coord, mF, self.ICON_PATH, self.ICON_SCALE, self.ICON_ALPHA, nil, row
