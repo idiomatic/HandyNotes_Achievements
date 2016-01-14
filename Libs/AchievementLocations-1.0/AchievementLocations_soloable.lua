@@ -581,12 +581,12 @@ A{"HallsofReflection", 4518, criterion=13323} -- Survive the encounter with the 
 A{"HallsofReflection", 4518, criterion=13320} -- Falric
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: The Halls of Reflection
-A{"HallsofReflection", 4521, criterion=13181} -- Survive the encounter with the Lich King
+A{"HallsofReflection", 4521, 0.770, 0.780, criterion=13181} -- Survive the encounter with the Lich King
 A{"HallsofReflection", 4521, criterion=13179} -- Marwyn
 A{"HallsofReflection", 4521, criterion=13177} -- Falric
 
 -- Dungeons & Raids/Lich King Dungeon: We're Not Retreating; We're Advancing in a Different Direction.
-A{"HallsofReflection", 4526}
+A{"HallsofReflection", 4526, 0.770, 0.780}
 
 -- Dungeons & Raids/The Burning Crusade: Hellfire Ramparts
 A{"HellfireRamparts", 647}
@@ -638,7 +638,7 @@ A{"IcecrownCitadel", 4532, criterion=12768} -- The Crimson Hall
 A{"IcecrownCitadel", 4532, criterion=12769} -- The Frozen Throne
 
 -- Dungeons & Raids/Lich King Raid: Boned (10 player)
-A{"IcecrownCitadel", 4534}
+A{"IcecrownCitadel", 4534, 0.390, 0.590, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Full House (10 player)
 A{"IcecrownCitadel", 4535}
@@ -657,22 +657,22 @@ A{"IcecrownCitadel", 4539, criterion=12780} -- Defeat Blood-Queen Lana'thel with
 A{"IcecrownCitadel", 4539, criterion=13011} -- Defeat Blood-Queen Lana'thel while a vampire
 
 -- Dungeons & Raids/Lich King Raid: Flu Shot Shortage (10 player)
-A{"IcecrownCitadel", 4577}
+A{"IcecrownCitadel", 4577, 0.200, 0.650, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Nausea, Heartburn, Indigestion... (10 player)
-A{"IcecrownCitadel", 4578}
+A{"IcecrownCitadel", 4578, 0.130, 0.540, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Portal Jockey (10 player)
-A{"IcecrownCitadel", 4579}
+A{"IcecrownCitadel", 4579, 0.760, 0.730, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: All You Can Eat (10 player)
-A{"IcecrownCitadel", 4580}
+A{"IcecrownCitadel", 4580, 0.360, 0.230, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Neck-Deep in Vile (10 player)
 A{"IcecrownCitadel", 4581}
 
 -- Dungeons & Raids/Lich King Raid: The Orb Whisperer (10 player)
-A{"IcecrownCitadel", 4582}
+A{"IcecrownCitadel", 4582, 0.520, 0.160, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Bane of the Fallen King
 A{"IcecrownCitadel", 4583, criterion=13137} -- The Lich King
@@ -687,13 +687,13 @@ A{"IcecrownCitadel", 4597, criterion=12909} -- The Lich King
 A{"IcecrownCitadel", 4601}
 
 -- Dungeons & Raids: Glory of the Icecrown Raider (10 player)
-A{"IcecrownCitadel", 4602, criterion=12923} -- Nausea, Heartburn, Indigestion...
+A{"IcecrownCitadel", 4602, 0.130, 0.540, criterion=12923, floor=5} -- Nausea, Heartburn, Indigestion...
 A{"IcecrownCitadel", 4602, criterion=12919} -- I'm on a Boat
-A{"IcecrownCitadel", 4602, criterion=12921} -- Dances with Oozes
-A{"IcecrownCitadel", 4602, criterion=12922} -- Flu Shot Shortage
-A{"IcecrownCitadel", 4602, criterion=12924} -- The Orb Whisperer
-A{"IcecrownCitadel", 4602, criterion=12926} -- Portal Jockey
-A{"IcecrownCitadel", 4602, criterion=12927} -- All You Can Eat
+A{"IcecrownCitadel", 4602, 0.200, 0.420, criterion=12921, floor=5} -- Dances with Oozes
+A{"IcecrownCitadel", 4602, 0.200, 0.650, criterion=12922, floor=5} -- Flu Shot Shortage
+A{"IcecrownCitadel", 4602, 0.520, 0.160, criterion=12924, floor=5} -- The Orb Whisperer
+A{"IcecrownCitadel", 4602, 0.760, 0.730, criterion=12926, floor=5} -- Portal Jockey
+A{"IcecrownCitadel", 4602, 0.360, 0.230, criterion=12927, floor=4} -- All You Can Eat
 A{"IcecrownCitadel", 4602, criterion=13074} -- Heroic: The Frostwing Halls (10 player)
 A{"IcecrownCitadel", 4602, criterion=13071} -- Heroic: Storming the Citadel (10 player)
 A{"IcecrownCitadel", 4602, criterion=12928} -- Been Waiting a Long Time for This
@@ -709,12 +709,12 @@ A{"IcecrownCitadel", 4603, criterion=13016} -- Boned
 A{"IcecrownCitadel", 4603, criterion=13017} -- Full House
 A{"IcecrownCitadel", 4603, criterion=13018} -- I'm on a Boat
 A{"IcecrownCitadel", 4603, criterion=13019} -- I've Gone and Made a Mess
-A{"IcecrownCitadel", 4603, criterion=13020} -- Dances with Oozes
-A{"IcecrownCitadel", 4603, criterion=13021} -- Flu Shot Shortage
-A{"IcecrownCitadel", 4603, criterion=13025} -- Portal Jockey
-A{"IcecrownCitadel", 4603, criterion=13026} -- All You Can Eat
-A{"IcecrownCitadel", 4603, criterion=13022} -- Nausea, Heartburn, Indigestion...
-A{"IcecrownCitadel", 4603, criterion=13023} -- The Orb Whisperer
+A{"IcecrownCitadel", 4603, 0.200, 0.420, criterion=13020, floor=5} -- Dances with Oozes
+A{"IcecrownCitadel", 4603, 0.200, 0.650, criterion=13021, floor=5} -- Flu Shot Shortage
+A{"IcecrownCitadel", 4603, 0.760, 0.730, criterion=13025, floor=5} -- Portal Jockey
+A{"IcecrownCitadel", 4603, 0.360, 0.230, criterion=13026, floor=4} -- All You Can Eat
+A{"IcecrownCitadel", 4603, 0.130, 0.540, criterion=13022, floor=5} -- Nausea, Heartburn, Indigestion...
+A{"IcecrownCitadel", 4603, 0.520, 0.160, criterion=13023, floor=5} -- The Orb Whisperer
 A{"IcecrownCitadel", 4603, criterion=13024} -- Once Bitten, Twice Shy
 A{"IcecrownCitadel", 4603, criterion=13076} -- Heroic: The Plagueworks (25 player)
 A{"IcecrownCitadel", 4603, criterion=13078} -- Heroic: The Frostwing Halls (25 player)
@@ -750,10 +750,10 @@ A{"IcecrownCitadel", 4608, criterion=12959} -- The Plagueworks
 A{"IcecrownCitadel", 4608, criterion=12960} -- The Crimson Hall
 
 -- Dungeons & Raids/Lich King Raid: Boned (25 player)
-A{"IcecrownCitadel", 4610}
+A{"IcecrownCitadel", 4610, 0.390, 0.590, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Full House (25 player)
-A{"IcecrownCitadel", 4611}
+A{"IcecrownCitadel", 4611, 0.390, 0.590, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: I'm on a Boat (25 player)
 A{"IcecrownCitadel", 4612}
@@ -762,32 +762,35 @@ A{"IcecrownCitadel", 4612}
 A{"IcecrownCitadel", 4613}
 
 -- Dungeons & Raids/Lich King Raid: Dances with Oozes (25 player)
-A{"IcecrownCitadel", 4614}
+A{"IcecrownCitadel", 4614, 0.200, 0.420, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Flu Shot Shortage (25 player)
-A{"IcecrownCitadel", 4615}
+A{"IcecrownCitadel", 4615, 0.200, 0.650, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Nausea, Heartburn, Indigestion... (25 player)
-A{"IcecrownCitadel", 4616}
+A{"IcecrownCitadel", 4616, 0.130, 0.540, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: The Orb Whisperer (25 player)
-A{"IcecrownCitadel", 4617}
+A{"IcecrownCitadel", 4617, 0.520, 0.160, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Once Bitten, Twice Shy (25 player)
 A{"IcecrownCitadel", 4618, criterion=13012} -- Defeat Blood-Queen Lana'thel without becoming a vampire
 A{"IcecrownCitadel", 4618, criterion=13013} -- Defeat Blood-Queen Lana'thel while a vampire
 
 -- Dungeons & Raids/Lich King Raid: Portal Jockey (25 player)
-A{"IcecrownCitadel", 4619}
+A{"IcecrownCitadel", 4619, 0.760, 0.730, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: All You Can Eat (25 player)
-A{"IcecrownCitadel", 4620}
+A{"IcecrownCitadel", 4620, 0.360, 0.230, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Been Waiting a Long Time for This (25 player)
 A{"IcecrownCitadel", 4621}
 
 -- Dungeons & Raids/Lich King Raid: Neck-Deep in Vile (25 player)
 A{"IcecrownCitadel", 4622}
+
+-- Feats of Strength: Invincible's Reins
+A{"IcecrownCitadel", 4625}
 
 -- Dungeons & Raids/Lich King Raid: Heroic: Storming the Citadel (10 player)
 A{"IcecrownCitadel", 4628, criterion=13090} -- Lord Marrowgar
@@ -838,8 +841,26 @@ A{"IcecrownCitadel", 4636, criterion=13073} -- The Crimson Hall
 A{"IcecrownCitadel", 4637, criterion=13076} -- The Plagueworks
 A{"IcecrownCitadel", 4637, criterion=13077} -- The Crimson Hall
 A{"IcecrownCitadel", 4637, criterion=13078} -- The Frostwing Halls
-A{"IcecrownCitadel", 4637, criterion=13070} -- The Light of Dawn
+A{"IcecrownCitadel", 4637, 0.500, 0.500, criterion=13070, floor=7} -- The Light of Dawn
 A{"IcecrownCitadel", 4637, criterion=13075} -- Storming the Citadel
+
+-- Garrisons: Ten Hit Tunes
+A{"IcecrownCitadel", 9828, criterion=27757, note="drop from The Lich King"} -- Invincible
+
+-- Garrisons: Ten Hit Tunes
+A{"IcecrownCitadel", 9897, criterion=27757, note="drop from The Lich King"} -- Invincible
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"IcecrownCitadel", 9912, criterion=27757, note="drop from The Lich King"} -- Invincible
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"IcecrownCitadel", 9914, criterion=27757, note="drop from The Lich King"} -- Invincible
+
+-- Garrisons: Full Discography
+A{"IcecrownCitadel", 10015, criterion=27757, note="drop from The Lich King"} -- Invincible
+
+-- Garrisons: Full Discography
+A{"IcecrownCitadel", 10016, criterion=27757, note="drop from The Lich King"} -- Invincible
 
 -- Dungeons & Raids/The Burning Crusade: Karazhan
 A{"Karazhan", 690}
@@ -1178,17 +1199,17 @@ A{"OnyxiasLair", 4406, 0.670, 0.300}
 A{"OnyxiasLair", 4407, 0.670, 0.300}
 
 -- Dungeons & Raids/Lich King Dungeon: The Pit of Saron
-A{"PitofSaron", 4517, criterion=13319} -- Scourgelord Tyrannus and Rimefang
-A{"PitofSaron", 4517, criterion=13317} -- Forgemaster Garfrost
-A{"PitofSaron", 4517, criterion=13318} -- Ick and Krick
+A{"PitofSaron", 4517, 0.440, 0.260, criterion=13319} -- Scourgelord Tyrannus and Rimefang
+A{"PitofSaron", 4517, 0.680, 0.550, criterion=13317} -- Forgemaster Garfrost
+A{"PitofSaron", 4517, 0.470, 0.400, criterion=13318} -- Ick and Krick
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: The Pit of Saron
-A{"PitofSaron", 4520, criterion=13175} -- Scourgelord Tyrannus and Rimefang
-A{"PitofSaron", 4520, criterion=13173} -- Ick and Krick
-A{"PitofSaron", 4520, criterion=13182} -- Forgemaster Garfrost
+A{"PitofSaron", 4520, 0.440, 0.260, criterion=13175} -- Scourgelord Tyrannus and Rimefang
+A{"PitofSaron", 4520, 0.470, 0.400, criterion=13173} -- Ick and Krick
+A{"PitofSaron", 4520, 0.680, 0.550, criterion=13182} -- Forgemaster Garfrost
 
 -- Dungeons & Raids/Lich King Dungeon: Doesn't Go to Eleven
-A{"PitofSaron", 4524}
+A{"PitofSaron", 4524, 0.680, 0.550}
 
 -- Dungeons & Raids/Lich King Dungeon: Don't Look Up
 A{"PitofSaron", 4525}
@@ -1595,18 +1616,18 @@ A{"TheEyeofEternity", 2148}
 A{"TheEyeofEternity", 2149}
 
 -- Dungeons & Raids/Lich King Dungeon: The Forge of Souls
-A{"TheForgeofSouls", 4516, criterion=13315} -- Bronjahm
-A{"TheForgeofSouls", 4516, criterion=13316} -- Devourer of Souls
+A{"TheForgeofSouls", 4516, 0.440, 0.510, criterion=13315} -- Bronjahm
+A{"TheForgeofSouls", 4516, 0.440, 0.130, criterion=13316} -- Devourer of Souls
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: The Forge of Souls
-A{"TheForgeofSouls", 4519, criterion=13168} -- Devourer of Souls
-A{"TheForgeofSouls", 4519, criterion=13167} -- Bronjahm
+A{"TheForgeofSouls", 4519, 0.440, 0.130, criterion=13168} -- Devourer of Souls
+A{"TheForgeofSouls", 4519, 0.440, 0.510, criterion=13167} -- Bronjahm
 
 -- Dungeons & Raids/Lich King Dungeon: Soul Power
-A{"TheForgeofSouls", 4522}
+A{"TheForgeofSouls", 4522, 0.440, 0.510}
 
 -- Dungeons & Raids/Lich King Dungeon: Three Faced
-A{"TheForgeofSouls", 4523}
+A{"TheForgeofSouls", 4523, 0.440, 0.130}
 
 -- Dungeons & Raids/Pandaria Dungeon: Conscriptinator
 A{"TheGreatWall", 6476}
@@ -1824,7 +1845,7 @@ A{"ThroneofTides", 4839}
 A{"ThroneofTides", 5061}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Old Faithful
-A{"ThroneofTides", 5285}
+A{"ThroneofTides", 5285, 0.505, 0.216, floor=2}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Prince of Tides
 A{"ThroneofTides", 5286}

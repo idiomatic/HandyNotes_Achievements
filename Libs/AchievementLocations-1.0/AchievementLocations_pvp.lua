@@ -392,6 +392,9 @@ A{"IsleofConquest", 4256, criterion=12178} -- Glaive Thrower
 A{"IsleofConquest", 4256, criterion=12179} -- Demolisher
 A{"IsleofConquest", 4256, criterion=12181} -- Catapult
 
+-- Player vs. Player/Arena: World Wide Winner
+A{"KunLaiSummit", 699, criterion=23502} -- The Tiger's Peak
+
 -- Player vs. Player/Wintergrasp: Wintergrasp Victory
 A{"LakeWintergrasp", 1717}
 
@@ -619,6 +622,9 @@ A{"ThunderBluff", 614, 0.600, 0.520, criterion=485} -- Bleeding Bloodhoof
 -- Player vs. Player: Emissary of Ordos
 A{"TimelessIsle", 8716}
 
+-- Player vs. Player/Arena: World Wide Winner
+A{"Tirisfal", 699, criterion=8589} -- Ruins of Lordaeron
+
 -- Player vs. Player/Twin Peaks: Twin Peaking
 A{"TwinPeaks", 5208}
 
@@ -695,6 +701,9 @@ A{"Ulduar", 3136}
 
 -- Player vs. Player/Wintergrasp: Emalon the Storm Watcher (25 player)
 A{"Ulduar", 3137}
+
+-- Player vs. Player/Arena: World Wide Winner
+A{"Uldum", 699, criterion=21042} -- Tol'Viron Arena
 
 -- Player vs. Player: Wrath of the Alliance
 A{"Undercity", 604, criterion=6636} -- Undercity

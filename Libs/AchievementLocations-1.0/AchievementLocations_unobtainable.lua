@@ -30,6 +30,9 @@ A{"EastTemple", 6920, criterion=19862} -- Temple of the Jade Serpent
 -- Feats of Strength: Challenge Master: Temple of the Jade Serpent
 A{"EastTemple", 8430}
 
+-- Feats of Strength: Realm First! Fall of the Lich King
+A{"IcecrownCitadel", 4576}
+
 -- Legacy: Challenge Conqueror: Bronze
 A{"MogushanPalace", 6374, criterion=19876} -- Mogu'shan Palace
 

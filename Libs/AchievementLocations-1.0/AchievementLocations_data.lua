@@ -87,6 +87,9 @@ A{"Ashenvale", 10016, 0.565, 0.493, criterion=27755, note="from Lost Sentinel's 
 -- Professions/Fishing: One That Didn't Get Away
 A{"Aszhara", 878, criterion=1837} -- 103 Pound Mightfish
 
+-- General: To All The Squirrels I've Loved Before
+A{"Aszhara", 1206, 0.318, 0.716, criterion=0, note="also Duskwood"} -- Skunk
+
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Aszhara", 1678, criterion=15232} -- Darkshore/Azshara
 
@@ -94,16 +97,16 @@ A{"Aszhara", 1678, criterion=15232} -- Darkshore/Azshara
 A{"Aszhara", 4927, criterion=13837} -- Azshara
 
 -- Quests/Kalimdor: Glutton for Fiery Punishment
-A{"Aszhara", 5448, criterion=15641} -- Fire Dancing
+A{"Aszhara", 5448, 0.330, 0.235, criterion=15641} -- Fire Dancing
 
 -- Quests/Kalimdor: Joy Ride
 A{"Aszhara", 5454}
 
 -- Quests/Kalimdor: Glutton for Icy Punishment
-A{"Aszhara", 5546, criterion=16206} -- Essence of Ice
+A{"Aszhara", 5546, 0.622, 0.221, criterion=16206} -- Essence of Ice
 
 -- Quests/Kalimdor: Glutton for Shadowy Punishment
-A{"Aszhara", 5547, criterion=16207} -- Shadow Bait
+A{"Aszhara", 5547, 0.311, 0.268, criterion=16207} -- Shadow Bait
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"Aszhara", 6558, criterion=21537} -- Azshara
@@ -142,7 +145,7 @@ A{"Badlands", 1676, criterion=15205} -- Badlands Quests
 A{"Badlands", 4900, criterion=13707} -- Badlands
 
 -- Quests/Eastern Kingdoms: Ready, Set, Goat!
-A{"Badlands", 5444, criterion=16170} -- Billy Goat Blast
+A{"Badlands", 5444, 0.640, 0.380, criterion=16170} -- Billy Goat Blast
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"Badlands", 6558, criterion=21557} -- Badlands
@@ -162,6 +165,10 @@ A{"Badlands", 6586, 0.700, 0.460, criterion=21620} -- Stripe-Tailed Scorpid
 
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"Badlands", 6613, criterion=21421} -- Badlands
+
+-- General: To All The Squirrels I've Loved Before
+A{"Barrens", 1206, 0.526, 0.556, criterion=0} -- Gazelle
+A{"Barrens", 1206, 0.614, 0.448, criterion=0} -- Prairie Dog
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Barrens", 1678, criterion=15236} -- Bloodmyst/North Barrens
@@ -386,6 +393,10 @@ A{"BoreanTundra", 41, criterion=82} -- Nothing Boring About Borean
 -- Quests/Northrend: D.E.H.T.A's Little P.I.T.A.
 A{"BoreanTundra", 561}
 
+-- General: To All The Squirrels I've Loved Before
+A{"BoreanTundra", 1206, 0.686, 0.404, criterion=3739, note="zone exclusive"} -- Steam Frog
+A{"BoreanTundra", 1206, 0.744, 0.400, criterion=3741, note="zone exclusive"} -- Borean Frog
+
 -- Quests/Northrend: Nothing Boring About Borean
 A{"BoreanTundra", 1358, criterion=0} -- Complete 150 quests in Borean Tundra.
 
@@ -401,6 +412,10 @@ A{"BoreanTundra", 2256, 0.270, 0.360, criterion=8103, note="or thereabouts"} -- 
 A{"BoreanTundra", 2257, 0.860, 0.350, criterion=8105, note="or thereabouts"} -- Icehorn
 A{"BoreanTundra", 2257, 0.670, 0.370, criterion=8104, note="or thereabouts"} -- Fumblub Gearwind
 A{"BoreanTundra", 2257, 0.270, 0.360, criterion=8103, note="or thereabouts"} -- Old Crystalbark
+
+-- General: To All The Squirrels Who Shared My Life
+A{"BoreanTundra", 2557, 0.510, 0.730, criterion=0} -- Borean Marmot
+A{"BoreanTundra", 2557, 0.620, 0.680, criterion=0} -- Tundra Penguin
 
 -- Professions/Fishing: The Oceanographer
 A{"BoreanTundra", 5479, criterion=15911} -- Borean Man O' War
@@ -477,6 +492,9 @@ A{"CrystalsongForest", 8348, 0.500, 0.590, criterion=23480} -- Nearly Headless J
 
 -- Pet Battles/Battle: An Awfully Big Adventure
 A{"CrystalsongForest", 9069, 0.502, 0.590, criterion=26993} -- Nearly Headless Jacob
+
+-- General: To All The Squirrels I've Loved Before
+A{"Dalaran", 1206, 0.496, 0.636, criterion=0} -- Squirrel
 
 -- Professions/Fishing: There's Gold In That There Fountain
 A{"Dalaran", 1957, 0.525, 0.675, criterion=7249} -- Chromie's Gold Coin
@@ -780,6 +798,9 @@ A{"Dragonblight", 2257, 0.288, 0.616, criterion=8110} -- Crazed Indu'le Survivor
 A{"Dragonblight", 2257, 0.306, 0.586, criterion=8110} -- Crazed Indu'le Survivor
 A{"Dragonblight", 2257, 0.730, 0.260, criterion=8111, note="or thereabouts"} -- Scarlet Highlord Daion
 
+-- General: To All The Squirrels Who Shared My Life
+A{"Dragonblight", 2557, 0.280, 0.500, criterion=0} -- Arctic Hare
+
 -- Pet Battles/Battle: Local Pet Mauler
 A{"Dragonblight", 6558, criterion=21580} -- Dragonblight
 
@@ -834,6 +855,11 @@ A{"DragonSoul", 10016, criterion=27740, note="drop from Elementium Fragment"} --
 
 -- Quests/Northrend: Guru of Drakuru
 A{"DrakTharonKeep", 1596, criterion=5804} -- Cleansing Drak'Tharon
+
+-- General: To All the Squirrels I Once Caressed?
+A{"DreadWastes", 6350, 0.640, 0.202, criterion=20821, note="zone exclusive"} -- Clouded Hedgehog
+A{"DreadWastes", 6350, 0.255, 0.656, criterion=0, note="zone exclusive"} -- Emperor Crab
+A{"DreadWastes", 6350, 0.558, 0.180, criterion=0, note="zone exclusive"} -- Resilient Roach
 
 -- Quests/Pandaria: Dread Haste Makes Dread Waste
 A{"DreadWastes", 6540, criterion=20435} -- Like a Deck Boss
@@ -1042,6 +1068,10 @@ A{"DunMorogh", 8397, 0.280, 0.350, criterion=23585} -- Fluxfire Feline
 -- Pet Battles/Collect: So. Many. Pets.
 A{"DunMorogh", 9643, 0.710, 0.480, criterion=19598, item="7560", note="from Milli Featherwhistle\nGnomeregon exalted"} -- Rabbit Crate (Snowshoe)
 
+-- General: To All The Squirrels I've Loved Before
+A{"Durotar", 1206, 0.428, 0.156, criterion=3759} -- Swine
+A{"Durotar", 1206, 0.486, 0.274, criterion=0} -- Hare
+
 -- Pet Battles/Battle: Local Pet Mauler
 A{"Durotar", 6558, criterion=21379} -- Durotar
 
@@ -1215,6 +1245,15 @@ A{"EasternPlaguelands", 9643, criterion=19598, item="50586"} -- Mr. Grubbs
 
 -- Exploration: Field Photographer
 A{"EasternPlaguelands", 9924, 0.750, 0.530, criterion=27954} -- Light's Hope Chapel
+
+-- General: To All The Squirrels I've Loved Before
+A{"Elwynn", 1206, 0.370, 0.566, criterion=0} -- Fawn
+A{"Elwynn", 1206, 0.502, 0.666, criterion=0} -- Small Frog
+A{"Elwynn", 1206, 0.340, 0.516, criterion=0} -- Rabbit
+A{"Elwynn", 1206, 0.446, 0.536, criterion=0, note="also Silvermoon City"} -- Cat
+A{"Elwynn", 1206, 0.366, 0.600, criterion=0, note="also Tirisfal Glades"} -- Chicken
+A{"Elwynn", 1206, 0.352, 0.598, criterion=3746} -- Cow
+A{"Elwynn", 1206, 0.370, 0.554, criterion=0} -- Deer
 
 -- Professions/Fishing: The Limnologist
 A{"Elwynn", 5478, 0.520, 0.660, criterion=15885, note="~60% open water"} -- Brilliant Smallfish
@@ -1674,6 +1713,10 @@ A{"GrizzlyHills", 2257, 0.170, 0.720, criterion=8112, note="or thereabouts"} -- 
 A{"GrizzlyHills", 2257, 0.340, 0.500, criterion=8113, note="or thereabouts"} -- Seething Hate
 A{"GrizzlyHills", 2257, 0.710, 0.340, criterion=8114, note="or thereabouts"} -- Syreian the Bonecarver
 
+-- General: To All The Squirrels Who Shared My Life
+A{"GrizzlyHills", 2557, 0.430, 0.480, criterion=0} -- Grizzly Squirrel
+A{"GrizzlyHills", 2557, 0.570, 0.350, criterion=0} -- Mountain Skunk
+
 -- Pet Battles/Battle: Local Pet Mauler
 A{"GrizzlyHills", 6558, criterion=21582} -- Grizzly Hills
 
@@ -2020,6 +2063,9 @@ A{"HighmaulRaid", 9838, criterion=27633, note="in Imperator's Rise"} -- Imperato
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"HillsbradFoothills", 1676, criterion=15211} -- Redridge/Hillsbrad
 
+-- General: To All The Squirrels Who Shared My Life
+A{"HillsbradFoothills", 2557, 0.566, 0.612, criterion=0} -- Huge Toad
+
 -- Quests/Eastern Kingdoms: Hillsbrad Foothills Quests
 A{"HillsbradFoothills", 4895, criterion=13712} -- Hillsbrad Foothills
 
@@ -2104,6 +2150,11 @@ A{"HowlingFjord", 2257, 0.730, 0.530, criterion=8107, note="or thereabouts"} -- 
 A{"HowlingFjord", 2257, 0.310, 0.710, criterion=8108, note="or thereabouts"} -- King Ping
 A{"HowlingFjord", 2257, 0.690, 0.170, criterion=8106, note="or thereabouts"} -- Perobas the Bloodthirster
 
+-- General: To All The Squirrels Who Shared My Life
+A{"HowlingFjord", 2557, 0.190, 0.560, criterion=9301} -- Fjord Penguin
+A{"HowlingFjord", 2557, 0.680, 0.650, criterion=9302} -- Fjord Turkey
+A{"HowlingFjord", 2557, 0.360, 0.790, criterion=9308} -- Scalawag Frog
+
 -- Pet Battles/Battle: Local Pet Mauler
 A{"HowlingFjord", 6558, criterion=21579} -- Howling Fjord
 
@@ -2144,6 +2195,11 @@ A{"Hyjal", 4959}
 
 -- Quests/Cataclysm: Bounce
 A{"Hyjal", 5483, 0.130, 0.330, criterion=16189} -- Bounce Achievement Aura
+
+-- General: To All the Squirrels Who Cared for Me
+A{"Hyjal", 5548, 0.552, 0.182, criterion=0} -- Grotto Vole
+A{"Hyjal", 5548, 0.394, 0.440, criterion=0} -- Alpine Chipmunk
+A{"Hyjal", 5548, 0.382, 0.566, criterion=0} -- Rock Viper
 
 -- Quests/Cataclysm: Legacy of Leyara
 A{"Hyjal", 5859, criterion=17794} -- A Ritual of Flame
@@ -2222,30 +2278,6 @@ A{"Hyjal", 9069, 0.614, 0.328, criterion=26973} -- Brok
 -- Exploration: Field Photographer
 A{"Hyjal", 9924, 0.620, 0.210, criterion=27953} -- Nordrassil
 
--- Feats of Strength: Realm First! Fall of the Lich King
-A{"IcecrownCitadel", 4576}
-
--- Feats of Strength: Invincible's Reins
-A{"IcecrownCitadel", 4625}
-
--- Garrisons: Ten Hit Tunes
-A{"IcecrownCitadel", 9828, criterion=27757, note="drop from The Lich King"} -- Invincible
-
--- Garrisons: Ten Hit Tunes
-A{"IcecrownCitadel", 9897, criterion=27757, note="drop from The Lich King"} -- Invincible
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"IcecrownCitadel", 9912, criterion=27757, note="drop from The Lich King"} -- Invincible
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"IcecrownCitadel", 9914, criterion=27757, note="drop from The Lich King"} -- Invincible
-
--- Garrisons: Full Discography
-A{"IcecrownCitadel", 10015, criterion=27757, note="drop from The Lich King"} -- Invincible
-
--- Garrisons: Full Discography
-A{"IcecrownCitadel", 10016, criterion=27757, note="drop from The Lich King"} -- Invincible
-
 -- Quests/Northrend: Icecrown: The Final Goal
 A{"IcecrownGlacier", 40, criterion=81} -- Complete 140 Icecrown Glacier quests
 
@@ -2261,6 +2293,9 @@ A{"IcecrownGlacier", 2256, 0.670, 0.560, criterion=8122, note="or thereabouts"} 
 A{"IcecrownGlacier", 2257, 0.320, 0.700, criterion=8101, note="or thereabouts"} -- High Thane Jorfus
 A{"IcecrownGlacier", 2257, 0.600, 0.590, criterion=8102, note="or thereabouts"} -- Hildana Deathstealer
 A{"IcecrownGlacier", 2257, 0.670, 0.560, criterion=8122, note="or thereabouts"} -- Putridus the Ancient
+
+-- General: To All The Squirrels Who Shared My Life
+A{"IcecrownGlacier", 2557, 0.670, 0.250, criterion=9303} -- Glacier Penguin
 
 -- World Events/Argent Tournament: Argent Aspiration
 A{"IcecrownGlacier", 2756}
@@ -2608,6 +2643,10 @@ A{"Karazhan", 10015, criterion=27758, note="from Opera encounter"} -- Karazhan O
 
 -- Garrisons: Full Discography
 A{"Karazhan", 10016, criterion=27758, note="from Opera encounter"} -- Karazhan Opera House
+
+-- General: To All the Squirrels I Once Caressed?
+A{"Krasarang", 6350, 0.496, 0.398, criterion=0, note="zone exclusive"} -- Luyu Moth
+A{"Krasarang", 6350, 0.482, 0.398, criterion=20817, note="zone exclusive"} -- Amethyst Spiderling
 
 -- Quests/Pandaria: Mighty Roamin' Krasaranger
 A{"Krasarang", 6535, criterion=0} -- Nayeli Lagoon
@@ -3323,6 +3362,9 @@ A{"OnyxiasLair", 9713, 0.670, 0.300, criterion=26690} -- Onyxian Drake
 -- Professions/Fishing: The Fishing Diplomat
 A{"Orgrimmar", 150, criterion=5274} -- Orgrimmar
 
+-- General: To All The Squirrels I've Loved Before
+A{"Orgrimmar", 1206, 0.484, 0.482, criterion=0, note="also Wetlands"} -- Toad
+
 -- Professions/Cooking: A Bunch of Lunch
 A{"Orgrimmar", 5845, criterion=17748} -- Let's Do Lunch: Orgrimmar
 
@@ -3591,6 +3633,9 @@ A{"Scholomance", 6916}
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"SearingGorge", 1676, criterion=15214} -- Searing Gorge Quests
 
+-- General: To All The Squirrels Who Shared My Life
+A{"SearingGorge", 2557, 0.420, 0.370, criterion=0} -- Lava Crab
+
 -- Quests/Eastern Kingdoms: Searing Gorge Quests
 A{"SearingGorge", 4910, criterion=13748} -- Searing Gorge
 
@@ -3752,6 +3797,9 @@ A{"ShadowmoonValleyDR", 9924, 0.700, 0.500, criterion=27871} -- Temple of Karabo
 -- Collections: My Sack is "Gigantique"
 A{"ShattrathCity", 1165, 0.755, 0.305}
 
+-- General: To All The Squirrels I've Loved Before
+A{"ShattrathCity", 1206, 0.588, 0.236, criterion=3749} -- Ewe
+
 -- Pet Battles: Taming Outland
 A{"ShattrathCity", 6604, 0.590, 0.700, criterion=21607} -- Morulu the Elder
 
@@ -3809,6 +3857,9 @@ A{"SholazarBasin", 2256, 0.310, 0.380, criterion=8119, note="or thereabouts"} --
 A{"SholazarBasin", 2257, 0.402, 0.590, criterion=8118, note="or thereabouts"} -- Aotona
 A{"SholazarBasin", 2257, 0.310, 0.670, criterion=8100, note="or thereabouts"} -- Loque'nahak
 A{"SholazarBasin", 2257, 0.310, 0.380, criterion=8119, note="or thereabouts"} -- King Krush
+
+-- General: To All The Squirrels Who Shared My Life
+A{"SholazarBasin", 2557, 0.270, 0.600, criterion=9309} -- Sholazar Tickbird
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"SholazarBasin", 6558, criterion=21581} -- Sholozar Basin
@@ -4608,6 +4659,9 @@ A{"TheCapeOfStranglethorn", 1676, criterion=15208} -- Cape of Stranglethorn Ques
 -- Quests/Eastern Kingdoms: Cape of Stranglethorn Quests
 A{"TheCapeOfStranglethorn", 4905, criterion=13705} -- The Cape of Stranglethorn
 
+-- General: To All the Squirrels Who Cared for Me
+A{"TheCapeOfStranglethorn", 5548, 0.428, 0.716, criterion=0, note="also Tol Barad"} -- Wharf Rat
+
 -- Pet Battles/Collect: Eastern Kingdoms Safari
 A{"TheCapeOfStranglethorn", 6586, 0.600, 0.820, criterion=21668, note="only when it's raining\nJaquero has its own weather"} -- Baby Ape
 A{"TheCapeOfStranglethorn", 6586, criterion=21670} -- Wharf Rat
@@ -4691,6 +4745,11 @@ A{"TheJadeForest", 6300, criterion=19349} -- The Temple of the Jade Serpent
 A{"TheJadeForest", 6300, criterion=19348} -- Greenstone Quarry
 A{"TheJadeForest", 6300, criterion=19354} -- The White Pawn
 A{"TheJadeForest", 6300, criterion=0} -- Tian Monestary
+
+-- General: To All the Squirrels I Once Caressed?
+A{"TheJadeForest", 6350, 0.492, 0.476, criterion=0} -- Leopard Tree Frog
+A{"TheJadeForest", 6350, 0.334, 0.506, criterion=0, note="zone exclusive"} -- Shrine Fly
+A{"TheJadeForest", 6350, 0.666, 0.850, criterion=0, note="zone exclusive"} -- Coral Adder
 
 -- Quests/Pandaria: Upjade Complete
 A{"TheJadeForest", 6534, criterion=19332} -- The Remains of Hellscream's Fist
@@ -5364,6 +5423,14 @@ A{"Tirisfal", 10015, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nes
 -- Garrisons: Full Discography
 A{"Tirisfal", 10016, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event"} -- Faerie Dragon
 
+-- General: To All the Squirrels Who Cared for Me
+A{"TolBarad", 5548, 0.488, 0.404, criterion=16215, note="zone exclusive"} -- Baradin Fox Kit
+A{"TolBaradDailyArea", 5548, 0.688, 0.342, criterion=16223, note="zone exclusive"} -- Sassy Cat
+
+-- General: To All the Squirrels I Once Caressed?
+A{"TownlongWastes", 6350, 0.728, 0.766, criterion=0, note="zone exclusive"} -- Mongoose
+A{"TownlongWastes", 6350, 0.786, 0.780, criterion=0, note="zone exclusive"} -- Yakrat
+
 -- Quests/Pandaria: One Steppe Forward, Two Steppes Back
 A{"TownlongWastes", 6539, criterion=19372} -- Fire Camp Osul
 A{"TownlongWastes", 6539, criterion=19373} -- On Hatred's Path
@@ -5503,6 +5570,11 @@ A{"TwilightHighlands", 5482, 0.458, 0.316, criterion=15950} -- The Black Recluse
 -- Quests/Cataclysm: Fading into Twilight
 A{"TwilightHighlands", 5501, criterion=13611} -- Twilight Highlands
 
+-- General: To All the Squirrels Who Cared for Me
+A{"TwilightHighlands", 5548, 0.460, 0.270, criterion=0, note="zone exclusive"} -- Yellow-Bellied Marmot
+A{"TwilightHighlands", 5548, 0.298, 0.312, criterion=0, note="zone exclusive"} -- Highlands Turkey
+A{"TwilightHighlands", 5548, 0.514, 0.404, criterion=0} -- Rattlesnake
+
 -- Pet Battles/Battle: Local Pet Mauler
 A{"TwilightHighlands", 6558, criterion=21561} -- Twilight Highlands
 
@@ -5558,6 +5630,9 @@ A{"Ulduar", 3316}
 -- Feats of Strength: And I'll Form the Head!
 A{"Ulduar", 4626}
 
+-- General: To All The Squirrels I've Loved Before
+A{"Uldum", 1206, 0.516, 0.496, criterion=0} -- Sheep
+
 -- Quests/Cataclysm: Unearthing Uldum
 A{"Uldum", 4872, criterion=13610} -- Uldum
 
@@ -5569,6 +5644,10 @@ A{"Uldum", 4961}
 
 -- Quests/Cataclysm: Help the Bombardier! I'm the Bombardier!
 A{"Uldum", 5317, 0.410, 0.050}
+
+-- General: To All the Squirrels Who Cared for Me
+A{"Uldum", 5548, 0.550, 0.358, criterion=0, note="zone exclusive"} -- Oasis Moth
+A{"Uldum", 5548, 0.516, 0.504, criterion=0, note="zone exclusive"} -- Mac Frog
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"Uldum", 6558, criterion=21541} -- Uldum
@@ -5635,6 +5714,9 @@ A{"Undercity", 10015, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strong
 -- Garrisons: Full Discography
 A{"Undercity", 10016, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox"} -- Lament of the Highborne
 
+-- General: To All The Squirrels I've Loved Before
+A{"UngoroCrater", 1206, 0.706, 0.772, criterion=0} -- Parrot
+
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"UngoroCrater", 1678, criterion=15242} -- Un'Goro Crater Quests
 
@@ -5697,6 +5779,11 @@ A{"UpperBlackrockSpire", 9838, criterion=27627} -- Warlord Zaela
 
 -- Dungeons & Raids/Draenor Dungeon: Mythic: Upper Blackrock Spire
 A{"UpperBlackrockSpire", 10085}
+
+-- General: To All the Squirrels I Once Caressed?
+A{"ValeofEternalBlossoms", 6350, 0.726, 0.254, criterion=0, note="zone exclusive"} -- Gilded Moth
+A{"ValeofEternalBlossoms", 6350, 0.716, 0.316, criterion=0, note="zone exclusive"} -- Dancing Water Skimmer
+A{"ValeofEternalBlossoms", 6350, 0.718, 0.242, criterion=0, note="zone exclusive"} -- Golden Civet
 
 -- General: Pandaren Cuisine
 A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20591, note="from Sway Dish Chef"} -- Toasted Fish Jerky
@@ -5822,6 +5909,12 @@ A{"ValleyoftheFourWinds", 6301, criterion=18827} -- The Hidden Master
 A{"ValleyoftheFourWinds", 6301, criterion=18822} -- Chen's Masterpiece
 A{"ValleyoftheFourWinds", 6301, criterion=18823} -- The Stormstout Brewery
 A{"ValleyoftheFourWinds", 6301, criterion=18826} -- Nesingwary's Safari
+
+-- General: To All the Squirrels I Once Caressed?
+A{"ValleyoftheFourWinds", 6350, 0.650, 0.436, criterion=0} -- Bandicoon
+A{"ValleyoftheFourWinds", 6350, 0.556, 0.326, criterion=0} -- Sifang Otter
+A{"ValleyoftheFourWinds", 6350, 0.422, 0.460, criterion=0, note="zone exclusive"} -- Marsh Fiddler
+A{"ValleyoftheFourWinds", 6350, 0.228, 0.616, criterion=0} -- Malayan Quillrat
 
 -- Quests/Pandaria: Loremaster of Pandaria
 A{"ValleyoftheFourWinds", 6541, criterion=19378} -- Rally the Valley
@@ -5999,7 +6092,11 @@ A{"Vashjir", 5452}
 A{"Vashjir", 5479, criterion=16018} -- Abyssal Clam
 
 -- Exploration: Field Photographer
-A{"Vashjir", 9924, 0.560, 0.730, criterion=27959} -- Vashj'ir
+A{"Vashjir", 9924, criterion=27959} -- Vashj'ir
+
+-- General: To All the Squirrels Who Cared for Me
+A{"VashjirRuins", 5548, 0.540, 0.416, criterion=16222} -- Rockchewer Whelk
+A{"VashjirRuins", 5548, 0.536, 0.416, criterion=16224} -- Sea Cucumber
 
 -- Pet Battles/Collect: So. Many. Pets.
 A{"WailingCaverns", 9643, criterion=19598} -- Deviate Hatchling
@@ -6028,6 +6125,9 @@ A{"WesternPlaguelands", 9643, 0.440, 0.680, criterion=19598, item="61826", note=
 -- Exploration: Field Photographer
 A{"WesternPlaguelands", 9924, 0.450, 0.180, criterion=27875} -- Hearthglen
 A{"WesternPlaguelands", 9924, 0.520, 0.830, criterion=27972} -- Uther's Tomb
+
+-- General: To All The Squirrels I've Loved Before
+A{"Westfall", 1206, 0.334, 0.224, criterion=0} -- Shore Crab
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Westfall", 1676, criterion=15202} -- Westfall+Duskwood/Silverpine
@@ -6066,6 +6166,9 @@ A{"Westfall", 9643, criterion=19598, note="target chicken and /chicken repeatedl
 -- Exploration: Field Photographer
 A{"Westfall", 9924, 0.380, 0.770, criterion=27878} -- The Deadmines
 A{"Westfall", 9924, 0.300, 0.860, criterion=27961} -- Westfall Lighthouse
+
+-- General: To All The Squirrels I've Loved Before
+A{"Wetlands", 1206, 0.486, 0.700, criterion=0} -- Ram
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Wetlands", 1676, criterion=15196} -- Loch Modan+Wetlands/Ghostlands
