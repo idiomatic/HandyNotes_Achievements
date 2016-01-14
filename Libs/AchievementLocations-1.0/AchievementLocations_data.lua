@@ -904,18 +904,18 @@ A{"DreadWastes", 6857, 0.520, 0.100, criterion=19799} -- Amber
 A{"DreadWastes", 6857, 0.350, 0.320, criterion=19800} -- The Empress
 
 -- Exploration/Pandaria: Lost and Found
-A{"DreadWastes", 7281, 0.290, 0.420} -- Blade of the Poisoned Mind
-A{"DreadWastes", 7281, 0.670, 0.640} -- Blade of the Prime
-A{"DreadWastes", 7281, 0.260, 0.500} -- Bloodsoaked Chitlin Fragment
-A{"DreadWastes", 7281, 0.300, 0.910} -- Dissector's Staff of Mutation
+A{"DreadWastes", 7281, 0.290, 0.420, quest=31438} -- Blade of the Poisoned Mind
+A{"DreadWastes", 7281, 0.670, 0.640, quest=31433} -- Blade of the Prime
+A{"DreadWastes", 7281, 0.260, 0.500, quest=31436} -- Bloodsoaked Chitlin Fragment
+A{"DreadWastes", 7281, 0.300, 0.910, quest=31435} -- Dissector's Staff of Mutation
 A{"DreadWastes", 7281, 0.330, 0.300} -- Amber Encased Necklace
-A{"DreadWastes", 7281, 0.490, 0.300} -- Malik's Stalwart Spear
+A{"DreadWastes", 7281, 0.490, 0.300, quest=31430} -- Malik's Stalwart Spear
 A{"DreadWastes", 7281, 0.420, 0.620} -- Glinting Rapana Whelk
 A{"DreadWastes", 7281, 0.420, 0.640} -- Glinting Rapana Whelk
 A{"DreadWastes", 7281, 0.420, 0.650} -- Glinting Rapana Whelk
-A{"DreadWastes", 7281, 0.570, 0.780} -- Swarming Cleaver of Ka'roz
+A{"DreadWastes", 7281, 0.570, 0.780, quest=31434} -- Swarming Cleaver of Ka'roz
 A{"DreadWastes", 7281, 0.540, 0.560} -- Swarmkeeper's Medallion
-A{"DreadWastes", 7281, 0.720, 0.360, note="[quest=31429?]"} -- Wind-Reaver's Dagger of Quick Strikes
+A{"DreadWastes", 7281, 0.720, 0.360, quest=31666, note="[quest=31429?]"} -- Wind-Reaver's Dagger of Quick Strikes
 
 -- Exploration/Pandaria: Finders Keepers
 A{"DreadWastes", 7282, 0.290, 0.420} -- Blade of the Poisoned Mind
@@ -960,48 +960,51 @@ A{"DreadWastes", 7284, 0.540, 0.560} -- Swarmkeeper's Medallion
 A{"DreadWastes", 7284, 0.720, 0.360} -- Wind-Reaver's Dagger of Quick Strikes
 
 -- Quests/Pandaria: Amber is the Color of My Energy
-A{"DreadWastes", 7312, criterion=20802} -- Kil'ruk the Wind-Reaver
-A{"DreadWastes", 7312, criterion=20504} -- Malik the Unscathed
-A{"DreadWastes", 7312, criterion=20803} -- Iyyokuk the Lucid
-A{"DreadWastes", 7312, criterion=20439} -- Kaz'tik the Manipulator
-A{"DreadWastes", 7312, criterion=20438} -- Korven the Prime
-A{"DreadWastes", 7312, criterion=20435} -- Ka'roz the Locust
-A{"DreadWastes", 7312, criterion=20809} -- Rik'kal the Dissector
+A{"DreadWastes", 7312, 0.550, 0.358, criterion=20802} -- Kil'ruk the Wind-Reaver
+A{"DreadWastes", 7312, 0.550, 0.356, criterion=20504} -- Malik the Unscathed
+A{"DreadWastes", 7312, 0.326, 0.338, criterion=20803} -- Iyyokuk the Lucid
+A{"DreadWastes", 7312, 0.542, 0.358, criterion=20439} -- Kaz'tik the Manipulator
+A{"DreadWastes", 7312, 0.544, 0.360, criterion=20438} -- Korven the Prime
+A{"DreadWastes", 7312, 0.550, 0.356, criterion=20435} -- Ka'roz the Locust
+A{"DreadWastes", 7312, 0.318, 0.890, criterion=20809} -- Rik'kal the Dissector
 A{"DreadWastes", 7312, criterion=20806} -- Skeer the Bloodseeker
-A{"DreadWastes", 7312, criterion=20808} -- Hisek the Swarmkeeper
-A{"DreadWastes", 7312, criterion=20807} -- Xaril the Poisoned Mind
+A{"DreadWastes", 7312, 0.548, 0.360, criterion=20808} -- Hisek the Swarmkeeper
+A{"DreadWastes", 7312, 0.548, 0.360, criterion=20807} -- Xaril the Poisoned Mind
 
 -- Quests/Pandaria: Stay Klaxxi
-A{"DreadWastes", 7313, criterion=20951} -- Angel of Death
-A{"DreadWastes", 7313, criterion=20952} -- Master of Puppets
-A{"DreadWastes", 7313, criterion=20953} -- Painkiller
-A{"DreadWastes", 7313, criterion=20954} -- Seek and Destroy
-A{"DreadWastes", 7313, criterion=20955} -- Raining Blood
-A{"DreadWastes", 7313, criterion=20956} -- Iron Mantid
-A{"DreadWastes", 7313, criterion=20957} -- Silent Lucidity
-A{"DreadWastes", 7313, criterion=20958} -- Speed King
-A{"DreadWastes", 7313, criterion=20959} -- Children of the Grave
-A{"DreadWastes", 7313, criterion=20960} -- Battle Hymn
+A{"DreadWastes", 7313, 0.550, 0.358, criterion=20951, note="buff from Kil'ruk the Wind-Reaver"} -- Angel of Death
+A{"DreadWastes", 7313, 0.542, 0.358, criterion=20952, note="buff from Kaz'tik the Manipulator"} -- Master of Puppets
+A{"DreadWastes", 7313, 0.544, 0.360, criterion=20953, note="buff from Korven the Prime"} -- Painkiller
+A{"DreadWastes", 7313, 0.548, 0.360, criterion=20954, note="buff from Hisek the Swarmkeeper"} -- Seek and Destroy
+A{"DreadWastes", 7313, 0.548, 0.360, criterion=20955, note="buff from Xaril the Poisoned Mind"} -- Raining Blood
+A{"DreadWastes", 7313, 0.550, 0.356, criterion=20956, note="buff from Malik the Unscathed"} -- Iron Mantid
+A{"DreadWastes", 7313, 0.326, 0.338, criterion=20957, note="buff from Iyyokuk the Lucid"} -- Silent Lucidity
+A{"DreadWastes", 7313, 0.550, 0.356, criterion=20958, note="buff from Ka'roz the Locust"} -- Speed King
+A{"DreadWastes", 7313, 0.318, 0.890, criterion=20959, note="buff from Rik'kal the Dissector"} -- Children of the Grave
+A{"DreadWastes", 7313, 0.544, 0.362, criterion=20960, note="buff from Skeer The Bloodseeker"} -- Battle Hymn
 
 -- Quests/Pandaria: Test Drive
-A{"DreadWastes", 7314}
+A{"DreadWastes", 7314, 0.542, 0.358}
 
 -- Quests/Pandaria: Over Their Heads
-A{"DreadWastes", 7316, criterion=20505} -- Amber Venomlancer
-A{"DreadWastes", 7316, criterion=20506} -- Amber Rocktunneler
-A{"DreadWastes", 7316, criterion=20507} -- Imperial Vizier Zor'lok
-A{"DreadWastes", 7316, criterion=20508} -- Blade Lord Ta'yak
-A{"DreadWastes", 7316, criterion=20509} -- Wind Lord Mel'jarak
-A{"DreadWastes", 7316, criterion=20510} -- Amber-Shaper Un'sok
-A{"DreadWastes", 7316, criterion=20511} -- Garalon
-A{"DreadWastes", 7316, criterion=21001} -- Amber Earthshaker
-A{"DreadWastes", 7316, criterion=21002} -- Dread Ambercrusher
-A{"DreadWastes", 7316, criterion=21003} -- Dread Fearbringer
-A{"DreadWastes", 7316, criterion=21004} -- Essence of Dread
-A{"DreadWastes", 7316, criterion=21005} -- Essence of Fear
-A{"DreadWastes", 7316, criterion=21006} -- Essence of Horror
-A{"DreadWastes", 7316, criterion=21007} -- Essence of Panic
-A{"DreadWastes", 7316, criterion=21008} -- Essence of Terror
+A{"DreadWastes", 7316, 0.560, 0.130, criterion=20505} -- Amber Venomlancer
+A{"DreadWastes", 7316, 0.510, 0.210, criterion=20506} -- Amber Rocktunneler
+A{"DreadWastes", 7316, 0.390, 0.350, criterion=20507} -- Imperial Vizier Zor'lok
+A{"DreadWastes", 7316, 0.390, 0.350, criterion=20508} -- Blade Lord Ta'yak
+A{"DreadWastes", 7316, 0.390, 0.350, criterion=20509} -- Wind Lord Mel'jarak
+A{"DreadWastes", 7316, 0.390, 0.350, criterion=20510} -- Amber-Shaper Un'sok
+A{"DreadWastes", 7316, 0.410, 0.390, criterion=20511} -- Garalon
+A{"DreadWastes", 7316, 0.510, 0.480, criterion=21001} -- Amber Earthshaker
+A{"DreadWastes", 7316, 0.410, 0.380, criterion=21002} -- Dread Ambercrusher
+A{"DreadWastes", 7316, 0.390, 0.420, criterion=21003} -- Dread Fearbringer
+A{"DreadWastes", 7316, 0.550, 0.450, criterion=21004} -- Essence of Dread
+A{"DreadWastes", 7316, 0.590, 0.180, criterion=21005} -- Essence of Fear
+A{"DreadWastes", 7316, 0.450, 0.410, criterion=21006} -- Essence of Horror
+A{"DreadWastes", 7316, 0.610, 0.470, criterion=21007} -- Essence of Panic
+A{"DreadWastes", 7316, 0.430, 0.280, criterion=21008} -- Essence of Terror
+
+-- Quests/Pandaria: Spreading the Warmth
+A{"DreadWastes", 7321, 0.666, 0.142, criterion=21203} -- Krik'thik Hiveling
 
 -- Exploration/Pandaria: A Worthy Opponent
 A{"DreadWastes", 7437, 0.550, 0.630, criterion=0} -- Ik-Ik the Nimble
@@ -2708,9 +2711,9 @@ A{"Krasarang", 6855, 0.400, 0.560, criterion=19787} -- The Emperor's Burden - Pa
 A{"Krasarang", 6856, 0.720, 0.300, criterion=19796} -- Waiting for the Turtle
 
 -- Exploration/Pandaria: Lost and Found
-A{"Krasarang", 7281, 0.523, 0.887} -- Barrel of Banana Infused Rum
-A{"Krasarang", 7281, 0.508, 0.493} -- Pandaren Fishing Spear
-A{"Krasarang", 7281, 0.423, 0.920, note="in ship hold"} -- Equipment Locker
+A{"Krasarang", 7281, 0.523, 0.887, quest=31411} -- Barrel of Banana Infused Rum
+A{"Krasarang", 7281, 0.508, 0.493, quest=31409} -- Pandaren Fishing Spear
+A{"Krasarang", 7281, 0.423, 0.920, quest=31410, note="in ship hold"} -- Equipment Locker
 
 -- Exploration/Pandaria: Finders Keepers
 A{"Krasarang", 7282, 0.520, 0.890} -- Barrel of Banana Infused Rum
@@ -2726,6 +2729,23 @@ A{"Krasarang", 7283, 0.420, 0.920} -- Equipment Locker
 A{"Krasarang", 7284, 0.520, 0.890} -- Barrel of Banana Infused Rum
 A{"Krasarang", 7284, 0.510, 0.490} -- Pandaren Fishing Spear
 A{"Krasarang", 7284, 0.420, 0.920} -- Equipment Locker
+
+-- Quests/Pandaria: Champion of Chi-Ji
+A{"Krasarang", 7287, quest=30725} -- Ellia Ravenmane
+A{"Krasarang", 7287, quest=30726} -- Minh Do-Tan
+A{"Krasarang", 7287, quest=30727} -- Ellia Ravenmane: Rematch
+A{"Krasarang", 7287, quest=30728} -- Fat Long-Fat
+A{"Krasarang", 7287, quest=30729} -- Julia Bates
+A{"Krasarang", 7287, quest=30730} -- Dextrous Izissha
+A{"Krasarang", 7287, quest=30731} -- Kuo-Na Quillpaw
+A{"Krasarang", 7287, quest=30732} -- Ellia Ravenmane: Revenge
+A{"Krasarang", 7287, quest=30733} -- Tukka-Tuk
+A{"Krasarang", 7287, quest=30734} -- Huck Wheelbarrow
+A{"Krasarang", 7287, quest=30735} -- Mindel Sunspeaker
+A{"Krasarang", 7287, quest=30736} -- Yan Quillpaw
+A{"Krasarang", 7287, quest=30737} -- Fat Long-Fat: Rematch
+A{"Krasarang", 7287, quest=30738} -- Thelonius
+A{"Krasarang", 7287, quest=30739} -- Ellia Ravenmane: Redemption
 
 -- Exploration/Pandaria: A Worthy Opponent
 A{"Krasarang", 7437, 0.520, 0.890, criterion=0} -- Spriggin
@@ -2915,11 +2935,11 @@ A{"KunLaiSummit", 6858, 0.630, 0.400, criterion=19809} -- Victory in Kun-Lai
 A{"KunLaiSummit", 7230, 0.440, 0.530, criterion=20417} -- Ren Yun the Blind
 
 -- Exploration/Pandaria: Lost and Found
-A{"KunLaiSummit", 7281, 0.520, 0.740} -- Hozen Warrior Spear
-A{"KunLaiSummit", 7281, 0.370, 0.780} -- Kafa Press
-A{"KunLaiSummit", 7281, 0.750, 0.750} -- Sprite's Cloth Chest
-A{"KunLaiSummit", 7281, 0.710, 0.630} -- Stash of Yaungol Weapons
-A{"KunLaiSummit", 7281, 0.700, 0.640} -- Stash of Yaungol Weapons
+A{"KunLaiSummit", 7281, 0.520, 0.740, quest=31413} -- Hozen Warrior Spear
+A{"KunLaiSummit", 7281, 0.370, 0.780, quest=31304} -- Kafa Press
+A{"KunLaiSummit", 7281, 0.750, 0.750, quest=31412} -- Sprite's Cloth Chest
+A{"KunLaiSummit", 7281, 0.710, 0.630, quest=31421} -- Stash of Yaungol Weapons
+A{"KunLaiSummit", 7281, 0.700, 0.640, quest=31421} -- Stash of Yaungol Weapons
 A{"KunLaiSummit", 7281, 0.450, 0.520} -- Tablet of Ren Yun
 
 -- Exploration/Pandaria: Finders Keepers
@@ -2945,6 +2965,19 @@ A{"KunLaiSummit", 7284, 0.750, 0.750} -- Sprite's Cloth Chest
 A{"KunLaiSummit", 7284, 0.710, 0.630} -- Stash of Yaungol Weapons
 A{"KunLaiSummit", 7284, 0.700, 0.640} -- Stash of Yaungol Weapons
 A{"KunLaiSummit", 7284, 0.450, 0.520} -- Tablet of Ren Yun
+
+-- Quests/Pandaria: Finish Them!
+A{"KunLaiSummit", 7286, criterion=20440} -- Brewmaster Chani
+A{"KunLaiSummit", 7286, criterion=20442} -- Lun-Chi
+A{"KunLaiSummit", 7286, criterion=20443} -- Clever Ashyo
+A{"KunLaiSummit", 7286, criterion=20444} -- Kang Bramblestaff
+A{"KunLaiSummit", 7286, criterion=20445} -- The Wrestler
+A{"KunLaiSummit", 7286, criterion=20446} -- Master Boom Boom
+A{"KunLaiSummit", 7286, criterion=20447} -- Master Windfur
+A{"KunLaiSummit", 7286, criterion=20448} -- Hackiss
+A{"KunLaiSummit", 7286, criterion=20449} -- Healiss
+A{"KunLaiSummit", 7286, criterion=20450} -- Tankiss
+A{"KunLaiSummit", 7286, criterion=20451} -- Ken-Ken
 
 -- Exploration/Pandaria: A Worthy Opponent
 A{"KunLaiSummit", 7437, 0.460, 0.620, criterion=0, note="or thereabouts"} -- Scritch
@@ -3557,6 +3590,162 @@ A{"OvergrownOutpost", 9624}
 
 -- Collections: What A Strange, Interdimensional Trip It's Been
 A{"OvergrownOutpost", 9838, criterion=27628} -- Yalnu
+
+-- Professions/Archaeology: The Three Brew Fathers
+A{"Pandaria", 7331, criterion=20629} -- Twin Stein Set of Brewfather Quan Tou Kuo
+A{"Pandaria", 7331, criterion=20630} -- Walking Cane of Brewfather Ren Yun
+A{"Pandaria", 7331, criterion=20631} -- Empty Keg of Brewfather Xin Wo Yin
+
+-- Professions/Archaeology: The Broken Hearted
+A{"Pandaria", 7332, criterion=20632} -- Carved Bronze Mirror
+A{"Pandaria", 7332, criterion=20633} -- Gold-Inlaid Porcelain Funerary Figurine
+A{"Pandaria", 7332, criterion=20634} -- Apothecary Tins
+
+-- Professions/Archaeology: The Four Celestials
+A{"Pandaria", 7333, criterion=20635} -- Pearl of Yu'lon
+A{"Pandaria", 7333, criterion=20636} -- Standard of Niuzao
+A{"Pandaria", 7333, criterion=20637} -- Umbrella of Chi-Ji
+A{"Pandaria", 7333, criterion=20638} -- Spear of Xuen
+
+-- Professions/Archaeology: Instruments of Cruelty
+A{"Pandaria", 7334, criterion=20639} -- Manacles of Rebellion
+A{"Pandaria", 7334, criterion=20640} -- Petrified Bone Whip
+A{"Pandaria", 7334, criterion=20641} -- Warlord's Branding Iron
+A{"Pandaria", 7334, criterion=20642} -- Anatomical Dummy
+
+-- Professions/Archaeology: Symbols of Strength
+A{"Pandaria", 7335, criterion=20643} -- Iron Amulet
+A{"Pandaria", 7335, criterion=20644} -- Cracked Mogu Runestone
+A{"Pandaria", 7335, criterion=20645} -- Mogu Coin
+A{"Pandaria", 7335, criterion=20646} -- Thunder King Insignia
+
+-- Professions/Archaeology: Stone Servants
+A{"Pandaria", 7336, criterion=20647} -- Terracotta Arm
+A{"Pandaria", 7336, criterion=20648} -- Quilen Statuette
+
+-- Professions/Archaeology: Documents of a Dark History
+A{"Pandaria", 7337, criterion=20649} -- Edicts of the Thunder King
+A{"Pandaria", 7337, criterion=20650} -- Worn Monument Ledger
+
+-- Professions/Archaeology: Collector: Pandaren Tea Sets
+A{"Pandaria", 7338, criterion=20651} -- Pandaren Tea Set
+
+-- Professions/Archaeology: Collector: Pandaren Game Boards
+A{"Pandaria", 7339, criterion=20652} -- Pandaren Game Board
+
+-- Professions/Archaeology: Collector: Twin Stein Sets of Brewfather Quan Tou Kuo
+A{"Pandaria", 7340, criterion=20653} -- Twin Stein Set of Brewfather Quan Tou Kuo
+
+-- Professions/Archaeology: Collector: Walking Canes of Brewfather Ren Yun
+A{"Pandaria", 7341, criterion=20654} -- Walking Cane of Brewfather Ren Yun
+
+-- Professions/Archaeology: Collector: Empty Kegs of Brewfather Xin Wo Yin
+A{"Pandaria", 7342, criterion=20655} -- Empty Keg of Brewfather Xin Wo Yin
+
+-- Professions/Archaeology: Collector: Carved Bronze Mirrors
+A{"Pandaria", 7343, criterion=20656} -- Carved Bronze Mirror
+
+-- Professions/Archaeology: Collector: Gold-Inlaid Porcelain Funerary Figurines
+A{"Pandaria", 7344, criterion=20657} -- Gold-Inlaid Porcelain Funerary Figurine
+
+-- Professions/Archaeology: Collector: Apothecary Tins
+A{"Pandaria", 7345, criterion=20658} -- Apothecary Tins
+
+-- Professions/Archaeology: Collector: Pearls of Yu'lon
+A{"Pandaria", 7346, criterion=20659} -- Pearl of Yu'lon
+
+-- Professions/Archaeology: Collector: Standards of Niuzao
+A{"Pandaria", 7347, criterion=20660} -- Standard of Niuzao
+
+-- Professions/Archaeology: Collector: Manacles of Rebellion
+A{"Pandaria", 7348, criterion=20661} -- Manacles of Rebellion
+
+-- Professions/Archaeology: Collector: Cracked Mogu Runestones
+A{"Pandaria", 7349, criterion=20662} -- Cracked Mogu Runestone
+
+-- Professions/Archaeology: Collector: Terracotta Arms
+A{"Pandaria", 7350, criterion=20663} -- Terracotta Arm
+
+-- Professions/Archaeology: Collector: Petrified Bone Whips
+A{"Pandaria", 7351, criterion=20664} -- Petrified Bone Whip
+
+-- Professions/Archaeology: Collector: Thunder King Insignias
+A{"Pandaria", 7352, criterion=20665} -- Thunder King Insignia
+
+-- Professions/Archaeology: Collector: Edicts of the Thunder King
+A{"Pandaria", 7353, criterion=20666} -- Edicts of the Thunder King
+
+-- Professions/Archaeology: Collector: Iron Amulets
+A{"Pandaria", 7354, criterion=20667} -- Iron Amulet
+
+-- Professions/Archaeology: Collector: Warlord's Branding Irons
+A{"Pandaria", 7355, criterion=20668} -- Warlord's Branding Iron
+
+-- Professions/Archaeology: Collector: Mogu Coins
+A{"Pandaria", 7356, criterion=20669} -- Mogu Coin
+
+-- Professions/Archaeology: Collector: Worn Monument Ledgers
+A{"Pandaria", 7357, criterion=20670} -- Worn Monument Ledger
+
+-- Professions/Archaeology: Collector: Pandaren Tea Sets
+A{"Pandaria", 7358, criterion=20651} -- Pandaren Tea Set
+
+-- Professions/Archaeology: Collector: Pandaren Game Boards
+A{"Pandaria", 7359, criterion=20652} -- Pandaren Game Board
+
+-- Professions/Archaeology: Collector: Twin Stein Sets of Brewfather Quan Tou Kuo
+A{"Pandaria", 7360, criterion=20653} -- Twin Stein Set of Brewfather Quan Tou Kuo
+
+-- Professions/Archaeology: Collector: Walking Canes of Brewfather Ren Yun
+A{"Pandaria", 7361, criterion=20654} -- Walking Cane of Brewfather Ren Yun
+
+-- Professions/Archaeology: Collector: Empty Kegs of Brewfather Xin Wo Yin
+A{"Pandaria", 7362, criterion=20655} -- Empty Keg of Brewfather Xin Wo Yin
+
+-- Professions/Archaeology: Collector: Carved Bronze Mirrors
+A{"Pandaria", 7363, criterion=20656} -- Carved Bronze Mirror
+
+-- Professions/Archaeology: Collector: Gold-Inlaid Porcelain Funerary Figurines
+A{"Pandaria", 7364, criterion=20657} -- Gold-Inlaid Porcelain Funerary Figurine
+
+-- Professions/Archaeology: Collector: Apothecary Tins
+A{"Pandaria", 7365, criterion=20658} -- Apothecary Tins
+
+-- Professions/Archaeology: Collector: Pearls of Yu'lon
+A{"Pandaria", 7366, criterion=20659} -- Pearl of Yu'lon
+
+-- Professions/Archaeology: Collector: Standards of Niuzao
+A{"Pandaria", 7367, criterion=20660} -- Standard of Niuzao
+
+-- Professions/Archaeology: Collector: Manacles of Rebellion
+A{"Pandaria", 7368, criterion=20661} -- Manacles of Rebellion
+
+-- Professions/Archaeology: Collector: Cracked Mogu Runestones
+A{"Pandaria", 7369, criterion=20662} -- Cracked Mogu Runestone
+
+-- Professions/Archaeology: Collector: Terracotta Arms
+A{"Pandaria", 7370, criterion=20663} -- Terracotta Arm
+
+-- Professions/Archaeology: Collector: Petrified Bone Whips
+A{"Pandaria", 7371, criterion=20664} -- Petrified Bone Whip
+
+-- Professions/Archaeology: Collector: Thunder King Insignias
+A{"Pandaria", 7372, criterion=20665} -- Thunder King Insignia
+
+-- Professions/Archaeology: Collector: Edicts of the Thunder King
+A{"Pandaria", 7373, criterion=20666} -- Edicts of the Thunder King
+
+-- Professions/Archaeology: Collector: Iron Amulets
+A{"Pandaria", 7374, criterion=20667} -- Iron Amulet
+
+-- Professions/Archaeology: Collector: Warlord's Branding Irons
+A{"Pandaria", 7375, criterion=20668} -- Warlord's Branding Iron
+
+-- Professions/Archaeology: Collector: Mogu Coins
+A{"Pandaria", 7376, criterion=20669} -- Mogu Coin
+
+-- Professions/Archaeology: Collector: Worn Monument Ledgers
+A{"Pandaria", 7377, criterion=20670} -- Worn Monument Ledger
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Redridge", 1676, criterion=15198} -- Redridge/Hillsbrad
@@ -4822,14 +5011,14 @@ A{"TheJadeForest", 6858, 0.350, 0.300, criterion=19803} -- The First Monks
 A{"TheJadeForest", 7230, 0.370, 0.300, criterion=20416} -- Xin Wo Yin the Broken Hearted
 
 -- Exploration/Pandaria: Lost and Found
-A{"TheJadeForest", 7281, 0.470, 0.670, note="in the river"} -- Ancient Jinyu Staff
-A{"TheJadeForest", 7281, 0.460, 0.710, note="in the river"} -- Ancient Jinyu Staff
-A{"TheJadeForest", 7281, 0.450, 0.650, note="in the river"} -- Ancient Jinyu Staff
-A{"TheJadeForest", 7281, 0.460, 0.290, note="in the cave"} -- Ancient Pandaren Mining Pick
-A{"TheJadeForest", 7281, 0.430, 0.120} -- Hammer of Ten Thunders
-A{"TheJadeForest", 7281, 0.420, 0.180} -- Hammer of Ten Thunders
-A{"TheJadeForest", 7281, 0.390, 0.470, note="from Jade Warrior Statue"} -- Jade Warrior Statue
-A{"TheJadeForest", 7281, 0.390, 0.070} -- Wodin's Mantid Shanker
+A{"TheJadeForest", 7281, 0.470, 0.670, quest=31402, note="in the river"} -- Ancient Jinyu Staff
+A{"TheJadeForest", 7281, 0.460, 0.710, quest=31402, note="in the river"} -- Ancient Jinyu Staff
+A{"TheJadeForest", 7281, 0.450, 0.650, quest=31402, note="in the river"} -- Ancient Jinyu Staff
+A{"TheJadeForest", 7281, 0.460, 0.290, quest=31399, note="in the cave"} -- Ancient Pandaren Mining Pick
+A{"TheJadeForest", 7281, 0.430, 0.120, quest=31403} -- Hammer of Ten Thunders
+A{"TheJadeForest", 7281, 0.420, 0.180, quest=31403} -- Hammer of Ten Thunders
+A{"TheJadeForest", 7281, 0.390, 0.470, quest=31307, note="from Jade Warrior Statue"} -- Jade Warrior Statue
+A{"TheJadeForest", 7281, 0.390, 0.070, quest=31397} -- Wodin's Mantid Shanker
 
 -- Exploration/Pandaria: Finders Keepers
 A{"TheJadeForest", 7282, 0.470, 0.670} -- Ancient Jinyu Staff
@@ -4860,6 +5049,15 @@ A{"TheJadeForest", 7284, 0.430, 0.120} -- Hammer of Ten Thunders
 A{"TheJadeForest", 7284, 0.420, 0.180} -- Hammer of Ten Thunders
 A{"TheJadeForest", 7284, 0.390, 0.470} -- Jade Warrior Statue
 A{"TheJadeForest", 7284, 0.390, 0.070} -- Wodin's Mantid Shanker
+
+-- Quests/Pandaria: Shadow Hopper
+A{"TheJadeForest", 7289, criterion=21045} -- Juggler
+
+-- Quests/Pandaria: How To Strain Your Dragon
+A{"TheJadeForest", 7290, 0.580, 0.430}
+
+-- Quests/Pandaria: In a Trail of Smoke
+A{"TheJadeForest", 7291, 0.580, 0.430}
 
 -- Exploration/Pandaria: Restore Balance
 A{"TheJadeForest", 7381, 0.340, 0.340, criterion=20679} -- Balance Restored
@@ -5470,8 +5668,8 @@ A{"TownlongWastes", 6847, 0.840, 0.720, criterion=19776} -- Trapped in a Strange
 A{"TownlongWastes", 6855, 0.370, 0.620, criterion=19789} -- The Emperor's Burden - Part 5
 
 -- Exploration/Pandaria: Lost and Found
-A{"TownlongWastes", 7281, 0.660, 0.450} -- Yaungol Fire Carrier
-A{"TownlongWastes", 7281, 0.670, 0.480} -- Yaungol Fire Carrier
+A{"TownlongWastes", 7281, 0.660, 0.450, quest=31425} -- Yaungol Fire Carrier
+A{"TownlongWastes", 7281, 0.670, 0.480, quest=31425} -- Yaungol Fire Carrier
 
 -- Exploration/Pandaria: Finders Keepers
 A{"TownlongWastes", 7282, 0.660, 0.450} -- Yaungol Fire Carrier
@@ -5485,10 +5683,53 @@ A{"TownlongWastes", 7283, 0.670, 0.480} -- Yaungol Fire Carrier
 A{"TownlongWastes", 7284, 0.660, 0.450} -- Yaungol Fire Carrier
 A{"TownlongWastes", 7284, 0.670, 0.480} -- Yaungol Fire Carrier
 
+-- Quests/Pandaria: Yak Attack
+A{"TownlongWastes", 7288}
+
+-- Quests/Pandaria: Proven Strength
+A{"TownlongWastes", 7297, criterion=22168} -- Snow Blossom
+A{"TownlongWastes", 7297, criterion=22169} -- Yalia Sagewhisper
+A{"TownlongWastes", 7297, criterion=22172} -- Hawkmaster Nurong
+A{"TownlongWastes", 7297, criterion=22173} -- Tenwu of the Red Smoke
+A{"TownlongWastes", 7297, criterion=22171} -- Lao-Chin the Iron Belly
+A{"TownlongWastes", 7297, criterion=22170} -- Chao the Voice
+A{"TownlongWastes", 7297, criterion=22174} -- Protector Yi
+A{"TownlongWastes", 7297, criterion=22174} -- Fei Li
+A{"TownlongWastes", 7297, criterion=22174} -- Taoshi
+
+-- Quests/Pandaria: Getting Around with the Shado-Pan
+A{"TownlongWastes", 7298, criterion=20453} -- Fei Li
+A{"TownlongWastes", 7298, criterion=20456} -- Taoshi
+A{"TownlongWastes", 7298, criterion=20461} -- Protector Yi
+A{"TownlongWastes", 7298, criterion=20454} -- Snow Blossom
+A{"TownlongWastes", 7298, criterion=20457} -- Hawkmaster Nurong
+A{"TownlongWastes", 7298, criterion=20460} -- Chao the Voice
+A{"TownlongWastes", 7298, criterion=20455} -- Yalia Sagewhisper
+A{"TownlongWastes", 7298, criterion=20458} -- Tenwu of the Red Smoke
+A{"TownlongWastes", 7298, criterion=20459} -- Lao-Chin the Iron Belly
+
 -- Quests/Pandaria: Loner and a Rebel
 A{"TownlongWastes", 7299, criterion=0} -- Omnia Mystics
 A{"TownlongWastes", 7299, criterion=0} -- Wu Kao Assassins
 A{"TownlongWastes", 7299, criterion=0} -- Blackguard Defenders
+
+-- Quests/Pandaria: Silent Assassin
+A{"TownlongWastes", 7307}
+
+-- Quests/Pandaria: Know Your Role
+A{"TownlongWastes", 7308, criterion=20487} -- Assault Fire Camp Gai-Cho
+A{"TownlongWastes", 7308, criterion=20488} -- Assault Deadtalker's Plateau
+A{"TownlongWastes", 7308, criterion=20489} -- The Deadtalker Cipher
+A{"TownlongWastes", 7308, criterion=20490} -- Spirit Dust
+A{"TownlongWastes", 7308, criterion=21208} -- The Enemy of My Enemy... Is Still My Enemy!
+A{"TownlongWastes", 7308, criterion=20492} -- Uruk!
+A{"TownlongWastes", 7308, criterion=20493} -- Cheng Bo!
+
+-- Quests/Pandaria: Fire in the Yaung-hole!
+A{"TownlongWastes", 7309}
+
+-- Quests/Pandaria: Defender of Gods
+A{"TownlongWastes", 7310}
 
 -- Exploration/Pandaria: A Worthy Opponent
 A{"TownlongWastes", 7437, 0.680, 0.740, criterion=0} -- The Yowler
@@ -5785,6 +6026,33 @@ A{"ValeofEternalBlossoms", 6350, 0.726, 0.254, criterion=0, note="zone exclusive
 A{"ValeofEternalBlossoms", 6350, 0.716, 0.316, criterion=0, note="zone exclusive"} -- Dancing Water Skimmer
 A{"ValeofEternalBlossoms", 6350, 0.718, 0.242, criterion=0, note="zone exclusive"} -- Golden Civet
 
+-- Legacy: Eternally in the Vale
+A{"ValeofEternalBlossoms", 7315, criterion=0} -- The Golden Gate
+A{"ValeofEternalBlossoms", 7315, criterion=0} -- Remember to Close the Door
+A{"ValeofEternalBlossoms", 7315, criterion=20514} -- The Jade Army
+A{"ValeofEternalBlossoms", 7315, criterion=20515} -- Weapons of the Thunder King
+A{"ValeofEternalBlossoms", 7315, criterion=20516} -- Welcome Home
+
+-- Quests/Pandaria: A Taste of History
+A{"ValeofEternalBlossoms", 7318}
+
+-- Quests/Pandaria: Ready for Raiding III
+A{"ValeofEternalBlossoms", 7319, 0.186, 0.714, criterion=20533} -- Survival Ring: Flames
+A{"ValeofEternalBlossoms", 7319, 0.186, 0.714, criterion=20534} -- Survival Ring: Blades
+
+-- Quests/Pandaria: Dog Pile
+A{"ValeofEternalBlossoms", 7320, 0.194, 0.742, criterion=20978} -- Battle Ring Trainee Defeated Credit
+
+-- Quests/Pandaria: Roll Club
+A{"ValeofEternalBlossoms", 7322, 0.182, 0.634}
+
+-- Quests/Pandaria: Collateral Damage
+A{"ValeofEternalBlossoms", 7323, 0.258, 0.296}
+
+-- Quests/Pandaria: One Step at a Time
+A{"ValeofEternalBlossoms", 7324, 0.214, 0.716, criterion=20975} -- Complete The Crumbling Hall without taking any damage.
+A{"ValeofEternalBlossoms", 7324, 0.214, 0.716, criterion=20979} -- Complete The Thunder Below without taking any damage.
+
 -- General: Pandaren Cuisine
 A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20591, note="from Sway Dish Chef"} -- Toasted Fish Jerky
 A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20596, note="from Sway Dish Chef"} -- Boiled Silkworm Pupa
@@ -5845,22 +6113,22 @@ A{"ValeOfEternalBlossomsScenario", 6858, 0.520, 0.680, criterion=19802} -- Alway
 A{"ValeOfEternalBlossomsScenario", 6858, 0.260, 0.210, criterion=19804} -- Together, We Are Strong
 
 -- Quests/Pandaria: One Many Army
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20517} -- Cracklefang
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20519} -- General Temuja
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20520} -- Shadowmaster Sydow
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20521} -- Aetha
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20522} -- Quid
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20523} -- Spirit of Lao-Fe
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20518} -- Vicejaw
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20524} -- Baolai the Immolator
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20525} -- Gaohun the Soul-Severer
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20526} -- Bloodtip
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20527} -- Wulon
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20528} -- Gochao the Ironfist
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20529} -- Huo-Shuang
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20530} -- Bai-Jin the Butcher
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20531} -- Kri'chon
-A{"ValeOfEternalBlossomsScenario", 7317, criterion=20532} -- Vyraxxis
+A{"ValeOfEternalBlossomsScenario", 7317, 0.460, 0.580, criterion=20517} -- Cracklefang
+A{"ValeOfEternalBlossomsScenario", 7317, 0.680, 0.550, criterion=20519} -- General Temuja
+A{"ValeOfEternalBlossomsScenario", 7317, 0.400, 0.480, criterion=20520} -- Shadowmaster Sydow
+A{"ValeOfEternalBlossomsScenario", 7317, 0.350, 0.890, criterion=20521} -- Aetha
+A{"ValeOfEternalBlossomsScenario", 7317, 0.300, 0.790, criterion=20522} -- Quid
+A{"ValeOfEternalBlossomsScenario", 7317, 0.470, 0.670, criterion=20523} -- Spirit of Lao-Fe
+A{"ValeOfEternalBlossomsScenario", 7317, 0.370, 0.480, criterion=20518} -- Vicejaw
+A{"ValeOfEternalBlossomsScenario", 7317, 0.370, 0.810, criterion=20524} -- Baolai the Immolator
+A{"ValeOfEternalBlossomsScenario", 7317, 0.390, 0.750, criterion=20525} -- Gaohun the Soul-Severer
+A{"ValeOfEternalBlossomsScenario", 7317, 0.270, 0.150, criterion=20526} -- Bloodtip
+A{"ValeOfEternalBlossomsScenario", 7317, 0.270, 0.200, criterion=20527} -- Wulon
+A{"ValeOfEternalBlossomsScenario", 7317, 0.270, 0.200, criterion=20528} -- Gochao the Ironfist
+A{"ValeOfEternalBlossomsScenario", 7317, 0.260, 0.150, criterion=20529} -- Huo-Shuang
+A{"ValeOfEternalBlossomsScenario", 7317, 0.150, 0.250, criterion=20530} -- Bai-Jin the Butcher
+A{"ValeOfEternalBlossomsScenario", 7317, 0.060, 0.580, criterion=20531} -- Kri'chon
+A{"ValeOfEternalBlossomsScenario", 7317, 0.070, 0.330, criterion=20532} -- Vyraxxis
 
 -- Exploration/Pandaria: A Worthy Opponent
 A{"ValeOfEternalBlossomsScenario", 7437, 0.310, 0.920, criterion=0} -- Major Nanners
@@ -5974,13 +6242,13 @@ A{"ValleyoftheFourWinds", 6858, 0.180, 0.310, criterion=19801} -- Pandaren Fight
 A{"ValleyoftheFourWinds", 7230, 0.810, 0.110, criterion=20415} -- Quan Tou Kuo the Two Fisted
 
 -- Exploration/Pandaria: Lost and Found
-A{"ValleyoftheFourWinds", 7281, 0.470, 0.250} -- Ghostly Pandaren Fisherman
-A{"ValleyoftheFourWinds", 7281, 0.450, 0.380} -- Ghostly Pandaren Craftsman
-A{"ValleyoftheFourWinds", 7281, 0.150, 0.290} -- Staff of the Hidden Master
-A{"ValleyoftheFourWinds", 7281, 0.180, 0.360} -- Staff of the Hidden Master
-A{"ValleyoftheFourWinds", 7281, 0.190, 0.380} -- Staff of the Hidden Master
-A{"ValleyoftheFourWinds", 7281, 0.150, 0.340} -- Staff of the Hidden Master
-A{"ValleyoftheFourWinds", 7281, 0.190, 0.430} -- Staff of the Hidden Master
+A{"ValleyoftheFourWinds", 7281, 0.470, 0.250, quest=31284} -- Ghostly Pandaren Fisherman
+A{"ValleyoftheFourWinds", 7281, 0.450, 0.380, quest=31292} -- Ghostly Pandaren Craftsman
+A{"ValleyoftheFourWinds", 7281, 0.150, 0.290, quest=31407} -- Staff of the Hidden Master
+A{"ValleyoftheFourWinds", 7281, 0.180, 0.360, quest=31407} -- Staff of the Hidden Master
+A{"ValleyoftheFourWinds", 7281, 0.190, 0.380, quest=31407} -- Staff of the Hidden Master
+A{"ValleyoftheFourWinds", 7281, 0.150, 0.340, quest=31407} -- Staff of the Hidden Master
+A{"ValleyoftheFourWinds", 7281, 0.190, 0.430, quest=31407} -- Staff of the Hidden Master
 A{"ValleyoftheFourWinds", 7281, 0.440, 0.370} -- Cache of Pilfered Goods
 
 -- Exploration/Pandaria: Finders Keepers
@@ -6012,6 +6280,52 @@ A{"ValleyoftheFourWinds", 7284, 0.190, 0.380} -- Staff of the Hidden Master
 A{"ValleyoftheFourWinds", 7284, 0.150, 0.340} -- Staff of the Hidden Master
 A{"ValleyoftheFourWinds", 7284, 0.190, 0.430} -- Staff of the Hidden Master
 A{"ValleyoftheFourWinds", 7284, 0.440, 0.370} -- Cache of Pilfered Goods
+
+-- Quests/Pandaria: Green Acres
+A{"ValleyoftheFourWinds", 7292}
+
+-- Quests/Pandaria: Till the Break of Dawn
+A{"ValleyoftheFourWinds", 7293, criterion=0} -- Harvest 100 crops
+
+-- Quests/Pandaria: A Taste of Things to Come
+A{"ValleyoftheFourWinds", 7294}
+
+-- Quests/Pandaria: Listen to the Drunk Fish
+A{"ValleyoftheFourWinds", 7295, criterion=0} -- Green Cabbage
+A{"ValleyoftheFourWinds", 7295, criterion=0} -- Scallions
+A{"ValleyoftheFourWinds", 7295, criterion=0} -- Juicycrunch Carrot
+A{"ValleyoftheFourWinds", 7295, criterion=0} -- Mogu Pumpkin
+A{"ValleyoftheFourWinds", 7295, criterion=0} -- Red Blossom Leek
+A{"ValleyoftheFourWinds", 7295, criterion=0} -- Pink Turnip
+A{"ValleyoftheFourWinds", 7295, criterion=0} -- White Turnip
+
+-- Quests/Pandaria: Ain't Lost No More
+A{"ValleyoftheFourWinds", 7296}
+
+-- Professions/Cooking: Master of the Grill
+A{"ValleyoftheFourWinds", 7300}
+
+-- Professions/Cooking: Master of the Wok
+A{"ValleyoftheFourWinds", 7301}
+
+-- Professions/Cooking: Master of the Pot
+A{"ValleyoftheFourWinds", 7302}
+
+-- Professions/Cooking: Master of the Steamer
+A{"ValleyoftheFourWinds", 7303}
+
+-- Professions/Cooking: Master of the Oven
+A{"ValleyoftheFourWinds", 7304}
+
+-- Professions/Cooking: Master of the Brew
+A{"ValleyoftheFourWinds", 7305}
+
+-- Professions/Cooking: Master of Pandaren Cooking
+A{"ValleyoftheFourWinds", 7306, criterion=20497}
+
+-- Professions/Cooking: Now I Am the Master
+A{"ValleyoftheFourWinds", 7325, criterion=20537} -- Obtain the Cooking School Bell.
+A{"ValleyoftheFourWinds", 7325, criterion=20538} -- Train your student to become an Expert in Cooking.
 
 -- General: Pandaren Cuisine
 A{"ValleyoftheFourWinds", 7329, 0.536, 0.512, criterion=20589, note="mats from Sungshin Ironpaw"} -- Sliced Peaches

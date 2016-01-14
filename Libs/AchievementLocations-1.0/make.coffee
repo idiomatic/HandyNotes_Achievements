@@ -29,26 +29,25 @@ sheet.getRows achievementWorksheet, {query: 'mapfile != ""', orderby: 'mapfile'}
     outs = {}
     priorAchievementID = {}
 
-    for {module, mapfile, achievementid, criterionid, criterion, x, y, floor, action, itemid, note, criteria, name, category} in data
+    for {module, mapfile, achievement, criterion, x, y, floor, action, item, quest, note, criteria, name, category} in data
         module or= 'data'
         out = outs[module] or= createModule(module)
 
-        if priorAchievementID[module] isnt achievementid
+        if priorAchievementID[module] isnt achievement
             out.write "\n-- #{category}: #{name}\n"
-            priorAchievementID[module] = achievementid
+            priorAchievementID[module] = achievement
         out.write "A{#{JSON.stringify mapfile}"
-        out.write ", #{achievementid}"
-        if x or y
-            out.write ", #{x}, #{y}"
-
+        out.write ", #{achievement}"
+        out.write ", #{x}, #{y}" if x or y
+        
         if criterion
-            out.write ", criterion=#{JSON.stringify criterion}"
-        else if criterionid
-            out.write ", criterion=#{criterionid}"
+            criterion = JSON.stringify(criterion) unless /^\d+$/.test(criterion)
+            out.write ", criterion=#{criterion}"
 
+        out.write ", quest=#{quest}" if quest
         out.write ", floor=#{floor}" if floor
         out.write ", action=#{JSON.stringify action}" if action
-        out.write ", item=#{JSON.stringify itemid}" if itemid
+        out.write ", item=#{JSON.stringify item}" if item
         out.write ", note=#{JSON.stringify note}" if note
 
         out.write "}"
