@@ -199,7 +199,10 @@ end
 function HNA:Valid(row)
     local achievementID = row[1]
     if not visible[achievementID] then return false end
+    if HandyNotes_Achievements_ShowCompleted then return true end
+
     local _, _, _, completed, _, _, _, _, _, _, _, _, earnedByMe, _ = GetAchievementInfo(achievementID)
+    -- XXX justmine
     if completed then return false end
 
     if type(row.criterion) == "number" then
