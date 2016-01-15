@@ -223,12 +223,14 @@ end
 
 function HNA:GetNodes(mapFile, minimap, dungeonLevel)
     -- recursive function to generate valid achievements, sometimes projected into outer zones or consolidated pins
-    local function validRows(mapFile, overrideMapFile, overrideCoord)
+    local function validRows(mapFile, dungeonLevel, overrideMapFile, overrideCoord)
         local rows = AchievementLocations:Get(mapFile)
         for _, row in ipairs(rows or EMPTY) do
-            if self:Valid(row) then
-                local coord = row[2] and row[3] and row[2] * 1e8 + row[3] * 1e4
-                coroutine.yield(overrideMapFile or mapFile, overrideCoord or coord or self.DEFAULT_COORD, row)
+            if (dungeonLevel or row.floor) == (row.floor or dungeonLevel) then
+                if self:Valid(row) then
+                    local coord = row[2] and row[3] and row[2] * 1e8 + row[3] * 1e4
+                    coroutine.yield(overrideMapFile or mapFile, overrideCoord or coord or self.DEFAULT_COORD, row)
+                end
             end
         end
 
@@ -237,24 +239,25 @@ function HNA:GetNodes(mapFile, minimap, dungeonLevel)
             local subMapFile = HandyNotes:GetMapIDtoMapFile(subMap)
             -- put this zone's achievements on the world map, all on one pin
             -- overrideMapFile and overrideCoord are likely nil
-            validRows(subMapFile, overrideMapFile, overrideCoord or (HandyNotes_Achievements_CleanContinents and self.ZONE_COORD))
+            validRows(subMapFile, nil, overrideMapFile, overrideCoord or (HandyNotes_Achievements_CleanContinents and self.ZONE_COORD))
         end
 
         local instances = InstanceLocations:GetBelow(mapFile)
         for _, instanceMapFile in ipairs(instances or EMPTY) do
             local overrideMapFile, instanceX, instanceY = unpack(InstanceLocations:GetLocation(instanceMapFile))
             local coord = instanceX and instanceY and instanceX * 1e8 + instanceY * 1e4
-            validRows(instanceMapFile, overrideMapFile, overrideCoord or coord)
+            validRows(instanceMapFile, nil, overrideMapFile, overrideCoord or coord)
         end
     end
 
     for _, nodes in pairs(activeNodes) do
+        -- XXX skip minimap's
         wipe(nodes)
     end
 
     local rowsCo = coroutine.create(validRows)
     return function(state, value)
-        local status, mF, coord, row = coroutine.resume(rowsCo, mapFile)
+        local status, mF, coord, row = coroutine.resume(rowsCo, mapFile, dungeonLevel)
         if not status then
             print(string.format("|cffff0000%s Error:|r %s", ADDON_NAME, tostring(mF)))
             return nil
