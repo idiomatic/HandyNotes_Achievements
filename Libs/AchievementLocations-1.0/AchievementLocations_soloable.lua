@@ -523,39 +523,57 @@ A{"Gundrak", 2136, criterion=7513} -- Less-rabi
 A{"Gundrak", 2152}
 
 -- Dungeons & Raids/Lich King Dungeon: Halls of Lightning
-A{"HallsofLightning", 486, criterion=5455} -- General Bjarngrim
-A{"HallsofLightning", 486, criterion=5456} -- Ionar
-A{"HallsofLightning", 486, criterion=5458} -- Loken
-A{"HallsofLightning", 486, criterion=5457} -- Volkhan
+A{"HallsofLightning", 486, 0.440, 0.380, criterion=5455, floor=1} -- General Bjarngrim
+A{"HallsofLightning", 486, 0.620, 0.780, criterion=5456, floor=2} -- Ionar
+A{"HallsofLightning", 486, 0.200, 0.530, criterion=5458, floor=2} -- Loken
+A{"HallsofLightning", 486, 0.380, 0.220, criterion=5457, floor=2} -- Volkhan
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: Halls of Lightning
-A{"HallsofLightning", 497, criterion=6831} -- General Bjarngrim
-A{"HallsofLightning", 497, criterion=6833} -- Volkhan
-A{"HallsofLightning", 497, criterion=6832} -- Ionar
-A{"HallsofLightning", 497, criterion=5616} -- Loken
+A{"HallsofLightning", 497, 0.440, 0.380, criterion=6831, floor=1} -- General Bjarngrim
+A{"HallsofLightning", 497, 0.380, 0.220, criterion=6833, floor=2} -- Volkhan
+A{"HallsofLightning", 497, 0.620, 0.780, criterion=6832, floor=2} -- Ionar
+A{"HallsofLightning", 497, 0.200, 0.530, criterion=5616, floor=2} -- Loken
 
 -- Dungeons & Raids: Northrend Dungeonmaster
-A{"HallsofLightning", 1288, criterion=4049} -- Halls of Lightning
+A{"HallsofLightning", 1288, 0.200, 0.530, criterion=4049, floor=2} -- Halls of Lightning
 
 -- Dungeons & Raids: Northrend Dungeon Hero
-A{"HallsofLightning", 1289, criterion=4065} -- Heroic Halls of Lightning
+A{"HallsofLightning", 1289, 0.200, 0.530, criterion=4065, floor=2} -- Heroic Halls of Lightning
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"HallsofLightning", 1658, criterion=5616} -- Heroic: Loken
+A{"HallsofLightning", 1658, 0.200, 0.530, criterion=5616, floor=2} -- Heroic: Loken
 
 -- Dungeons & Raids/Lich King Dungeon: Lightning Struck
-A{"HallsofLightning", 1834}
+A{"HallsofLightning", 1834, 0.440, 0.380, floor=1}
 
 -- Dungeons & Raids/Lich King Dungeon: Timely Death
-A{"HallsofLightning", 1867}
+A{"HallsofLightning", 1867, 0.200, 0.530, floor=2}
 
 -- Dungeons & Raids/Lich King Dungeon: Shatter Resistant
-A{"HallsofLightning", 2042}
+A{"HallsofLightning", 2042, 0.380, 0.220, floor=2}
 
 -- Dungeons & Raids: Glory of the Hero
-A{"HallsofLightning", 2136, criterion=7518} -- Shatter Resistant
-A{"HallsofLightning", 2136, criterion=7517} -- Lightning Struck
-A{"HallsofLightning", 2136, criterion=7516} -- Timely Death
+A{"HallsofLightning", 2136, 0.380, 0.220, criterion=7518, floor=2} -- Shatter Resistant
+A{"HallsofLightning", 2136, 0.440, 0.380, criterion=7517, floor=1} -- Lightning Struck
+A{"HallsofLightning", 2136, 0.200, 0.530, criterion=7516, floor=2} -- Timely Death
+
+-- Garrisons: Ten Hit Tunes
+A{"HallsofLightning", 9828, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken"} -- Mountains of Thunder
+
+-- Garrisons: Ten Hit Tunes
+A{"HallsofLightning", 9897, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken"} -- Mountains of Thunder
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"HallsofLightning", 9912, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken"} -- Mountains of Thunder
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"HallsofLightning", 9914, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken"} -- Mountains of Thunder
+
+-- Garrisons: Full Discography
+A{"HallsofLightning", 10015, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken"} -- Mountains of Thunder
+
+-- Garrisons: Full Discography
+A{"HallsofLightning", 10016, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken"} -- Mountains of Thunder
 
 -- Dungeons & Raids/Cataclysm Dungeon: Halls of Origination
 A{"HallsofOrigination", 4841}
@@ -941,193 +959,216 @@ A{"MoltenCore", 686}
 A{"MoltenCore", 1285, criterion=4010} -- Molten Core
 
 -- Dungeons & Raids/Lich King Raid: The Arachnid Quarter (10 player)
-A{"Naxxramas", 562, criterion=5100} -- Anub'Rekhan
-A{"Naxxramas", 562, criterion=5102} -- Maexxna
-A{"Naxxramas", 562, criterion=6430} -- Grand Widow Faerlina
+A{"Naxxramas", 562, 0.310, 0.480, criterion=5100, floor=2} -- Anub'Rekhan
+A{"Naxxramas", 562, 0.690, 0.160, criterion=5102, floor=2} -- Maexxna
+A{"Naxxramas", 562, 0.440, 0.370, criterion=6430, floor=2} -- Grand Widow Faerlina
 
 -- Dungeons & Raids/Lich King Raid: The Arachnid Quarter (25 player)
-A{"Naxxramas", 563, criterion=5111} -- Anub'Rekhan
-A{"Naxxramas", 563, criterion=5126} -- Grand Widow Faerlina
-A{"Naxxramas", 563, criterion=6405} -- Maexxna
+A{"Naxxramas", 563, 0.310, 0.480, criterion=5111, floor=2} -- Anub'Rekhan
+A{"Naxxramas", 563, 0.440, 0.370, criterion=5126, floor=2} -- Grand Widow Faerlina
+A{"Naxxramas", 563, 0.690, 0.160, criterion=6405, floor=2} -- Maexxna
 
 -- Dungeons & Raids/Lich King Raid: The Construct Quarter (10 player)
-A{"Naxxramas", 564, criterion=5110} -- Patchwerk
-A{"Naxxramas", 564, criterion=5117} -- Gluth
-A{"Naxxramas", 564, criterion=5119} -- Thaddius
-A{"Naxxramas", 564, criterion=6425} -- Grobbulus
+A{"Naxxramas", 564, 0.540, 0.420, criterion=5110, floor=1} -- Patchwerk
+A{"Naxxramas", 564, 0.460, 0.440, criterion=5117, floor=1} -- Gluth
+A{"Naxxramas", 564, 0.270, 0.160, criterion=5119, floor=1} -- Thaddius
+A{"Naxxramas", 564, 0.620, 0.530, criterion=6425, floor=1} -- Grobbulus
 
 -- Dungeons & Raids/Lich King Raid: The Construct Quarter (25 player)
-A{"Naxxramas", 565, criterion=6403} -- Patchwerk
-A{"Naxxramas", 565, criterion=6406} -- Grobbulus
-A{"Naxxramas", 565, criterion=5124} -- Gluth
-A{"Naxxramas", 565, criterion=5134} -- Thaddius
+A{"Naxxramas", 565, 0.540, 0.420, criterion=6403, floor=1} -- Patchwerk
+A{"Naxxramas", 565, 0.620, 0.530, criterion=6406, floor=1} -- Grobbulus
+A{"Naxxramas", 565, 0.460, 0.440, criterion=5124, floor=1} -- Gluth
+A{"Naxxramas", 565, 0.270, 0.160, criterion=5134, floor=1} -- Thaddius
 
 -- Dungeons & Raids/Lich King Raid: The Plague Quarter (10 player)
-A{"Naxxramas", 566, criterion=6426} -- Heigan the Unclean
-A{"Naxxramas", 566, criterion=6428} -- Loatheb
-A{"Naxxramas", 566, criterion=5104} -- Noth the Plaguebringer
+A{"Naxxramas", 566, 0.500, 0.460, criterion=6426, floor=4} -- Heigan the Unclean
+A{"Naxxramas", 566, 0.760, 0.290, criterion=6428, floor=4} -- Loatheb
+A{"Naxxramas", 566, 0.350, 0.570, criterion=5104, floor=4} -- Noth the Plaguebringer
 
 -- Dungeons & Raids/Lich King Raid: The Plague Quarter (25 player)
-A{"Naxxramas", 567, criterion=5133} -- Noth the Plaguebringer
-A{"Naxxramas", 567, criterion=6409} -- Loatheb
-A{"Naxxramas", 567, criterion=5128} -- Heigan the Unclean
+A{"Naxxramas", 567, 0.350, 0.570, criterion=5133, floor=4} -- Noth the Plaguebringer
+A{"Naxxramas", 567, 0.760, 0.290, criterion=6409, floor=4} -- Loatheb
+A{"Naxxramas", 567, 0.500, 0.460, criterion=5128, floor=4} -- Heigan the Unclean
 
 -- Dungeons & Raids/Lich King Raid: The Military Quarter (10 player)
-A{"Naxxramas", 568, criterion=5120} -- Instructor Razuvious
-A{"Naxxramas", 568, criterion=5108} -- Gothik the Harvester
-A{"Naxxramas", 568, criterion=7805} -- The Four Horsemen
+A{"Naxxramas", 568, 0.430, 0.460, criterion=5120, floor=3} -- Instructor Razuvious
+A{"Naxxramas", 568, 0.670, 0.610, criterion=5108, floor=3} -- Gothik the Harvester
+A{"Naxxramas", 568, 0.310, 0.780, criterion=7805, floor=3} -- The Four Horsemen
 
 -- Dungeons & Raids/Lich King Raid: The Military Quarter (25 player)
-A{"Naxxramas", 569, criterion=6410} -- Instructor Razuvious
-A{"Naxxramas", 569, criterion=5125} -- Gothik the Harvester
-A{"Naxxramas", 569, criterion=7806} -- The Four Horsemen
+A{"Naxxramas", 569, 0.430, 0.460, criterion=6410, floor=3} -- Instructor Razuvious
+A{"Naxxramas", 569, 0.670, 0.610, criterion=5125, floor=3} -- Gothik the Harvester
+A{"Naxxramas", 569, 0.310, 0.780, criterion=7806, floor=3} -- The Four Horsemen
 
 -- Dungeons & Raids/Lich King Raid: Sapphiron's Demise (10 player)
-A{"Naxxramas", 572}
+A{"Naxxramas", 572, 0.570, 0.680, floor=6}
 
 -- Dungeons & Raids/Lich King Raid: Sapphiron's Demise (25 player)
-A{"Naxxramas", 573}
+A{"Naxxramas", 573, 0.570, 0.680, floor=6}
 
 -- Dungeons & Raids/Lich King Raid: Kel'Thuzad's Defeat (10 player)
-A{"Naxxramas", 574}
+A{"Naxxramas", 574, 0.370, 0.230, floor=6}
 
 -- Dungeons & Raids/Lich King Raid: Kel'Thuzad's Defeat (25 player)
-A{"Naxxramas", 575}
+A{"Naxxramas", 575, 0.370, 0.230, floor=6}
 
 -- Dungeons & Raids/Lich King Raid: The Fall of Naxxramas (10 player)
-A{"Naxxramas", 576, criterion=383} -- The Arachnid Quarter
-A{"Naxxramas", 576, criterion=385} -- The Plague Quarter
-A{"Naxxramas", 576, criterion=386} -- The Military Quarter
-A{"Naxxramas", 576, criterion=388} -- Kel'Thuzad's Defeat
-A{"Naxxramas", 576, criterion=384} -- The Construct Quarter
-A{"Naxxramas", 576, criterion=387} -- Sapphiron's Demise
+A{"Naxxramas", 576, criterion=383, floor=2} -- The Arachnid Quarter
+A{"Naxxramas", 576, criterion=385, floor=4} -- The Plague Quarter
+A{"Naxxramas", 576, criterion=386, floor=3} -- The Military Quarter
+A{"Naxxramas", 576, 0.370, 0.230, criterion=388, floor=6} -- Kel'Thuzad's Defeat
+A{"Naxxramas", 576, criterion=384, floor=1} -- The Construct Quarter
+A{"Naxxramas", 576, 0.570, 0.680, criterion=387, floor=6} -- Sapphiron's Demise
 
 -- Dungeons & Raids/Lich King Raid: The Fall of Naxxramas (25 player)
-A{"Naxxramas", 577, criterion=389} -- The Arachnid Quarter
-A{"Naxxramas", 577, criterion=391} -- The Plague Quarter
-A{"Naxxramas", 577, criterion=392} -- The Military Quarter
-A{"Naxxramas", 577, criterion=390} -- The Construct Quarter
-A{"Naxxramas", 577, criterion=394} -- Kel'Thuzad's Defeat
-A{"Naxxramas", 577, criterion=393} -- Sapphiron's Demise
+A{"Naxxramas", 577, criterion=389, floor=2} -- The Arachnid Quarter
+A{"Naxxramas", 577, criterion=391, floor=4} -- The Plague Quarter
+A{"Naxxramas", 577, criterion=392, floor=3} -- The Military Quarter
+A{"Naxxramas", 577, criterion=390, floor=1} -- The Construct Quarter
+A{"Naxxramas", 577, 0.370, 0.230, criterion=394, floor=6} -- Kel'Thuzad's Defeat
+A{"Naxxramas", 577, 0.570, 0.680, criterion=393, floor=6} -- Sapphiron's Demise
 
 -- Dungeons & Raids/Lich King Raid: The Dedicated Few (10 player)
-A{"Naxxramas", 578, criterion=7146} -- Anub'Rekhan
-A{"Naxxramas", 578, criterion=7154} -- Heigan the Unclean
-A{"Naxxramas", 578, criterion=7156} -- Instructor Razuvious
-A{"Naxxramas", 578, criterion=7157} -- Gothik the Harvester
-A{"Naxxramas", 578, criterion=7158} -- Sapphiron
-A{"Naxxramas", 578, criterion=7151} -- Gluth
-A{"Naxxramas", 578, criterion=7152} -- Thaddius
-A{"Naxxramas", 578, criterion=7153} -- Noth the Plaguebringer
-A{"Naxxramas", 578, criterion=7155} -- Loatheb
-A{"Naxxramas", 578, criterion=6802} -- Kel'Thuzad
-A{"Naxxramas", 578, criterion=7149} -- Patchwerk
-A{"Naxxramas", 578, criterion=7150} -- Grobbulus
-A{"Naxxramas", 578, criterion=7147} -- Grand Widow Faerlina
-A{"Naxxramas", 578, criterion=7148} -- Maexxna
+A{"Naxxramas", 578, 0.310, 0.480, criterion=7146, floor=2} -- Anub'Rekhan
+A{"Naxxramas", 578, 0.500, 0.460, criterion=7154, floor=4} -- Heigan the Unclean
+A{"Naxxramas", 578, 0.430, 0.460, criterion=7156, floor=3} -- Instructor Razuvious
+A{"Naxxramas", 578, 0.670, 0.610, criterion=7157, floor=3} -- Gothik the Harvester
+A{"Naxxramas", 578, 0.570, 0.680, criterion=7158, floor=6} -- Sapphiron
+A{"Naxxramas", 578, 0.460, 0.440, criterion=7151, floor=1} -- Gluth
+A{"Naxxramas", 578, 0.270, 0.160, criterion=7152, floor=1} -- Thaddius
+A{"Naxxramas", 578, 0.350, 0.570, criterion=7153, floor=4} -- Noth the Plaguebringer
+A{"Naxxramas", 578, 0.760, 0.290, criterion=7155, floor=4} -- Loatheb
+A{"Naxxramas", 578, 0.370, 0.230, criterion=6802, floor=6} -- Kel'Thuzad
+A{"Naxxramas", 578, 0.540, 0.420, criterion=7149, floor=1} -- Patchwerk
+A{"Naxxramas", 578, 0.620, 0.530, criterion=7150, floor=1} -- Grobbulus
+A{"Naxxramas", 578, 0.440, 0.370, criterion=7147, floor=2} -- Grand Widow Faerlina
+A{"Naxxramas", 578, 0.690, 0.160, criterion=7148, floor=2} -- Maexxna
 
 -- Dungeons & Raids/Lich King Raid: The Dedicated Few (25 player)
-A{"Naxxramas", 579, criterion=7164} -- Gluth
-A{"Naxxramas", 579, criterion=7170} -- Gothik the Harvester
-A{"Naxxramas", 579, criterion=7167} -- Heigan the Unclean
-A{"Naxxramas", 579, criterion=7161} -- Maexxna
-A{"Naxxramas", 579, criterion=7159} -- Anub'Rekhan
-A{"Naxxramas", 579, criterion=7163} -- Grobbulus
-A{"Naxxramas", 579, criterion=7165} -- Thaddius
-A{"Naxxramas", 579, criterion=7168} -- Loatheb
-A{"Naxxramas", 579, criterion=7166} -- Noth the Plaguebringer
-A{"Naxxramas", 579, criterion=7169} -- Instructor Razuvious
-A{"Naxxramas", 579, criterion=7160} -- Grand Widow Faerlina
-A{"Naxxramas", 579, criterion=7171} -- Sapphiron
-A{"Naxxramas", 579, criterion=7172} -- Kel'Thuzad
-A{"Naxxramas", 579, criterion=7162} -- Patchwerk
+A{"Naxxramas", 579, 0.460, 0.440, criterion=7164, floor=1} -- Gluth
+A{"Naxxramas", 579, 0.670, 0.610, criterion=7170, floor=3} -- Gothik the Harvester
+A{"Naxxramas", 579, 0.500, 0.460, criterion=7167, floor=4} -- Heigan the Unclean
+A{"Naxxramas", 579, 0.690, 0.160, criterion=7161, floor=2} -- Maexxna
+A{"Naxxramas", 579, 0.310, 0.480, criterion=7159, floor=2} -- Anub'Rekhan
+A{"Naxxramas", 579, 0.620, 0.530, criterion=7163, floor=1} -- Grobbulus
+A{"Naxxramas", 579, 0.270, 0.160, criterion=7165, floor=1} -- Thaddius
+A{"Naxxramas", 579, 0.760, 0.290, criterion=7168, floor=4} -- Loatheb
+A{"Naxxramas", 579, 0.350, 0.570, criterion=7166, floor=4} -- Noth the Plaguebringer
+A{"Naxxramas", 579, 0.430, 0.460, criterion=7169, floor=3} -- Instructor Razuvious
+A{"Naxxramas", 579, 0.440, 0.370, criterion=7160, floor=2} -- Grand Widow Faerlina
+A{"Naxxramas", 579, 0.570, 0.680, criterion=7171, floor=6} -- Sapphiron
+A{"Naxxramas", 579, 0.370, 0.230, criterion=7172, floor=6} -- Kel'Thuzad
+A{"Naxxramas", 579, 0.540, 0.420, criterion=7162, floor=1} -- Patchwerk
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"Naxxramas", 1658, criterion=5888} -- Kel'Thuzad (10 or 25 player)
+A{"Naxxramas", 1658, 0.370, 0.230, criterion=5888, floor=6} -- Kel'Thuzad (10 or 25 player)
 
 -- Dungeons & Raids/Lich King Raid: Make Quick Werk of Him (10 player)
-A{"Naxxramas", 1856}
+A{"Naxxramas", 1856, 0.540, 0.420, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Make Quick Werk of Him (25 player)
-A{"Naxxramas", 1857}
+A{"Naxxramas", 1857, 0.540, 0.420, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Arachnophobia (10 player)
-A{"Naxxramas", 1858}
+A{"Naxxramas", 1858, 0.690, 0.160, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: Arachnophobia (25 player)
-A{"Naxxramas", 1859}
+A{"Naxxramas", 1859, 0.690, 0.160, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: The Safety Dance (10 player)
-A{"Naxxramas", 1996}
+A{"Naxxramas", 1996, 0.500, 0.460, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Momma Said Knock You Out (10 player)
-A{"Naxxramas", 1997}
+A{"Naxxramas", 1997, 0.440, 0.370, floor=2}
 
 -- Dungeons & Raids: Glory of the Raider (10 player)
-A{"Naxxramas", 2137, criterion=7570} -- The Hundred Club
+A{"Naxxramas", 2137, 0.570, 0.680, criterion=7570, floor=6} -- The Hundred Club
 A{"Naxxramas", 2137, criterion=7528} -- The Dedicated Few
-A{"Naxxramas", 2137, criterion=7606} -- Shocking!
-A{"Naxxramas", 2137, criterion=7529} -- Arachnophobia
-A{"Naxxramas", 2137, criterion=7531} -- The Safety Dance
-A{"Naxxramas", 2137, criterion=7620} -- Just Can't Get Enough
-A{"Naxxramas", 2137, criterion=7530} -- Make Quick Werk Of Him
-A{"Naxxramas", 2137, criterion=7602} -- And They Would All Go Down Together
-A{"Naxxramas", 2137, criterion=7532} -- Momma Said Knock You Out
-A{"Naxxramas", 2137, criterion=7610} -- Subtraction
+A{"Naxxramas", 2137, 0.270, 0.160, criterion=7606, floor=1} -- Shocking!
+A{"Naxxramas", 2137, 0.690, 0.160, criterion=7529, floor=2} -- Arachnophobia
+A{"Naxxramas", 2137, 0.500, 0.460, criterion=7531, floor=4} -- The Safety Dance
+A{"Naxxramas", 2137, 0.370, 0.230, criterion=7620, floor=6} -- Just Can't Get Enough
+A{"Naxxramas", 2137, 0.540, 0.420, criterion=7530, floor=1} -- Make Quick Werk Of Him
+A{"Naxxramas", 2137, 0.310, 0.780, criterion=7602, floor=3} -- And They Would All Go Down Together
+A{"Naxxramas", 2137, 0.440, 0.360, criterion=7532, floor=2} -- Momma Said Knock You Out
+A{"Naxxramas", 2137, 0.270, 0.160, criterion=7610, floor=1} -- Subtraction
 
 -- Dungeons & Raids: Glory of the Raider (25 player)
-A{"Naxxramas", 2138, criterion=7569} -- The Hundred Club (25 player)
-A{"Naxxramas", 2138, criterion=7611} -- Subtraction (25 player)
-A{"Naxxramas", 2138, criterion=7619} -- And They Would All Go Down Together (25 player)
-A{"Naxxramas", 2138, criterion=7621} -- Just Can't Get Enough (25 player)
-A{"Naxxramas", 2138, criterion=7607} -- Shocking! (25 player)
-A{"Naxxramas", 2138, criterion=7540} -- Make Quick Werk Of Him (25 player)
-A{"Naxxramas", 2138, criterion=7541} -- The Safety Dance (25 player)
+A{"Naxxramas", 2138, 0.570, 0.680, criterion=7569, floor=6} -- The Hundred Club (25 player)
+A{"Naxxramas", 2138, 0.270, 0.160, criterion=7611, floor=1} -- Subtraction (25 player)
+A{"Naxxramas", 2138, 0.310, 0.780, criterion=7619, floor=3} -- And They Would All Go Down Together (25 player)
+A{"Naxxramas", 2138, 0.370, 0.230, criterion=7621, floor=6} -- Just Can't Get Enough (25 player)
+A{"Naxxramas", 2138, 0.270, 0.160, criterion=7607, floor=1} -- Shocking! (25 player)
+A{"Naxxramas", 2138, 0.540, 0.420, criterion=7540, floor=1} -- Make Quick Werk Of Him (25 player)
+A{"Naxxramas", 2138, 0.500, 0.460, criterion=7541, floor=4} -- The Safety Dance (25 player)
 A{"Naxxramas", 2138, criterion=7538} -- The Dedicated Few (25 player)
-A{"Naxxramas", 2138, criterion=7539} -- Arachnophobia (25 player)
-A{"Naxxramas", 2138, criterion=7542} -- Momma Said Knock You Out (25 player)
+A{"Naxxramas", 2138, 0.690, 0.160, criterion=7539, floor=2} -- Arachnophobia (25 player)
+A{"Naxxramas", 2138, 0.440, 0.360, criterion=7542, floor=2} -- Momma Said Knock You Out (25 player)
 
 -- Dungeons & Raids/Lich King Raid: The Safety Dance (25 player)
-A{"Naxxramas", 2139}
+A{"Naxxramas", 2139, 0.500, 0.460, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Momma Said Knock You Out (25 player)
-A{"Naxxramas", 2140}
+A{"Naxxramas", 2140, 0.440, 0.370, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: The Hundred Club (10 player)
-A{"Naxxramas", 2146}
+A{"Naxxramas", 2146, 0.570, 0.680, floor=6}
 
 -- Dungeons & Raids/Lich King Raid: The Hundred Club (25 player)
-A{"Naxxramas", 2147}
+A{"Naxxramas", 2147, 0.570, 0.680, floor=6}
 
 -- Dungeons & Raids/Lich King Raid: And They Would All Go Down Together (10 player)
-A{"Naxxramas", 2176}
+A{"Naxxramas", 2176, 0.310, 0.780, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: And They Would All Go Down Together (25 player)
-A{"Naxxramas", 2177}
+A{"Naxxramas", 2177, 0.310, 0.780, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Shocking! (10 player)
-A{"Naxxramas", 2178}
+A{"Naxxramas", 2178, 0.270, 0.160, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Shocking! (25 player)
-A{"Naxxramas", 2179}
+A{"Naxxramas", 2179, 0.270, 0.160, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Subtraction (10 player)
-A{"Naxxramas", 2180}
+A{"Naxxramas", 2180, 0.270, 0.160, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Subtraction (25 player)
-A{"Naxxramas", 2181}
+A{"Naxxramas", 2181, 0.270, 0.160, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Spore Loser (10 player)
-A{"Naxxramas", 2182}
+A{"Naxxramas", 2182, 0.760, 0.290, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Spore Loser (25 player)
-A{"Naxxramas", 2183}
+A{"Naxxramas", 2183, 0.760, 0.290, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Just Can't Get Enough (10 player)
-A{"Naxxramas", 2184}
+A{"Naxxramas", 2184, 0.370, 0.230, floor=6}
 
 -- Dungeons & Raids/Lich King Raid: Just Can't Get Enough (25 player)
-A{"Naxxramas", 2185}
+A{"Naxxramas", 2185, 0.370, 0.230, floor=6}
+
+-- Pet Battles/Collect: Raiding with Leashes
+A{"Naxxramas", 7934, 0.690, 0.160, criterion=22470, floor=2, note="from Maexxna"} -- Giant Bone Spider
+A{"Naxxramas", 7934, 0.760, 0.290, criterion=22471, floor=4, note="from Loatheb"} -- Fungal Abomination
+A{"Naxxramas", 7934, 0.460, 0.440, criterion=22473, floor=1, note="from Gluth"} -- Stitched Pup
+
+-- Garrisons: Ten Hit Tunes
+A{"Naxxramas", 9828, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
+
+-- Garrisons: Ten Hit Tunes
+A{"Naxxramas", 9897, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"Naxxramas", 9912, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"Naxxramas", 9914, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
+
+-- Garrisons: Full Discography
+A{"Naxxramas", 10015, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
+
+-- Garrisons: Full Discography
+A{"Naxxramas", 10016, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
 
 -- Dungeons & Raids/Lich King Dungeon: The Oculus
 A{"Nexus80", 487, criterion=5462} -- Ley-Guardian Eregos
@@ -1857,46 +1898,46 @@ A{"Uldaman", 638}
 A{"Uldaman", 1283, criterion=3949} -- Uldaman
 
 -- Dungeons & Raids/Lich King Raid: The Siege of Ulduar (10 player)
-A{"Ulduar", 2886, criterion=9968} -- Flame Leviathan
-A{"Ulduar", 2886, criterion=9972} -- Ignis the Furnace Master
-A{"Ulduar", 2886, criterion=9939} -- Razorscale
-A{"Ulduar", 2886, criterion=9974} -- XT-002 Deconstructor
+A{"Ulduar", 2886, 0.500, 0.400, criterion=9968, floor=1} -- Flame Leviathan
+A{"Ulduar", 2886, 0.390, 0.280, criterion=9972, floor=1} -- Ignis the Furnace Master
+A{"Ulduar", 2886, 0.550, 0.280, criterion=9939, floor=1} -- Razorscale
+A{"Ulduar", 2886, 0.490, 0.160, criterion=9974, floor=1} -- XT-002 Deconstructor
 
 -- Dungeons & Raids/Lich King Raid: The Siege of Ulduar (25 player)
-A{"Ulduar", 2887, criterion=9957} -- XT-002 Deconstructor
-A{"Ulduar", 2887, criterion=9969} -- Flame Leviathan
-A{"Ulduar", 2887, criterion=9971} -- Razorscale
-A{"Ulduar", 2887, criterion=9973} -- Ignis the Furnace Master
+A{"Ulduar", 2887, 0.490, 0.160, criterion=9957, floor=1} -- XT-002 Deconstructor
+A{"Ulduar", 2887, 0.500, 0.400, criterion=9969, floor=1} -- Flame Leviathan
+A{"Ulduar", 2887, 0.550, 0.280, criterion=9971, floor=1} -- Razorscale
+A{"Ulduar", 2887, 0.390, 0.280, criterion=9973, floor=1} -- Ignis the Furnace Master
 
 -- Dungeons & Raids/Lich King Raid: The Antechamber of Ulduar (10 player)
-A{"Ulduar", 2888, criterion=9992} -- Auriaya
-A{"Ulduar", 2888, criterion=10580} -- Assembly of Iron
-A{"Ulduar", 2888, criterion=9978} -- Kologarn
+A{"Ulduar", 2888, 0.520, 0.580, criterion=9992, floor=3} -- Auriaya
+A{"Ulduar", 2888, 0.160, 0.580, criterion=10580, floor=2} -- Assembly of Iron
+A{"Ulduar", 2888, 0.380, 0.130, criterion=9978, floor=2} -- Kologarn
 
 -- Dungeons & Raids/Lich King Raid: The Antechamber of Ulduar (25 player)
-A{"Ulduar", 2889, criterion=10581} -- Assembly of Iron
-A{"Ulduar", 2889, criterion=9959} -- Kologarn
-A{"Ulduar", 2889, criterion=9993} -- Auriaya
+A{"Ulduar", 2889, 0.160, 0.580, criterion=10581, floor=2} -- Assembly of Iron
+A{"Ulduar", 2889, 0.380, 0.130, criterion=9959, floor=2} -- Kologarn
+A{"Ulduar", 2889, 0.520, 0.580, criterion=9993, floor=3} -- Auriaya
 
 -- Dungeons & Raids/Lich King Raid: The Keepers of Ulduar (10 player)
-A{"Ulduar", 2890, criterion=10560} -- Hodir
-A{"Ulduar", 2890, criterion=10559} -- Freya
-A{"Ulduar", 2890, criterion=10558} -- Thorim
-A{"Ulduar", 2890, criterion=9947} -- Mimiron
+A{"Ulduar", 2890, 0.680, 0.650, criterion=10560, floor=3} -- Hodir
+A{"Ulduar", 2890, 0.540, 0.240, criterion=10559, floor=3} -- Freya
+A{"Ulduar", 2890, 0.700, 0.490, criterion=10558, floor=3} -- Thorim
+A{"Ulduar", 2890, 0.440, 0.430, criterion=9947, floor=5} -- Mimiron
 
 -- Dungeons & Raids/Lich King Raid: The Keepers of Ulduar (25 player)
-A{"Ulduar", 2891, criterion=10562} -- Hodir
-A{"Ulduar", 2891, criterion=10561} -- Thorim
-A{"Ulduar", 2891, criterion=10563} -- Freya
-A{"Ulduar", 2891, criterion=9963} -- Mimiron
+A{"Ulduar", 2891, 0.680, 0.650, criterion=10562, floor=3} -- Hodir
+A{"Ulduar", 2891, 0.700, 0.490, criterion=10561, floor=3} -- Thorim
+A{"Ulduar", 2891, 0.540, 0.240, criterion=10563, floor=3} -- Freya
+A{"Ulduar", 2891, 0.440, 0.430, criterion=9963, floor=5} -- Mimiron
 
 -- Dungeons & Raids/Lich King Raid: The Descent into Madness (10 player)
-A{"Ulduar", 2892, criterion=9994} -- Yogg-Saron
-A{"Ulduar", 2892, criterion=9948} -- General Vezax
+A{"Ulduar", 2892, 0.690, 0.410, criterion=9994, floor=4} -- Yogg-Saron
+A{"Ulduar", 2892, 0.570, 0.610, criterion=9948, floor=4} -- General Vezax
 
 -- Dungeons & Raids/Lich King Raid: The Descent into Madness (25 player)
-A{"Ulduar", 2893, criterion=9995} -- Yogg-Saron
-A{"Ulduar", 2893, criterion=9964} -- General Vezax
+A{"Ulduar", 2893, 0.690, 0.410, criterion=9995, floor=4} -- Yogg-Saron
+A{"Ulduar", 2893, 0.570, 0.610, criterion=9964, floor=4} -- General Vezax
 
 -- Dungeons & Raids/Lich King Raid: The Secrets of Ulduar (10 player)
 A{"Ulduar", 2894, criterion=10027} -- The Siege of Ulduar
@@ -1911,465 +1952,459 @@ A{"Ulduar", 2895, criterion=10033} -- Heroic: The Keepers of Ulduar
 A{"Ulduar", 2895, criterion=10031} -- Heroic: The Siege of Ulduar
 
 -- Dungeons & Raids/Lich King Raid: Unbroken (10 player)
-A{"Ulduar", 2905}
+A{"Ulduar", 2905, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Unbroken (25 player)
-A{"Ulduar", 2906}
+A{"Ulduar", 2906, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Three Car Garage (10 player)
-A{"Ulduar", 2907, criterion=10046} -- Salvaged Chopper
-A{"Ulduar", 2907, criterion=10047} -- Salvaged Siege Engine
-A{"Ulduar", 2907, criterion=10048} -- Salvaged Demolisher
+A{"Ulduar", 2907, 0.500, 0.400, criterion=10046, floor=1} -- Salvaged Chopper
+A{"Ulduar", 2907, 0.500, 0.400, criterion=10047, floor=1} -- Salvaged Siege Engine
+A{"Ulduar", 2907, 0.500, 0.400, criterion=10048, floor=1} -- Salvaged Demolisher
 
 -- Dungeons & Raids/Lich King Raid: Three Car Garage (25 player)
-A{"Ulduar", 2908, criterion=10050} -- Salvaged Siege Engine
-A{"Ulduar", 2908, criterion=10051} -- Salvaged Demolisher
-A{"Ulduar", 2908, criterion=10049} -- Salvaged Chopper
+A{"Ulduar", 2908, 0.500, 0.400, criterion=10050, floor=1} -- Salvaged Siege Engine
+A{"Ulduar", 2908, 0.500, 0.400, criterion=10051, floor=1} -- Salvaged Demolisher
+A{"Ulduar", 2908, 0.500, 0.400, criterion=10049, floor=1} -- Salvaged Chopper
 
 -- Dungeons & Raids/Lich King Raid: Take Out Those Turrets (10 player)
-A{"Ulduar", 2909}
+A{"Ulduar", 2909, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Take Out Those Turrets (25 player)
-A{"Ulduar", 2910}
+A{"Ulduar", 2910, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Shutout (10 player)
-A{"Ulduar", 2911}
+A{"Ulduar", 2911, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Shutout (25 player)
-A{"Ulduar", 2912}
+A{"Ulduar", 2912, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Orbital Bombardment (10 player)
-A{"Ulduar", 2913}
+A{"Ulduar", 2913, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Orbital Devastation (10 player)
-A{"Ulduar", 2914}
+A{"Ulduar", 2914, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Nuked from Orbit (10 player)
-A{"Ulduar", 2915}
+A{"Ulduar", 2915, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Orbital Devastation (25 player)
-A{"Ulduar", 2916}
+A{"Ulduar", 2916, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Nuked from Orbit (25 player)
-A{"Ulduar", 2917}
+A{"Ulduar", 2917, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Orbital Bombardment (25 player)
-A{"Ulduar", 2918}
+A{"Ulduar", 2918, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: A Quick Shave (10 player)
-A{"Ulduar", 2919}
+A{"Ulduar", 2919, 0.550, 0.280, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: A Quick Shave (25 player)
-A{"Ulduar", 2921}
+A{"Ulduar", 2921, 0.550, 0.280, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Iron Dwarf, Medium Rare (10 player)
-A{"Ulduar", 2923, criterion=10066} -- Razorscale
+A{"Ulduar", 2923, 0.550, 0.280, criterion=10066, floor=1} -- Razorscale
 
 -- Dungeons & Raids/Lich King Raid: Iron Dwarf, Medium Rare (25 player)
-A{"Ulduar", 2924, criterion=10067} -- Razorscale
+A{"Ulduar", 2924, 0.550, 0.280, criterion=10067, floor=1} -- Razorscale
 
 -- Dungeons & Raids/Lich King Raid: Shattered (10 player)
-A{"Ulduar", 2925}
+A{"Ulduar", 2925, 0.390, 0.280, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Shattered (25 player)
-A{"Ulduar", 2926}
+A{"Ulduar", 2926, 0.390, 0.280, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Hot Pocket (10 player)
-A{"Ulduar", 2927}
+A{"Ulduar", 2927, 0.390, 0.280, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Hot Pocket (25 player)
-A{"Ulduar", 2928}
+A{"Ulduar", 2928, 0.390, 0.280, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Stokin' the Furnace (25 player)
-A{"Ulduar", 2929}
+A{"Ulduar", 2929, 0.390, 0.280, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Stokin' the Furnace (10 player)
-A{"Ulduar", 2930}
+A{"Ulduar", 2930, 0.390, 0.280, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Nerf Engineering (10 player)
-A{"Ulduar", 2931}
+A{"Ulduar", 2931, 0.490, 0.160, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Nerf Engineering (25 player)
-A{"Ulduar", 2932}
+A{"Ulduar", 2932, 0.490, 0.160, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Nerf Scrapbots (10 player)
-A{"Ulduar", 2933, criterion=10401} -- Kill 20 XS-013 Scrapbots with an XE-321 Boombot
+A{"Ulduar", 2933, 0.490, 0.160, criterion=10401, floor=1} -- Kill 20 XS-013 Scrapbots with an XE-321 Boombot
 
 -- Dungeons & Raids/Lich King Raid: Nerf Gravity Bombs (10 player)
-A{"Ulduar", 2934}
+A{"Ulduar", 2934, 0.490, 0.160, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Nerf Scrapbots (25 player)
-A{"Ulduar", 2935, criterion=10402} -- Kill 20 XS-013 Scrapbots with an XE-321 Boombot
+A{"Ulduar", 2935, 0.490, 0.160, criterion=10402, floor=1} -- Kill 20 XS-013 Scrapbots with an XE-321 Boombot
 
 -- Dungeons & Raids/Lich King Raid: Nerf Gravity Bombs (25 player)
-A{"Ulduar", 2936}
+A{"Ulduar", 2936, 0.490, 0.160, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Must Deconstruct Faster (10 player)
-A{"Ulduar", 2937}
+A{"Ulduar", 2937, 0.490, 0.160, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Must Deconstruct Faster (25 player)
-A{"Ulduar", 2938}
+A{"Ulduar", 2938, 0.490, 0.160, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: I Choose You, Runemaster Molgeim (10 player)
-A{"Ulduar", 2939}
+A{"Ulduar", 2939, 0.160, 0.580, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: I Choose You, Stormcaller Brundir (10 player)
-A{"Ulduar", 2940}
+A{"Ulduar", 2940, 0.160, 0.580, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: I Choose You, Steelbreaker (10 player)
-A{"Ulduar", 2941}
+A{"Ulduar", 2941, 0.160, 0.580, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: I Choose You, Runemaster Molgeim (25 player)
-A{"Ulduar", 2942}
+A{"Ulduar", 2942, 0.160, 0.580, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: I Choose You, Stormcaller Brundir (25 player)
-A{"Ulduar", 2943}
+A{"Ulduar", 2943, 0.160, 0.580, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: I Choose You, Steelbreaker (25 player)
-A{"Ulduar", 2944}
+A{"Ulduar", 2944, 0.160, 0.580, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: But I'm On Your Side (10 player)
-A{"Ulduar", 2945}
+A{"Ulduar", 2945, 0.160, 0.580, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: But I'm On Your Side (25 player)
-A{"Ulduar", 2946}
+A{"Ulduar", 2946, 0.160, 0.580, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: Can't Do That While Stunned (10 player)
-A{"Ulduar", 2947}
+A{"Ulduar", 2947, 0.160, 0.580, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: Can't Do That While Stunned (25 player)
-A{"Ulduar", 2948}
+A{"Ulduar", 2948, 0.160, 0.580, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: With Open Arms (10 player)
-A{"Ulduar", 2951}
+A{"Ulduar", 2951, 0.380, 0.130, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: With Open Arms (25 player)
-A{"Ulduar", 2952}
+A{"Ulduar", 2952, 0.380, 0.130, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: Disarmed (10 player)
-A{"Ulduar", 2953}
+A{"Ulduar", 2953, 0.380, 0.130, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: Disarmed (25 player)
-A{"Ulduar", 2954}
+A{"Ulduar", 2954, 0.380, 0.130, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: If Looks Could Kill (10 player)
-A{"Ulduar", 2955}
+A{"Ulduar", 2955, 0.380, 0.130, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: If Looks Could Kill (25 player)
-A{"Ulduar", 2956}
+A{"Ulduar", 2956, 0.380, 0.130, floor=2}
 
 -- Dungeons & Raids: Glory of the Ulduar Raider (10 player)
-A{"Ulduar", 2957, criterion=10103} -- Heartbreaker
-A{"Ulduar", 2957, criterion=10100} -- Orbit-uary
-A{"Ulduar", 2957, criterion=10107} -- Lose Your Illusion
-A{"Ulduar", 2957, criterion=10108} -- Knock, Knock, Knock on Wood
-A{"Ulduar", 2957, criterion=10112} -- One Light in the Darkness
-A{"Ulduar", 2957, criterion=10106} -- I Could Say That This Cache Was Rare
-A{"Ulduar", 2957, criterion=10110} -- I Love the Smell of Saronite in the Morning
-A{"Ulduar", 2957, criterion=10111} -- Crazy Cat Lady
-A{"Ulduar", 2957, criterion=10101} -- Iron Dwarf, Medium Rare
-A{"Ulduar", 2957, criterion=10104} -- I Choose You, Steelbreaker
-A{"Ulduar", 2957, criterion=10464} -- Firefighter
-A{"Ulduar", 2957, criterion=10102} -- Stokin' the Furnace
-A{"Ulduar", 2957, criterion=10105} -- Disarmed
+A{"Ulduar", 2957, 0.490, 0.160, criterion=10103, floor=1} -- Heartbreaker
+A{"Ulduar", 2957, 0.500, 0.400, criterion=10100, floor=1} -- Orbit-uary
+A{"Ulduar", 2957, 0.700, 0.490, criterion=10107, floor=3} -- Lose Your Illusion
+A{"Ulduar", 2957, 0.540, 0.240, criterion=10108, floor=3} -- Knock, Knock, Knock on Wood
+A{"Ulduar", 2957, 0.690, 0.410, criterion=10112, floor=4} -- One Light in the Darkness
+A{"Ulduar", 2957, 0.680, 0.650, criterion=10106, floor=3} -- I Could Say That This Cache Was Rare
+A{"Ulduar", 2957, 0.570, 0.610, criterion=10110, floor=4} -- I Love the Smell of Saronite in the Morning
+A{"Ulduar", 2957, 0.520, 0.580, criterion=10111, floor=3} -- Crazy Cat Lady
+A{"Ulduar", 2957, 0.550, 0.280, criterion=10101, floor=1} -- Iron Dwarf, Medium Rare
+A{"Ulduar", 2957, 0.160, 0.580, criterion=10104, floor=2} -- I Choose You, Steelbreaker
+A{"Ulduar", 2957, 0.440, 0.430, criterion=10464, floor=5} -- Firefighter
+A{"Ulduar", 2957, 0.390, 0.280, criterion=10102, floor=1} -- Stokin' the Furnace
+A{"Ulduar", 2957, 0.380, 0.130, criterion=10105, floor=2} -- Disarmed
 
 -- Dungeons & Raids: Glory of the Ulduar Raider (25 player)
-A{"Ulduar", 2958, criterion=10366} -- Iron Dwarf, Medium Rare (25 player)
-A{"Ulduar", 2958, criterion=10368} -- Heartbreaker (25 player)
-A{"Ulduar", 2958, criterion=10373} -- Knock, Knock, Knock on Wood (25 player)
-A{"Ulduar", 2958, criterion=10372} -- Lose Your Illusion (25 player)
-A{"Ulduar", 2958, criterion=10365} -- Orbit-uary (25 player)
-A{"Ulduar", 2958, criterion=10371} -- I Could Say That This Cache Was Rare (25 player)
-A{"Ulduar", 2958, criterion=10376} -- Crazy Cat Lady (25 player)
-A{"Ulduar", 2958, criterion=10377} -- One Light in the Darkness (25 player)
-A{"Ulduar", 2958, criterion=10370} -- Disarmed (25 player)
-A{"Ulduar", 2958, criterion=10367} -- Stokin' the Furnace (25 player)
-A{"Ulduar", 2958, criterion=10375} -- I Love the Smell of Saronite in the Morning (25 player)
-A{"Ulduar", 2958, criterion=10465} -- Firefighter (25 player)
-A{"Ulduar", 2958, criterion=10369} -- I Choose You, Steelbreaker (25 player)
+A{"Ulduar", 2958, 0.550, 0.280, criterion=10366, floor=1} -- Iron Dwarf, Medium Rare (25 player)
+A{"Ulduar", 2958, 0.490, 0.160, criterion=10368, floor=1} -- Heartbreaker (25 player)
+A{"Ulduar", 2958, 0.540, 0.240, criterion=10373, floor=3} -- Knock, Knock, Knock on Wood (25 player)
+A{"Ulduar", 2958, 0.700, 0.490, criterion=10372, floor=3} -- Lose Your Illusion (25 player)
+A{"Ulduar", 2958, 0.500, 0.400, criterion=10365, floor=1} -- Orbit-uary (25 player)
+A{"Ulduar", 2958, 0.680, 0.650, criterion=10371, floor=3} -- I Could Say That This Cache Was Rare (25 player)
+A{"Ulduar", 2958, 0.520, 0.580, criterion=10376, floor=3} -- Crazy Cat Lady (25 player)
+A{"Ulduar", 2958, 0.690, 0.410, criterion=10377, floor=4} -- One Light in the Darkness (25 player)
+A{"Ulduar", 2958, 0.380, 0.130, criterion=10370, floor=2} -- Disarmed (25 player)
+A{"Ulduar", 2958, 0.390, 0.280, criterion=10367, floor=1} -- Stokin' the Furnace (25 player)
+A{"Ulduar", 2958, 0.570, 0.610, criterion=10375, floor=4} -- I Love the Smell of Saronite in the Morning (25 player)
+A{"Ulduar", 2958, 0.440, 0.430, criterion=10465, floor=5} -- Firefighter (25 player)
+A{"Ulduar", 2958, 0.160, 0.580, criterion=10369, floor=2} -- I Choose You, Steelbreaker (25 player)
 
 -- Dungeons & Raids/Lich King Raid: Rubble and Roll (10 player)
-A{"Ulduar", 2959}
+A{"Ulduar", 2959, 0.380, 0.130, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: Rubble and Roll (25 player)
-A{"Ulduar", 2960}
+A{"Ulduar", 2960, 0.380, 0.130, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: Cheese the Freeze (10 player)
-A{"Ulduar", 2961}
+A{"Ulduar", 2961, 0.680, 0.650, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Cheese the Freeze (25 player)
-A{"Ulduar", 2962}
+A{"Ulduar", 2962, 0.680, 0.650, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: I Have the Coolest Friends (10 player)
-A{"Ulduar", 2963}
+A{"Ulduar", 2963, 0.680, 0.650, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: I Have the Coolest Friends (25 player)
-A{"Ulduar", 2965}
+A{"Ulduar", 2965, 0.680, 0.650, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Getting Cold in Here (10 player)
-A{"Ulduar", 2967}
+A{"Ulduar", 2967, 0.680, 0.650, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Getting Cold in Here (25 player)
-A{"Ulduar", 2968}
-
--- Dungeons & Raids/Lich King Raid: Staying Buffed All Winter (10 player)
-A{"Ulduar", 2969}
-
--- Dungeons & Raids/Lich King Raid: Staying Buffed All Winter (25 player)
-A{"Ulduar", 2970}
+A{"Ulduar", 2968, 0.680, 0.650, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Don't Stand in the Lightning (10 player)
-A{"Ulduar", 2971}
+A{"Ulduar", 2971, 0.700, 0.490, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Don't Stand in the Lightning (25 player)
-A{"Ulduar", 2972}
+A{"Ulduar", 2972, 0.700, 0.490, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: I'll Take You All On (10 player)
-A{"Ulduar", 2973, criterion=10558} -- Defeat Thorim
-A{"Ulduar", 2973, criterion=10287} -- Participate in slaying Runic Colossus
-A{"Ulduar", 2973, criterion=10288} -- Participate in slaying Ancient Rune Giant
+A{"Ulduar", 2973, 0.700, 0.490, criterion=10558, floor=3} -- Defeat Thorim
+A{"Ulduar", 2973, 0.700, 0.490, criterion=10287, floor=3} -- Participate in slaying Runic Colossus
+A{"Ulduar", 2973, 0.700, 0.490, criterion=10288, floor=3} -- Participate in slaying Ancient Rune Giant
 
 -- Dungeons & Raids/Lich King Raid: I'll Take You All On (25 player)
-A{"Ulduar", 2974, criterion=10561} -- Defeat Thorim
-A{"Ulduar", 2974, criterion=10311} -- Participate in slaying Runic Colossus
-A{"Ulduar", 2974, criterion=10312} -- Participate in slaying Ancient Rune Giant
+A{"Ulduar", 2974, 0.700, 0.490, criterion=10561, floor=3} -- Defeat Thorim
+A{"Ulduar", 2974, 0.700, 0.490, criterion=10311, floor=3} -- Participate in slaying Runic Colossus
+A{"Ulduar", 2974, 0.700, 0.490, criterion=10312, floor=3} -- Participate in slaying Ancient Rune Giant
 
 -- Dungeons & Raids/Lich King Raid: Who Needs Bloodlust? (10 player)
-A{"Ulduar", 2975}
+A{"Ulduar", 2975, 0.700, 0.490, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Who Needs Bloodlust? (25 player)
-A{"Ulduar", 2976}
+A{"Ulduar", 2976, 0.700, 0.490, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Siffed (10 player)
-A{"Ulduar", 2977}
+A{"Ulduar", 2977, 0.700, 0.490, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Siffed (25 player)
-A{"Ulduar", 2978}
+A{"Ulduar", 2978, 0.700, 0.490, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Lumberjacked (10 player)
-A{"Ulduar", 2979}
+A{"Ulduar", 2979, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Con-speed-atory (10 player)
-A{"Ulduar", 2980}
+A{"Ulduar", 2980, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Con-speed-atory (25 player)
-A{"Ulduar", 2981}
+A{"Ulduar", 2981, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Getting Back to Nature (10 player)
-A{"Ulduar", 2982}
+A{"Ulduar", 2982, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Getting Back to Nature (25 player)
-A{"Ulduar", 2983}
+A{"Ulduar", 2983, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Deforestation (25 player)
-A{"Ulduar", 2984}
+A{"Ulduar", 2984, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Deforestation (10 player)
-A{"Ulduar", 2985}
+A{"Ulduar", 2985, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Set Up Us the Bomb (10 player)
-A{"Ulduar", 2989, criterion=10543} -- A Proximity Mine
-A{"Ulduar", 2989, criterion=10544} -- A Rocket Strike
-A{"Ulduar", 2989, criterion=10545} -- A Bomb Bot
+A{"Ulduar", 2989, 0.440, 0.430, criterion=10543, floor=5} -- A Proximity Mine
+A{"Ulduar", 2989, 0.440, 0.430, criterion=10544, floor=5} -- A Rocket Strike
+A{"Ulduar", 2989, 0.440, 0.430, criterion=10545, floor=5} -- A Bomb Bot
 
 -- Dungeons & Raids/Lich King Raid: Not-So-Friendly Fire (25 player)
-A{"Ulduar", 2995}
+A{"Ulduar", 2995, 0.440, 0.430, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Shadowdodger (10 player)
-A{"Ulduar", 2996}
+A{"Ulduar", 2996, 0.570, 0.610, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Shadowdodger (25 player)
-A{"Ulduar", 2997}
+A{"Ulduar", 2997, 0.570, 0.610, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Supermassive (25 player)
-A{"Ulduar", 3002, criterion=10782} -- Close 3 Black Holes within 10 seconds
-A{"Ulduar", 3002, criterion=10783} -- Defeat Algalon the Observer
+A{"Ulduar", 3002, 0.800, 0.470, criterion=10782, floor=2} -- Close 3 Black Holes within 10 seconds
+A{"Ulduar", 3002, 0.800, 0.470, criterion=10783, floor=2} -- Defeat Algalon the Observer
 
 -- Dungeons & Raids/Lich King Raid: Supermassive (10 player)
-A{"Ulduar", 3003, criterion=10780} -- Close 3 Black Holes within 10 seconds
-A{"Ulduar", 3003, criterion=10781} -- Defeat Algalon the Observer
+A{"Ulduar", 3003, 0.800, 0.470, criterion=10780, floor=2} -- Close 3 Black Holes within 10 seconds
+A{"Ulduar", 3003, 0.800, 0.470, criterion=10781, floor=2} -- Defeat Algalon the Observer
 
 -- Dungeons & Raids/Lich King Raid: Crazy Cat Lady (10 player)
-A{"Ulduar", 3006}
+A{"Ulduar", 3006, 0.520, 0.580, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Crazy Cat Lady (25 player)
-A{"Ulduar", 3007}
+A{"Ulduar", 3007, 0.520, 0.580, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Drive Me Crazy (10 player)
-A{"Ulduar", 3008}
+A{"Ulduar", 3008, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Kiss and Make Up (10 player)
-A{"Ulduar", 3009}
+A{"Ulduar", 3009, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Drive Me Crazy (25 player)
-A{"Ulduar", 3010}
+A{"Ulduar", 3010, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Kiss and Make Up (25 player)
-A{"Ulduar", 3011}
+A{"Ulduar", 3011, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: He's Not Getting Any Older (10 player)
-A{"Ulduar", 3012}
+A{"Ulduar", 3012, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: He's Not Getting Any Older (25 player)
-A{"Ulduar", 3013}
+A{"Ulduar", 3013, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: They're Coming Out of the Walls (10 player)
-A{"Ulduar", 3014, criterion=10293} -- Kill 9 Guardians of Yogg-Saron in 12 seconds.
+A{"Ulduar", 3014, 0.690, 0.410, criterion=10293, floor=4} -- Kill 9 Guardians of Yogg-Saron in 12 seconds.
 
 -- Dungeons & Raids/Lich King Raid: In His House He Waits Dreaming (10 player)
-A{"Ulduar", 3015, criterion=10324} -- The Assassination of King Llane
-A{"Ulduar", 3015, criterion=10325} -- The Forging of the Demon Soul
-A{"Ulduar", 3015, criterion=10326} -- The Tortured Champion
+A{"Ulduar", 3015, 0.690, 0.410, criterion=10324, floor=4} -- The Assassination of King Llane
+A{"Ulduar", 3015, 0.690, 0.410, criterion=10325, floor=4} -- The Forging of the Demon Soul
+A{"Ulduar", 3015, 0.690, 0.410, criterion=10326, floor=4} -- The Tortured Champion
 
 -- Dungeons & Raids/Lich King Raid: In His House He Waits Dreaming (25 player)
-A{"Ulduar", 3016, criterion=10322} -- The Forging of the Demon Soul
-A{"Ulduar", 3016, criterion=10323} -- The Tortured Champion
-A{"Ulduar", 3016, criterion=10321} -- The Assassination of King Llane
+A{"Ulduar", 3016, 0.690, 0.410, criterion=10322, floor=4} -- The Forging of the Demon Soul
+A{"Ulduar", 3016, 0.690, 0.410, criterion=10323, floor=4} -- The Tortured Champion
+A{"Ulduar", 3016, 0.690, 0.410, criterion=10321, floor=4} -- The Assassination of King Llane
 
 -- Dungeons & Raids/Lich King Raid: They're Coming Out of the Walls (25 player)
-A{"Ulduar", 3017, criterion=10294} -- Kill 9 Guardians of Yogg-Saron in 12 seconds..
+A{"Ulduar", 3017, 0.690, 0.410, criterion=10294, floor=4} -- Kill 9 Guardians of Yogg-Saron in 12 seconds..
 
 -- Dungeons & Raids/Lich King Raid: Observed (10 player)
-A{"Ulduar", 3036}
+A{"Ulduar", 3036, 0.800, 0.470, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: Observed (25 player)
-A{"Ulduar", 3037}
+A{"Ulduar", 3037, 0.800, 0.470, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: Orbit-uary (10 player)
-A{"Ulduar", 3056}
+A{"Ulduar", 3056, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Orbit-uary (25 player)
-A{"Ulduar", 3057}
+A{"Ulduar", 3057, 0.500, 0.400, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Heartbreaker (10 player)
-A{"Ulduar", 3058}
+A{"Ulduar", 3058, 0.490, 0.160, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Heartbreaker (25 player)
-A{"Ulduar", 3059}
+A{"Ulduar", 3059, 0.490, 0.160, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Nine Lives (10 player)
-A{"Ulduar", 3076}
+A{"Ulduar", 3076, 0.520, 0.580, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Nine Lives (25 player)
-A{"Ulduar", 3077}
+A{"Ulduar", 3077, 0.520, 0.580, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Dwarfageddon (10 player)
-A{"Ulduar", 3097, criterion=10858} -- Steelforged Defenders slain
+A{"Ulduar", 3097, 0.490, 0.710, criterion=10858, floor=1} -- Steelforged Defenders slain
 
 -- Dungeons & Raids/Lich King Raid: Dwarfageddon (25 player)
-A{"Ulduar", 3098, criterion=10860} -- Steelforged Defenders slain
+A{"Ulduar", 3098, 0.490, 0.710, criterion=10860, floor=1} -- Steelforged Defenders slain
 
 -- Dungeons & Raids/Lich King Raid: Lumberjacked (25 player)
-A{"Ulduar", 3118}
+A{"Ulduar", 3118, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Not-So-Friendly Fire (10 player)
-A{"Ulduar", 3138}
+A{"Ulduar", 3138, 0.440, 0.430, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Two Lights in the Darkness (10 player)
-A{"Ulduar", 3141}
+A{"Ulduar", 3141, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Three Lights in the Darkness (10 player)
-A{"Ulduar", 3157}
+A{"Ulduar", 3157, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: One Light in the Darkness (10 player)
-A{"Ulduar", 3158}
+A{"Ulduar", 3158, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Alone in the Darkness (10 player)
-A{"Ulduar", 3159}
+A{"Ulduar", 3159, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Three Lights in the Darkness (25 player)
-A{"Ulduar", 3161}
+A{"Ulduar", 3161, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Two Lights in the Darkness (25 player)
-A{"Ulduar", 3162}
+A{"Ulduar", 3162, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: One Light in the Darkness (25 player)
-A{"Ulduar", 3163}
+A{"Ulduar", 3163, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Alone in the Darkness (25 player)
-A{"Ulduar", 3164}
+A{"Ulduar", 3164, 0.690, 0.410, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Lose Your Illusion (10 player)
-A{"Ulduar", 3176}
+A{"Ulduar", 3176, 0.700, 0.490, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Knock on Wood (10 player)
-A{"Ulduar", 3177}
+A{"Ulduar", 3177, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Knock, Knock on Wood (10 player)
-A{"Ulduar", 3178}
+A{"Ulduar", 3178, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Knock, Knock, Knock on Wood (10 player)
-A{"Ulduar", 3179}
+A{"Ulduar", 3179, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Firefighter (10 player)
-A{"Ulduar", 3180}
+A{"Ulduar", 3180, 0.440, 0.430, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: I Love the Smell of Saronite in the Morning (10 player)
-A{"Ulduar", 3181}
+A{"Ulduar", 3181, 0.570, 0.610, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: I Could Say That This Cache Was Rare (10 player)
-A{"Ulduar", 3182}
+A{"Ulduar", 3182, 0.680, 0.650, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Lose Your Illusion (25 player)
-A{"Ulduar", 3183}
+A{"Ulduar", 3183, 0.700, 0.490, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: I Could Say That This Cache Was Rare (25 player)
-A{"Ulduar", 3184}
+A{"Ulduar", 3184, 0.680, 0.650, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Knock on Wood (25 player)
-A{"Ulduar", 3185}
+A{"Ulduar", 3185, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Knock, Knock on Wood (25 player)
-A{"Ulduar", 3186}
+A{"Ulduar", 3186, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Knock, Knock, Knock on Wood (25 player)
-A{"Ulduar", 3187}
+A{"Ulduar", 3187, 0.540, 0.240, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: I Love the Smell of Saronite in the Morning (25 player)
-A{"Ulduar", 3188}
+A{"Ulduar", 3188, 0.570, 0.610, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Firefighter (25 player)
-A{"Ulduar", 3189}
+A{"Ulduar", 3189, 0.440, 0.430, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Set Up Us the Bomb (25 player)
-A{"Ulduar", 3237, criterion=10548} -- A Bomb Bot
-A{"Ulduar", 3237, criterion=10546} -- A Proximity Mine
-A{"Ulduar", 3237, criterion=10547} -- A Rocket Strike
+A{"Ulduar", 3237, 0.440, 0.430, criterion=10548, floor=5} -- A Bomb Bot
+A{"Ulduar", 3237, 0.440, 0.430, criterion=10546, floor=5} -- A Proximity Mine
+A{"Ulduar", 3237, 0.440, 0.430, criterion=10547, floor=5} -- A Rocket Strike
 
 -- Dungeons & Raids/Lich King Dungeon: Halls of Stone
-A{"Ulduar77", 485, criterion=5452} -- Maiden of Grief
-A{"Ulduar77", 485, criterion=5453} -- Krystallus
-A{"Ulduar77", 485, criterion=5454} -- Sjonnir the Ironshaper
-A{"Ulduar77", 485, criterion=6935} -- The Tribunal of Ages
+A{"Ulduar77", 485, 0.505, 0.870, criterion=5452} -- Maiden of Grief
+A{"Ulduar77", 485, 0.405, 0.615, criterion=5453} -- Krystallus
+A{"Ulduar77", 485, 0.500, 0.140, criterion=5454} -- Sjonnir the Ironshaper
+A{"Ulduar77", 485, 0.850, 0.770, criterion=6935} -- The Tribunal of Ages
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: Halls of Stone
-A{"Ulduar77", 496, criterion=6936} -- The Tribunal of Ages
-A{"Ulduar77", 496, criterion=6856} -- Maiden of Grief
-A{"Ulduar77", 496, criterion=6857} -- Krystallus
-A{"Ulduar77", 496, criterion=5615} -- Sjonnir the Ironshaper
+A{"Ulduar77", 496, 0.850, 0.770, criterion=6936} -- The Tribunal of Ages
+A{"Ulduar77", 496, 0.505, 0.870, criterion=6856} -- Maiden of Grief
+A{"Ulduar77", 496, 0.405, 0.615, criterion=6857} -- Krystallus
+A{"Ulduar77", 496, 0.500, 0.140, criterion=5615} -- Sjonnir the Ironshaper
 
 -- Dungeons & Raids: Northrend Dungeonmaster
-A{"Ulduar77", 1288, criterion=4048} -- Halls of Stone
+A{"Ulduar77", 1288, 0.500, 0.140, criterion=4048} -- Halls of Stone
 
 -- Dungeons & Raids: Northrend Dungeon Hero
-A{"Ulduar77", 1289, criterion=4064} -- Heroic Halls of Stone
+A{"Ulduar77", 1289, 0.500, 0.140, criterion=4064} -- Heroic Halls of Stone
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"Ulduar77", 1658, criterion=5615} -- Heroic: Sjonnir the Ironshaper
+A{"Ulduar77", 1658, 0.500, 0.140, criterion=5615} -- Heroic: Sjonnir the Ironshaper
 
 -- Dungeons & Raids/Lich King Dungeon: Good Grief
-A{"Ulduar77", 1866}
+A{"Ulduar77", 1866, 0.500, 0.870}
 
 -- Dungeons & Raids: Glory of the Hero
-A{"Ulduar77", 2136, criterion=7515} -- Good Grief
-A{"Ulduar77", 2136, criterion=7594} -- Abuse the Ooze
-A{"Ulduar77", 2136, criterion=7591} -- Brann Spankin' New
+A{"Ulduar77", 2136, 0.500, 0.870, criterion=7515} -- Good Grief
+A{"Ulduar77", 2136, 0.500, 0.140, criterion=7594} -- Abuse the Ooze
+A{"Ulduar77", 2136, 0.850, 0.770, criterion=7591} -- Brann Spankin' New
 
 -- Dungeons & Raids/Lich King Dungeon: Brann Spankin' New
-A{"Ulduar77", 2154}
+A{"Ulduar77", 2154, 0.850, 0.770}
 
 -- Dungeons & Raids/Lich King Dungeon: Abuse the Ooze
-A{"Ulduar77", 2155}
+A{"Ulduar77", 2155, 0.500, 0.140}
 
 -- Dungeons & Raids/Lich King Dungeon: Utgarde Keep
 A{"UtgardeKeep", 477, criterion=5378} -- Skarvald the Constructor
@@ -2444,22 +2479,22 @@ A{"VaultofArchavon", 4016}
 A{"VaultofArchavon", 4017}
 
 -- Dungeons & Raids/Lich King Dungeon: The Violet Hold
-A{"VioletHold", 483}
+A{"VioletHold", 483, 0.450, 0.560}
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: The Violet Hold
-A{"VioletHold", 494}
+A{"VioletHold", 494, 0.450, 0.560}
 
 -- Dungeons & Raids: Northrend Dungeonmaster
-A{"VioletHold", 1288, criterion=4046} -- The Violet Hold
+A{"VioletHold", 1288, 0.450, 0.560, criterion=4046} -- The Violet Hold
 
 -- Dungeons & Raids: Northrend Dungeon Hero
-A{"VioletHold", 1289, criterion=4062} -- Heroic The Violet Hold
+A{"VioletHold", 1289, 0.450, 0.560, criterion=4062} -- Heroic The Violet Hold
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"VioletHold", 1658, criterion=5613} -- Heroic: Cyanigosa
+A{"VioletHold", 1658, 0.450, 0.560, criterion=5613} -- Heroic: Cyanigosa
 
 -- Dungeons & Raids/Lich King Dungeon: Defenseless
-A{"VioletHold", 1816}
+A{"VioletHold", 1816, 0.450, 0.560}
 
 -- Dungeons & Raids/Lich King Dungeon: Lockdown!
 A{"VioletHold", 1865, criterion=7140} -- Zuramat the Obliterator
@@ -2475,11 +2510,11 @@ A{"VioletHold", 2041}
 -- Dungeons & Raids: Glory of the Hero
 A{"VioletHold", 2136, criterion=7510} -- Lockdown!
 A{"VioletHold", 2136, criterion=7511} -- Dehydration
-A{"VioletHold", 2136, criterion=7509} -- Defenseless
-A{"VioletHold", 2136, criterion=7588} -- A Void Dance
+A{"VioletHold", 2136, 0.450, 0.560, criterion=7509} -- Defenseless
+A{"VioletHold", 2136, 0.300, 0.340, criterion=7588} -- A Void Dance
 
 -- Dungeons & Raids/Lich King Dungeon: A Void Dance
-A{"VioletHold", 2153}
+A{"VioletHold", 2153, 0.300, 0.340}
 
 -- Dungeons & Raids/Classic: Wailing Caverns
 A{"WailingCaverns", 630}

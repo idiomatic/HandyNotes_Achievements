@@ -1753,24 +1753,6 @@ A{"GrizzlylHills", 10015, criterion=27762, note="from Remington Brode\n1. Breath
 -- Garrisons: Full Discography
 A{"GrizzlylHills", 10016, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
 
--- Garrisons: Ten Hit Tunes
-A{"HallsofLightning", 9828, criterion=27763, note="drop from Loken"} -- Mountains of Thunder
-
--- Garrisons: Ten Hit Tunes
-A{"HallsofLightning", 9897, criterion=27763, note="drop from Loken"} -- Mountains of Thunder
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"HallsofLightning", 9912, criterion=27763, note="drop from Loken"} -- Mountains of Thunder
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"HallsofLightning", 9914, criterion=27763, note="drop from Loken"} -- Mountains of Thunder
-
--- Garrisons: Full Discography
-A{"HallsofLightning", 10015, criterion=27763, note="drop from Loken"} -- Mountains of Thunder
-
--- Garrisons: Full Discography
-A{"HallsofLightning", 10016, criterion=27763, note="drop from Loken"} -- Mountains of Thunder
-
 -- Dungeons & Raids/Pandaria Raid: I Heard You Like Amber...
 A{"HeartofFear", 6518}
 
@@ -3282,38 +3264,6 @@ A{"NagrandDraenor", 9923, criterion=27552} -- Nagrandeur
 
 -- Exploration: Field Photographer
 A{"NagrandDraenor", 9924, 0.730, 0.210, criterion=27962} -- Throne of the Elements
-
--- Feats of Strength: Realm First! Conqueror of Naxxramas
-A{"Naxxramas", 1402}
-
--- Legacy: The Immortal
-A{"Naxxramas", 2186}
-
--- Legacy: The Undying
-A{"Naxxramas", 2187}
-
--- Pet Battles/Collect: Raiding with Leashes
-A{"Naxxramas", 7934, criterion=22470, note="from Maexxna"} -- Giant Bone Spider
-A{"Naxxramas", 7934, criterion=22471, note="from Loatheb"} -- Fungal Abomination
-A{"Naxxramas", 7934, criterion=22473, note="from Gluth"} -- Stitched Pup
-
--- Garrisons: Ten Hit Tunes
-A{"Naxxramas", 9828, criterion=27712, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
-
--- Garrisons: Ten Hit Tunes
-A{"Naxxramas", 9897, criterion=27712, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"Naxxramas", 9912, criterion=27712, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"Naxxramas", 9914, criterion=27712, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
-
--- Garrisons: Full Discography
-A{"Naxxramas", 10015, criterion=27712, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
-
--- Garrisons: Full Discography
-A{"Naxxramas", 10016, criterion=27712, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
 
 -- Quests/Outland: Into the Nether
 A{"Netherstorm", 1194, criterion=3588} -- 120 Netherstorm quests
@@ -5144,6 +5094,9 @@ A{"TheStormPeaks", 6588, criterion=21779, note="zone exclusive"} -- Arctic Fox K
 -- Pet Battles/Collect: Northrend Tamer
 A{"TheStormPeaks", 6615, criterion=21484} -- Storm Peaks
 
+-- Collections/Toy Box: Crashin' Thrashin' Commander
+A{"TheStormPeaks", 10354, 0.288, 0.741, item="43499", note="10x Relic of Ulduar"} -- Iron Boot Flask
+
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"ThousandNeedles", 1678, criterion=15241} -- Thousand Needles Quests
 
@@ -5854,22 +5807,22 @@ A{"Ulduar", 2903}
 A{"Ulduar", 2904}
 
 -- Feats of Strength: He Feeds On Your Tears (10 player)
-A{"Ulduar", 3004}
+A{"Ulduar", 3004, 0.800, 0.470, floor=2}
 
 -- Feats of Strength: He Feeds On Your Tears (25 player)
-A{"Ulduar", 3005}
+A{"Ulduar", 3005, 0.800, 0.470, floor=2}
 
 -- Feats of Strength: Realm First! Death's Demise
-A{"Ulduar", 3117}
+A{"Ulduar", 3117, 0.690, 0.410, floor=4}
 
 -- Feats of Strength: Realm First! Celestial Defender
-A{"Ulduar", 3259}
+A{"Ulduar", 3259, 0.800, 0.470, floor=2}
 
 -- Feats of Strength: Herald of the Titans
-A{"Ulduar", 3316}
+A{"Ulduar", 3316, 0.800, 0.470, floor=2}
 
 -- Feats of Strength: And I'll Form the Head!
-A{"Ulduar", 4626}
+A{"Ulduar", 4626, 0.690, 0.410, floor=4}
 
 -- General: To All The Squirrels I've Loved Before
 A{"Uldum", 1206, 0.516, 0.496, criterion=0} -- Sheep

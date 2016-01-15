@@ -696,12 +696,6 @@ A{"TwinPeaks", 5231}
 -- Player vs. Player/Twin Peaks: Double Jeopardy
 A{"TwinPeaks", 5552}
 
--- Player vs. Player/Wintergrasp: Emalon the Storm Watcher (10 player)
-A{"Ulduar", 3136}
-
--- Player vs. Player/Wintergrasp: Emalon the Storm Watcher (25 player)
-A{"Ulduar", 3137}
-
 -- Player vs. Player/Arena: World Wide Winner
 A{"Uldum", 699, criterion=21042} -- Tol'Viron Arena
 

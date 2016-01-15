@@ -51,6 +51,15 @@ A{"MogushanPalace", 6920, criterion=19864} -- Mogu'shan Palace
 -- Feats of Strength: Challenge Master: Mogu'shan Palace
 A{"MogushanPalace", 8433}
 
+-- Feats of Strength: Realm First! Conqueror of Naxxramas
+A{"Naxxramas", 1402, 0.370, 0.230, floor=6}
+
+-- Legacy: The Immortal
+A{"Naxxramas", 2186}
+
+-- Legacy: The Undying
+A{"Naxxramas", 2187}
+
 -- Legacy: Challenge Conqueror: Bronze
 A{"ScarletHalls", 6374, criterion=19879} -- Scarlet Halls
 
