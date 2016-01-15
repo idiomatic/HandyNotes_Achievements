@@ -1,11 +1,12 @@
 ## Interface: 60200
 ## Title: HandyNotes: Achievements
 ## Description: Shows location of incomplete achievements
-## Version: 0.4.2
+## Version: 0.4.3
 ## Author: rbrian
 ## Dependencies: HandyNotes
 ## SavedVariablesPerCharacter: HandyNotes_Achievements_CleanContinents
 ## SavedVariablesPerCharacter: HandyNotes_Achievements_ShowCompleted
+## SavedVariablesPerCharacter: HandyNotes_Achievements_ShowJustMine
 ## X-Category: Map & Minimap
 ## X-Curse-Project-Name: HandyNotes: Achievements
 ## X-Email: brian@rbrian.com
