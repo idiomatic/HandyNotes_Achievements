@@ -115,6 +115,7 @@ function HNA:OnClick(button, down, mapFile, coord)
         AchievementFrame_LoadUI()
     end
     -- XXX ...
+    local achievementID = activeNodes[mapFile][2][1]
     if achievementID then
         ShowUIPanel(AchievementFrame)
         AchievementFrame_SelectAchievement(achievementID)
