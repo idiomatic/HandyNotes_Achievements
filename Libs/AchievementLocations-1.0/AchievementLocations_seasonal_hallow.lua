@@ -271,7 +271,10 @@ A{"Orgrimmar", 965, criterion=2113} -- Orgrimmar, Valley of Strength
 A{"Redridge", 966, criterion=2139} -- Redridge Mountains, Lakeshire
 
 -- World Events/Hallow's End: Bring Me The Head of... Oh Wait
-A{"ScarletMonastery", 255}
+A{"ScarletMonastery", 255, 0.444, 0.550, floor=1}
+
+-- Feats of Strength: The Horseman's Reins
+A{"ScarletMonastery", 980, 0.444, 0.550, floor=1}
 
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"SearingGorge", 966, criterion=18430} -- Searing Gorge, Iron Summit

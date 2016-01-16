@@ -708,24 +708,6 @@ A{"Undercity", 612, 0.580, 0.920}
 -- Player vs. Player: For The Alliance!
 A{"Undercity", 614, 0.580, 0.920, criterion=486} -- Downing the Dark Lady
 
--- Player vs. Player/Wintergrasp: Archavon the Stone Watcher (25 player)
-A{"VaultofArchavon", 1721}
-
--- Player vs. Player/Wintergrasp: Archavon the Stone Watcher (10 player)
-A{"VaultofArchavon", 1722}
-
--- Player vs. Player/Wintergrasp: Koralon the Flame Watcher (10 player)
-A{"VaultofArchavon", 3836}
-
--- Player vs. Player/Wintergrasp: Koralon the Flame Watcher (25 player)
-A{"VaultofArchavon", 3837}
-
--- Player vs. Player/Wintergrasp: Toravon the Ice Watcher (10 player)
-A{"VaultofArchavon", 4585}
-
--- Player vs. Player/Wintergrasp: Toravon the Ice Watcher (25 player)
-A{"VaultofArchavon", 4586}
-
 -- Player vs. Player/Warsong Gulch: Warsong Gulch Victory
 A{"WarsongGulch", 166}
 

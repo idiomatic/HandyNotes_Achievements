@@ -4,4 +4,4 @@ local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
 -- World Events/Brewfest: Direbrewfest
-A{"BlackrockDepths", 295}
+A{"BlackrockDepths", 295, 0.466, 0.600, floor=2}

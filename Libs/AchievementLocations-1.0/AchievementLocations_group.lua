@@ -3,6 +3,12 @@
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
+-- Dungeons & Raids/Cataclysm Raid: Only the Penitent...
+A{"Firelands", 5799}
+
+-- Dungeons & Raids: Glory of the Firelands Raider
+A{"Firelands", 5828, criterion=17582} -- Only the Penitent...
+
 -- Dungeons & Raids/Pandaria Dungeon: School's Out Forever
 A{"Scholomance", 6821, criterion=19807} -- Kill 50 Expired Test Subjects in 20 seconds
 

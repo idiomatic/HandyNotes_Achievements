@@ -4,46 +4,54 @@ local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
 -- Dungeons & Raids/Lich King Dungeon: Ahn'kahet: The Old Kingdom
-A{"Ahnkahet", 481, criterion=5439} -- Prince Taldaram
-A{"Ahnkahet", 481, criterion=5440} -- Elder Nadox
-A{"Ahnkahet", 481, criterion=5442} -- Herald Volazj
-A{"Ahnkahet", 481, criterion=5441} -- Jedoga Shadowseeker
+A{"Ahnkahet", 481, 0.631, 0.495, criterion=5439, floor=1} -- Prince Taldaram
+A{"Ahnkahet", 481, 0.696, 0.270, criterion=5440, floor=1} -- Elder Nadox
+A{"Ahnkahet", 481, 0.236, 0.504, criterion=5442, floor=1} -- Herald Volazj
+A{"Ahnkahet", 481, 0.482, 0.725, criterion=5441, floor=1} -- Jedoga Shadowseeker
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: Ahn'kahet: The Old Kingdom
-A{"Ahnkahet", 492, criterion=6851} -- Prince Taldaram
-A{"Ahnkahet", 492, criterion=5054} -- Amanitar
-A{"Ahnkahet", 492, criterion=6852} -- Elder Nadox
-A{"Ahnkahet", 492, criterion=6853} -- Jedoga Shadowseeker
-A{"Ahnkahet", 492, criterion=5611} -- Herald Volazj
+A{"Ahnkahet", 492, 0.631, 0.495, criterion=6851, floor=1} -- Prince Taldaram
+A{"Ahnkahet", 492, 0.672, 0.786, criterion=5054, floor=1} -- Amanitar
+A{"Ahnkahet", 492, 0.696, 0.270, criterion=6852, floor=1} -- Elder Nadox
+A{"Ahnkahet", 492, 0.482, 0.725, criterion=6853, floor=1} -- Jedoga Shadowseeker
+A{"Ahnkahet", 492, 0.236, 0.504, criterion=5611, floor=1} -- Herald Volazj
 
 -- Dungeons & Raids: Northrend Dungeonmaster
-A{"Ahnkahet", 1288, criterion=4044} -- Ahn'kahet: The Old Kingdom
+A{"Ahnkahet", 1288, 0.236, 0.504, criterion=4044, floor=1} -- Ahn'kahet: The Old Kingdom
 
 -- Dungeons & Raids: Northrend Dungeon Hero
-A{"Ahnkahet", 1289, criterion=4060} -- Heroic Ahn'kahet: The Old Kingdom
+A{"Ahnkahet", 1289, 0.236, 0.504, criterion=4060, floor=1} -- Heroic Ahn'kahet: The Old Kingdom
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"Ahnkahet", 1658, criterion=5611} -- Heroic: Herald Volazj
+A{"Ahnkahet", 1658, 0.236, 0.504, criterion=5611, floor=1} -- Heroic: Herald Volazj
 
 -- Dungeons & Raids/Lich King Dungeon: Volazj's Quick Demise
-A{"Ahnkahet", 1862}
+A{"Ahnkahet", 1862, 0.236, 0.504, floor=1}
 
 -- Dungeons & Raids/Lich King Dungeon: Respect Your Elders
-A{"Ahnkahet", 2038}
+A{"Ahnkahet", 2038, 0.696, 0.270, floor=1}
 
 -- Dungeons & Raids/Lich King Dungeon: Volunteer Work
-A{"Ahnkahet", 2056}
+A{"Ahnkahet", 2056, 0.482, 0.725, floor=1}
 
 -- Dungeons & Raids: Glory of the Hero
-A{"Ahnkahet", 2136, criterion=7503} -- Volazj's Quick Demise
-A{"Ahnkahet", 2136, criterion=7506} -- Volunteer Work
-A{"Ahnkahet", 2136, criterion=7505} -- Respect Your Elders
+A{"Ahnkahet", 2136, 0.236, 0.504, criterion=7503, floor=1} -- Volazj's Quick Demise
+A{"Ahnkahet", 2136, 0.482, 0.725, criterion=7506, floor=1} -- Volunteer Work
+A{"Ahnkahet", 2136, 0.696, 0.270, criterion=7505, floor=1} -- Respect Your Elders
+
+-- Feats of Strength: Why? Because It's Red
+A{"AhnQiraj", 424}
 
 -- Dungeons & Raids/Classic: Temple of Ahn'Qiraj
 A{"AhnQiraj", 687}
 
 -- Dungeons & Raids: Classic Raider
 A{"AhnQiraj", 1285, criterion=4011} -- Temple of Ahn'Qiraj
+
+-- Pet Battles/Collect: Raiding with Leashes
+A{"AhnQiraj", 7934, 0.445, 0.451, criterion=22468, floor=2, note="from the Prophet Skeram"} -- Mini Mindslayer
+A{"AhnQiraj", 7934, 0.615, 0.657, criterion=22469, floor=1, note="from Emperor Vek'lor"} -- Anubisath Idol
+A{"AhnQiraj", 7934, 0.720, 0.180, criterion=22480, floor=1, note="from Viscidus"} -- Viscidus Globule
 
 -- Dungeons & Raids/The Burning Crusade: Auchenai Crypts
 A{"AuchenaiCrypts", 666}
@@ -58,40 +66,40 @@ A{"AuchenaiCrypts", 1284, criterion=3980} -- Auchenai Crypts
 A{"AuchenaiCrypts", 1287, criterion=4039} -- Heroic Auchenai Crypts
 
 -- Dungeons & Raids/Lich King Dungeon: Azjol-Nerub
-A{"AzjolNerub", 480, criterion=5436} -- Krik'thir the Gatewatcher
-A{"AzjolNerub", 480, criterion=5437} -- Hadronox
-A{"AzjolNerub", 480, criterion=5438} -- Anub'arak
+A{"AzjolNerub", 480, 0.501, 0.450, criterion=5436, floor=3} -- Krik'thir the Gatewatcher
+A{"AzjolNerub", 480, 0.431, 0.594, criterion=5437, floor=2} -- Hadronox
+A{"AzjolNerub", 480, 0.621, 0.487, criterion=5438, floor=1} -- Anub'arak
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: Azjol-Nerub
-A{"AzjolNerub", 491, criterion=6848} -- Krik'thir the Gatewatcher
-A{"AzjolNerub", 491, criterion=6849} -- Hadronox
-A{"AzjolNerub", 491, criterion=5610} -- Anub'arak
+A{"AzjolNerub", 491, 0.501, 0.450, criterion=6848, floor=3} -- Krik'thir the Gatewatcher
+A{"AzjolNerub", 491, 0.431, 0.594, criterion=6849, floor=2} -- Hadronox
+A{"AzjolNerub", 491, 0.621, 0.487, criterion=5610, floor=1} -- Anub'arak
 
 -- Dungeons & Raids: Northrend Dungeonmaster
-A{"AzjolNerub", 1288, criterion=4043} -- Azjol-Nerub
+A{"AzjolNerub", 1288, 0.621, 0.487, criterion=4043, floor=1} -- Azjol-Nerub
 
 -- Dungeons & Raids: Northrend Dungeon Hero
-A{"AzjolNerub", 1289, criterion=4059} -- Heroic Azjol-Nerub
+A{"AzjolNerub", 1289, 0.621, 0.487, criterion=4059, floor=1} -- Heroic Azjol-Nerub
 
 -- Dungeons & Raids/Lich King Dungeon: Watch Him Die
-A{"AzjolNerub", 1296}
+A{"AzjolNerub", 1296, 0.501, 0.450, floor=3}
 
 -- Dungeons & Raids/Lich King Dungeon: Hadronox Denied
-A{"AzjolNerub", 1297}
+A{"AzjolNerub", 1297, 0.431, 0.594, floor=2}
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"AzjolNerub", 1658, criterion=5610} -- Heroic: Anub'arak
+A{"AzjolNerub", 1658, 0.621, 0.487, criterion=5610, floor=1} -- Heroic: Anub'arak
 
 -- Dungeons & Raids/Lich King Dungeon: Gotta Go!
-A{"AzjolNerub", 1860}
+A{"AzjolNerub", 1860, 0.621, 0.487, floor=1}
 
 -- Dungeons & Raids: Glory of the Hero
-A{"AzjolNerub", 2136, criterion=7500} -- Hadronox Denied
-A{"AzjolNerub", 2136, criterion=7501} -- Gotta Go!
-A{"AzjolNerub", 2136, criterion=7499} -- Watch Him Die
+A{"AzjolNerub", 2136, 0.431, 0.594, criterion=7500, floor=2} -- Hadronox Denied
+A{"AzjolNerub", 2136, 0.621, 0.487, criterion=7501, floor=1} -- Gotta Go!
+A{"AzjolNerub", 2136, 0.501, 0.450, criterion=7499, floor=3} -- Watch Him Die
 
 -- Dungeons & Raids/Classic: Blackfathom Deeps
-A{"BlackfathomDeeps", 632}
+A{"BlackfathomDeeps", 632, 0.855, 0.864, floor=2}
 
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"BlackfathomDeeps", 1283, criterion=3953} -- Blackrock Depths
@@ -115,73 +123,145 @@ A{"BlackrockCaverns", 5283}
 -- Dungeons & Raids/Cataclysm Dungeon: Ascendant Descending
 A{"BlackrockCaverns", 5284}
 
+-- Dungeons & Raids: Defender of a Shattered World
+A{"BlackrockCaverns", 5506, criterion=13550} -- Heroic: Blackrock Caverns
+
 -- Dungeons & Raids/Classic: Blackrock Depths
-A{"BlackrockDepths", 642}
+A{"BlackrockDepths", 642, 0.909, 0.118, floor=2}
 
 -- Dungeons & Raids/Classic: Lower Blackrock Spire
-A{"BlackrockSpire", 643}
+A{"BlackrockSpire", 643, 0.557, 0.566, floor=6}
 
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"BlackrockSpire", 1283, criterion=3954} -- Blackrock Spire
 
 -- Dungeons & Raids/The Burning Crusade: The Black Temple
-A{"BlackTemple", 697}
+A{"BlackTemple", 697, 0.526, 0.602, floor=8}
+
+-- Reputation/The Burning Crusade: Sworn to the Deathsworn
+A{"BlackTemple", 958}
 
 -- Dungeons & Raids: Outland Raider
-A{"BlackTemple", 1286, criterion=4021} -- The Black Temple
+A{"BlackTemple", 1286, 0.526, 0.602, criterion=4021, floor=8} -- The Black Temple
+
+-- Pet Battles/Collect: Raiding with Leashes III: Drinkin' From the Sunwell
+A{"BlackTemple", 9824, criterion=27571, note="from Reliquary of the Lost"} -- Fragment of Suffering
+A{"BlackTemple", 9824, criterion=27572, note="from Reliquary of the Lost"} -- Fragment of Desire
+A{"BlackTemple", 9824, 0.658, 0.370, criterion=27573, floor=6, note="from Mother Shahraz"} -- Sister of Temptation
+A{"BlackTemple", 9824, 0.430, 0.190, criterion=27568, floor=2, note="from High Warlord Naj'entus"} -- Leviathan Hatchling
+A{"BlackTemple", 9824, 0.640, 0.474, criterion=27569, floor=1, note="from Supremus"} -- Abyssius
+A{"BlackTemple", 9824, criterion=27570, note="from Reliquary of the Lost"} -- Fragment of Anger
+
+-- Garrisons: Ten Hit Tunes
+A{"BlackTemple", 9828, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage"} -- The Burning Legion
+
+-- Garrisons: Ten Hit Tunes
+A{"BlackTemple", 9897, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage"} -- The Burning Legion
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"BlackTemple", 9912, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage"} -- The Burning Legion
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"BlackTemple", 9914, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage"} -- The Burning Legion
+
+-- Garrisons: Full Discography
+A{"BlackTemple", 10015, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage"} -- The Burning Legion
+
+-- Garrisons: Full Discography
+A{"BlackTemple", 10016, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage"} -- The Burning Legion
 
 -- Dungeons & Raids/Cataclysm Raid: Blackwing Descent
-A{"BlackwingDescent", 4842, criterion=13537} -- Magmaw
-A{"BlackwingDescent", 4842, criterion=13538} -- Omnotron Defense System
-A{"BlackwingDescent", 4842, criterion=13539} -- Maloriak
-A{"BlackwingDescent", 4842, criterion=13540} -- Chimaeron
-A{"BlackwingDescent", 4842, criterion=13541} -- Atramedes
-A{"BlackwingDescent", 4842, criterion=13542} -- Nefarian
+A{"BlackwingDescent", 4842, 0.275, 0.574, criterion=13537, floor=1} -- Magmaw
+A{"BlackwingDescent", 4842, 0.654, 0.574, criterion=13538, floor=1} -- Omnotron Defense System
+A{"BlackwingDescent", 4842, 0.714, 0.702, criterion=13539, floor=2} -- Maloriak
+A{"BlackwingDescent", 4842, 0.245, 0.702, criterion=13540, floor=2} -- Chimaeron
+A{"BlackwingDescent", 4842, 0.475, 0.327, criterion=13541, floor=2} -- Atramedes
+A{"BlackwingDescent", 4842, 0.480, 0.702, criterion=13542, floor=2} -- Nefarian
 
 -- Dungeons & Raids/Cataclysm Raid: Keeping it in the Family
-A{"BlackwingDescent", 4849}
+A{"BlackwingDescent", 4849, 0.480, 0.702, floor=2}
+
+-- Dungeons & Raids: Glory of the Cataclysm Raider
+A{"BlackwingDescent", 4853, 0.654, 0.574, criterion=15266, floor=1} -- Achieve-a-tron
+A{"BlackwingDescent", 4853, 0.475, 0.327, criterion=15267, floor=2} -- Silence is Golden
+A{"BlackwingDescent", 4853, 0.245, 0.702, criterion=15268, floor=2} -- Full of Sound and Fury
+A{"BlackwingDescent", 4853, 0.714, 0.702, criterion=15269, floor=2, note="[Aberrant Behvaior]"} -- Abberant Behavior
+A{"BlackwingDescent", 4853, 0.480, 0.702, criterion=15270, floor=2} -- Keeping it in the Family
+A{"BlackwingDescent", 4853, 0.275, 0.574, criterion=15265, floor=1} -- Parasite Evening
+A{"BlackwingDescent", 4853, 0.275, 0.574, criterion=15676, floor=1} -- Heroic: Magmaw
+A{"BlackwingDescent", 4853, 0.714, 0.702, criterion=15678, floor=2} -- Heroic: Maloriak
+A{"BlackwingDescent", 4853, 0.245, 0.702, criterion=15680, floor=2} -- Heroic: Chimaeron
+A{"BlackwingDescent", 4853, 0.480, 0.702, criterion=15681, floor=2} -- Heroic: Nefarian
+A{"BlackwingDescent", 4853, 0.654, 0.574, criterion=15677, floor=1, note="[Heroic: Omnotron Defense System]"} -- Heroic: Golem Council
+A{"BlackwingDescent", 4853, 0.475, 0.327, criterion=15679, floor=2} -- Heroic: Atramedes
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Magmaw
-A{"BlackwingDescent", 5094}
+A{"BlackwingDescent", 5094, 0.275, 0.574, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Omnotron Defense System
-A{"BlackwingDescent", 5107}
+A{"BlackwingDescent", 5107, 0.654, 0.574, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Maloriak
-A{"BlackwingDescent", 5108}
+A{"BlackwingDescent", 5108, 0.714, 0.702, floor=2}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Atramedes
-A{"BlackwingDescent", 5109}
+A{"BlackwingDescent", 5109, 0.475, 0.327, floor=2}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Chimaeron
-A{"BlackwingDescent", 5115}
+A{"BlackwingDescent", 5115, 0.245, 0.702, floor=2}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Nefarian
-A{"BlackwingDescent", 5116}
+A{"BlackwingDescent", 5116, 0.480, 0.702, floor=2}
 
 -- Dungeons & Raids/Cataclysm Raid: Parasite Evening
-A{"BlackwingDescent", 5306}
+A{"BlackwingDescent", 5306, 0.275, 0.574, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Achieve-a-tron
-A{"BlackwingDescent", 5307, criterion=15651} -- No player hit by Static Shock
-A{"BlackwingDescent", 5307, criterion=15652} -- No player hit by Poison Bomb
-A{"BlackwingDescent", 5307, criterion=15653} -- No player hit by Arcane Annihilator
-A{"BlackwingDescent", 5307, criterion=15654} -- No more than one player hit by each Flamethrower
+A{"BlackwingDescent", 5307, 0.654, 0.574, criterion=15651, floor=1} -- No player hit by Static Shock
+A{"BlackwingDescent", 5307, 0.654, 0.574, criterion=15652, floor=1} -- No player hit by Poison Bomb
+A{"BlackwingDescent", 5307, 0.654, 0.574, criterion=15653, floor=1} -- No player hit by Arcane Annihilator
+A{"BlackwingDescent", 5307, 0.654, 0.574, criterion=15654, floor=1} -- No more than one player hit by each Flamethrower
 
 -- Dungeons & Raids/Cataclysm Raid: Silence is Golden
-A{"BlackwingDescent", 5308}
+A{"BlackwingDescent", 5308, 0.475, 0.327, floor=2}
 
 -- Dungeons & Raids/Cataclysm Raid: Full of Sound and Fury
-A{"BlackwingDescent", 5309}
+A{"BlackwingDescent", 5309, 0.245, 0.702, floor=2}
 
 -- Dungeons & Raids/Cataclysm Raid: Aberrant Behavior
-A{"BlackwingDescent", 5310, criterion=16014} -- Kill 12 Aberrations
+A{"BlackwingDescent", 5310, 0.714, 0.702, criterion=16014, floor=2} -- Kill 12 Aberrations
+
+-- Dungeons & Raids: Defender of a Shattered World
+A{"BlackwingDescent", 5506, 0.480, 0.702, criterion=16059, floor=2} -- Blackwing Descent
+
+-- Garrisons: Ten Hit Tunes
+A{"BlackwingDescent", 9828, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian"} -- Legends of Azeroth
+
+-- Garrisons: Ten Hit Tunes
+A{"BlackwingDescent", 9897, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian"} -- Legends of Azeroth
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"BlackwingDescent", 9912, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian"} -- Legends of Azeroth
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"BlackwingDescent", 9914, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian"} -- Legends of Azeroth
+
+-- Garrisons: Full Discography
+A{"BlackwingDescent", 10015, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian"} -- Legends of Azeroth
+
+-- Garrisons: Full Discography
+A{"BlackwingDescent", 10016, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian"} -- Legends of Azeroth
 
 -- Dungeons & Raids/Classic: Blackwing Lair
-A{"BlackwingLair", 685}
+A{"BlackwingLair", 685, 0.740, 0.704, floor=4}
 
 -- Dungeons & Raids: Classic Raider
-A{"BlackwingLair", 1285, criterion=4009} -- Blackwing Lair
+A{"BlackwingLair", 1285, 0.740, 0.704, criterion=4009, floor=4} -- Blackwing Lair
+
+-- Pet Battles/Collect: Raiding with Leashes
+A{"BlackwingLair", 7934, 0.360, 0.668, criterion=22477, floor=1, note="from Razormore the Untamed"} -- Untamed Hatchling
+A{"BlackwingLair", 7934, 0.468, 0.656, criterion=22478, floor=4, note="from Chromaggus"} -- Chrominius
+A{"BlackwingLair", 7934, 0.484, 0.572, criterion=22479, floor=3, note="from Broodlord Lashlayer"} -- Death Talon Whelpguard
 
 -- Dungeons & Raids/The Burning Crusade: Serpentshrine Cavern
 A{"CoilfangReservoir", 694}
@@ -213,35 +293,38 @@ A{"CoTMountHyjal", 9824, 0.777, 0.347, criterion=27575, note="from Archimonde"} 
 A{"CoTMountHyjal", 9824, 0.430, 0.360, criterion=27567, note="from Azgalor"} -- Grotesque
 
 -- Dungeons & Raids/Lich King Dungeon: The Culling of Stratholme
-A{"CoTStratholme", 479, criterion=5467} -- Meathook
-A{"CoTStratholme", 479, criterion=5469} -- Salramm the Fleshcrafter
-A{"CoTStratholme", 479, criterion=6433} -- Mal'Ganis
-A{"CoTStratholme", 479, criterion=5468} -- Chrono-Lord Epoch
+A{"CoTStratholme", 479, 0.566, 0.592, criterion=5467, floor=2} -- Meathook
+A{"CoTStratholme", 479, 0.591, 0.401, criterion=5469, floor=2} -- Salramm the Fleshcrafter
+A{"CoTStratholme", 479, 0.325, 0.459, criterion=6433, floor=2} -- Mal'Ganis
+A{"CoTStratholme", 479, 0.658, 0.258, criterion=5468, floor=2} -- Chrono-Lord Epoch
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: The Culling of Stratholme
-A{"CoTStratholme", 500, criterion=6807} -- Salramm the Fleshcrafter
-A{"CoTStratholme", 500, criterion=6805} -- Meathook
-A{"CoTStratholme", 500, criterion=6434} -- Mal'Ganis
-A{"CoTStratholme", 500, criterion=6806} -- Chrono-Lord Epoch
+A{"CoTStratholme", 500, 0.591, 0.401, criterion=6807, floor=2} -- Salramm the Fleshcrafter
+A{"CoTStratholme", 500, 0.566, 0.592, criterion=6805, floor=2} -- Meathook
+A{"CoTStratholme", 500, 0.325, 0.459, criterion=6434, floor=2} -- Mal'Ganis
+A{"CoTStratholme", 500, 0.658, 0.258, criterion=6806, floor=2} -- Chrono-Lord Epoch
 
 -- Dungeons & Raids: Northrend Dungeonmaster
-A{"CoTStratholme", 1288, criterion=4042} -- Caverns of Time: Stratholme
+A{"CoTStratholme", 1288, 0.325, 0.459, criterion=4042, floor=2} -- Caverns of Time: Stratholme
 
 -- Dungeons & Raids: Northrend Dungeon Hero
-A{"CoTStratholme", 1289, criterion=4058} -- Heroic Caverns of Time: Stratholme
+A{"CoTStratholme", 1289, 0.325, 0.459, criterion=4058, floor=2} -- Heroic Caverns of Time: Stratholme
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"CoTStratholme", 1658, criterion=6434} -- Heroic: Mal'Ganis
+A{"CoTStratholme", 1658, 0.325, 0.459, criterion=6434, floor=2} -- Heroic: Mal'Ganis
 
 -- Dungeons & Raids/Lich King Dungeon: The Culling of Time
-A{"CoTStratholme", 1817}
+A{"CoTStratholme", 1817, 0.510, 0.420, floor=2}
 
 -- Dungeons & Raids/Lich King Dungeon: Zombiefest!
-A{"CoTStratholme", 1872, criterion=7180} -- Kill 100 Risen Zombies in 1 minute
+A{"CoTStratholme", 1872, 0.500, 0.600, criterion=7180, floor=2} -- Kill 100 Risen Zombies in 1 minute
 
 -- Dungeons & Raids: Glory of the Hero
-A{"CoTStratholme", 2136, criterion=7519} -- The Culling of Time
-A{"CoTStratholme", 2136, criterion=7520} -- Zombiefest!
+A{"CoTStratholme", 2136, 0.325, 0.459, criterion=7519, floor=2} -- The Culling of Time
+A{"CoTStratholme", 2136, 0.500, 0.600, criterion=7520, floor=2} -- Zombiefest!
+
+-- Collections/Mounts: Awake the Drakes
+A{"CoTStratholme", 9713, 0.510, 0.420, criterion=26683, floor=2, note="heroic within 25min"} -- Bronze Drake
 
 -- Dungeons & Raids/The Burning Crusade: Opening of the Dark Portal
 A{"CoTTheBlackMorass", 655}
@@ -256,114 +339,156 @@ A{"CoTTheBlackMorass", 1284, criterion=3973} -- Opening of the Dark Portal
 A{"CoTTheBlackMorass", 1287, criterion=4032} -- Heroic Opening of the Dark Portal
 
 -- Dungeons & Raids/Classic: King of Dire Maul
-A{"DireMaul", 644, criterion=545} -- Alzzin the Wildshaper
-A{"DireMaul", 644, criterion=18535} -- King Gordok
-A{"DireMaul", 644, criterion=546} -- Immol'thar
+A{"DireMaul", 644, 0.566, 0.288, criterion=545, floor=7} -- Alzzin the Wildshaper
+A{"DireMaul", 644, 0.319, 0.229, criterion=18535, floor=2} -- King Gordok
+A{"DireMaul", 644, 0.349, 0.575, criterion=546, floor=5} -- Immol'thar
 
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"DireMaul", 1283, criterion=3955} -- King of Dire Maul
 
 -- Dungeons & Raids/Cataclysm Raid: Minutes to Midnight
-A{"DragonSoul", 6084}
+A{"DragonSoul", 6084, 0.499, 0.457, floor=1}
+
+-- Dungeons & Raids/Cataclysm Raid: Deck Defender
+A{"DragonSoul", 6105, 0.481, 0.171, floor=5}
 
 -- Dungeons & Raids/Cataclysm Raid: Siege of Wyrmrest Temple
-A{"DragonSoul", 6106, criterion=0} -- Warlord Zon'ozz
-A{"DragonSoul", 6106, criterion=0} -- Morchok
-A{"DragonSoul", 6106, criterion=0} -- Yor'sahj the Unsleeping
-A{"DragonSoul", 6106, criterion=0} -- Hagara the Stormbinder
+A{"DragonSoul", 6106, 0.509, 0.530, criterion=0, floor=2} -- Warlord Zon'ozz
+A{"DragonSoul", 6106, 0.503, 0.692, criterion=0, floor=1} -- Morchok
+A{"DragonSoul", 6106, 0.468, 0.499, criterion=0, floor=3} -- Yor'sahj the Unsleeping
+A{"DragonSoul", 6106, 0.527, 0.520, criterion=0, floor=4} -- Hagara the Stormbinder
 
 -- Dungeons & Raids/Cataclysm Raid: Fall of Deathwing
-A{"DragonSoul", 6107, criterion=18449} -- Ultraxion
-A{"DragonSoul", 6107, criterion=18450} -- Warmaster Blackhorn
-A{"DragonSoul", 6107, criterion=18451} -- Spine of Deathwing
-A{"DragonSoul", 6107, criterion=18452} -- Madness of Deathwing
+A{"DragonSoul", 6107, 0.499, 0.457, criterion=18449, floor=1} -- Ultraxion
+A{"DragonSoul", 6107, 0.481, 0.171, criterion=18450, floor=5} -- Warmaster Blackhorn
+A{"DragonSoul", 6107, 0.331, 0.851, criterion=18451, floor=6} -- Spine of Deathwing
+A{"DragonSoul", 6107, 0.475, 0.529, criterion=18452, floor=7} -- Madness of Deathwing
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Morchok
-A{"DragonSoul", 6109}
+A{"DragonSoul", 6109, 0.503, 0.692, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Warlord Zon'ozz
-A{"DragonSoul", 6110}
+A{"DragonSoul", 6110, 0.509, 0.530, floor=2}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Yor'sahj the Unsleeping
-A{"DragonSoul", 6111}
+A{"DragonSoul", 6111, 0.468, 0.499, floor=3}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Hagara the Stormbinder
-A{"DragonSoul", 6112}
+A{"DragonSoul", 6112, 0.527, 0.520, floor=4}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Ultraxion
-A{"DragonSoul", 6113}
+A{"DragonSoul", 6113, 0.499, 0.457, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Warmaster Blackhorn
-A{"DragonSoul", 6114}
+A{"DragonSoul", 6114, 0.481, 0.171, floor=5}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Spine of Deathwing
-A{"DragonSoul", 6115}
+A{"DragonSoul", 6115, 0.331, 0.851, floor=6}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Madness of Deathwing
-A{"DragonSoul", 6116}
+A{"DragonSoul", 6116, 0.475, 0.529, floor=7}
+
+-- Dungeons & Raids/Cataclysm Raid: Ping Pong Champion
+A{"DragonSoul", 6128, 0.509, 0.530, floor=2}
+
+-- Dungeons & Raids/Cataclysm Raid: Taste the Rainbow!
+A{"DragonSoul", 6129, 0.468, 0.499, criterion=18495, floor=3} -- Black and Yellow
+A{"DragonSoul", 6129, 0.468, 0.499, criterion=18496, floor=3} -- Red and Green
+A{"DragonSoul", 6129, 0.468, 0.499, criterion=18497, floor=3} -- Black and Blue
+A{"DragonSoul", 6129, 0.468, 0.499, criterion=18498, floor=3} -- Purple and Yellow
+
+-- Dungeons & Raids/Cataclysm Raid: Maybe He'll Get Dizzy...
+A{"DragonSoul", 6133, 0.331, 0.851, floor=6}
 
 -- Dungeons & Raids: Glory of the Dragon Soul Raider
-A{"DragonSoul", 6169, criterion=18577} -- Ping Pong Champion
-A{"DragonSoul", 6169, criterion=18578} -- Heroic: Warlord Zon'ozz
-A{"DragonSoul", 6169, criterion=18579} -- Heroic: Yor'sahj the Unsleeping
-A{"DragonSoul", 6169, criterion=18580} -- Heroic: Hagara the Stormbinder
-A{"DragonSoul", 6169, criterion=18581} -- Heroic: Ultraxion
-A{"DragonSoul", 6169, criterion=18582} -- Heroic: Warmaster Blackhorn
-A{"DragonSoul", 6169, criterion=18585} -- Don't Stand So Close to Me
-A{"DragonSoul", 6169, criterion=18586} -- Minutes to Midnight
-A{"DragonSoul", 6169, criterion=18587} -- Deck Defender
-A{"DragonSoul", 6169, criterion=18588} -- Maybe He'll Get Dizzy...
-A{"DragonSoul", 6169, criterion=18589} -- Heroic: Morchok
-A{"DragonSoul", 6169, criterion=18655} -- Taste the Rainbow!
-A{"DragonSoul", 6169, criterion=18656} -- Holding Hands
-A{"DragonSoul", 6169, criterion=18657} -- Chromatic Champion
+A{"DragonSoul", 6169, 0.509, 0.530, criterion=18577, floor=2} -- Ping Pong Champion
+A{"DragonSoul", 6169, 0.509, 0.530, criterion=18578, floor=2} -- Heroic: Warlord Zon'ozz
+A{"DragonSoul", 6169, 0.468, 0.499, criterion=18579, floor=3} -- Heroic: Yor'sahj the Unsleeping
+A{"DragonSoul", 6169, 0.527, 0.520, criterion=18580, floor=4} -- Heroic: Hagara the Stormbinder
+A{"DragonSoul", 6169, 0.499, 0.457, criterion=18581, floor=1} -- Heroic: Ultraxion
+A{"DragonSoul", 6169, 0.481, 0.171, criterion=18582, floor=5} -- Heroic: Warmaster Blackhorn
+A{"DragonSoul", 6169, 0.503, 0.692, criterion=18585, floor=1} -- Don't Stand So Close to Me
+A{"DragonSoul", 6169, 0.499, 0.457, criterion=18586, floor=1} -- Minutes to Midnight
+A{"DragonSoul", 6169, 0.481, 0.171, criterion=18587, floor=5} -- Deck Defender
+A{"DragonSoul", 6169, 0.331, 0.851, criterion=18588, floor=6} -- Maybe He'll Get Dizzy...
+A{"DragonSoul", 6169, 0.503, 0.692, criterion=18589, floor=1} -- Heroic: Morchok
+A{"DragonSoul", 6169, 0.468, 0.499, criterion=18655, floor=3} -- Taste the Rainbow!
+A{"DragonSoul", 6169, 0.527, 0.520, criterion=18656, floor=4} -- Holding Hands
+A{"DragonSoul", 6169, 0.475, 0.529, criterion=18657, floor=7} -- Chromatic Champion
 
 -- Dungeons & Raids/Cataclysm Raid: Don't Stand So Close to Me
-A{"DragonSoul", 6174}
+A{"DragonSoul", 6174, 0.503, 0.692, floor=1}
+
+-- Dungeons & Raids/Cataclysm Raid: Holding Hands
+A{"DragonSoul", 6175, 0.527, 0.520, floor=4}
 
 -- Dungeons & Raids/Cataclysm Raid: Destroyer's End
-A{"DragonSoul", 6177, criterion=18652} -- Madness of Deathwing
+A{"DragonSoul", 6177, 0.475, 0.529, criterion=18652, floor=7} -- Madness of Deathwing
 
 -- Dungeons & Raids/Cataclysm Raid: Chromatic Champion
-A{"DragonSoul", 6180, criterion=18658} -- Alexstrasza Assaulted First
-A{"DragonSoul", 6180, criterion=18659} -- Kalecgos Assaulted First
-A{"DragonSoul", 6180, criterion=18660} -- Nozdormu Assaulted First
-A{"DragonSoul", 6180, criterion=18661} -- Ysera Assaulted First
+A{"DragonSoul", 6180, 0.475, 0.529, criterion=18658, floor=7} -- Alexstrasza Assaulted First
+A{"DragonSoul", 6180, 0.475, 0.529, criterion=18659, floor=7} -- Kalecgos Assaulted First
+A{"DragonSoul", 6180, 0.475, 0.529, criterion=18660, floor=7} -- Nozdormu Assaulted First
+A{"DragonSoul", 6180, 0.475, 0.529, criterion=18661, floor=7} -- Ysera Assaulted First
+
+-- Collections/Mounts: Awake the Drakes
+A{"DragonSoul", 9713, 0.475, 0.529, criterion=26688, floor=7} -- Blazing Drake
+
+-- Garrisons: Ten Hit Tunes
+A{"DragonSoul", 9828, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment"} -- The Shattering
+
+-- Garrisons: Ten Hit Tunes
+A{"DragonSoul", 9897, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment"} -- The Shattering
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"DragonSoul", 9912, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment"} -- The Shattering
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"DragonSoul", 9914, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment"} -- The Shattering
+
+-- Garrisons: Full Discography
+A{"DragonSoul", 10015, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment"} -- The Shattering
+
+-- Garrisons: Full Discography
+A{"DragonSoul", 10016, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment"} -- The Shattering
 
 -- Dungeons & Raids/Lich King Dungeon: Drak'Tharon Keep
-A{"DrakTharonKeep", 482, criterion=5443} -- Trollgore
-A{"DrakTharonKeep", 482, criterion=5444} -- Novos the Summoner
-A{"DrakTharonKeep", 482, criterion=5445} -- King Dred
-A{"DrakTharonKeep", 482, criterion=9098} -- The Prophet Tharon'ja
+A{"DrakTharonKeep", 482, 0.565, 0.182, criterion=5443, floor=1} -- Trollgore
+A{"DrakTharonKeep", 482, 0.702, 0.479, criterion=5444, floor=1} -- Novos the Summoner
+A{"DrakTharonKeep", 482, 0.612, 0.862, criterion=5445, floor=1} -- King Dred
+A{"DrakTharonKeep", 482, 0.476, 0.133, criterion=9098, floor=2} -- The Prophet Tharon'ja
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: Drak'Tharon Keep
-A{"DrakTharonKeep", 493, criterion=6815} -- King Dred
-A{"DrakTharonKeep", 493, criterion=6814} -- Novos the Summoner
-A{"DrakTharonKeep", 493, criterion=9261} -- The Prophet Tharon'ja
-A{"DrakTharonKeep", 493, criterion=6813} -- Trollgore
+A{"DrakTharonKeep", 493, 0.612, 0.862, criterion=6815, floor=1} -- King Dred
+A{"DrakTharonKeep", 493, 0.702, 0.479, criterion=6814, floor=1} -- Novos the Summoner
+A{"DrakTharonKeep", 493, 0.476, 0.133, criterion=9261, floor=2} -- The Prophet Tharon'ja
+A{"DrakTharonKeep", 493, 0.565, 0.182, criterion=6813, floor=1} -- Trollgore
 
 -- Dungeons & Raids: Northrend Dungeonmaster
-A{"DrakTharonKeep", 1288, criterion=4045} -- Drak'Tharon Keep
+A{"DrakTharonKeep", 1288, 0.476, 0.133, criterion=4045, floor=2} -- Drak'Tharon Keep
 
 -- Dungeons & Raids: Northrend Dungeon Hero
-A{"DrakTharonKeep", 1289, criterion=4061} -- Heroic Drak'Tharon Keep
+A{"DrakTharonKeep", 1289, 0.476, 0.133, criterion=4061, floor=2} -- Heroic Drak'Tharon Keep
+
+-- Quests/Northrend: Guru of Drakuru
+A{"DrakTharonKeep", 1596, 0.476, 0.133, criterion=5804, floor=2} -- Cleansing Drak'Tharon
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"DrakTharonKeep", 1658, criterion=9261} -- Heroic: The Prophet Tharon'ja
+A{"DrakTharonKeep", 1658, 0.476, 0.133, criterion=9261, floor=2} -- Heroic: The Prophet Tharon'ja
 
 -- Dungeons & Raids/Lich King Dungeon: Better Off Dred
-A{"DrakTharonKeep", 2039}
+A{"DrakTharonKeep", 2039, 0.612, 0.862, floor=1}
 
 -- Dungeons & Raids/Lich King Dungeon: Oh Novos!
-A{"DrakTharonKeep", 2057}
+A{"DrakTharonKeep", 2057, 0.702, 0.479, floor=1}
 
 -- Dungeons & Raids: Glory of the Hero
-A{"DrakTharonKeep", 2136, criterion=7508} -- Oh Novos!
-A{"DrakTharonKeep", 2136, criterion=7507} -- Better Off Dred
-A{"DrakTharonKeep", 2136, criterion=7581} -- Consumption Junction
+A{"DrakTharonKeep", 2136, 0.702, 0.479, criterion=7508, floor=1} -- Oh Novos!
+A{"DrakTharonKeep", 2136, 0.612, 0.862, criterion=7507, floor=1} -- Better Off Dred
+A{"DrakTharonKeep", 2136, 0.565, 0.182, criterion=7581, floor=1} -- Consumption Junction
 
 -- Dungeons & Raids/Lich King Dungeon: Consumption Junction
-A{"DrakTharonKeep", 2151}
+A{"DrakTharonKeep", 2151, 0.565, 0.182, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Hydrophobia
 A{"EastTemple", 6460, 0.444, 0.188}
@@ -389,77 +514,73 @@ A{"EndTime", 6117}
 -- Dungeons & Raids/Cataclysm Dungeon: Severed Ties
 A{"EndTime", 6130, 0.380, 0.430, note="in Ruby Dragonshrine"}
 
--- Dungeons & Raids/Cataclysm Raid: Only the Penitent...
-A{"Firelands", 5799}
-
 -- Dungeons & Raids/Cataclysm Raid: Firelands
-A{"Firelands", 5802, criterion=17432} -- Baleroc
-A{"Firelands", 5802, criterion=17434} -- Ragnaros
-A{"Firelands", 5802, criterion=17431} -- Lord Rhyolith
-A{"Firelands", 5802, criterion=17433} -- Majordomo Fandral Staghelm
-A{"Firelands", 5802, criterion=17430} -- Beth'tilac
-A{"Firelands", 5802, criterion=17429} -- Shannox
-A{"Firelands", 5802, criterion=17435} -- Alysrazor
+A{"Firelands", 5802, 0.495, 0.309, criterion=17432, floor=1} -- Baleroc
+A{"Firelands", 5802, 0.507, 0.153, criterion=17434, floor=3} -- Ragnaros
+A{"Firelands", 5802, 0.653, 0.750, criterion=17431, floor=1} -- Lord Rhyolith
+A{"Firelands", 5802, 0.509, 0.724, criterion=17433, floor=3} -- Majordomo Fandral Staghelm
+A{"Firelands", 5802, 0.208, 0.320, criterion=17430, floor=1} -- Beth'tilac
+A{"Firelands", 5802, 0.493, 0.443, criterion=17429, floor=1} -- Shannox
+A{"Firelands", 5802, 0.643, 0.380, criterion=17435, floor=1} -- Alysrazor
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Ragnaros
-A{"Firelands", 5803}
+A{"Firelands", 5803, 0.507, 0.153, floor=3}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Majordomo Fandral Staghelm
-A{"Firelands", 5804}
+A{"Firelands", 5804, 0.509, 0.724, floor=3}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Baleroc
-A{"Firelands", 5805}
+A{"Firelands", 5805, 0.495, 0.309, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Shannox
-A{"Firelands", 5806}
+A{"Firelands", 5806, 0.493, 0.443, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Beth'tilac
-A{"Firelands", 5807}
+A{"Firelands", 5807, 0.208, 0.320, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Lord Rhyolith
-A{"Firelands", 5808}
+A{"Firelands", 5808, 0.653, 0.750, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Alysrazor
-A{"Firelands", 5809}
+A{"Firelands", 5809, 0.643, 0.380, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Not an Ambi-Turner
-A{"Firelands", 5810}
+A{"Firelands", 5810, 0.653, 0.750, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Do a Barrel Roll!
-A{"Firelands", 5813, criterion=17533} -- Brushfire
-A{"Firelands", 5813, criterion=17535} -- Lava Spew
-A{"Firelands", 5813, criterion=17536} -- Incendiary Cloud
-A{"Firelands", 5813, criterion=17538} -- Fiery Tornado
+A{"Firelands", 5813, 0.643, 0.380, criterion=17533, floor=1} -- Brushfire
+A{"Firelands", 5813, 0.643, 0.380, criterion=17535, floor=1} -- Lava Spew
+A{"Firelands", 5813, 0.643, 0.380, criterion=17536, floor=1} -- Incendiary Cloud
+A{"Firelands", 5813, 0.643, 0.380, criterion=17538, floor=1} -- Fiery Tornado
 
 -- Dungeons & Raids/Cataclysm Raid: Death from Above
-A{"Firelands", 5821}
+A{"Firelands", 5821, 0.208, 0.320, floor=1}
 
 -- Dungeons & Raids: Glory of the Firelands Raider
-A{"Firelands", 5828, criterion=17551} -- Heroic: Alysrazor
-A{"Firelands", 5828, criterion=17553} -- Heroic: Lord Rhyolith
-A{"Firelands", 5828, criterion=17554} -- Heroic: Shannox
-A{"Firelands", 5828, criterion=17574} -- Not an Ambi-Turner
-A{"Firelands", 5828, criterion=17575} -- Heroic: Baleroc
-A{"Firelands", 5828, criterion=17578} -- Death from Above
-A{"Firelands", 5828, criterion=17579} -- Do a Barrel Roll!
+A{"Firelands", 5828, 0.643, 0.380, criterion=17551, floor=1} -- Heroic: Alysrazor
+A{"Firelands", 5828, 0.653, 0.750, criterion=17553, floor=1} -- Heroic: Lord Rhyolith
+A{"Firelands", 5828, 0.493, 0.443, criterion=17554, floor=1} -- Heroic: Shannox
+A{"Firelands", 5828, 0.653, 0.750, criterion=17574, floor=1} -- Not an Ambi-Turner
+A{"Firelands", 5828, 0.495, 0.309, criterion=17575, floor=1} -- Heroic: Baleroc
+A{"Firelands", 5828, 0.208, 0.320, criterion=17578, floor=1} -- Death from Above
+A{"Firelands", 5828, 0.643, 0.380, criterion=17579, floor=1} -- Do a Barrel Roll!
 A{"Firelands", 5828, criterion=17580} -- Bucket List
-A{"Firelands", 5828, criterion=17581} -- Share the Pain
-A{"Firelands", 5828, criterion=17555} -- Heroic: Majordomo Fandral Staghelm
-A{"Firelands", 5828, criterion=17552} -- Heroic: Beth'tilac
-A{"Firelands", 5828, criterion=17582} -- Only the Penitent...
+A{"Firelands", 5828, 0.495, 0.309, criterion=17581, floor=1} -- Share the Pain
+A{"Firelands", 5828, 0.509, 0.724, criterion=17555, floor=3} -- Heroic: Majordomo Fandral Staghelm
+A{"Firelands", 5828, 0.208, 0.320, criterion=17552, floor=1} -- Heroic: Beth'tilac
 
 -- Dungeons & Raids/Cataclysm Raid: Bucket List
-A{"Firelands", 5829, criterion=17776} -- Flamebreach
-A{"Firelands", 5829, criterion=17777} -- Path of Corruption
-A{"Firelands", 5829, criterion=17779} -- Shatterstone
-A{"Firelands", 5829, criterion=17775} -- Beth'tilac's Lair
-A{"Firelands", 5829, criterion=17778} -- The Ridge of Ancient Flame
+A{"Firelands", 5829, 0.327, 0.769, criterion=17776, floor=1} -- Flamebreach
+A{"Firelands", 5829, 0.350, 0.368, criterion=17777, floor=1} -- Path of Corruption
+A{"Firelands", 5829, 0.644, 0.526, criterion=17779, floor=1} -- Shatterstone
+A{"Firelands", 5829, 0.299, 0.420, criterion=17775, floor=1} -- Beth'tilac's Lair
+A{"Firelands", 5829, 0.644, 0.566, criterion=17778, floor=1} -- The Ridge of Ancient Flame
 
 -- Dungeons & Raids/Cataclysm Raid: Share the Pain
-A{"Firelands", 5830}
+A{"Firelands", 5830, 0.495, 0.309, floor=1}
 
 -- Dungeons & Raids/Classic: Gnomeregan
-A{"Gnomeregan", 634}
+A{"Gnomeregan", 634, 0.311, 0.303, floor=4}
 
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"Gnomeregan", 1283, criterion=3945} -- Gnomeregan
@@ -476,51 +597,54 @@ A{"GrimBatol", 5297}
 -- Dungeons & Raids/Cataclysm Dungeon: Don't Need to Break Eggs to Make an Omelet
 A{"GrimBatol", 5298}
 
+-- Dungeons & Raids: Defender of a Shattered World
+A{"GrimBatol", 5506, criterion=13552} -- Heroic: Grim Batol
+
 -- Dungeons & Raids/The Burning Crusade: Gruul's Lair
-A{"GruulsLair", 692}
+A{"GruulsLair", 692, 0.222, 0.280}
 
 -- Dungeons & Raids: Outland Raider
-A{"GruulsLair", 1286, criterion=4016} -- Gruul's Lair
+A{"GruulsLair", 1286, 0.222, 0.280, criterion=4016} -- Gruul's Lair
 
 -- Dungeons & Raids/Lich King Dungeon: Gundrak
-A{"Gundrak", 484, criterion=5450} -- Drakkari Colossus
-A{"Gundrak", 484, criterion=5451} -- Gal'darah
-A{"Gundrak", 484, criterion=5448} -- Slad'ran
-A{"Gundrak", 484, criterion=5449} -- Moorabi
+A{"Gundrak", 484, 0.465, 0.655, criterion=5450, floor=2} -- Drakkari Colossus
+A{"Gundrak", 484, 0.465, 0.270, criterion=5451, floor=2} -- Gal'darah
+A{"Gundrak", 484, 0.539, 0.485, criterion=5448, floor=2} -- Slad'ran
+A{"Gundrak", 484, 0.393, 0.489, criterion=5449, floor=2} -- Moorabi
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: Gundrak
-A{"Gundrak", 495, criterion=6839} -- Slad'ran
-A{"Gundrak", 495, criterion=5053} -- Eck the Ferocious
-A{"Gundrak", 495, criterion=6841} -- Drakkari Colossus
-A{"Gundrak", 495, criterion=5614} -- Gal'darah
-A{"Gundrak", 495, criterion=6840} -- Moorabi
+A{"Gundrak", 495, 0.539, 0.485, criterion=6839, floor=2} -- Slad'ran
+A{"Gundrak", 495, 0.251, 0.704, criterion=5053, floor=2} -- Eck the Ferocious
+A{"Gundrak", 495, 0.465, 0.655, criterion=6841, floor=2} -- Drakkari Colossus
+A{"Gundrak", 495, 0.465, 0.270, criterion=5614, floor=2} -- Gal'darah
+A{"Gundrak", 495, 0.393, 0.489, criterion=6840, floor=2} -- Moorabi
 
 -- Dungeons & Raids: Northrend Dungeonmaster
-A{"Gundrak", 1288, criterion=4047} -- Gundrak
+A{"Gundrak", 1288, 0.465, 0.270, criterion=4047, floor=2} -- Gundrak
 
 -- Dungeons & Raids: Northrend Dungeon Hero
-A{"Gundrak", 1289, criterion=4063} -- Heroic Gundrak
+A{"Gundrak", 1289, 0.465, 0.270, criterion=4063, floor=2} -- Heroic Gundrak
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"Gundrak", 1658, criterion=5614} -- Heroic: Gal'darah
+A{"Gundrak", 1658, 0.465, 0.270, criterion=5614, floor=2} -- Heroic: Gal'darah
 
 -- Dungeons & Raids/Lich King Dungeon: What the Eck?
-A{"Gundrak", 1864}
+A{"Gundrak", 1864, 0.465, 0.270, floor=2}
 
 -- Dungeons & Raids/Lich King Dungeon: Less-rabi
-A{"Gundrak", 2040, 0.392, 0.491}
+A{"Gundrak", 2040, 0.393, 0.489, floor=2}
 
 -- Dungeons & Raids/Lich King Dungeon: Snakes. Why'd It Have To Be Snakes?
-A{"Gundrak", 2058, 0.540, 0.489}
+A{"Gundrak", 2058, 0.539, 0.485, floor=2}
 
 -- Dungeons & Raids: Glory of the Hero
-A{"Gundrak", 2136, criterion=7514} -- Snakes. Why'd It Have To Be Snakes?
-A{"Gundrak", 2136, criterion=7512} -- What the Eck?
-A{"Gundrak", 2136, criterion=7584} -- Share The Love
-A{"Gundrak", 2136, criterion=7513} -- Less-rabi
+A{"Gundrak", 2136, 0.539, 0.485, criterion=7514, floor=2} -- Snakes. Why'd It Have To Be Snakes?
+A{"Gundrak", 2136, 0.465, 0.270, criterion=7512, floor=2} -- What the Eck?
+A{"Gundrak", 2136, 0.465, 0.270, criterion=7584, floor=2} -- Share The Love
+A{"Gundrak", 2136, 0.393, 0.489, criterion=7513, floor=2} -- Less-rabi
 
 -- Dungeons & Raids/Lich King Dungeon: Share The Love
-A{"Gundrak", 2152}
+A{"Gundrak", 2152, 0.465, 0.270, floor=2}
 
 -- Dungeons & Raids/Lich King Dungeon: Halls of Lightning
 A{"HallsofLightning", 486, 0.440, 0.380, criterion=5455, floor=1} -- General Bjarngrim
@@ -592,6 +716,9 @@ A{"HallsofOrigination", 5295}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Faster Than the Speed of Light
 A{"HallsofOrigination", 5296, 0.562, 0.234, floor=1}
+
+-- Dungeons & Raids: Defender of a Shattered World
+A{"HallsofOrigination", 5506, criterion=13553} -- Heroic: Halls of Origination
 
 -- Dungeons & Raids/Lich King Dungeon: The Halls of Reflection
 A{"HallsofReflection", 4518, criterion=13321} -- Marwyn
@@ -881,10 +1008,37 @@ A{"IcecrownCitadel", 10015, criterion=27757, note="drop from The Lich King"} -- 
 A{"IcecrownCitadel", 10016, criterion=27757, note="drop from The Lich King"} -- Invincible
 
 -- Dungeons & Raids/The Burning Crusade: Karazhan
-A{"Karazhan", 690}
+A{"Karazhan", 690, 0.544, 0.362, floor=17}
+
+-- Feats of Strength: Fiery Warhorse's Reins
+A{"Karazhan", 882, 0.456, 0.830, floor=1}
 
 -- Dungeons & Raids: Outland Raider
-A{"Karazhan", 1286, criterion=4014} -- Karazhan
+A{"Karazhan", 1286, 0.544, 0.362, criterion=4014, floor=17} -- Karazhan
+
+-- Pet Battles/Collect: Raiding with Leashes II: Attunement Edition
+A{"Karazhan", 8293, 0.190, 0.330, criterion=23321, floor=4, note="from the Big Bad Wolf"} -- Lil' Bad Wolf
+A{"Karazhan", 8293, 0.510, 0.384, criterion=23322, floor=9, note="from the Curator"} -- Menagerie Custodian
+A{"Karazhan", 8293, 0.544, 0.362, criterion=23323, floor=17, note="from Prince Malchezaar"} -- Netherspace Abyssal
+A{"Karazhan", 8293, 0.556, 0.762, criterion=23324, floor=11, note="from Terestian Illhoof"} -- Fiendish Imp
+
+-- Garrisons: Ten Hit Tunes
+A{"Karazhan", 9828, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter"} -- Karazhan Opera House
+
+-- Garrisons: Ten Hit Tunes
+A{"Karazhan", 9897, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter"} -- Karazhan Opera House
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"Karazhan", 9912, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter"} -- Karazhan Opera House
+
+-- Garrisons: Azeroth's Top Twenty Tunes
+A{"Karazhan", 9914, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter"} -- Karazhan Opera House
+
+-- Garrisons: Full Discography
+A{"Karazhan", 10015, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter"} -- Karazhan Opera House
+
+-- Garrisons: Full Discography
+A{"Karazhan", 10016, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter"} -- Karazhan Opera House
 
 -- Dungeons & Raids/Cataclysm Dungeon: Lost City of the Tol'vir
 A{"LostCityofTolvir", 4848}
@@ -901,6 +1055,9 @@ A{"LostCityofTolvir", 5291, 0.670, 0.720, criterion=15992} -- Kill 20 Frenzied C
 -- Dungeons & Raids/Cataclysm Dungeon: Headed South
 A{"LostCityofTolvir", 5292, 0.410, 0.550}
 
+-- Dungeons & Raids: Defender of a Shattered World
+A{"LostCityofTolvir", 5506, criterion=13574} -- Heroic: Lost City of the Tol'vir
+
 -- Dungeons & Raids/The Burning Crusade: Magister's Terrace
 A{"MagistersTerrace", 661}
 
@@ -914,10 +1071,10 @@ A{"MagistersTerrace", 1284, criterion=3979} -- Magister's Terrace
 A{"MagistersTerrace", 1287, criterion=4038} -- Heroic Magister's Terrace
 
 -- Dungeons & Raids/The Burning Crusade: Magtheridon's Lair
-A{"MagtheridonsLair", 693}
+A{"MagtheridonsLair", 693, 0.698, 0.816}
 
 -- Dungeons & Raids: Outland Raider
-A{"MagtheridonsLair", 1286, criterion=4017} -- Magtheridon's Lair
+A{"MagtheridonsLair", 1286, 0.698, 0.816, criterion=4017} -- Magtheridon's Lair
 
 -- Dungeons & Raids/The Burning Crusade: Mana-Tombs
 A{"ManaTombs", 651}
@@ -932,7 +1089,7 @@ A{"ManaTombs", 1284, criterion=3968} -- Mana-Tombs
 A{"ManaTombs", 1287, criterion=4027} -- Heroic Mana-Tombs
 
 -- Dungeons & Raids/Classic: Maraudon
-A{"Maraudon", 640}
+A{"Maraudon", 640, 0.258, 0.788, floor=2}
 
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"Maraudon", 1283, criterion=3951} -- Maraudon
@@ -953,10 +1110,10 @@ A{"MogushanPalace", 6755}
 A{"MogushanPalace", 6756}
 
 -- Dungeons & Raids/Classic: Molten Core
-A{"MoltenCore", 686}
+A{"MoltenCore", 686, 0.554, 0.552}
 
 -- Dungeons & Raids: Classic Raider
-A{"MoltenCore", 1285, criterion=4010} -- Molten Core
+A{"MoltenCore", 1285, 0.554, 0.552, criterion=4010} -- Molten Core
 
 -- Dungeons & Raids/Lich King Raid: The Arachnid Quarter (10 player)
 A{"Naxxramas", 562, 0.310, 0.480, criterion=5100, floor=2} -- Anub'Rekhan
@@ -1171,49 +1328,49 @@ A{"Naxxramas", 10015, 0.370, 0.230, criterion=27712, floor=6, note="drop from Ke
 A{"Naxxramas", 10016, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
 
 -- Dungeons & Raids/Lich King Dungeon: The Oculus
-A{"Nexus80", 487, criterion=5462} -- Ley-Guardian Eregos
-A{"Nexus80", 487, criterion=5461} -- Varos Cloudstrider
-A{"Nexus80", 487, criterion=5460} -- Mage-Lord Urom
-A{"Nexus80", 487, criterion=5459} -- Drakos the Interrogator
+A{"Nexus80", 487, 0.469, 0.209, criterion=5462, floor=3} -- Ley-Guardian Eregos
+A{"Nexus80", 487, 0.461, 0.192, criterion=5461, floor=3} -- Varos Cloudstrider
+A{"Nexus80", 487, 0.707, 0.274, criterion=5460, floor=4} -- Mage-Lord Urom
+A{"Nexus80", 487, 0.491, 0.762, criterion=5459, floor=2} -- Drakos the Interrogator
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: The Oculus
-A{"Nexus80", 498, criterion=6860} -- Mage-Lord Urom
-A{"Nexus80", 498, criterion=6861} -- Varos Cloudstrider
-A{"Nexus80", 498, criterion=5617} -- Ley-Guardian Eregos
-A{"Nexus80", 498, criterion=6859} -- Drakos the Interrogator
+A{"Nexus80", 498, 0.707, 0.274, criterion=6860, floor=4} -- Mage-Lord Urom
+A{"Nexus80", 498, 0.461, 0.192, criterion=6861, floor=3} -- Varos Cloudstrider
+A{"Nexus80", 498, 0.469, 0.209, criterion=5617, floor=3} -- Ley-Guardian Eregos
+A{"Nexus80", 498, 0.491, 0.762, criterion=6859, floor=2} -- Drakos the Interrogator
 
 -- Dungeons & Raids: Northrend Dungeonmaster
-A{"Nexus80", 1288, criterion=4050} -- The Oculus
+A{"Nexus80", 1288, 0.469, 0.209, criterion=4050, floor=3} -- The Oculus
 
 -- Dungeons & Raids: Northrend Dungeon Hero
-A{"Nexus80", 1289, criterion=4066} -- Heroic The Oculus
+A{"Nexus80", 1289, 0.469, 0.209, criterion=4066, floor=3} -- Heroic The Oculus
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"Nexus80", 1658, criterion=5617} -- Heroic: Ley-Guardian Eregos
+A{"Nexus80", 1658, 0.469, 0.209, criterion=5617, floor=3} -- Heroic: Ley-Guardian Eregos
 
 -- Dungeons & Raids/Lich King Dungeon: Make It Count
-A{"Nexus80", 1868}
+A{"Nexus80", 1868, 0.469, 0.209, floor=3}
 
 -- Dungeons & Raids/Lich King Dungeon: Experienced Drake Rider
-A{"Nexus80", 1871, criterion=7179} -- Ruby Drake
-A{"Nexus80", 1871, criterion=7177} -- Amber Drake
-A{"Nexus80", 1871, criterion=7178} -- Emerald Drake
+A{"Nexus80", 1871, 0.469, 0.209, criterion=7179, floor=3} -- Ruby Drake
+A{"Nexus80", 1871, 0.469, 0.209, criterion=7177, floor=3} -- Amber Drake
+A{"Nexus80", 1871, 0.469, 0.209, criterion=7178, floor=3} -- Emerald Drake
 
 -- Dungeons & Raids/Lich King Dungeon: Ruby Void
-A{"Nexus80", 2044}
+A{"Nexus80", 2044, 0.469, 0.209, floor=3}
 
 -- Dungeons & Raids/Lich King Dungeon: Emerald Void
-A{"Nexus80", 2045}
+A{"Nexus80", 2045, 0.469, 0.209, floor=3}
 
 -- Dungeons & Raids/Lich King Dungeon: Amber Void
-A{"Nexus80", 2046}
+A{"Nexus80", 2046, 0.469, 0.209, floor=3}
 
 -- Dungeons & Raids: Glory of the Hero
-A{"Nexus80", 2136, criterion=7524} -- Make It Count
-A{"Nexus80", 2136, criterion=7527} -- Amber Void
-A{"Nexus80", 2136, criterion=7523} -- Experienced Drake Rider
-A{"Nexus80", 2136, criterion=7525} -- Ruby Void
-A{"Nexus80", 2136, criterion=7526} -- Emerald Void
+A{"Nexus80", 2136, 0.469, 0.209, criterion=7524, floor=3} -- Make It Count
+A{"Nexus80", 2136, 0.469, 0.209, criterion=7527, floor=3} -- Amber Void
+A{"Nexus80", 2136, 0.469, 0.209, criterion=7523, floor=3} -- Experienced Drake Rider
+A{"Nexus80", 2136, 0.469, 0.209, criterion=7525, floor=3} -- Ruby Void
+A{"Nexus80", 2136, 0.469, 0.209, criterion=7526, floor=3} -- Emerald Void
 
 -- Dungeons & Raids/Lich King Raid: Onyxia's Lair (10 player)
 A{"OnyxiasLair", 4396, 0.670, 0.300}
@@ -1262,22 +1419,22 @@ A{"Ragefire", 629, 0.340, 0.820}
 A{"Ragefire", 1283, criterion=3940} -- Ragefire Chasm
 
 -- Dungeons & Raids/Classic: Razorfen Downs
-A{"RazorfenDowns", 636}
+A{"RazorfenDowns", 636, 0.455, 0.582}
 
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"RazorfenDowns", 1283, criterion=3947} -- Razorfen Downs
 
 -- Dungeons & Raids/Classic: Razorfen Kraul
-A{"RazorfenKraul", 635}
+A{"RazorfenKraul", 635, 0.219, 0.311}
 
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"RazorfenKraul", 1283, criterion=3946} -- Razorfen Kraul
 
 -- Dungeons & Raids/Classic: Ruins of Ahn'Qiraj
-A{"RuinsofAhnQiraj", 689}
+A{"RuinsofAhnQiraj", 689, 0.398, 0.754}
 
 -- Dungeons & Raids: Classic Raider
-A{"RuinsofAhnQiraj", 1285, criterion=4013} -- Ruins of Ahn'Qiraj
+A{"RuinsofAhnQiraj", 1285, 0.398, 0.754, criterion=4013} -- Ruins of Ahn'Qiraj
 
 -- Dungeons & Raids/Pandaria Dungeon: Mosh Pit
 A{"ScarletHalls", 6427}
@@ -1292,22 +1449,22 @@ A{"ScarletHalls", 6760}
 A{"ScarletHalls", 7413}
 
 -- Dungeons & Raids/Classic: Scarlet Monastery
-A{"ScarletMonastery", 637}
+A{"ScarletMonastery", 637, 0.490, 0.804, floor=2}
 
 -- Dungeons & Raids: Classic Dungeonmaster
-A{"ScarletMonastery", 1283, criterion=3948} -- Scarlet Monastery
+A{"ScarletMonastery", 1283, 0.490, 0.804, criterion=3948, floor=2} -- Scarlet Monastery
 
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Scarlet Monastery
-A{"ScarletMonastery", 6761}
+A{"ScarletMonastery", 6761, 0.490, 0.804, floor=2}
 
 -- Dungeons & Raids/Pandaria Dungeon: Burning Man
-A{"ScarletMonastery", 6928}
+A{"ScarletMonastery", 6928, 0.493, 0.524, floor=2}
 
 -- Dungeons & Raids/Pandaria Dungeon: And Stay Dead!
-A{"ScarletMonastery", 6929, criterion=20284} -- Defeat Whitemane after having killed 13 revived Scarlet Judicators.
+A{"ScarletMonastery", 6929, 0.490, 0.804, criterion=20284, floor=2} -- Defeat Whitemane after having killed 13 revived Scarlet Judicators.
 
 -- Dungeons & Raids/Pandaria Dungeon: Empowered Spiritualist
-A{"ScarletMonastery", 6946}
+A{"ScarletMonastery", 6946, 0.262, 0.456, floor=1}
 
 -- Dungeons & Raids/Classic: Scholomance
 A{"Scholomance", 645}
@@ -1340,7 +1497,7 @@ A{"SethekkHalls", 1284, criterion=3970} -- Sethekk Halls
 A{"SethekkHalls", 1287, criterion=4029} -- Heroic Sethekk Halls
 
 -- Dungeons & Raids/Classic: Shadowfang Keep
-A{"ShadowfangKeep", 631}
+A{"ShadowfangKeep", 631, 0.684, 0.335, floor=6}
 
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"ShadowfangKeep", 1283, criterion=3942} -- Shadowfang Keep
@@ -1357,6 +1514,9 @@ A{"ShadowfangKeep", 5504}
 -- Dungeons & Raids/Cataclysm Dungeon: Bullet Time
 A{"ShadowfangKeep", 5505, criterion=16544} -- Bloodthirsty Ghouls killed by Pistol Barrage
 A{"ShadowfangKeep", 5505, criterion=16086} -- Defeat Lord Godfrey
+
+-- Dungeons & Raids: Defender of a Shattered World
+A{"ShadowfangKeep", 5506, criterion=14384} -- Heroic: Shadowfang Keep
 
 -- Dungeons & Raids/The Burning Crusade: Shadow Labyrinth
 A{"ShadowLabyrinth", 654}
@@ -1415,6 +1575,9 @@ A{"Skywall", 5288, 0.299, 0.386}
 -- Dungeons & Raids/Cataclysm Dungeon: Extra Credit Bonus Stage
 A{"Skywall", 5289}
 
+-- Dungeons & Raids: Defender of a Shattered World
+A{"Skywall", 5506, criterion=13568} -- Heroic: The Vortex Pinnacle
+
 -- Dungeons & Raids/Pandaria Dungeon: Keep Rollin' Rollin' Rollin'
 A{"StormstoutBrewery", 6089}
 
@@ -1441,10 +1604,15 @@ A{"Stratholme", 646, criterion=550} -- Balnazzar
 A{"Stratholme", 1283, criterion=3957} -- Stratholme
 
 -- Dungeons & Raids/The Burning Crusade: Sunwell Plateau
-A{"SunwellPlateau", 698}
+A{"SunwellPlateau", 698, 0.466, 0.624, floor=2}
 
 -- Dungeons & Raids: Outland Raider
-A{"SunwellPlateau", 1286, criterion=4022} -- Sunwell Plateau
+A{"SunwellPlateau", 1286, 0.466, 0.624, criterion=4022, floor=2} -- Sunwell Plateau
+
+-- Pet Battles/Collect: Raiding with Leashes III: Drinkin' From the Sunwell
+A{"SunwellPlateau", 9824, 0.644, 0.886, criterion=27576, floor=1, note="from Brutallus"} -- Sunblade Micro-Defender
+A{"SunwellPlateau", 9824, 0.470, 0.230, criterion=27577, floor=2, note="from M'uru or Entropius"} -- Chaos Pup
+A{"SunwellPlateau", 9824, 0.650, 0.328, criterion=27578, floor=1, note="from Grand Warlock Alythess or Lady Sacrolash"} -- Wretched Servant
 
 -- Dungeons & Raids/The Burning Crusade: Tempest Keep
 A{"TempestKeep", 696, 0.500, 0.150}
@@ -1536,35 +1704,54 @@ A{"TheArgentColiseum", 4296, criterion=13312} -- Argent Confessor Paletress
 A{"TheArgentColiseum", 4296, criterion=13313} -- Eadric the Pure
 
 -- Dungeons & Raids/Cataclysm Raid: The Bastion of Twilight
-A{"TheBastionofTwilight", 4850, criterion=13576} -- Valiona and Theralion
-A{"TheBastionofTwilight", 4850, criterion=13577} -- Halfus Wyrmbreaker
-A{"TheBastionofTwilight", 4850, criterion=13578} -- Ascendant Council
-A{"TheBastionofTwilight", 4850, criterion=13579} -- Cho'gall
+A{"TheBastionofTwilight", 4850, 0.539, 0.784, criterion=13576, floor=1} -- Valiona and Theralion
+A{"TheBastionofTwilight", 4850, 0.534, 0.193, criterion=13577, floor=1} -- Halfus Wyrmbreaker
+A{"TheBastionofTwilight", 4850, 0.425, 0.455, criterion=13578, floor=2} -- Ascendant Council
+A{"TheBastionofTwilight", 4850, 0.734, 0.754, criterion=13579, floor=2} -- Cho'gall
 
 -- Dungeons & Raids/Cataclysm Raid: Double Dragon
-A{"TheBastionofTwilight", 4852, criterion=13576} -- Valiona and Theralion
-A{"TheBastionofTwilight", 4852, criterion=16015} -- Twilight Fiends killed
+A{"TheBastionofTwilight", 4852, 0.539, 0.784, criterion=13576, floor=1} -- Valiona and Theralion
+A{"TheBastionofTwilight", 4852, 0.539, 0.784, criterion=16015, floor=1} -- Twilight Fiends killed
+
+-- Dungeons & Raids: Glory of the Cataclysm Raider
+A{"TheBastionofTwilight", 4853, 0.534, 0.193, criterion=15682, floor=1} -- Heroic: Halfus Wyrmbreaker
+A{"TheBastionofTwilight", 4853, 0.539, 0.784, criterion=15683, floor=1} -- Heroic: Valiona and Theralion
+A{"TheBastionofTwilight", 4853, 0.539, 0.784, criterion=15272, floor=1} -- Double Dragon
+A{"TheBastionofTwilight", 4853, 0.425, 0.455, criterion=15273, floor=2} -- Elementary
+A{"TheBastionofTwilight", 4853, 0.734, 0.754, criterion=15274, floor=2} -- The Abyss Will Gaze Back Into You
+A{"TheBastionofTwilight", 4853, 0.534, 0.193, criterion=15271, floor=1} -- The Only Escape
+A{"TheBastionofTwilight", 4853, 0.425, 0.455, criterion=15684, floor=2} -- Heroic: Ascendant Council
+A{"TheBastionofTwilight", 4853, 0.734, 0.754, criterion=15685, floor=2} -- Heroic: Cho'gall
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Valiona and Theralion
-A{"TheBastionofTwilight", 5117}
+A{"TheBastionofTwilight", 5117, 0.539, 0.784, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Halfus Wyrmbreaker
-A{"TheBastionofTwilight", 5118}
+A{"TheBastionofTwilight", 5118, 0.534, 0.193, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Ascendant Council
-A{"TheBastionofTwilight", 5119}
+A{"TheBastionofTwilight", 5119, 0.425, 0.455, floor=2}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Cho'gall
-A{"TheBastionofTwilight", 5120}
+A{"TheBastionofTwilight", 5120, 0.734, 0.754, floor=2}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Sinestra
-A{"TheBastionofTwilight", 5121}
+A{"TheBastionofTwilight", 5121, 0.488, 0.337, floor=2}
+
+-- Dungeons & Raids/Cataclysm Raid: The Only Escape
+A{"TheBastionofTwilight", 5300, 0.534, 0.193, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Elementary
-A{"TheBastionofTwilight", 5311}
+A{"TheBastionofTwilight", 5311, 0.425, 0.455, floor=2}
 
 -- Dungeons & Raids/Cataclysm Raid: The Abyss Will Gaze Back Into You
-A{"TheBastionofTwilight", 5312}
+A{"TheBastionofTwilight", 5312, 0.734, 0.754, floor=2}
+
+-- Feats of Strength: I Can't Hear You Over the Sound of How Awesome I Am
+A{"TheBastionofTwilight", 5313, 0.488, 0.337, floor=2}
+
+-- Dungeons & Raids: Defender of a Shattered World
+A{"TheBastionofTwilight", 5506, 0.488, 0.337, criterion=16061, floor=2} -- The Bastion of Twilight
 
 -- Dungeons & Raids/The Burning Crusade: The Blood Furnace
 A{"TheBloodFurnace", 648}
@@ -1617,44 +1804,51 @@ A{"TheDeadmines", 5370}
 -- Dungeons & Raids/Cataclysm Dungeon: Vigorous VanCleef Vindicator
 A{"TheDeadmines", 5371}
 
+-- Dungeons & Raids: Defender of a Shattered World
+A{"TheDeadmines", 5506, criterion=14383} -- Heroic: Deadmines
+
 -- Dungeons & Raids/Lich King Raid: The Spellweaver's Downfall (10 player)
-A{"TheEyeofEternity", 622}
+A{"TheEyeofEternity", 622, 0.368, 0.518}
 
 -- Dungeons & Raids/Lich King Raid: The Spellweaver's Downfall (25 player)
-A{"TheEyeofEternity", 623}
+A{"TheEyeofEternity", 623, 0.368, 0.518}
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"TheEyeofEternity", 1658, criterion=5890} -- Malygos (10 or 25 player)
+A{"TheEyeofEternity", 1658, 0.368, 0.518, criterion=5890} -- Malygos (10 or 25 player)
 
 -- Dungeons & Raids/Lich King Raid: A Poke in the Eye (10 player)
-A{"TheEyeofEternity", 1869}
+A{"TheEyeofEternity", 1869, 0.368, 0.518}
 
 -- Dungeons & Raids/Lich King Raid: A Poke in the Eye (25 player)
-A{"TheEyeofEternity", 1870}
+A{"TheEyeofEternity", 1870, 0.368, 0.518}
 
 -- Dungeons & Raids/Lich King Raid: You Don't Have an Eternity (10 player)
-A{"TheEyeofEternity", 1874}
+A{"TheEyeofEternity", 1874, 0.368, 0.518}
 
 -- Dungeons & Raids/Lich King Raid: You Don't Have an Eternity (25 player)
-A{"TheEyeofEternity", 1875}
+A{"TheEyeofEternity", 1875, 0.368, 0.518}
 
 -- Dungeons & Raids: Glory of the Raider (10 player)
-A{"TheEyeofEternity", 2137, criterion=7535} -- A Poke In The Eye
-A{"TheEyeofEternity", 2137, criterion=7533} -- The Spellweaver's Downfall
+A{"TheEyeofEternity", 2137, 0.368, 0.518, criterion=7535} -- A Poke In The Eye
+A{"TheEyeofEternity", 2137, 0.368, 0.518, criterion=7533} -- The Spellweaver's Downfall
 A{"TheEyeofEternity", 2137, criterion=7576} -- Denyin' the Scion
-A{"TheEyeofEternity", 2137, criterion=7534} -- You Don't Have An Eternity
+A{"TheEyeofEternity", 2137, 0.368, 0.518, criterion=7534} -- You Don't Have An Eternity
 
 -- Dungeons & Raids: Glory of the Raider (25 player)
-A{"TheEyeofEternity", 2138, criterion=7543} -- The Spellweaver's Downfall (25 player)
-A{"TheEyeofEternity", 2138, criterion=7545} -- A Poke In The Eye (25 player)
+A{"TheEyeofEternity", 2138, 0.368, 0.518, criterion=7543} -- The Spellweaver's Downfall (25 player)
+A{"TheEyeofEternity", 2138, 0.368, 0.518, criterion=7545} -- A Poke In The Eye (25 player)
 A{"TheEyeofEternity", 2138, criterion=7575} -- Denyin' the Scion (25 player)
-A{"TheEyeofEternity", 2138, criterion=7544} -- You Don't Have An Eternity (25 player)
+A{"TheEyeofEternity", 2138, 0.368, 0.518, criterion=7544} -- You Don't Have An Eternity (25 player)
 
 -- Dungeons & Raids/Lich King Raid: Denyin' the Scion (10 player)
 A{"TheEyeofEternity", 2148}
 
 -- Dungeons & Raids/Lich King Raid: Denyin' the Scion (25 player)
 A{"TheEyeofEternity", 2149}
+
+-- Collections/Mounts: Awake the Drakes
+A{"TheEyeofEternity", 9713, 0.368, 0.518, criterion=26684} -- Blue Drake
+A{"TheEyeofEternity", 9713, 0.368, 0.518, criterion=26687} -- Azure Drake
 
 -- Dungeons & Raids/Lich King Dungeon: The Forge of Souls
 A{"TheForgeofSouls", 4516, 0.440, 0.510, criterion=13315} -- Bronjahm
@@ -1695,92 +1889,96 @@ A{"TheMechanar", 1284, criterion=3976} -- The Mechanar
 A{"TheMechanar", 1287, criterion=4035} -- Heroic The Mechanar
 
 -- Dungeons & Raids/Lich King Dungeon: The Nexus
-A{"TheNexus", 478, criterion=5382} -- Anomalus
-A{"TheNexus", 478, criterion=5383} -- Ormorok the Tree-Shaper
-A{"TheNexus", 478, criterion=5384} -- Keristrasza
-A{"TheNexus", 478, criterion=5381} -- Grand Magus Telestra
+A{"TheNexus", 478, 0.620, 0.221, criterion=5382} -- Anomalus
+A{"TheNexus", 478, 0.562, 0.727, criterion=5383} -- Ormorok the Tree-Shaper
+A{"TheNexus", 478, 0.362, 0.674, criterion=5384} -- Keristrasza
+A{"TheNexus", 478, 0.275, 0.399, criterion=5381} -- Grand Magus Telestra
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: The Nexus
-A{"TheNexus", 490, criterion=5245} -- Grand Magus Telestra
-A{"TheNexus", 490, criterion=5247} -- Ormorok the Tree-Shaper
-A{"TheNexus", 490, criterion=5609} -- Keristrasza
-A{"TheNexus", 490, criterion=5246} -- Anomalus
+A{"TheNexus", 490, 0.275, 0.399, criterion=5245} -- Grand Magus Telestra
+A{"TheNexus", 490, 0.562, 0.727, criterion=5247} -- Ormorok the Tree-Shaper
+A{"TheNexus", 490, 0.362, 0.674, criterion=5609} -- Keristrasza
+A{"TheNexus", 490, 0.620, 0.221, criterion=5246} -- Anomalus
 
 -- Dungeons & Raids: Northrend Dungeonmaster
-A{"TheNexus", 1288, criterion=4041} -- The Nexus
+A{"TheNexus", 1288, 0.362, 0.674, criterion=4041} -- The Nexus
 
 -- Dungeons & Raids: Northrend Dungeon Hero
-A{"TheNexus", 1289, criterion=4057} -- Heroic The Nexus
+A{"TheNexus", 1289, 0.362, 0.674, criterion=4057} -- Heroic The Nexus
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"TheNexus", 1658, criterion=5609} -- Heroic: Keristrasza
+A{"TheNexus", 1658, 0.362, 0.674, criterion=5609} -- Heroic: Keristrasza
 
 -- Dungeons & Raids/Lich King Dungeon: Intense Cold
-A{"TheNexus", 2036}
+A{"TheNexus", 2036, 0.362, 0.674}
 
 -- Dungeons & Raids/Lich King Dungeon: Chaos Theory
-A{"TheNexus", 2037}
+A{"TheNexus", 2037, 0.620, 0.221}
 
 -- Dungeons & Raids: Glory of the Hero
-A{"TheNexus", 2136, criterion=7498} -- Chaos Theory
-A{"TheNexus", 2136, criterion=7580} -- Split Personality
-A{"TheNexus", 2136, criterion=7497} -- Intense Cold
+A{"TheNexus", 2136, 0.620, 0.221, criterion=7498} -- Chaos Theory
+A{"TheNexus", 2136, 0.275, 0.399, criterion=7580} -- Split Personality
+A{"TheNexus", 2136, 0.362, 0.674, criterion=7497} -- Intense Cold
 
 -- Dungeons & Raids/Lich King Dungeon: Split Personality
-A{"TheNexus", 2150}
+A{"TheNexus", 2150, 0.275, 0.399}
 
 -- Dungeons & Raids/Lich King Raid: Less Is More (10 player)
-A{"TheObsidianSanctum", 624, criterion=7190} -- Tenebron
-A{"TheObsidianSanctum", 624, criterion=7189} -- Vesperon
-A{"TheObsidianSanctum", 624, criterion=7191} -- Shadron
-A{"TheObsidianSanctum", 624, criterion=522} -- Sartharion the Onyx Guardian
+A{"TheObsidianSanctum", 624, 0.508, 0.478, criterion=7190} -- Tenebron
+A{"TheObsidianSanctum", 624, 0.508, 0.478, criterion=7189} -- Vesperon
+A{"TheObsidianSanctum", 624, 0.508, 0.478, criterion=7191} -- Shadron
+A{"TheObsidianSanctum", 624, 0.508, 0.478, criterion=522} -- Sartharion the Onyx Guardian
 
 -- Dungeons & Raids/Lich King Raid: Besting the Black Dragonflight (25 player)
-A{"TheObsidianSanctum", 625}
+A{"TheObsidianSanctum", 625, 0.508, 0.478}
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"TheObsidianSanctum", 1658, criterion=5889} -- Sartharion the Onyx Guardian (10 or 25 player)
+A{"TheObsidianSanctum", 1658, 0.508, 0.478, criterion=5889} -- Sartharion the Onyx Guardian (10 or 25 player)
 
 -- Dungeons & Raids/Lich King Raid: Besting the Black Dragonflight (10 player)
-A{"TheObsidianSanctum", 1876}
+A{"TheObsidianSanctum", 1876, 0.508, 0.478}
 
 -- Dungeons & Raids/Lich King Raid: Less Is More (25 player)
-A{"TheObsidianSanctum", 1877, criterion=7187} -- Shadron
-A{"TheObsidianSanctum", 1877, criterion=7185} -- Vesperon
-A{"TheObsidianSanctum", 1877, criterion=7188} -- Tenebron
-A{"TheObsidianSanctum", 1877, criterion=7186} -- Sartharion the Onyx Guardian
+A{"TheObsidianSanctum", 1877, 0.508, 0.478, criterion=7187} -- Shadron
+A{"TheObsidianSanctum", 1877, 0.508, 0.478, criterion=7185} -- Vesperon
+A{"TheObsidianSanctum", 1877, 0.508, 0.478, criterion=7188} -- Tenebron
+A{"TheObsidianSanctum", 1877, 0.508, 0.478, criterion=7186} -- Sartharion the Onyx Guardian
 
 -- Dungeons & Raids/Lich King Raid: Gonna Go When the Volcano Blows (10 player)
-A{"TheObsidianSanctum", 2047}
+A{"TheObsidianSanctum", 2047, 0.508, 0.478}
 
 -- Dungeons & Raids/Lich King Raid: Gonna Go When the Volcano Blows (25 player)
-A{"TheObsidianSanctum", 2048}
+A{"TheObsidianSanctum", 2048, 0.508, 0.478}
 
 -- Dungeons & Raids/Lich King Raid: Twilight Assist (10 player)
-A{"TheObsidianSanctum", 2049}
+A{"TheObsidianSanctum", 2049, 0.508, 0.478}
 
 -- Dungeons & Raids/Lich King Raid: Twilight Duo (10 player)
-A{"TheObsidianSanctum", 2050}
+A{"TheObsidianSanctum", 2050, 0.508, 0.478}
 
 -- Dungeons & Raids/Lich King Raid: The Twilight Zone (10 player)
-A{"TheObsidianSanctum", 2051}
+A{"TheObsidianSanctum", 2051, 0.508, 0.478}
 
 -- Dungeons & Raids/Lich King Raid: Twilight Assist (25 player)
-A{"TheObsidianSanctum", 2052}
+A{"TheObsidianSanctum", 2052, 0.508, 0.478}
 
 -- Dungeons & Raids/Lich King Raid: Twilight Duo (25 player)
-A{"TheObsidianSanctum", 2053}
+A{"TheObsidianSanctum", 2053, 0.508, 0.478}
 
 -- Dungeons & Raids/Lich King Raid: The Twilight Zone (25 player)
-A{"TheObsidianSanctum", 2054}
+A{"TheObsidianSanctum", 2054, 0.508, 0.478}
 
 -- Dungeons & Raids: Glory of the Raider (10 player)
-A{"TheObsidianSanctum", 2137, criterion=7536} -- Gonna Go When the Volcano Blows
-A{"TheObsidianSanctum", 2137, criterion=7537} -- The Twilight Zone
+A{"TheObsidianSanctum", 2137, 0.508, 0.478, criterion=7536} -- Gonna Go When the Volcano Blows
+A{"TheObsidianSanctum", 2137, 0.508, 0.478, criterion=7537} -- The Twilight Zone
 
 -- Dungeons & Raids: Glory of the Raider (25 player)
-A{"TheObsidianSanctum", 2138, criterion=7546} -- Gonna Go When the Volcano Blows (25 player)
-A{"TheObsidianSanctum", 2138, criterion=7547} -- The Twilight Zone (25 player)
+A{"TheObsidianSanctum", 2138, 0.508, 0.478, criterion=7546} -- Gonna Go When the Volcano Blows (25 player)
+A{"TheObsidianSanctum", 2138, 0.508, 0.478, criterion=7547} -- The Twilight Zone (25 player)
+
+-- Collections/Mounts: Awake the Drakes
+A{"TheObsidianSanctum", 9713, 0.508, 0.478, criterion=26686, note="leave all three Twilight Drakes alive"} -- Black Drake
+A{"TheObsidianSanctum", 9713, 0.508, 0.478, criterion=26689, note="leave all three Twilight Drakes alive"} -- Twilight Drake
 
 -- Dungeons & Raids/Lich King Raid: The Twilight Destroyer (25 player)
 A{"TheRubySanctum", 4815}
@@ -1845,8 +2043,11 @@ A{"TheStonecore", 5063}
 -- Dungeons & Raids/Cataclysm Dungeon: Rotten to the Core
 A{"TheStonecore", 5287, criterion=16010} -- Kill 60 Devout Followers in 10 seconds.
 
+-- Dungeons & Raids: Defender of a Shattered World
+A{"TheStonecore", 5506, criterion=13562} -- Heroic: The Stonecore
+
 -- Dungeons & Raids/Classic: Sunken Temple
-A{"TheTempleOfAtalHakkar", 641}
+A{"TheTempleOfAtalHakkar", 641, 0.670, 0.877}
 
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"TheTempleOfAtalHakkar", 1283, criterion=3952} -- Sunken Temple
@@ -1865,19 +2066,28 @@ A{"TheUnderbog", 1287, criterion=4026} -- Heroic Underbog
 
 -- Dungeons & Raids/Cataclysm Raid: Throne of the Four Winds
 A{"ThroneoftheFourWinds", 4851, criterion=14097} -- Conclave of Wind
-A{"ThroneoftheFourWinds", 4851, criterion=13581} -- Al'Akir
+A{"ThroneoftheFourWinds", 4851, 0.475, 0.500, criterion=13581, floor=1} -- Al'Akir
+
+-- Dungeons & Raids: Glory of the Cataclysm Raider
+A{"ThroneoftheFourWinds", 4853, criterion=15277} -- Four Play
+A{"ThroneoftheFourWinds", 4853, criterion=15687} -- Heroic: Al'Akir
+A{"ThroneoftheFourWinds", 4853, criterion=15686} -- Heroic: Conclave of Wind
+A{"ThroneoftheFourWinds", 4853, criterion=15276} -- Stay Chill
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Conclave of Wind
 A{"ThroneoftheFourWinds", 5122}
 
 -- Dungeons & Raids/Cataclysm Raid: Heroic: Al'Akir
-A{"ThroneoftheFourWinds", 5123}
+A{"ThroneoftheFourWinds", 5123, 0.475, 0.500, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Stay Chill
 A{"ThroneoftheFourWinds", 5304}
 
 -- Dungeons & Raids/Cataclysm Raid: Four Play
-A{"ThroneoftheFourWinds", 5305}
+A{"ThroneoftheFourWinds", 5305, 0.475, 0.500, floor=1}
+
+-- Dungeons & Raids: Defender of a Shattered World
+A{"ThroneoftheFourWinds", 5506, criterion=16060} -- Throne of the Four Winds
 
 -- Dungeons & Raids/Cataclysm Dungeon: Throne of the Tides
 A{"ThroneofTides", 4839}
@@ -1891,8 +2101,11 @@ A{"ThroneofTides", 5285, 0.505, 0.216, floor=2}
 -- Dungeons & Raids/Cataclysm Dungeon: Prince of Tides
 A{"ThroneofTides", 5286}
 
+-- Dungeons & Raids: Defender of a Shattered World
+A{"ThroneofTides", 5506, criterion=13551} -- Heroic: Throne of the Tides
+
 -- Dungeons & Raids/Classic: Uldaman
-A{"Uldaman", 638}
+A{"Uldaman", 638, 0.553, 0.504, floor=2}
 
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"Uldaman", 1283, criterion=3949} -- Uldaman
@@ -2407,76 +2620,100 @@ A{"Ulduar77", 2154, 0.850, 0.770}
 A{"Ulduar77", 2155, 0.500, 0.140}
 
 -- Dungeons & Raids/Lich King Dungeon: Utgarde Keep
-A{"UtgardeKeep", 477, criterion=5378} -- Skarvald the Constructor
-A{"UtgardeKeep", 477, criterion=5380} -- Ingvar the Plunderer
-A{"UtgardeKeep", 477, criterion=5377} -- Prince Keleseth
-A{"UtgardeKeep", 477, criterion=5379} -- Dalronn the Controller
+A{"UtgardeKeep", 477, 0.587, 0.620, criterion=5378, floor=2} -- Skarvald the Constructor
+A{"UtgardeKeep", 477, 0.724, 0.381, criterion=5380, floor=3} -- Ingvar the Plunderer
+A{"UtgardeKeep", 477, 0.289, 0.627, criterion=5377, floor=1} -- Prince Keleseth
+A{"UtgardeKeep", 477, 0.587, 0.620, criterion=5379, floor=2} -- Dalronn the Controller
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: Utgarde Keep
-A{"UtgardeKeep", 489, criterion=3703} -- Dalronn the Controller
-A{"UtgardeKeep", 489, criterion=5608} -- Ingvar the Plunderer
-A{"UtgardeKeep", 489, criterion=3701} -- Prince Keleseth
-A{"UtgardeKeep", 489, criterion=3702} -- Skarvald the Constructor
+A{"UtgardeKeep", 489, 0.587, 0.620, criterion=3703, floor=2} -- Dalronn the Controller
+A{"UtgardeKeep", 489, 0.724, 0.381, criterion=5608, floor=3} -- Ingvar the Plunderer
+A{"UtgardeKeep", 489, 0.289, 0.627, criterion=3701, floor=1} -- Prince Keleseth
+A{"UtgardeKeep", 489, 0.587, 0.620, criterion=3702, floor=2} -- Skarvald the Constructor
 
 -- Dungeons & Raids: Northrend Dungeonmaster
-A{"UtgardeKeep", 1288, criterion=4040} -- Utgarde Keep
+A{"UtgardeKeep", 1288, 0.724, 0.381, criterion=4040, floor=3} -- Utgarde Keep
 
 -- Dungeons & Raids: Northrend Dungeon Hero
-A{"UtgardeKeep", 1289, criterion=4056} -- Heroic Utgarde Keep
+A{"UtgardeKeep", 1289, 0.724, 0.381, criterion=4056, floor=3} -- Heroic Utgarde Keep
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"UtgardeKeep", 1658, criterion=5608} -- Heroic: Ingvar the Plunderer
+A{"UtgardeKeep", 1658, 0.724, 0.381, criterion=5608, floor=3} -- Heroic: Ingvar the Plunderer
 
 -- Dungeons & Raids/Lich King Dungeon: On The Rocks
-A{"UtgardeKeep", 1919}
+A{"UtgardeKeep", 1919, 0.289, 0.627, floor=1}
 
 -- Dungeons & Raids: Glory of the Hero
-A{"UtgardeKeep", 2136, criterion=7496} -- On The Rocks
+A{"UtgardeKeep", 2136, 0.289, 0.627, criterion=7496, floor=1} -- On The Rocks
 
 -- Dungeons & Raids/Lich King Dungeon: Utgarde Pinnacle
-A{"UtgardePinnacle", 488, criterion=5465} -- Svala Sorrowgrave
-A{"UtgardePinnacle", 488, criterion=5463} -- Skadi the Ruthless
-A{"UtgardePinnacle", 488, criterion=5464} -- King Ymiron
-A{"UtgardePinnacle", 488, criterion=5466} -- Gortok Palehoof
+A{"UtgardePinnacle", 488, 0.363, 0.706, criterion=5465, floor=1} -- Svala Sorrowgrave
+A{"UtgardePinnacle", 488, 0.684, 0.362, criterion=5463, floor=2} -- Skadi the Ruthless
+A{"UtgardePinnacle", 488, 0.415, 0.534, criterion=5464, floor=2} -- King Ymiron
+A{"UtgardePinnacle", 488, 0.606, 0.688, criterion=5466, floor=2} -- Gortok Palehoof
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: Utgarde Pinnacle
-A{"UtgardePinnacle", 499, criterion=5618} -- King Ymiron
-A{"UtgardePinnacle", 499, criterion=6863} -- Skadi the Ruthless
-A{"UtgardePinnacle", 499, criterion=6864} -- Svala Sorrowgrave
-A{"UtgardePinnacle", 499, criterion=6865} -- Gortok Palehoof
+A{"UtgardePinnacle", 499, 0.415, 0.534, criterion=5618, floor=2} -- King Ymiron
+A{"UtgardePinnacle", 499, 0.684, 0.362, criterion=6863, floor=2} -- Skadi the Ruthless
+A{"UtgardePinnacle", 499, 0.363, 0.706, criterion=6864, floor=1} -- Svala Sorrowgrave
+A{"UtgardePinnacle", 499, 0.606, 0.688, criterion=6865, floor=2} -- Gortok Palehoof
 
 -- Dungeons & Raids: Northrend Dungeonmaster
-A{"UtgardePinnacle", 1288, criterion=4051} -- Utgarde Pinnacle
+A{"UtgardePinnacle", 1288, 0.415, 0.534, criterion=4051, floor=2} -- Utgarde Pinnacle
 
 -- Dungeons & Raids: Northrend Dungeon Hero
-A{"UtgardePinnacle", 1289, criterion=4067} -- Heroic Utgarde Pinnacle
+A{"UtgardePinnacle", 1289, 0.415, 0.534, criterion=4067, floor=2} -- Heroic Utgarde Pinnacle
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"UtgardePinnacle", 1658, criterion=5618} -- Heroic: King Ymiron
+A{"UtgardePinnacle", 1658, 0.415, 0.534, criterion=5618, floor=2} -- Heroic: King Ymiron
 
 -- Dungeons & Raids/Lich King Dungeon: Lodi Dodi We Loves the Skadi
-A{"UtgardePinnacle", 1873}
+A{"UtgardePinnacle", 1873, 0.684, 0.362, floor=2}
 
 -- Dungeons & Raids/Lich King Dungeon: The Incredible Hulk
-A{"UtgardePinnacle", 2043}
+A{"UtgardePinnacle", 2043, 0.363, 0.706, floor=1}
 
 -- Dungeons & Raids: Glory of the Hero
-A{"UtgardePinnacle", 2136, criterion=7522} -- Lodi Dodi We Loves the Skadi
-A{"UtgardePinnacle", 2136, criterion=7596} -- My Girl Loves to Skadi All the Time
-A{"UtgardePinnacle", 2136, criterion=7599} -- King's Bane
-A{"UtgardePinnacle", 2136, criterion=7521} -- The Incredible Hulk
+A{"UtgardePinnacle", 2136, 0.684, 0.362, criterion=7522, floor=2} -- Lodi Dodi We Loves the Skadi
+A{"UtgardePinnacle", 2136, 0.684, 0.362, criterion=7596, floor=2} -- My Girl Loves to Skadi All the Time
+A{"UtgardePinnacle", 2136, 0.415, 0.534, criterion=7599, floor=2} -- King's Bane
+A{"UtgardePinnacle", 2136, 0.363, 0.706, criterion=7521, floor=1} -- The Incredible Hulk
 
 -- Dungeons & Raids/Lich King Dungeon: My Girl Loves to Skadi All the Time
-A{"UtgardePinnacle", 2156}
+A{"UtgardePinnacle", 2156, 0.684, 0.362, floor=2}
 
 -- Dungeons & Raids/Lich King Dungeon: King's Bane
-A{"UtgardePinnacle", 2157}
+A{"UtgardePinnacle", 2157, 0.415, 0.534, floor=2}
+
+-- Player vs. Player/Wintergrasp: Archavon the Stone Watcher (25 player)
+A{"VaultofArchavon", 1721, 0.492, 0.170}
+
+-- Player vs. Player/Wintergrasp: Archavon the Stone Watcher (10 player)
+A{"VaultofArchavon", 1722, 0.492, 0.170}
+
+-- Player vs. Player/Wintergrasp: Emalon the Storm Watcher (10 player)
+A{"VaultofArchavon", 3136, 0.626, 0.554}
+
+-- Player vs. Player/Wintergrasp: Emalon the Storm Watcher (25 player)
+A{"VaultofArchavon", 3137, 0.626, 0.554}
+
+-- Player vs. Player/Wintergrasp: Koralon the Flame Watcher (10 player)
+A{"VaultofArchavon", 3836, 0.360, 0.554}
+
+-- Player vs. Player/Wintergrasp: Koralon the Flame Watcher (25 player)
+A{"VaultofArchavon", 3837, 0.360, 0.554}
 
 -- Dungeons & Raids/Lich King Raid: Earth, Wind & Fire (10 player)
 A{"VaultofArchavon", 4016}
 
 -- Dungeons & Raids/Lich King Raid: Earth, Wind & Fire (25 player)
 A{"VaultofArchavon", 4017}
+
+-- Player vs. Player/Wintergrasp: Toravon the Ice Watcher (10 player)
+A{"VaultofArchavon", 4585, 0.626, 0.368}
+
+-- Player vs. Player/Wintergrasp: Toravon the Ice Watcher (25 player)
+A{"VaultofArchavon", 4586, 0.626, 0.368}
 
 -- Dungeons & Raids/Lich King Dungeon: The Violet Hold
 A{"VioletHold", 483, 0.450, 0.560}
@@ -2517,7 +2754,7 @@ A{"VioletHold", 2136, 0.300, 0.340, criterion=7588} -- A Void Dance
 A{"VioletHold", 2153, 0.300, 0.340}
 
 -- Dungeons & Raids/Classic: Wailing Caverns
-A{"WailingCaverns", 630}
+A{"WailingCaverns", 630, 0.345, 0.137}
 
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"WailingCaverns", 1283, criterion=3941} -- Wailing Caverns
@@ -2561,7 +2798,7 @@ A{"ZulAman", 5769}
 A{"ZulAman", 5858}
 
 -- Dungeons & Raids/Classic: Zul'Farrak
-A{"ZulFarrak", 639}
+A{"ZulFarrak", 639, 0.422, 0.329}
 
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"ZulFarrak", 1283, criterion=3950} -- Zul'Farrak

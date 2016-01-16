@@ -3,13 +3,8 @@
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
--- Feats of Strength: Why? Because It's Red
-A{"AhnQiraj", 424}
-
--- Pet Battles/Collect: Raiding with Leashes
-A{"AhnQiraj", 7934, 0.445, 0.451, criterion=22468, floor=2, note="from the Prophet Skeram"} -- Mini Mindslayer
-A{"AhnQiraj", 7934, 0.615, 0.657, criterion=22469, floor=1, note="from Emperor Vek'lor"} -- Anubisath Idol
-A{"AhnQiraj", 7934, 0.720, 0.180, criterion=22480, floor=1, note="from Viscidus"} -- Viscidus Globule
+-- Reputation/Classic: Brood of Nozdormu
+A{"AhnQiraj", 956}
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Arathi", 1676, criterion=15204} -- Arathi Highlands Quests
@@ -166,6 +161,15 @@ A{"Badlands", 6586, 0.700, 0.460, criterion=21620} -- Stripe-Tailed Scorpid
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"Badlands", 6613, criterion=21421} -- Badlands
 
+-- Player vs. Player/Tol Barad: Pit Lord Argaloth
+A{"BaradinHold", 5416}
+
+-- Player vs. Player/Tol Barad: Master of Tol Barad
+A{"BaradinHold", 5489, criterion=15976} -- Pit Lord Argaloth
+
+-- Player vs. Player/Tol Barad: Occu'thar
+A{"BaradinHold", 6045}
+
 -- General: To All The Squirrels I've Loved Before
 A{"Barrens", 1206, 0.526, 0.556, criterion=0} -- Gazelle
 A{"Barrens", 1206, 0.614, 0.448, criterion=0} -- Prairie Dog
@@ -241,55 +245,6 @@ A{"BlackrockTrainDepotDungeon", 9838, criterion=27629} -- Skylord Tovra
 
 -- Dungeons & Raids/Draenor Dungeon: Mythic: Grimrail Depot
 A{"BlackrockTrainDepotDungeon", 10082}
-
--- Pet Battles/Collect: Raiding with Leashes III: Drinkin' From the Sunwell
-A{"BlackTemple", 9824, criterion=27571, note="from Reliquary of the Lost"} -- Fragment of Suffering
-A{"BlackTemple", 9824, criterion=27572, note="from Reliquary of the Lost"} -- Fragment of Desire
-A{"BlackTemple", 9824, criterion=27573, note="from Mother Shahraz"} -- Sister of Temptation
-A{"BlackTemple", 9824, criterion=27568, note="from High Warlord Naj'entus"} -- Leviathan Hatchling
-A{"BlackTemple", 9824, criterion=27569, note="from Supremus"} -- Abyssius
-A{"BlackTemple", 9824, criterion=27570, note="from Reliquary of the Lost"} -- Fragment of Anger
-
--- Garrisons: Ten Hit Tunes
-A{"BlackTemple", 9828, criterion=27711, note="drop from Illidan Stormrage"} -- The Burning Legion
-
--- Garrisons: Ten Hit Tunes
-A{"BlackTemple", 9897, criterion=27711, note="drop from Illidan Stormrage"} -- The Burning Legion
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"BlackTemple", 9912, criterion=27711, note="drop from Illidan Stormrage"} -- The Burning Legion
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"BlackTemple", 9914, criterion=27711, note="drop from Illidan Stormrage"} -- The Burning Legion
-
--- Garrisons: Full Discography
-A{"BlackTemple", 10015, criterion=27711, note="drop from Illidan Stormrage"} -- The Burning Legion
-
--- Garrisons: Full Discography
-A{"BlackTemple", 10016, criterion=27711, note="drop from Illidan Stormrage"} -- The Burning Legion
-
--- Garrisons: Ten Hit Tunes
-A{"BlackwingDescent", 9828, criterion=27710, note="drop from Nefarian"} -- Legends of Azeroth
-
--- Garrisons: Ten Hit Tunes
-A{"BlackwingDescent", 9897, criterion=27710, note="drop from Nefarian"} -- Legends of Azeroth
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"BlackwingDescent", 9912, criterion=27710, note="drop from Nefarian"} -- Legends of Azeroth
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"BlackwingDescent", 9914, criterion=27710, note="drop from Nefarian"} -- Legends of Azeroth
-
--- Garrisons: Full Discography
-A{"BlackwingDescent", 10015, criterion=27710, note="drop from Nefarian"} -- Legends of Azeroth
-
--- Garrisons: Full Discography
-A{"BlackwingDescent", 10016, criterion=27710, note="drop from Nefarian"} -- Legends of Azeroth
-
--- Pet Battles/Collect: Raiding with Leashes
-A{"BlackwingLair", 7934, criterion=22477, note="from Razormore the Untamed"} -- Untamed Hatchling
-A{"BlackwingLair", 7934, criterion=22478, note="from Chromaggus"} -- Chrominius
-A{"BlackwingLair", 7934, criterion=22479, note="from Broodlord Lashlayer"} -- Death Talon Whelpguard
 
 -- Quests/Outland: On the Blade's Edge
 A{"BladesEdgeMountains", 1193, criterion=3587} -- 86 Blade's Edge Mountains quests
@@ -477,9 +432,6 @@ A{"CoilfangReservoir", 144, 0.400, 0.580}
 A{"CoilfangReservoir", 8293, 0.595, 0.270, criterion=23325, note="from Morogrim Tidewalker"} -- Tideskipper
 A{"CoilfangReservoir", 8293, 0.361, 0.843, criterion=23326, note="from Hydross the Unstable"} -- Tainted Waveling
 A{"CoilfangReservoir", 8293, 0.721, 0.590, criterion=23327, note="from Lady Vashj"} -- Coilfang Stalker
-
--- Collections/Mounts: Awake the Drakes
-A{"CoTStratholme", 9713, criterion=26683, note="heroic within 25min"} -- Bronze Drake
 
 -- Pet Battles: Taming Northrend
 A{"CrystalsongForest", 6605, 0.500, 0.590, criterion=21849} -- Nearly Headless Jacob
@@ -679,6 +631,9 @@ A{"DeadwindPass", 8348, 0.400, 0.760, criterion=23452} -- Grand Master Lydia Acc
 -- Pet Battles/Battle: An Awfully Big Adventure
 A{"DeadwindPass", 9069, 0.402, 0.764, criterion=26988} -- Lydia Accoste
 
+-- Pet Battles/Collect: So. Many. Pets.
+A{"DeadwindPass", 9643, criterion=19598} -- Arcane eye
+
 -- Exploration: Field Photographer
 A{"DeadwindPass", 9924, 0.470, 0.750, criterion=27876} -- Karazhan
 
@@ -831,30 +786,6 @@ A{"Dragonblight", 9713, 0.598, 0.530, criterion=26685, note="from Cielstrasza\nT
 -- Exploration: Field Photographer
 A{"Dragonblight", 9924, 0.870, 0.510, criterion=27879} -- Naxxramas
 A{"Dragonblight", 9924, 0.600, 0.530, criterion=27880} -- Wyrmrest Temple
-
--- Collections/Mounts: Awake the Drakes
-A{"DragonSoul", 9713, criterion=26688} -- Blazing Drake
-
--- Garrisons: Ten Hit Tunes
-A{"DragonSoul", 9828, criterion=27740, note="drop from Elementium Fragment"} -- The Shattering
-
--- Garrisons: Ten Hit Tunes
-A{"DragonSoul", 9897, criterion=27740, note="drop from Elementium Fragment"} -- The Shattering
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"DragonSoul", 9912, criterion=27740, note="drop from Elementium Fragment"} -- The Shattering
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"DragonSoul", 9914, criterion=27740, note="drop from Elementium Fragment"} -- The Shattering
-
--- Garrisons: Full Discography
-A{"DragonSoul", 10015, criterion=27740, note="drop from Elementium Fragment"} -- The Shattering
-
--- Garrisons: Full Discography
-A{"DragonSoul", 10016, criterion=27740, note="drop from Elementium Fragment"} -- The Shattering
-
--- Quests/Northrend: Guru of Drakuru
-A{"DrakTharonKeep", 1596, criterion=5804} -- Cleansing Drak'Tharon
 
 -- General: To All the Squirrels I Once Caressed?
 A{"DreadWastes", 6350, 0.640, 0.202, criterion=20821, note="zone exclusive"} -- Clouded Hedgehog
@@ -1742,10 +1673,10 @@ A{"GrizzlyHills", 9828, criterion=27762, note="from Remington Brode\n1. Breathe 
 A{"GrizzlyHills", 9897, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"GrizzlylHills", 9912, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
+A{"GrizzlyHills", 9912, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"GrizzlylHills", 9914, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
+A{"GrizzlyHills", 9914, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
 
 -- Garrisons: Full Discography
 A{"GrizzlylHills", 10015, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
@@ -2599,36 +2530,6 @@ A{"IsleoftheThunderKing", 8212, criterion=22932} -- Torn Zandalari Journal
 A{"IsleoftheThunderKing", 8212, criterion=22933} -- Frayed Zandalari Journal
 A{"IsleoftheThunderKing", 8212, criterion=22934} -- Waterlogged Zandalari Journal
 
--- Feats of Strength: Fiery Warhorse's Reins
-A{"Karazhan", 882}
-
--- Pet Battles/Collect: Raiding with Leashes II: Attunement Edition
-A{"Karazhan", 8293, criterion=23321, note="from the Big Bad Wolf"} -- Lil' Bad Wolf
-A{"Karazhan", 8293, criterion=23322, note="from the Curator"} -- Menagerie Custodian
-A{"Karazhan", 8293, criterion=23323, note="from Prince Malchezaar"} -- Netherspace Abyssal
-A{"Karazhan", 8293, criterion=23324, note="from Terestian Illhoof"} -- Fiendish Imp
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"Karazhan", 9643, criterion=19598} -- Arcane eye
-
--- Garrisons: Ten Hit Tunes
-A{"Karazhan", 9828, criterion=27758, note="from Opera encounter"} -- Karazhan Opera House
-
--- Garrisons: Ten Hit Tunes
-A{"Karazhan", 9897, criterion=27758, note="from Opera encounter"} -- Karazhan Opera House
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"Karazhan", 9912, criterion=27758, note="from Opera encounter"} -- Karazhan Opera House
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"Karazhan", 9914, criterion=27758, note="from Opera encounter"} -- Karazhan Opera House
-
--- Garrisons: Full Discography
-A{"Karazhan", 10015, criterion=27758, note="from Opera encounter"} -- Karazhan Opera House
-
--- Garrisons: Full Discography
-A{"Karazhan", 10016, criterion=27758, note="from Opera encounter"} -- Karazhan Opera House
-
 -- General: To All the Squirrels I Once Caressed?
 A{"Krasarang", 6350, 0.496, 0.398, criterion=0, note="zone exclusive"} -- Luyu Moth
 A{"Krasarang", 6350, 0.482, 0.398, criterion=20817, note="zone exclusive"} -- Amethyst Spiderling
@@ -3096,6 +2997,9 @@ A{"MogushanVaults", 7485}
 
 -- Dungeons & Raids/Pandaria Raid: And... It's Good!
 A{"MogushanVaults", 7933}
+
+-- Reputation/Classic: Hydraxian Waterlords
+A{"MoltenCore", 955}
 
 -- Pet Battles/Collect: Raiding with Leashes
 A{"MoltenCore", 7934, 0.820, 0.830, criterion=22474, note="from Sulfurion Harbinger"} -- Harbinger of Flame
@@ -3748,17 +3652,14 @@ A{"ScarletHalls", 6909}
 -- Legacy: Scarlet Halls: Gold
 A{"ScarletHalls", 6910}
 
--- Feats of Strength: The Horseman's Reins
-A{"ScarletMonastery", 980}
-
 -- Legacy: Scarlet Monastery: Bronze
-A{"ScarletMonastery", 6911}
+A{"ScarletMonastery", 6911, 0.490, 0.804, floor=2}
 
 -- Legacy: Scarlet Monastery: Silver
-A{"ScarletMonastery", 6912}
+A{"ScarletMonastery", 6912, 0.490, 0.804, floor=2}
 
 -- Legacy: Scarlet Monastery: Gold
-A{"ScarletMonastery", 6913}
+A{"ScarletMonastery", 6913, 0.490, 0.804, floor=2}
 
 -- Legacy: Scholomance: Bronze
 A{"Scholomance", 6914}
@@ -4340,11 +4241,6 @@ A{"StranglethornJungle", 9643, 0.510, 0.650, criterion=19598, item="52226", note
 -- Feats of Strength: Deathcharger's Reins
 A{"Stratholme", 729}
 
--- Pet Battles/Collect: Raiding with Leashes III: Drinkin' From the Sunwell
-A{"SunwellPlateau", 9824, criterion=27576, note="from Brutallus"} -- Sunblade Micro-Defender
-A{"SunwellPlateau", 9824, criterion=27577, note="from M'uru or Entropius"} -- Chaos Pup
-A{"SunwellPlateau", 9824, criterion=27578, note="from Grand Warlock Alythess or Lady Sacrolash"} -- Wretched Servant
-
 -- Professions/Fishing: One That Didn't Get Away
 A{"SwampOfSorrows", 878, 0.910, 0.380, criterion=1838, note="coastal waters"} -- 22 Pound Lobster
 
@@ -4789,9 +4685,6 @@ A{"TheArgentColiseum", 4080}
 -- Feats of Strength: A Tribute to Immortality
 A{"TheArgentColiseum", 4156, criterion=12359} -- Complete the Trial of the Grand Crusader
 
--- Feats of Strength: I Can't Hear You Over the Sound of How Awesome I Am
-A{"TheBastionofTwilight", 5313}
-
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"TheCapeOfStranglethorn", 1676, criterion=15208} -- Cape of Stranglethorn Quests
 
@@ -4851,13 +4744,6 @@ A{"TheExodar", 6584, criterion=19848} -- The Exodar
 A{"TheExodar", 9643, criterion=19598} -- Blue Moth Egg
 A{"TheExodar", 9643, criterion=19598} -- White Moth Egg
 A{"TheExodar", 9643, criterion=19598} -- Yellow Moth Egg
-
--- Feats of Strength: Realm First! Magic Seeker
-A{"TheEyeofEternity", 1400}
-
--- Collections/Mounts: Awake the Drakes
-A{"TheEyeofEternity", 9713, criterion=26684} -- Blue Drake
-A{"TheEyeofEternity", 9713, criterion=26687} -- Azure Drake
 
 -- Legacy: Gate of the Setting Sun: Bronze
 A{"TheGreatWall", 6905}
@@ -5054,13 +4940,6 @@ A{"TheJadeForest", 8348, 0.570, 0.290, criterion=23498, note="[4 beasts]"} -- Ni
 -- Pet Battles/Battle: An Awfully Big Adventure
 A{"TheJadeForest", 9069, 0.480, 0.540, criterion=26985} -- Hyuna of the Shrines
 A{"TheJadeForest", 9069, 0.288, 0.360, criterion=27008} -- Whispering Pandaren Spirit
-
--- Feats of Strength: Realm First! Obsidian Slayer
-A{"TheObsidianSanctum", 456}
-
--- Collections/Mounts: Awake the Drakes
-A{"TheObsidianSanctum", 9713, criterion=26686, note="leave all three Twilight Drakes alive"} -- Black Drake
-A{"TheObsidianSanctum", 9713, criterion=26689, note="leave all three Twilight Drakes alive"} -- Twilight Drake
 
 -- Quests/Northrend: The Summit of Storm Peaks
 A{"TheStormPeaks", 38, criterion=79} -- Complete 100 Storm Peaks Quests
@@ -6618,9 +6497,6 @@ A{"ZulDrak", 8348, 0.130, 0.670, criterion=23478} -- Gutretch
 
 -- Pet Battles/Battle: An Awfully Big Adventure
 A{"ZulDrak", 9069, 0.132, 0.668, criterion=26984} -- Gutretch
-
--- Legacy: Deadliest Catch
-A{"ZulGurub", 560, note="unavailable"}
 
 -- Legacy: Zul'Gurub
 A{"ZulGurub", 688}

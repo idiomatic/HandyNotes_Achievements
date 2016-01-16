@@ -79,22 +79,22 @@ A{"ScarletHalls", 6920, criterion=19867} -- Scarlet Halls
 A{"ScarletHalls", 8436}
 
 -- Legacy: Challenge Conqueror: Bronze
-A{"ScarletMonastery", 6374, criterion=19880} -- Scarlet Monastery
+A{"ScarletMonastery", 6374, 0.490, 0.804, criterion=19880, floor=2} -- Scarlet Monastery
 
 -- Legacy: Challenge Conqueror: Silver
-A{"ScarletMonastery", 6375, criterion=19889} -- Scarlet Monastery
+A{"ScarletMonastery", 6375, 0.490, 0.804, criterion=19889, floor=2} -- Scarlet Monastery
 
 -- Legacy: Challenge Conqueror: Gold
-A{"ScarletMonastery", 6378, criterion=19898} -- Scarlet Monastery
+A{"ScarletMonastery", 6378, 0.490, 0.804, criterion=19898, floor=2} -- Scarlet Monastery
 
 -- Legacy: Scarlet Monastery Challenger
-A{"ScarletMonastery", 6896}
+A{"ScarletMonastery", 6896, 0.490, 0.804, floor=2}
 
 -- Legacy: Challenge Conqueror
-A{"ScarletMonastery", 6920, criterion=19868} -- Scarlet Monastery
+A{"ScarletMonastery", 6920, 0.490, 0.804, criterion=19868, floor=2} -- Scarlet Monastery
 
 -- Feats of Strength: Challenge Master: Scarlet Monastery
-A{"ScarletMonastery", 8437}
+A{"ScarletMonastery", 8437, 0.490, 0.804, floor=2}
 
 -- Legacy: Challenge Conqueror: Bronze
 A{"Scholomance", 6374, criterion=19881} -- Scholomance
@@ -177,6 +177,9 @@ A{"StormstoutBrewery", 6920, criterion=19863} -- Stormstout Brewery
 -- Feats of Strength: Challenge Master: Stormstout Brewery
 A{"StormstoutBrewery", 8431}
 
+-- Feats of Strength: Realm First! Magic Seeker
+A{"TheEyeofEternity", 1400, 0.368, 0.518}
+
 -- Legacy: Challenge Conqueror: Bronze
 A{"TheGreatWall", 6374, criterion=19878} -- Gate of the Setting Sun
 
@@ -194,3 +197,9 @@ A{"TheGreatWall", 6920, criterion=19866} -- Gate of the Setting Sun
 
 -- Feats of Strength: Challenge Master: Gate of the Setting Sun
 A{"TheGreatWall", 8434}
+
+-- Feats of Strength: Realm First! Obsidian Slayer
+A{"TheObsidianSanctum", 456, 0.508, 0.478}
+
+-- Legacy: Deadliest Catch
+A{"ZulGurub", 560, note="unavailable"}
