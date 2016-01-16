@@ -209,6 +209,8 @@ function HNA:Valid(row)
         _, _, completed = GetAchievementCriteriaInfoByID(achievementID, row.criterion)
     elseif type(row.criterion) == "string" then
         _, _, completed = HNA:GetAchievementCriteriaInfoByDescription(achievementID, row.criterion)
+    else
+        completed = false
     end
     if completed then return false end
 
