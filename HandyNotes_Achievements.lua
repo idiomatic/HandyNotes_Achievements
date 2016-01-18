@@ -154,7 +154,7 @@ end
 
 
 local function notifyUpdate(frame, event)
-    print(string.format("%s:%s()", ADDON_NAME, event))
+    -- print(string.format("%s:%s()", ADDON_NAME, event))
     HNA:UpdateVisible()
     HNA:SendMessage("HandyNotes_NotifyUpdate", ADDON_NAME)
 end
@@ -162,6 +162,7 @@ end
 
 function HNA:PLAYER_ENTERING_WORLD(event)
     self:UnregisterEvent("PLAYER_ENTERING_WORLD")
+    -- XXX causes low end systems to sieze
     --self:RegisterEvent("ACHIEVEMENT_EARNED")
     --self:RegisterEvent("CRITERIA_COMPLETE")
     --self:RegisterEvent("CRITERIA_EARNED")
