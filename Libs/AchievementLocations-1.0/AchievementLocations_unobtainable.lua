@@ -203,3 +203,9 @@ A{"TheObsidianSanctum", 456, 0.508, 0.478}
 
 -- Legacy: Deadliest Catch
 A{"ZulGurub", 560, note="unavailable"}
+
+-- Legacy: Zul'Gurub
+A{"ZulGurub", 688}
+
+-- Feats of Strength: Swift Zulian Tiger
+A{"ZulGurub", 880}

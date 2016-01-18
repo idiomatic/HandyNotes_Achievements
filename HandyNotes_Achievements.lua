@@ -1,5 +1,18 @@
 -- Copyright 2015, r. brian harrison.  all rights reserved.
 
+
+-- XXX config panel
+-- XXX configurable icon path, width, height, alpha
+-- XXX refresh pins on config change
+-- XXX minimap-zoom-sensitive consolidation distance
+-- XXX event debouncing
+-- XXX onclick improvements: pop up menu
+-- XXX variant tooltip styling for completed/justmine
+-- XXX tooltip modifier-key
+-- XXX exclude achievements tracked by other modules
+-- XXX unavailable progressions, e.g. "60 Exalted Reputations"
+
+
 local ADDON_NAME = ...
 local HNA = LibStub("AceAddon-3.0"):NewAddon(ADDON_NAME, "AceEvent-3.0", "AceTimer-3.0")
 if not HNA then return end
@@ -110,15 +123,27 @@ function HNA:OnLeave(mapFile, coord)
 end
 
 
-function HNA:OnClick(button, down, mapFile, coord)
-    if not AchievementFrame then
-        AchievementFrame_LoadUI()
-    end
-    -- XXX ...
-    local achievementID = activeNodes[mapFile][2][1]
-    if achievementID then
-        ShowUIPanel(AchievementFrame)
-        AchievementFrame_SelectAchievement(achievementID)
+function HNA:OnClick(button, down, mapFile, nearCoord)
+    if not down then
+        if not AchievementFrame then
+            AchievementFrame_LoadUI()
+        end
+
+        local shown = {}
+
+        for nodeIndex = 1, #activeNodes[mapFile], 2 do
+            local nodes = activeNodes[mapFile]
+            local coord, row = nodes[nodeIndex], nodes[nodeIndex + 1]
+            if HNA:HandyNotesCoordsNear(coord, nearCoord) and HNA:Valid(row) then
+                local achievementID = row[1]
+                if not shown[achievementID] then
+                    shown[achievementID] = true
+                    print(GetAchievementLink(achievementID))
+                end
+                --ShowUIPanel(AchievementFrame)
+                --AchievementFrame_SelectAchievement(achievementID)
+            end
+        end
     end
 end
 
@@ -129,6 +154,7 @@ end
 
 
 local function notifyUpdate(frame, event)
+    print(string.format("%s:%s()", ADDON_NAME, event))
     HNA:UpdateVisible()
     HNA:SendMessage("HandyNotes_NotifyUpdate", ADDON_NAME)
 end
@@ -136,11 +162,13 @@ end
 
 function HNA:PLAYER_ENTERING_WORLD(event)
     self:UnregisterEvent("PLAYER_ENTERING_WORLD")
-    self:RegisterEvent("ACHIEVEMENT_EARNED")
-    self:RegisterEvent("CRITERIA_COMPLETE")
-    self:RegisterEvent("CRITERIA_EARNED")
-    self:RegisterEvent("CRITERIA_UPDATE")
-    self:RegisterEvent("QUEST_COMPLETE")
+    --self:RegisterEvent("ACHIEVEMENT_EARNED")
+    --self:RegisterEvent("CRITERIA_COMPLETE")
+    --self:RegisterEvent("CRITERIA_EARNED")
+    --self:RegisterEvent("CRITERIA_UPDATE")
+    --self:RegisterEvent("QUEST_COMPLETE")
+    -- XXX event for "... has been added to your pet journal"
+
     -- XXX ...
     local options = {
         name = "Achievements",

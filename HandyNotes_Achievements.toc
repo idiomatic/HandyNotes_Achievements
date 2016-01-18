@@ -1,7 +1,7 @@
 ## Interface: 60200
 ## Title: HandyNotes: Achievements
 ## Description: Shows location of incomplete achievements
-## Version: 0.4.4
+## Version: 0.4.5
 ## Author: rbrian
 ## Dependencies: HandyNotes
 ## SavedVariablesPerCharacter: HandyNotes_Achievements_CleanContinents
@@ -33,6 +33,8 @@ Libs/AchievementLocations-1.0/AchievementLocations_cartography.lua
 Libs/AchievementLocations-1.0/AchievementLocations_soloable.lua
 Libs/AchievementLocations-1.0/AchievementLocations_group.lua
 Libs/AchievementLocations-1.0/AchievementLocations_pvp.lua
+Libs/AchievementLocations-1.0/AchievementLocations_reputation.lua
+Libs/AchievementLocations-1.0/AchievementLocations_pet.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_brew.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_children.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_darkmoon.lua

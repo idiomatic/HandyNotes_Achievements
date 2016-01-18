@@ -3,31 +3,11 @@
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
--- Reputation/Classic: Brood of Nozdormu
-A{"AhnQiraj", 956}
-
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Arathi", 1676, criterion=15204} -- Arathi Highlands Quests
 
 -- Quests/Eastern Kingdoms: Arathi Highlands Quests
 A{"Arathi", 4896, criterion=13706} -- Arathi Highlands
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Arathi", 6558, criterion=21562} -- Arathi Highlands
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Arathi", 6559, criterion=21562} -- Arathi Highlands
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Arathi", 6560, criterion=21562} -- Arathi Highlands
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"Arathi", 6586, 0.390, 0.890, criterion=21611, note="zone exclusive"} -- Grasslands Cottontail
-A{"Arathi", 6586, 0.390, 0.890, criterion=21613, note="more common in Durotar"} -- Prairie Dog
-A{"Arathi", 6586, 0.460, 0.520, criterion=21614, note="zone exclusive\nscarce\ncan be spawned by battling other pets in the zone"} -- Tiny Twister
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"Arathi", 6613, criterion=21419} -- Arathi Highlands
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Ashenvale", 1678, criterion=15218} -- Ashenvale
@@ -38,28 +18,6 @@ A{"Ashenvale", 4925, criterion=13836} -- Ashenvale
 
 -- Quests/Kalimdor: Ashenvale Quests
 A{"Ashenvale", 4976, criterion=13836} -- Ashenvale
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Ashenvale", 6558, criterion=21391} -- Ashenvale
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Ashenvale", 6559, criterion=21391} -- Ashenvale
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Ashenvale", 6560, criterion=21391} -- Ashenvale
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Ashenvale", 6585, 0.700, 0.600, criterion=21691, note="zone exclusive"} -- Frog
-A{"Ashenvale", 6585, 0.130, 0.270, criterion=21703, note="zone exclusive"} -- Rusty Snail
-
--- Pet Battles: Taming Kalimdor
-A{"Ashenvale", 6602, 0.200, 0.300, criterion=21404} -- Analynn
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Ashenvale", 6612, criterion=21448} -- Ashenvale
-
--- Pet Battles: The Longest Day
-A{"Ashenvale", 8348, 0.200, 0.300, criterion=23456} -- Analynn
 
 -- Garrisons: Ten Hit Tunes
 A{"Ashenvale", 9828, 0.564, 0.493, criterion=27755, note="from Lost Sentinel's Pouch"} -- Magic
@@ -103,36 +61,6 @@ A{"Aszhara", 5546, 0.622, 0.221, criterion=16206} -- Essence of Ice
 -- Quests/Kalimdor: Glutton for Shadowy Punishment
 A{"Aszhara", 5547, 0.311, 0.268, criterion=16207} -- Shadow Bait
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Aszhara", 6558, criterion=21537} -- Azshara
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Aszhara", 6559, criterion=21537} -- Azshara
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Aszhara", 6560, criterion=21537} -- Azshara
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Aszhara", 6585, criterion=21707, note="zone exclusive\nalong coast"} -- Turquoise Turtle
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Aszhara", 6612, criterion=21449} -- Azshara
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"AzuremystIsle", 6558, criterion=21546} -- Azuremyst Isle
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"AzuremystIsle", 6559, criterion=21546} -- Azuremyst Isle
-
--- Pet Battles/Battle: World Pet Mauler
-A{"AzuremystIsle", 6560, criterion=21546} -- Azuremyst Isle
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"AzuremystIsle", 6585, criterion=21708, note="zone exclusive"} -- Grey Moth
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"AzuremystIsle", 6612, criterion=21450} -- Azuremyst Isle
-
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Badlands", 1676, criterion=15205} -- Badlands Quests
 
@@ -141,25 +69,6 @@ A{"Badlands", 4900, criterion=13707} -- Badlands
 
 -- Quests/Eastern Kingdoms: Ready, Set, Goat!
 A{"Badlands", 5444, 0.640, 0.380, criterion=16170} -- Billy Goat Blast
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Badlands", 6558, criterion=21557} -- Badlands
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Badlands", 6559, criterion=21557} -- Badlands
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Badlands", 6560, criterion=21557} -- Badlands
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"Badlands", 6586, 0.700, 0.460, criterion=21616} -- Gold Beetle
-A{"Badlands", 6586, criterion=21617} -- Rattlesnake
-A{"Badlands", 6586, 0.590, 0.200, criterion=21618, note="zone exclusive"} -- King Snake
-A{"Badlands", 6586, 0.700, 0.460, criterion=21619} -- Spiky Lizard
-A{"Badlands", 6586, 0.700, 0.460, criterion=21620} -- Stripe-Tailed Scorpid
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"Badlands", 6613, criterion=21421} -- Badlands
 
 -- Player vs. Player/Tol Barad: Pit Lord Argaloth
 A{"BaradinHold", 5416}
@@ -182,36 +91,6 @@ A{"Barrens", 4933, criterion=13847} -- Northern Barrens
 
 -- Professions/Fishing: The Limnologist
 A{"Barrens", 5478, 0.550, 0.800, criterion=15827, note="inland rivers and lakes"} -- Deviate Fish
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Barrens", 6558, criterion=21390} -- Northern Barrens
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Barrens", 6559, criterion=21390} -- Northern Barrens
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Barrens", 6560, criterion=21390} -- Northern Barrens
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Barrens", 6585, criterion=21737, note="zone exclusive"} -- Cheetah Cub
-
--- Pet Battles: Taming Kalimdor
-A{"Barrens", 6602, 0.590, 0.530, criterion=21403} -- Dagra the Fierce
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Barrens", 6612, criterion=21460} -- Northern Barrens
-
--- Pet Battles: The Longest Day
-A{"Barrens", 8348, 0.590, 0.530, criterion=23455} -- Dagra the Fierce
-
--- Pet Battles/Collect: Crazy for Cats
-A{"Barrens", 8397, criterion=23581} -- Cheetah Cub
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"Barrens", 9643, criterion=19598} -- Leaping Hatchling
-
--- Legacy: Leeeeeeeeeeeeeroy!
-A{"BlackrockSpire", 2188, criterion=7622} -- Kill 50 rookery whelps within 15 seconds
 
 -- Dungeons & Raids/Dungeon Challenges: Grimrail Depot Challenger
 A{"BlackrockTrainDepotDungeon", 8887}
@@ -271,22 +150,6 @@ A{"BladesEdgeMountains", 1312, criterion=4521} -- Speaker Mar'grom
 A{"BladesEdgeMountains", 1312, criterion=4508} -- Collidus the Warp-Watcher
 A{"BladesEdgeMountains", 1312, criterion=4515} -- Kraator
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"BladesEdgeMountains", 6558, criterion=21575} -- Blade's Edge Mountains
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"BladesEdgeMountains", 6559, criterion=21575} -- Blade's Edge Mountains
-
--- Pet Battles/Battle: World Pet Mauler
-A{"BladesEdgeMountains", 6560, criterion=21575} -- Blade's Edge Mountains
-
--- Pet Battles/Collect: Outland Safari
-A{"BladesEdgeMountains", 6587, criterion=21759, note="zone exclusive"} -- Scalded Basilisk Hatchling
-A{"BladesEdgeMountains", 6587, criterion=21758, note="zone exclusive"} -- Skittering Cavern Crawler
-
--- Pet Battles/Collect: Outland Tamer
-A{"BladesEdgeMountains", 6614, criterion=21468} -- Blade's Edge Mountains
-
 -- Professions/Fishing: One That Didn't Get Away
 A{"BlastedLands", 878, 0.658, 0.845, criterion=1838, note="coastal waters"} -- 22 Pound Lobster
 
@@ -296,25 +159,6 @@ A{"BlastedLands", 1676, criterion=15206} -- Blasted Lands Quests
 -- Quests/Eastern Kingdoms: Blasted Lands Quests
 A{"BlastedLands", 4909, criterion=13708} -- Blasted Lands
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"BlastedLands", 6558, criterion=21554} -- Blasted Lands
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"BlastedLands", 6559, criterion=21554} -- Blasted Lands
-
--- Pet Battles/Battle: World Pet Mauler
-A{"BlastedLands", 6560, criterion=21554} -- Blasted Lands
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"BlastedLands", 6585, 0.600, 0.610, criterion=21623, note="zone exclusive"} -- Scorpling
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"BlastedLands", 6586, 0.440, 0.260, criterion=21509} -- Adder
-A{"BlastedLands", 6586, 0.520, 0.150, criterion=21623, note="zone exclusive\nonly found on top of the mesa"} -- Scorpling
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"BlastedLands", 6613, criterion=21422} -- Blasted Lands
-
 -- Exploration: Field Photographer
 A{"BlastedLands", 9924, 0.540, 0.470, criterion=27866} -- The Dark Portal
 
@@ -323,21 +167,6 @@ A{"BloodmystIsle", 1678, criterion=15219} -- Bloodmyst/North Barrens
 
 -- Quests/Kalimdor: Bloodmyst Isle Quests
 A{"BloodmystIsle", 4926, criterion=13838} -- Bloodmyst Isle
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"BloodmystIsle", 6558, criterion=21547} -- Bloodmyst Isle
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"BloodmystIsle", 6559, criterion=21547} -- Bloodmyst Isle
-
--- Pet Battles/Battle: World Pet Mauler
-A{"BloodmystIsle", 6560, criterion=21547} -- Bloodmyst Isle
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"BloodmystIsle", 6585, criterion=21709, note="zone exclusive"} -- Ravager Hatchling
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"BloodmystIsle", 6612, criterion=21451} -- Bloodmyst Isle
 
 -- Quests/Northrend: Nothing Boring About Borean
 A{"BoreanTundra", 33, criterion=0} -- Complete 130 quests in Borean Tundra.
@@ -375,75 +204,14 @@ A{"BoreanTundra", 2557, 0.620, 0.680, criterion=0} -- Tundra Penguin
 -- Professions/Fishing: The Oceanographer
 A{"BoreanTundra", 5479, criterion=15911} -- Borean Man O' War
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"BoreanTundra", 6558, criterion=21578} -- Borean Tundra
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"BoreanTundra", 6559, criterion=21578} -- Borean Tundra
-
--- Pet Battles/Battle: World Pet Mauler
-A{"BoreanTundra", 6560, criterion=21578} -- Borean Tundra
-
--- Pet Battles/Collect: Northrend Safari
-A{"BoreanTundra", 6588, criterion=21768, note="zone exclusive"} -- Borean Marmot
-A{"BoreanTundra", 6588, criterion=21769, note="zone exclusive"} -- Oily Slimeling
-
--- Pet Battles/Collect: Northrend Tamer
-A{"BoreanTundra", 6615, criterion=21477} -- Borean Tundra
-
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"BurningSteppes", 1676, criterion=15207} -- Burning Steppes Quests
 
 -- Quests/Eastern Kingdoms: Burning Steppes Quests
 A{"BurningSteppes", 4901, criterion=13709} -- Burning Steppes
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"BurningSteppes", 6558, criterion=21555} -- Burning Steppes
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"BurningSteppes", 6559, criterion=21555} -- Burning Steppes
-
--- Pet Battles/Battle: World Pet Mauler
-A{"BurningSteppes", 6560, criterion=21555} -- Burning Steppes
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"BurningSteppes", 6586, 0.190, 0.650, criterion=21624} -- Ash Viper
-A{"BurningSteppes", 6586, 0.360, 0.530, criterion=21626, note="zone exclusive"} -- Lava Beetle
-
--- Pet Battles: Taming Eastern Kingdoms
-A{"BurningSteppes", 6603, 0.260, 0.480, criterion=21603, note="At the bottom of the ramp to Blackrock Mountain Pet Level: 17"} -- Durin Darkhammer
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"BurningSteppes", 6613, criterion=21423} -- Burning Steppes
-
--- Pet Battles: The Longest Day
-A{"BurningSteppes", 8348, 0.260, 0.480, criterion=23451} -- Durin Darkhammer
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"BurningSteppes", 9643, criterion=19598} -- Tiny Flamefly
-
 -- Exploration: Field Photographer
 A{"BurningSteppes", 9924, 0.200, 0.330, criterion=27968} -- Blackrock Mountain
-
--- Professions/Fishing: The Lurker Above
-A{"CoilfangReservoir", 144, 0.400, 0.580}
-
--- Pet Battles/Collect: Raiding with Leashes II: Attunement Edition
-A{"CoilfangReservoir", 8293, 0.595, 0.270, criterion=23325, note="from Morogrim Tidewalker"} -- Tideskipper
-A{"CoilfangReservoir", 8293, 0.361, 0.843, criterion=23326, note="from Hydross the Unstable"} -- Tainted Waveling
-A{"CoilfangReservoir", 8293, 0.721, 0.590, criterion=23327, note="from Lady Vashj"} -- Coilfang Stalker
-
--- Pet Battles: Taming Northrend
-A{"CrystalsongForest", 6605, 0.500, 0.590, criterion=21849} -- Nearly Headless Jacob
-
--- Pet Battles/Collect: Northrend Tamer
-A{"CrystalsongForest", 6615, criterion=21478} -- Crystalsong Forest
-
--- Pet Battles: The Longest Day
-A{"CrystalsongForest", 8348, 0.500, 0.590, criterion=23480} -- Nearly Headless Jacob
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"CrystalsongForest", 9069, 0.502, 0.590, criterion=26993} -- Nearly Headless Jacob
 
 -- General: To All The Squirrels I've Loved Before
 A{"Dalaran", 1206, 0.496, 0.636, criterion=0} -- Squirrel
@@ -523,18 +291,8 @@ A{"Dalaran", 2096, 0.525, 0.675, criterion=7488} -- There's Gold In That There F
 A{"Dalaran", 2096, 0.525, 0.675, criterion=7486} -- A Penny For Your Thoughts
 A{"Dalaran", 2096, 0.525, 0.675, criterion=7487} -- Silver in the City
 
--- Pet Battles/Collect: Crazy for Cats
-A{"Dalaran", 8397, 0.590, 0.400, criterion=23579, note="from Breanni"} -- Calico Cat
-
 -- Exploration: Field Photographer
 A{"Dalaran", 9924, criterion=27867} -- Dalaran
-
--- Pet Battles/Collect: Crazy for Cats
-A{"DarkmoonFaireIsland", 8397, 0.490, 0.700, criterion=23583, note="from Lhara of Darkmoon Faire"} -- Darkmoon Cub
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"DarkmoonFaireIsland", 9069, criterion=26976} -- Christoph VonFeasel
-A{"DarkmoonFaireIsland", 9069, 0.478, 0.626, criterion=26986} -- Jeremy Feasel
 
 -- Garrisons: Ten Hit Tunes
 A{"DarkmoonFaireIsland", 9828, 0.512, 0.750, criterion=27764, note="90 Darkmoon Prize Tickets"} -- Darkmoon Carousel
@@ -566,37 +324,11 @@ A{"Darkshore", 5453, 0.530, 0.320}
 -- Professions/Fishing: The Oceanographer
 A{"Darkshore", 5479, criterion=15914} -- Darkshore Grouper
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Darkshore", 6558, criterion=21536} -- Darkshore
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Darkshore", 6559, criterion=21536} -- Darkshore
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Darkshore", 6560, criterion=21536} -- Darkshore
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Darkshore", 6585, 0.430, 0.800, criterion=21697, note="zone exclusive"} -- Darkshore Cub
-A{"Darkshore", 6585, criterion=21710, note="zone exclusive\nalong coast"} -- Shimmershell Snail
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Darkshore", 6612, criterion=21452} -- Darkshore
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"Darkshore", 9643, criterion=19598} -- Withers
-
 -- Professions/Cooking: A Bunch of Lunch
 A{"Darnassus", 5845, criterion=17743} -- Let's Do Lunch: Darnassus
 
 -- Professions/Fishing: Gone Fishin'
 A{"Darnassus", 5851, criterion=17769} -- Fish or Cut Bait: Darnassus
-
--- Pet Battles/Battle: Big City Pet Brawlin' - Alliance
-A{"Darnassus", 6584, criterion=19847} -- Darnassus
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"Darnassus", 9643, criterion=19598} -- Hawk Owl
-A{"Darnassus", 9643, criterion=19598} -- Great Horned Owl
 
 -- Garrisons: Ten Hit Tunes
 A{"Darnassus", 9828, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary"} -- Shalandis Isle
@@ -615,24 +347,6 @@ A{"Darnassus", 10015, 0.430, 0.760, criterion=27765, note="from High Priestess's
 
 -- Garrisons: Full Discography
 A{"Darnassus", 10016, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary"} -- Shalandis Isle
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"DeadwindPass", 6586, 0.450, 0.730, criterion=21628, note="zone exclusive\nspawn exactly at midnight server time and despawn at 9am\nfound underground in the Master's Cellar\nuse either of the cellar entrances in the town"} -- Restless Shadeling
-
--- Pet Battles: Taming Eastern Kingdoms
-A{"DeadwindPass", 6603, 0.400, 0.760, criterion=21602} -- Lydia Accoste
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"DeadwindPass", 6613, criterion=21428} -- Deadwind Pass
-
--- Pet Battles: The Longest Day
-A{"DeadwindPass", 8348, 0.400, 0.760, criterion=23452} -- Grand Master Lydia Accoste
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"DeadwindPass", 9069, 0.402, 0.764, criterion=26988} -- Lydia Accoste
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"DeadwindPass", 9643, criterion=19598} -- Arcane eye
 
 -- Exploration: Field Photographer
 A{"DeadwindPass", 9924, 0.470, 0.750, criterion=27876} -- Karazhan
@@ -658,27 +372,6 @@ A{"Deepholm", 5449, criterion=15644} -- Complete Lost in the Deeps
 -- Quests/Cataclysm: Fungal Frenzy
 A{"Deepholm", 5450}
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Deepholm", 6558, criterion=21586} -- Deepholm
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Deepholm", 6559, criterion=21586} -- Deepholm
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Deepholm", 6560, criterion=21586} -- Deepholm
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Deepholm", 6585, criterion=21711} -- Amethyst Shale Hatchling
-
--- Pet Battles: Taming Cataclysm
-A{"Deepholm", 7525, 0.500, 0.570, criterion=21859} -- Bordin Steadyfist
-
--- Pet Battles: The Longest Day
-A{"Deepholm", 8348, 0.500, 0.570, criterion=23484} -- Bordin Steadyfist
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"Deepholm", 9069, 0.498, 0.570, criterion=26972} -- Bordin Steadyfist
-
 -- Exploration: Field Photographer
 A{"Deepholm", 9924, 0.590, 0.590, criterion=27955} -- Deathwing's Fall
 
@@ -687,19 +380,6 @@ A{"Desolace", 1678, criterion=16678} -- Desolace Quests
 
 -- Quests/Kalimdor: Desolace Quests
 A{"Desolace", 4930, criterion=13840} -- Desolace
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Desolace", 6585, criterion=21715} -- Horny Toad
-A{"Desolace", 6585, 0.720, 0.440, criterion=21717, note="zone exclusive\nat night"} -- Stone Armadillo
-
--- Pet Battles: Taming Kalimdor
-A{"Desolace", 6602, 0.570, 0.460, criterion=21406} -- Merda Stronghoof
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Desolace", 6612, criterion=21453} -- Desolace
-
--- Pet Battles: The Longest Day
-A{"Desolace", 8348, 0.570, 0.460, criterion=23459} -- Merda Stronghoof
 
 -- Dungeons & Raids/Draenor Dungeon: ...They All Fall Down
 A{"DraenorAuchindoun", 9023}
@@ -756,30 +436,6 @@ A{"Dragonblight", 2257, 0.730, 0.260, criterion=8111, note="or thereabouts"} -- 
 -- General: To All The Squirrels Who Shared My Life
 A{"Dragonblight", 2557, 0.280, 0.500, criterion=0} -- Arctic Hare
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Dragonblight", 6558, criterion=21580} -- Dragonblight
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Dragonblight", 6559, criterion=21580} -- Dragonblight
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Dragonblight", 6560, criterion=21580} -- Dragonblight
-
--- Pet Battles/Collect: Northrend Safari
-A{"Dragonblight", 6588, criterion=21771, note="zone exclusive"} -- Dragonbone Hatchling
-
--- Pet Battles: Taming Northrend
-A{"Dragonblight", 6605, 0.590, 0.770, criterion=21850} -- Okrut Dragonwaste
-
--- Pet Battles/Collect: Northrend Tamer
-A{"Dragonblight", 6615, criterion=21479} -- Dragonblight
-
--- Pet Battles: The Longest Day
-A{"Dragonblight", 8348, 0.590, 0.770, criterion=23479} -- Okrut Dragonwaste
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"Dragonblight", 9069, 0.590, 0.770, criterion=26996} -- Okrut Dragonwaste
-
 -- Collections/Mounts: Awake the Drakes
 A{"Dragonblight", 9713, 0.598, 0.530, criterion=26685, note="from Cielstrasza\nThe Wyrmrest Accord exalted"} -- Red Drake
 
@@ -800,30 +456,6 @@ A{"DreadWastes", 6540, criterion=0} -- The Might of the Klaxxi
 
 -- Quests/Pandaria: Loremaster of Pandaria
 A{"DreadWastes", 6541, criterion=19382} -- Dread Haste Makes Dread Waste
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"DreadWastes", 6558, criterion=21591} -- Dread Wastes
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"DreadWastes", 6559, criterion=21591} -- Dread Wastes
-
--- Pet Battles/Battle: World Pet Mauler
-A{"DreadWastes", 6560, criterion=21591} -- Dread Wastes
-
--- Pet Battles/Collect: Pandaria Safari
-A{"DreadWastes", 6589, criterion=21832, note="zone exclusive"} -- Amber Moth
-A{"DreadWastes", 6589, criterion=21838, note="zone exclusive"} -- Clouded Hedgehog
-A{"DreadWastes", 6589, criterion=21839, note="zone exclusive"} -- Crunchy Scorpion
-A{"DreadWastes", 6589, criterion=21841, note="zone exclusive"} -- Rapana Whelk
-A{"DreadWastes", 6589, criterion=21842, note="zone exclusive"} -- Silent Hedgehog
-A{"DreadWastes", 6589, criterion=21843, note="zone exclusive"} -- Resilient Roach
-A{"DreadWastes", 6589, criterion=21840, note="zone exclusive"} -- Emperor Crab
-
--- Pet Battles: Taming Pandaria
-A{"DreadWastes", 6606, 0.550, 0.370, criterion=21856} -- Wastewalker Shu
-
--- Pet Battles/Collect: Pandaria Tamer
-A{"DreadWastes", 6616, criterion=21494} -- Dread Wastes
 
 -- Exploration/Pandaria: Between a Saurok and a Hard Place
 A{"DreadWastes", 6716, 0.670, 0.600, criterion=19620} -- The Deserters
@@ -970,68 +602,15 @@ A{"DreadWastes", 7439, 0.390, 0.620, criterion=21095, note="or thereabouts"} -- 
 -- Reputation/Pandaria: Wakener
 A{"DreadWastes", 8023, criterion=22566} -- Amber is the Color of My Energy
 
--- Pet Battles: The Longest Day
-A{"DreadWastes", 8348, 0.550, 0.370, criterion=23492} -- Grand Master Shu
-A{"DreadWastes", 8348, 0.610, 0.880, criterion=23494} -- Flowing Pandaren Spirit
-A{"DreadWastes", 8348, 0.260, 0.500, criterion=23500, note="[3 beasts]"} -- Gorespine
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"DreadWastes", 9069, 0.612, 0.876, criterion=26981} -- Flowing Pandaren Spirit
-A{"DreadWastes", 9069, 0.550, 0.374, criterion=27007} -- Wastewalker Shu
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"DunMorogh", 6558, criterion=21558} -- Dun Morogh
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"DunMorogh", 6559, criterion=21558} -- Dun Morogh
-
--- Pet Battles/Battle: World Pet Mauler
-A{"DunMorogh", 6560, criterion=21558} -- Dun Morogh
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"DunMorogh", 6586, 0.580, 0.360, criterion=21510} -- Alpine Hare
-A{"DunMorogh", 6586, 0.280, 0.340, criterion=21507, note="zone exclusive"} -- Irradiated Roach
-A{"DunMorogh", 6586, 0.320, 0.780, criterion=21516} -- Rat
-A{"DunMorogh", 6586, 0.580, 0.360, criterion=21520, note="zone exclusive"} -- Snow Cub
-A{"DunMorogh", 6586, 0.350, 0.470, criterion=21653, note="zone exclusive\nonly found in daylight (until 9pm) usually on top of hills"} -- Little Black Ram
-
--- Pet Battles/Collect: Crazy for Cats
-A{"DunMorogh", 8397, criterion=23593} -- Snow Cub
-A{"DunMorogh", 8397, 0.280, 0.350, criterion=23585} -- Fluxfire Feline
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"DunMorogh", 9643, 0.710, 0.480, criterion=19598, item="7560", note="from Milli Featherwhistle\nGnomeregon exalted"} -- Rabbit Crate (Snowshoe)
-
 -- General: To All The Squirrels I've Loved Before
 A{"Durotar", 1206, 0.428, 0.156, criterion=3759} -- Swine
 A{"Durotar", 1206, 0.486, 0.274, criterion=0} -- Hare
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Durotar", 6558, criterion=21379} -- Durotar
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Durotar", 6559, criterion=21389} -- Durotar
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Durotar", 6560, criterion=21389} -- Durotar
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Durotar", 6585, criterion=21698, note="zone exclusive"} -- Creepy Crawly
-
--- Pet Battles: Taming Kalimdor
-A{"Durotar", 6602, 0.440, 0.290, criterion=21402} -- Zunta
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Durotar", 6612, criterion=21454} -- Durotar
 
 -- Legacy: Hordebreaker
 A{"Durotar", 8306, criterion=23534} -- The Durotar Job
 
 -- Legacy: Darkspear Revolutionary
 A{"Durotar", 8307, criterion=23537} -- Durotar Liberation
-
--- Pet Battles: The Longest Day
-A{"Durotar", 8348, 0.440, 0.290, criterion=23454} -- Zunta
 
 -- Exploration: Field Photographer
 A{"Durotar", 9924, 0.450, 0.100, criterion=27869} -- Orgrimmar
@@ -1042,42 +621,6 @@ A{"Duskwood", 1676, criterion=15202} -- Westfall+Duskwood/Silverpine
 
 -- Quests/Eastern Kingdoms: Westfall and Duskwood Quests
 A{"Duskwood", 4903, criterion=0} -- Duskwood
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Duskwood", 6558, criterion=21551} -- Duskwood
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Duskwood", 6559, criterion=21551} -- Duskwood
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Duskwood", 6560, criterion=21551} -- Duskwood
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"Duskwood", 6586, 0.190, 0.410, criterion=21511} -- Black Rat
-A{"Duskwood", 6586, 0.560, 0.160, criterion=21630, note="zone exclusive"} -- Dusk Spiderling
-A{"Duskwood", 6586, 0.740, 0.470, criterion=21629, note="south of Darkshire in the fields"} -- Chicken
-A{"Duskwood", 6586, criterion=21632, note="zone exclusive\nrare can appear as a secondary pet when battling Dusk Spiderlings or Roaches"} -- Rat Snake
-A{"Duskwood", 6586, 0.740, 0.470, criterion=21631, note="around the town square"} -- Mouse
-A{"Duskwood", 6586, 0.560, 0.160, criterion=21633} -- Skunk
-A{"Duskwood", 6586, 0.190, 0.410, criterion=21634, note="zone exclusive\neastwards toward Twilight Grove, more common at night"} -- Widow Spiderling
-
--- Pet Battles: Taming Eastern Kingdoms
-A{"Duskwood", 6603, 0.200, 0.450, criterion=21399, note="Next to the statue. Pet Level: 7"} -- Eric Davidson
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"Duskwood", 6613, criterion=21386} -- Duskwood
-
--- Pet Battles: The Longest Day
-A{"Duskwood", 8348, 0.200, 0.450, criterion=23444} -- Eric Davidson
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"Duskwood", 9643, criterion=19598} -- Rat Snake
-A{"Duskwood", 9643, criterion=19598} -- Mouse
-A{"Duskwood", 9643, criterion=19598} -- Chicken Egg
-A{"Duskwood", 9643, criterion=19598} -- Skunk
-A{"Duskwood", 9643, criterion=19598} -- Dusk Spiderling
-A{"Duskwood", 9643, criterion=19598} -- Black Rat
-A{"Duskwood", 9643, criterion=19598} -- Widow Spiderling
 
 -- Garrisons: Ten Hit Tunes
 A{"Duskwood", 9828, 0.236, 0.396, criterion=27753, note="from Forlorn Composer"} -- Ghost
@@ -1110,24 +653,6 @@ A{"Dustwallow", 4929, criterion=13975} -- Dustwallow Marsh
 -- Quests/Kalimdor: Dustwallow Marsh Quests
 A{"Dustwallow", 4978, criterion=13975} -- Dustwallow Marsh
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Dustwallow", 6558, criterion=21544} -- Dustwallow Marsh
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Dustwallow", 6559, criterion=21544} -- Dustwallow Marsh
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Dustwallow", 6560, criterion=21544} -- Dustwallow Marsh
-
--- Pet Battles: Taming Kalimdor
-A{"Dustwallow", 6602, 0.540, 0.750, criterion=21410} -- Grazzle the Great
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Dustwallow", 6612, criterion=21455} -- Dustwallow Marsh
-
--- Pet Battles: The Longest Day
-A{"Dustwallow", 8348, 0.540, 0.750, criterion=23461} -- Grazzle the Great
-
 -- Exploration: Field Photographer
 A{"Dustwallow", 9924, 0.520, 0.760, criterion=27865} -- Onyxia's Lair
 
@@ -1150,33 +675,6 @@ A{"EasternPlaguelands", 5442, criterion=15629} -- Vex'tul
 -- Professions/Fishing: The Limnologist
 A{"EasternPlaguelands", 5478, 0.490, 0.650, criterion=15891, note="inland, open water"} -- Nightfin Snapper
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"EasternPlaguelands", 6558, criterion=21567} -- Eastern Plaguelands
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"EasternPlaguelands", 6559, criterion=21567} -- Eastern Plaguelands
-
--- Pet Battles/Battle: World Pet Mauler
-A{"EasternPlaguelands", 6560, criterion=21567} -- Eastern Plaguelands
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"EasternPlaguelands", 6586, 0.350, 0.680, criterion=21622, note="common second pet from here to the end of the zone"} -- Scorpid
-A{"EasternPlaguelands", 6586, 0.070, 0.640, criterion=21635} -- Bat
-A{"EasternPlaguelands", 6586, 0.340, 0.830, criterion=21636, note="zone exclusive"} -- Festering Maggot
-A{"EasternPlaguelands", 6586, 0.070, 0.640, criterion=21638} -- Infected Squirrel
-
--- Pet Battles: Taming Eastern Kingdoms
-A{"EasternPlaguelands", 6603, 0.670, 0.520, criterion=21599, note="on the northeast bank of the lake.  Pet level: 14"} -- Deiza Plaguehorn
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"EasternPlaguelands", 6613, criterion=21430} -- Eastern Plaguelands
-
--- Pet Battles: The Longest Day
-A{"EasternPlaguelands", 8348, 0.670, 0.520, criterion=23448} -- Deiza Plaguehorn
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"EasternPlaguelands", 9643, criterion=19598, item="50586"} -- Mr. Grubbs
-
 -- Exploration: Field Photographer
 A{"EasternPlaguelands", 9924, 0.750, 0.530, criterion=27954} -- Light's Hope Chapel
 
@@ -1192,101 +690,14 @@ A{"Elwynn", 1206, 0.370, 0.554, criterion=0} -- Deer
 -- Professions/Fishing: The Limnologist
 A{"Elwynn", 5478, 0.520, 0.660, criterion=15885, note="~60% open water"} -- Brilliant Smallfish
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Elwynn", 6558, criterion=21548} -- Elwynn Forest
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Elwynn", 6559, criterion=21548} -- Elwynn Forest
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Elwynn", 6560, criterion=21548} -- Elwynn Forest
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"Elwynn", 6586, criterion=21508} -- Rabbit
-A{"Elwynn", 6586, 0.240, 0.760, criterion=21518} -- Small Frog
-A{"Elwynn", 6586, criterion=21522} -- Squirrel
-A{"Elwynn", 6586, 0.420, 0.650, criterion=21610, note="around Donni Anthania's house"} -- Cat
-A{"Elwynn", 6586, 0.420, 0.650, criterion=21639, note="in between Donnia Anthania's house and Goldshire"} -- Fawn
-A{"Elwynn", 6586, criterion=21641} -- Stormwind Rat
-A{"Elwynn", 6586, criterion=22886, note="zone exclusive"} -- Black Lamb
-
--- Pet Battles/Collect: Outland Safari
-A{"Elwynn", 6587, criterion=21508} -- Rabbit
-
--- Pet Battles: Taming Eastern Kingdoms
-A{"Elwynn", 6603, 0.420, 0.840, criterion=21396, note="North-east corner. Pet Level 2"} -- Julia Stevens
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"Elwynn", 6613, criterion=21380} -- Elwynn Forest
-
--- Pet Battles: The Longest Day
-A{"Elwynn", 8348, 0.420, 0.840, criterion=23418} -- Julia Stevens
-
--- Pet Battles/Collect: Crazy for Cats
-A{"Elwynn", 8397, 0.440, 0.530, criterion=23578, note="from Donni Anthania"} -- Bombay Cat
-A{"Elwynn", 8397, criterion=23580} -- Cat
-A{"Elwynn", 8397, 0.440, 0.530, criterion=23582, note="from Donni Anthania"} -- Cornish Rex Cat
-A{"Elwynn", 8397, 0.320, 0.500, criterion=23584, note="from Dorothy during Hallow's End"} -- Feline Familiar
-A{"Elwynn", 8397, 0.440, 0.530, criterion=23587, note="from Donni Anthania"} -- Orange Tabby Cat
-A{"Elwynn", 8397, 0.440, 0.530, criterion=23592, note="from Donni Anthania"} -- Silver Tabby Cat
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"Elwynn", 9643, criterion=19598} -- Black Lamb
-A{"Elwynn", 9643, 0.420, 0.650, criterion=19598, note="from Donni Anthania"} -- Cat Carrier (Bombay)
-A{"Elwynn", 9643, 0.420, 0.650, criterion=19598, note="from Donni Anthania"} -- Cat Carrier (Cornish Rex)
-A{"Elwynn", 9643, 0.420, 0.650, criterion=19598, note="from Donni Anthania"} -- Cat Carrier (Orange Tabby)
-A{"Elwynn", 9643, 0.420, 0.650, criterion=19598, note="from Donni Anthania"} -- Cat Carrier (Silver Tabby)
-A{"Elwynn", 9643, 0.420, 0.650, criterion=19598, note="around Donni Anthania"} -- Cat
-A{"Elwynn", 9643, criterion=19598} -- Fawn
-A{"Elwynn", 9643, criterion=19598} -- Stormwind Rat
-A{"Elwynn", 9643, criterion=19598} -- Small Frog
-
 -- Exploration: Field Photographer
 A{"Elwynn", 9924, 0.330, 0.500, criterion=27864} -- Stormwind
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"EversongWoods", 6558, criterion=21570} -- Eversong Woods
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"EversongWoods", 6559, criterion=21570} -- Eversong Woods
-
--- Pet Battles/Battle: World Pet Mauler
-A{"EversongWoods", 6560, criterion=21570} -- Eversong Woods
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"EversongWoods", 6586, criterion=21644, note="zone exclusive"} -- Ruby Sapling
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"EversongWoods", 6613, criterion=21432} -- Eversong Woods
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Felwood", 1678, criterion=15234} -- Felwood Quests
 
 -- Quests/Kalimdor: Felwood Quests
 A{"Felwood", 4931, criterion=13842} -- Felwood
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Felwood", 6558, criterion=21539} -- Felwood
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Felwood", 6559, criterion=21539} -- Felwood
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Felwood", 6560, criterion=21539} -- Felwood
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Felwood", 6585, 0.450, 0.420, criterion=21722, note="zone exclusive"} -- Minfernal
-A{"Felwood", 6585, criterion=21725, note="zone exclusive"} -- Tainted Rat
-A{"Felwood", 6585, criterion=21724, note="zone exclusive"} -- Tainted Moth
-
--- Pet Battles: Taming Kalimdor
-A{"Felwood", 6602, 0.400, 0.570, criterion=21411} -- Zoltan
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Felwood", 6612, criterion=21456} -- Felwood
-
--- Pet Battles: The Longest Day
-A{"Felwood", 8348, 0.400, 0.570, criterion=23463} -- Zoltan
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Feralas", 1678, criterion=15223} -- Feralas
@@ -1297,27 +708,6 @@ A{"Feralas", 4932, criterion=13980} -- Feralas
 
 -- Quests/Kalimdor: Feralas Quests
 A{"Feralas", 4979, criterion=13980} -- Feralas
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Feralas", 6558, criterion=21392} -- Feralas
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Feralas", 6559, criterion=21392} -- Feralas
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Feralas", 6560, criterion=21392} -- Feralas
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Feralas", 6585, 0.640, 0.340, criterion=21726, note="zone exclusive"} -- Nether Faerie Dragon
-
--- Pet Battles: Taming Kalimdor
-A{"Feralas", 6602, 0.600, 0.500, criterion=21407} -- Traitor Gluk
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Feralas", 6612, criterion=21457} -- Feralas
-
--- Pet Battles: The Longest Day
-A{"Feralas", 8348, 0.600, 0.500, criterion=23458} -- Traitor Gluk
 
 -- Exploration: Field Photographer
 A{"Feralas", 9924, 0.480, 0.160, criterion=27963} -- The Twin Colossals
@@ -1453,9 +843,6 @@ A{"FrostfireRidge", 8671, criterion=24597} -- The Battle of Thunder Pass
 -- Exploration: Explore Draenor
 A{"FrostfireRidge", 8935, criterion=24632} -- Explore Frostfire Ridge
 
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"FrostfireRidge", 9069, 0.686, 0.646, criterion=26982} -- Gargra
-
 -- Quests/Draenor: On the Shadow's Trail
 A{"FrostfireRidge", 9529, criterion=24519} -- To Capture Gul'dan
 
@@ -1463,15 +850,6 @@ A{"FrostfireRidge", 9529, criterion=24519} -- To Capture Gul'dan
 A{"FrostfireRidge", 9606, criterion=26388} -- Bonus Objective: Forbidden Glacier
 A{"FrostfireRidge", 9606, criterion=26389} -- Bonus Objective: Frostbite Hollow
 A{"FrostfireRidge", 9606, criterion=26390} -- Bonus Objective: Grimfrost Hill
-
--- Pet Battles/Collect: Draenor Safari
-A{"FrostfireRidge", 9685, criterion=27017, note="zone exclusive"} -- Frostfur Rat
-A{"FrostfireRidge", 9685, criterion=27252, note="zone exclusive"} -- Icespine Hatchling
-A{"FrostfireRidge", 9685, criterion=27263, note="zone exclusive"} -- Frostshell Pincher
-A{"FrostfireRidge", 9685, criterion=27264, note="zone exclusive"} -- Ironclaw Scuttler
-
--- Pet Battles: Taming Draenor
-A{"FrostfireRidge", 9724, 0.686, 0.648, criterion=27013} -- Gargra
 
 -- Quests/Draenor: Loremaster of Draenor
 A{"FrostfireRidge", 9923, criterion=27543} -- You'll Get Caught Up In The... Frostfire!
@@ -1554,31 +932,6 @@ A{"Ghostlands", 1676, criterion=15210} -- Loch Modan+Wetlands/Ghostlands
 -- Quests/Eastern Kingdoms: Ghostlands Quests
 A{"Ghostlands", 4908, criterion=13711} -- Ghostlands
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Ghostlands", 6558, criterion=21569} -- Ghostlands
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Ghostlands", 6559, criterion=21569} -- Ghostlands
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Ghostlands", 6560, criterion=21569} -- Ghostlands
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"Ghostlands", 6586, 0.190, 0.430, criterion=21648, note="zone exclusive\non the coast between Windrunner and Goldenmist"} -- Spirit Crab
-A{"Ghostlands", 6586, 0.470, 0.780, criterion=21647, note="zone exclusive\noften as a secondary pet to Maggots and Spirit Crabs"} -- Larva
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"Ghostlands", 6613, criterion=21433} -- Ghostlands
-
--- Garrisons: Ten Hit Tunes
-A{"Gnomeregan", 9828, criterion=27749, note="from Sparklematic-Wrapped Box from Sparklematic 5200 machines"} -- Tinkertown
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"Gnomeregan", 9912, criterion=27749, note="from Sparklematic-Wrapped Box from Sparklematic 5200 machines"} -- Tinkertown
-
--- Garrisons: Full Discography
-A{"Gnomeregan", 10015, criterion=27749, note="from Sparklematic-Wrapped Box from Sparklematic 5200 machines"} -- Tinkertown
-
 -- Quests/Draenor: Putting the Gore in Gorgrond
 A{"Gorgrond", 8923, criterion=25425} -- We Need An Outpost
 A{"Gorgrond", 8923, criterion=0} -- Supporting Your Garrison
@@ -1594,9 +947,6 @@ A{"Gorgrond", 8924, criterion=0} -- The Iron Approach
 -- Exploration: Explore Draenor
 A{"Gorgrond", 8935, criterion=24633} -- Explore Gorgrond
 
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"Gorgrond", 9069, 0.510, 0.706, criterion=26978} -- Cymre Brightblade
-
 -- Quests/Draenor: Make It a Bonus
 A{"Gorgrond", 9607, criterion=26391} -- Bonus Objective: Brimstone Springs
 A{"Gorgrond", 9607, criterion=26392} -- Bonus Objective: Iyun Weald
@@ -1607,16 +957,6 @@ A{"Gorgrond", 9607, criterion=26398} -- Bonus Objective: The Forgotten Caves
 A{"Gorgrond", 9607, criterion=0} -- South Gronn Canyon or Evermorn Springs
 A{"Gorgrond", 9607, criterion=0} -- Stonemaul Arena or Tangleheart
 A{"Gorgrond", 9607, criterion=0} -- Affliction Ridge or The Razorbloom
-
--- Pet Battles/Collect: Draenor Safari
-A{"Gorgrond", 9685, criterion=27254, note="zone exclusive"} -- Wood Wasp
-A{"Gorgrond", 9685, criterion=27256, note="zone exclusive"} -- Amberbarb Wasp
-A{"Gorgrond", 9685, criterion=27258, note="zone exclusive"} -- Junglebeak
-A{"Gorgrond", 9685, criterion=27259, note="zone exclusive"} -- Axebeak Hatchling
-A{"Gorgrond", 9685, criterion=27275, note="zone exclusive"} -- Mudback Calf
-
--- Pet Battles: Taming Draenor
-A{"Gorgrond", 9724, 0.510, 0.710, criterion=27011} -- Cymre Brightblade
 
 -- Quests/Draenor: Loremaster of Draenor
 A{"Gorgrond", 9833, criterion=27547} -- Putting the Gore in Gorgrond
@@ -1650,21 +990,6 @@ A{"GrizzlyHills", 2257, 0.710, 0.340, criterion=8114, note="or thereabouts"} -- 
 -- General: To All The Squirrels Who Shared My Life
 A{"GrizzlyHills", 2557, 0.430, 0.480, criterion=0} -- Grizzly Squirrel
 A{"GrizzlyHills", 2557, 0.570, 0.350, criterion=0} -- Mountain Skunk
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"GrizzlyHills", 6558, criterion=21582} -- Grizzly Hills
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"GrizzlyHills", 6559, criterion=21582} -- Grizzly Hills
-
--- Pet Battles/Battle: World Pet Mauler
-A{"GrizzlyHills", 6560, criterion=21582} -- Grizzly Hills
-
--- Pet Battles/Collect: Northrend Safari
-A{"GrizzlyHills", 6588, criterion=21772, note="zone exclusive"} -- Imperial Eagle Chick
-
--- Pet Battles/Collect: Northrend Tamer
-A{"GrizzlyHills", 6615, criterion=21480} -- Grizzly Hills
 
 -- Garrisons: Ten Hit Tunes
 A{"GrizzlyHills", 9828, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
@@ -1753,30 +1078,6 @@ A{"Hellfire", 1311, criterion=4523} -- Vorakem Doomspeaker
 A{"Hellfire", 1312, criterion=4512} -- Fulgorge
 A{"Hellfire", 1312, criterion=4523} -- Vorakem Doomspeaker
 A{"Hellfire", 1312, criterion=4517} -- Mekthorg the Wild
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Hellfire", 6558, criterion=21571} -- Hellfire Peninsula
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Hellfire", 6559, criterion=21571} -- Hellfire Peninsula
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Hellfire", 6560, criterion=21571} -- Hellfire Peninsula
-
--- Pet Battles/Collect: Outland Safari
-A{"Hellfire", 6587, criterion=21760, note="zone exclusive"} -- Flayer Youngling
-
--- Pet Battles: Taming Outland
-A{"Hellfire", 6604, 0.640, 0.490, criterion=21604} -- Nicki Tinytech
-
--- Pet Battles/Collect: Outland Tamer
-A{"Hellfire", 6614, criterion=21469} -- Hellfire Peninsula
-
--- Pet Battles: The Longest Day
-A{"Hellfire", 8348, 0.640, 0.490, criterion=23473} -- Nicki Tinytech
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"Hellfire", 9069, 0.644, 0.492, criterion=26994} -- Nicki Tinytech
 
 -- Exploration: Field Photographer
 A{"Hellfire", 9924, 0.640, 0.210, criterion=27974} -- Throne of Kil'jaeden
@@ -1985,33 +1286,6 @@ A{"HillsbradFoothills", 2557, 0.566, 0.612, criterion=0} -- Huge Toad
 -- Quests/Eastern Kingdoms: Hillsbrad Foothills Quests
 A{"HillsbradFoothills", 4895, criterion=13712} -- Hillsbrad Foothills
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"HillsbradFoothills", 6558, criterion=21563} -- Hillsbrad Foothills
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"HillsbradFoothills", 6559, criterion=21563} -- Hillsbrad Foothills
-
--- Pet Battles/Battle: World Pet Mauler
-A{"HillsbradFoothills", 6560, criterion=21563} -- Hillsbrad Foothills
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"HillsbradFoothills", 6586, 0.550, 0.470, criterion=21514, note="also in Southshore Ruins and The Sludge Fields"} -- Maggot
-A{"HillsbradFoothills", 6586, 0.350, 0.470, criterion=21521, note="inside the mine"} -- Spider
-A{"HillsbradFoothills", 6586, 0.350, 0.470, criterion=21650, note="zone exclusive\nslay Mama Bears without cubs to force spawns"} -- Infested Bear Cub
-A{"HillsbradFoothills", 6586, 0.620, 0.840, criterion=21651} -- Red-Tailed Chipmunk
-A{"HillsbradFoothills", 6586, 0.480, 0.190, criterion=21652, note="zone exclusive\ncommon as a second pet between Slaughter Hollow and Chillwind"} -- Snowshoe Hare
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"HillsbradFoothills", 6613, criterion=21435} -- Hillsbrad Foothills
-
--- Pet Battles/Collect: Crazy for Cats
-A{"HillsbradFoothills", 8397, criterion=23577, note="0.01% drop rate"} -- Black Tabby Cat
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"HillsbradFoothills", 9643, criterion=19598, item="7383", note="rare drop"} -- Cat Carrier (Black Tabby)
-A{"HillsbradFoothills", 9643, 0.340, 0.740, criterion=19598, item="51090", note="from Lawn of the Dead"} -- Brazie's Sunflower Seeds
-A{"HillsbradFoothills", 9643, 0.300, 0.370, criterion=19598, item="68806", note="rare drop\nzone exclusive"} -- Lofty Libram
-
 -- Exploration: Field Photographer
 A{"HillsbradFoothills", 9924, 0.700, 0.470, criterion=27970} -- Ravenholdt Manor
 
@@ -2023,29 +1297,6 @@ A{"Hinterlands", 4897, criterion=13750} -- The Hinterlands
 
 -- Professions/Fishing: The Limnologist
 A{"Hinterlands", 5478, criterion=15890, note="60% drop rate, inland lakes & rivers"} -- Mithril Head Trout
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Hinterlands", 6558, criterion=21564} -- The Hinterlands
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Hinterlands", 6559, criterion=21564} -- The Hinterlands
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Hinterlands", 6560, criterion=21564} -- The Hinterlands
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"Hinterlands", 6586, 0.120, 0.460, criterion=21612} -- Hare
-A{"Hinterlands", 6586, criterion=21674, note="eastern half of the zone"} -- Brown Marmot
-A{"Hinterlands", 6586, 0.580, 0.410, criterion=21675, note="zone exclusive\ninside the cave and just outside the mouth"} -- Jade Oozeling
-
--- Pet Battles: Taming Eastern Kingdoms
-A{"Hinterlands", 6603, 0.630, 0.550, criterion=21598, note="between Stormfeather & Jinth'alor Pet Level: 13"} -- David Kosse
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"Hinterlands", 6613, criterion=21437} -- Hinterlands
-
--- Pet Battles: The Longest Day
-A{"Hinterlands", 8348, 0.630, 0.550, criterion=23447} -- David Kosse
 
 -- Quests/Northrend: I've Toured the Fjord
 A{"HowlingFjord", 34, criterion=75} -- Complete 130 quests in Howling Fjord
@@ -2070,32 +1321,6 @@ A{"HowlingFjord", 2257, 0.690, 0.170, criterion=8106, note="or thereabouts"} -- 
 A{"HowlingFjord", 2557, 0.190, 0.560, criterion=9301} -- Fjord Penguin
 A{"HowlingFjord", 2557, 0.680, 0.650, criterion=9302} -- Fjord Turkey
 A{"HowlingFjord", 2557, 0.360, 0.790, criterion=9308} -- Scalawag Frog
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"HowlingFjord", 6558, criterion=21579} -- Howling Fjord
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"HowlingFjord", 6559, criterion=21579} -- Howling Fjord
-
--- Pet Battles/Battle: World Pet Mauler
-A{"HowlingFjord", 6560, criterion=21579} -- Howling Fjord
-
--- Pet Battles/Collect: Northrend Safari
-A{"HowlingFjord", 6588, criterion=21775, note="zone exclusive"} -- Fjord Worg Pup
-A{"HowlingFjord", 6588, criterion=21774, note="zone exclusive"} -- Fjord Rat
-A{"HowlingFjord", 6588, criterion=21776, note="zone exclusive"} -- Turkey
-
--- Pet Battles: Taming Northrend
-A{"HowlingFjord", 6605, 0.270, 0.340, criterion=21848} -- Beegle Blastfuse
-
--- Pet Battles/Collect: Northrend Tamer
-A{"HowlingFjord", 6615, criterion=21481} -- Howling Fjord
-
--- Pet Battles: The Longest Day
-A{"HowlingFjord", 8348, 0.270, 0.340, criterion=23481} -- Beegle Blastfuse
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"HowlingFjord", 9069, 0.286, 0.338, criterion=26970} -- Beegle Blastfuse
 
 -- Exploration: Field Photographer
 A{"HowlingFjord", 9924, 0.609, 0.597, criterion=27973} -- Daggercap Bay
@@ -2163,33 +1388,6 @@ A{"Hyjal", 5870, 0.270, 0.630, criterion=17879} -- Matoclaw
 -- Quests/Cataclysm: Veteran of the Molten Front
 A{"Hyjal", 5879, criterion=17868} -- Ludicrous Speed
 A{"Hyjal", 5879, criterion=17872} -- Infernal Ambassadors
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Hyjal", 6558, criterion=21538} -- Mount Hyjal
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Hyjal", 6559, criterion=21538} -- Mount Hyjal
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Hyjal", 6560, criterion=21538} -- Mount Hyjal
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Hyjal", 6585, 0.310, 0.780, criterion=21730, note="zone exclusive"} -- Carrion Rat
-A{"Hyjal", 6585, 0.270, 0.390, criterion=21731, note="zone exclusive"} -- Death's Head Cockroach
-A{"Hyjal", 6585, criterion=21732} -- Fire-Proof Roach
-A{"Hyjal", 6585, 0.620, 0.230, criterion=21734, note="zone exclusive"} -- Nordrassil Wisp
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Hyjal", 6612, criterion=21488} -- Mount Hyjal
-
--- Pet Battles: Taming Cataclysm
-A{"Hyjal", 7525, 0.610, 0.330, criterion=21858} -- Brok
-
--- Pet Battles: The Longest Day
-A{"Hyjal", 8348, 0.610, 0.330, criterion=23483} -- Brok
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"Hyjal", 9069, 0.614, 0.328, criterion=26973} -- Brok
 
 -- Exploration: Field Photographer
 A{"Hyjal", 9924, 0.620, 0.210, criterion=27953} -- Nordrassil
@@ -2360,30 +1558,6 @@ A{"IcecrownGlacier", 3677}
 -- World Events/Argent Tournament: Pony Up!
 A{"IcecrownGlacier", 3736}
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"IcecrownGlacier", 6558, criterion=21585} -- Icecrown
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"IcecrownGlacier", 6559, criterion=21585} -- Icecrown
-
--- Pet Battles/Battle: World Pet Mauler
-A{"IcecrownGlacier", 6560, criterion=21585} -- Icecrown
-
--- Pet Battles/Collect: Northrend Safari
-A{"IcecrownGlacier", 6588, criterion=21777, note="zone exclusive"} -- Scourged Whelpling
-
--- Pet Battles: Taming Northrend
-A{"IcecrownGlacier", 6605, 0.770, 0.200, criterion=21852} -- Major Payne
-
--- Pet Battles/Collect: Northrend Tamer
-A{"IcecrownGlacier", 6615, criterion=21482} -- Icecrown
-
--- Pet Battles: The Longest Day
-A{"IcecrownGlacier", 8348, 0.770, 0.200, criterion=23482} -- Grand Master Payne
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"IcecrownGlacier", 9069, 0.774, 0.196, criterion=26989} -- Major Payne
-
 -- Garrisons: Ten Hit Tunes
 A{"IcecrownGlacier", 9828, 0.760, 0.220, criterion=27759, note="25 Champion's Seal"} -- The Argent Tournament
 
@@ -2446,12 +1620,6 @@ A{"Ironforge", 5845, 0.601, 0.364, criterion=11744} -- Let's Do Lunch: Ironforge
 
 -- Professions/Fishing: Gone Fishin'
 A{"Ironforge", 5851, criterion=17770} -- Fish or Cut Bait: Ironforge
-
--- Pet Battles/Battle: Big City Pet Brawlin' - Alliance
-A{"Ironforge", 6584, criterion=19846} -- Ironforge
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"Ironforge", 6586, criterion=21513} -- Long-tailed Mole
 
 -- Garrisons: Ten Hit Tunes
 A{"Ironforge", 9828, 0.471, 0.137, criterion=27746, note="fishing in Forlorn Cavern"} -- Cold Mountain
@@ -2550,30 +1718,6 @@ A{"Krasarang", 6536, criterion=18824} -- Zhu's Watch
 
 -- Quests/Pandaria: Loremaster of Pandaria
 A{"Krasarang", 6541, criterion=19379} -- Mighty Roamin' Krasaranger
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Krasarang", 6558, criterion=21589} -- Karasang Wilds
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Krasarang", 6559, criterion=21589} -- Karasang Wilds
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Krasarang", 6560, criterion=21589} -- Karasang Wilds
-
--- Pet Battles/Collect: Pandaria Safari
-A{"Krasarang", 6589, criterion=21809, note="zone exclusive"} -- Amethyst Spiderling
-A{"Krasarang", 6589, criterion=21811, note="zone exclusive"} -- Jungle Grub
-A{"Krasarang", 6589, criterion=21812, note="zone exclusive"} -- Luyu Moth
-A{"Krasarang", 6589, criterion=21814, note="zone exclusive"} -- Mei Li Sparkler
-A{"Krasarang", 6589, criterion=21815, note="zone exclusive"} -- Savory Bettle
-A{"Krasarang", 6589, criterion=21817, note="zone exclusive"} -- Spiny Terrapin
-A{"Krasarang", 6589, criterion=21810, note="zone exclusive"} -- Feverbite Hatchling
-
--- Pet Battles: Taming Pandaria
-A{"Krasarang", 6606, 0.620, 0.460, criterion=21871} -- Mo'ruk
-
--- Pet Battles/Collect: Pandaria Tamer
-A{"Krasarang", 6616, criterion=21491} -- Krasarang Wilds
 
 -- Exploration/Pandaria: Between a Saurok and a Hard Place
 A{"Krasarang", 6716, 0.320, 0.290, criterion=19621} -- The Last Stand
@@ -2712,13 +1856,6 @@ A{"Krasarang", 7929, criterion=22453} -- The Darnassus Operation
 A{"Krasarang", 7929, criterion=22454} -- Breath of Darkest Shadow
 A{"Krasarang", 7929, criterion=22539} -- The Purge of Dalaran
 
--- Pet Battles: The Longest Day
-A{"Krasarang", 8348, 0.620, 0.460, criterion=23489} -- Grand Master Mo'ruk
-A{"Krasarang", 8348, 0.360, 0.370, criterion=23499, note="[3 beasts]"} -- Skitterer Xi'a
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"Krasarang", 9069, 0.622, 0.458, criterion=26990} -- Mo'ruk
-
 -- Garrisons: Ten Hit Tunes
 A{"Krasarang", 9828, 0.896, 0.334, criterion=27744, note="from Proveditor Grantley\n500 Domination Point Commission"} -- High Seas
 
@@ -2766,32 +1903,6 @@ A{"KunLaiSummit", 6538, criterion=19371} -- The Yaungol Invasion
 
 -- Quests/Pandaria: Loremaster of Pandaria
 A{"KunLaiSummit", 6541, criterion=19380} -- Slum It in the Summit
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"KunLaiSummit", 6558, criterion=21590} -- Kun-Lai Summit
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"KunLaiSummit", 6559, criterion=21590} -- Kun-Lai Summit
-
--- Pet Battles/Battle: World Pet Mauler
-A{"KunLaiSummit", 6560, criterion=21590} -- Kun-Lai Summit
-
--- Pet Battles/Collect: Pandaria Safari
-A{"KunLaiSummit", 6589, criterion=21824, note="zone exclusive"} -- Alpine Foxling Kit
-A{"KunLaiSummit", 6589, criterion=21825, note="zone exclusive"} -- Plains Monitor
-A{"KunLaiSummit", 6589, criterion=21823, note="zone exclusive"} -- Alpine Foxling
-A{"KunLaiSummit", 6589, criterion=21826, note="zone exclusive"} -- Prairie Mouse
-A{"KunLaiSummit", 6589, criterion=21827, note="zone exclusive"} -- Summit Kid
-A{"KunLaiSummit", 6589, criterion=21828, note="zone exclusive"} -- Szechuan Chicken
-A{"KunLaiSummit", 6589, criterion=21829, note="zone exclusive"} -- Tolai Hare
-A{"KunLaiSummit", 6589, criterion=21830, note="zone exclusive"} -- Tolai Hare Pup
-A{"KunLaiSummit", 6589, criterion=21831, note="zone exclusive"} -- Zooey Snake
-
--- Pet Battles: Taming Pandaria
-A{"KunLaiSummit", 6606, 0.360, 0.740, criterion=21855} -- Courageous Yon
-
--- Pet Battles/Collect: Pandaria Tamer
-A{"KunLaiSummit", 6616, criterion=21492} -- Kun-Lai Summit
 
 -- Exploration/Pandaria: The Dark Heart of the Mogu
 A{"KunLaiSummit", 6754, 0.530, 0.460, criterion=19662} -- Valley of the Emperors
@@ -2896,23 +2007,8 @@ A{"KunLaiSummit", 7439, 0.640, 0.140, criterion=21093} -- Nessos the Oracle
 A{"KunLaiSummit", 7611, criterion=21968} -- Tiger Gourami
 A{"KunLaiSummit", 7611, criterion=21985, note="rare"} -- Spinefish Alpha
 
--- Pet Battles: The Longest Day
-A{"KunLaiSummit", 8348, 0.360, 0.740, criterion=23491} -- Grand Master Yon
-A{"KunLaiSummit", 8348, 0.650, 0.940, criterion=23496} -- Thundering Pandaren Spirit
-A{"KunLaiSummit", 8348, 0.350, 0.560, criterion=23498, note="[4 beasts]"} -- Kafi
-A{"KunLaiSummit", 8348, 0.680, 0.850, criterion=23498, note="[4 beasts]"} -- Dos-Ryga
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"KunLaiSummit", 9069, 0.358, 0.736, criterion=26977} -- Courageous Yon
-A{"KunLaiSummit", 9069, 0.648, 0.936, criterion=27005} -- Thundering Pandaren Spirit
-
 -- Exploration: Field Photographer
 A{"KunLaiSummit", 9924, 0.430, 0.520, criterion=27964} -- Mount Neverest
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"LakeWintergrasp", 9069, 0.656, 0.644, criterion=27000} -- Stone Cold Trixxy
-
--- Exploration: Field Photographer
 A{"LakeWintergrasp", 9924, 0.500, 0.160, criterion=27958} -- Wintergrasp Fortress
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
@@ -2922,23 +2018,8 @@ A{"LochModan", 1676, criterion=15196} -- Loch Modan+Wetlands/Ghostlands
 A{"LochModan", 5478, 0.400, 0.390, criterion=15892, note="80% drop rate from Sagefish schools"} -- Sagefish
 A{"LochModan", 5478, 0.400, 0.390, criterion=15888, note="30% drop rate from open water"} -- Loch Frenzy
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"LochModan", 6558, criterion=21559} -- Loch Modan
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"LochModan", 6559, criterion=21559} -- Loch Modan
-
--- Pet Battles/Battle: World Pet Mauler
-A{"LochModan", 6560, criterion=21559} -- Loch Modan
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"LochModan", 6613, criterion=21440} -- Loch Modan
-
 -- Exploration: Field Photographer
 A{"LochModan", 9924, 0.220, 0.720, criterion=27960} -- Valley of Kings
-
--- Feats of Strength: Swift White Hawkstrider
-A{"MagistersTerrace", 884}
 
 -- Legacy: Mogu'shan Palace: Bronze
 A{"MogushanPalace", 6899}
@@ -2998,14 +2079,6 @@ A{"MogushanVaults", 7485}
 -- Dungeons & Raids/Pandaria Raid: And... It's Good!
 A{"MogushanVaults", 7933}
 
--- Reputation/Classic: Hydraxian Waterlords
-A{"MoltenCore", 955}
-
--- Pet Battles/Collect: Raiding with Leashes
-A{"MoltenCore", 7934, 0.820, 0.830, criterion=22474, note="from Sulfurion Harbinger"} -- Harbinger of Flame
-A{"MoltenCore", 7934, 0.700, 0.190, criterion=22475, note="from Magmadar"} -- Corefire Imp
-A{"MoltenCore", 7934, 0.680, 0.610, criterion=22476, note="from Golemagg the Incinerator"} -- Ashstone Core
-
 -- Quests/Cataclysm: The Molten Front Offensive
 A{"MoltenFront", 5866, 0.470, 0.900, criterion=17818} -- Recruit an armorer
 A{"MoltenFront", 5866, 0.440, 0.860, criterion=17819} -- Build a moonwell
@@ -3045,29 +2118,8 @@ A{"MoltenFront", 5874, 0.350, 0.560, criterion=17858} -- Blazefury
 A{"MoltenFront", 5879, criterion=17876} -- Death From Above
 A{"MoltenFront", 5879, criterion=17877} -- Ready for Raiding II
 
--- Pet Battles: Taming Kalimdor
-A{"Moonglade", 6602, 0.460, 0.600, criterion=21408} -- Elena Flutterfly
-
--- Pet Battles: The Longest Day
-A{"Moonglade", 8348, 0.460, 0.600, criterion=23466} -- Elena Flutterfly
-
 -- Exploration: Field Photographer
 A{"Moonglade", 9924, 0.440, 0.470, criterion=27965} -- Moonglade
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Mulgore", 6558, criterion=21543} -- Mulgore
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Mulgore", 6559, criterion=21543} -- Mulgore
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Mulgore", 6560, criterion=21543} -- Mulgore
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Mulgore", 6585, criterion=21735, note="zone exclusive"} -- Gazelle Fawn
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Mulgore", 6612, criterion=21459} -- Mulgore
 
 -- Quests/Outland: Hills Like White Elekk
 A{"Nagrand", 939}
@@ -3099,27 +2151,6 @@ A{"Nagrand", 1576, criterion=5798} -- The Ring of Blood: The Final Challenge
 -- Quests: The First Rule of Ring of Blood is You Don't Talk About Ring of Blood
 A{"Nagrand", 4958, 0.428, 0.206, criterion=5798} -- Ring of Blood in Nagrand
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Nagrand", 6558, criterion=21574} -- Nagrand
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Nagrand", 6559, criterion=21574} -- Nagrand
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Nagrand", 6560, criterion=21574} -- Nagrand
-
--- Pet Battles/Collect: Outland Safari
-A{"Nagrand", 6587, criterion=21761, note="zone exclusive"} -- Clefthoof Runt
-
--- Pet Battles: Taming Outland
-A{"Nagrand", 6604, 0.610, 0.490, criterion=21606} -- Narrok
-
--- Pet Battles/Collect: Outland Tamer
-A{"Nagrand", 6614, criterion=21470} -- Nagrand
-
--- Pet Battles: The Longest Day
-A{"Nagrand", 8348, 0.610, 0.490, criterion=23472} -- Narrok
-
 -- Quests/Draenor: Nagrandeur
 A{"Nagrand", 8927, criterion=25361} -- The Dark Heart of Oshu'gun
 A{"Nagrand", 8927, criterion=25362} -- The Ring of Trials
@@ -3140,9 +2171,6 @@ A{"Nagrand", 8928, criterion=25371} -- The Dark Heart of Oshu'gun
 A{"Nagrand", 8928, criterion=25372} -- The Legacy of Garrosh Hellscream
 A{"Nagrand", 8928, criterion=26006} -- Trouble at the Overwatch
 
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"Nagrand", 9069, 0.610, 0.494, criterion=26992} -- Narrok
-
 -- Quests/Draenor: With a Nagrand Cherry On Top
 A{"Nagrand", 9615, criterion=26409} -- Bonus Objective: Hemet's Happy Hunting Grounds
 A{"Nagrand", 9615, criterion=26410} -- Bonus Objective: Ironfist Harbor
@@ -3150,15 +2178,6 @@ A{"Nagrand", 9615, criterion=26428} -- Bonus Objective: Snarlpaw Ledge
 
 -- Exploration: Explore Draenor
 A{"NagrandDraenor", 8935, criterion=24635} -- Explore Nagrand
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"NagrandDraenor", 9069, 0.562, 0.980, criterion=27004} -- Tarr the Terrible
-
--- Pet Battles/Collect: Draenor Safari
-A{"NagrandDraenor", 9685, criterion=27246, note="zone exclusive"} -- Leatherhide Runt
-
--- Pet Battles: Taming Draenor
-A{"NagrandDraenor", 9724, 0.560, 0.100, criterion=27015} -- Tarr the Terrible
 
 -- Quests/Draenor: Loremaster of Draenor
 A{"NagrandDraenor", 9833, criterion=27551} -- Nagrandeur
@@ -3184,25 +2203,6 @@ A{"Netherstorm", 1311, criterion=4519} -- Nuramoc
 A{"Netherstorm", 1312, criterion=4519} -- Nuramoc
 A{"Netherstorm", 1312, criterion=4506} -- Chief Engineer Lorthander
 A{"Netherstorm", 1312, criterion=4511} -- Ever-Core the Punisher
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Netherstorm", 6558, criterion=21576} -- Netherstorm
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Netherstorm", 6559, criterion=21576} -- Netherstorm
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Netherstorm", 6560, criterion=21576} -- Netherstorm
-
--- Pet Battles/Collect: Outland Safari
-A{"Netherstorm", 6587, criterion=21762, note="zone exclusive"} -- Fledgling Nether Ray
-A{"Netherstorm", 6587, criterion=21763, note="zone exclusive"} -- Nether Roach
-
--- Pet Battles/Collect: Outland Tamer
-A{"Netherstorm", 6614, criterion=21475} -- Netherstorm
-
--- Pet Battles/Collect: Crazy for Cats
-A{"Netherstorm", 8397, 0.430, 0.350, criterion=23591, note="from Dealer Rashaad"} -- Siamese Cat
 
 -- Exploration: Field Photographer
 A{"Netherstorm", 9924, 0.450, 0.350, criterion=27966} -- The Stormspire
@@ -3257,9 +2257,6 @@ A{"Orgrimmar", 5845, criterion=17748} -- Let's Do Lunch: Orgrimmar
 
 -- Professions/Fishing: Gone Fishin'
 A{"Orgrimmar", 5851, criterion=17772} -- Fish or Cut Bait: Orgrimmar
-
--- Pet Battles/Battle: Big City Pet Brawlin' - Horde
-A{"Orgrimmar", 6621, criterion=19849} -- Orgrimmar
 
 -- Feats of Strength: Ahead of the Curve: Garrosh Hellscream (10 player)
 A{"OrgrimmarRaid", 8398}
@@ -3610,39 +2607,6 @@ A{"Redridge", 4902, criterion=13747} -- Redridge Mountains
 -- Professions/Fishing: The Limnologist
 A{"Redridge", 5478, 0.400, 0.520, criterion=15886, note="60% catch rate"} -- Bristle Whisker Catfish
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Redridge", 6558, criterion=21550} -- Redridge Mountains
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Redridge", 6559, criterion=21550} -- Redridge Mountains
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Redridge", 6560, criterion=21550} -- Redridge Mountains
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Redridge", 6585, criterion=21663, note="zone exclusive"} -- Mountain Cottontail
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"Redridge", 6586, 0.180, 0.620, criterion=21517} -- Roach
-A{"Redridge", 6586, 0.180, 0.620, criterion=21663, note="zone exclusive"} -- Mountain Cottontail
-A{"Redridge", 6586, 0.250, 0.230, criterion=21662, note="zone exclusive"} -- Fledgling Buzzard
-A{"Redridge", 6586, 0.380, 0.670, criterion=21664, note="zone exclusive\nall around Lakeridge Highway"} -- Redridge Rat
-
--- Pet Battles: Taming Eastern Kingdoms
-A{"Redridge", 6603, 0.330, 0.530, criterion=21398, note="opposite the Flight Master, Pet Level: 5"} -- Lindsay
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"Redridge", 6613, criterion=21385} -- Redridge Mountains
-
--- Pet Battles: The Longest Day
-A{"Redridge", 8348, 0.330, 0.530, criterion=23420} -- Lindsay
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"Redridge", 9643, criterion=19598} -- Mountain Cottontail
-A{"Redridge", 9643, criterion=19598} -- Roach
-A{"Redridge", 9643, criterion=19598} -- Redridge Rat
-A{"Redridge", 9643, criterion=19598} -- Fledgling Buzzard
-
 -- Legacy: Scarlet Halls: Bronze
 A{"ScarletHalls", 6908}
 
@@ -3679,35 +2643,8 @@ A{"SearingGorge", 2557, 0.420, 0.370, criterion=0} -- Lava Crab
 -- Quests/Eastern Kingdoms: Searing Gorge Quests
 A{"SearingGorge", 4910, criterion=13748} -- Searing Gorge
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"SearingGorge", 6558, criterion=21556} -- Searing Gorge
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"SearingGorge", 6559, criterion=21556} -- Searing Gorge
-
--- Pet Battles/Battle: World Pet Mauler
-A{"SearingGorge", 6560, criterion=21556} -- Searing Gorge
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"SearingGorge", 6586, 0.650, 0.580, criterion=21621} -- Fire Beetle
-A{"SearingGorge", 6586, 0.480, 0.520, criterion=21627} -- Lava Crab
-A{"SearingGorge", 6586, 0.600, 0.710, criterion=21665} -- Ash Spiderling
-A{"SearingGorge", 6586, criterion=21666, note="zone exclusive\nonly spawns in lava pools, shares spawn with lava crabs"} -- Molten Hatchling
-
--- Pet Battles: Taming Eastern Kingdoms
-A{"SearingGorge", 6603, 0.350, 0.280, criterion=21600, note="Pet Level: 15"} -- Kortas Darkhammer
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"SearingGorge", 6613, criterion=21442} -- Searing Gorge
-
--- Pet Battles: The Longest Day
-A{"SearingGorge", 8348, 0.350, 0.280, criterion=23449} -- Kortas Darkhammer
-
--- Feats of Strength: Reins of the Raven Lord
-A{"SethekkHalls", 883}
-
 -- World Events: Pilgrim
-A{"SethekkHalls", 3478, criterion=11272} -- Terokkar Turkey Time
+A{"SethekkHalls", 3478, 0.326, 0.276, criterion=11272, floor=2} -- Terokkar Turkey Time
 
 -- Feats of Strength: Big Love Rocket
 A{"ShadowfangKeep", 4627}
@@ -3754,27 +2691,6 @@ A{"ShadowmoonValley", 1195, criterion=3589} -- 90 Shadowmoon Valley quests
 -- Quests/Outland: Loremaster of Outland
 A{"ShadowmoonValley", 1262, criterion=3889} -- Shadow of the Betrayer
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"ShadowmoonValley", 6558, criterion=21577} -- Shadowmoon Valley
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"ShadowmoonValley", 6559, criterion=21577} -- Shadowmoon Valley
-
--- Pet Battles/Battle: World Pet Mauler
-A{"ShadowmoonValley", 6560, criterion=21577} -- Shadowmoon Valley
-
--- Pet Battles: Taming Outland
-A{"ShadowmoonValley", 6604, 0.300, 0.420, criterion=21847} -- Bloodknight Antari
-
--- Pet Battles/Collect: Outland Tamer
-A{"ShadowmoonValley", 6614, criterion=21472} -- Shadowmoon Valley
-
--- Pet Battles: The Longest Day
-A{"ShadowmoonValley", 8348, 0.300, 0.420, criterion=23475} -- Grand Master Antari
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"ShadowmoonValley", 9069, 0.304, 0.418, criterion=27471} -- Bloodknight Antari
-
 -- Collections/Mounts: Awake the Drakes
 A{"ShadowmoonValley", 9713, 0.658, 0.865, criterion=26800, note="Netherwing exalted"} -- Purple Netherwing Drake
 
@@ -3808,9 +2724,6 @@ A{"ShadowmoonValleyDR", 8845, criterion=24715} -- Purifying the Gene Pool
 -- Exploration: Explore Draenor
 A{"ShadowmoonValleyDR", 8935, criterion=24634} -- Explore Shadowmoon Valley
 
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"ShadowmoonValleyDR", 9069, 0.500, 0.310, criterion=26969} -- Ashlei
-
 -- Quests/Draenor: On the Shadow's Trail
 A{"ShadowmoonValleyDR", 9528, criterion=26007} -- To Catch a Shadow
 
@@ -3819,14 +2732,6 @@ A{"ShadowmoonValleyDR", 9602, criterion=26375} -- Bonus Objective: The Burial Fi
 A{"ShadowmoonValleyDR", 9602, criterion=26377} -- Bonus Objective: The Shimmer Moor
 A{"ShadowmoonValleyDR", 9602, criterion=26374} -- Bonus Objective: Bloodthorn Cave
 A{"ShadowmoonValleyDR", 9602, criterion=26376} -- Bonus Objective: The Hills of Valuun
-
--- Pet Battles/Collect: Draenor Safari
-A{"ShadowmoonValleyDR", 9685, criterion=27248, note="zone exclusive"} -- Moonshell Crab
-A{"ShadowmoonValleyDR", 9685, criterion=27250, note="zone exclusive"} -- Mossbite Skitterer
-A{"ShadowmoonValleyDR", 9685, criterion=27266, note="zone exclusive"} -- Zangar Crawler
-
--- Pet Battles: Taming Draenor
-A{"ShadowmoonValleyDR", 9724, 0.500, 0.310, criterion=27012} -- Ashlei
 
 -- Quests/Draenor: Loremaster of Draenor
 A{"ShadowmoonValleyDR", 9833, criterion=27544} -- As I Walk Through The Valley of the Shadow of Moon
@@ -3839,15 +2744,6 @@ A{"ShattrathCity", 1165, 0.755, 0.305}
 
 -- General: To All The Squirrels I've Loved Before
 A{"ShattrathCity", 1206, 0.588, 0.236, criterion=3749} -- Ewe
-
--- Pet Battles: Taming Outland
-A{"ShattrathCity", 6604, 0.590, 0.700, criterion=21607} -- Morulu the Elder
-
--- Pet Battles: The Longest Day
-A{"ShattrathCity", 8348, 0.590, 0.700, criterion=23470} -- Morulu The Elder
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"ShattrathCity", 9069, 0.590, 0.700, criterion=26991} -- Morulu the Elder
 
 -- Exploration: Field Photographer
 A{"ShattrathCity", 9924, 0.640, 0.420, criterion=27952} -- Shattrath City (Outland)
@@ -3901,25 +2797,6 @@ A{"SholazarBasin", 2257, 0.310, 0.380, criterion=8119, note="or thereabouts"} --
 -- General: To All The Squirrels Who Shared My Life
 A{"SholazarBasin", 2557, 0.270, 0.600, criterion=9309} -- Sholazar Tickbird
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"SholazarBasin", 6558, criterion=21581} -- Sholozar Basin
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"SholazarBasin", 6559, criterion=21581} -- Sholozar Basin
-
--- Pet Battles/Battle: World Pet Mauler
-A{"SholazarBasin", 6560, criterion=21581} -- Sholozar Basin
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"SholazarBasin", 6585, criterion=21736, note="zone exclusive"} -- Biletoad
-
--- Pet Battles/Collect: Northrend Safari
-A{"SholazarBasin", 6588, criterion=21736, note="zone exclusive"} -- Biletoad
-A{"SholazarBasin", 6588, criterion=21778, note="zone exclusive"} -- Stunted Shardhorn
-
--- Pet Battles/Collect: Northrend Tamer
-A{"SholazarBasin", 6615, criterion=21483} -- Sholazar Basin
-
 -- Legacy: Siege of Niuzao Temple: Bronze
 A{"SiegeofNiuzaoTemple", 6917}
 
@@ -3935,49 +2812,14 @@ A{"Silithus", 1678, criterion=15237} -- Silithus Quests
 -- Quests/Kalimdor: Silithus Quests
 A{"Silithus", 4934, criterion=13844} -- Silithus
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Silithus", 6558, criterion=21542} -- Silithus
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Silithus", 6559, criterion=21542} -- Silithus
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Silithus", 6560, criterion=21542} -- Silithus
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Silithus", 6585, 0.360, 0.800, criterion=21739, note="zone exclusive\nonly during summer"} -- Qiraji Guardling
-A{"Silithus", 6585, 0.360, 0.810, criterion=21740, note="zone exclusive"} -- Scarab Hatchling
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Silithus", 6612, criterion=21461} -- Silithus
-
 -- Exploration: Field Photographer
 A{"Silithus", 9924, 0.330, 0.810, criterion=27969} -- The Scarab Dais
-
--- Pet Battles/Battle: Big City Pet Brawlin' - Horde
-A{"SilvermoonCity", 6621, criterion=19852} -- Silvermoon City
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Silverpine", 1676, criterion=15215} -- Westfall+Duskwood/Silverpine
 
 -- Quests/Eastern Kingdoms: Silverpine Forest Quests
 A{"Silverpine", 4894}
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Silverpine", 6558, criterion=21565} -- Silverpine Forest
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Silverpine", 6559, criterion=21565} -- Silverpine Forest
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Silverpine", 6560, criterion=21565} -- Silverpine Forest
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"Silverpine", 6586, criterion=21637} -- Infected Fawn
-A{"Silverpine", 6586, criterion=21667, note="zone exclusive"} -- Blighted Squirrel
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"Silverpine", 6613, criterion=21443} -- Silverpine Forest
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"SouthernBarrens", 1678, criterion=15226} -- Southern Barrens
@@ -3988,27 +2830,6 @@ A{"SouthernBarrens", 4937, criterion=13848} -- Southern Barrens
 
 -- Quests/Kalimdor: Southern Barrens Quests
 A{"SouthernBarrens", 4981, criterion=13848} -- Southern Barrens
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"SouthernBarrens", 6558, criterion=21535} -- Southern Barrens
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"SouthernBarrens", 6559, criterion=21535} -- Southern Barrens
-
--- Pet Battles/Battle: World Pet Mauler
-A{"SouthernBarrens", 6560, criterion=21535} -- Southern Barrens
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"SouthernBarrens", 6585, criterion=21742, note="zone exclusive"} -- Giraffe Calf
-
--- Pet Battles: Taming Kalimdor
-A{"SouthernBarrens", 6602, 0.400, 0.790, criterion=21409} -- Cassandra Kaboom
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"SouthernBarrens", 6612, criterion=21462} -- Southern Barrens
-
--- Pet Battles: The Longest Day
-A{"SouthernBarrens", 8348, 0.400, 0.790, criterion=23460} -- Cassandra Kaboom
 
 -- Quests/Draenor: Between Arak and a Hard Place
 A{"SpiresOfArak", 8925, criterion=26022} -- Admiral Taylor's Garrison
@@ -4035,9 +2856,6 @@ A{"SpiresOfArak", 8926, criterion=26028} -- Terokk's Legend
 -- Exploration: Explore Draenor
 A{"SpiresOfArak", 8935, criterion=24637} -- Explore Spires of Arak
 
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"SpiresOfArak", 9069, 0.462, 0.454, criterion=27006} -- Vesharr
-
 -- Professions/Fishing: Abyssal Gulper Eel Angler
 A{"SpiresOfArak", 9456, criterion=25805} -- Loot Enormous Abyssal Gulper Eel
 
@@ -4049,15 +2867,6 @@ A{"SpiresOfArak", 9605, criterion=26384} -- The Howling Crag
 A{"SpiresOfArak", 9605, criterion=26385} -- Bloodmane Pridelands
 A{"SpiresOfArak", 9605, criterion=26386} -- The Writhing Mire
 A{"SpiresOfArak", 9605, criterion=26387} -- Bladefist Hold
-
--- Pet Battles/Collect: Draenor Safari
-A{"SpiresOfArak", 9685, criterion=27251, note="zone exclusive"} -- Thicket Skitterer
-A{"SpiresOfArak", 9685, criterion=27253, note="zone exclusive"} -- Bloodsting Wasp
-A{"SpiresOfArak", 9685, criterion=27261, note="zone exclusive"} -- Golden Dawnfeather
-A{"SpiresOfArak", 9685, criterion=27272, note="zone exclusive"} -- Swamplighter Firefly
-
--- Pet Battles: Taming Draenor
-A{"SpiresOfArak", 9724, 0.460, 0.450, criterion=27014} -- Vesharr
 
 -- Quests/Draenor: Loremaster of Draenor
 A{"SpiresOfArak", 9833, criterion=27549} -- Between Arak and a Hard Place
@@ -4117,28 +2926,6 @@ A{"StonetalonMountains", 4936, criterion=13845} -- Stonetalon Mountains
 -- Quests/Kalimdor: Stonetalon Mountains Quests
 A{"StonetalonMountains", 4980, criterion=13845} -- Stonetalon Mountains
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"StonetalonMountains", 6558, criterion=21529} -- Stonetalon Mountains
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"StonetalonMountains", 6559, criterion=21529} -- Stonetalon Mountains
-
--- Pet Battles/Battle: World Pet Mauler
-A{"StonetalonMountains", 6560, criterion=21529} -- Stonetalon Mountains
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"StonetalonMountains", 6585, 0.410, 0.450, criterion=21743, note="zone exclusive"} -- Coral Snake
-A{"StonetalonMountains", 6585, 0.570, 0.720, criterion=21744, note="zone exclusive"} -- Venomspitter Hatchling
-
--- Pet Battles: Taming Kalimdor
-A{"StonetalonMountains", 6602, 0.600, 0.710, criterion=21405} -- Zonya the Sadist
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"StonetalonMountains", 6612, criterion=21463} -- Stonetalon Mountains
-
--- Pet Battles: The Longest Day
-A{"StonetalonMountains", 8348, 0.600, 0.710, criterion=23457} -- Zonya the Sadist
-
 -- Legacy: Stormstout Brewery: Bronze
 A{"StormstoutBrewery", 6889}
 
@@ -4163,20 +2950,6 @@ A{"StormwindCity", 150, criterion=5275} -- Stormwind
 -- Professions/Fishing: The Limnologist
 A{"StormwindCity", 5478, criterion=15889, note="60% drop rate, open water"} -- Longjaw Mud Snapper
 
--- Pet Battles/Battle: Big City Pet Brawlin' - Alliance
-A{"StormwindCity", 6584, criterion=19845} -- Stormwind
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"StormwindCity", 6586, criterion=21640} -- Sea Gull
-
--- Pet Battles/Collect: Crazy for Cats
-A{"StormwindCity", 8397, criterion=23594, note="from Lil Timmy"} -- White Kitten
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"StormwindCity", 9643, criterion=19598, item="10679", note="from Lil Timmy"} -- Cat Carrier (White Kitten)
-A{"StormwindCity", 9643, 0.580, 0.520, criterion=19598, item="54539"} -- Alliance Balloon
-A{"StormwindCity", 9643, criterion=19598} -- Sea Gull
-
 -- Professions/Fishing: Master Angler of Azeroth
 A{"StranglethornJungle", 306}
 
@@ -4195,52 +2968,6 @@ A{"StranglethornJungle", 4906, criterion=13704} -- Stranglethorn Vale
 -- Professions/Fishing: The Limnologist
 A{"StranglethornJungle", 5478, 0.520, 0.350, criterion=15887, note="fished from Greater Sagefish pools"} -- Greater Sagefish
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"StranglethornJungle", 6558, criterion=21552} -- Stranglethorn Vale
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"StranglethornJungle", 6559, criterion=21552} -- Stranglethorn Vale
-
--- Pet Battles/Battle: World Pet Mauler
-A{"StranglethornJungle", 6560, criterion=21552} -- Stranglethorn Vale
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"StranglethornJungle", 6586, 0.590, 0.200, criterion=21615} -- Beetle
-A{"StranglethornJungle", 6586, 0.590, 0.200, criterion=21655} -- Forest Spiderling
-A{"StranglethornJungle", 6586, 0.590, 0.200, criterion=21656} -- Lizard Hatchling
-A{"StranglethornJungle", 6586, 0.590, 0.200, criterion=21658, note="zone exclusive"} -- Polly
-A{"StranglethornJungle", 6586, 0.520, 0.350, criterion=21659} -- Strand Crab
-A{"StranglethornJungle", 6586, 0.440, 0.230, criterion=21660} -- Tree Python
-A{"StranglethornJungle", 6586, 0.590, 0.200, criterion=21654, note="only found as a secondary pet\nJaquero Isle is also good"} -- Crimson Moth
-
--- Pet Battles: Taming Eastern Kingdoms
-A{"StranglethornJungle", 6603, 0.460, 0.400, criterion=21400, note="Between Gromgol & Venture Co [Pet Level: 9]"} -- Steven Lisbane
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"StranglethornJungle", 6613, criterion=21441} -- Northern Stranglethorn
-
--- Pet Battles: The Longest Day
-A{"StranglethornJungle", 8348, 0.460, 0.400, criterion=23446} -- Steven Lisbane
-
--- Pet Battles/Collect: Crazy for Cats
-A{"StranglethornJungle", 8397, criterion=23588} -- Panther Cub
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"StranglethornJungle", 9643, criterion=19598} -- Polly
-A{"StranglethornJungle", 9643, criterion=19598} -- Crimson Moth
-A{"StranglethornJungle", 9643, criterion=19598} -- Forest Spiderling
-A{"StranglethornJungle", 9643, criterion=19598} -- Lizard Hatchling
-A{"StranglethornJungle", 9643, criterion=19598} -- Beetle
-A{"StranglethornJungle", 9643, criterion=19598} -- Tree Python
-A{"StranglethornJungle", 9643, criterion=19598} -- Strand Crab
-A{"StranglethornJungle", 9643, criterion=19598, item="35394", note="rare drop"} -- Razzashi Hatchling
-A{"StranglethornJungle", 9643, criterion=19598, item="7391", note="rare drop"} -- Parrot Cage (Hyacinth Macaw)
-A{"StranglethornJungle", 9643, 0.470, 0.110, criterion=19598, item="52894", note="from Brother Nimitz quest Bad Medicine"} -- Lashtail Hatchling
-A{"StranglethornJungle", 9643, 0.510, 0.650, criterion=19598, item="52226", note="from Brother Nimitz quest Some Good Will Come"} -- Panther Cub
-
--- Feats of Strength: Deathcharger's Reins
-A{"Stratholme", 729}
-
 -- Professions/Fishing: One That Didn't Get Away
 A{"SwampOfSorrows", 878, 0.910, 0.380, criterion=1838, note="coastal waters"} -- 22 Pound Lobster
 
@@ -4249,30 +2976,6 @@ A{"SwampOfSorrows", 1676, criterion=15216} -- Swamp of Sorrows Quests
 
 -- Quests/Eastern Kingdoms: Swamp of Sorrows Quests
 A{"SwampOfSorrows", 4904, criterion=13749} -- Swamp of Sorrows
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"SwampOfSorrows", 6558, criterion=21553} -- Swamp of Sorrows
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"SwampOfSorrows", 6559, criterion=21553} -- Swamp of Sorrows
-
--- Pet Battles/Battle: World Pet Mauler
-A{"SwampOfSorrows", 6560, criterion=21553} -- Swamp of Sorrows
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"SwampOfSorrows", 6586, 0.860, 0.240, criterion=21649} -- Huge Toad
-A{"SwampOfSorrows", 6586, 0.690, 0.740, criterion=21657} -- Parrot
-A{"SwampOfSorrows", 6586, 0.830, 0.390, criterion=21671, note="zone exclusive"} -- Moccasin
-A{"SwampOfSorrows", 6586, 0.860, 0.240, criterion=21672, note="zone exclusive\noften found as a secondary pet"} -- Swamp Moth
-
--- Pet Battles: Taming Eastern Kingdoms
-A{"SwampOfSorrows", 6603, 0.770, 0.410, criterion=21601, note="Pet Level: 16"} -- Everessa
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"SwampOfSorrows", 6613, criterion=21444} -- Swamp of Sorrows
-
--- Pet Battles: The Longest Day
-A{"SwampOfSorrows", 8348, 0.770, 0.410, criterion=23450} -- Everessa
 
 -- Quests/Draenor: Don't Let the Tala-door Hit You on the Way Out
 A{"Talador", 8919, criterion=24703} -- The Battle for Shattrath
@@ -4289,9 +2992,6 @@ A{"Talador", 8920, criterion=24700} -- In the Shadows of Auchindoun
 -- Exploration: Explore Draenor
 A{"Talador", 8935, criterion=24636} -- Explore Talador
 
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"Talador", 9069, 0.490, 0.804, criterion=27002} -- Taralune
-
 -- Feats of Strength: Challenge Master: Auchindoun
 A{"Talador", 9622}
 
@@ -4302,15 +3002,6 @@ A{"Talador", 9674, criterion=0} -- Bonus Objective: Mor'gran Logworks or Orunai 
 A{"Talador", 9674, criterion=26586} -- Bonus Objective: Zorkra's Fall
 A{"Talador", 9674, criterion=0} -- Bonus Objective: Kuuro's Claim or Zangarra
 
--- Pet Battles/Collect: Draenor Safari
-A{"Talador", 9685, criterion=27260, note="zone exclusive"} -- Brilliant Bloodfeather
-A{"Talador", 9685, criterion=27267, note="zone exclusive"} -- Kelp Scuttler
-A{"Talador", 9685, criterion=27276, note="zone exclusive"} -- Flat-Tooth Calf
-A{"Talador", 9685, criterion=27278, note="zone exclusive"} -- Shadow Sporebat
-
--- Pet Battles: Taming Draenor
-A{"Talador", 9724, 0.490, 0.800, criterion=27016} -- Taralune
-
 -- Quests/Draenor: Loremaster of Draenor
 A{"Talador", 9833, criterion=27546} -- Don't Let the Tala-door Hit You on the Way Out
 
@@ -4319,23 +3010,6 @@ A{"Talador", 9923, criterion=27545} -- Don't Let the Tala-door Hit You on the Wa
 
 -- Exploration/Draenor: Draenor Pathfinder
 A{"TanaanJungle", 10018, criterion=28982} -- Tanaan Diplomat
-
--- Pet Battles/Battle: Tiny Terrors in Tanaan
-A{"TanaanJungle", 10052, 0.260, 0.320, criterion=28796} -- Felsworn Sentry
-A{"TanaanJungle", 10052, 0.530, 0.650, criterion=28797} -- Corrupted Thundertail
-A{"TanaanJungle", 10052, 0.270, 0.710, criterion=28798, note="in cave"} -- Chaos Pup
-A{"TanaanJungle", 10052, 0.310, 0.380, criterion=28799} -- Cursed Spirit
-A{"TanaanJungle", 10052, 0.560, 0.810, criterion=28800} -- Felfly
-A{"TanaanJungle", 10052, 0.430, 0.850, criterion=28801} -- Tainted Maulclaw
-A{"TanaanJungle", 10052, 0.580, 0.370, criterion=28802} -- Direflame
-A{"TanaanJungle", 10052, 0.420, 0.720, criterion=28803} -- Mirecroak
-A{"TanaanJungle", 10052, 0.540, 0.300, criterion=28804} -- Dark Gazer
-A{"TanaanJungle", 10052, 0.160, 0.450, criterion=28805} -- Bleakclaw
-A{"TanaanJungle", 10052, 0.440, 0.460, criterion=28806} -- Vile Blood of Draenor
-A{"TanaanJungle", 10052, 0.460, 0.530, criterion=28807} -- Dreadwalker
-A{"TanaanJungle", 10052, 0.480, 0.360, criterion=28810} -- Netherfist
-A{"TanaanJungle", 10052, 0.490, 0.310, criterion=28808} -- Skrillix
-A{"TanaanJungle", 10052, 0.750, 0.370, criterion=28809} -- Defiled Earth
 
 -- Quests/Draenor: Draenor's Last Stand
 A{"TanaanJungle", 10068, criterion=28315} -- Ironhold Harbor
@@ -4521,45 +3195,8 @@ A{"Tanaris", 1678, criterion=15240} -- Tanaris Quests
 -- Quests/Kalimdor: Tanaris Quests
 A{"Tanaris", 4935, criterion=13846} -- Tanaris
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Tanaris", 6558, criterion=21533} -- Tanaris
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Tanaris", 6559, criterion=21533} -- Tanaris
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Tanaris", 6560, criterion=21533} -- Tanaris
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Tanaris", 6585, criterion=21746, note="zone exclusive"} -- Sand Kitten
-A{"Tanaris", 6585, 0.360, 0.460, criterion=21747, note="zone exclusive\nonly during sandstorm"} -- Silithid Hatchling
-A{"Tanaris", 6585, criterion=21748, note="zone exclusive"} -- Stinkbug
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Tanaris", 6612, criterion=21464} -- Tanaris
-
--- Pet Battles/Collect: Crazy for Cats
-A{"Tanaris", 8397, criterion=23589} -- Sand Kitten
-
 -- Exploration: Field Photographer
 A{"Tanaris", 9924, 0.600, 0.571, criterion=27967} -- Caverns of Time
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Teldrassil", 6558, criterion=21545} -- Teldrassil
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Teldrassil", 6559, criterion=21545} -- Teldrassil
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Teldrassil", 6560, criterion=21545} -- Teldrassil
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Teldrassil", 6585, criterion=22540, note="zone exclusive"} -- Crested Owl
-
--- Pet Battles/Collect: Raiding with Leashes II: Attunement Edition
-A{"TempestKeep", 8293, 0.246, 0.500, criterion=23328, note="from Void Reaver"} -- Pocket Reaver
-A{"TempestKeep", 8293, 0.737, 0.493, criterion=23329, note="from High Astromancer Solarian"} -- Lesser Voidcaller
-A{"TempestKeep", 8293, 0.460, 0.580, criterion=23330, note="from Al'ar"} -- Phoenix Hawk Hatchling
 
 -- Professions/Fishing: Mr. Pinchy's Magical Crawdad Box
 A{"TerokkarForest", 726, 0.660, 0.740, note="or thereabouts.  fished from Highland Mixed Schools.  0.2% chance to get a Mr. Pinchy, who grants 3 wishes, 8% chance the wish yields a Magical Crawdad"}
@@ -4586,21 +3223,6 @@ A{"TerokkarForest", 1311, criterion=4509} -- Crippler
 A{"TerokkarForest", 1312, criterion=4509} -- Crippler
 A{"TerokkarForest", 1312, criterion=4520} -- Okrek
 A{"TerokkarForest", 1312, criterion=4510} -- Doomsayer Jurim
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"TerokkarForest", 6558, criterion=21573} -- Terokkar Forest
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"TerokkarForest", 6559, criterion=21573} -- Terokkar Forest
-
--- Pet Battles/Battle: World Pet Mauler
-A{"TerokkarForest", 6560, criterion=21573} -- Terokkar Forest
-
--- Pet Battles/Collect: Outland Safari
-A{"TerokkarForest", 6587, criterion=21765, note="zone exclusive"} -- Warpstalker Hatchling
-
--- Pet Battles/Collect: Outland Tamer
-A{"TerokkarForest", 6614, criterion=21471} -- Terokkar Forest
 
 -- Dungeons & Raids/Pandaria Raid: Terrace of Endless Spring
 A{"TerraceOfEndlessSpring", 6689, criterion=19518} -- Protectors of the Endless
@@ -4694,24 +3316,6 @@ A{"TheCapeOfStranglethorn", 4905, criterion=13705} -- The Cape of Stranglethorn
 -- General: To All the Squirrels Who Cared for Me
 A{"TheCapeOfStranglethorn", 5548, 0.428, 0.716, criterion=0, note="also Tol Barad"} -- Wharf Rat
 
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"TheCapeOfStranglethorn", 6586, 0.600, 0.820, criterion=21668, note="only when it's raining\nJaquero has its own weather"} -- Baby Ape
-A{"TheCapeOfStranglethorn", 6586, criterion=21670} -- Wharf Rat
-
--- Pet Battles: Taming Eastern Kingdoms
-A{"TheCapeOfStranglethorn", 6603, 0.510, 0.730, criterion=21401, note="near the path from Booty Bay. Pet Level 11"} -- Bill Buckler
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"TheCapeOfStranglethorn", 6613, criterion=21427} -- Cape of Stranglethorn
-
--- Pet Battles: The Longest Day
-A{"TheCapeOfStranglethorn", 8348, 0.515, 0.734, criterion=23445} -- Bill Buckler
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"TheCapeOfStranglethorn", 9643, 0.420, 0.690, criterion=19598, item="7390", note="from Narkk"} -- Parrot Cage (Cockatiel)
-A{"TheCapeOfStranglethorn", 9643, 0.420, 0.690, criterion=19598, item="7389", note="from Narkk"} -- Parrot Cage (Senegal)
-A{"TheCapeOfStranglethorn", 9643, criterion=19598, item="61324", note="when raining"} -- Baby Ape
-
 -- Garrisons: Ten Hit Tunes
 A{"TheCapeOfStranglethorn", 9828, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest"} -- Angelic
 
@@ -4733,17 +3337,6 @@ A{"TheCapeOfStranglethorn", 10015, 0.465, 0.261, criterion=27752, note="from Are
 
 -- Garrisons: Full Discography
 A{"TheCapeOfStranglethorn", 10016, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest"} -- Angelic
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"TheDeadmines", 9643, criterion=19598} -- Parrot Cage (Green Wing Macaw)
-
--- Pet Battles/Battle: Big City Pet Brawlin' - Alliance
-A{"TheExodar", 6584, criterion=19848} -- The Exodar
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"TheExodar", 9643, criterion=19598} -- Blue Moth Egg
-A{"TheExodar", 9643, criterion=19598} -- White Moth Egg
-A{"TheExodar", 9643, criterion=19598} -- Yellow Moth Egg
 
 -- Legacy: Gate of the Setting Sun: Bronze
 A{"TheGreatWall", 6905}
@@ -4792,37 +3385,6 @@ A{"TheJadeForest", 6534, criterion=0} -- Tian Monastery
 
 -- Quests/Pandaria: Loremaster of Pandaria
 A{"TheJadeForest", 6541, criterion=19377} -- Upjade Complete
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"TheJadeForest", 6558, criterion=21587} -- The Jade Forest
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"TheJadeForest", 6559, criterion=21587} -- The Jade Forest
-
--- Pet Battles/Battle: World Pet Mauler
-A{"TheJadeForest", 6560, criterion=21587} -- The Jade Forest
-
--- Pet Battles/Collect: Pandaria Safari
-A{"TheJadeForest", 6589, criterion=21782, note="zone exclusive"} -- Emerald Turtle
-A{"TheJadeForest", 6589, criterion=21781, note="zone exclusive"} -- Bucktooth Flapper
-A{"TheJadeForest", 6589, criterion=21784, note="zone exclusive"} -- Garden Frog
-A{"TheJadeForest", 6589, criterion=21788, note="zone exclusive"} -- Jungle Darter
-A{"TheJadeForest", 6589, criterion=21786, note="zone exclusive"} -- Grove Viper
-A{"TheJadeForest", 6589, criterion=21787, note="zone exclusive"} -- Jumping Spider
-A{"TheJadeForest", 6589, criterion=21790, note="zone exclusive"} -- Masked Tanuki
-A{"TheJadeForest", 6589, criterion=21791, note="zone exclusive"} -- Masked Tanuki Pup
-A{"TheJadeForest", 6589, criterion=21792, note="zone exclusive"} -- Mirror Strider
-A{"TheJadeForest", 6589, criterion=21793, note="zone exclusive"} -- Sandy Petrel
-A{"TheJadeForest", 6589, criterion=21796, note="zone exclusive"} -- Spirebound Crab
-A{"TheJadeForest", 6589, criterion=21805, note="zone exclusive"} -- Temple Snake
-A{"TheJadeForest", 6589, criterion=21785, note="zone exclusive"} -- Garden Moth
-A{"TheJadeForest", 6589, criterion=21794, note="zone exclusive"} -- Shrine Fly
-
--- Pet Battles: Taming Pandaria
-A{"TheJadeForest", 6606, 0.480, 0.540, criterion=21853} -- Hyuna of the Shrines
-
--- Pet Battles/Collect: Pandaria Tamer
-A{"TheJadeForest", 6616, criterion=21489} -- Jade Forest
 
 -- Exploration/Pandaria: Between a Saurok and a Hard Place
 A{"TheJadeForest", 6716, 0.670, 0.290, criterion=19618} -- The Saurok
@@ -4931,16 +3493,6 @@ A{"TheJadeForest", 7439, 0.650, 0.740, criterion=21090} -- Sarnak
 -- Professions/Fishing: Pandarian Angler
 A{"TheJadeForest", 7611, criterion=21961} -- Jade Lungfish
 
--- Pet Battles: The Longest Day
-A{"TheJadeForest", 8348, 0.480, 0.540, criterion=23488} -- Grand Master Hyuna
-A{"TheJadeForest", 8348, 0.290, 0.360, criterion=23497} -- Whispering Pandaren Spirit
-A{"TheJadeForest", 8348, 0.480, 0.710, criterion=23498, note="[4 beasts]"} -- Ka'wi the Gorger
-A{"TheJadeForest", 8348, 0.570, 0.290, criterion=23498, note="[4 beasts]"} -- Nitun
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"TheJadeForest", 9069, 0.480, 0.540, criterion=26985} -- Hyuna of the Shrines
-A{"TheJadeForest", 9069, 0.288, 0.360, criterion=27008} -- Whispering Pandaren Spirit
-
 -- Quests/Northrend: The Summit of Storm Peaks
 A{"TheStormPeaks", 38, criterion=79} -- Complete 100 Storm Peaks Quests
 
@@ -4958,21 +3510,6 @@ A{"TheStormPeaks", 2256, 0.378, 0.584, criterion=8121, note="or thereabouts"} --
 A{"TheStormPeaks", 2257, 0.370, 0.730, criterion=8120, note="or thereabouts"} -- Vyragosa
 A{"TheStormPeaks", 2257, 0.378, 0.584, criterion=8121, note="or thereabouts"} -- Dirkee
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"TheStormPeaks", 6558, criterion=21584} -- The Storm Peaks
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"TheStormPeaks", 6559, criterion=21584} -- The Storm Peaks
-
--- Pet Battles/Battle: World Pet Mauler
-A{"TheStormPeaks", 6560, criterion=21584} -- The Storm Peaks
-
--- Pet Battles/Collect: Northrend Safari
-A{"TheStormPeaks", 6588, criterion=21779, note="zone exclusive"} -- Arctic Fox Kit
-
--- Pet Battles/Collect: Northrend Tamer
-A{"TheStormPeaks", 6615, criterion=21484} -- Storm Peaks
-
 -- Collections/Toy Box: Crashin' Thrashin' Commander
 A{"TheStormPeaks", 10354, 0.288, 0.741, item="43499", note="10x Relic of Ulduar"} -- Iron Boot Flask
 
@@ -4982,35 +3519,11 @@ A{"ThousandNeedles", 1678, criterion=15241} -- Thousand Needles Quests
 -- Quests/Kalimdor: Thousand Needles Quests
 A{"ThousandNeedles", 4938, criterion=13849} -- Thousand Needles
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"ThousandNeedles", 6558, criterion=21532} -- Thousand Needles
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"ThousandNeedles", 6559, criterion=21532} -- Thousand Needles
-
--- Pet Battles/Battle: World Pet Mauler
-A{"ThousandNeedles", 6560, criterion=21532} -- Thousand Needles
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"ThousandNeedles", 6585, 0.330, 0.600, criterion=21749, note="zone exclusive"} -- Twilight Iguana
-
--- Pet Battles: Taming Kalimdor
-A{"ThousandNeedles", 6602, 0.320, 0.330, criterion=21416} -- Kela Grimtotem
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"ThousandNeedles", 6612, criterion=21465} -- Thousand Needles
-
--- Pet Battles: The Longest Day
-A{"ThousandNeedles", 8348, 0.320, 0.330, criterion=23462} -- Kela Grimtotem
-
 -- Professions/Cooking: A Bunch of Lunch
 A{"ThunderBluff", 5845, criterion=17747} -- Let's Do Lunch: Thunder Bluff
 
 -- Professions/Fishing: Gone Fishin'
 A{"ThunderBluff", 5851, criterion=17773} -- Fish or Cut Bait: Thunder Bluff
-
--- Pet Battles/Battle: Big City Pet Brawlin' - Horde
-A{"ThunderBluff", 6621, criterion=19850} -- Thunder Bluff
 
 -- Garrisons: Ten Hit Tunes
 A{"ThunderBluff", 9897, 0.256, 0.198, criterion=27771, note="from fishing Pools of Vision"} -- Mulgore Plains
@@ -5187,30 +3700,6 @@ A{"ThunderKingRaid", 8260}
 
 -- Professions/Fishing: Pandarian Angler
 A{"TimelessIsle", 7611, criterion=21962} -- Jewel Danio
-
--- Pet Battles/Collect: Crazy for Cats
-A{"TimelessIsle", 8397, criterion=23600} -- Xu-Fu, Cub of Xuen
-
--- Pet Battles/Battle: Master of the Masters
-A{"TimelessIsle", 8518, criterion=23620} -- Blingtron 4000
-A{"TimelessIsle", 8518, criterion=23610} -- Wrathion
-A{"TimelessIsle", 8518, criterion=23611} -- Lorewalker Cho
-A{"TimelessIsle", 8518, criterion=23616} -- Chen Stormstout
-A{"TimelessIsle", 8518, criterion=23619} -- Wise Mari
-A{"TimelessIsle", 8518, criterion=23607} -- Shademaster Kiryn
-A{"TimelessIsle", 8518, criterion=23617} -- Sully "The Pickle" McLeary
-A{"TimelessIsle", 8518, criterion=23618} -- Taran Zhu
-A{"TimelessIsle", 8518, criterion=23621} -- Dr. Ion Goldbloom
-A{"TimelessIsle", 8518, criterion=23612} -- Xu-Fu, Cub of Xuen
-A{"TimelessIsle", 8518, criterion=23615} -- Chi-Chi, Hatchling of Chi-Ji
-A{"TimelessIsle", 8518, criterion=23614} -- Zao, Calfling of Niuzao
-A{"TimelessIsle", 8518, criterion=23613} -- Yu'la, Broodling of Yu'lon
-
--- Pet Battles/Collect: Celestial Family
-A{"TimelessIsle", 8519, 0.350, 0.600, criterion=23600} -- Xu-Fu, Cub of Xuen
-A{"TimelessIsle", 8519, 0.350, 0.610, criterion=23719} -- Chi-Chi, Hatchling of Chi-Ji
-A{"TimelessIsle", 8519, 0.350, 0.620, criterion=23720} -- Yu'la, Broodling of Yu'lon
-A{"TimelessIsle", 8519, 0.350, 0.630, criterion=23721} -- Zao, Calfling of Niuzao
 
 -- Dungeons & Raids/Pandaria Raid: Ordos
 A{"TimelessIsle", 8533}
@@ -5406,34 +3895,8 @@ A{"TimelessIsle", 8784, criterion=24140} -- Flameheart Shawl
 A{"TimelessIsle", 8784, criterion=24141} -- Riverspeaker's Trident
 A{"TimelessIsle", 8784, criterion=24142} -- Snowdrift Tiger Talons
 
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"TimelessIsle", 9069, 0.402, 0.564, criterion=26971} -- Blingtron 4000
-A{"TimelessIsle", 9069, criterion=26975} -- Chen Stormstout
-A{"TimelessIsle", 9069, 0.402, 0.562, criterion=26979} -- Dr. Ion Goldbloom
-A{"TimelessIsle", 9069, 0.400, 0.526, criterion=26987} -- Lorewalker Cho
-A{"TimelessIsle", 9069, 0.378, 0.572, criterion=26999} -- Shademaster Kiryn
-A{"TimelessIsle", 9069, 0.378, 0.572, criterion=27001} -- Sully "The Pickle" McLeary
-A{"TimelessIsle", 9069, 0.400, 0.526, criterion=27003} -- Taran Zhu
-A{"TimelessIsle", 9069, 0.400, 0.526, criterion=27009} -- Wise Mari
-A{"TimelessIsle", 9069, 0.378, 0.572, criterion=27010} -- Wrathion
-
 -- Professions/Fishing: The Limnologist
 A{"Tirisfal", 5478, 0.680, 0.460, criterion=15895, note="inland, open water"} -- Sickly Looking Fish
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Tirisfal", 6558, criterion=21566} -- Tirisfal Glades
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Tirisfal", 6559, criterion=21566} -- Tirisfal Glades
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Tirisfal", 6560, criterion=21566} -- Tirisfal Glades
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"Tirisfal", 6586, 0.830, 0.700, criterion=21676, note="zone exclusive\nfound in Tirisfal and Undercity"} -- Lost of Lordaeron
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"Tirisfal", 6613, criterion=21445} -- Tirisfal Glades
 
 -- Garrisons: Ten Hit Tunes
 A{"Tirisfal", 9828, 0.176, 0.676, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event, every 15min"} -- Faerie Dragon
@@ -5470,27 +3933,6 @@ A{"TownlongWastes", 6539, criterion=19376} -- Tai Ho's Investigation
 
 -- Quests/Pandaria: Loremaster of Pandaria
 A{"TownlongWastes", 6541, criterion=19381} -- One Steppe Forward, Two Steppes Back
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"TownlongWastes", 6558, criterion=21592} -- Townlong Steppes
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"TownlongWastes", 6559, criterion=21592} -- Townlong Steppes
-
--- Pet Battles/Battle: World Pet Mauler
-A{"TownlongWastes", 6560, criterion=21592} -- Townlong Steppes
-
--- Pet Battles/Collect: Pandaria Safari
-A{"TownlongWastes", 6589, criterion=21833, note="zone exclusive"} -- Grassland Hopper
-A{"TownlongWastes", 6589, criterion=21834, note="zone exclusive"} -- Kuitan Mongoose
-A{"TownlongWastes", 6589, criterion=21835, note="zone exclusive"} -- Mongoose
-A{"TownlongWastes", 6589, criterion=21836, note="zone exclusive"} -- Mongoose Pup
-
--- Pet Battles: Taming Pandaria
-A{"TownlongWastes", 6606, 0.360, 0.520, criterion=21870} -- Seeker Zusshi
-
--- Pet Battles/Collect: Pandaria Tamer
-A{"TownlongWastes", 6616, criterion=21493} -- Townlong Steppes
 
 -- Exploration/Pandaria: The Song of the Yaungol
 A{"TownlongWastes", 6847, 0.650, 0.490, criterion=19774} -- Dominance
@@ -5596,15 +4038,6 @@ A{"TownlongWastes", 7439, 0.590, 0.860, criterion=21094} -- Siltriss the Sharpen
 -- Professions/Fishing: Pandarian Angler
 A{"TownlongWastes", 7611, criterion=21964} -- Redbelly Mandarin
 
--- Pet Battles: The Longest Day
-A{"TownlongWastes", 8348, 0.360, 0.520, criterion=23487} -- Grand Master Zusshi
-A{"TownlongWastes", 8348, 0.570, 0.420, criterion=23495} -- Burning Pandaren Spirit
-A{"TownlongWastes", 8348, 0.720, 0.800, criterion=23500, note="[3 beasts]"} -- Ti'un the Wanderer
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"TownlongWastes", 9069, 0.570, 0.422, criterion=26974} -- Burning Pandaren Spirit
-A{"TownlongWastes", 9069, 0.362, 0.522, criterion=26998} -- Seeker Zusshi
-
 -- Quests/Cataclysm: Fading into Twilight
 A{"TwilightHighlands", 4873, criterion=13611} -- Twilight Highlands
 
@@ -5647,37 +4080,6 @@ A{"TwilightHighlands", 5501, criterion=13611} -- Twilight Highlands
 A{"TwilightHighlands", 5548, 0.460, 0.270, criterion=0, note="zone exclusive"} -- Yellow-Bellied Marmot
 A{"TwilightHighlands", 5548, 0.298, 0.312, criterion=0, note="zone exclusive"} -- Highlands Turkey
 A{"TwilightHighlands", 5548, 0.514, 0.404, criterion=0} -- Rattlesnake
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"TwilightHighlands", 6558, criterion=21561} -- Twilight Highlands
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"TwilightHighlands", 6559, criterion=21561} -- Twilight Highlands
-
--- Pet Battles/Battle: World Pet Mauler
-A{"TwilightHighlands", 6560, criterion=21561} -- Twilight Highlands
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"TwilightHighlands", 6586, criterion=21679, note="also found in Grizzly Hills and Howling Fjord"} -- Grizzly Squirrel
-A{"TwilightHighlands", 6586, criterion=21683, note="zone exclusive"} -- Twilight Fiendling
-A{"TwilightHighlands", 6586, criterion=21684, note="also found in Deepholm and Azshara"} -- Twilight Spider
-A{"TwilightHighlands", 6586, criterion=21680, note="zone exclusive"} -- Highlands Mouse
-A{"TwilightHighlands", 6586, criterion=21681, note="zone exclusive"} -- Highlands Skunk
-A{"TwilightHighlands", 6586, criterion=21682, note="zone exclusive"} -- Highlands Turkey
-A{"TwilightHighlands", 6586, criterion=21685, note="zone exclusive"} -- Wildhammer Gryphon Hatchling
-A{"TwilightHighlands", 6586, criterion=21686, note="zone exclusive"} -- Yellow-Bellied Marmot
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"TwilightHighlands", 6613, criterion=21486} -- Twilight Highlands
-
--- Pet Battles: Taming Cataclysm
-A{"TwilightHighlands", 7525, 0.570, 0.570, criterion=21860} -- Goz Banefury
-
--- Pet Battles: The Longest Day
-A{"TwilightHighlands", 8348, 0.570, 0.570, criterion=23485} -- Goz Banefury
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"TwilightHighlands", 9069, 0.566, 0.568, criterion=26983} -- Goz Banefury
 
 -- Legacy: Champion of Ulduar
 A{"Ulduar", 2903}
@@ -5722,35 +4124,6 @@ A{"Uldum", 5317, 0.410, 0.050}
 A{"Uldum", 5548, 0.550, 0.358, criterion=0, note="zone exclusive"} -- Oasis Moth
 A{"Uldum", 5548, 0.516, 0.504, criterion=0, note="zone exclusive"} -- Mac Frog
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Uldum", 6558, criterion=21541} -- Uldum
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Uldum", 6559, criterion=21541} -- Uldum
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Uldum", 6560, criterion=21541} -- Uldum
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Uldum", 6585, criterion=21701, note="zone exclusive"} -- Horned Lizard
-A{"Uldum", 6585, criterion=21751, note="zone exclusive"} -- Leopard Scorpid
-A{"Uldum", 6585, 0.580, 0.520, criterion=21752, note="zone exclusive"} -- Locust
-A{"Uldum", 6585, 0.580, 0.530, criterion=21753, note="zone exclusive"} -- Mac Frog
-A{"Uldum", 6585, 0.620, 0.390, criterion=21754, note="zone exclusive"} -- Oasis Moth
-A{"Uldum", 6585, 0.410, 0.450, criterion=21755, note="zone exclusive"} -- Tol'vir Scarab
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Uldum", 6612, criterion=21487} -- Uldum
-
--- Pet Battles: Taming Cataclysm
-A{"Uldum", 7525, 0.570, 0.420, criterion=21861} -- Obalis
-
--- Pet Battles: The Longest Day
-A{"Uldum", 8348, 0.570, 0.420, criterion=23486} -- Grand Master Obalis
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"Uldum", 9069, 0.566, 0.418, criterion=26995} -- Obalis
-
 -- Exploration: Field Photographer
 A{"Uldum", 9924, 0.720, 0.500, criterion=27978} -- Halls of Origination
 
@@ -5759,15 +4132,6 @@ A{"Undercity", 5845, criterion=17746} -- Let's Do Lunch: Undercity
 
 -- Professions/Fishing: Gone Fishin'
 A{"Undercity", 5851, criterion=17774} -- Fish or Cut Bait: Undercity
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"Undercity", 6586, criterion=21677, note="zone exclusive"} -- Undercity Rat
-
--- Pet Battles/Battle: Big City Pet Brawlin' - Horde
-A{"Undercity", 6621, criterion=19851} -- Undercity
-
--- Pet Battles/Collect: Crazy for Cats
-A{"Undercity", 8397, 0.680, 0.070, criterion=23584, note="from Chub during Hallow's End"} -- Feline Familiar
 
 -- Garrisons: Ten Hit Tunes
 A{"Undercity", 9828, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox"} -- Lament of the Highborne
@@ -5795,21 +4159,6 @@ A{"UngoroCrater", 1678, criterion=15242} -- Un'Goro Crater Quests
 
 -- Quests/Kalimdor: Un'Goro Crater Quests
 A{"UngoroCrater", 4939, criterion=13850} -- Un'Goro Crater
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"UngoroCrater", 6558, criterion=21534} -- Un'goro Crater
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"UngoroCrater", 6559, criterion=21534} -- Un'goro Crater
-
--- Pet Battles/Battle: World Pet Mauler
-A{"UngoroCrater", 6560, criterion=21534} -- Un'goro Crater
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"UngoroCrater", 6585, 0.350, 0.660, criterion=21750, note="zone exclusive"} -- Diemetradon Hatchling
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"UngoroCrater", 6612, criterion=21466} -- Un'Goro Crater
 
 -- Exploration: Field Photographer
 A{"UngoroCrater", 9924, 0.480, 0.090, criterion=27957} -- The Shaper's Terrace
@@ -5919,21 +4268,6 @@ A{"ValeofEternalBlossoms", 10015, 0.822, 0.294, criterion=27767, note="from Tan 
 -- Garrisons: Full Discography
 A{"ValeofEternalBlossoms", 10016, 0.822, 0.294, criterion=27767, note="from Tan Shin Tiao\nLorewalkers revered"} -- Song of Liu Lang
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"ValeOfEternalBlossomsScenario", 6558, criterion=21593} -- Vale of Eternal Blossoms
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"ValeOfEternalBlossomsScenario", 6559, criterion=21593} -- Vale of Eternal Blossoms
-
--- Pet Battles/Battle: World Pet Mauler
-A{"ValeOfEternalBlossomsScenario", 6560, criterion=21593} -- Vale of Eternal Blossoms
-
--- Pet Battles: Taming Pandaria
-A{"ValeOfEternalBlossomsScenario", 6606, 0.310, 0.740, criterion=21857} -- Aki the Chosen
-
--- Pet Battles/Collect: Pandaria Tamer
-A{"ValeOfEternalBlossomsScenario", 6616, criterion=21495} -- Vale of Eternal Blossoms
-
 -- Exploration/Pandaria: The Dark Heart of the Mogu
 A{"ValeOfEternalBlossomsScenario", 6754, 0.400, 0.770, criterion=19665} -- The Thunder King
 
@@ -5992,13 +4326,6 @@ A{"ValeOfEternalBlossomsScenario", 7439, 0.430, 0.690, criterion=21089} -- Ai-Ra
 A{"ValeOfEternalBlossomsScenario", 7439, 0.880, 0.450, criterion=21103} -- Yorik Sharpeye
 A{"ValeOfEternalBlossomsScenario", 7439, 0.380, 0.550, criterion=21096, note="or thereabouts"} -- Moldo One-Eye
 
--- Pet Battles: The Longest Day
-A{"ValeOfEternalBlossomsScenario", 8348, 0.310, 0.740, criterion=23493} -- Grand Master Aki
-A{"ValeOfEternalBlossomsScenario", 8348, 0.110, 0.710, criterion=23500, note="[3 beasts]"} -- No-No
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"ValeOfEternalBlossomsScenario", 9069, 0.312, 0.742, criterion=25118} -- Aki the Chosen
-
 -- Exploration: Field Photographer
 A{"ValeOfEternalBlossomsScenario", 9924, criterion=27870} -- Vale of Eternal Blossoms
 
@@ -6030,31 +4357,6 @@ A{"ValleyoftheFourWinds", 6551, criterion=19402} -- Jogu the Drunk
 A{"ValleyoftheFourWinds", 6551, criterion=19403} -- Old Hillpaw
 A{"ValleyoftheFourWinds", 6551, criterion=19404} -- Sho
 A{"ValleyoftheFourWinds", 6551, criterion=19405} -- Tina Mudclaw
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"ValleyoftheFourWinds", 6558, criterion=21588} -- Valley of the Four Winds
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"ValleyoftheFourWinds", 6559, criterion=21588} -- Valley of the Four Winds
-
--- Pet Battles/Battle: World Pet Mauler
-A{"ValleyoftheFourWinds", 6560, criterion=21588} -- Valley of the Four Winds
-
--- Pet Battles/Collect: Pandaria Safari
-A{"ValleyoftheFourWinds", 6589, criterion=21798, note="zone exclusive"} -- Bandicoon
-A{"ValleyoftheFourWinds", 6589, criterion=21799, note="zone exclusive"} -- Bandicoon Kit
-A{"ValleyoftheFourWinds", 6589, criterion=21802, note="zone exclusive"} -- Marsh Fiddler
-A{"ValleyoftheFourWinds", 6589, criterion=21801, note="zone exclusive"} -- Malayan Quillrat Pup
-A{"ValleyoftheFourWinds", 6589, criterion=21797, note="zone exclusive"} -- Sifang Otter
-A{"ValleyoftheFourWinds", 6589, criterion=21803, note="zone exclusive"} -- Shy Bandicoon
-A{"ValleyoftheFourWinds", 6589, criterion=21806, note="zone exclusive"} -- Softshell Snapling
-A{"ValleyoftheFourWinds", 6589, criterion=21816, note="zone exclusive"} -- Sifang Otter Pup
-
--- Pet Battles: Taming Pandaria
-A{"ValleyoftheFourWinds", 6606, 0.460, 0.440, criterion=21854} -- Farmer Nishi
-
--- Pet Battles/Collect: Pandaria Tamer
-A{"ValleyoftheFourWinds", 6616, criterion=21490} -- Valley of the Four Winds
 
 -- Exploration/Pandaria: Fish Tales
 A{"ValleyoftheFourWinds", 6846, 0.610, 0.340, criterion=19769} -- Waterspeakers
@@ -6202,14 +4504,6 @@ A{"ValleyoftheFourWinds", 7439, 0.700, 0.530, criterion=21091, note="or thereabo
 -- Professions/Fishing: Pandarian Angler
 A{"ValleyoftheFourWinds", 7611, criterion=21955} -- Emperor Salmon
 
--- Pet Battles: The Longest Day
-A{"ValleyoftheFourWinds", 8348, 0.460, 0.440, criterion=23490} -- Grand Master Nishi
-A{"ValleyoftheFourWinds", 8348, 0.250, 0.790, criterion=23499, note="[3 beasts]"} -- Greyhoof
-A{"ValleyoftheFourWinds", 8348, 0.410, 0.440, criterion=23499, note="[3 beasts]"} -- Lucky Yi
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"ValleyoftheFourWinds", 9069, 0.460, 0.436, criterion=26980} -- Farmer Nishi
-
 -- Exploration: Field Photographer
 A{"ValleyoftheFourWinds", 9924, 0.520, 0.480, criterion=27975} -- Sunsong Ranch
 
@@ -6244,29 +4538,11 @@ A{"Vashjir", 9924, criterion=27959} -- Vashj'ir
 A{"VashjirRuins", 5548, 0.540, 0.416, criterion=16222} -- Rockchewer Whelk
 A{"VashjirRuins", 5548, 0.536, 0.416, criterion=16224} -- Sea Cucumber
 
--- Pet Battles/Collect: So. Many. Pets.
-A{"WailingCaverns", 9643, criterion=19598} -- Deviate Hatchling
-
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"WesternPlaguelands", 1676, criterion=15217} -- Western Plaguelands Quests
 
 -- Quests/Eastern Kingdoms: Western Plaguelands Quests
 A{"WesternPlaguelands", 4893, criterion=13751} -- Western Plaguelands
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"WesternPlaguelands", 6558, criterion=21568} -- Western Plaguelands
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"WesternPlaguelands", 6559, criterion=21568} -- Western Plaguelands
-
--- Pet Battles/Battle: World Pet Mauler
-A{"WesternPlaguelands", 6560, criterion=21568} -- Western Plaguelands
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"WesternPlaguelands", 6613, criterion=21446} -- Western Plaguelands
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"WesternPlaguelands", 9643, 0.440, 0.680, criterion=19598, item="61826", note="zone exclusive"} -- Blighthawk
 
 -- Exploration: Field Photographer
 A{"WesternPlaguelands", 9924, 0.450, 0.180, criterion=27875} -- Hearthglen
@@ -6281,34 +4557,6 @@ A{"Westfall", 1676, criterion=15202} -- Westfall+Duskwood/Silverpine
 -- Quests/Eastern Kingdoms: Westfall and Duskwood Quests
 A{"Westfall", 4903, criterion=0} -- Westfall
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Westfall", 6558, criterion=21549} -- Westfall
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Westfall", 6559, criterion=21549} -- Westfall
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Westfall", 6560, criterion=21549} -- Westfall
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"Westfall", 6586, 0.580, 0.170, criterion=21519} -- Snake
-A{"Westfall", 6586, 0.540, 0.310, criterion=21687, note="zone exclusive"} -- Tiny Harvester
-
--- Pet Battles: Taming Eastern Kingdoms
-A{"Westfall", 6603, 0.610, 0.190, criterion=21397, note="Main road Pet Level: 3"} -- Old MacDonald
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"Westfall", 6613, criterion=21384} -- Westfall
-
--- Pet Battles: The Longest Day
-A{"Westfall", 8348, 0.610, 0.190, criterion=23419} -- Old MacDonald
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"Westfall", 9643, criterion=19598} -- Shore Crab
-A{"Westfall", 9643, criterion=19598} -- Snake
-A{"Westfall", 9643, criterion=19598} -- Tiny Harvester
-A{"Westfall", 9643, criterion=19598, note="target chicken and /chicken repeatedly, then /cheer"} -- Chicken Egg
-
 -- Exploration: Field Photographer
 A{"Westfall", 9924, 0.380, 0.770, criterion=27878} -- The Deadmines
 A{"Westfall", 9924, 0.300, 0.860, criterion=27961} -- Westfall Lighthouse
@@ -6318,29 +4566,6 @@ A{"Wetlands", 1206, 0.486, 0.700, criterion=0} -- Ram
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Wetlands", 1676, criterion=15196} -- Loch Modan+Wetlands/Ghostlands
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Wetlands", 6558, criterion=21560} -- Wetlands
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Wetlands", 6559, criterion=21560} -- Wetlands
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Wetlands", 6560, criterion=21560} -- Wetlands
-
--- Pet Battles/Collect: Eastern Kingdoms Safari
-A{"Wetlands", 6586, 0.690, 0.290, criterion=21625, note="inside the cave"} -- Cockroach
-A{"Wetlands", 6586, 0.600, 0.560, criterion=21646} -- Toad
-A{"Wetlands", 6586, 0.600, 0.560, criterion=21661} -- Water Snake
-A{"Wetlands", 6586, criterion=21688, note="scarce primary and common secondary"} -- Mountain Skunk
-A{"Wetlands", 6586, criterion=21689, note="zone exclusive\nscarce\nfound near Mirebeasts, north to northwest of Greenwarden's\nCan be made to spawn by repeatedly clearing the entire Green Belt of ALL critters"} -- Tiny Bog Beast
-
--- Pet Battles/Collect: Eastern Kingdoms Tamer
-A{"Wetlands", 6613, criterion=21447} -- Wetlands
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"Wetlands", 9643, criterion=19598, item="7544"} -- Tiny Crimson Whelpling
-A{"Wetlands", 9643, 0.690, 0.290, criterion=19598, item="35398"} -- Razormaw Hatchling
 
 -- Exploration: Field Photographer
 A{"Wetlands", 9924, 0.510, 0.090, criterion=27874} -- Thandol Span
@@ -6359,31 +4584,6 @@ A{"Winterspring", 5443, criterion=16181} -- Chillwind Chimaera
 A{"Winterspring", 5443, criterion=16182} -- Ice Thistle Yeti
 A{"Winterspring", 5443, criterion=16179} -- Frostmaul Giants
 A{"Winterspring", 5443, criterion=15632} -- Winterspring Furbolg
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"Winterspring", 6558, criterion=21540} -- Winterspring
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Winterspring", 6559, criterion=21540} -- Winterspring
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Winterspring", 6560, criterion=21540} -- Winterspring
-
--- Pet Battles/Collect: Kalimdor Safari
-A{"Winterspring", 6585, 0.510, 0.560, criterion=21512, note="zone exclusive"} -- Crystal Spider
-A{"Winterspring", 6585, criterion=21757, note="zone exclusive"} -- Snowy Owl
-
--- Pet Battles: Taming Kalimdor
-A{"Winterspring", 6602, 0.660, 0.640, criterion=21415} -- Stone Cold Trixxy
-
--- Pet Battles/Collect: Kalimdor Tamer
-A{"Winterspring", 6612, criterion=21467} -- Winterspring
-
--- Pet Battles: The Longest Day
-A{"Winterspring", 8348, 0.660, 0.640, criterion=23453} -- Grand Master Trixxy
-
--- Pet Battles/Collect: Crazy for Cats
-A{"Winterspring", 8397, 0.600, 0.520, criterion=23595, note="from Michelle De Rum"} -- Winterspring Cub
 
 -- Garrisons: Ten Hit Tunes
 A{"Winterspring", 9828, 0.680, 0.739, criterion=27754, note="from Frozen Supplies"} -- Mountains
@@ -6422,33 +4622,6 @@ A{"Zangarmarsh", 1312, criterion=4505} -- Bog Lurker
 A{"Zangarmarsh", 1312, criterion=4516} -- Marticar
 A{"Zangarmarsh", 1312, criterion=4507} -- Coilfang Emissary
 
--- Pet Battles/Battle: Local Pet Mauler
-A{"Zangarmarsh", 6558, criterion=21572} -- Zangarmarsh
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"Zangarmarsh", 6559, criterion=21572} -- Zangarmarsh
-
--- Pet Battles/Battle: World Pet Mauler
-A{"Zangarmarsh", 6560, criterion=21572} -- Zangarmarsh
-
--- Pet Battles/Collect: Outland Safari
-A{"Zangarmarsh", 6587, criterion=21766, note="zone exclusive"} -- Sporeling Sprout
-
--- Pet Battles: Taming Outland
-A{"Zangarmarsh", 6604, 0.170, 0.500, criterion=21605} -- Ras'an
-
--- Pet Battles/Collect: Outland Tamer
-A{"Zangarmarsh", 6614, criterion=21476} -- Zangarmarsh
-
--- Pet Battles: The Longest Day
-A{"Zangarmarsh", 8348, 0.170, 0.500, criterion=23469} -- Ras'an
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"Zangarmarsh", 9069, 0.172, 0.504, criterion=26997} -- Ras'an
-
--- Pet Battles/Collect: So. Many. Pets.
-A{"ZulAman", 9643, criterion=19598, item="24480", note="use Amani Hex Stick for chance of Mojo"} -- Mojo
-
 -- Quests/Northrend: The Empire of Zul'Drak
 A{"ZulDrak", 36, criterion=77} -- Complete 100 Zul'Drak Quests
 
@@ -6473,45 +4646,3 @@ A{"ZulDrak", 2257, 0.430, 0.720, criterion=8115, note="or thereabouts"} -- Zul'd
 
 -- Quests: The First Rule of Ring of Blood is You Don't Talk About Ring of Blood
 A{"ZulDrak", 4958, 0.484, 0.562, criterion=5799} -- Amphitheater of Anguish in Zul'Drak
-
--- Pet Battles/Battle: Local Pet Mauler
-A{"ZulDrak", 6558, criterion=21583} -- Zul'Drak
-
--- Pet Battles/Battle: Traveling Pet Mauler
-A{"ZulDrak", 6559, criterion=21583} -- Zul'Drak
-
--- Pet Battles/Battle: World Pet Mauler
-A{"ZulDrak", 6560, criterion=21583} -- Zul'Drak
-
--- Pet Battles/Collect: Northrend Safari
-A{"ZulDrak", 6588, criterion=21780, note="zone exclusive"} -- Water Waveling
-
--- Pet Battles: Taming Northrend
-A{"ZulDrak", 6605, 0.130, 0.670, criterion=21851} -- Gutretch
-
--- Pet Battles/Collect: Northrend Tamer
-A{"ZulDrak", 6615, criterion=21485} -- Zul'Drak
-
--- Pet Battles: The Longest Day
-A{"ZulDrak", 8348, 0.130, 0.670, criterion=23478} -- Gutretch
-
--- Pet Battles/Battle: An Awfully Big Adventure
-A{"ZulDrak", 9069, 0.132, 0.668, criterion=26984} -- Gutretch
-
--- Legacy: Zul'Gurub
-A{"ZulGurub", 688}
-
--- Feats of Strength: Swift Zulian Tiger
-A{"ZulGurub", 880}
-
--- Feats of Strength: Swift Razzashi Raptor
-A{"ZulGurub", 881}
-
--- Garrisons: Ten Hit Tunes
-A{"ZulGurub", 9897, criterion=27773, note="drop from Jin'do the Godbreaker"} -- Zul'Gurub Voo Doo
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"ZulGurub", 9914, criterion=27773, note="drop from Jin'do the Godbreaker"} -- Zul'Gurub Voo Doo
-
--- Garrisons: Full Discography
-A{"ZulGurub", 10016, criterion=27773, note="drop from Jin'do the Godbreaker"} -- Zul'Gurub Voo Doo
