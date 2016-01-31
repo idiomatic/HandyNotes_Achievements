@@ -153,12 +153,12 @@ A{"BlackTemple", 958}
 A{"BlackTemple", 1286, 0.526, 0.602, criterion=4021, floor=8} -- The Black Temple
 
 -- Pet Battles/Collect: Raiding with Leashes III: Drinkin' From the Sunwell
-A{"BlackTemple", 9824, criterion=27571, note="from Reliquary of the Lost"} -- Fragment of Suffering
-A{"BlackTemple", 9824, criterion=27572, note="from Reliquary of the Lost"} -- Fragment of Desire
+A{"BlackTemple", 9824, 0.620, 0.870, criterion=27571, floor=4, note="from Reliquary of the Lost"} -- Fragment of Suffering
+A{"BlackTemple", 9824, 0.620, 0.870, criterion=27572, floor=4, note="from Reliquary of the Lost"} -- Fragment of Desire
 A{"BlackTemple", 9824, 0.658, 0.370, criterion=27573, floor=6, note="from Mother Shahraz"} -- Sister of Temptation
 A{"BlackTemple", 9824, 0.430, 0.190, criterion=27568, floor=2, note="from High Warlord Naj'entus"} -- Leviathan Hatchling
 A{"BlackTemple", 9824, 0.640, 0.474, criterion=27569, floor=1, note="from Supremus"} -- Abyssius
-A{"BlackTemple", 9824, criterion=27570, note="from Reliquary of the Lost"} -- Fragment of Anger
+A{"BlackTemple", 9824, 0.620, 0.870, criterion=27570, floor=4, note="from Reliquary of the Lost"} -- Fragment of Anger
 
 -- Garrisons: Ten Hit Tunes
 A{"BlackTemple", 9828, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage"} -- The Burning Legion
@@ -632,44 +632,40 @@ A{"GruulsLair", 692, 0.210, 0.290}
 A{"GruulsLair", 1286, 0.210, 0.290, criterion=4016} -- Gruul's Lair
 
 -- Dungeons & Raids/Lich King Dungeon: Gundrak
-A{"Gundrak", 484, 0.465, 0.655, criterion=5450, floor=2} -- Drakkari Colossus
-A{"Gundrak", 484, 0.465, 0.270, criterion=5451, floor=2} -- Gal'darah
-A{"Gundrak", 484, 0.539, 0.485, criterion=5448, floor=2} -- Slad'ran
-A{"Gundrak", 484, 0.393, 0.489, criterion=5449, floor=2} -- Moorabi
+A{"Gundrak", 484, 0.465, 0.655, criterion=5450} -- Drakkari Colossus
+A{"Gundrak", 484, 0.465, 0.270, criterion=5451} -- Gal'darah
+A{"Gundrak", 484, 0.539, 0.485, criterion=5448} -- Slad'ran
+A{"Gundrak", 484, 0.393, 0.489, criterion=5449} -- Moorabi
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: Gundrak
-A{"Gundrak", 495, 0.539, 0.485, criterion=6839, floor=2} -- Slad'ran
-A{"Gundrak", 495, 0.251, 0.704, criterion=5053, floor=2} -- Eck the Ferocious
-A{"Gundrak", 495, 0.465, 0.655, criterion=6841, floor=2} -- Drakkari Colossus
-A{"Gundrak", 495, 0.465, 0.270, criterion=5614, floor=2} -- Gal'darah
-A{"Gundrak", 495, 0.393, 0.489, criterion=6840, floor=2} -- Moorabi
+A{"Gundrak", 495, 0.539, 0.485, criterion=6839} -- Slad'ran
+A{"Gundrak", 495, 0.251, 0.704, criterion=5053} -- Eck the Ferocious
+A{"Gundrak", 495, 0.465, 0.655, criterion=6841} -- Drakkari Colossus
+A{"Gundrak", 495, 0.465, 0.270, criterion=5614} -- Gal'darah
+A{"Gundrak", 495, 0.393, 0.489, criterion=6840} -- Moorabi
 
 -- Dungeons & Raids: Northrend Dungeonmaster
-A{"Gundrak", 1288, 0.465, 0.270, criterion=4047, floor=2} -- Gundrak
+A{"Gundrak", 1288, 0.465, 0.270, criterion=4047} -- Gundrak
 
 -- Dungeons & Raids: Northrend Dungeon Hero
-A{"Gundrak", 1289, 0.465, 0.270, criterion=4063, floor=2} -- Heroic Gundrak
+A{"Gundrak", 1289, 0.465, 0.270, criterion=4063} -- Heroic Gundrak
 
 -- Dungeons & Raids: Champion of the Frozen Wastes
-A{"Gundrak", 1658, 0.465, 0.270, criterion=5614, floor=2} -- Heroic: Gal'darah
+A{"Gundrak", 1658, 0.465, 0.270, criterion=5614} -- Heroic: Gal'darah
 
 -- Dungeons & Raids/Lich King Dungeon: What the Eck?
-A{"Gundrak", 1864, 0.465, 0.270, floor=2}
+A{"Gundrak", 1864, 0.465, 0.270}
 
 -- Dungeons & Raids/Lich King Dungeon: Less-rabi
-A{"Gundrak", 2040, 0.393, 0.489, floor=2}
+A{"Gundrak", 2040, 0.393, 0.489}
 
 -- Dungeons & Raids/Lich King Dungeon: Snakes. Why'd It Have To Be Snakes?
-A{"Gundrak", 2058, 0.539, 0.485, floor=2}
+A{"Gundrak", 2058, 0.539, 0.485}
 
 -- Dungeons & Raids: Glory of the Hero
-A{"Gundrak", 2136, 0.539, 0.485, criterion=7514, floor=2} -- Snakes. Why'd It Have To Be Snakes?
-A{"Gundrak", 2136, 0.465, 0.270, criterion=7512, floor=2} -- What the Eck?
-A{"Gundrak", 2136, 0.465, 0.270, criterion=7584, floor=2} -- Share The Love
-A{"Gundrak", 2136, 0.393, 0.489, criterion=7513, floor=2} -- Less-rabi
-
--- Dungeons & Raids/Lich King Dungeon: Share The Love
-A{"Gundrak", 2152, 0.465, 0.270, floor=2}
+A{"Gundrak", 2136, 0.539, 0.485, criterion=7514} -- Snakes. Why'd It Have To Be Snakes?
+A{"Gundrak", 2136, 0.465, 0.270, criterion=7512} -- What the Eck?
+A{"Gundrak", 2136, 0.393, 0.489, criterion=7513} -- Less-rabi
 
 -- Dungeons & Raids/Lich King Dungeon: Halls of Lightning
 A{"HallsofLightning", 486, 0.440, 0.380, criterion=5455, floor=1} -- General Bjarngrim
@@ -779,86 +775,86 @@ A{"HourofTwilight", 6119, 0.500, 0.500, floor=2, note="in Wyrmrest Temple"}
 A{"HourofTwilight", 6132, 0.500, 0.500, criterion=18669, floor=2, note="in Wyrmrest Temple"} -- Twilight Spark
 
 -- Dungeons & Raids/Lich King Raid: The Frostwing Halls (10 player)
-A{"IcecrownCitadel", 4527, criterion=12758} -- Sindragosa
-A{"IcecrownCitadel", 4527, criterion=12757} -- Rescue Valithria Dreamwalker
+A{"IcecrownCitadel", 4527, 0.366, 0.234, criterion=12758, floor=4} -- Sindragosa
+A{"IcecrownCitadel", 4527, 0.766, 0.737, criterion=12757, floor=5} -- Rescue Valithria Dreamwalker
 
 -- Dungeons & Raids/Lich King Raid: The Plagueworks (10 player)
-A{"IcecrownCitadel", 4528, criterion=12759} -- Festergut
-A{"IcecrownCitadel", 4528, criterion=12760} -- Rotface
-A{"IcecrownCitadel", 4528, criterion=12761} -- Professor Putricide
+A{"IcecrownCitadel", 4528, 0.200, 0.660, criterion=12759, floor=5} -- Festergut
+A{"IcecrownCitadel", 4528, 0.200, 0.420, criterion=12760, floor=5} -- Rotface
+A{"IcecrownCitadel", 4528, 0.130, 0.540, criterion=12761, floor=5} -- Professor Putricide
 
 -- Dungeons & Raids/Lich King Raid: The Crimson Hall (10 player)
-A{"IcecrownCitadel", 4529, criterion=12763} -- Defeat Blood-Queen Lana'thel
-A{"IcecrownCitadel", 4529, criterion=12762} -- Defeat the Blood Prince Council
+A{"IcecrownCitadel", 4529, 0.511, 0.438, criterion=12763, floor=6} -- Defeat Blood-Queen Lana'thel
+A{"IcecrownCitadel", 4529, 0.518, 0.145, criterion=12762, floor=5} -- Defeat the Blood Prince Council
 
 -- Dungeons & Raids/Lich King Raid: The Frozen Throne (10 player)
-A{"IcecrownCitadel", 4530, criterion=12764} -- The Lich King
+A{"IcecrownCitadel", 4530, 0.498, 0.528, criterion=12764, floor=8} -- The Lich King
 
 -- Dungeons & Raids/Lich King Raid: Storming the Citadel (10 player)
-A{"IcecrownCitadel", 4531, criterion=12772} -- The Deathbringer
-A{"IcecrownCitadel", 4531, criterion=12771} -- Claim victory in the Gunship Battle
-A{"IcecrownCitadel", 4531, criterion=12770} -- Lord Marrowgar
-A{"IcecrownCitadel", 4531, criterion=12773} -- Lady Deathwhisper
+A{"IcecrownCitadel", 4531, 0.514, 0.217, criterion=12772, floor=3} -- The Deathbringer
+A{"IcecrownCitadel", 4531, 0.218, 0.559, criterion=12771, floor=2} -- Claim victory in the Gunship Battle
+A{"IcecrownCitadel", 4531, 0.390, 0.590, criterion=12770, floor=1} -- Lord Marrowgar
+A{"IcecrownCitadel", 4531, 0.391, 0.867, criterion=12773, floor=1} -- Lady Deathwhisper
 
 -- Dungeons & Raids/Lich King Raid: Fall of the Lich King (10 player)
 A{"IcecrownCitadel", 4532, criterion=12767} -- The Plagueworks
 A{"IcecrownCitadel", 4532, criterion=12765} -- Storming the Citadel
 A{"IcecrownCitadel", 4532, criterion=12766} -- The Frostwing Halls
 A{"IcecrownCitadel", 4532, criterion=12768} -- The Crimson Hall
-A{"IcecrownCitadel", 4532, criterion=12769} -- The Frozen Throne
+A{"IcecrownCitadel", 4532, 0.498, 0.528, criterion=12769, floor=8} -- The Frozen Throne
 
 -- Dungeons & Raids/Lich King Raid: Boned (10 player)
 A{"IcecrownCitadel", 4534, 0.390, 0.590, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Full House (10 player)
-A{"IcecrownCitadel", 4535}
+A{"IcecrownCitadel", 4535, 0.391, 0.867, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: I'm on a Boat (10 player)
-A{"IcecrownCitadel", 4536}
+A{"IcecrownCitadel", 4536, 0.218, 0.559, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: I've Gone and Made a Mess (10 player)
-A{"IcecrownCitadel", 4537}
+A{"IcecrownCitadel", 4537, 0.514, 0.217, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Dances with Oozes (10 player)
-A{"IcecrownCitadel", 4538}
+A{"IcecrownCitadel", 4538, 0.200, 0.420, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Once Bitten, Twice Shy (10 player)
-A{"IcecrownCitadel", 4539, criterion=12780} -- Defeat Blood-Queen Lana'thel without becoming a vampire
-A{"IcecrownCitadel", 4539, criterion=13011} -- Defeat Blood-Queen Lana'thel while a vampire
+A{"IcecrownCitadel", 4539, 0.511, 0.438, criterion=12780, floor=6} -- Defeat Blood-Queen Lana'thel without becoming a vampire
+A{"IcecrownCitadel", 4539, 0.511, 0.438, criterion=13011, floor=6} -- Defeat Blood-Queen Lana'thel while a vampire
 
 -- Dungeons & Raids/Lich King Raid: Flu Shot Shortage (10 player)
-A{"IcecrownCitadel", 4577, 0.200, 0.650, floor=5}
+A{"IcecrownCitadel", 4577, 0.200, 0.660, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Nausea, Heartburn, Indigestion... (10 player)
 A{"IcecrownCitadel", 4578, 0.130, 0.540, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Portal Jockey (10 player)
-A{"IcecrownCitadel", 4579, 0.760, 0.730, floor=5}
+A{"IcecrownCitadel", 4579, 0.766, 0.737, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: All You Can Eat (10 player)
-A{"IcecrownCitadel", 4580, 0.360, 0.230, floor=4}
+A{"IcecrownCitadel", 4580, 0.366, 0.234, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Neck-Deep in Vile (10 player)
-A{"IcecrownCitadel", 4581}
+A{"IcecrownCitadel", 4581, 0.498, 0.528, floor=8}
 
 -- Dungeons & Raids/Lich King Raid: The Orb Whisperer (10 player)
 A{"IcecrownCitadel", 4582, 0.520, 0.160, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Bane of the Fallen King
-A{"IcecrownCitadel", 4583, criterion=13137} -- The Lich King
+A{"IcecrownCitadel", 4583, 0.498, 0.528, criterion=13137, floor=8} -- The Lich King
 
 -- Dungeons & Raids/Lich King Raid: The Light of Dawn
-A{"IcecrownCitadel", 4584, criterion=13138} -- The Lich King
+A{"IcecrownCitadel", 4584, 0.498, 0.528, criterion=13138, floor=8} -- The Lich King
 
 -- Dungeons & Raids/Lich King Raid: The Frozen Throne (25 player)
-A{"IcecrownCitadel", 4597, criterion=12909} -- The Lich King
+A{"IcecrownCitadel", 4597, 0.498, 0.528, criterion=12909, floor=8} -- The Lich King
 
 -- Dungeons & Raids/Lich King Raid: Been Waiting a Long Time for This (10 player)
-A{"IcecrownCitadel", 4601}
+A{"IcecrownCitadel", 4601, 0.498, 0.528, floor=8, note="soloable with Manual of Void-Calling"}
 
 -- Dungeons & Raids: Glory of the Icecrown Raider (10 player)
 A{"IcecrownCitadel", 4602, 0.130, 0.540, criterion=12923, floor=5} -- Nausea, Heartburn, Indigestion...
-A{"IcecrownCitadel", 4602, criterion=12919} -- I'm on a Boat
+A{"IcecrownCitadel", 4602, 0.218, 0.559, criterion=12919, floor=2} -- I'm on a Boat
 A{"IcecrownCitadel", 4602, 0.200, 0.420, criterion=12921, floor=5} -- Dances with Oozes
 A{"IcecrownCitadel", 4602, 0.200, 0.650, criterion=12922, floor=5} -- Flu Shot Shortage
 A{"IcecrownCitadel", 4602, 0.520, 0.160, criterion=12924, floor=5} -- The Orb Whisperer
@@ -877,7 +873,7 @@ A{"IcecrownCitadel", 4602, criterion=12920} -- I've Gone and Made a Mess
 -- Dungeons & Raids: Glory of the Icecrown Raider (25 player)
 A{"IcecrownCitadel", 4603, criterion=13016} -- Boned
 A{"IcecrownCitadel", 4603, criterion=13017} -- Full House
-A{"IcecrownCitadel", 4603, criterion=13018} -- I'm on a Boat
+A{"IcecrownCitadel", 4603, 0.218, 0.559, criterion=13018, floor=2} -- I'm on a Boat
 A{"IcecrownCitadel", 4603, criterion=13019} -- I've Gone and Made a Mess
 A{"IcecrownCitadel", 4603, 0.200, 0.420, criterion=13020, floor=5} -- Dances with Oozes
 A{"IcecrownCitadel", 4603, 0.200, 0.650, criterion=13021, floor=5} -- Flu Shot Shortage
@@ -889,32 +885,32 @@ A{"IcecrownCitadel", 4603, criterion=13024} -- Once Bitten, Twice Shy
 A{"IcecrownCitadel", 4603, criterion=13076} -- Heroic: The Plagueworks (25 player)
 A{"IcecrownCitadel", 4603, criterion=13078} -- Heroic: The Frostwing Halls (25 player)
 A{"IcecrownCitadel", 4603, criterion=13027} -- Been Waiting a Long Time for This
-A{"IcecrownCitadel", 4603, criterion=13028} -- Neck-Deep in Vile
+A{"IcecrownCitadel", 4603, 0.498, 0.528, criterion=13028, floor=8} -- Neck-Deep in Vile
 A{"IcecrownCitadel", 4603, criterion=13075} -- Heroic: Storming the Citadel (25 player)
 A{"IcecrownCitadel", 4603, criterion=13077} -- Heroic: The Crimson Hall (25 player)
 
 -- Dungeons & Raids/Lich King Raid: Storming the Citadel (25 player)
-A{"IcecrownCitadel", 4604, criterion=12945} -- Lord Marrowgar
-A{"IcecrownCitadel", 4604, criterion=12946} -- The Deathbringer
-A{"IcecrownCitadel", 4604, criterion=12947} -- Claim victory in the Gunship Battle
-A{"IcecrownCitadel", 4604, criterion=12948} -- Lady Deathwhisper
+A{"IcecrownCitadel", 4604, 0.390, 0.590, criterion=12945, floor=1} -- Lord Marrowgar
+A{"IcecrownCitadel", 4604, 0.514, 0.217, criterion=12946, floor=3} -- The Deathbringer
+A{"IcecrownCitadel", 4604, 0.218, 0.559, criterion=12947, floor=2} -- Claim victory in the Gunship Battle
+A{"IcecrownCitadel", 4604, 0.391, 0.867, criterion=12948, floor=1} -- Lady Deathwhisper
 
 -- Dungeons & Raids/Lich King Raid: The Plagueworks (25 player)
-A{"IcecrownCitadel", 4605, criterion=12949} -- Festergut
-A{"IcecrownCitadel", 4605, criterion=12950} -- Rotface
-A{"IcecrownCitadel", 4605, criterion=12951} -- Professor Putricide
+A{"IcecrownCitadel", 4605, 0.200, 0.660, criterion=12949, floor=5} -- Festergut
+A{"IcecrownCitadel", 4605, 0.200, 0.420, criterion=12950, floor=5} -- Rotface
+A{"IcecrownCitadel", 4605, 0.130, 0.540, criterion=12951, floor=5} -- Professor Putricide
 
 -- Dungeons & Raids/Lich King Raid: The Crimson Hall (25 player)
-A{"IcecrownCitadel", 4606, criterion=12952} -- Defeat the Blood Prince Council
-A{"IcecrownCitadel", 4606, criterion=12953} -- Defeat Blood-Queen Lana'thel
+A{"IcecrownCitadel", 4606, 0.518, 0.145, criterion=12952, floor=5} -- Defeat the Blood Prince Council
+A{"IcecrownCitadel", 4606, 0.511, 0.438, criterion=12953, floor=6} -- Defeat Blood-Queen Lana'thel
 
 -- Dungeons & Raids/Lich King Raid: The Frostwing Halls (25 player)
-A{"IcecrownCitadel", 4607, criterion=12954} -- Rescue Valithria Dreamwalker
-A{"IcecrownCitadel", 4607, criterion=12955} -- Sindragosa
+A{"IcecrownCitadel", 4607, 0.766, 0.737, criterion=12954, floor=5} -- Rescue Valithria Dreamwalker
+A{"IcecrownCitadel", 4607, 0.366, 0.234, criterion=12955, floor=4} -- Sindragosa
 
 -- Dungeons & Raids/Lich King Raid: Fall of the Lich King (25 player)
 A{"IcecrownCitadel", 4608, criterion=12956} -- Storming the Citadel
-A{"IcecrownCitadel", 4608, criterion=12957} -- The Frozen Throne
+A{"IcecrownCitadel", 4608, 0.498, 0.528, criterion=12957, floor=8} -- The Frozen Throne
 A{"IcecrownCitadel", 4608, criterion=12958} -- The Frostwing Halls
 A{"IcecrownCitadel", 4608, criterion=12959} -- The Plagueworks
 A{"IcecrownCitadel", 4608, criterion=12960} -- The Crimson Hall
@@ -923,19 +919,19 @@ A{"IcecrownCitadel", 4608, criterion=12960} -- The Crimson Hall
 A{"IcecrownCitadel", 4610, 0.390, 0.590, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Full House (25 player)
-A{"IcecrownCitadel", 4611, 0.390, 0.590, floor=1}
+A{"IcecrownCitadel", 4611, 0.391, 0.867, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: I'm on a Boat (25 player)
-A{"IcecrownCitadel", 4612}
+A{"IcecrownCitadel", 4612, 0.218, 0.559, floor=2}
 
 -- Dungeons & Raids/Lich King Raid: I've Gone and Made a Mess (25 player)
-A{"IcecrownCitadel", 4613}
+A{"IcecrownCitadel", 4613, 0.514, 0.217, floor=3}
 
 -- Dungeons & Raids/Lich King Raid: Dances with Oozes (25 player)
 A{"IcecrownCitadel", 4614, 0.200, 0.420, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Flu Shot Shortage (25 player)
-A{"IcecrownCitadel", 4615, 0.200, 0.650, floor=5}
+A{"IcecrownCitadel", 4615, 0.200, 0.660, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Nausea, Heartburn, Indigestion... (25 player)
 A{"IcecrownCitadel", 4616, 0.130, 0.540, floor=5}
@@ -944,61 +940,61 @@ A{"IcecrownCitadel", 4616, 0.130, 0.540, floor=5}
 A{"IcecrownCitadel", 4617, 0.520, 0.160, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: Once Bitten, Twice Shy (25 player)
-A{"IcecrownCitadel", 4618, criterion=13012} -- Defeat Blood-Queen Lana'thel without becoming a vampire
-A{"IcecrownCitadel", 4618, criterion=13013} -- Defeat Blood-Queen Lana'thel while a vampire
+A{"IcecrownCitadel", 4618, 0.511, 0.438, criterion=13012, floor=6} -- Defeat Blood-Queen Lana'thel without becoming a vampire
+A{"IcecrownCitadel", 4618, 0.511, 0.438, criterion=13013, floor=6} -- Defeat Blood-Queen Lana'thel while a vampire
 
 -- Dungeons & Raids/Lich King Raid: Portal Jockey (25 player)
-A{"IcecrownCitadel", 4619, 0.760, 0.730, floor=5}
+A{"IcecrownCitadel", 4619, 0.766, 0.737, floor=5}
 
 -- Dungeons & Raids/Lich King Raid: All You Can Eat (25 player)
-A{"IcecrownCitadel", 4620, 0.360, 0.230, floor=4}
+A{"IcecrownCitadel", 4620, 0.366, 0.234, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Been Waiting a Long Time for This (25 player)
-A{"IcecrownCitadel", 4621}
+A{"IcecrownCitadel", 4621, 0.498, 0.528, floor=8}
 
 -- Dungeons & Raids/Lich King Raid: Neck-Deep in Vile (25 player)
-A{"IcecrownCitadel", 4622}
+A{"IcecrownCitadel", 4622, 0.498, 0.528, floor=8}
 
 -- Feats of Strength: Invincible's Reins
 A{"IcecrownCitadel", 4625}
 
 -- Dungeons & Raids/Lich King Raid: Heroic: Storming the Citadel (10 player)
-A{"IcecrownCitadel", 4628, criterion=13090} -- Lord Marrowgar
-A{"IcecrownCitadel", 4628, criterion=13104} -- Lady Deathwhisper
-A{"IcecrownCitadel", 4628, criterion=13110} -- Claim victory in the Gunship Battle
-A{"IcecrownCitadel", 4628, criterion=13113} -- The Deathbringer
+A{"IcecrownCitadel", 4628, 0.390, 0.590, criterion=13090, floor=1} -- Lord Marrowgar
+A{"IcecrownCitadel", 4628, 0.391, 0.867, criterion=13104, floor=1} -- Lady Deathwhisper
+A{"IcecrownCitadel", 4628, 0.218, 0.559, criterion=13110, floor=2} -- Claim victory in the Gunship Battle
+A{"IcecrownCitadel", 4628, 0.514, 0.217, criterion=13113, floor=3} -- The Deathbringer
 
 -- Dungeons & Raids/Lich King Raid: Heroic: The Plagueworks (10 player)
-A{"IcecrownCitadel", 4629, criterion=13116} -- Festergut
-A{"IcecrownCitadel", 4629, criterion=13119} -- Rotface
-A{"IcecrownCitadel", 4629, criterion=13128} -- Professor Putricide
+A{"IcecrownCitadel", 4629, 0.200, 0.660, criterion=13116, floor=5} -- Festergut
+A{"IcecrownCitadel", 4629, 0.200, 0.420, criterion=13119, floor=5} -- Rotface
+A{"IcecrownCitadel", 4629, 0.130, 0.540, criterion=13128, floor=5} -- Professor Putricide
 
 -- Dungeons & Raids/Lich King Raid: Heroic: The Crimson Hall (10 player)
-A{"IcecrownCitadel", 4630, criterion=13122} -- Defeat the Blood Prince Council
-A{"IcecrownCitadel", 4630, criterion=13131} -- Defeat Blood-Queen Lana'thel
+A{"IcecrownCitadel", 4630, 0.518, 0.145, criterion=13122, floor=5} -- Defeat the Blood Prince Council
+A{"IcecrownCitadel", 4630, 0.511, 0.438, criterion=13131, floor=6} -- Defeat Blood-Queen Lana'thel
 
 -- Dungeons & Raids/Lich King Raid: Heroic: The Frostwing Halls (10 player)
-A{"IcecrownCitadel", 4631, criterion=13134} -- Sindragosa
-A{"IcecrownCitadel", 4631, criterion=13125} -- Rescue Valithria Dreamwalker
+A{"IcecrownCitadel", 4631, 0.366, 0.234, criterion=13134, floor=4} -- Sindragosa
+A{"IcecrownCitadel", 4631, 0.766, 0.737, criterion=13125, floor=5} -- Rescue Valithria Dreamwalker
 
 -- Dungeons & Raids/Lich King Raid: Heroic: Storming the Citadel (25 player)
-A{"IcecrownCitadel", 4632, criterion=13106} -- Lady Deathwhisper
-A{"IcecrownCitadel", 4632, criterion=13114} -- The Deathbringer
-A{"IcecrownCitadel", 4632, criterion=13111} -- Claim victory in the Gunship Battle
-A{"IcecrownCitadel", 4632, criterion=13091} -- Lord Marrowgar
+A{"IcecrownCitadel", 4632, 0.391, 0.867, criterion=13106, floor=1} -- Lady Deathwhisper
+A{"IcecrownCitadel", 4632, 0.514, 0.217, criterion=13114, floor=3} -- The Deathbringer
+A{"IcecrownCitadel", 4632, 0.218, 0.559, criterion=13111, floor=2} -- Claim victory in the Gunship Battle
+A{"IcecrownCitadel", 4632, 0.390, 0.590, criterion=13091, floor=1} -- Lord Marrowgar
 
 -- Dungeons & Raids/Lich King Raid: Heroic: The Plagueworks (25 player)
-A{"IcecrownCitadel", 4633, criterion=13117} -- Festergut
-A{"IcecrownCitadel", 4633, criterion=13120} -- Rotface
-A{"IcecrownCitadel", 4633, criterion=13129} -- Professor Putricide
+A{"IcecrownCitadel", 4633, 0.200, 0.660, criterion=13117, floor=5} -- Festergut
+A{"IcecrownCitadel", 4633, 0.200, 0.420, criterion=13120, floor=5} -- Rotface
+A{"IcecrownCitadel", 4633, 0.130, 0.540, criterion=13129, floor=5} -- Professor Putricide
 
 -- Dungeons & Raids/Lich King Raid: Heroic: The Crimson Hall (25 player)
-A{"IcecrownCitadel", 4634, criterion=13132} -- Defeat Blood-Queen Lana'thel
-A{"IcecrownCitadel", 4634, criterion=13123} -- Defeat the Blood Prince Council
+A{"IcecrownCitadel", 4634, 0.511, 0.438, criterion=13132, floor=6} -- Defeat Blood-Queen Lana'thel
+A{"IcecrownCitadel", 4634, 0.518, 0.145, criterion=13123, floor=5} -- Defeat the Blood Prince Council
 
 -- Dungeons & Raids/Lich King Raid: Heroic: The Frostwing Halls (25 player)
-A{"IcecrownCitadel", 4635, criterion=13135} -- Sindragosa
-A{"IcecrownCitadel", 4635, criterion=13126} -- Rescue Valithria Dreamwalker
+A{"IcecrownCitadel", 4635, 0.366, 0.234, criterion=13135, floor=4} -- Sindragosa
+A{"IcecrownCitadel", 4635, 0.766, 0.737, criterion=13126, floor=5} -- Rescue Valithria Dreamwalker
 
 -- Dungeons & Raids/Lich King Raid: Heroic: Fall of the Lich King (10 player)
 A{"IcecrownCitadel", 4636, criterion=13074} -- The Frostwing Halls
@@ -1015,22 +1011,22 @@ A{"IcecrownCitadel", 4637, 0.500, 0.500, criterion=13070, floor=7} -- The Light 
 A{"IcecrownCitadel", 4637, criterion=13075} -- Storming the Citadel
 
 -- Garrisons: Ten Hit Tunes
-A{"IcecrownCitadel", 9828, criterion=27757, note="drop from The Lich King"} -- Invincible
+A{"IcecrownCitadel", 9828, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King"} -- Invincible
 
 -- Garrisons: Ten Hit Tunes
-A{"IcecrownCitadel", 9897, criterion=27757, note="drop from The Lich King"} -- Invincible
+A{"IcecrownCitadel", 9897, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King"} -- Invincible
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"IcecrownCitadel", 9912, criterion=27757, note="drop from The Lich King"} -- Invincible
+A{"IcecrownCitadel", 9912, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King"} -- Invincible
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"IcecrownCitadel", 9914, criterion=27757, note="drop from The Lich King"} -- Invincible
+A{"IcecrownCitadel", 9914, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King"} -- Invincible
 
 -- Garrisons: Full Discography
-A{"IcecrownCitadel", 10015, criterion=27757, note="drop from The Lich King"} -- Invincible
+A{"IcecrownCitadel", 10015, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King"} -- Invincible
 
 -- Garrisons: Full Discography
-A{"IcecrownCitadel", 10016, criterion=27757, note="drop from The Lich King"} -- Invincible
+A{"IcecrownCitadel", 10016, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King"} -- Invincible
 
 -- Dungeons & Raids/The Burning Crusade: Karazhan
 A{"Karazhan", 690, 0.544, 0.362, floor=17}
@@ -1682,76 +1678,115 @@ A{"TheArcatraz", 1284, 0.616, 0.307, criterion=3978, floor=3} -- The Arcatraz
 -- Dungeons & Raids: Outland Dungeon Hero
 A{"TheArcatraz", 1287, 0.616, 0.307, criterion=4037, floor=3} -- Heroic The Arcatraz
 
+-- Dungeons & Raids/Lich King Dungeon: Trial of the Champion
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=13314, floor=1, note="5-man"} -- The Black Knight
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=13313, floor=1, note="5-man"} -- Eadric the Pure
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=12298, floor=1, note="5-man"} -- Lana Stouthammer
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=12299, floor=1, note="5-man"} -- Colosos
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=12300, floor=1, note="5-man"} -- Ambrose Boltspark
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=12301, floor=1, note="5-man"} -- Jaelyne Evensong
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=11420, floor=1, note="5-man"} -- Marshal Jacob Alerius
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=13312, floor=1, note="5-man"} -- Argent Confessor Paletress
+
 -- Dungeons & Raids/Lich King Raid: Upper Back Pain (10 player)
-A{"TheArgentColiseum", 3797}
+A{"TheArgentColiseum", 3797, 0.520, 0.530, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Resilience Will Fix It (10 player)
-A{"TheArgentColiseum", 3798}
+A{"TheArgentColiseum", 3798, 0.520, 0.530, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Salt and Pepper (10 player)
-A{"TheArgentColiseum", 3799}
+A{"TheArgentColiseum", 3799, 0.520, 0.530, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: The Traitor King (10 player)
-A{"TheArgentColiseum", 3800, criterion=12116} -- Swarm Scarabs Slain
+A{"TheArgentColiseum", 3800, 0.530, 0.320, criterion=12116, floor=2} -- Swarm Scarabs Slain
+
+-- Dungeons & Raids/Lich King Dungeon: Argent Confessor
+A{"TheArgentColiseum", 3802, 0.520, 0.530, floor=1, note="5-man"}
+
+-- Dungeons & Raids/Lich King Dungeon: The Faceroller
+A{"TheArgentColiseum", 3803, 0.520, 0.530, floor=1, note="5-man"}
+
+-- Dungeons & Raids/Lich King Dungeon: I've Had Worse
+A{"TheArgentColiseum", 3804, 0.520, 0.530, floor=1, note="5-man"}
 
 -- Dungeons & Raids/Lich King Raid: Call of the Grand Crusade (25 player)
-A{"TheArgentColiseum", 3812, criterion=12239} -- Defeat the Faction Champions
-A{"TheArgentColiseum", 3812, criterion=12247} -- Complete the Trial of the Grand Crusader
-A{"TheArgentColiseum", 3812, criterion=12231} -- Defeat the Beasts of Northrend
-A{"TheArgentColiseum", 3812, criterion=12235} -- Defeat Lord Jaraxxus
-A{"TheArgentColiseum", 3812, criterion=12243} -- Defeat the Twin Val'kyr
+A{"TheArgentColiseum", 3812, 0.520, 0.530, criterion=12239, floor=1} -- Defeat the Faction Champions
+A{"TheArgentColiseum", 3812, 0.530, 0.320, criterion=12247, floor=2} -- Complete the Trial of the Grand Crusader
+A{"TheArgentColiseum", 3812, 0.520, 0.530, criterion=12231, floor=1} -- Defeat the Beasts of Northrend
+A{"TheArgentColiseum", 3812, 0.520, 0.530, criterion=12235, floor=1} -- Defeat Lord Jaraxxus
+A{"TheArgentColiseum", 3812, 0.520, 0.530, criterion=12243, floor=1} -- Defeat the Twin Val'kyr
 
 -- Dungeons & Raids/Lich King Raid: Upper Back Pain (25 player)
-A{"TheArgentColiseum", 3813}
+A{"TheArgentColiseum", 3813, 0.520, 0.530, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Salt and Pepper (25 player)
-A{"TheArgentColiseum", 3815}
+A{"TheArgentColiseum", 3815, 0.520, 0.530, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: The Traitor King (25 player)
-A{"TheArgentColiseum", 3816, criterion=16246} -- Swarm Scarabs Slain
+A{"TheArgentColiseum", 3816, 0.530, 0.320, criterion=16246, floor=2} -- Swarm Scarabs Slain
 
 -- Dungeons & Raids/Lich King Raid: Call of the Crusade (25 player)
-A{"TheArgentColiseum", 3916, criterion=12230} -- Defeat the Beasts of Northrend
-A{"TheArgentColiseum", 3916, criterion=13347} -- Defeat Lord Jaraxxus
-A{"TheArgentColiseum", 3916, criterion=13348} -- Defeat the Faction Champions
-A{"TheArgentColiseum", 3916, criterion=12242} -- Defeat the Twin Val'kyr
-A{"TheArgentColiseum", 3916, criterion=12246} -- Complete the Trial of the Crusader
+A{"TheArgentColiseum", 3916, 0.520, 0.530, criterion=12230, floor=1} -- Defeat the Beasts of Northrend
+A{"TheArgentColiseum", 3916, 0.520, 0.530, criterion=13347, floor=1} -- Defeat Lord Jaraxxus
+A{"TheArgentColiseum", 3916, 0.520, 0.530, criterion=13348, floor=1} -- Defeat the Faction Champions
+A{"TheArgentColiseum", 3916, 0.520, 0.530, criterion=12242, floor=1} -- Defeat the Twin Val'kyr
+A{"TheArgentColiseum", 3916, 0.530, 0.320, criterion=12246, floor=2} -- Complete the Trial of the Crusader
 
 -- Dungeons & Raids/Lich King Raid: Call of the Crusade (10 player)
-A{"TheArgentColiseum", 3917, criterion=13326} -- Defeat the Beasts of Northrend
-A{"TheArgentColiseum", 3917, criterion=13327} -- Defeat Lord Jaraxxus
-A{"TheArgentColiseum", 3917, criterion=12236} -- Defeat the Faction Champions
-A{"TheArgentColiseum", 3917, criterion=12240} -- Defeat the Twin Val'kyr
-A{"TheArgentColiseum", 3917, criterion=12244} -- Complete the Trial of the Crusader
+A{"TheArgentColiseum", 3917, 0.520, 0.530, criterion=13326, floor=1} -- Defeat the Beasts of Northrend
+A{"TheArgentColiseum", 3917, 0.520, 0.530, criterion=13327, floor=1} -- Defeat Lord Jaraxxus
+A{"TheArgentColiseum", 3917, 0.520, 0.530, criterion=12236, floor=1} -- Defeat the Faction Champions
+A{"TheArgentColiseum", 3917, 0.520, 0.530, criterion=12240, floor=1} -- Defeat the Twin Val'kyr
+A{"TheArgentColiseum", 3917, 0.530, 0.320, criterion=12244, floor=2} -- Complete the Trial of the Crusader
 
 -- Dungeons & Raids/Lich King Raid: Call of the Grand Crusade (10 player)
-A{"TheArgentColiseum", 3918, criterion=12229} -- Defeat the Beasts of Northrend
-A{"TheArgentColiseum", 3918, criterion=12233} -- Defeat Lord Jaraxxus
-A{"TheArgentColiseum", 3918, criterion=12237} -- Defeat the Faction Champions
-A{"TheArgentColiseum", 3918, criterion=12241} -- Defeat the Twin Val'kyr
-A{"TheArgentColiseum", 3918, criterion=12245} -- Complete the Trial of the Grand Crusader
+A{"TheArgentColiseum", 3918, 0.520, 0.530, criterion=12229, floor=1} -- Defeat the Beasts of Northrend
+A{"TheArgentColiseum", 3918, 0.520, 0.530, criterion=12233, floor=1} -- Defeat Lord Jaraxxus
+A{"TheArgentColiseum", 3918, 0.520, 0.530, criterion=12237, floor=1} -- Defeat the Faction Champions
+A{"TheArgentColiseum", 3918, 0.520, 0.530, criterion=12241, floor=1} -- Defeat the Twin Val'kyr
+A{"TheArgentColiseum", 3918, 0.530, 0.320, criterion=12245, floor=2} -- Complete the Trial of the Grand Crusader
 
 -- Dungeons & Raids/Lich King Raid: Not One, But Two Jormungars (10 player)
-A{"TheArgentColiseum", 3936}
+A{"TheArgentColiseum", 3936, 0.520, 0.530, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Not One, But Two Jormungars (25 player)
-A{"TheArgentColiseum", 3937}
+A{"TheArgentColiseum", 3937, 0.520, 0.530, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Three Sixty Pain Spike (10 player)
-A{"TheArgentColiseum", 3996}
+A{"TheArgentColiseum", 3996, 0.520, 0.530, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Three Sixty Pain Spike (25 player)
-A{"TheArgentColiseum", 3997}
+A{"TheArgentColiseum", 3997, 0.520, 0.530, floor=1}
 
 -- Dungeons & Raids/Lich King Dungeon: Trial of the Champion
-A{"TheArgentColiseum", 4296, criterion=12299} -- Runok Wildmane
-A{"TheArgentColiseum", 4296, criterion=13314} -- The Black Knight
-A{"TheArgentColiseum", 4296, criterion=12298} -- Deathstalker Visceri
-A{"TheArgentColiseum", 4296, criterion=12300} -- Eressea Dawnsinger
-A{"TheArgentColiseum", 4296, criterion=12301} -- Zul'tore
-A{"TheArgentColiseum", 4296, criterion=11420} -- Mokra the Skullcrusher
-A{"TheArgentColiseum", 4296, criterion=13312} -- Argent Confessor Paletress
-A{"TheArgentColiseum", 4296, criterion=13313} -- Eadric the Pure
+A{"TheArgentColiseum", 4296, criterion=12299, note="5-man"} -- Runok Wildmane
+A{"TheArgentColiseum", 4296, criterion=13314, note="5-man"} -- The Black Knight
+A{"TheArgentColiseum", 4296, criterion=12298, note="5-man"} -- Deathstalker Visceri
+A{"TheArgentColiseum", 4296, criterion=12300, note="5-man"} -- Eressea Dawnsinger
+A{"TheArgentColiseum", 4296, criterion=12301, note="5-man"} -- Zul'tore
+A{"TheArgentColiseum", 4296, criterion=11420, note="5-man"} -- Mokra the Skullcrusher
+A{"TheArgentColiseum", 4296, criterion=13312, note="5-man"} -- Argent Confessor Paletress
+A{"TheArgentColiseum", 4296, criterion=13313, note="5-man"} -- Eadric the Pure
+
+-- Dungeons & Raids/Lich King Dungeon: Heroic: Trial of the Champion
+A{"TheArgentColiseum", 4297, criterion=12539, note="5-man"} -- Marshal Jacob Alerius
+A{"TheArgentColiseum", 4297, criterion=12545, note="5-man"} -- Lana Stouthammer
+A{"TheArgentColiseum", 4297, criterion=12320, note="5-man"} -- Colosos
+A{"TheArgentColiseum", 4297, criterion=12543, note="5-man"} -- Ambrose Boltspark
+A{"TheArgentColiseum", 4297, criterion=12541, note="5-man"} -- Jaelyne Evensong
+A{"TheArgentColiseum", 4297, criterion=12549, note="5-man"} -- Argent Confessor Paletress
+A{"TheArgentColiseum", 4297, criterion=12551, note="5-man"} -- Eadric the Pure
+A{"TheArgentColiseum", 4297, criterion=12553, note="5-man"} -- The Black Knight
+
+-- Dungeons & Raids/Lich King Dungeon: Heroic: Trial of the Champion
+A{"TheArgentColiseum", 4298, criterion=12545, note="5-man"} -- Deathstalker Visceri
+A{"TheArgentColiseum", 4298, criterion=12320, note="5-man"} -- Runok Wildmane
+A{"TheArgentColiseum", 4298, criterion=12543, note="5-man"} -- Eressea Dawnsinger
+A{"TheArgentColiseum", 4298, criterion=12541, note="5-man"} -- Zul'tore
+A{"TheArgentColiseum", 4298, criterion=12549, note="5-man"} -- Argent Confessor Paletress
+A{"TheArgentColiseum", 4298, criterion=12551, note="5-man"} -- Eadric the Pure
+A{"TheArgentColiseum", 4298, criterion=12539, note="5-man"} -- Mokra the Skullcrusher
+A{"TheArgentColiseum", 4298, criterion=12553, note="5-man"} -- The Black Knight
 
 -- Dungeons & Raids/Cataclysm Raid: The Bastion of Twilight
 A{"TheBastionofTwilight", 4850, 0.539, 0.784, criterion=13576, floor=1} -- Valiona and Theralion
@@ -2280,12 +2315,6 @@ A{"Ulduar", 2925, 0.390, 0.280, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Shattered (25 player)
 A{"Ulduar", 2926, 0.390, 0.280, floor=1}
-
--- Dungeons & Raids/Lich King Raid: Hot Pocket (10 player)
-A{"Ulduar", 2927, 0.390, 0.280, floor=1}
-
--- Dungeons & Raids/Lich King Raid: Hot Pocket (25 player)
-A{"Ulduar", 2928, 0.390, 0.280, floor=1}
 
 -- Dungeons & Raids/Lich King Raid: Stokin' the Furnace (25 player)
 A{"Ulduar", 2929, 0.390, 0.280, floor=1}

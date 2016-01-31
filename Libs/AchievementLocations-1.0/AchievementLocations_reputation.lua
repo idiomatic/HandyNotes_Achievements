@@ -12,6 +12,7 @@ A{"CoTHillsbradFoothills", 6742} -- Keepers of Time
 A{"CoTTheBlackMorass", 6742} -- Keepers of Time
 A{"Firelands", 6742} -- Avengers of Hyjal
 A{"HellfireRamparts", 6742} -- Honor Hold
+A{"IcecrownCitadel", 6742} -- The Ashen Verdict
 A{"Karazhan", 6742} -- The Violet Eye
 A{"ManaTombs", 6742} -- The Consortium
 A{"MoltenCore", 6742} -- Hydraxian Waterlords
@@ -25,3 +26,4 @@ A{"TheSlavePens", 6742} -- Cenarion Expedition
 A{"TheSteamvault", 6742} -- Cenarion Expedition
 A{"TheUnderbog", 6742} -- Cenarion Expedition
 A{"TheUnderbog", 6742} -- Sporeggar
+A{"VioletHold", 6742} -- The Frostborn

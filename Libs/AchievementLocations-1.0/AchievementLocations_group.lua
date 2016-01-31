@@ -9,6 +9,12 @@ A{"Firelands", 5799, 0.500, 0.820, floor=3}
 -- Dungeons & Raids: Glory of the Firelands Raider
 A{"Firelands", 5828, 0.500, 0.820, criterion=17582, floor=3} -- Only the Penitent...
 
+-- Dungeons & Raids: Glory of the Hero
+A{"Gundrak", 2136, 0.465, 0.270, criterion=7584} -- Share The Love
+
+-- Dungeons & Raids/Lich King Dungeon: Share The Love
+A{"Gundrak", 2152, 0.465, 0.270}
+
 -- Dungeons & Raids/Pandaria Dungeon: School's Out Forever
 A{"Scholomance", 6821, criterion=19807} -- Kill 50 Expired Test Subjects in 20 seconds
 

@@ -31,7 +31,7 @@ A{"EastTemple", 6920, criterion=19862} -- Temple of the Jade Serpent
 A{"EastTemple", 8430}
 
 -- Feats of Strength: Realm First! Fall of the Lich King
-A{"IcecrownCitadel", 4576}
+A{"IcecrownCitadel", 4576, 0.498, 0.528, floor=8}
 
 -- Legacy: Challenge Conqueror: Bronze
 A{"MogushanPalace", 6374, criterion=19876} -- Mogu'shan Palace
@@ -176,6 +176,36 @@ A{"StormstoutBrewery", 6920, criterion=19863} -- Stormstout Brewery
 
 -- Feats of Strength: Challenge Master: Stormstout Brewery
 A{"StormstoutBrewery", 8431}
+
+-- Legacy: A Tribute to Skill (10 player)
+A{"TheArgentColiseum", 3808}
+
+-- Legacy: A Tribute to Mad Skill (10 player)
+A{"TheArgentColiseum", 3809}
+
+-- Legacy: A Tribute to Insanity (10 player)
+A{"TheArgentColiseum", 3810}
+
+-- Legacy: A Tribute to Skill (25 player)
+A{"TheArgentColiseum", 3817}
+
+-- Legacy: A Tribute to Mad Skill (25 player)
+A{"TheArgentColiseum", 3818}
+
+-- Legacy: A Tribute to Insanity (25 player)
+A{"TheArgentColiseum", 3819}
+
+-- Feats of Strength: Realm First! Grand Crusader
+A{"TheArgentColiseum", 4078, criterion=12350} -- Complete the Trial of the Grand Crusader
+
+-- Feats of Strength: A Tribute to Immortality
+A{"TheArgentColiseum", 4079, criterion=12358} -- Complete the Trial of the Grand Crusader
+
+-- Legacy: A Tribute to Dedicated Insanity
+A{"TheArgentColiseum", 4080}
+
+-- Feats of Strength: A Tribute to Immortality
+A{"TheArgentColiseum", 4156, criterion=12359} -- Complete the Trial of the Grand Crusader
 
 -- Feats of Strength: Realm First! Magic Seeker
 A{"TheEyeofEternity", 1400, 0.368, 0.518}

@@ -400,7 +400,7 @@ A{"Dragonblight", 41, criterion=84} -- Might of Dragonblight
 A{"Dragonblight", 547}
 
 -- Quests/Northrend: Rapid Defense
-A{"Dragonblight", 1277}
+A{"Dragonblight", 1277, 0.550, 0.650}
 
 -- Quests/Northrend: Might of Dragonblight
 A{"Dragonblight", 1359, criterion=76} -- Complete 130 quests in Dragonblight
@@ -613,7 +613,6 @@ A{"Durotar", 8306, criterion=23534} -- The Durotar Job
 A{"Durotar", 8307, criterion=23537} -- Durotar Liberation
 
 -- Exploration: Field Photographer
-A{"Durotar", 9924, 0.450, 0.100, criterion=27869} -- Orgrimmar
 A{"Durotar", 9924, criterion=27971} -- Echo Isles
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
@@ -638,7 +637,7 @@ A{"Duskwood", 9914, 0.236, 0.396, criterion=27753, note="from Forlorn Composer"}
 A{"Duskwood", 9924, 0.770, 0.440, criterion=27956} -- Darkshire
 
 -- Garrisons: Full Discography
-A{"Duskwood", 10015, 0.236, 0.396, criterion=27753, note="from Forlorn Composer"} -- Ghost
+A{"Duskwood", 10015, 0.236, 0.396, criterion=27753, note="from Forlorn Composer\ninteractable when player is dead"} -- Ghost
 
 -- Garrisons: Full Discography
 A{"Duskwood", 10016, 0.236, 0.396, criterion=27753, note="from Forlorn Composer"} -- Ghost
@@ -689,9 +688,6 @@ A{"Elwynn", 1206, 0.370, 0.554, criterion=0} -- Deer
 
 -- Professions/Fishing: The Limnologist
 A{"Elwynn", 5478, 0.520, 0.660, criterion=15885, note="~60% open water"} -- Brilliant Smallfish
-
--- Exploration: Field Photographer
-A{"Elwynn", 9924, 0.330, 0.500, criterion=27864} -- Stormwind
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Felwood", 1678, criterion=15234} -- Felwood Quests
@@ -1458,11 +1454,11 @@ A{"IcecrownGlacier", 2769, criterion=11329} -- Champion of the Undercity
 A{"IcecrownGlacier", 2769, criterion=5316} -- Exalted with Undercity
 
 -- World Events/Argent Tournament: Exalted Champion of the Alliance
-A{"IcecrownGlacier", 2770, criterion=9668} -- Champion of Darnassus
-A{"IcecrownGlacier", 2770, criterion=9670} -- Champion of Gnomeregan
-A{"IcecrownGlacier", 2770, criterion=9671} -- Champion of Stormwind
-A{"IcecrownGlacier", 2770, criterion=9672} -- Champion of Ironforge
-A{"IcecrownGlacier", 2770, criterion=9669} -- Champion of the Exodar
+A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9668} -- Champion of Darnassus
+A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9670} -- Champion of Gnomeregan
+A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9671} -- Champion of Stormwind
+A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9672} -- Champion of Ironforge
+A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9669} -- Champion of the Exodar
 
 -- World Events/Argent Tournament: Exalted Champion of the Horde
 A{"IcecrownGlacier", 2771, criterion=9673} -- Champion of Orgrimmar
@@ -1478,26 +1474,26 @@ A{"IcecrownGlacier", 2772}
 A{"IcecrownGlacier", 2773}
 
 -- World Events/Argent Tournament: Champion of Darnassus
-A{"IcecrownGlacier", 2777}
+A{"IcecrownGlacier", 2777, 0.763, 0.195}
 
 -- World Events/Argent Tournament: Champion of the Exodar
-A{"IcecrownGlacier", 2778}
+A{"IcecrownGlacier", 2778, 0.763, 0.195}
 
 -- World Events/Argent Tournament: Champion of Gnomeregan
-A{"IcecrownGlacier", 2779}
+A{"IcecrownGlacier", 2779, 0.763, 0.195}
 
 -- World Events/Argent Tournament: Champion of Ironforge
-A{"IcecrownGlacier", 2780}
+A{"IcecrownGlacier", 2780, 0.763, 0.195}
 
 -- World Events/Argent Tournament: Champion of Stormwind
-A{"IcecrownGlacier", 2781}
+A{"IcecrownGlacier", 2781, 0.763, 0.195}
 
 -- World Events/Argent Tournament: Champion of the Alliance
-A{"IcecrownGlacier", 2782, criterion=9778} -- Champion of Darnassus
-A{"IcecrownGlacier", 2782, criterion=9779} -- Champion of the Exodar
-A{"IcecrownGlacier", 2782, criterion=9780} -- Champion of Gnomeregan
-A{"IcecrownGlacier", 2782, criterion=9781} -- Champion of Stormwind
-A{"IcecrownGlacier", 2782, criterion=9782} -- Champion of Ironforge
+A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9778} -- Champion of Darnassus
+A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9779} -- Champion of the Exodar
+A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9780} -- Champion of Gnomeregan
+A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9781} -- Champion of Stormwind
+A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9782} -- Champion of Ironforge
 
 -- World Events/Argent Tournament: Champion of Orgrimmar
 A{"IcecrownGlacier", 2783}
@@ -2258,6 +2254,9 @@ A{"Orgrimmar", 5845, criterion=17748} -- Let's Do Lunch: Orgrimmar
 -- Professions/Fishing: Gone Fishin'
 A{"Orgrimmar", 5851, criterion=17772} -- Fish or Cut Bait: Orgrimmar
 
+-- Exploration: Field Photographer
+A{"Orgrimmar", 9924, criterion=27869} -- Orgrimmar
+
 -- Feats of Strength: Ahead of the Curve: Garrosh Hellscream (10 player)
 A{"OrgrimmarRaid", 8398}
 
@@ -2950,6 +2949,9 @@ A{"StormwindCity", 150, criterion=5275} -- Stormwind
 -- Professions/Fishing: The Limnologist
 A{"StormwindCity", 5478, criterion=15889, note="60% drop rate, open water"} -- Longjaw Mud Snapper
 
+-- Exploration: Field Photographer
+A{"StormwindCity", 9924, criterion=27864} -- Stormwind
+
 -- Professions/Fishing: Master Angler of Azeroth
 A{"StranglethornJungle", 306}
 
@@ -3277,36 +3279,6 @@ A{"TerraceOfEndlessSpring", 10015, criterion=27741, note="drop from Sha of Fear"
 -- Garrisons: Full Discography
 A{"TerraceOfEndlessSpring", 10016, criterion=27741, note="drop from Sha of Fear"} -- Heart of Pandaria
 
--- Legacy: A Tribute to Skill (10 player)
-A{"TheArgentColiseum", 3808}
-
--- Legacy: A Tribute to Mad Skill (10 player)
-A{"TheArgentColiseum", 3809}
-
--- Legacy: A Tribute to Insanity (10 player)
-A{"TheArgentColiseum", 3810}
-
--- Legacy: A Tribute to Skill (25 player)
-A{"TheArgentColiseum", 3817}
-
--- Legacy: A Tribute to Mad Skill (25 player)
-A{"TheArgentColiseum", 3818}
-
--- Legacy: A Tribute to Insanity (25 player)
-A{"TheArgentColiseum", 3819}
-
--- Feats of Strength: Realm First! Grand Crusader
-A{"TheArgentColiseum", 4078, criterion=12350} -- Complete the Trial of the Grand Crusader
-
--- Feats of Strength: A Tribute to Immortality
-A{"TheArgentColiseum", 4079, criterion=12358} -- Complete the Trial of the Grand Crusader
-
--- Legacy: A Tribute to Dedicated Insanity
-A{"TheArgentColiseum", 4080}
-
--- Feats of Strength: A Tribute to Immortality
-A{"TheArgentColiseum", 4156, criterion=12359} -- Complete the Trial of the Grand Crusader
-
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"TheCapeOfStranglethorn", 1676, criterion=15208} -- Cape of Stranglethorn Quests
 
@@ -3500,7 +3472,7 @@ A{"TheStormPeaks", 38, criterion=79} -- Complete 100 Storm Peaks Quests
 A{"TheStormPeaks", 41, criterion=87} -- The Summit of Storm Peaks
 
 -- Quests/Northrend: Mine Sweeper
-A{"TheStormPeaks", 1428}
+A{"TheStormPeaks", 1428, 0.360, 0.860}
 
 -- Exploration/Northrend: Northern Exposure
 A{"TheStormPeaks", 2256, 0.370, 0.730, criterion=8120, note="or thereabouts"} -- Vyragosa
@@ -4087,6 +4059,12 @@ A{"Ulduar", 2903}
 -- Legacy: Conqueror of Ulduar
 A{"Ulduar", 2904}
 
+-- Dungeons & Raids/Lich King Raid: Hot Pocket (10 player)
+A{"Ulduar", 2927, 0.390, 0.280, floor=1}
+
+-- Dungeons & Raids/Lich King Raid: Hot Pocket (25 player)
+A{"Ulduar", 2928, 0.390, 0.280, floor=1}
+
 -- Feats of Strength: He Feeds On Your Tears (10 player)
 A{"Ulduar", 3004, 0.800, 0.470, floor=2}
 
@@ -4164,31 +4142,31 @@ A{"UngoroCrater", 4939, criterion=13850} -- Un'Goro Crater
 A{"UngoroCrater", 9924, 0.480, 0.090, criterion=27957} -- The Shaper's Terrace
 
 -- Dungeons & Raids/Dungeon Challenges: Upper Blackrock Spire Challenger
-A{"UpperBlackrockSpire", 8891}
+A{"UpperBlackrockSpire", 8891, 0.150, 0.485, floor=3}
 
 -- Dungeons & Raids/Dungeon Challenges: Upper Blackrock Spire: Bronze
-A{"UpperBlackrockSpire", 8892}
+A{"UpperBlackrockSpire", 8892, 0.150, 0.485, floor=3}
 
 -- Dungeons & Raids/Dungeon Challenges: Upper Blackrock Spire: Silver
-A{"UpperBlackrockSpire", 8893}
+A{"UpperBlackrockSpire", 8893, 0.150, 0.485, floor=3}
 
 -- Dungeons & Raids/Dungeon Challenges: Upper Blackrock Spire: Gold
-A{"UpperBlackrockSpire", 8894}
+A{"UpperBlackrockSpire", 8894, 0.150, 0.485, floor=3}
 
 -- Dungeons & Raids/Draenor Dungeon: Upper Blackrock Spire
-A{"UpperBlackrockSpire", 9042}
+A{"UpperBlackrockSpire", 9042, 0.150, 0.485, floor=3}
 
 -- Dungeons & Raids/Draenor Dungeon: Magnets, How Do They Work?
-A{"UpperBlackrockSpire", 9045}
+A{"UpperBlackrockSpire", 9045, 0.305, 0.267, floor=2}
 
 -- Dungeons & Raids/Draenor Dungeon: Heroic: Upper Blackrock Spire
-A{"UpperBlackrockSpire", 9055}
+A{"UpperBlackrockSpire", 9055, 0.150, 0.485, floor=3}
 
 -- Dungeons & Raids/Draenor Dungeon: Bridge Over Troubled Fire
-A{"UpperBlackrockSpire", 9056, criterion=24998} -- Kill 20 Ragefire Whelps in 10 seconds
+A{"UpperBlackrockSpire", 9056, 0.460, 0.462, criterion=24998, floor=3} -- Kill 20 Ragefire Whelps in 10 seconds
 
 -- Dungeons & Raids/Draenor Dungeon: Dragonmaw? More Like Dragonfall!
-A{"UpperBlackrockSpire", 9057}
+A{"UpperBlackrockSpire", 9057, 0.150, 0.485, floor=3}
 
 -- Dungeons & Raids/Draenor Dungeon: Leeeeeeeeeeeeeroy...?
 A{"UpperBlackrockSpire", 9058}
@@ -4197,10 +4175,10 @@ A{"UpperBlackrockSpire", 9058}
 A{"UpperBlackrockSpire", 9627}
 
 -- Collections: What A Strange, Interdimensional Trip It's Been
-A{"UpperBlackrockSpire", 9838, criterion=27627} -- Warlord Zaela
+A{"UpperBlackrockSpire", 9838, 0.150, 0.485, criterion=27627, floor=3} -- Warlord Zaela
 
 -- Dungeons & Raids/Draenor Dungeon: Mythic: Upper Blackrock Spire
-A{"UpperBlackrockSpire", 10085}
+A{"UpperBlackrockSpire", 10085, 0.150, 0.485, floor=3}
 
 -- General: To All the Squirrels I Once Caressed?
 A{"ValeofEternalBlossoms", 6350, 0.726, 0.254, criterion=0, note="zone exclusive"} -- Gilded Moth
