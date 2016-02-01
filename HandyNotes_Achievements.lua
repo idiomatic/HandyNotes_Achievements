@@ -53,6 +53,12 @@ function HNA:GetAchievementCriteriaInfoByDescription(achievementID, description)
 end
 
 
+function HNA:RGBToColorCode(rgba)
+    local a = rgba.a
+    if a == nil then a = 1.0 end
+    return string.format("|c%02x%02x%02x%02x", a * 255, rgba.r * 255, rgba.g * 255, rgba.b * 255)
+end
+
 function HNA:HandyNotesCoordsNear(c, coord)
     --return c == coord
     -- within 3% of the map
@@ -92,6 +98,15 @@ function HNA:OnEnter(mapFile, nearCoord)
                 previousAchievementID = achievementID
             end
 
+            if row.faction then
+                local name, _, standing = GetFactionInfoByID(row.faction)
+                tooltip:AddSeparator(2, 0, 0, 0, 0)
+                tooltip:SetFont(GameTooltipTextSmall)
+                local genderSuffix = (UnitSex("player") == 3 and "_FEMALE") or ""
+                local reputation = HNA:RGBToColorCode(FACTION_BAR_COLORS[standing]) .. _G["FACTION_STANDING_LABEL" .. standing .. genderSuffix] .. "|r"
+                tooltip:AddLine(name, reputation)
+            end
+
             if criterion then
                 local criterionDescription, quantityString
                 if type(criterion) == "number" then
@@ -110,6 +125,7 @@ function HNA:OnEnter(mapFile, nearCoord)
                     tooltip:AddLine(criterionDescription, quantityString)
                 end
             end
+
         end
     end
 
@@ -236,15 +252,21 @@ function HNA:Valid(row)
 
     if type(row.criterion) == "number" then
         _, _, completed = GetAchievementCriteriaInfoByID(achievementID, row.criterion)
+        if completed then return false end
     elseif type(row.criterion) == "string" then
         _, _, completed = HNA:GetAchievementCriteriaInfoByDescription(achievementID, row.criterion)
-    else
-        completed = false
+        if completed then return false end
     end
-    if completed then return false end
 
     if row.quest then
-        return not IsQuestFlaggedCompleted(row.quest)
+        completed = IsQuestFlaggedCompleted(row.quest)
+        if completed then return false end
+    end
+
+    if row.faction then
+        local _, _, standing = GetFactionInfoByID(row.faction)
+        completed = (standing == 8)
+        if completed then return false end
     end
 
     return true

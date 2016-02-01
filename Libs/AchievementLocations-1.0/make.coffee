@@ -29,7 +29,7 @@ sheet.getRows achievementWorksheet, {query: 'mapfile != ""', orderby: 'mapfile'}
     outs = {}
     priorAchievementID = {}
 
-    for {module, mapfile, achievement, criterion, x, y, floor, action, item, quest, note, criteria, name, category} in data
+    for {module, mapfile, achievement, criterion, x, y, floor, action, item, quest, faction, note, criteria, name, category} in data
         module or= 'data'
         out = outs[module] or= createModule(module)
 
@@ -45,6 +45,7 @@ sheet.getRows achievementWorksheet, {query: 'mapfile != ""', orderby: 'mapfile'}
             out.write ", criterion=#{criterion}"
 
         out.write ", quest=#{quest}" if quest
+        out.write ", faction=#{faction}" if faction
         out.write ", floor=#{floor}" if floor
         out.write ", action=#{JSON.stringify action}" if action
         out.write ", item=#{JSON.stringify item}" if item

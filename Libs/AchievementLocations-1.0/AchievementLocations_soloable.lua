@@ -46,7 +46,7 @@ A{"AhnQiraj", 424}
 A{"AhnQiraj", 687, 0.570, 0.626, floor=3}
 
 -- Reputation/Classic: Brood of Nozdormu
-A{"AhnQiraj", 956}
+A{"AhnQiraj", 956, faction=910}
 
 -- Dungeons & Raids: Classic Raider
 A{"AhnQiraj", 1285, 0.570, 0.626, criterion=4011, floor=3} -- Temple of Ahn'Qiraj
@@ -147,7 +147,7 @@ A{"BlackrockSpire", 2188, criterion=7622} -- Kill 50 rookery whelps within 15 se
 A{"BlackTemple", 697, 0.526, 0.602, floor=8}
 
 -- Reputation/The Burning Crusade: Sworn to the Deathsworn
-A{"BlackTemple", 958}
+A{"BlackTemple", 958, faction=1012}
 
 -- Dungeons & Raids: Outland Raider
 A{"BlackTemple", 1286, 0.526, 0.602, criterion=4021, floor=8} -- The Black Temple
@@ -1137,7 +1137,7 @@ A{"MogushanPalace", 6756}
 A{"MoltenCore", 686, 0.554, 0.552}
 
 -- Reputation/Classic: Hydraxian Waterlords
-A{"MoltenCore", 955}
+A{"MoltenCore", 955, faction=749}
 
 -- Dungeons & Raids: Classic Raider
 A{"MoltenCore", 1285, 0.554, 0.552, criterion=4010} -- Molten Core

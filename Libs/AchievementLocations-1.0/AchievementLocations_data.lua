@@ -1415,43 +1415,33 @@ A{"IcecrownGlacier", 2758}
 
 -- World Events/Argent Tournament: Exalted Champion of Darnassus
 A{"IcecrownGlacier", 2760, criterion=11320} -- Champion of Darnassus
-A{"IcecrownGlacier", 2760, criterion=5328} -- Exalted with Darnassus
 
 -- World Events/Argent Tournament: Exalted Champion of the Exodar
 A{"IcecrownGlacier", 2761, criterion=11321} -- Champion of the Exodar
-A{"IcecrownGlacier", 2761, criterion=5332} -- Exalted with Exodar
 
 -- World Events/Argent Tournament: Exalted Champion of Gnomeregan
 A{"IcecrownGlacier", 2762, criterion=11322} -- Champion of Gnomeregan
-A{"IcecrownGlacier", 2762, criterion=5329} -- Exalted with Gnomeregan Exiles
 
 -- World Events/Argent Tournament: Exalted Champion of Ironforge
 A{"IcecrownGlacier", 2763, criterion=11323} -- Champion of Ironforge
-A{"IcecrownGlacier", 2763, criterion=5330} -- Exalted with Ironforge
 
 -- World Events/Argent Tournament: Exalted Champion of Stormwind
 A{"IcecrownGlacier", 2764, criterion=11324} -- Champion of Stormwind
-A{"IcecrownGlacier", 2764, criterion=5331} -- Exalted with Stormwind
 
 -- World Events/Argent Tournament: Exalted Champion of Orgrimmar
-A{"IcecrownGlacier", 2765, criterion=5314} -- Exalted with Orgrimmar
 A{"IcecrownGlacier", 2765, criterion=9783} -- Champion of Orgrimmar
 
 -- World Events/Argent Tournament: Exalted Champion of Sen'jin
 A{"IcecrownGlacier", 2766, criterion=11326} -- Champion of Sen'jin
-A{"IcecrownGlacier", 2766, criterion=5313} -- Exalted with Darkspear Trolls
 
 -- World Events/Argent Tournament: Exalted Champion of Silvermoon City
 A{"IcecrownGlacier", 2767, criterion=9785} -- Champion of Silvermoon City
-A{"IcecrownGlacier", 2767, criterion=5317} -- Exalted with Silvermoon City
 
 -- World Events/Argent Tournament: Exalted Champion of Thunder Bluff
 A{"IcecrownGlacier", 2768, criterion=11328} -- Champion of Thunder Bluff
-A{"IcecrownGlacier", 2768, criterion=5315} -- Exalted with Thunder Bluff
 
 -- World Events/Argent Tournament: Exalted Champion of the Undercity
 A{"IcecrownGlacier", 2769, criterion=11329} -- Champion of the Undercity
-A{"IcecrownGlacier", 2769, criterion=5316} -- Exalted with Undercity
 
 -- World Events/Argent Tournament: Exalted Champion of the Alliance
 A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9668} -- Champion of Darnassus
@@ -3181,16 +3171,6 @@ A{"TanaanJungle", 10265, criterion=28287} -- I Came, I Clawed, I Conquered
 A{"TanaanJungle", 10265, criterion=28733} -- Hellbane
 A{"TanaanJungle", 10265, criterion=28732} -- Jungle Treasure Master
 
--- Reputation/Draenor: Tanaan Diplomat
-A{"TanaanJungle", 10349, criterion=28978} -- Vol'jin's Headhunters
-A{"TanaanJungle", 10349, criterion=28979} -- The Saberstalkers
-A{"TanaanJungle", 10349, criterion=28980} -- Order of the Awakened
-
--- Reputation/Draenor: Tanaan Diplomat
-A{"TanaanJungle", 10350, criterion=28981} -- Hand of the Prophet
-A{"TanaanJungle", 10350, criterion=28980} -- Order of the Awakened
-A{"TanaanJungle", 10350, criterion=28979} -- The Saberstalkers
-
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Tanaris", 1678, criterion=15240} -- Tanaris Quests
 
@@ -4141,45 +4121,6 @@ A{"UngoroCrater", 4939, criterion=13850} -- Un'Goro Crater
 -- Exploration: Field Photographer
 A{"UngoroCrater", 9924, 0.480, 0.090, criterion=27957} -- The Shaper's Terrace
 
--- Dungeons & Raids/Dungeon Challenges: Upper Blackrock Spire Challenger
-A{"UpperBlackrockSpire", 8891, 0.150, 0.485, floor=3}
-
--- Dungeons & Raids/Dungeon Challenges: Upper Blackrock Spire: Bronze
-A{"UpperBlackrockSpire", 8892, 0.150, 0.485, floor=3}
-
--- Dungeons & Raids/Dungeon Challenges: Upper Blackrock Spire: Silver
-A{"UpperBlackrockSpire", 8893, 0.150, 0.485, floor=3}
-
--- Dungeons & Raids/Dungeon Challenges: Upper Blackrock Spire: Gold
-A{"UpperBlackrockSpire", 8894, 0.150, 0.485, floor=3}
-
--- Dungeons & Raids/Draenor Dungeon: Upper Blackrock Spire
-A{"UpperBlackrockSpire", 9042, 0.150, 0.485, floor=3}
-
--- Dungeons & Raids/Draenor Dungeon: Magnets, How Do They Work?
-A{"UpperBlackrockSpire", 9045, 0.305, 0.267, floor=2}
-
--- Dungeons & Raids/Draenor Dungeon: Heroic: Upper Blackrock Spire
-A{"UpperBlackrockSpire", 9055, 0.150, 0.485, floor=3}
-
--- Dungeons & Raids/Draenor Dungeon: Bridge Over Troubled Fire
-A{"UpperBlackrockSpire", 9056, 0.460, 0.462, criterion=24998, floor=3} -- Kill 20 Ragefire Whelps in 10 seconds
-
--- Dungeons & Raids/Draenor Dungeon: Dragonmaw? More Like Dragonfall!
-A{"UpperBlackrockSpire", 9057, 0.150, 0.485, floor=3}
-
--- Dungeons & Raids/Draenor Dungeon: Leeeeeeeeeeeeeroy...?
-A{"UpperBlackrockSpire", 9058}
-
--- Feats of Strength: Challenge Master: Upper Blackrock Spire
-A{"UpperBlackrockSpire", 9627}
-
--- Collections: What A Strange, Interdimensional Trip It's Been
-A{"UpperBlackrockSpire", 9838, 0.150, 0.485, criterion=27627, floor=3} -- Warlord Zaela
-
--- Dungeons & Raids/Draenor Dungeon: Mythic: Upper Blackrock Spire
-A{"UpperBlackrockSpire", 10085, 0.150, 0.485, floor=3}
-
 -- General: To All the Squirrels I Once Caressed?
 A{"ValeofEternalBlossoms", 6350, 0.726, 0.254, criterion=0, note="zone exclusive"} -- Gilded Moth
 A{"ValeofEternalBlossoms", 6350, 0.716, 0.316, criterion=0, note="zone exclusive"} -- Dancing Water Skimmer
@@ -4323,18 +4264,6 @@ A{"ValleyoftheFourWinds", 6350, 0.228, 0.616, criterion=0} -- Malayan Quillrat
 
 -- Quests/Pandaria: Loremaster of Pandaria
 A{"ValleyoftheFourWinds", 6541, criterion=19378} -- Rally the Valley
-
--- Reputation/Pandaria: Friend on the Farm
-A{"ValleyoftheFourWinds", 6551, criterion=19396} -- Chee Chee
-A{"ValleyoftheFourWinds", 6551, criterion=19397} -- Ella
-A{"ValleyoftheFourWinds", 6551, criterion=19398} -- Farmer Fung
-A{"ValleyoftheFourWinds", 6551, criterion=19399} -- Fish Fellreed
-A{"ValleyoftheFourWinds", 6551, criterion=19400} -- Gina Mudclaw
-A{"ValleyoftheFourWinds", 6551, criterion=19401} -- Haohan Mudclaw
-A{"ValleyoftheFourWinds", 6551, criterion=19402} -- Jogu the Drunk
-A{"ValleyoftheFourWinds", 6551, criterion=19403} -- Old Hillpaw
-A{"ValleyoftheFourWinds", 6551, criterion=19404} -- Sho
-A{"ValleyoftheFourWinds", 6551, criterion=19405} -- Tina Mudclaw
 
 -- Exploration/Pandaria: Fish Tales
 A{"ValleyoftheFourWinds", 6846, 0.610, 0.340, criterion=19769} -- Waterspeakers
@@ -4580,9 +4509,6 @@ A{"Winterspring", 10015, 0.680, 0.739, criterion=27754, note="from Frozen Suppli
 
 -- Garrisons: Full Discography
 A{"Winterspring", 10016, 0.680, 0.739, criterion=27754, note="from Frozen Supplies"} -- Mountains
-
--- Reputation: The Diplomat
-A{"Zangarmarsh", 942, criterion=4757} -- Exalted with the Sporeggar
 
 -- Quests/Outland: Mysteries of the Marsh
 A{"Zangarmarsh", 1190, criterion=3584} -- 52 Zangarmarsh quests

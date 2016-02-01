@@ -44,10 +44,10 @@ A{"AlteracValley", 706}
 A{"AlteracValley", 707}
 
 -- Player vs. Player/Alterac Valley: Hero of the Frostwolf Clan
-A{"AlteracValley", 708}
+A{"AlteracValley", 708, faction=729}
 
 -- Player vs. Player/Alterac Valley: Hero of the Stormpike Guard
-A{"AlteracValley", 709}
+A{"AlteracValley", 709, faction=730}
 
 -- Player vs. Player/Alterac Valley: Frostwolf Perfection
 A{"AlteracValley", 873}
@@ -119,10 +119,10 @@ A{"ArathiBasin", 584, criterion=431} -- Kill 5 people at the blacksmith
 A{"ArathiBasin", 584, criterion=435} -- Kill 5 people at the stables
 
 -- Player vs. Player/Arathi Basin: The Defiler
-A{"ArathiBasin", 710}
+A{"ArathiBasin", 710, faction=510}
 
 -- Player vs. Player/Arathi Basin: Knight of Arathor
-A{"ArathiBasin", 711}
+A{"ArathiBasin", 711, faction=509}
 
 -- Player vs. Player/Arathi Basin: Overly Defensive
 A{"ArathiBasin", 1153}
@@ -172,10 +172,10 @@ A{"Ashran", 9105, criterion=25791} -- Amphitheater of Annihilation
 A{"Ashran", 9106}
 
 -- Player vs. Player/Ashran: Hero of Stormshield
-A{"Ashran", 9214, criterion=25341} -- Gain Exalted reputation with Wrynn's Vanguard.
+A{"Ashran", 9214, criterion=25341, faction=1682} -- Gain Exalted reputation with Wrynn's Vanguard.
 
 -- Player vs. Player/Ashran: Hero of Warspear
-A{"Ashran", 9215, criterion=25342} -- Gain Exalted reputation with Vol'jin's Spear
+A{"Ashran", 9215, criterion=25342, faction=1681} -- Gain Exalted reputation with Vol'jin's Spear
 
 -- Player vs. Player/Ashran: High-value Targets
 A{"Ashran", 9216, criterion=25843} -- Elder Darkweaver Kath
@@ -742,10 +742,10 @@ A{"WarsongGulch", 206, criterion=3698} -- Horde Flag Carriers
 A{"WarsongGulch", 207}
 
 -- Player vs. Player/Warsong Gulch: Warsong Outrider
-A{"WarsongGulch", 712}
+A{"WarsongGulch", 712, faction=889}
 
 -- Player vs. Player/Warsong Gulch: Silverwing Sentinel
-A{"WarsongGulch", 713}
+A{"WarsongGulch", 713, faction=890}
 
 -- Player vs. Player/Warsong Gulch: Frenzied Defender
 A{"WarsongGulch", 872, criterion=1801} -- Return 5 flags in a single battle
