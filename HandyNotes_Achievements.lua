@@ -11,6 +11,8 @@
 -- XXX tooltip modifier-key
 -- XXX exclude achievements tracked by other modules
 -- XXX unavailable progressions, e.g. "60 Exalted Reputations"
+-- XXX TheArgentColiseum#543 does not get pins in the instance map
+-- XXX seasonal icon
 
 
 local ADDON_NAME = ...

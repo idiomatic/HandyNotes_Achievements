@@ -32,7 +32,7 @@ A{"DarkmoonFaireIsland", 6023, 0.474, 0.789}
 A{"DarkmoonFaireIsland", 6024, 0.474, 0.789}
 
 -- World Events/Darkmoon Faire: I Was Promised a Pony
-A{"DarkmoonFaireIsland", 6025, 0.526, 0.604}
+A{"DarkmoonFaireIsland", 6025, 0.570, 0.820}
 
 -- World Events/Darkmoon Faire: Fairegoer's Feast
 A{"DarkmoonFaireIsland", 6026, 0.528, 0.680, criterion=7313} -- Darkmoon Dog

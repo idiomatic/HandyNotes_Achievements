@@ -613,7 +613,7 @@ A{"Durotar", 8306, criterion=23534} -- The Durotar Job
 A{"Durotar", 8307, criterion=23537} -- Durotar Liberation
 
 -- Exploration: Field Photographer
-A{"Durotar", 9924, criterion=27971} -- Echo Isles
+A{"Durotar", 9924, 0.620, 0.810, criterion=27971} -- Echo Isles
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Duskwood", 1676, criterion=15202} -- Westfall+Duskwood/Silverpine
@@ -1557,7 +1557,7 @@ A{"IcecrownGlacier", 9912, 0.760, 0.220, criterion=27759, note="25 Champion's Se
 A{"IcecrownGlacier", 9914, 0.760, 0.220, criterion=27759, note="25 Champion's Seal"} -- The Argent Tournament
 
 -- Exploration: Field Photographer
-A{"IcecrownGlacier", 9924, 0.530, 0.870, criterion=27863} -- The Frozen Throne
+A{"IcecrownGlacier", 9924, 0.500, 0.520, criterion=27863, floor=7} -- The Frozen Throne
 
 -- Garrisons: Full Discography
 A{"IcecrownGlacier", 10015, 0.760, 0.220, criterion=27759, note="25 Champion's Seal"} -- The Argent Tournament

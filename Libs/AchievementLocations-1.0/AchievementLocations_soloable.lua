@@ -110,6 +110,12 @@ A{"BlackfathomDeeps", 1283, 0.855, 0.864, criterion=3943, floor=2} -- Blackfatho
 -- Dungeons & Raids/Cataclysm Dungeon: Blackrock Caverns
 A{"BlackrockCaverns", 4833}
 
+-- Dungeons & Raids: Glory of the Cataclysm Hero
+A{"BlackrockCaverns", 4845, criterion=15248} -- Too Hot to Handle
+A{"BlackrockCaverns", 4845, criterion=15247} -- Arrested Development
+A{"BlackrockCaverns", 4845, criterion=15249} -- Ascendant Descending
+A{"BlackrockCaverns", 4845, criterion=13555} -- Crushing Bones and Cracking Skulls
+
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: Blackrock Caverns
 A{"BlackrockCaverns", 5060}
 
@@ -408,10 +414,10 @@ A{"DragonSoul", 6116, 0.475, 0.529, floor=7}
 A{"DragonSoul", 6128, 0.509, 0.530, floor=2}
 
 -- Dungeons & Raids/Cataclysm Raid: Taste the Rainbow!
-A{"DragonSoul", 6129, 0.468, 0.499, criterion=18495, floor=3} -- Black and Yellow
-A{"DragonSoul", 6129, 0.468, 0.499, criterion=18496, floor=3} -- Red and Green
-A{"DragonSoul", 6129, 0.468, 0.499, criterion=18497, floor=3} -- Black and Blue
-A{"DragonSoul", 6129, 0.468, 0.499, criterion=18498, floor=3} -- Purple and Yellow
+A{"DragonSoul", 6129, 0.468, 0.499, criterion=18495, floor=3, note="normal raid difficulty"} -- Black and Yellow
+A{"DragonSoul", 6129, 0.468, 0.499, criterion=18496, floor=3, note="normal raid difficulty"} -- Red and Green
+A{"DragonSoul", 6129, 0.468, 0.499, criterion=18497, floor=3, note="normal raid difficulty"} -- Black and Blue
+A{"DragonSoul", 6129, 0.468, 0.499, criterion=18498, floor=3, note="normal raid difficulty"} -- Purple and Yellow
 
 -- Dungeons & Raids/Cataclysm Raid: Maybe He'll Get Dizzy...
 A{"DragonSoul", 6133, 0.331, 0.851, floor=6}
@@ -522,13 +528,13 @@ A{"EastTemple", 6757, 0.606, 0.596}
 A{"EastTemple", 6758, 0.606, 0.596}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Moon Guard
-A{"EndTime", 5995}
+A{"EndTime", 5995, 0.515, 0.433, floor=5}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: End Time
-A{"EndTime", 6117}
+A{"EndTime", 6117, 0.484, 0.323, floor=6}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Severed Ties
-A{"EndTime", 6130, 0.380, 0.430, note="in Ruby Dragonshrine"}
+A{"EndTime", 6130, 0.559, 0.392, floor=3, note="in Ruby Dragonshrine"}
 
 -- Dungeons & Raids/Cataclysm Raid: Firelands
 A{"Firelands", 5802, 0.495, 0.309, criterion=17432, floor=1} -- Baleroc
@@ -612,6 +618,10 @@ A{"Gnomeregan", 10015, 0.685, 0.625, criterion=27749, floor=2, note="from Sparkl
 
 -- Dungeons & Raids/Cataclysm Dungeon: Grim Batol
 A{"GrimBatol", 4840}
+
+-- Dungeons & Raids: Glory of the Cataclysm Hero
+A{"GrimBatol", 4845, criterion=15262} -- Umbrage for Umbriss
+A{"GrimBatol", 4845, criterion=15263} -- Don't Need to Break Eggs to Make an Omelet
 
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: Grim Batol
 A{"GrimBatol", 5062}
@@ -722,6 +732,13 @@ A{"HallsofLightning", 10016, 0.200, 0.530, criterion=27763, floor=2, note="drop 
 
 -- Dungeons & Raids/Cataclysm Dungeon: Halls of Origination
 A{"HallsofOrigination", 4841}
+
+-- Dungeons & Raids: Glory of the Cataclysm Hero
+A{"HallsofOrigination", 4845, criterion=15258} -- I Hate That Song
+A{"HallsofOrigination", 4845, 0.562, 0.234, criterion=15261, floor=1} -- Faster Than the Speed of Light
+A{"HallsofOrigination", 4845, criterion=15260} -- Sun of a....
+A{"HallsofOrigination", 4845, criterion=15257} -- Headed South
+A{"HallsofOrigination", 4845, criterion=15259} -- Straw That Broke the Camel's Back
 
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: Halls of Origination
 A{"HallsofOrigination", 5065}
@@ -850,7 +867,7 @@ A{"IcecrownCitadel", 4584, 0.498, 0.528, criterion=13138, floor=8} -- The Lich K
 A{"IcecrownCitadel", 4597, 0.498, 0.528, criterion=12909, floor=8} -- The Lich King
 
 -- Dungeons & Raids/Lich King Raid: Been Waiting a Long Time for This (10 player)
-A{"IcecrownCitadel", 4601, 0.498, 0.528, floor=8, note="soloable with Manual of Void-Calling"}
+A{"IcecrownCitadel", 4601, 0.498, 0.528, floor=8, note="soloable with Manual of Void-Calling or tankpet"}
 
 -- Dungeons & Raids: Glory of the Icecrown Raider (10 player)
 A{"IcecrownCitadel", 4602, 0.130, 0.540, criterion=12923, floor=5} -- Nausea, Heartburn, Indigestion...
@@ -950,7 +967,7 @@ A{"IcecrownCitadel", 4619, 0.766, 0.737, floor=5}
 A{"IcecrownCitadel", 4620, 0.366, 0.234, floor=4}
 
 -- Dungeons & Raids/Lich King Raid: Been Waiting a Long Time for This (25 player)
-A{"IcecrownCitadel", 4621, 0.498, 0.528, floor=8}
+A{"IcecrownCitadel", 4621, 0.498, 0.528, floor=8, note="soloable with Manual of Void-Calling or tankpet"}
 
 -- Dungeons & Raids/Lich King Raid: Neck-Deep in Vile (25 player)
 A{"IcecrownCitadel", 4622, 0.498, 0.528, floor=8}
@@ -1060,6 +1077,10 @@ A{"Karazhan", 10015, 0.190, 0.330, criterion=27758, floor=4, note="from Opera en
 
 -- Garrisons: Full Discography
 A{"Karazhan", 10016, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter"} -- Karazhan Opera House
+
+-- Dungeons & Raids: Glory of the Cataclysm Hero
+A{"LostCityofTolvir", 4845, 0.670, 0.720, criterion=15256} -- Acrocalypse Now
+A{"LostCityofTolvir", 4845, 0.270, 0.650, criterion=15255} -- Kill It With Fire!
 
 -- Dungeons & Raids/Cataclysm Dungeon: Lost City of the Tol'vir
 A{"LostCityofTolvir", 4848}
@@ -1599,6 +1620,7 @@ A{"SiegeofNiuzaoTemple", 6822}
 A{"SiegeofNiuzaoTemple", 10011}
 
 -- Dungeons & Raids: Glory of the Cataclysm Hero
+A{"Skywall", 4845, criterion=22268} -- Extra Credit Bonus Stage
 A{"Skywall", 4845, 0.299, 0.386, criterion=15253} -- No Static at All
 
 -- Dungeons & Raids/Cataclysm Dungeon: The Vortex Pinnacle
@@ -1868,6 +1890,10 @@ A{"TheDeadmines", 628, 0.604, 0.455, floor=2}
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"TheDeadmines", 1283, 0.604, 0.455, criterion=3939, floor=2} -- Deadmines
 
+-- Dungeons & Raids: Glory of the Cataclysm Hero
+A{"TheDeadmines", 4845, 0.501, 0.868, criterion=16042, floor=1} -- Rat Pack
+A{"TheDeadmines", 4845, 0.604, 0.455, criterion=16045, floor=2} -- I'm on a Diet
+
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: Deadmines
 A{"TheDeadmines", 5083, 0.604, 0.455, floor=2}
 
@@ -2012,9 +2038,9 @@ A{"TheNexus", 2136, 0.362, 0.674, criterion=7497} -- Intense Cold
 A{"TheNexus", 2150, 0.275, 0.399}
 
 -- Dungeons & Raids/Lich King Raid: Less Is More (10 player)
-A{"TheObsidianSanctum", 624, 0.508, 0.478, criterion=7190} -- Tenebron
-A{"TheObsidianSanctum", 624, 0.508, 0.478, criterion=7189} -- Vesperon
-A{"TheObsidianSanctum", 624, 0.508, 0.478, criterion=7191} -- Shadron
+A{"TheObsidianSanctum", 624, 0.420, 0.486, criterion=7190} -- Tenebron
+A{"TheObsidianSanctum", 624, 0.536, 0.628, criterion=7189} -- Vesperon
+A{"TheObsidianSanctum", 624, 0.530, 0.330, criterion=7191} -- Shadron
 A{"TheObsidianSanctum", 624, 0.508, 0.478, criterion=522} -- Sartharion the Onyx Guardian
 
 -- Dungeons & Raids/Lich King Raid: Besting the Black Dragonflight (25 player)
@@ -2027,9 +2053,9 @@ A{"TheObsidianSanctum", 1658, 0.508, 0.478, criterion=5889} -- Sartharion the On
 A{"TheObsidianSanctum", 1876, 0.508, 0.478}
 
 -- Dungeons & Raids/Lich King Raid: Less Is More (25 player)
-A{"TheObsidianSanctum", 1877, 0.508, 0.478, criterion=7187} -- Shadron
-A{"TheObsidianSanctum", 1877, 0.508, 0.478, criterion=7185} -- Vesperon
-A{"TheObsidianSanctum", 1877, 0.508, 0.478, criterion=7188} -- Tenebron
+A{"TheObsidianSanctum", 1877, 0.530, 0.330, criterion=7187} -- Shadron
+A{"TheObsidianSanctum", 1877, 0.536, 0.628, criterion=7185} -- Vesperon
+A{"TheObsidianSanctum", 1877, 0.420, 0.486, criterion=7188} -- Tenebron
 A{"TheObsidianSanctum", 1877, 0.508, 0.478, criterion=7186} -- Sartharion the Onyx Guardian
 
 -- Dungeons & Raids/Lich King Raid: Gonna Go When the Volcano Blows (10 player)
@@ -2122,6 +2148,9 @@ A{"TheStockade", 633, 0.218, 0.262}
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"TheStockade", 1283, 0.218, 0.262, criterion=3944} -- Stormwind Stockade
 
+-- Dungeons & Raids: Glory of the Cataclysm Hero
+A{"TheStonecore", 4845, criterion=15252} -- Rotten to the Core
+
 -- Dungeons & Raids/Cataclysm Dungeon: The Stonecore
 A{"TheStonecore", 4846}
 
@@ -2179,6 +2208,10 @@ A{"ThroneoftheFourWinds", 5506, criterion=16060} -- Throne of the Four Winds
 
 -- Dungeons & Raids/Cataclysm Dungeon: Throne of the Tides
 A{"ThroneofTides", 4839}
+
+-- Dungeons & Raids: Glory of the Cataclysm Hero
+A{"ThroneofTides", 4845, criterion=15251} -- Prince of Tides
+A{"ThroneofTides", 4845, 0.505, 0.216, criterion=15250, floor=2} -- Old Faithful
 
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: Throne of the Tides
 A{"ThroneofTides", 5061}
@@ -2909,6 +2942,10 @@ A{"ZulGurub", 5759, 0.510, 0.410, criterion=16834} -- Kill 20 Twisted Spirits wi
 
 -- Dungeons & Raids/Cataclysm Dungeon: Ohganot So Fast!
 A{"ZulGurub", 5762, 0.604, 0.799}
+
+-- Dungeons & Raids/Cataclysm Dungeon: Here, Kitty Kitty...
+A{"ZulGurub", 5765, 0.480, 0.200, criterion=16880} -- Defeat High Priestess Kilnara
+A{"ZulGurub", 5765, 0.480, 0.200, criterion=16861} -- 4 cats fed
 
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: Zul'Gurub
 A{"ZulGurub", 5768, 0.485, 0.395}
