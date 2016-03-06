@@ -33,7 +33,7 @@ assert(QTip, string.format("%s requires LibQTip-1.0", ADDON_NAME))
 
 
 HNA.ICON_PATH = "Interface/AchievementFrame/UI-Achievement-TinyShield"
-HNA.ICON_SCALE = 5
+HNA.ICON_SCALE = 2
 HNA.ICON_ALPHA = 1.0
 HNA.NEAR = 0.03
 HNA.DEFAULT_COORD = 50005000
@@ -190,12 +190,13 @@ function HNA:PLAYER_ENTERING_WORLD(event)
 
     -- XXX ...
     local options = {
+        type = "group",
         name = "Achievements",
         args = {
             completed = {
+                type = "toggle",
                 name = "Show completed",
                 desc = "Show icons for achievements you have completed.",
-                tpye = "toggle",
                 width = "full",
                 arg = "completed",
                 order = 1,
@@ -218,8 +219,6 @@ function HNA:PLAYER_ENTERING_WORLD(event)
             },
         },
     }
-    -- XXX
-    options = {}
     HandyNotes:RegisterPluginDB(ADDON_NAME, self, options)
     notifyUpdate(nil, event)
 end
