@@ -1631,22 +1631,22 @@ A{"ShadowpanHideout", 6925, criterion=19905} -- Heroic: Shado-Pan Monastery
 A{"ShadowpanHideout", 6927, criterion=19924} -- Respect
 
 -- Dungeons & Raids/Pandaria Dungeon: Return to Sender
-A{"SiegeofNiuzaoTemple", 6485}
+A{"SiegeofNiuzaoTemple", 6485, 0.550, 0.460, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Where's My Air Support?
-A{"SiegeofNiuzaoTemple", 6688, criterion=21277} -- Defeat Commander Vo'jak after having killed the Sik'thik Amberwing
+A{"SiegeofNiuzaoTemple", 6688, 0.360, 0.760, criterion=21277, floor=1} -- Defeat Commander Vo'jak after having killed the Sik'thik Amberwing
 
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Siege of Niuzao Temple
-A{"SiegeofNiuzaoTemple", 6763}
+A{"SiegeofNiuzaoTemple", 6763, 0.570, 0.220, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Run with the Wind
-A{"SiegeofNiuzaoTemple", 6822}
+A{"SiegeofNiuzaoTemple", 6822, 0.570, 0.220, floor=1}
 
 -- Dungeons & Raids: Pandaria Dungeon Hero
-A{"SiegeofNiuzaoTemple", 6925, criterion=19910} -- Heroic: Siege of Niuzao Temple
+A{"SiegeofNiuzaoTemple", 6925, 0.570, 0.220, criterion=19910, floor=1} -- Heroic: Siege of Niuzao Temple
 
 -- Dungeons & Raids/Pandaria Dungeon: Siege of Niuzao Temple
-A{"SiegeofNiuzaoTemple", 10011}
+A{"SiegeofNiuzaoTemple", 10011, 0.570, 0.220, floor=1}
 
 -- Dungeons & Raids: Glory of the Cataclysm Hero
 A{"Skywall", 4845, criterion=22268} -- Extra Credit Bonus Stage

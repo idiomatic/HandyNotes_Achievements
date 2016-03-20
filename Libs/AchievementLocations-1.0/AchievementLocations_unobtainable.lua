@@ -142,22 +142,22 @@ A{"ShadowpanHideout", 6920, criterion=19865} -- Shado-Pan Monastery
 A{"ShadowpanHideout", 8432}
 
 -- Legacy: Challenge Conqueror: Bronze
-A{"SiegeofNiuzaoTemple", 6374, criterion=19882} -- Siege of Niuzao Temple
+A{"SiegeofNiuzaoTemple", 6374, 0.570, 0.220, criterion=19882, floor=1} -- Siege of Niuzao Temple
 
 -- Legacy: Challenge Conqueror: Silver
-A{"SiegeofNiuzaoTemple", 6375, criterion=19891} -- Siege of Niuzao Temple
+A{"SiegeofNiuzaoTemple", 6375, 0.570, 0.220, criterion=19891, floor=1} -- Siege of Niuzao Temple
 
 -- Legacy: Challenge Conqueror: Gold
-A{"SiegeofNiuzaoTemple", 6378, criterion=19900} -- Siege of Niuzao Temple
+A{"SiegeofNiuzaoTemple", 6378, 0.570, 0.220, criterion=19900, floor=1} -- Siege of Niuzao Temple
 
 -- Legacy: Siege of Niuzao Temple Challenger
-A{"SiegeofNiuzaoTemple", 6898}
+A{"SiegeofNiuzaoTemple", 6898, 0.570, 0.220, floor=1}
 
 -- Legacy: Challenge Conqueror
-A{"SiegeofNiuzaoTemple", 6920, criterion=19870} -- Siege of Niuzao Temple
+A{"SiegeofNiuzaoTemple", 6920, 0.570, 0.220, criterion=19870, floor=1} -- Siege of Niuzao Temple
 
 -- Feats of Strength: Challenge Master: Siege of Niuzao Temple
-A{"SiegeofNiuzaoTemple", 8439}
+A{"SiegeofNiuzaoTemple", 8439, 0.570, 0.220, floor=1}
 
 -- Legacy: Challenge Conqueror: Bronze
 A{"StormstoutBrewery", 6374, criterion=19875} -- Stormstout Brewery

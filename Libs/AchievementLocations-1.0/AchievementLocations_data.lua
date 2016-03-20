@@ -2787,13 +2787,13 @@ A{"SholazarBasin", 2257, 0.310, 0.380, criterion=8119, note="or thereabouts"} --
 A{"SholazarBasin", 2557, 0.270, 0.600, criterion=9309} -- Sholazar Tickbird
 
 -- Legacy: Siege of Niuzao Temple: Bronze
-A{"SiegeofNiuzaoTemple", 6917}
+A{"SiegeofNiuzaoTemple", 6917, 0.570, 0.220, floor=1}
 
 -- Legacy: Siege of Niuzao Temple: Silver
-A{"SiegeofNiuzaoTemple", 6918}
+A{"SiegeofNiuzaoTemple", 6918, 0.570, 0.220, floor=1}
 
 -- Legacy: Siege of Niuzao Temple: Gold
-A{"SiegeofNiuzaoTemple", 6919}
+A{"SiegeofNiuzaoTemple", 6919, 0.570, 0.220, floor=1}
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Silithus", 1678, criterion=15237} -- Silithus Quests
