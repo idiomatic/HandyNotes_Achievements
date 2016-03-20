@@ -211,22 +211,22 @@ A{"TheArgentColiseum", 4156, criterion=12359} -- Complete the Trial of the Grand
 A{"TheEyeofEternity", 1400, 0.368, 0.518}
 
 -- Legacy: Challenge Conqueror: Bronze
-A{"TheGreatWall", 6374, criterion=19878} -- Gate of the Setting Sun
+A{"TheGreatWall", 6374, 0.490, 0.610, criterion=19878, floor=1} -- Gate of the Setting Sun
 
 -- Legacy: Challenge Conqueror: Silver
-A{"TheGreatWall", 6375, criterion=19887} -- Gate of the Setting Sun
+A{"TheGreatWall", 6375, 0.490, 0.610, criterion=19887, floor=1} -- Gate of the Setting Sun
 
 -- Legacy: Challenge Conqueror: Gold
-A{"TheGreatWall", 6378, criterion=19896} -- Gate of the Setting Sun
+A{"TheGreatWall", 6378, 0.490, 0.610, criterion=19896, floor=1} -- Gate of the Setting Sun
 
 -- Legacy: Gate of the Setting Sun Challenger
 A{"TheGreatWall", 6894}
 
 -- Legacy: Challenge Conqueror
-A{"TheGreatWall", 6920, criterion=19866} -- Gate of the Setting Sun
+A{"TheGreatWall", 6920, 0.490, 0.610, criterion=19866, floor=1} -- Gate of the Setting Sun
 
 -- Feats of Strength: Challenge Master: Gate of the Setting Sun
-A{"TheGreatWall", 8434}
+A{"TheGreatWall", 8434, 0.490, 0.610, floor=1}
 
 -- Feats of Strength: Realm First! Obsidian Slayer
 A{"TheObsidianSanctum", 456, 0.508, 0.478}

@@ -3291,13 +3291,13 @@ A{"TheCapeOfStranglethorn", 10015, 0.465, 0.261, criterion=27752, note="from Are
 A{"TheCapeOfStranglethorn", 10016, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest"} -- Angelic
 
 -- Legacy: Gate of the Setting Sun: Bronze
-A{"TheGreatWall", 6905}
+A{"TheGreatWall", 6905, 0.490, 0.610, floor=1}
 
 -- Legacy: Gate of the Setting Sun: Silver
-A{"TheGreatWall", 6906}
+A{"TheGreatWall", 6906, 0.490, 0.610, floor=1}
 
 -- Legacy: Gate of the Setting Sun: Gold
-A{"TheGreatWall", 6907}
+A{"TheGreatWall", 6907, 0.490, 0.610, floor=1}
 
 -- Exploration/Pandaria: Between a Saurok and a Hard Place
 A{"TheHiddenPass", 6716, 0.540, 0.150, criterion=19619} -- The Defiant

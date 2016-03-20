@@ -513,19 +513,26 @@ A{"DrakTharonKeep", 2136, 0.565, 0.182, criterion=7581, floor=1} -- Consumption 
 A{"DrakTharonKeep", 2151, 0.565, 0.182, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Hydrophobia
-A{"EastTemple", 6460, 0.444, 0.188}
+A{"EastTemple", 6460, 0.444, 0.188, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Cleaning Up
 A{"EastTemple", 6475, 0.606, 0.596}
 
 -- Dungeons & Raids/Pandaria Dungeon: Seeds of Doubt
-A{"EastTemple", 6671, 0.606, 0.596}
+A{"EastTemple", 6671, 0.606, 0.596, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Temple of the Jade Serpent
 A{"EastTemple", 6757, 0.606, 0.596}
 
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Temple of the Jade Serpent
 A{"EastTemple", 6758, 0.606, 0.596}
+
+-- Dungeons & Raids: Pandaria Dungeon Hero
+A{"EastTemple", 6925, criterion=19902} -- Heroic: Temple of the Jade Serpent
+
+-- Dungeons & Raids: Glory of the Pandaria Hero
+A{"EastTemple", 6927, 0.444, 0.188, criterion=19915, floor=1} -- Hydrophobia
+A{"EastTemple", 6927, 0.606, 0.596, criterion=19917, floor=1} -- Seeds of Doubt
 
 -- Dungeons & Raids/Cataclysm Dungeon: Moon Guard
 A{"EndTime", 5995, 0.515, 0.433, floor=5}
@@ -1155,6 +1162,9 @@ A{"MogushanPalace", 6755, 0.404, 0.711, floor=3}
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Mogu'shan Palace
 A{"MogushanPalace", 6756, 0.404, 0.711, floor=3}
 
+-- Dungeons & Raids: Pandaria Dungeon Hero
+A{"MogushanPalace", 6925, criterion=19904} -- Heroic: Mogu'shan Palace
+
 -- Dungeons & Raids/Classic: Molten Core
 A{"MoltenCore", 686, 0.554, 0.552}
 
@@ -1499,6 +1509,9 @@ A{"ScarletHalls", 6684}
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Scarlet Halls
 A{"ScarletHalls", 6760}
 
+-- Dungeons & Raids: Pandaria Dungeon Hero
+A{"ScarletHalls", 6925, criterion=19907} -- Heroic: Scarlet Halls
+
 -- Dungeons & Raids/Classic: Scarlet Halls
 A{"ScarletHalls", 7413}
 
@@ -1510,6 +1523,9 @@ A{"ScarletMonastery", 1283, 0.490, 0.804, criterion=3948, floor=2} -- Scarlet Mo
 
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Scarlet Monastery
 A{"ScarletMonastery", 6761, 0.490, 0.804, floor=2}
+
+-- Dungeons & Raids: Pandaria Dungeon Hero
+A{"ScarletMonastery", 6925, criterion=19908} -- Heroic: Scarlet Monastery
 
 -- Dungeons & Raids/Pandaria Dungeon: Burning Man
 A{"ScarletMonastery", 6928, 0.493, 0.524, floor=2}
@@ -1537,6 +1553,9 @@ A{"Scholomance", 6531}
 
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Scholomance
 A{"Scholomance", 6762}
+
+-- Dungeons & Raids: Pandaria Dungeon Hero
+A{"Scholomance", 6925, criterion=19909} -- Heroic: Scholomance
 
 -- Dungeons & Raids/The Burning Crusade: Sethekk Halls
 A{"SethekkHalls", 653, 0.326, 0.276, floor=2}
@@ -1605,6 +1624,12 @@ A{"ShadowpanHideout", 6472, 0.473, 0.607, floor=4}
 -- Dungeons & Raids/Pandaria Dungeon: Respect
 A{"ShadowpanHideout", 6477, 0.600, 0.640, criterion=19133, floor=3} -- Bow to 20 Shado-pan Initiates.
 
+-- Dungeons & Raids: Pandaria Dungeon Hero
+A{"ShadowpanHideout", 6925, criterion=19905} -- Heroic: Shado-Pan Monastery
+
+-- Dungeons & Raids: Glory of the Pandaria Hero
+A{"ShadowpanHideout", 6927, criterion=19924} -- Respect
+
 -- Dungeons & Raids/Pandaria Dungeon: Return to Sender
 A{"SiegeofNiuzaoTemple", 6485}
 
@@ -1616,6 +1641,9 @@ A{"SiegeofNiuzaoTemple", 6763}
 
 -- Dungeons & Raids/Pandaria Dungeon: Run with the Wind
 A{"SiegeofNiuzaoTemple", 6822}
+
+-- Dungeons & Raids: Pandaria Dungeon Hero
+A{"SiegeofNiuzaoTemple", 6925, criterion=19910} -- Heroic: Siege of Niuzao Temple
 
 -- Dungeons & Raids/Pandaria Dungeon: Siege of Niuzao Temple
 A{"SiegeofNiuzaoTemple", 10011}
@@ -1656,6 +1684,14 @@ A{"StormstoutBrewery", 6456, 0.490, 0.520, floor=4}
 
 -- Dungeons & Raids/Pandaria Dungeon: Stormstout Brewery
 A{"StormstoutBrewery", 6457, 0.490, 0.520, floor=4}
+
+-- Dungeons & Raids: Pandaria Dungeon Hero
+A{"StormstoutBrewery", 6925, criterion=19903} -- Heroic: Stormstout Brewery
+
+-- Dungeons & Raids: Glory of the Pandaria Hero
+A{"StormstoutBrewery", 6927, criterion=19919} -- Keep Rollin' Rollin' Rollin'
+A{"StormstoutBrewery", 6927, criterion=19920} -- How Did He Get Up There?
+A{"StormstoutBrewery", 6927, criterion=19921} -- Ling-Ting's Herbal Journey
 
 -- Dungeons & Raids/Classic: Stratholme
 A{"Stratholme", 646, 0.386, 0.200, criterion=18471, floor=2} -- Lord Aurius Rivendare
@@ -1980,16 +2016,23 @@ A{"TheForgeofSouls", 4522, 0.440, 0.510}
 A{"TheForgeofSouls", 4523, 0.440, 0.130}
 
 -- Dungeons & Raids/Pandaria Dungeon: Conscriptinator
-A{"TheGreatWall", 6476}
+A{"TheGreatWall", 6476, 0.537, 0.530, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Bomberman
-A{"TheGreatWall", 6479, criterion=19135} -- Trigger 15 explosions within 15 seconds.
+A{"TheGreatWall", 6479, 0.462, 0.879, criterion=19135, floor=1} -- Trigger 15 explosions within 15 seconds.
 
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Gate of the Setting Sun
-A{"TheGreatWall", 6759}
+A{"TheGreatWall", 6759, 0.490, 0.610, floor=1}
+
+-- Dungeons & Raids: Pandaria Dungeon Hero
+A{"TheGreatWall", 6925, 0.490, 0.610, criterion=19906, floor=1} -- Heroic: Gate of the Setting Sun
+
+-- Dungeons & Raids: Glory of the Pandaria Hero
+A{"TheGreatWall", 6927, 0.462, 0.879, criterion=19927, floor=1} -- Bomberman
+A{"TheGreatWall", 6927, 0.537, 0.530, criterion=19928, floor=1} -- Conscriptinator
 
 -- Dungeons & Raids/Pandaria Dungeon: Gate of the Setting Sun
-A{"TheGreatWall", 10010}
+A{"TheGreatWall", 10010, 0.490, 0.610, floor=1}
 
 -- Dungeons & Raids/The Burning Crusade: The Mechanar
 A{"TheMechanar", 658, 0.271, 0.610, floor=2}
