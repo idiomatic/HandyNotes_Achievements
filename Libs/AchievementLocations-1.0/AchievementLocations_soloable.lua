@@ -1639,22 +1639,22 @@ A{"Skywall", 5289}
 A{"Skywall", 5506, criterion=13568} -- Heroic: The Vortex Pinnacle
 
 -- Dungeons & Raids/Pandaria Dungeon: Keep Rollin' Rollin' Rollin'
-A{"StormstoutBrewery", 6089}
+A{"StormstoutBrewery", 6089, 0.550, 0.490, floor=2}
 
 -- Dungeons & Raids/Pandaria Dungeon: How Did He Get Up There?
-A{"StormstoutBrewery", 6400}
+A{"StormstoutBrewery", 6400, 0.230, 0.670, floor=3}
 
 -- Dungeons & Raids/Pandaria Dungeon: Ling-Ting's Herbal Journey
 A{"StormstoutBrewery", 6402}
 
 -- Dungeons & Raids/Pandaria Dungeon: Hopocalypse Now!
-A{"StormstoutBrewery", 6420}
+A{"StormstoutBrewery", 6420, 0.790, 0.820, floor=2}
 
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Stormstout Brewery
-A{"StormstoutBrewery", 6456}
+A{"StormstoutBrewery", 6456, 0.490, 0.520, floor=4}
 
 -- Dungeons & Raids/Pandaria Dungeon: Stormstout Brewery
-A{"StormstoutBrewery", 6457}
+A{"StormstoutBrewery", 6457, 0.490, 0.520, floor=4}
 
 -- Dungeons & Raids/Classic: Stratholme
 A{"Stratholme", 646, 0.386, 0.200, criterion=18471, floor=2} -- Lord Aurius Rivendare
