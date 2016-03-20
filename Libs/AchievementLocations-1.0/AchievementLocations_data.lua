@@ -2008,13 +2008,13 @@ A{"LochModan", 5478, 0.400, 0.390, criterion=15888, note="30% drop rate from ope
 A{"LochModan", 9924, 0.220, 0.720, criterion=27960} -- Valley of Kings
 
 -- Legacy: Mogu'shan Palace: Bronze
-A{"MogushanPalace", 6899}
+A{"MogushanPalace", 6899, 0.404, 0.711, floor=3}
 
 -- Legacy: Mogu'shan Palace: Silver
-A{"MogushanPalace", 6900}
+A{"MogushanPalace", 6900, 0.404, 0.711, floor=3}
 
 -- Legacy: Mogu'shan Palace: Gold
-A{"MogushanPalace", 6901}
+A{"MogushanPalace", 6901, 0.404, 0.711, floor=3}
 
 -- Dungeons & Raids/Pandaria Raid: Show Me Your Moves!
 A{"MogushanVaults", 6455}

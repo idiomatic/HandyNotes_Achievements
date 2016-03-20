@@ -15,6 +15,9 @@ A{"Gundrak", 2136, 0.465, 0.270, criterion=7584} -- Share The Love
 -- Dungeons & Raids/Lich King Dungeon: Share The Love
 A{"Gundrak", 2152, 0.465, 0.270}
 
+-- Dungeons & Raids/Pandaria Dungeon: What Does This Button Do?
+A{"MogushanPalace", 6736, 0.404, 0.711, floor=3}
+
 -- Dungeons & Raids/Pandaria Dungeon: School's Out Forever
 A{"Scholomance", 6821, criterion=19807} -- Kill 50 Expired Test Subjects in 20 seconds
 

@@ -1140,19 +1140,20 @@ A{"Maraudon", 640, 0.258, 0.788, floor=2}
 A{"Maraudon", 1283, 0.258, 0.788, criterion=3951, floor=2} -- Maraudon
 
 -- Dungeons & Raids/Pandaria Dungeon: Glintrok N' Roll
-A{"MogushanPalace", 6478}
+A{"MogushanPalace", 6478, 0.448, 0.758, floor=2}
 
 -- Dungeons & Raids/Pandaria Dungeon: Quarrelsome Quilen Quintet
-A{"MogushanPalace", 6713}
-
--- Dungeons & Raids/Pandaria Dungeon: What Does This Button Do?
-A{"MogushanPalace", 6736}
+A{"MogushanPalace", 6713, 0.525, 0.185, floor=1}
+A{"MogushanPalace", 6713, 0.403, 0.708, floor=1, note="random location"}
+A{"MogushanPalace", 6713, 0.266, 0.307, floor=2}
+A{"MogushanPalace", 6713, 0.453, 0.917, floor=2}
+A{"MogushanPalace", 6713, 0.575, 0.464, floor=3}
 
 -- Dungeons & Raids/Pandaria Dungeon: Mogu'shan Palace
-A{"MogushanPalace", 6755}
+A{"MogushanPalace", 6755, 0.404, 0.711, floor=3}
 
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Mogu'shan Palace
-A{"MogushanPalace", 6756}
+A{"MogushanPalace", 6756, 0.404, 0.711, floor=3}
 
 -- Dungeons & Raids/Classic: Molten Core
 A{"MoltenCore", 686, 0.554, 0.552}
