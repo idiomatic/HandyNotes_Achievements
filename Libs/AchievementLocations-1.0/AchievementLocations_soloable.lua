@@ -108,31 +108,31 @@ A{"BlackfathomDeeps", 632, 0.855, 0.864, floor=2}
 A{"BlackfathomDeeps", 1283, 0.855, 0.864, criterion=3943, floor=2} -- Blackfathom Deeps
 
 -- Dungeons & Raids/Cataclysm Dungeon: Blackrock Caverns
-A{"BlackrockCaverns", 4833}
+A{"BlackrockCaverns", 4833, floor=2}
 
 -- Dungeons & Raids: Glory of the Cataclysm Hero
-A{"BlackrockCaverns", 4845, criterion=15248} -- Too Hot to Handle
-A{"BlackrockCaverns", 4845, criterion=15247} -- Arrested Development
-A{"BlackrockCaverns", 4845, criterion=15249} -- Ascendant Descending
-A{"BlackrockCaverns", 4845, criterion=13555} -- Crushing Bones and Cracking Skulls
+A{"BlackrockCaverns", 4845, criterion=15248, floor=2} -- Too Hot to Handle
+A{"BlackrockCaverns", 4845, criterion=15247, floor=2} -- Arrested Development
+A{"BlackrockCaverns", 4845, criterion=15249, floor=2} -- Ascendant Descending
+A{"BlackrockCaverns", 4845, 0.500, 0.700, criterion=13555, floor=1} -- Crushing Bones and Cracking Skulls
 
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: Blackrock Caverns
-A{"BlackrockCaverns", 5060}
+A{"BlackrockCaverns", 5060, floor=2}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Crushing Bones and Cracking Skulls
-A{"BlackrockCaverns", 5281}
+A{"BlackrockCaverns", 5281, 0.500, 0.700, floor=1}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Arrested Development
-A{"BlackrockCaverns", 5282}
+A{"BlackrockCaverns", 5282, floor=2}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Too Hot to Handle
-A{"BlackrockCaverns", 5283}
+A{"BlackrockCaverns", 5283, floor=2}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Ascendant Descending
-A{"BlackrockCaverns", 5284}
+A{"BlackrockCaverns", 5284, floor=2}
 
 -- Dungeons & Raids: Defender of a Shattered World
-A{"BlackrockCaverns", 5506, criterion=13550} -- Heroic: Blackrock Caverns
+A{"BlackrockCaverns", 5506, criterion=13550, floor=2} -- Heroic: Blackrock Caverns
 
 -- Dungeons & Raids/Classic: Blackrock Depths
 A{"BlackrockDepths", 642, 0.909, 0.118, floor=2}
@@ -1956,7 +1956,7 @@ A{"TheDeadmines", 5371, 0.654, 0.402, floor=2}
 A{"TheDeadmines", 5506, 0.604, 0.455, criterion=14383, floor=2} -- Heroic: Deadmines
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"TheDeadmines", 9643, criterion=19598} -- Parrot Cage (Green Wing Macaw)
+A{"TheDeadmines", 9643, criterion="Parrot Cage (Green Wing Macaw)"} -- Parrot Cage (Green Wing Macaw)
 
 -- Dungeons & Raids/Lich King Raid: The Spellweaver's Downfall (10 player)
 A{"TheEyeofEternity", 622, 0.368, 0.518}
@@ -2919,7 +2919,7 @@ A{"WailingCaverns", 630, 0.345, 0.137}
 A{"WailingCaverns", 1283, 0.345, 0.137, criterion=3941} -- Wailing Caverns
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"WailingCaverns", 9643, 0.385, 0.360, criterion=19598, note="from Deviate Ravager or Guardian"} -- Deviate Hatchling
+A{"WailingCaverns", 9643, 0.385, 0.360, criterion="Deviate Hatchling", note="from Deviate Ravager or Guardian"} -- Deviate Hatchling
 
 -- Dungeons & Raids/Cataclysm Dungeon: That's Not Canon!
 A{"WellofEternity", 6070, 0.870, 0.470}

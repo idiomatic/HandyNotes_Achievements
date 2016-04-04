@@ -116,7 +116,7 @@ A{"Barrens", 8348, 0.590, 0.530, criterion=23455} -- Dagra the Fierce
 A{"Barrens", 8397, criterion=23581} -- Cheetah Cub
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"Barrens", 9643, criterion=19598} -- Leaping Hatchling
+A{"Barrens", 9643, criterion="Leaping Hatchling"} -- Leaping Hatchling
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"BladesEdgeMountains", 6558, criterion=21575} -- Blade's Edge Mountains
@@ -207,7 +207,7 @@ A{"BurningSteppes", 6613, criterion=21423} -- Burning Steppes
 A{"BurningSteppes", 8348, 0.260, 0.480, criterion=23451} -- Durin Darkhammer
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"BurningSteppes", 9643, criterion=19598} -- Tiny Flamefly
+A{"BurningSteppes", 9643, criterion="Tiny Flamefly"} -- Tiny Flamefly
 
 -- Pet Battles: Taming Northrend
 A{"CrystalsongForest", 6605, 0.500, 0.590, criterion=21849} -- Nearly Headless Jacob
@@ -246,14 +246,14 @@ A{"Darkshore", 6585, criterion=21710, note="zone exclusive\nalong coast"} -- Shi
 A{"Darkshore", 6612, criterion=21452} -- Darkshore
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"Darkshore", 9643, criterion=19598} -- Withers
+A{"Darkshore", 9643, criterion="Withers"} -- Withers
 
 -- Pet Battles/Battle: Big City Pet Brawlin' - Alliance
 A{"Darnassus", 6584, criterion=19847} -- Darnassus
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"Darnassus", 9643, criterion=19598} -- Hawk Owl
-A{"Darnassus", 9643, criterion=19598} -- Great Horned Owl
+A{"Darnassus", 9643, criterion="Hawk Owl"} -- Hawk Owl
+A{"Darnassus", 9643, criterion="Great Horned Owl"} -- Great Horned Owl
 
 -- Pet Battles/Collect: Eastern Kingdoms Safari
 A{"DeadwindPass", 6586, 0.450, 0.730, criterion=21628, note="zone exclusive\nspawn exactly at midnight server time and despawn at 9am\nfound underground in the Master's Cellar\nuse either of the cellar entrances in the town"} -- Restless Shadeling
@@ -271,7 +271,7 @@ A{"DeadwindPass", 8348, 0.400, 0.760, criterion=23452} -- Grand Master Lydia Acc
 A{"DeadwindPass", 9069, 0.402, 0.764, criterion=26988} -- Lydia Accoste
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"DeadwindPass", 9643, criterion=19598} -- Arcane eye
+A{"DeadwindPass", 9643, criterion="Arcane eye"} -- Arcane eye
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"Deepholm", 6558, criterion=21586} -- Deepholm
@@ -385,7 +385,7 @@ A{"DunMorogh", 8397, criterion=23593} -- Snow Cub
 A{"DunMorogh", 8397, 0.280, 0.350, criterion=23585} -- Fluxfire Feline
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"DunMorogh", 9643, 0.710, 0.480, criterion=19598, item="7560", note="from Milli Featherwhistle\nGnomeregon exalted"} -- Rabbit Crate (Snowshoe)
+A{"DunMorogh", 9643, 0.710, 0.480, criterion="Rabbit Crate (Snowshoe)", item="7560", note="from Milli Featherwhistle\nGnomeregon exalted"} -- Rabbit Crate (Snowshoe)
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"Durotar", 6558, criterion=21379} -- Durotar
@@ -436,13 +436,13 @@ A{"Duskwood", 6613, criterion=21386} -- Duskwood
 A{"Duskwood", 8348, 0.200, 0.450, criterion=23444} -- Eric Davidson
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"Duskwood", 9643, criterion=19598} -- Rat Snake
-A{"Duskwood", 9643, criterion=19598} -- Mouse
-A{"Duskwood", 9643, criterion=19598} -- Chicken Egg
-A{"Duskwood", 9643, criterion=19598} -- Skunk
-A{"Duskwood", 9643, criterion=19598} -- Dusk Spiderling
-A{"Duskwood", 9643, criterion=19598} -- Black Rat
-A{"Duskwood", 9643, criterion=19598} -- Widow Spiderling
+A{"Duskwood", 9643, criterion="Rat Snake"} -- Rat Snake
+A{"Duskwood", 9643, criterion="Mouse"} -- Mouse
+A{"Duskwood", 9643, criterion="Chicken Egg"} -- Chicken Egg
+A{"Duskwood", 9643, criterion="Skunk"} -- Skunk
+A{"Duskwood", 9643, criterion="Dusk Spiderling"} -- Dusk Spiderling
+A{"Duskwood", 9643, criterion="Black Rat"} -- Black Rat
+A{"Duskwood", 9643, criterion="Widow Spiderling"} -- Widow Spiderling
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"Dustwallow", 6558, criterion=21544} -- Dustwallow Marsh
@@ -487,7 +487,7 @@ A{"EasternPlaguelands", 6613, criterion=21430} -- Eastern Plaguelands
 A{"EasternPlaguelands", 8348, 0.670, 0.520, criterion=23448} -- Deiza Plaguehorn
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"EasternPlaguelands", 9643, criterion=19598, item="50586"} -- Mr. Grubbs
+A{"EasternPlaguelands", 9643, criterion="Mr. Grubbs", item="50586"} -- Mr. Grubbs
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"Elwynn", 6558, criterion=21548} -- Elwynn Forest
@@ -528,15 +528,15 @@ A{"Elwynn", 8397, 0.440, 0.530, criterion=23587, note="from Donni Anthania"} -- 
 A{"Elwynn", 8397, 0.440, 0.530, criterion=23592, note="from Donni Anthania"} -- Silver Tabby Cat
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"Elwynn", 9643, criterion=19598} -- Black Lamb
-A{"Elwynn", 9643, 0.420, 0.650, criterion=19598, note="from Donni Anthania"} -- Cat Carrier (Bombay)
-A{"Elwynn", 9643, 0.420, 0.650, criterion=19598, note="from Donni Anthania"} -- Cat Carrier (Cornish Rex)
-A{"Elwynn", 9643, 0.420, 0.650, criterion=19598, note="from Donni Anthania"} -- Cat Carrier (Orange Tabby)
-A{"Elwynn", 9643, 0.420, 0.650, criterion=19598, note="from Donni Anthania"} -- Cat Carrier (Silver Tabby)
-A{"Elwynn", 9643, 0.420, 0.650, criterion=19598, note="around Donni Anthania"} -- Cat
-A{"Elwynn", 9643, criterion=19598} -- Fawn
-A{"Elwynn", 9643, criterion=19598} -- Stormwind Rat
-A{"Elwynn", 9643, criterion=19598} -- Small Frog
+A{"Elwynn", 9643, criterion="Black Lamb"} -- Black Lamb
+A{"Elwynn", 9643, 0.420, 0.650, criterion="Cat Carrier (Bombay)", note="from Donni Anthania"} -- Cat Carrier (Bombay)
+A{"Elwynn", 9643, 0.420, 0.650, criterion="Cat Carrier (Cornish Rex)", note="from Donni Anthania"} -- Cat Carrier (Cornish Rex)
+A{"Elwynn", 9643, 0.420, 0.650, criterion="Cat Carrier (Orange Tabby)", note="from Donni Anthania"} -- Cat Carrier (Orange Tabby)
+A{"Elwynn", 9643, 0.420, 0.650, criterion="Cat Carrier (Silver Tabby)", note="from Donni Anthania"} -- Cat Carrier (Silver Tabby)
+A{"Elwynn", 9643, 0.420, 0.650, criterion="Cat", note="around Donni Anthania"} -- Cat
+A{"Elwynn", 9643, criterion="Fawn"} -- Fawn
+A{"Elwynn", 9643, criterion="Stormwind Rat"} -- Stormwind Rat
+A{"Elwynn", 9643, criterion="Small Frog"} -- Small Frog
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"EversongWoods", 6558, criterion=21570} -- Eversong Woods
@@ -700,9 +700,9 @@ A{"HillsbradFoothills", 6613, criterion=21435} -- Hillsbrad Foothills
 A{"HillsbradFoothills", 8397, criterion=23577, note="0.01% drop rate"} -- Black Tabby Cat
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"HillsbradFoothills", 9643, criterion=19598, item="7383", note="rare drop"} -- Cat Carrier (Black Tabby)
-A{"HillsbradFoothills", 9643, 0.340, 0.740, criterion=19598, item="51090", note="from Lawn of the Dead"} -- Brazie's Sunflower Seeds
-A{"HillsbradFoothills", 9643, 0.300, 0.370, criterion=19598, item="68806", note="rare drop\nzone exclusive"} -- Lofty Libram
+A{"HillsbradFoothills", 9643, criterion="Cat Carrier (Black Tabby)", item="7383", note="rare drop"} -- Cat Carrier (Black Tabby)
+A{"HillsbradFoothills", 9643, 0.340, 0.740, criterion="Brazie's Sunflower Seeds", item="51090", note="from Lawn of the Dead"} -- Brazie's Sunflower Seeds
+A{"HillsbradFoothills", 9643, 0.300, 0.370, criterion="Lofty Libram", item="68806", note="rare drop\nzone exclusive"} -- Lofty Libram
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"Hinterlands", 6558, criterion=21564} -- The Hinterlands
@@ -992,10 +992,10 @@ A{"Redridge", 6613, criterion=21385} -- Redridge Mountains
 A{"Redridge", 8348, 0.330, 0.530, criterion=23420} -- Lindsay
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"Redridge", 9643, criterion=19598} -- Mountain Cottontail
-A{"Redridge", 9643, criterion=19598} -- Roach
-A{"Redridge", 9643, criterion=19598} -- Redridge Rat
-A{"Redridge", 9643, criterion=19598} -- Fledgling Buzzard
+A{"Redridge", 9643, criterion="Mountain Cottontail"} -- Mountain Cottontail
+A{"Redridge", 9643, criterion="Roach"} -- Roach
+A{"Redridge", 9643, criterion="Redridge Rat"} -- Redridge Rat
+A{"Redridge", 9643, criterion="Fledgling Buzzard"} -- Fledgling Buzzard
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"SearingGorge", 6558, criterion=21556} -- Searing Gorge
@@ -1179,9 +1179,9 @@ A{"StormwindCity", 6586, criterion=21640} -- Sea Gull
 A{"StormwindCity", 8397, criterion=23594, note="from Lil Timmy"} -- White Kitten
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"StormwindCity", 9643, criterion=19598, item="10679", note="from Lil Timmy"} -- Cat Carrier (White Kitten)
-A{"StormwindCity", 9643, 0.580, 0.520, criterion=19598, item="54539"} -- Alliance Balloon
-A{"StormwindCity", 9643, criterion=19598} -- Sea Gull
+A{"StormwindCity", 9643, criterion="Cat Carrier (White Kitten)", item="10679", note="from Lil Timmy"} -- Cat Carrier (White Kitten)
+A{"StormwindCity", 9643, 0.580, 0.520, criterion="Alliance Balloon", item="54539"} -- Alliance Balloon
+A{"StormwindCity", 9643, criterion="Sea Gull"} -- Sea Gull
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"StranglethornJungle", 6558, criterion=21552} -- Stranglethorn Vale
@@ -1214,17 +1214,17 @@ A{"StranglethornJungle", 8348, 0.460, 0.400, criterion=23446} -- Steven Lisbane
 A{"StranglethornJungle", 8397, criterion=23588} -- Panther Cub
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"StranglethornJungle", 9643, criterion=19598} -- Polly
-A{"StranglethornJungle", 9643, criterion=19598} -- Crimson Moth
-A{"StranglethornJungle", 9643, criterion=19598} -- Forest Spiderling
-A{"StranglethornJungle", 9643, criterion=19598} -- Lizard Hatchling
-A{"StranglethornJungle", 9643, criterion=19598} -- Beetle
-A{"StranglethornJungle", 9643, criterion=19598} -- Tree Python
-A{"StranglethornJungle", 9643, criterion=19598} -- Strand Crab
-A{"StranglethornJungle", 9643, criterion=19598, item="35394", note="rare drop"} -- Razzashi Hatchling
-A{"StranglethornJungle", 9643, criterion=19598, item="7391", note="rare drop"} -- Parrot Cage (Hyacinth Macaw)
-A{"StranglethornJungle", 9643, 0.470, 0.110, criterion=19598, item="52894", note="from Brother Nimitz quest Bad Medicine"} -- Lashtail Hatchling
-A{"StranglethornJungle", 9643, 0.510, 0.650, criterion=19598, item="52226", note="from Brother Nimitz quest Some Good Will Come"} -- Panther Cub
+A{"StranglethornJungle", 9643, criterion="Polly"} -- Polly
+A{"StranglethornJungle", 9643, criterion="Crimson Moth"} -- Crimson Moth
+A{"StranglethornJungle", 9643, criterion="Forest Spiderling"} -- Forest Spiderling
+A{"StranglethornJungle", 9643, criterion="Lizard Hatchling"} -- Lizard Hatchling
+A{"StranglethornJungle", 9643, criterion="Beetle"} -- Beetle
+A{"StranglethornJungle", 9643, criterion="Tree Python"} -- Tree Python
+A{"StranglethornJungle", 9643, criterion="Strand Crab"} -- Strand Crab
+A{"StranglethornJungle", 9643, criterion="Razzashi Hatchling", item="35394", note="rare drop"} -- Razzashi Hatchling
+A{"StranglethornJungle", 9643, criterion="Parrot Cage (Hyacinth Macaw)", item="7391", note="rare drop"} -- Parrot Cage (Hyacinth Macaw)
+A{"StranglethornJungle", 9643, 0.470, 0.110, criterion="Lashtail Hatchling", item="52894", note="from Brother Nimitz quest Bad Medicine"} -- Lashtail Hatchling
+A{"StranglethornJungle", 9643, 0.510, 0.650, criterion="Panther Cub", item="52226", note="from Brother Nimitz quest Some Good Will Come"} -- Panther Cub
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"SwampOfSorrows", 6558, criterion=21553} -- Swamp of Sorrows
@@ -1340,17 +1340,17 @@ A{"TheCapeOfStranglethorn", 6613, criterion=21427} -- Cape of Stranglethorn
 A{"TheCapeOfStranglethorn", 8348, 0.515, 0.734, criterion=23445} -- Bill Buckler
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"TheCapeOfStranglethorn", 9643, 0.420, 0.690, criterion=19598, item="7390", note="from Narkk"} -- Parrot Cage (Cockatiel)
-A{"TheCapeOfStranglethorn", 9643, 0.420, 0.690, criterion=19598, item="7389", note="from Narkk"} -- Parrot Cage (Senegal)
-A{"TheCapeOfStranglethorn", 9643, criterion=19598, item="61324", note="when raining"} -- Baby Ape
+A{"TheCapeOfStranglethorn", 9643, 0.420, 0.690, criterion="Parrot Cage (Cockatiel)", item="7390", note="from Narkk"} -- Parrot Cage (Cockatiel)
+A{"TheCapeOfStranglethorn", 9643, 0.420, 0.690, criterion="Parrot Cage (Senegal)", item="7389", note="from Narkk"} -- Parrot Cage (Senegal)
+A{"TheCapeOfStranglethorn", 9643, criterion="Baby Ape", item="61324", note="when raining"} -- Baby Ape
 
 -- Pet Battles/Battle: Big City Pet Brawlin' - Alliance
 A{"TheExodar", 6584, criterion=19848} -- The Exodar
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"TheExodar", 9643, criterion=19598} -- Blue Moth Egg
-A{"TheExodar", 9643, criterion=19598} -- White Moth Egg
-A{"TheExodar", 9643, criterion=19598} -- Yellow Moth Egg
+A{"TheExodar", 9643, criterion="Blue Moth Egg"} -- Blue Moth Egg
+A{"TheExodar", 9643, criterion="White Moth Egg"} -- White Moth Egg
+A{"TheExodar", 9643, criterion="Yellow Moth Egg"} -- Yellow Moth Egg
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"TheJadeForest", 6558, criterion=21587} -- The Jade Forest
@@ -1664,7 +1664,7 @@ A{"WesternPlaguelands", 6560, criterion=21568} -- Western Plaguelands
 A{"WesternPlaguelands", 6613, criterion=21446} -- Western Plaguelands
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"WesternPlaguelands", 9643, 0.440, 0.680, criterion=19598, item="61826", note="zone exclusive"} -- Blighthawk
+A{"WesternPlaguelands", 9643, 0.440, 0.680, criterion="Blighthawk", item="61826", note="zone exclusive"} -- Blighthawk
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"Westfall", 6558, criterion=21549} -- Westfall
@@ -1689,10 +1689,10 @@ A{"Westfall", 6613, criterion=21384} -- Westfall
 A{"Westfall", 8348, 0.610, 0.190, criterion=23419} -- Old MacDonald
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"Westfall", 9643, criterion=19598} -- Shore Crab
-A{"Westfall", 9643, criterion=19598} -- Snake
-A{"Westfall", 9643, criterion=19598} -- Tiny Harvester
-A{"Westfall", 9643, criterion=19598, note="target chicken and /chicken repeatedly, then /cheer"} -- Chicken Egg
+A{"Westfall", 9643, criterion="Shore Crab"} -- Shore Crab
+A{"Westfall", 9643, criterion="Snake"} -- Snake
+A{"Westfall", 9643, criterion="Tiny Harvester"} -- Tiny Harvester
+A{"Westfall", 9643, criterion="Chicken Egg", note="target chicken and /chicken repeatedly, then /cheer"} -- Chicken Egg
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"Wetlands", 6558, criterion=21560} -- Wetlands
@@ -1714,8 +1714,8 @@ A{"Wetlands", 6586, criterion=21689, note="zone exclusive\nscarce\nfound near Mi
 A{"Wetlands", 6613, criterion=21447} -- Wetlands
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"Wetlands", 9643, criterion=19598, item="7544"} -- Tiny Crimson Whelpling
-A{"Wetlands", 9643, 0.690, 0.290, criterion=19598, item="35398"} -- Razormaw Hatchling
+A{"Wetlands", 9643, criterion="Tiny Crimson Whelpling", item="7544"} -- Tiny Crimson Whelpling
+A{"Wetlands", 9643, 0.690, 0.290, criterion="Razormaw Hatchling", item="35398"} -- Razormaw Hatchling
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"Winterspring", 6558, criterion=21540} -- Winterspring
@@ -1767,7 +1767,7 @@ A{"Zangarmarsh", 8348, 0.170, 0.500, criterion=23469} -- Ras'an
 A{"Zangarmarsh", 9069, 0.172, 0.504, criterion=26997} -- Ras'an
 
 -- Pet Battles/Collect: So. Many. Pets.
-A{"ZulAman", 9643, criterion=19598, item="24480", note="use Amani Hex Stick for chance of Mojo"} -- Mojo
+A{"ZulAman", 9643, criterion="Mojo", item="24480", note="use Amani Hex Stick for chance of Mojo"} -- Mojo
 
 -- Pet Battles/Battle: Local Pet Mauler
 A{"ZulDrak", 6558, criterion=21583} -- Zul'Drak

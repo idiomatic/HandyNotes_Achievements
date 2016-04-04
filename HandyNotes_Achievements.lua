@@ -252,11 +252,11 @@ function HNA:Valid(row)
     if completed and (earnedByMe or not HandyNotes_Achievements_ShowJustMine) then return false end
 
     if type(row.criterion) == "number" then
-        _, _, completed = GetAchievementCriteriaInfoByID(achievementID, row.criterion)
-        if completed then return false end
+        local criteriaDescription, _, completed = GetAchievementCriteriaInfoByID(achievementID, row.criterion)
+        if completed or not criteriaDescription then return false end
     elseif type(row.criterion) == "string" then
-        _, _, completed = HNA:GetAchievementCriteriaInfoByDescription(achievementID, row.criterion)
-        if completed then return false end
+        local criteriaDescription, _, completed = HNA:GetAchievementCriteriaInfoByDescription(achievementID, row.criterion)
+        if completed or not criteriaDescription then return false end
     end
 
     if row.quest then

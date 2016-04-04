@@ -41,7 +41,7 @@ A{"Ashenvale", 10016, 0.565, 0.493, criterion=27755, note="from Lost Sentinel's 
 A{"Aszhara", 878, criterion=1837} -- 103 Pound Mightfish
 
 -- General: To All The Squirrels I've Loved Before
-A{"Aszhara", 1206, 0.318, 0.716, criterion=0, note="also Duskwood"} -- Skunk
+A{"Aszhara", 1206, 0.318, 0.716, criterion="Skunk", note="also Duskwood"} -- Skunk
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Aszhara", 1678, criterion=15232} -- Darkshore/Azshara
@@ -80,8 +80,8 @@ A{"BaradinHold", 5489, criterion=15976} -- Pit Lord Argaloth
 A{"BaradinHold", 6045}
 
 -- General: To All The Squirrels I've Loved Before
-A{"Barrens", 1206, 0.526, 0.556, criterion=0} -- Gazelle
-A{"Barrens", 1206, 0.614, 0.448, criterion=0} -- Prairie Dog
+A{"Barrens", 1206, 0.526, 0.556, criterion="Gazelle"} -- Gazelle
+A{"Barrens", 1206, 0.614, 0.448, criterion="Prairie Dog"} -- Prairie Dog
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Barrens", 1678, criterion=15236} -- Bloodmyst/North Barrens
@@ -214,7 +214,7 @@ A{"BurningSteppes", 4901, criterion=13709} -- Burning Steppes
 A{"BurningSteppes", 9924, 0.200, 0.330, criterion=27968} -- Blackrock Mountain
 
 -- General: To All The Squirrels I've Loved Before
-A{"Dalaran", 1206, 0.496, 0.636, criterion=0} -- Squirrel
+A{"Dalaran", 1206, 0.496, 0.636, criterion="Squirrel"} -- Squirrel
 
 -- Professions/Fishing: There's Gold In That There Fountain
 A{"Dalaran", 1957, 0.525, 0.675, criterion=7249} -- Chromie's Gold Coin
@@ -445,8 +445,8 @@ A{"Dragonblight", 9924, 0.600, 0.530, criterion=27880} -- Wyrmrest Temple
 
 -- General: To All the Squirrels I Once Caressed?
 A{"DreadWastes", 6350, 0.640, 0.202, criterion=20821, note="zone exclusive"} -- Clouded Hedgehog
-A{"DreadWastes", 6350, 0.255, 0.656, criterion=0, note="zone exclusive"} -- Emperor Crab
-A{"DreadWastes", 6350, 0.558, 0.180, criterion=0, note="zone exclusive"} -- Resilient Roach
+A{"DreadWastes", 6350, 0.255, 0.656, criterion="Emperor Crab", note="zone exclusive"} -- Emperor Crab
+A{"DreadWastes", 6350, 0.558, 0.180, criterion="Resilient Roach", note="zone exclusive"} -- Resilient Roach
 
 -- Quests/Pandaria: Dread Haste Makes Dread Waste
 A{"DreadWastes", 6540, criterion=20435} -- Like a Deck Boss
@@ -570,41 +570,41 @@ A{"DreadWastes", 7316, 0.430, 0.280, criterion=21008} -- Essence of Terror
 A{"DreadWastes", 7321, 0.666, 0.142, criterion=21203} -- Krik'thik Hiveling
 
 -- Exploration/Pandaria: A Worthy Opponent
-A{"DreadWastes", 7437, 0.550, 0.630, criterion=0} -- Ik-Ik the Nimble
-A{"DreadWastes", 7437, 0.640, 0.590, criterion=0} -- Nalash Verdantis
-A{"DreadWastes", 7437, 0.360, 0.310, criterion=0, note="or thereabouts"} -- Gar'lok
-A{"DreadWastes", 7437, 0.720, 0.380, criterion=0} -- Karr the Darkener
-A{"DreadWastes", 7437, 0.730, 0.220, criterion=0} -- Krol the Blade
-A{"DreadWastes", 7437, 0.350, 0.230, criterion=0} -- Ai-Li Skymirror
-A{"DreadWastes", 7437, 0.390, 0.620, criterion=0, note="or thereabouts"} -- Omnis Grinlok
-A{"DreadWastes", 7437, 0.250, 0.290, criterion=0} -- Dak the Breaker
+A{"DreadWastes", 7437, 0.550, 0.630, criterion="Hozen"} -- Ik-Ik the Nimble
+A{"DreadWastes", 7437, 0.640, 0.590, criterion="Jinyu"} -- Nalash Verdantis
+A{"DreadWastes", 7437, 0.360, 0.310, criterion="Mantid", note="or thereabouts"} -- Gar'lok
+A{"DreadWastes", 7437, 0.720, 0.380, criterion="Mogu Sorcerer"} -- Karr the Darkener
+A{"DreadWastes", 7437, 0.730, 0.220, criterion="Mogu Warrior"} -- Krol the Blade
+A{"DreadWastes", 7437, 0.350, 0.230, criterion="Pandaren"} -- Ai-Li Skymirror
+A{"DreadWastes", 7437, 0.390, 0.620, criterion="Saurok", note="or thereabouts"} -- Omnis Grinlok
+A{"DreadWastes", 7437, 0.250, 0.290, criterion="Yaungol"} -- Dak the Breaker
 
 -- Exploration/Pandaria: Could We Find More Like That?
-A{"DreadWastes", 7438, 0.550, 0.630, criterion=0} -- Ik-Ik the Nimble
-A{"DreadWastes", 7438, 0.640, 0.590, criterion=0} -- Nalash Verdantis
-A{"DreadWastes", 7438, 0.360, 0.310, criterion=0, note="or thereabouts"} -- Gar'lok
-A{"DreadWastes", 7438, 0.720, 0.380, criterion=0} -- Karr the Darkener
-A{"DreadWastes", 7438, 0.730, 0.220, criterion=0} -- Krol the Blade
-A{"DreadWastes", 7438, 0.350, 0.230, criterion=0} -- Ai-Li Skymirror
-A{"DreadWastes", 7438, 0.390, 0.620, criterion=0, note="or thereabouts"} -- Omnis Grinlok
-A{"DreadWastes", 7438, 0.250, 0.290, criterion=0} -- Dak the Breaker
+A{"DreadWastes", 7438, 0.550, 0.630, criterion="Hozen"} -- Ik-Ik the Nimble
+A{"DreadWastes", 7438, 0.640, 0.590, criterion="Jinyu"} -- Nalash Verdantis
+A{"DreadWastes", 7438, 0.360, 0.310, criterion="Mantid", note="or thereabouts"} -- Gar'lok
+A{"DreadWastes", 7438, 0.720, 0.380, criterion="Mogu Sorcerer"} -- Karr the Darkener
+A{"DreadWastes", 7438, 0.730, 0.220, criterion="Mogu Warrior"} -- Krol the Blade
+A{"DreadWastes", 7438, 0.350, 0.230, criterion="Pandaren"} -- Ai-Li Skymirror
+A{"DreadWastes", 7438, 0.390, 0.620, criterion="Saurok", note="or thereabouts"} -- Omnis Grinlok
+A{"DreadWastes", 7438, 0.250, 0.290, criterion="Yaungol"} -- Dak the Breaker
 
 -- Exploration/Pandaria: Glorious!
-A{"DreadWastes", 7439, 0.550, 0.630, criterion=21053} -- Ik-Ik the Nimble
-A{"DreadWastes", 7439, 0.640, 0.590, criterion=21060} -- Nalash Verdantis
-A{"DreadWastes", 7439, 0.360, 0.310, criterion=21067, note="or thereabouts"} -- Gar'lok
-A{"DreadWastes", 7439, 0.720, 0.380, criterion=21074} -- Karr the Darkener
-A{"DreadWastes", 7439, 0.730, 0.220, criterion=21081} -- Krol the Blade
-A{"DreadWastes", 7439, 0.350, 0.230, criterion=21088} -- Ai-Li Skymirror
-A{"DreadWastes", 7439, 0.250, 0.290, criterion=21102} -- Dak the Breaker
-A{"DreadWastes", 7439, 0.390, 0.620, criterion=21095, note="or thereabouts"} -- Omnis Grinlok
+A{"DreadWastes", 7439, 0.550, 0.630, criterion="Hozen"} -- Ik-Ik the Nimble
+A{"DreadWastes", 7439, 0.640, 0.590, criterion="Jinyu"} -- Nalash Verdantis
+A{"DreadWastes", 7439, 0.360, 0.310, criterion="Mantid", note="or thereabouts"} -- Gar'lok
+A{"DreadWastes", 7439, 0.720, 0.380, criterion="Mogu Sorcerer"} -- Karr the Darkener
+A{"DreadWastes", 7439, 0.730, 0.220, criterion="Mogu Warrior"} -- Krol the Blade
+A{"DreadWastes", 7439, 0.350, 0.230, criterion="Pandaren"} -- Ai-Li Skymirror
+A{"DreadWastes", 7439, 0.250, 0.290, criterion="Saurok"} -- Dak the Breaker
+A{"DreadWastes", 7439, 0.390, 0.620, criterion="Yaungol", note="or thereabouts"} -- Omnis Grinlok
 
 -- Reputation/Pandaria: Wakener
 A{"DreadWastes", 8023, criterion=22566} -- Amber is the Color of My Energy
 
 -- General: To All The Squirrels I've Loved Before
 A{"Durotar", 1206, 0.428, 0.156, criterion=3759} -- Swine
-A{"Durotar", 1206, 0.486, 0.274, criterion=0} -- Hare
+A{"Durotar", 1206, 0.486, 0.274, criterion="Hare"} -- Hare
 
 -- Legacy: Hordebreaker
 A{"Durotar", 8306, criterion=23534} -- The Durotar Job
@@ -678,13 +678,13 @@ A{"EasternPlaguelands", 5478, 0.490, 0.650, criterion=15891, note="inland, open 
 A{"EasternPlaguelands", 9924, 0.750, 0.530, criterion=27954} -- Light's Hope Chapel
 
 -- General: To All The Squirrels I've Loved Before
-A{"Elwynn", 1206, 0.370, 0.566, criterion=0} -- Fawn
-A{"Elwynn", 1206, 0.502, 0.666, criterion=0} -- Small Frog
-A{"Elwynn", 1206, 0.340, 0.516, criterion=0} -- Rabbit
-A{"Elwynn", 1206, 0.446, 0.536, criterion=0, note="also Silvermoon City"} -- Cat
-A{"Elwynn", 1206, 0.366, 0.600, criterion=0, note="also Tirisfal Glades"} -- Chicken
+A{"Elwynn", 1206, 0.370, 0.566, criterion="Fawn"} -- Fawn
+A{"Elwynn", 1206, 0.502, 0.666, criterion="Small Frog"} -- Small Frog
+A{"Elwynn", 1206, 0.340, 0.516, criterion="Rabbit"} -- Rabbit
+A{"Elwynn", 1206, 0.446, 0.536, criterion="Cat", note="also Silvermoon City"} -- Cat
+A{"Elwynn", 1206, 0.366, 0.600, criterion="Chicken", note="also Tirisfal Glades"} -- Chicken
 A{"Elwynn", 1206, 0.352, 0.598, criterion=3746} -- Cow
-A{"Elwynn", 1206, 0.370, 0.554, criterion=0} -- Deer
+A{"Elwynn", 1206, 0.370, 0.554, criterion="Deer"} -- Deer
 
 -- Professions/Fishing: The Limnologist
 A{"Elwynn", 5478, 0.520, 0.660, criterion=15885, note="~60% open water"} -- Brilliant Smallfish
@@ -1334,9 +1334,9 @@ A{"Hyjal", 4959}
 A{"Hyjal", 5483, 0.130, 0.330, criterion=16189} -- Bounce Achievement Aura
 
 -- General: To All the Squirrels Who Cared for Me
-A{"Hyjal", 5548, 0.552, 0.182, criterion=0} -- Grotto Vole
-A{"Hyjal", 5548, 0.394, 0.440, criterion=0} -- Alpine Chipmunk
-A{"Hyjal", 5548, 0.382, 0.566, criterion=0} -- Rock Viper
+A{"Hyjal", 5548, 0.552, 0.182, criterion="Grotto Vole"} -- Grotto Vole
+A{"Hyjal", 5548, 0.394, 0.440, criterion="Alpine Chipmunk"} -- Alpine Chipmunk
+A{"Hyjal", 5548, 0.382, 0.566, criterion="Rock Viper"} -- Rock Viper
 
 -- Quests/Cataclysm: Legacy of Leyara
 A{"Hyjal", 5859, criterion=17794} -- A Ritual of Flame
@@ -1685,7 +1685,7 @@ A{"IsleoftheThunderKing", 8212, criterion=22933} -- Frayed Zandalari Journal
 A{"IsleoftheThunderKing", 8212, criterion=22934} -- Waterlogged Zandalari Journal
 
 -- General: To All the Squirrels I Once Caressed?
-A{"Krasarang", 6350, 0.496, 0.398, criterion=0, note="zone exclusive"} -- Luyu Moth
+A{"Krasarang", 6350, 0.496, 0.398, criterion="Luyu Moth", note="zone exclusive"} -- Luyu Moth
 A{"Krasarang", 6350, 0.482, 0.398, criterion=20817, note="zone exclusive"} -- Amethyst Spiderling
 
 -- Quests/Pandaria: Mighty Roamin' Krasaranger
@@ -1761,34 +1761,34 @@ A{"Krasarang", 7287, quest=30738} -- Thelonius
 A{"Krasarang", 7287, quest=30739} -- Ellia Ravenmane: Redemption
 
 -- Exploration/Pandaria: A Worthy Opponent
-A{"Krasarang", 7437, 0.520, 0.890, criterion=0} -- Spriggin
-A{"Krasarang", 7437, 0.310, 0.380, criterion=0} -- Cournith Waterstrider
-A{"Krasarang", 7437, 0.150, 0.360, criterion=0} -- Torik-Ethis
-A{"Krasarang", 7437, 0.560, 0.350, criterion=0, note="or thereabouts"} -- Gaarn the Toxic
-A{"Krasarang", 7437, 0.670, 0.230, criterion=0} -- Qu'nas
-A{"Krasarang", 7437, 0.390, 0.550, criterion=0, note="or thereabouts"} -- Ruun Ghostpaw
-A{"Krasarang", 7437, 0.560, 0.470, criterion=0} -- Arness the Scale
-A{"Krasarang", 7437, 0.400, 0.290, criterion=0} -- Go-Kan
+A{"Krasarang", 7437, 0.520, 0.890, criterion="Hozen"} -- Spriggin
+A{"Krasarang", 7437, 0.310, 0.380, criterion="Jinyu"} -- Cournith Waterstrider
+A{"Krasarang", 7437, 0.150, 0.360, criterion="Mantid"} -- Torik-Ethis
+A{"Krasarang", 7437, 0.560, 0.350, criterion="Mogu Sorcerer", note="or thereabouts"} -- Gaarn the Toxic
+A{"Krasarang", 7437, 0.670, 0.230, criterion="Mogu Warrior"} -- Qu'nas
+A{"Krasarang", 7437, 0.390, 0.550, criterion="Pandaren", note="or thereabouts"} -- Ruun Ghostpaw
+A{"Krasarang", 7437, 0.560, 0.470, criterion="Saurok"} -- Arness the Scale
+A{"Krasarang", 7437, 0.400, 0.290, criterion="Yaungol"} -- Go-Kan
 
 -- Exploration/Pandaria: Could We Find More Like That?
-A{"Krasarang", 7438, 0.520, 0.890, criterion=0} -- Spriggin
-A{"Krasarang", 7438, 0.310, 0.380, criterion=0} -- Cournith Waterstrider
-A{"Krasarang", 7438, 0.150, 0.360, criterion=0} -- Torik-Ethis
-A{"Krasarang", 7438, 0.560, 0.350, criterion=0, note="or thereabouts"} -- Gaarn the Toxic
-A{"Krasarang", 7438, 0.670, 0.230, criterion=0} -- Qu'nas
-A{"Krasarang", 7438, 0.390, 0.550, criterion=0, note="or thereabouts"} -- Ruun Ghostpaw
-A{"Krasarang", 7438, 0.560, 0.470, criterion=0} -- Arness the Scale
-A{"Krasarang", 7438, 0.400, 0.290, criterion=0} -- Go-Kan
+A{"Krasarang", 7438, 0.520, 0.890, criterion="Hozen"} -- Spriggin
+A{"Krasarang", 7438, 0.310, 0.380, criterion="Jinyu"} -- Cournith Waterstrider
+A{"Krasarang", 7438, 0.150, 0.360, criterion="Mantid"} -- Torik-Ethis
+A{"Krasarang", 7438, 0.560, 0.350, criterion="Mogu Sorcerer", note="or thereabouts"} -- Gaarn the Toxic
+A{"Krasarang", 7438, 0.670, 0.230, criterion="Mogu Warrior"} -- Qu'nas
+A{"Krasarang", 7438, 0.390, 0.550, criterion="Pandaren", note="or thereabouts"} -- Ruun Ghostpaw
+A{"Krasarang", 7438, 0.560, 0.470, criterion="Saurok"} -- Arness the Scale
+A{"Krasarang", 7438, 0.400, 0.290, criterion="Yaungol"} -- Go-Kan
 
 -- Exploration/Pandaria: Glorious!
-A{"Krasarang", 7439, 0.520, 0.890, criterion=21050} -- Spriggin
-A{"Krasarang", 7439, 0.310, 0.380, criterion=21057} -- Cournith Waterstrider
-A{"Krasarang", 7439, 0.150, 0.360, criterion=21064} -- Torik-Ethis
-A{"Krasarang", 7439, 0.560, 0.350, criterion=21071, note="or thereabouts"} -- Gaarn the Toxic
-A{"Krasarang", 7439, 0.670, 0.230, criterion=21078} -- Qu'nas
-A{"Krasarang", 7439, 0.390, 0.550, criterion=21085, note="or thereabouts"} -- Ruun Ghostpaw
-A{"Krasarang", 7439, 0.400, 0.290, criterion=21099} -- Go-Kan
-A{"Krasarang", 7439, 0.560, 0.470, criterion=21092} -- Arness the Scale
+A{"Krasarang", 7439, 0.520, 0.890, criterion="Hozen"} -- Spriggin
+A{"Krasarang", 7439, 0.310, 0.380, criterion="Jinyu"} -- Cournith Waterstrider
+A{"Krasarang", 7439, 0.150, 0.360, criterion="Mantid"} -- Torik-Ethis
+A{"Krasarang", 7439, 0.560, 0.350, criterion="Mogu Sorcerer", note="or thereabouts"} -- Gaarn the Toxic
+A{"Krasarang", 7439, 0.670, 0.230, criterion="Mogu Warrior"} -- Qu'nas
+A{"Krasarang", 7439, 0.390, 0.550, criterion="Pandaren", note="or thereabouts"} -- Ruun Ghostpaw
+A{"Krasarang", 7439, 0.400, 0.290, criterion="Saurok"} -- Go-Kan
+A{"Krasarang", 7439, 0.560, 0.470, criterion="Yaungol"} -- Arness the Scale
 
 -- Exploration/Pandaria: Wanderers, Dreamers, and You
 A{"Krasarang", 7518, 0.720, 0.310, criterion=21694, note="9pm Pacific, Sunday"} -- Attend the Wanderer's Festival
@@ -1960,34 +1960,34 @@ A{"KunLaiSummit", 7286, criterion=20450} -- Tankiss
 A{"KunLaiSummit", 7286, criterion=20451} -- Ken-Ken
 
 -- Exploration/Pandaria: A Worthy Opponent
-A{"KunLaiSummit", 7437, 0.460, 0.620, criterion=0, note="or thereabouts"} -- Scritch
-A{"KunLaiSummit", 7437, 0.740, 0.770, criterion=0} -- Zai the Outcast
-A{"KunLaiSummit", 7437, 0.370, 0.800, criterion=0} -- Ski'thik
-A{"KunLaiSummit", 7437, 0.560, 0.430, criterion=0} -- Borginn Darkfist
-A{"KunLaiSummit", 7437, 0.580, 0.750, criterion=0} -- Havak
-A{"KunLaiSummit", 7437, 0.410, 0.420, criterion=0} -- Ahone the Wanderer
-A{"KunLaiSummit", 7437, 0.640, 0.140, criterion=0} -- Nessos the Oracle
-A{"KunLaiSummit", 7437, 0.500, 0.810, criterion=0, note="or thereabouts"} -- Korda Torros
+A{"KunLaiSummit", 7437, 0.460, 0.620, criterion="Hozen", note="or thereabouts"} -- Scritch
+A{"KunLaiSummit", 7437, 0.740, 0.770, criterion="Jinyu"} -- Zai the Outcast
+A{"KunLaiSummit", 7437, 0.370, 0.800, criterion="Mantid"} -- Ski'thik
+A{"KunLaiSummit", 7437, 0.560, 0.430, criterion="Mogu Sorcerer"} -- Borginn Darkfist
+A{"KunLaiSummit", 7437, 0.580, 0.750, criterion="Mogu Warrior"} -- Havak
+A{"KunLaiSummit", 7437, 0.410, 0.420, criterion="Pandaren"} -- Ahone the Wanderer
+A{"KunLaiSummit", 7437, 0.640, 0.140, criterion="Saurok"} -- Nessos the Oracle
+A{"KunLaiSummit", 7437, 0.500, 0.810, criterion="Yaungol", note="or thereabouts"} -- Korda Torros
 
 -- Exploration/Pandaria: Could We Find More Like That?
-A{"KunLaiSummit", 7438, 0.460, 0.620, criterion=0, note="or thereabouts"} -- Scritch
-A{"KunLaiSummit", 7438, 0.740, 0.770, criterion=0} -- Zai the Outcast
-A{"KunLaiSummit", 7438, 0.370, 0.800, criterion=0} -- Ski'thik
-A{"KunLaiSummit", 7438, 0.560, 0.430, criterion=0} -- Borginn Darkfist
-A{"KunLaiSummit", 7438, 0.580, 0.750, criterion=0} -- Havak
-A{"KunLaiSummit", 7438, 0.410, 0.420, criterion=0} -- Ahone the Wanderer
-A{"KunLaiSummit", 7438, 0.640, 0.140, criterion=0} -- Nessos the Oracle
-A{"KunLaiSummit", 7438, 0.500, 0.810, criterion=0, note="or thereabouts"} -- Korda Torros
+A{"KunLaiSummit", 7438, 0.460, 0.620, criterion="Hozen", note="or thereabouts"} -- Scritch
+A{"KunLaiSummit", 7438, 0.740, 0.770, criterion="Jinyu"} -- Zai the Outcast
+A{"KunLaiSummit", 7438, 0.370, 0.800, criterion="Mantid"} -- Ski'thik
+A{"KunLaiSummit", 7438, 0.560, 0.430, criterion="Mogu Sorcerer"} -- Borginn Darkfist
+A{"KunLaiSummit", 7438, 0.580, 0.750, criterion="Mogu Warrior"} -- Havak
+A{"KunLaiSummit", 7438, 0.410, 0.420, criterion="Pandaren"} -- Ahone the Wanderer
+A{"KunLaiSummit", 7438, 0.640, 0.140, criterion="Saurok"} -- Nessos the Oracle
+A{"KunLaiSummit", 7438, 0.500, 0.810, criterion="Yaungol", note="or thereabouts"} -- Korda Torros
 
 -- Exploration/Pandaria: Glorious!
-A{"KunLaiSummit", 7439, 0.460, 0.620, criterion=21051, note="or thereabouts"} -- Scritch
-A{"KunLaiSummit", 7439, 0.740, 0.770, criterion=21058} -- Zai the Outcast
-A{"KunLaiSummit", 7439, 0.370, 0.800, criterion=21065} -- Ski'thik
-A{"KunLaiSummit", 7439, 0.560, 0.430, criterion=21072} -- Borginn Darkfist
-A{"KunLaiSummit", 7439, 0.580, 0.750, criterion=21079} -- Havak
-A{"KunLaiSummit", 7439, 0.410, 0.420, criterion=21086} -- Ahone the Wanderer
-A{"KunLaiSummit", 7439, 0.500, 0.810, criterion=21100, note="or thereabouts"} -- Korda Torros
-A{"KunLaiSummit", 7439, 0.640, 0.140, criterion=21093} -- Nessos the Oracle
+A{"KunLaiSummit", 7439, 0.460, 0.620, criterion="Hozen", note="or thereabouts"} -- Scritch
+A{"KunLaiSummit", 7439, 0.740, 0.770, criterion="Jinyu"} -- Zai the Outcast
+A{"KunLaiSummit", 7439, 0.370, 0.800, criterion="Mantid"} -- Ski'thik
+A{"KunLaiSummit", 7439, 0.560, 0.430, criterion="Mogu Sorcerer"} -- Borginn Darkfist
+A{"KunLaiSummit", 7439, 0.580, 0.750, criterion="Mogu Warrior"} -- Havak
+A{"KunLaiSummit", 7439, 0.410, 0.420, criterion="Pandaren"} -- Ahone the Wanderer
+A{"KunLaiSummit", 7439, 0.500, 0.810, criterion="Saurok", note="or thereabouts"} -- Korda Torros
+A{"KunLaiSummit", 7439, 0.640, 0.140, criterion="Yaungol"} -- Nessos the Oracle
 
 -- Professions/Fishing: Pandarian Angler
 A{"KunLaiSummit", 7611, criterion=21968} -- Tiger Gourami
@@ -2236,7 +2236,7 @@ A{"OnyxiasLair", 9713, 0.670, 0.300, criterion=26690} -- Onyxian Drake
 A{"Orgrimmar", 150, criterion=5274} -- Orgrimmar
 
 -- General: To All The Squirrels I've Loved Before
-A{"Orgrimmar", 1206, 0.484, 0.482, criterion=0, note="also Wetlands"} -- Toad
+A{"Orgrimmar", 1206, 0.484, 0.482, criterion="Toad", note="also Wetlands"} -- Toad
 
 -- Professions/Cooking: A Bunch of Lunch
 A{"Orgrimmar", 5845, criterion=17748} -- Let's Do Lunch: Orgrimmar
@@ -3266,7 +3266,7 @@ A{"TheCapeOfStranglethorn", 1676, criterion=15208} -- Cape of Stranglethorn Ques
 A{"TheCapeOfStranglethorn", 4905, criterion=13705} -- The Cape of Stranglethorn
 
 -- General: To All the Squirrels Who Cared for Me
-A{"TheCapeOfStranglethorn", 5548, 0.428, 0.716, criterion=0, note="also Tol Barad"} -- Wharf Rat
+A{"TheCapeOfStranglethorn", 5548, 0.428, 0.716, criterion="Wharf Rat", note="also Tol Barad"} -- Wharf Rat
 
 -- Garrisons: Ten Hit Tunes
 A{"TheCapeOfStranglethorn", 9828, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest"} -- Angelic
@@ -3317,9 +3317,9 @@ A{"TheJadeForest", 6300, criterion=19354} -- The White Pawn
 A{"TheJadeForest", 6300, criterion=0} -- Tian Monestary
 
 -- General: To All the Squirrels I Once Caressed?
-A{"TheJadeForest", 6350, 0.492, 0.476, criterion=0} -- Leopard Tree Frog
-A{"TheJadeForest", 6350, 0.334, 0.506, criterion=0, note="zone exclusive"} -- Shrine Fly
-A{"TheJadeForest", 6350, 0.666, 0.850, criterion=0, note="zone exclusive"} -- Coral Adder
+A{"TheJadeForest", 6350, 0.492, 0.476, criterion="Leopard Tree Frog"} -- Leopard Tree Frog
+A{"TheJadeForest", 6350, 0.334, 0.506, criterion="Shrine Fly", note="zone exclusive"} -- Shrine Fly
+A{"TheJadeForest", 6350, 0.666, 0.850, criterion="Coral Adder", note="zone exclusive"} -- Coral Adder
 
 -- Quests/Pandaria: Upjade Complete
 A{"TheJadeForest", 6534, criterion=19332} -- The Remains of Hellscream's Fist
@@ -3413,34 +3413,34 @@ A{"TheJadeForest", 7291, 0.580, 0.430}
 A{"TheJadeForest", 7381, 0.340, 0.340, criterion=20679} -- Balance Restored
 
 -- Exploration/Pandaria: A Worthy Opponent
-A{"TheJadeForest", 7437, 0.430, 0.390, criterion=0} -- Mister Ferocious
-A{"TheJadeForest", 7437, 0.340, 0.510, criterion=0} -- Aethis
-A{"TheJadeForest", 7437, 0.400, 0.630, criterion=0} -- Krax'ik
-A{"TheJadeForest", 7437, 0.440, 0.750, criterion=0} -- Kor'nas Nightsavage
-A{"TheJadeForest", 7437, 0.470, 0.170, criterion=0, note="or thereabouts"} -- Morgrinn Crackfang
-A{"TheJadeForest", 7437, 0.570, 0.710, criterion=0} -- Urobi the Walker
-A{"TheJadeForest", 7437, 0.650, 0.740, criterion=0} -- Sarnak
-A{"TheJadeForest", 7437, 0.540, 0.460, criterion=0, note="or thereabouts"} -- Ferdinand
+A{"TheJadeForest", 7437, 0.430, 0.390, criterion="Hozen"} -- Mister Ferocious
+A{"TheJadeForest", 7437, 0.340, 0.510, criterion="Jinyu"} -- Aethis
+A{"TheJadeForest", 7437, 0.400, 0.630, criterion="Mantid"} -- Krax'ik
+A{"TheJadeForest", 7437, 0.440, 0.750, criterion="Mogu Sorcerer"} -- Kor'nas Nightsavage
+A{"TheJadeForest", 7437, 0.470, 0.170, criterion="Mogu Warrior", note="or thereabouts"} -- Morgrinn Crackfang
+A{"TheJadeForest", 7437, 0.570, 0.710, criterion="Pandaren"} -- Urobi the Walker
+A{"TheJadeForest", 7437, 0.650, 0.740, criterion="Saurok"} -- Sarnak
+A{"TheJadeForest", 7437, 0.540, 0.460, criterion="Yaungol", note="or thereabouts"} -- Ferdinand
 
 -- Exploration/Pandaria: Could We Find More Like That?
-A{"TheJadeForest", 7438, 0.430, 0.390, criterion=0} -- Mister Ferocious
-A{"TheJadeForest", 7438, 0.340, 0.510, criterion=0} -- Aethis
-A{"TheJadeForest", 7438, 0.400, 0.630, criterion=0} -- Krax'ik
-A{"TheJadeForest", 7438, 0.440, 0.750, criterion=0} -- Kor'nas Nightsavage
-A{"TheJadeForest", 7438, 0.470, 0.170, criterion=0, note="or thereabouts"} -- Morgrinn Crackfang
-A{"TheJadeForest", 7438, 0.570, 0.710, criterion=0} -- Urobi the Walker
-A{"TheJadeForest", 7438, 0.650, 0.740, criterion=0} -- Sarnak
-A{"TheJadeForest", 7438, 0.540, 0.460, criterion=0, note="or thereabouts"} -- Ferdinand
+A{"TheJadeForest", 7438, 0.430, 0.390, criterion="Hozen"} -- Mister Ferocious
+A{"TheJadeForest", 7438, 0.340, 0.510, criterion="Jinyu"} -- Aethis
+A{"TheJadeForest", 7438, 0.400, 0.630, criterion="Mantid"} -- Krax'ik
+A{"TheJadeForest", 7438, 0.440, 0.750, criterion="Mogu Sorcerer"} -- Kor'nas Nightsavage
+A{"TheJadeForest", 7438, 0.470, 0.170, criterion="Mogu Warrior", note="or thereabouts"} -- Morgrinn Crackfang
+A{"TheJadeForest", 7438, 0.570, 0.710, criterion="Pandaren"} -- Urobi the Walker
+A{"TheJadeForest", 7438, 0.650, 0.740, criterion="Saurok"} -- Sarnak
+A{"TheJadeForest", 7438, 0.540, 0.460, criterion="Yaungol", note="or thereabouts"} -- Ferdinand
 
 -- Exploration/Pandaria: Glorious!
-A{"TheJadeForest", 7439, 0.430, 0.390, criterion=21048} -- Mister Ferocious
-A{"TheJadeForest", 7439, 0.340, 0.510, criterion=21055} -- Aethis
-A{"TheJadeForest", 7439, 0.400, 0.630, criterion=21062} -- Krax'ik
-A{"TheJadeForest", 7439, 0.440, 0.750, criterion=21069} -- Kor'nas Nightsavage
-A{"TheJadeForest", 7439, 0.470, 0.170, criterion=21076, note="or thereabouts"} -- Morgrinn Crackfang
-A{"TheJadeForest", 7439, 0.570, 0.710, criterion=21083} -- Urobi the Walker
-A{"TheJadeForest", 7439, 0.540, 0.460, criterion=21097, note="or thereabouts"} -- Ferdinand
-A{"TheJadeForest", 7439, 0.650, 0.740, criterion=21090} -- Sarnak
+A{"TheJadeForest", 7439, 0.430, 0.390, criterion="Hozen"} -- Mister Ferocious
+A{"TheJadeForest", 7439, 0.340, 0.510, criterion="Jinyu"} -- Aethis
+A{"TheJadeForest", 7439, 0.400, 0.630, criterion="Mantid"} -- Krax'ik
+A{"TheJadeForest", 7439, 0.440, 0.750, criterion="Mogu Sorcerer"} -- Kor'nas Nightsavage
+A{"TheJadeForest", 7439, 0.470, 0.170, criterion="Mogu Warrior", note="or thereabouts"} -- Morgrinn Crackfang
+A{"TheJadeForest", 7439, 0.570, 0.710, criterion="Pandaren"} -- Urobi the Walker
+A{"TheJadeForest", 7439, 0.540, 0.460, criterion="Saurok", note="or thereabouts"} -- Ferdinand
+A{"TheJadeForest", 7439, 0.650, 0.740, criterion="Yaungol"} -- Sarnak
 
 -- Professions/Fishing: Pandarian Angler
 A{"TheJadeForest", 7611, criterion=21961} -- Jade Lungfish
@@ -3873,8 +3873,8 @@ A{"TolBarad", 5548, 0.488, 0.404, criterion=16215, note="zone exclusive"} -- Bar
 A{"TolBaradDailyArea", 5548, 0.688, 0.342, criterion=16223, note="zone exclusive"} -- Sassy Cat
 
 -- General: To All the Squirrels I Once Caressed?
-A{"TownlongWastes", 6350, 0.728, 0.766, criterion=0, note="zone exclusive"} -- Mongoose
-A{"TownlongWastes", 6350, 0.786, 0.780, criterion=0, note="zone exclusive"} -- Yakrat
+A{"TownlongWastes", 6350, 0.728, 0.766, criterion="Mongoose", note="zone exclusive"} -- Mongoose
+A{"TownlongWastes", 6350, 0.786, 0.780, criterion="Yakrat", note="zone exclusive"} -- Yakrat
 
 -- Quests/Pandaria: One Steppe Forward, Two Steppes Back
 A{"TownlongWastes", 6539, criterion=19372} -- Fire Camp Osul
@@ -3919,9 +3919,9 @@ A{"TownlongWastes", 7297, criterion=22172} -- Hawkmaster Nurong
 A{"TownlongWastes", 7297, criterion=22173} -- Tenwu of the Red Smoke
 A{"TownlongWastes", 7297, criterion=22171} -- Lao-Chin the Iron Belly
 A{"TownlongWastes", 7297, criterion=22170} -- Chao the Voice
-A{"TownlongWastes", 7297, criterion=22174} -- Protector Yi
-A{"TownlongWastes", 7297, criterion=22174} -- Fei Li
-A{"TownlongWastes", 7297, criterion=22174} -- Taoshi
+A{"TownlongWastes", 7297, criterion="Protector Yi"} -- Protector Yi
+A{"TownlongWastes", 7297, criterion="Fei Li"} -- Fei Li
+A{"TownlongWastes", 7297, criterion="Taoshi"} -- Taoshi
 
 -- Quests/Pandaria: Getting Around with the Shado-Pan
 A{"TownlongWastes", 7298, criterion=20453} -- Fei Li
@@ -3935,9 +3935,9 @@ A{"TownlongWastes", 7298, criterion=20458} -- Tenwu of the Red Smoke
 A{"TownlongWastes", 7298, criterion=20459} -- Lao-Chin the Iron Belly
 
 -- Quests/Pandaria: Loner and a Rebel
-A{"TownlongWastes", 7299, criterion=0} -- Omnia Mystics
-A{"TownlongWastes", 7299, criterion=0} -- Wu Kao Assassins
-A{"TownlongWastes", 7299, criterion=0} -- Blackguard Defenders
+A{"TownlongWastes", 7299, criterion="Omnia Mystics"} -- Omnia Mystics
+A{"TownlongWastes", 7299, criterion="Wu Kao Assassins"} -- Wu Kao Assassins
+A{"TownlongWastes", 7299, criterion="Blackguard Defenders"} -- Blackguard Defenders
 
 -- Quests/Pandaria: Silent Assassin
 A{"TownlongWastes", 7307}
@@ -3958,34 +3958,34 @@ A{"TownlongWastes", 7309}
 A{"TownlongWastes", 7310}
 
 -- Exploration/Pandaria: A Worthy Opponent
-A{"TownlongWastes", 7437, 0.680, 0.740, criterion=0} -- The Yowler
-A{"TownlongWastes", 7437, 0.680, 0.880, criterion=0, note="or thereabouts"} -- Eshelon
-A{"TownlongWastes", 7437, 0.480, 0.840, criterion=0, note="or thereabouts"} -- Lith'ik the Stalker
-A{"TownlongWastes", 7437, 0.540, 0.630, criterion=0} -- Norlaxx
-A{"TownlongWastes", 7437, 0.630, 0.360, criterion=0} -- Kah'tir
-A{"TownlongWastes", 7437, 0.320, 0.620, criterion=0} -- Yul Wildpaw
-A{"TownlongWastes", 7437, 0.590, 0.860, criterion=0} -- Siltriss the Sharpener
-A{"TownlongWastes", 7437, 0.680, 0.510, criterion=0, note="or thereabouts"} -- Lon the Bull
+A{"TownlongWastes", 7437, 0.680, 0.740, criterion="Hozen"} -- The Yowler
+A{"TownlongWastes", 7437, 0.680, 0.880, criterion="Jinyu", note="or thereabouts"} -- Eshelon
+A{"TownlongWastes", 7437, 0.480, 0.840, criterion="Mantid", note="or thereabouts"} -- Lith'ik the Stalker
+A{"TownlongWastes", 7437, 0.540, 0.630, criterion="Mogu Sorcerer"} -- Norlaxx
+A{"TownlongWastes", 7437, 0.630, 0.360, criterion="Mogu Warrior"} -- Kah'tir
+A{"TownlongWastes", 7437, 0.320, 0.620, criterion="Pandaren"} -- Yul Wildpaw
+A{"TownlongWastes", 7437, 0.590, 0.860, criterion="Saurok"} -- Siltriss the Sharpener
+A{"TownlongWastes", 7437, 0.680, 0.510, criterion="Yaungol", note="or thereabouts"} -- Lon the Bull
 
 -- Exploration/Pandaria: Could We Find More Like That?
-A{"TownlongWastes", 7438, 0.680, 0.740, criterion=0} -- The Yowler
-A{"TownlongWastes", 7438, 0.680, 0.880, criterion=0, note="or thereabouts"} -- Eshelon
-A{"TownlongWastes", 7438, 0.480, 0.840, criterion=0, note="or thereabouts"} -- Lith'ik the Stalker
-A{"TownlongWastes", 7438, 0.540, 0.630, criterion=0} -- Norlaxx
-A{"TownlongWastes", 7438, 0.630, 0.360, criterion=0} -- Kah'tir
-A{"TownlongWastes", 7438, 0.320, 0.620, criterion=0} -- Yul Wildpaw
-A{"TownlongWastes", 7438, 0.590, 0.860, criterion=0} -- Siltriss the Sharpener
-A{"TownlongWastes", 7438, 0.680, 0.510, criterion=0, note="or thereabouts"} -- Lon the Bull
+A{"TownlongWastes", 7438, 0.680, 0.740, criterion="Hozen"} -- The Yowler
+A{"TownlongWastes", 7438, 0.680, 0.880, criterion="Jinyu", note="or thereabouts"} -- Eshelon
+A{"TownlongWastes", 7438, 0.480, 0.840, criterion="Mantid", note="or thereabouts"} -- Lith'ik the Stalker
+A{"TownlongWastes", 7438, 0.540, 0.630, criterion="Mogu Sorcerer"} -- Norlaxx
+A{"TownlongWastes", 7438, 0.630, 0.360, criterion="Mogu Warrior"} -- Kah'tir
+A{"TownlongWastes", 7438, 0.320, 0.620, criterion="Pandaren"} -- Yul Wildpaw
+A{"TownlongWastes", 7438, 0.590, 0.860, criterion="Saurok"} -- Siltriss the Sharpener
+A{"TownlongWastes", 7438, 0.680, 0.510, criterion="Yaungol", note="or thereabouts"} -- Lon the Bull
 
 -- Exploration/Pandaria: Glorious!
-A{"TownlongWastes", 7439, 0.680, 0.740, criterion=21052} -- The Yowler
-A{"TownlongWastes", 7439, 0.680, 0.880, criterion=21059, note="or thereabouts"} -- Eshelon
-A{"TownlongWastes", 7439, 0.480, 0.840, criterion=21066, note="or thereabouts"} -- Lith'ik the Stalker
-A{"TownlongWastes", 7439, 0.540, 0.630, criterion=21073} -- Norlaxx
-A{"TownlongWastes", 7439, 0.630, 0.360, criterion=21080} -- Kah'tir
-A{"TownlongWastes", 7439, 0.320, 0.620, criterion=21087} -- Yul Wildpaw
-A{"TownlongWastes", 7439, 0.680, 0.510, criterion=21101, note="or thereabouts"} -- Lon the Bull
-A{"TownlongWastes", 7439, 0.590, 0.860, criterion=21094} -- Siltriss the Sharpener
+A{"TownlongWastes", 7439, 0.680, 0.740, criterion="Hozen"} -- The Yowler
+A{"TownlongWastes", 7439, 0.680, 0.880, criterion="Jinyu", note="or thereabouts"} -- Eshelon
+A{"TownlongWastes", 7439, 0.480, 0.840, criterion="Mantid", note="or thereabouts"} -- Lith'ik the Stalker
+A{"TownlongWastes", 7439, 0.540, 0.630, criterion="Mogu Sorcerer"} -- Norlaxx
+A{"TownlongWastes", 7439, 0.630, 0.360, criterion="Mogu Warrior"} -- Kah'tir
+A{"TownlongWastes", 7439, 0.320, 0.620, criterion="Pandaren"} -- Yul Wildpaw
+A{"TownlongWastes", 7439, 0.680, 0.510, criterion="Saurok", note="or thereabouts"} -- Lon the Bull
+A{"TownlongWastes", 7439, 0.590, 0.860, criterion="Yaungol"} -- Siltriss the Sharpener
 
 -- Professions/Fishing: Pandarian Angler
 A{"TownlongWastes", 7611, criterion=21964} -- Redbelly Mandarin
@@ -4029,9 +4029,9 @@ A{"TwilightHighlands", 5482, 0.458, 0.316, criterion=15950} -- The Black Recluse
 A{"TwilightHighlands", 5501, criterion=13611} -- Twilight Highlands
 
 -- General: To All the Squirrels Who Cared for Me
-A{"TwilightHighlands", 5548, 0.460, 0.270, criterion=0, note="zone exclusive"} -- Yellow-Bellied Marmot
-A{"TwilightHighlands", 5548, 0.298, 0.312, criterion=0, note="zone exclusive"} -- Highlands Turkey
-A{"TwilightHighlands", 5548, 0.514, 0.404, criterion=0} -- Rattlesnake
+A{"TwilightHighlands", 5548, 0.460, 0.270, criterion="Yellow-Bellied Marmot", note="zone exclusive"} -- Yellow-Bellied Marmot
+A{"TwilightHighlands", 5548, 0.298, 0.312, criterion="Highlands Turkey", note="zone exclusive"} -- Highlands Turkey
+A{"TwilightHighlands", 5548, 0.514, 0.404, criterion="Rattlesnake"} -- Rattlesnake
 
 -- Legacy: Champion of Ulduar
 A{"Ulduar", 2903}
@@ -4064,7 +4064,7 @@ A{"Ulduar", 3316, 0.800, 0.470, floor=2}
 A{"Ulduar", 4626, 0.690, 0.410, floor=4}
 
 -- General: To All The Squirrels I've Loved Before
-A{"Uldum", 1206, 0.516, 0.496, criterion=0} -- Sheep
+A{"Uldum", 1206, 0.516, 0.496, criterion="Sheep"} -- Sheep
 
 -- Quests/Cataclysm: Unearthing Uldum
 A{"Uldum", 4872, criterion=13610} -- Uldum
@@ -4079,8 +4079,8 @@ A{"Uldum", 4961}
 A{"Uldum", 5317, 0.410, 0.050}
 
 -- General: To All the Squirrels Who Cared for Me
-A{"Uldum", 5548, 0.550, 0.358, criterion=0, note="zone exclusive"} -- Oasis Moth
-A{"Uldum", 5548, 0.516, 0.504, criterion=0, note="zone exclusive"} -- Mac Frog
+A{"Uldum", 5548, 0.550, 0.358, criterion="Oasis Moth", note="zone exclusive"} -- Oasis Moth
+A{"Uldum", 5548, 0.516, 0.504, criterion="Mac Frog", note="zone exclusive"} -- Mac Frog
 
 -- Exploration: Field Photographer
 A{"Uldum", 9924, 0.720, 0.500, criterion=27978} -- Halls of Origination
@@ -4110,7 +4110,7 @@ A{"Undercity", 10015, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strong
 A{"Undercity", 10016, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox"} -- Lament of the Highborne
 
 -- General: To All The Squirrels I've Loved Before
-A{"UngoroCrater", 1206, 0.706, 0.772, criterion=0} -- Parrot
+A{"UngoroCrater", 1206, 0.706, 0.772, criterion="Parrot"} -- Parrot
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"UngoroCrater", 1678, criterion=15242} -- Un'Goro Crater Quests
@@ -4122,9 +4122,9 @@ A{"UngoroCrater", 4939, criterion=13850} -- Un'Goro Crater
 A{"UngoroCrater", 9924, 0.480, 0.090, criterion=27957} -- The Shaper's Terrace
 
 -- General: To All the Squirrels I Once Caressed?
-A{"ValeofEternalBlossoms", 6350, 0.726, 0.254, criterion=0, note="zone exclusive"} -- Gilded Moth
-A{"ValeofEternalBlossoms", 6350, 0.716, 0.316, criterion=0, note="zone exclusive"} -- Dancing Water Skimmer
-A{"ValeofEternalBlossoms", 6350, 0.718, 0.242, criterion=0, note="zone exclusive"} -- Golden Civet
+A{"ValeofEternalBlossoms", 6350, 0.726, 0.254, criterion="Gilded Moth", note="zone exclusive"} -- Gilded Moth
+A{"ValeofEternalBlossoms", 6350, 0.716, 0.316, criterion="Dancing Water Skimmer", note="zone exclusive"} -- Dancing Water Skimmer
+A{"ValeofEternalBlossoms", 6350, 0.718, 0.242, criterion="Golden Civet", note="zone exclusive"} -- Golden Civet
 
 -- Legacy: Eternally in the Vale
 A{"ValeofEternalBlossoms", 7315, criterion=0} -- The Golden Gate
@@ -4216,34 +4216,34 @@ A{"ValeOfEternalBlossomsScenario", 7317, 0.060, 0.580, criterion=20531} -- Kri'c
 A{"ValeOfEternalBlossomsScenario", 7317, 0.070, 0.330, criterion=20532} -- Vyraxxis
 
 -- Exploration/Pandaria: A Worthy Opponent
-A{"ValeOfEternalBlossomsScenario", 7437, 0.310, 0.920, criterion=0} -- Major Nanners
-A{"ValeOfEternalBlossomsScenario", 7437, 0.700, 0.310, criterion=0} -- Sahn Tidehunter
-A{"ValeOfEternalBlossomsScenario", 7437, 0.140, 0.590, criterion=0} -- Kal'tik the Blight
-A{"ValeOfEternalBlossomsScenario", 7437, 0.150, 0.360, criterion=0} -- Kang the Soul Thief
-A{"ValeOfEternalBlossomsScenario", 7437, 0.400, 0.250, criterion=0} -- Urgolax
-A{"ValeOfEternalBlossomsScenario", 7437, 0.430, 0.690, criterion=0} -- Ai-Ran the Shifting Cloud
-A{"ValeOfEternalBlossomsScenario", 7437, 0.380, 0.550, criterion=0, note="or thereabouts"} -- Moldo One-Eye
-A{"ValeOfEternalBlossomsScenario", 7437, 0.880, 0.450, criterion=0} -- Yorik Sharpeye
+A{"ValeOfEternalBlossomsScenario", 7437, 0.310, 0.920, criterion="Hozen"} -- Major Nanners
+A{"ValeOfEternalBlossomsScenario", 7437, 0.700, 0.310, criterion="Jinyu"} -- Sahn Tidehunter
+A{"ValeOfEternalBlossomsScenario", 7437, 0.140, 0.590, criterion="Mantid"} -- Kal'tik the Blight
+A{"ValeOfEternalBlossomsScenario", 7437, 0.150, 0.360, criterion="Mogu Sorcerer"} -- Kang the Soul Thief
+A{"ValeOfEternalBlossomsScenario", 7437, 0.400, 0.250, criterion="Mogu Warrior"} -- Urgolax
+A{"ValeOfEternalBlossomsScenario", 7437, 0.430, 0.690, criterion="Pandaren"} -- Ai-Ran the Shifting Cloud
+A{"ValeOfEternalBlossomsScenario", 7437, 0.380, 0.550, criterion="Saurok", note="or thereabouts"} -- Moldo One-Eye
+A{"ValeOfEternalBlossomsScenario", 7437, 0.880, 0.450, criterion="Yaungol"} -- Yorik Sharpeye
 
 -- Exploration/Pandaria: Could We Find More Like That?
-A{"ValeOfEternalBlossomsScenario", 7438, 0.310, 0.920, criterion=0} -- Major Nanners
-A{"ValeOfEternalBlossomsScenario", 7438, 0.700, 0.310, criterion=0} -- Sahn Tidehunter
-A{"ValeOfEternalBlossomsScenario", 7438, 0.140, 0.590, criterion=0} -- Kal'tik the Blight
-A{"ValeOfEternalBlossomsScenario", 7438, 0.150, 0.360, criterion=0} -- Kang the Soul Thief
-A{"ValeOfEternalBlossomsScenario", 7438, 0.400, 0.250, criterion=0} -- Urgolax
-A{"ValeOfEternalBlossomsScenario", 7438, 0.430, 0.690, criterion=0} -- Ai-Ran the Shifting Cloud
-A{"ValeOfEternalBlossomsScenario", 7438, 0.380, 0.550, criterion=0, note="or thereabouts"} -- Moldo One-Eye
-A{"ValeOfEternalBlossomsScenario", 7438, 0.880, 0.450, criterion=0} -- Yorik Sharpeye
+A{"ValeOfEternalBlossomsScenario", 7438, 0.310, 0.920, criterion="Hozen"} -- Major Nanners
+A{"ValeOfEternalBlossomsScenario", 7438, 0.700, 0.310, criterion="Jinyu"} -- Sahn Tidehunter
+A{"ValeOfEternalBlossomsScenario", 7438, 0.140, 0.590, criterion="Mantid"} -- Kal'tik the Blight
+A{"ValeOfEternalBlossomsScenario", 7438, 0.150, 0.360, criterion="Mogu Sorcerer"} -- Kang the Soul Thief
+A{"ValeOfEternalBlossomsScenario", 7438, 0.400, 0.250, criterion="Mogu Warrior"} -- Urgolax
+A{"ValeOfEternalBlossomsScenario", 7438, 0.430, 0.690, criterion="Pandaren"} -- Ai-Ran the Shifting Cloud
+A{"ValeOfEternalBlossomsScenario", 7438, 0.380, 0.550, criterion="Saurok", note="or thereabouts"} -- Moldo One-Eye
+A{"ValeOfEternalBlossomsScenario", 7438, 0.880, 0.450, criterion="Yaungol"} -- Yorik Sharpeye
 
 -- Exploration/Pandaria: Glorious!
-A{"ValeOfEternalBlossomsScenario", 7439, 0.310, 0.920, criterion=21054} -- Major Nanners
-A{"ValeOfEternalBlossomsScenario", 7439, 0.700, 0.310, criterion=21061} -- Sahn Tidehunter
-A{"ValeOfEternalBlossomsScenario", 7439, 0.140, 0.590, criterion=21068} -- Kal'tik the Blight
-A{"ValeOfEternalBlossomsScenario", 7439, 0.150, 0.360, criterion=21075} -- Kang the Soul Thief
-A{"ValeOfEternalBlossomsScenario", 7439, 0.400, 0.250, criterion=21082} -- Urgolax
-A{"ValeOfEternalBlossomsScenario", 7439, 0.430, 0.690, criterion=21089} -- Ai-Ran the Shifting Cloud
-A{"ValeOfEternalBlossomsScenario", 7439, 0.880, 0.450, criterion=21103} -- Yorik Sharpeye
-A{"ValeOfEternalBlossomsScenario", 7439, 0.380, 0.550, criterion=21096, note="or thereabouts"} -- Moldo One-Eye
+A{"ValeOfEternalBlossomsScenario", 7439, 0.310, 0.920, criterion="Hozen"} -- Major Nanners
+A{"ValeOfEternalBlossomsScenario", 7439, 0.700, 0.310, criterion="Jinyu"} -- Sahn Tidehunter
+A{"ValeOfEternalBlossomsScenario", 7439, 0.140, 0.590, criterion="Mantid"} -- Kal'tik the Blight
+A{"ValeOfEternalBlossomsScenario", 7439, 0.150, 0.360, criterion="Mogu Sorcerer"} -- Kang the Soul Thief
+A{"ValeOfEternalBlossomsScenario", 7439, 0.400, 0.250, criterion="Mogu Warrior"} -- Urgolax
+A{"ValeOfEternalBlossomsScenario", 7439, 0.430, 0.690, criterion="Pandaren"} -- Ai-Ran the Shifting Cloud
+A{"ValeOfEternalBlossomsScenario", 7439, 0.880, 0.450, criterion="Saurok"} -- Yorik Sharpeye
+A{"ValeOfEternalBlossomsScenario", 7439, 0.380, 0.550, criterion="Yaungol", note="or thereabouts"} -- Moldo One-Eye
 
 -- Exploration: Field Photographer
 A{"ValeOfEternalBlossomsScenario", 9924, criterion=27870} -- Vale of Eternal Blossoms
@@ -4257,10 +4257,10 @@ A{"ValleyoftheFourWinds", 6301, criterion=18823} -- The Stormstout Brewery
 A{"ValleyoftheFourWinds", 6301, criterion=18826} -- Nesingwary's Safari
 
 -- General: To All the Squirrels I Once Caressed?
-A{"ValleyoftheFourWinds", 6350, 0.650, 0.436, criterion=0} -- Bandicoon
-A{"ValleyoftheFourWinds", 6350, 0.556, 0.326, criterion=0} -- Sifang Otter
-A{"ValleyoftheFourWinds", 6350, 0.422, 0.460, criterion=0, note="zone exclusive"} -- Marsh Fiddler
-A{"ValleyoftheFourWinds", 6350, 0.228, 0.616, criterion=0} -- Malayan Quillrat
+A{"ValleyoftheFourWinds", 6350, 0.650, 0.436, criterion="Bandicoon"} -- Bandicoon
+A{"ValleyoftheFourWinds", 6350, 0.556, 0.326, criterion="Sifang Otter"} -- Sifang Otter
+A{"ValleyoftheFourWinds", 6350, 0.422, 0.460, criterion="Marsh Fiddler", note="zone exclusive"} -- Marsh Fiddler
+A{"ValleyoftheFourWinds", 6350, 0.228, 0.616, criterion="Malayan Quillrat"} -- Malayan Quillrat
 
 -- Quests/Pandaria: Loremaster of Pandaria
 A{"ValleyoftheFourWinds", 6541, criterion=19378} -- Rally the Valley
@@ -4332,13 +4332,13 @@ A{"ValleyoftheFourWinds", 7293, criterion=0} -- Harvest 100 crops
 A{"ValleyoftheFourWinds", 7294}
 
 -- Quests/Pandaria: Listen to the Drunk Fish
-A{"ValleyoftheFourWinds", 7295, criterion=0} -- Green Cabbage
-A{"ValleyoftheFourWinds", 7295, criterion=0} -- Scallions
-A{"ValleyoftheFourWinds", 7295, criterion=0} -- Juicycrunch Carrot
-A{"ValleyoftheFourWinds", 7295, criterion=0} -- Mogu Pumpkin
-A{"ValleyoftheFourWinds", 7295, criterion=0} -- Red Blossom Leek
-A{"ValleyoftheFourWinds", 7295, criterion=0} -- Pink Turnip
-A{"ValleyoftheFourWinds", 7295, criterion=0} -- White Turnip
+A{"ValleyoftheFourWinds", 7295, criterion="Green Cabbage"} -- Green Cabbage
+A{"ValleyoftheFourWinds", 7295, criterion="Scallions"} -- Scallions
+A{"ValleyoftheFourWinds", 7295, criterion="Juicycrunch Carrot"} -- Juicycrunch Carrot
+A{"ValleyoftheFourWinds", 7295, criterion="Mogu Pumpkin"} -- Mogu Pumpkin
+A{"ValleyoftheFourWinds", 7295, criterion="Red Blossom Leek"} -- Red Blossom Leek
+A{"ValleyoftheFourWinds", 7295, criterion="Pink Turnip"} -- Pink Turnip
+A{"ValleyoftheFourWinds", 7295, criterion="White Turnip"} -- White Turnip
 
 -- Quests/Pandaria: Ain't Lost No More
 A{"ValleyoftheFourWinds", 7296}
@@ -4379,34 +4379,34 @@ A{"ValleyoftheFourWinds", 7330, 0.536, 0.512, criterion=20613, note="fish 2x Gol
 A{"ValleyoftheFourWinds", 7330, 0.536, 0.512, criterion=20616, note="hunt birds for 2x Wildfowl Breast"} -- Wildfowl Ginseng Soup
 
 -- Exploration/Pandaria: A Worthy Opponent
-A{"ValleyoftheFourWinds", 7437, 0.170, 0.350, criterion=0, note="or thereabouts"} -- Bonobos
-A{"ValleyoftheFourWinds", 7437, 0.540, 0.320, criterion=0, note="or thereabouts"} -- Sele'na
-A{"ValleyoftheFourWinds", 7437, 0.100, 0.490, criterion=0} -- Nal'lak the Ripper
-A{"ValleyoftheFourWinds", 7437, 0.370, 0.260, criterion=0} -- Sulik'shor
-A{"ValleyoftheFourWinds", 7437, 0.190, 0.780, criterion=0} -- Jonn-Dar
-A{"ValleyoftheFourWinds", 7437, 0.890, 0.180, criterion=0} -- Nasra Spothide
-A{"ValleyoftheFourWinds", 7437, 0.700, 0.530, criterion=0, note="or thereabouts"} -- Salyin Warscout
-A{"ValleyoftheFourWinds", 7437, 0.350, 0.600, criterion=0, note="or thereabouts"} -- Blackhoof
+A{"ValleyoftheFourWinds", 7437, 0.170, 0.350, criterion="Hozen", note="or thereabouts"} -- Bonobos
+A{"ValleyoftheFourWinds", 7437, 0.540, 0.320, criterion="Jinyu", note="or thereabouts"} -- Sele'na
+A{"ValleyoftheFourWinds", 7437, 0.100, 0.490, criterion="Mantid"} -- Nal'lak the Ripper
+A{"ValleyoftheFourWinds", 7437, 0.370, 0.260, criterion="Mogu Sorcerer"} -- Sulik'shor
+A{"ValleyoftheFourWinds", 7437, 0.190, 0.780, criterion="Mogu Warrior"} -- Jonn-Dar
+A{"ValleyoftheFourWinds", 7437, 0.890, 0.180, criterion="Pandaren"} -- Nasra Spothide
+A{"ValleyoftheFourWinds", 7437, 0.700, 0.530, criterion="Saurok", note="or thereabouts"} -- Salyin Warscout
+A{"ValleyoftheFourWinds", 7437, 0.350, 0.600, criterion="Yaungol", note="or thereabouts"} -- Blackhoof
 
 -- Exploration/Pandaria: Could We Find More Like That?
-A{"ValleyoftheFourWinds", 7438, 0.170, 0.350, criterion=0, note="or thereabouts"} -- Bonobos
-A{"ValleyoftheFourWinds", 7438, 0.540, 0.320, criterion=0, note="or thereabouts"} -- Sele'na
-A{"ValleyoftheFourWinds", 7438, 0.100, 0.490, criterion=0} -- Nal'lak the Ripper
-A{"ValleyoftheFourWinds", 7438, 0.370, 0.260, criterion=0} -- Sulik'shor
-A{"ValleyoftheFourWinds", 7438, 0.190, 0.780, criterion=0} -- Jonn-Dar
-A{"ValleyoftheFourWinds", 7438, 0.890, 0.180, criterion=0} -- Nasra Spothide
-A{"ValleyoftheFourWinds", 7438, 0.700, 0.530, criterion=0, note="or thereabouts"} -- Salyin Warscout
-A{"ValleyoftheFourWinds", 7438, 0.350, 0.600, criterion=0, note="or thereabouts"} -- Blackhoof
+A{"ValleyoftheFourWinds", 7438, 0.170, 0.350, criterion="Hozen", note="or thereabouts"} -- Bonobos
+A{"ValleyoftheFourWinds", 7438, 0.540, 0.320, criterion="Jinyu", note="or thereabouts"} -- Sele'na
+A{"ValleyoftheFourWinds", 7438, 0.100, 0.490, criterion="Mantid"} -- Nal'lak the Ripper
+A{"ValleyoftheFourWinds", 7438, 0.370, 0.260, criterion="Mogu Sorcerer"} -- Sulik'shor
+A{"ValleyoftheFourWinds", 7438, 0.190, 0.780, criterion="Mogu Warrior"} -- Jonn-Dar
+A{"ValleyoftheFourWinds", 7438, 0.890, 0.180, criterion="Pandaren"} -- Nasra Spothide
+A{"ValleyoftheFourWinds", 7438, 0.700, 0.530, criterion="Saurok", note="or thereabouts"} -- Salyin Warscout
+A{"ValleyoftheFourWinds", 7438, 0.350, 0.600, criterion="Yaungol", note="or thereabouts"} -- Blackhoof
 
 -- Exploration/Pandaria: Glorious!
-A{"ValleyoftheFourWinds", 7439, 0.170, 0.350, criterion=21049, note="or thereabouts"} -- Bonobos
-A{"ValleyoftheFourWinds", 7439, 0.540, 0.320, criterion=21056, note="or thereabouts"} -- Sele'na
-A{"ValleyoftheFourWinds", 7439, 0.100, 0.490, criterion=21063} -- Nal'lak the Ripper
-A{"ValleyoftheFourWinds", 7439, 0.370, 0.260, criterion=21070} -- Sulik'shor
-A{"ValleyoftheFourWinds", 7439, 0.190, 0.780, criterion=21077} -- Jonn-Dar
-A{"ValleyoftheFourWinds", 7439, 0.890, 0.180, criterion=21084} -- Nasra Spothide
-A{"ValleyoftheFourWinds", 7439, 0.350, 0.600, criterion=21098, note="or thereabouts"} -- Blackhoof
-A{"ValleyoftheFourWinds", 7439, 0.700, 0.530, criterion=21091, note="or thereabouts"} -- Salyin Warscout
+A{"ValleyoftheFourWinds", 7439, 0.170, 0.350, criterion="Hozen", note="or thereabouts"} -- Bonobos
+A{"ValleyoftheFourWinds", 7439, 0.540, 0.320, criterion="Jinyu", note="or thereabouts"} -- Sele'na
+A{"ValleyoftheFourWinds", 7439, 0.100, 0.490, criterion="Mantid"} -- Nal'lak the Ripper
+A{"ValleyoftheFourWinds", 7439, 0.370, 0.260, criterion="Mogu Sorcerer"} -- Sulik'shor
+A{"ValleyoftheFourWinds", 7439, 0.190, 0.780, criterion="Mogu Warrior"} -- Jonn-Dar
+A{"ValleyoftheFourWinds", 7439, 0.890, 0.180, criterion="Pandaren"} -- Nasra Spothide
+A{"ValleyoftheFourWinds", 7439, 0.350, 0.600, criterion="Saurok", note="or thereabouts"} -- Blackhoof
+A{"ValleyoftheFourWinds", 7439, 0.700, 0.530, criterion="Yaungol", note="or thereabouts"} -- Salyin Warscout
 
 -- Professions/Fishing: Pandarian Angler
 A{"ValleyoftheFourWinds", 7611, criterion=21955} -- Emperor Salmon
@@ -4456,7 +4456,7 @@ A{"WesternPlaguelands", 9924, 0.450, 0.180, criterion=27875} -- Hearthglen
 A{"WesternPlaguelands", 9924, 0.520, 0.830, criterion=27972} -- Uther's Tomb
 
 -- General: To All The Squirrels I've Loved Before
-A{"Westfall", 1206, 0.334, 0.224, criterion=0} -- Shore Crab
+A{"Westfall", 1206, 0.334, 0.224, criterion="Shore Crab"} -- Shore Crab
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Westfall", 1676, criterion=15202} -- Westfall+Duskwood/Silverpine
@@ -4469,7 +4469,7 @@ A{"Westfall", 9924, 0.380, 0.770, criterion=27878} -- The Deadmines
 A{"Westfall", 9924, 0.300, 0.860, criterion=27961} -- Westfall Lighthouse
 
 -- General: To All The Squirrels I've Loved Before
-A{"Wetlands", 1206, 0.486, 0.700, criterion=0} -- Ram
+A{"Wetlands", 1206, 0.486, 0.700, criterion="Ram"} -- Ram
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Wetlands", 1676, criterion=15196} -- Loch Modan+Wetlands/Ghostlands
