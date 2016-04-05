@@ -49,8 +49,14 @@ A{"AlteracValley", 708, faction=729}
 -- Player vs. Player/Alterac Valley: Hero of the Stormpike Guard
 A{"AlteracValley", 709, faction=730}
 
+-- Player vs. Player: The Conqueror
+A{"AlteracValley", 714, criterion=5320, faction=729} -- Hero of the Frostwolf Clan
+
 -- Player vs. Player/Alterac Valley: Frostwolf Perfection
 A{"AlteracValley", 873}
+
+-- Player vs. Player: The Justicar
+A{"AlteracValley", 907, criterion=5335, faction=730} -- Hero of the Stormpike Guard
 
 -- Player vs. Player/Alterac Valley: Loyal Defender
 A{"AlteracValley", 1151, criterion=3363} -- 50 honorable kills in the Hall of the Stormpike
@@ -123,6 +129,12 @@ A{"ArathiBasin", 710, faction=510}
 
 -- Player vs. Player/Arathi Basin: Knight of Arathor
 A{"ArathiBasin", 711, faction=509}
+
+-- Player vs. Player: The Conqueror
+A{"ArathiBasin", 714, criterion=5318, faction=510} -- The Defiler
+
+-- Player vs. Player: The Justicar
+A{"ArathiBasin", 907, criterion=5333, faction=509} -- Knight of Arathor
 
 -- Player vs. Player/Arathi Basin: Overly Defensive
 A{"ArathiBasin", 1153}
@@ -747,8 +759,14 @@ A{"WarsongGulch", 712, faction=889}
 -- Player vs. Player/Warsong Gulch: Silverwing Sentinel
 A{"WarsongGulch", 713, faction=890}
 
+-- Player vs. Player: The Conqueror
+A{"WarsongGulch", 714, criterion=5319, faction=889} -- Warsong Outrider
+
 -- Player vs. Player/Warsong Gulch: Frenzied Defender
 A{"WarsongGulch", 872, criterion=1801} -- Return 5 flags in a single battle
+
+-- Player vs. Player: The Justicar
+A{"WarsongGulch", 907, criterion=5334, faction=890} -- Silverwing Sentinel
 
 -- Player vs. Player/Warsong Gulch: Master of Warsong Gulch
 A{"WarsongGulch", 1172, criterion=3463} -- Persistent Defender
