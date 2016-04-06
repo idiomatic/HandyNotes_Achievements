@@ -199,13 +199,13 @@ A{"TheArgentColiseum", 3819}
 A{"TheArgentColiseum", 4078, criterion=12350} -- Complete the Trial of the Grand Crusader
 
 -- Feats of Strength: A Tribute to Immortality
-A{"TheArgentColiseum", 4079, criterion=12358} -- Complete the Trial of the Grand Crusader
+A{"TheArgentColiseum", 4079, criterion=12358, side="horde"} -- Complete the Trial of the Grand Crusader
 
 -- Legacy: A Tribute to Dedicated Insanity
 A{"TheArgentColiseum", 4080}
 
 -- Feats of Strength: A Tribute to Immortality
-A{"TheArgentColiseum", 4156, criterion=12359} -- Complete the Trial of the Grand Crusader
+A{"TheArgentColiseum", 4156, criterion=12359, side="alliance"} -- Complete the Trial of the Grand Crusader
 
 -- Feats of Strength: Realm First! Magic Seeker
 A{"TheEyeofEternity", 1400, 0.368, 0.518}

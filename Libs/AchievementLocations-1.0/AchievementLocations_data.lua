@@ -10,32 +10,32 @@ A{"Arathi", 1676, criterion=15204} -- Arathi Highlands Quests
 A{"Arathi", 4896, criterion=13706} -- Arathi Highlands
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
-A{"Ashenvale", 1678, criterion=15218} -- Ashenvale
-A{"Ashenvale", 1678, criterion=15231} -- Ashenvale
+A{"Ashenvale", 1678, criterion=15218, side="alliance"} -- Ashenvale
+A{"Ashenvale", 1678, criterion=15231, side="horde"} -- Ashenvale
 
 -- Quests/Kalimdor: Ashenvale Quests
-A{"Ashenvale", 4925, criterion=13836} -- Ashenvale
+A{"Ashenvale", 4925, criterion=13836, side="alliance"} -- Ashenvale
 
 -- Quests/Kalimdor: Ashenvale Quests
-A{"Ashenvale", 4976, criterion=13836} -- Ashenvale
+A{"Ashenvale", 4976, criterion=13836, side="horde"} -- Ashenvale
 
 -- Garrisons: Ten Hit Tunes
-A{"Ashenvale", 9828, 0.564, 0.493, criterion=27755, note="from Lost Sentinel's Pouch"} -- Magic
+A{"Ashenvale", 9828, 0.564, 0.493, criterion=27755, note="from Lost Sentinel's Pouch", side="alliance"} -- Magic
 
 -- Garrisons: Ten Hit Tunes
-A{"Ashenvale", 9897, 0.564, 0.493, criterion=27755, note="from Lost Sentinel's Pouch"} -- Magic
+A{"Ashenvale", 9897, 0.564, 0.493, criterion=27755, note="from Lost Sentinel's Pouch", side="horde"} -- Magic
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Ashenvale", 9912, 0.565, 0.493, criterion=27755, note="from Lost Sentinel's Pouch"} -- Magic
+A{"Ashenvale", 9912, 0.565, 0.493, criterion=27755, note="from Lost Sentinel's Pouch", side="alliance"} -- Magic
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Ashenvale", 9914, 0.565, 0.493, criterion=27755, note="from Lost Sentinel's Pouch"} -- Magic
+A{"Ashenvale", 9914, 0.565, 0.493, criterion=27755, note="from Lost Sentinel's Pouch", side="horde"} -- Magic
 
 -- Garrisons: Full Discography
-A{"Ashenvale", 10015, 0.565, 0.493, criterion=27755, note="from Lost Sentinel's Pouch"} -- Magic
+A{"Ashenvale", 10015, 0.565, 0.493, criterion=27755, note="from Lost Sentinel's Pouch", side="alliance"} -- Magic
 
 -- Garrisons: Full Discography
-A{"Ashenvale", 10016, 0.565, 0.493, criterion=27755, note="from Lost Sentinel's Pouch"} -- Magic
+A{"Ashenvale", 10016, 0.565, 0.493, criterion=27755, note="from Lost Sentinel's Pouch", side="horde"} -- Magic
 
 -- Professions/Fishing: One That Didn't Get Away
 A{"Aszhara", 878, criterion=1837} -- 103 Pound Mightfish
@@ -44,16 +44,16 @@ A{"Aszhara", 878, criterion=1837} -- 103 Pound Mightfish
 A{"Aszhara", 1206, 0.318, 0.716, criterion="Skunk", note="also Duskwood"} -- Skunk
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
-A{"Aszhara", 1678, criterion=15232} -- Darkshore/Azshara
+A{"Aszhara", 1678, criterion=15232, side="horde"} -- Darkshore/Azshara
 
 -- Quests/Kalimdor: Azshara Quests
-A{"Aszhara", 4927, criterion=13837} -- Azshara
+A{"Aszhara", 4927, criterion=13837, side="horde"} -- Azshara
 
 -- Quests/Kalimdor: Glutton for Fiery Punishment
 A{"Aszhara", 5448, 0.330, 0.235, criterion=15641} -- Fire Dancing
 
 -- Quests/Kalimdor: Joy Ride
-A{"Aszhara", 5454}
+A{"Aszhara", 5454, side="horde"}
 
 -- Quests/Kalimdor: Glutton for Icy Punishment
 A{"Aszhara", 5546, 0.622, 0.221, criterion=16206} -- Essence of Ice
@@ -74,7 +74,7 @@ A{"Badlands", 5444, 0.640, 0.380, criterion=16170} -- Billy Goat Blast
 A{"BaradinHold", 5416}
 
 -- Player vs. Player/Tol Barad: Master of Tol Barad
-A{"BaradinHold", 5489, criterion=15976} -- Pit Lord Argaloth
+A{"BaradinHold", 5489, criterion=15976, side="alliance"} -- Pit Lord Argaloth
 
 -- Player vs. Player/Tol Barad: Occu'thar
 A{"BaradinHold", 6045}
@@ -84,10 +84,10 @@ A{"Barrens", 1206, 0.526, 0.556, criterion="Gazelle"} -- Gazelle
 A{"Barrens", 1206, 0.614, 0.448, criterion="Prairie Dog"} -- Prairie Dog
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
-A{"Barrens", 1678, criterion=15236} -- Bloodmyst/North Barrens
+A{"Barrens", 1678, criterion=15236, side="horde"} -- Bloodmyst/North Barrens
 
 -- Quests/Kalimdor: Northern Barrens Quests
-A{"Barrens", 4933, criterion=13847} -- Northern Barrens
+A{"Barrens", 4933, criterion=13847, side="horde"} -- Northern Barrens
 
 -- Professions/Fishing: The Limnologist
 A{"Barrens", 5478, 0.550, 0.800, criterion=15827, note="inland rivers and lakes"} -- Deviate Fish
@@ -163,13 +163,13 @@ A{"BlastedLands", 4909, criterion=13708} -- Blasted Lands
 A{"BlastedLands", 9924, 0.540, 0.470, criterion=27866} -- The Dark Portal
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
-A{"BloodmystIsle", 1678, criterion=15219} -- Bloodmyst/North Barrens
+A{"BloodmystIsle", 1678, criterion=15219, side="alliance"} -- Bloodmyst/North Barrens
 
 -- Quests/Kalimdor: Bloodmyst Isle Quests
-A{"BloodmystIsle", 4926, criterion=13838} -- Bloodmyst Isle
+A{"BloodmystIsle", 4926, criterion=13838, side="alliance"} -- Bloodmyst Isle
 
 -- Quests/Northrend: Nothing Boring About Borean
-A{"BoreanTundra", 33, criterion=0} -- Complete 130 quests in Borean Tundra.
+A{"BoreanTundra", 33, criterion=0, side="alliance"} -- Complete 130 quests in Borean Tundra.
 
 -- Quests/Northrend: Loremaster of Northrend
 A{"BoreanTundra", 41, criterion=82} -- Nothing Boring About Borean
@@ -182,7 +182,7 @@ A{"BoreanTundra", 1206, 0.686, 0.404, criterion=3739, note="zone exclusive"} -- 
 A{"BoreanTundra", 1206, 0.744, 0.400, criterion=3741, note="zone exclusive"} -- Borean Frog
 
 -- Quests/Northrend: Nothing Boring About Borean
-A{"BoreanTundra", 1358, criterion=0} -- Complete 150 quests in Borean Tundra.
+A{"BoreanTundra", 1358, criterion=0, side="horde"} -- Complete 150 quests in Borean Tundra.
 
 -- Professions/Fishing: Northrend Angler
 A{"BoreanTundra", 1517, criterion=5278} -- Borean Man O' War School
@@ -295,58 +295,58 @@ A{"Dalaran", 2096, 0.525, 0.675, criterion=7487} -- Silver in the City
 A{"Dalaran", 9924, criterion=27867} -- Dalaran
 
 -- Garrisons: Ten Hit Tunes
-A{"DarkmoonFaireIsland", 9828, 0.512, 0.750, criterion=27764, note="90 Darkmoon Prize Tickets"} -- Darkmoon Carousel
+A{"DarkmoonFaireIsland", 9828, 0.512, 0.750, criterion=27764, note="90 Darkmoon Prize Tickets", side="alliance"} -- Darkmoon Carousel
 
 -- Garrisons: Ten Hit Tunes
-A{"DarkmoonFaireIsland", 9897, 0.512, 0.750, criterion=27764, note="90 Darkmoon Prize Tickets"} -- Darkmoon Carousel
+A{"DarkmoonFaireIsland", 9897, 0.512, 0.750, criterion=27764, note="90 Darkmoon Prize Tickets", side="horde"} -- Darkmoon Carousel
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"DarkmoonFaireIsland", 9912, 0.512, 0.750, criterion=27764, note="90 Darkmoon Prize Tickets"} -- Darkmoon Carousel
+A{"DarkmoonFaireIsland", 9912, 0.512, 0.750, criterion=27764, note="90 Darkmoon Prize Tickets", side="alliance"} -- Darkmoon Carousel
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"DarkmoonFaireIsland", 9914, 0.512, 0.750, criterion=27764, note="90 Darkmoon Prize Tickets"} -- Darkmoon Carousel
+A{"DarkmoonFaireIsland", 9914, 0.512, 0.750, criterion=27764, note="90 Darkmoon Prize Tickets", side="horde"} -- Darkmoon Carousel
 
 -- Garrisons: Full Discography
-A{"DarkmoonFaireIsland", 10015, 0.512, 0.750, criterion=27764, note="90 Darkmoon Prize Tickets"} -- Darkmoon Carousel
+A{"DarkmoonFaireIsland", 10015, 0.512, 0.750, criterion=27764, note="90 Darkmoon Prize Tickets", side="alliance"} -- Darkmoon Carousel
 
 -- Garrisons: Full Discography
-A{"DarkmoonFaireIsland", 10016, 0.512, 0.750, criterion=27764, note="90 Darkmoon Prize Tickets"} -- Darkmoon Carousel
+A{"DarkmoonFaireIsland", 10016, 0.512, 0.750, criterion=27764, note="90 Darkmoon Prize Tickets", side="horde"} -- Darkmoon Carousel
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
-A{"Darkshore", 1678, criterion=15220} -- Darkshore/Azshara
+A{"Darkshore", 1678, criterion=15220, side="alliance"} -- Darkshore/Azshara
 
 -- Quests/Kalimdor: Darkshore Quests
-A{"Darkshore", 4928, criterion=13839} -- Darkshore
+A{"Darkshore", 4928, criterion=13839, side="alliance"} -- Darkshore
 
 -- Quests/Kalimdor: Ghosts in the Dark
-A{"Darkshore", 5453, 0.530, 0.320}
+A{"Darkshore", 5453, 0.530, 0.320, side="alliance"}
 
 -- Professions/Fishing: The Oceanographer
 A{"Darkshore", 5479, criterion=15914} -- Darkshore Grouper
 
 -- Professions/Cooking: A Bunch of Lunch
-A{"Darnassus", 5845, criterion=17743} -- Let's Do Lunch: Darnassus
+A{"Darnassus", 5845, criterion=17743, side="alliance"} -- Let's Do Lunch: Darnassus
 
 -- Professions/Fishing: Gone Fishin'
-A{"Darnassus", 5851, criterion=17769} -- Fish or Cut Bait: Darnassus
+A{"Darnassus", 5851, criterion=17769, side="alliance"} -- Fish or Cut Bait: Darnassus
 
 -- Garrisons: Ten Hit Tunes
-A{"Darnassus", 9828, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary"} -- Shalandis Isle
+A{"Darnassus", 9828, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary", side="alliance"} -- Shalandis Isle
 
 -- Garrisons: Ten Hit Tunes
-A{"Darnassus", 9897, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary"} -- Shalandis Isle
+A{"Darnassus", 9897, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary", side="horde"} -- Shalandis Isle
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Darnassus", 9912, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary"} -- Shalandis Isle
+A{"Darnassus", 9912, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary", side="alliance"} -- Shalandis Isle
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Darnassus", 9914, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary"} -- Shalandis Isle
+A{"Darnassus", 9914, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary", side="horde"} -- Shalandis Isle
 
 -- Garrisons: Full Discography
-A{"Darnassus", 10015, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary"} -- Shalandis Isle
+A{"Darnassus", 10015, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary", side="alliance"} -- Shalandis Isle
 
 -- Garrisons: Full Discography
-A{"Darnassus", 10016, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary"} -- Shalandis Isle
+A{"Darnassus", 10016, 0.430, 0.760, criterion=27765, note="from High Priestess's Reliquary", side="horde"} -- Shalandis Isle
 
 -- Exploration: Field Photographer
 A{"DeadwindPass", 9924, 0.470, 0.750, criterion=27876} -- Karazhan
@@ -391,7 +391,7 @@ A{"DraenorAuchindoun", 9838, criterion=27632} -- Teron'gor
 A{"DraenorAuchindoun", 9924, 0.497, 0.902, criterion=27977} -- Auchindoun (Draenor)
 
 -- Quests/Northrend: Might of Dragonblight
-A{"Dragonblight", 35, criterion=76} -- Complete 115 quests in Dragonblight
+A{"Dragonblight", 35, criterion=76, side="alliance"} -- Complete 115 quests in Dragonblight
 
 -- Quests/Northrend: Loremaster of Northrend
 A{"Dragonblight", 41, criterion=84} -- Might of Dragonblight
@@ -403,7 +403,7 @@ A{"Dragonblight", 547}
 A{"Dragonblight", 1277, 0.550, 0.650}
 
 -- Quests/Northrend: Might of Dragonblight
-A{"Dragonblight", 1359, criterion=76} -- Complete 130 quests in Dragonblight
+A{"Dragonblight", 1359, criterion=76, side="horde"} -- Complete 130 quests in Dragonblight
 
 -- Exploration/Northrend: Northern Exposure
 A{"Dragonblight", 2256, 0.670, 0.320, criterion=8109} -- Tukemuth
@@ -607,50 +607,50 @@ A{"Durotar", 1206, 0.428, 0.156, criterion=3759} -- Swine
 A{"Durotar", 1206, 0.486, 0.274, criterion="Hare"} -- Hare
 
 -- Legacy: Hordebreaker
-A{"Durotar", 8306, criterion=23534} -- The Durotar Job
+A{"Durotar", 8306, criterion=23534, side="alliance"} -- The Durotar Job
 
 -- Legacy: Darkspear Revolutionary
-A{"Durotar", 8307, criterion=23537} -- Durotar Liberation
+A{"Durotar", 8307, criterion=23537, side="horde"} -- Durotar Liberation
 
 -- Exploration: Field Photographer
 A{"Durotar", 9924, 0.620, 0.810, criterion=27971} -- Echo Isles
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
-A{"Duskwood", 1676, criterion=15202} -- Westfall+Duskwood/Silverpine
+A{"Duskwood", 1676, criterion=15202, side="alliance"} -- Westfall+Duskwood/Silverpine
 
 -- Quests/Eastern Kingdoms: Westfall and Duskwood Quests
-A{"Duskwood", 4903, criterion=0} -- Duskwood
+A{"Duskwood", 4903, criterion=0, side="alliance"} -- Duskwood
 
 -- Garrisons: Ten Hit Tunes
-A{"Duskwood", 9828, 0.236, 0.396, criterion=27753, note="from Forlorn Composer"} -- Ghost
+A{"Duskwood", 9828, 0.236, 0.396, criterion=27753, note="from Forlorn Composer", side="alliance"} -- Ghost
 
 -- Garrisons: Ten Hit Tunes
-A{"Duskwood", 9897, 0.236, 0.396, criterion=27753, note="from Forlorn Composer"} -- Ghost
+A{"Duskwood", 9897, 0.236, 0.396, criterion=27753, note="from Forlorn Composer", side="horde"} -- Ghost
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Duskwood", 9912, 0.236, 0.396, criterion=27753, note="from Forlorn Composer"} -- Ghost
+A{"Duskwood", 9912, 0.236, 0.396, criterion=27753, note="from Forlorn Composer", side="alliance"} -- Ghost
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Duskwood", 9914, 0.236, 0.396, criterion=27753, note="from Forlorn Composer"} -- Ghost
+A{"Duskwood", 9914, 0.236, 0.396, criterion=27753, note="from Forlorn Composer", side="horde"} -- Ghost
 
 -- Exploration: Field Photographer
 A{"Duskwood", 9924, 0.770, 0.440, criterion=27956} -- Darkshire
 
 -- Garrisons: Full Discography
-A{"Duskwood", 10015, 0.236, 0.396, criterion=27753, note="from Forlorn Composer\ninteractable when player is dead"} -- Ghost
+A{"Duskwood", 10015, 0.236, 0.396, criterion=27753, note="from Forlorn Composer\ninteractable when player is dead", side="alliance"} -- Ghost
 
 -- Garrisons: Full Discography
-A{"Duskwood", 10016, 0.236, 0.396, criterion=27753, note="from Forlorn Composer"} -- Ghost
+A{"Duskwood", 10016, 0.236, 0.396, criterion=27753, note="from Forlorn Composer", side="horde"} -- Ghost
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
-A{"Dustwallow", 1678, criterion=16678} -- Dustwallow Marsh
-A{"Dustwallow", 1678, criterion=15233} -- Dustwallow Marsh
+A{"Dustwallow", 1678, criterion=16678, side="alliance"} -- Dustwallow Marsh
+A{"Dustwallow", 1678, criterion=15233, side="horde"} -- Dustwallow Marsh
 
 -- Quests/Kalimdor: Dustwallow Marsh Quests
-A{"Dustwallow", 4929, criterion=13975} -- Dustwallow Marsh
+A{"Dustwallow", 4929, criterion=13975, side="alliance"} -- Dustwallow Marsh
 
 -- Quests/Kalimdor: Dustwallow Marsh Quests
-A{"Dustwallow", 4978, criterion=13975} -- Dustwallow Marsh
+A{"Dustwallow", 4978, criterion=13975, side="horde"} -- Dustwallow Marsh
 
 -- Exploration: Field Photographer
 A{"Dustwallow", 9924, 0.520, 0.760, criterion=27865} -- Onyxia's Lair
@@ -696,14 +696,14 @@ A{"Felwood", 1678, criterion=15234} -- Felwood Quests
 A{"Felwood", 4931, criterion=13842} -- Felwood
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
-A{"Feralas", 1678, criterion=15223} -- Feralas
-A{"Feralas", 1678, criterion=15235} -- Feralas
+A{"Feralas", 1678, criterion=15223, side="alliance"} -- Feralas
+A{"Feralas", 1678, criterion=15235, side="horde"} -- Feralas
 
 -- Quests/Kalimdor: Feralas Quests
-A{"Feralas", 4932, criterion=13980} -- Feralas
+A{"Feralas", 4932, criterion=13980, side="alliance"} -- Feralas
 
 -- Quests/Kalimdor: Feralas Quests
-A{"Feralas", 4979, criterion=13980} -- Feralas
+A{"Feralas", 4979, criterion=13980, side="horde"} -- Feralas
 
 -- Exploration: Field Photographer
 A{"Feralas", 9924, 0.480, 0.160, criterion=27963} -- The Twin Colossals
@@ -799,7 +799,7 @@ A{"FoundryRaid", 9642, criterion=26487} -- Complete Quest "Blackhand's Secret."
 A{"FoundryRaid", 9642, criterion=26488} -- Complete Quest "Might of the Elemental Lords."
 
 -- Garrisons: Ten Hit Tunes
-A{"FoundryRaid", 9828, criterion=27742, note="drop from Blackhand"} -- A Siege of Worlds
+A{"FoundryRaid", 9828, criterion=27742, note="drop from Blackhand", side="alliance"} -- A Siege of Worlds
 
 -- Collections: What A Strange, Interdimensional Trip It's Been
 A{"FoundryRaid", 9838, criterion=27642, note="in Slagworks"} -- Oregorger the Devourer
@@ -814,131 +814,131 @@ A{"FoundryRaid", 9838, criterion=27649} -- The Iron Maidens
 A{"FoundryRaid", 9838, criterion=27634, note="in Blackhand's Crucible"} -- Blackhand
 
 -- Garrisons: Ten Hit Tunes
-A{"FoundryRaid", 9897, criterion=27742, note="drop from Blackhand"} -- A Siege of Worlds
+A{"FoundryRaid", 9897, criterion=27742, note="drop from Blackhand", side="horde"} -- A Siege of Worlds
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"FoundryRaid", 9912, criterion=27742, note="drop from Blackhand"} -- A Siege of Worlds
+A{"FoundryRaid", 9912, criterion=27742, note="drop from Blackhand", side="alliance"} -- A Siege of Worlds
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"FoundryRaid", 9914, criterion=27742, note="drop from Blackhand"} -- A Siege of Worlds
+A{"FoundryRaid", 9914, criterion=27742, note="drop from Blackhand", side="horde"} -- A Siege of Worlds
 
 -- Garrisons: Full Discography
-A{"FoundryRaid", 10015, criterion=27742, note="drop from Blackhand"} -- A Siege of Worlds
+A{"FoundryRaid", 10015, criterion=27742, note="drop from Blackhand", side="alliance"} -- A Siege of Worlds
 
 -- Garrisons: Full Discography
-A{"FoundryRaid", 10016, criterion=27742, note="drop from Blackhand"} -- A Siege of Worlds
+A{"FoundryRaid", 10016, criterion=27742, note="drop from Blackhand", side="horde"} -- A Siege of Worlds
 
 -- Quests/Draenor: You'll Get Caught Up In The... Frostfire!
-A{"FrostfireRidge", 8671, criterion=24705} -- Thunder's Fall
-A{"FrostfireRidge", 8671, criterion=24366} -- Ga'nar's Vengeance
-A{"FrostfireRidge", 8671, criterion=24706} -- Foothold in a Savage Land
-A{"FrostfireRidge", 8671, criterion=24370} -- Siege of Bladespire Citadel
-A{"FrostfireRidge", 8671, criterion=24371} -- Defense of Wor'gol
-A{"FrostfireRidge", 8671, criterion=24597} -- The Battle of Thunder Pass
+A{"FrostfireRidge", 8671, criterion=24705, side="horde"} -- Thunder's Fall
+A{"FrostfireRidge", 8671, criterion=24366, side="horde"} -- Ga'nar's Vengeance
+A{"FrostfireRidge", 8671, criterion=24706, side="horde"} -- Foothold in a Savage Land
+A{"FrostfireRidge", 8671, criterion=24370, side="horde"} -- Siege of Bladespire Citadel
+A{"FrostfireRidge", 8671, criterion=24371, side="horde"} -- Defense of Wor'gol
+A{"FrostfireRidge", 8671, criterion=24597, side="horde"} -- The Battle of Thunder Pass
 
 -- Exploration: Explore Draenor
 A{"FrostfireRidge", 8935, criterion=24632} -- Explore Frostfire Ridge
 
 -- Quests/Draenor: On the Shadow's Trail
-A{"FrostfireRidge", 9529, criterion=24519} -- To Capture Gul'dan
+A{"FrostfireRidge", 9529, criterion=24519, side="horde"} -- To Capture Gul'dan
 
 -- Quests/Draenor: Frostfire Fridge
-A{"FrostfireRidge", 9606, criterion=26388} -- Bonus Objective: Forbidden Glacier
-A{"FrostfireRidge", 9606, criterion=26389} -- Bonus Objective: Frostbite Hollow
-A{"FrostfireRidge", 9606, criterion=26390} -- Bonus Objective: Grimfrost Hill
+A{"FrostfireRidge", 9606, criterion=26388, side="horde"} -- Bonus Objective: Forbidden Glacier
+A{"FrostfireRidge", 9606, criterion=26389, side="horde"} -- Bonus Objective: Frostbite Hollow
+A{"FrostfireRidge", 9606, criterion=26390, side="horde"} -- Bonus Objective: Grimfrost Hill
 
 -- Quests/Draenor: Loremaster of Draenor
-A{"FrostfireRidge", 9923, criterion=27543} -- You'll Get Caught Up In The... Frostfire!
+A{"FrostfireRidge", 9923, criterion=27543, side="horde"} -- You'll Get Caught Up In The... Frostfire!
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"garrisonffhorde_tier10", 9914, 0.410, 0.472, criterion=27770, note="from Drix Bassbolter"} -- Thunder Bluff
-A{"garrisonffhorde_tier11", 9914, 0.410, 0.472, criterion=27772, note="from Drix Bassbolter"} -- Undercity
-A{"garrisonffhorde_tier12", 9914, 0.410, 0.472, criterion=27774, note="from Drix Bassbolter"} -- The Zandalari
-A{"garrisonffhorde_tier13", 9914, 0.410, 0.472, criterion=27775, note="from Drix Bassbolter"} -- Silvermoon
-A{"garrisonffhorde_tier14", 9914, 0.410, 0.472, criterion=27776, note="from Drix Bassbolter"} -- Rescue the Warchief
+A{"garrisonffhorde_tier10", 9914, 0.410, 0.472, criterion=27770, note="from Drix Bassbolter", side="horde"} -- Thunder Bluff
+A{"garrisonffhorde_tier11", 9914, 0.410, 0.472, criterion=27772, note="from Drix Bassbolter", side="horde"} -- Undercity
+A{"garrisonffhorde_tier12", 9914, 0.410, 0.472, criterion=27774, note="from Drix Bassbolter", side="horde"} -- The Zandalari
+A{"garrisonffhorde_tier13", 9914, 0.410, 0.472, criterion=27775, note="from Drix Bassbolter", side="horde"} -- Silvermoon
+A{"garrisonffhorde_tier14", 9914, 0.410, 0.472, criterion=27776, note="from Drix Bassbolter", side="horde"} -- Rescue the Warchief
 
 -- Garrisons: Full Discography
-A{"garrisonffhorde_tier15", 10016, 0.410, 0.472, criterion=27770, note="from Drix Bassbolter"} -- Thunder Bluff
-A{"garrisonffhorde_tier16", 10016, 0.410, 0.472, criterion=27768, note="from Drix Bassbolter"} -- Orgrimmar
-A{"garrisonffhorde_tier17", 10016, 0.410, 0.472, criterion=27772, note="from Drix Bassbolter"} -- Undercity
-A{"garrisonffhorde_tier18", 10016, 0.410, 0.472, criterion=27775, note="from Drix Bassbolter"} -- Silvermoon
-A{"garrisonffhorde_tier19", 10016, 0.410, 0.472, criterion=27774, note="from Drix Bassbolter"} -- The Zandalari
-A{"garrisonffhorde_tier20", 10016, 0.410, 0.472, criterion=27776, note="from Drix Bassbolter"} -- Rescue the Warchief
+A{"garrisonffhorde_tier15", 10016, 0.410, 0.472, criterion=27770, note="from Drix Bassbolter", side="horde"} -- Thunder Bluff
+A{"garrisonffhorde_tier16", 10016, 0.410, 0.472, criterion=27768, note="from Drix Bassbolter", side="horde"} -- Orgrimmar
+A{"garrisonffhorde_tier17", 10016, 0.410, 0.472, criterion=27772, note="from Drix Bassbolter", side="horde"} -- Undercity
+A{"garrisonffhorde_tier18", 10016, 0.410, 0.472, criterion=27775, note="from Drix Bassbolter", side="horde"} -- Silvermoon
+A{"garrisonffhorde_tier19", 10016, 0.410, 0.472, criterion=27774, note="from Drix Bassbolter", side="horde"} -- The Zandalari
+A{"garrisonffhorde_tier20", 10016, 0.410, 0.472, criterion=27776, note="from Drix Bassbolter", side="horde"} -- Rescue the Warchief
 
 -- Garrisons: Ten Hit Tunes
-A{"garrisonffhorde_tier3", 9897, 0.340, 0.364, criterion=27766} -- Way of the Monk
-A{"garrisonffhorde_tier3", 9897, 0.410, 0.472, criterion=27768, note="from Drix Bassbolter"} -- Orgrimmar
-A{"garrisonffhorde_tier3", 9897, 0.410, 0.472, criterion=27770, note="from Drix Bassbolter"} -- Thunder Bluff
-A{"garrisonffhorde_tier3", 9897, 0.410, 0.472, criterion=27772, note="from Drix Bassbolter"} -- Undercity
-A{"garrisonffhorde_tier3", 9897, 0.410, 0.472, criterion=27774, note="from Drix Bassbolter"} -- The Zandalari
-A{"garrisonffhorde_tier3", 9897, 0.410, 0.472, criterion=27775, note="from Drix Bassbolter"} -- Silvermoon
-A{"garrisonffhorde_tier3", 9897, 0.410, 0.472, criterion=27776, note="from Drix Bassbolter"} -- Rescue the Warchief
+A{"garrisonffhorde_tier3", 9897, 0.340, 0.364, criterion=27766, side="horde"} -- Way of the Monk
+A{"garrisonffhorde_tier3", 9897, 0.410, 0.472, criterion=27768, note="from Drix Bassbolter", side="horde"} -- Orgrimmar
+A{"garrisonffhorde_tier3", 9897, 0.410, 0.472, criterion=27770, note="from Drix Bassbolter", side="horde"} -- Thunder Bluff
+A{"garrisonffhorde_tier3", 9897, 0.410, 0.472, criterion=27772, note="from Drix Bassbolter", side="horde"} -- Undercity
+A{"garrisonffhorde_tier3", 9897, 0.410, 0.472, criterion=27774, note="from Drix Bassbolter", side="horde"} -- The Zandalari
+A{"garrisonffhorde_tier3", 9897, 0.410, 0.472, criterion=27775, note="from Drix Bassbolter", side="horde"} -- Silvermoon
+A{"garrisonffhorde_tier3", 9897, 0.410, 0.472, criterion=27776, note="from Drix Bassbolter", side="horde"} -- Rescue the Warchief
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"garrisonffhorde_tier9", 9914, 0.410, 0.472, criterion=27768, note="from Drix Bassbolter"} -- Orgrimmar
+A{"garrisonffhorde_tier9", 9914, 0.410, 0.472, criterion=27768, note="from Drix Bassbolter", side="horde"} -- Orgrimmar
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"garrisonsmvalliance_tier0", 9912, 0.340, 0.364, criterion=27766} -- Way of the Monk
-A{"garrisonsmvalliance_tier0", 9912, 0.340, 0.364, criterion=27751} -- Curse of the Worgen
+A{"garrisonsmvalliance_tier0", 9912, 0.340, 0.364, criterion=27766, side="alliance"} -- Way of the Monk
+A{"garrisonsmvalliance_tier0", 9912, 0.340, 0.364, criterion=27751, side="alliance"} -- Curse of the Worgen
 
 -- Garrisons: Full Discography
-A{"garrisonsmvalliance_tier0", 10015, 0.340, 0.364, criterion=27766} -- Way of the Monk
+A{"garrisonsmvalliance_tier0", 10015, 0.340, 0.364, criterion=27766, side="alliance"} -- Way of the Monk
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"garrisonsmvalliance_tier1", 9912, 0.340, 0.364, criterion=27743} -- Stormwind
-A{"garrisonsmvalliance_tier1", 9912, 0.340, 0.364, criterion=27750} -- Exodar
+A{"garrisonsmvalliance_tier1", 9912, 0.340, 0.364, criterion=27743, side="alliance"} -- Stormwind
+A{"garrisonsmvalliance_tier1", 9912, 0.340, 0.364, criterion=27750, side="alliance"} -- Exodar
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"garrisonsmvalliance_tier1", 9914, 0.340, 0.364, criterion=27766} -- Way of the Monk
+A{"garrisonsmvalliance_tier1", 9914, 0.340, 0.364, criterion=27766, side="horde"} -- Way of the Monk
 
 -- Garrisons: Full Discography
-A{"garrisonsmvalliance_tier1", 10015, 0.340, 0.364, criterion=27747} -- Night Song
-A{"garrisonsmvalliance_tier1", 10015, 0.340, 0.364, criterion=27745} -- Ironforge
+A{"garrisonsmvalliance_tier1", 10015, 0.340, 0.364, criterion=27747, side="alliance"} -- Night Song
+A{"garrisonsmvalliance_tier1", 10015, 0.340, 0.364, criterion=27745, side="alliance"} -- Ironforge
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"garrisonsmvalliance_tier2", 9912, 0.340, 0.364, criterion=27745} -- Ironforge
-A{"garrisonsmvalliance_tier2", 9912, 0.340, 0.364, criterion=27748} -- Gnomeregan
+A{"garrisonsmvalliance_tier2", 9912, 0.340, 0.364, criterion=27745, side="alliance"} -- Ironforge
+A{"garrisonsmvalliance_tier2", 9912, 0.340, 0.364, criterion=27748, side="alliance"} -- Gnomeregan
 
 -- Garrisons: Full Discography
-A{"garrisonsmvalliance_tier2", 10015, 0.340, 0.364, criterion=27743} -- Stormwind
-A{"garrisonsmvalliance_tier2", 10015, 0.340, 0.364, criterion=27750} -- Exodar
-A{"garrisonsmvalliance_tier2", 10015, 0.340, 0.364, criterion=27748} -- Gnomeregan
+A{"garrisonsmvalliance_tier2", 10015, 0.340, 0.364, criterion=27743, side="alliance"} -- Stormwind
+A{"garrisonsmvalliance_tier2", 10015, 0.340, 0.364, criterion=27750, side="alliance"} -- Exodar
+A{"garrisonsmvalliance_tier2", 10015, 0.340, 0.364, criterion=27748, side="alliance"} -- Gnomeregan
 
 -- Garrisons: Ten Hit Tunes
-A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27743} -- Stormwind
-A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27745} -- Ironforge
-A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27747} -- Night Song
-A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27748} -- Gnomeregan
-A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27750} -- Exodar
-A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27751} -- Curse of the Worgen
-A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27766} -- Way of the Monk
+A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27743, side="alliance"} -- Stormwind
+A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27745, side="alliance"} -- Ironforge
+A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27747, side="alliance"} -- Night Song
+A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27748, side="alliance"} -- Gnomeregan
+A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27750, side="alliance"} -- Exodar
+A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27751, side="alliance"} -- Curse of the Worgen
+A{"garrisonsmvalliance_tier3", 9828, 0.340, 0.364, criterion=27766, side="alliance"} -- Way of the Monk
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"garrisonsmvalliance_tier3", 9912, 0.340, 0.364, criterion=27747} -- Night Song
+A{"garrisonsmvalliance_tier3", 9912, 0.340, 0.364, criterion=27747, side="alliance"} -- Night Song
 
 -- Garrisons: Full Discography
-A{"garrisonsmvalliance_tier3", 10015, 0.340, 0.364, criterion=27751} -- Curse of the Worgen
+A{"garrisonsmvalliance_tier3", 10015, 0.340, 0.364, criterion=27751, side="alliance"} -- Curse of the Worgen
 
 -- Garrisons: Full Discography
-A{"garrisonsmvalliance_tier3", 10016, 0.340, 0.364, criterion=27766} -- Way of the Monk
+A{"garrisonsmvalliance_tier3", 10016, 0.340, 0.364, criterion=27766, side="horde"} -- Way of the Monk
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
-A{"Ghostlands", 1676, criterion=15210} -- Loch Modan+Wetlands/Ghostlands
+A{"Ghostlands", 1676, criterion=15210, side="horde"} -- Loch Modan+Wetlands/Ghostlands
 
 -- Quests/Eastern Kingdoms: Ghostlands Quests
-A{"Ghostlands", 4908, criterion=13711} -- Ghostlands
+A{"Ghostlands", 4908, criterion=13711, side="horde"} -- Ghostlands
 
 -- Quests/Draenor: Putting the Gore in Gorgrond
-A{"Gorgrond", 8923, criterion=25425} -- We Need An Outpost
-A{"Gorgrond", 8923, criterion=0} -- Supporting Your Garrison
-A{"Gorgrond", 8923, criterion=0} -- In the Land of Giants
-A{"Gorgrond", 8923, criterion=0} -- The Iron Approach
+A{"Gorgrond", 8923, criterion=25425, side="alliance"} -- We Need An Outpost
+A{"Gorgrond", 8923, criterion=0, side="alliance"} -- Supporting Your Garrison
+A{"Gorgrond", 8923, criterion=0, side="alliance"} -- In the Land of Giants
+A{"Gorgrond", 8923, criterion=0, side="alliance"} -- The Iron Approach
 
 -- Quests/Draenor: Putting the Gore in Gorgrond
-A{"Gorgrond", 8924, criterion=25426} -- Your Base, Your Choice
-A{"Gorgrond", 8924, criterion=0} -- Supporting Your Garrison
-A{"Gorgrond", 8924, criterion=0} -- In the Land of Giants
-A{"Gorgrond", 8924, criterion=0} -- The Iron Approach
+A{"Gorgrond", 8924, criterion=25426, side="horde"} -- Your Base, Your Choice
+A{"Gorgrond", 8924, criterion=0, side="horde"} -- Supporting Your Garrison
+A{"Gorgrond", 8924, criterion=0, side="horde"} -- In the Land of Giants
+A{"Gorgrond", 8924, criterion=0, side="horde"} -- The Iron Approach
 
 -- Exploration: Explore Draenor
 A{"Gorgrond", 8935, criterion=24633} -- Explore Gorgrond
@@ -955,23 +955,23 @@ A{"Gorgrond", 9607, criterion=0} -- Stonemaul Arena or Tangleheart
 A{"Gorgrond", 9607, criterion=0} -- Affliction Ridge or The Razorbloom
 
 -- Quests/Draenor: Loremaster of Draenor
-A{"Gorgrond", 9833, criterion=27547} -- Putting the Gore in Gorgrond
+A{"Gorgrond", 9833, criterion=27547, side="alliance"} -- Putting the Gore in Gorgrond
 
 -- Collections: What A Strange, Interdimensional Trip It's Been
 A{"Gorgrond", 9838, 0.470, 0.859, criterion=27651} -- Tarlna the Ageless
 A{"Gorgrond", 9838, 0.441, 0.399, criterion=27652} -- Drov the Ruiner
 
 -- Quests/Draenor: Loremaster of Draenor
-A{"Gorgrond", 9923, criterion=27548} -- Putting the Gore in Gorgrond
+A{"Gorgrond", 9923, criterion=27548, side="horde"} -- Putting the Gore in Gorgrond
 
 -- Quests/Northrend: Fo' Grizzle My Shizzle
-A{"GrizzlyHills", 37, criterion=78} -- Complete 85 quests in Grizzly Hills
+A{"GrizzlyHills", 37, criterion=78, side="alliance"} -- Complete 85 quests in Grizzly Hills
 
 -- Quests/Northrend: Loremaster of Northrend
 A{"GrizzlyHills", 41, criterion=86} -- Fo' Grizzle My Shizzle
 
 -- Quests/Northrend: Fo' Grizzle My Shizzle
-A{"GrizzlyHills", 1357, criterion=78} -- Complete 75 quests in Grizzly Hills
+A{"GrizzlyHills", 1357, criterion=78, side="horde"} -- Complete 75 quests in Grizzly Hills
 
 -- Exploration/Northrend: Northern Exposure
 A{"GrizzlyHills", 2256, 0.170, 0.720, criterion=8112, note="or thereabouts"} -- Grocklar
@@ -988,22 +988,22 @@ A{"GrizzlyHills", 2557, 0.430, 0.480, criterion=0} -- Grizzly Squirrel
 A{"GrizzlyHills", 2557, 0.570, 0.350, criterion=0} -- Mountain Skunk
 
 -- Garrisons: Ten Hit Tunes
-A{"GrizzlyHills", 9828, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
+A{"GrizzlyHills", 9828, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness.", side="alliance"} -- Totems of the Grizzlemaw
 
 -- Garrisons: Ten Hit Tunes
-A{"GrizzlyHills", 9897, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
+A{"GrizzlyHills", 9897, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness.", side="horde"} -- Totems of the Grizzlemaw
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"GrizzlyHills", 9912, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
+A{"GrizzlyHills", 9912, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness.", side="alliance"} -- Totems of the Grizzlemaw
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"GrizzlyHills", 9914, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
+A{"GrizzlyHills", 9914, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness.", side="horde"} -- Totems of the Grizzlemaw
 
 -- Garrisons: Full Discography
-A{"GrizzlylHills", 10015, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
+A{"GrizzlylHills", 10015, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness.", side="alliance"} -- Totems of the Grizzlemaw
 
 -- Garrisons: Full Discography
-A{"GrizzlylHills", 10016, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness."} -- Totems of the Grizzlemaw
+A{"GrizzlylHills", 10016, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness.", side="horde"} -- Totems of the Grizzlemaw
 
 -- Dungeons & Raids/Pandaria Raid: I Heard You Like Amber...
 A{"HeartofFear", 6518}
@@ -1056,14 +1056,14 @@ A{"HeartofFear", 7486}
 A{"HeartofFear", 8246}
 
 -- Quests/Outland: To Hellfire and Back
-A{"Hellfire", 1189, criterion=3912} -- 76 Hellfire quests
+A{"Hellfire", 1189, criterion=3912, side="alliance"} -- 76 Hellfire quests
 
 -- Quests/Outland: Loremaster of Outland
-A{"Hellfire", 1262, criterion=3883, note="[criterionID guess]"} -- To Hellfire and Back
-A{"Hellfire", 1262, criterion=3915, note="[criterionID guess]"} -- To Hellfire and Back
+A{"Hellfire", 1262, criterion=3883, note="[criterionID guess]", side="alliance"} -- To Hellfire and Back
+A{"Hellfire", 1262, criterion=3915, note="[criterionID guess]", side="horde"} -- To Hellfire and Back
 
 -- Quests/Outland: To Hellfire and Back
-A{"Hellfire", 1271, criterion=3912} -- 84 Hellfire quests
+A{"Hellfire", 1271, criterion=3912, side="horde"} -- 84 Hellfire quests
 
 -- Exploration/Outland: Medium Rare
 A{"Hellfire", 1311, criterion=4512} -- Fulgorge
@@ -1274,13 +1274,13 @@ A{"HighmaulRaid", 9838, criterion=27640, note="in Arcane Sanctum"} -- Ko'ragh
 A{"HighmaulRaid", 9838, criterion=27633, note="in Imperator's Rise"} -- Imperator Mar'gok
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
-A{"HillsbradFoothills", 1676, criterion=15211} -- Redridge/Hillsbrad
+A{"HillsbradFoothills", 1676, criterion=15211, side="horde"} -- Redridge/Hillsbrad
 
 -- General: To All The Squirrels Who Shared My Life
 A{"HillsbradFoothills", 2557, 0.566, 0.612, criterion=0} -- Huge Toad
 
 -- Quests/Eastern Kingdoms: Hillsbrad Foothills Quests
-A{"HillsbradFoothills", 4895, criterion=13712} -- Hillsbrad Foothills
+A{"HillsbradFoothills", 4895, criterion=13712, side="horde"} -- Hillsbrad Foothills
 
 -- Exploration: Field Photographer
 A{"HillsbradFoothills", 9924, 0.700, 0.470, criterion=27970} -- Ravenholdt Manor
@@ -1295,13 +1295,13 @@ A{"Hinterlands", 4897, criterion=13750} -- The Hinterlands
 A{"Hinterlands", 5478, criterion=15890, note="60% drop rate, inland lakes & rivers"} -- Mithril Head Trout
 
 -- Quests/Northrend: I've Toured the Fjord
-A{"HowlingFjord", 34, criterion=75} -- Complete 130 quests in Howling Fjord
+A{"HowlingFjord", 34, criterion=75, side="alliance"} -- Complete 130 quests in Howling Fjord
 
 -- Quests/Northrend: Loremaster of Northrend
 A{"HowlingFjord", 41, criterion=83} -- I've Toured the Fjord
 
 -- Quests/Northrend: I've Toured the Fjord
-A{"HowlingFjord", 1356, criterion=75} -- Complete 105 quests in Howling Fjord
+A{"HowlingFjord", 1356, criterion=75, side="horde"} -- Complete 105 quests in Howling Fjord
 
 -- Exploration/Northrend: Northern Exposure
 A{"HowlingFjord", 2256, 0.730, 0.530, criterion=8107, note="or thereabouts"} -- Vigdis the War Maiden
@@ -1414,48 +1414,48 @@ A{"IcecrownGlacier", 2756}
 A{"IcecrownGlacier", 2758}
 
 -- World Events/Argent Tournament: Exalted Champion of Darnassus
-A{"IcecrownGlacier", 2760, criterion=11320} -- Champion of Darnassus
+A{"IcecrownGlacier", 2760, criterion=11320, side="alliance"} -- Champion of Darnassus
 
 -- World Events/Argent Tournament: Exalted Champion of the Exodar
-A{"IcecrownGlacier", 2761, criterion=11321} -- Champion of the Exodar
+A{"IcecrownGlacier", 2761, criterion=11321, side="alliance"} -- Champion of the Exodar
 
 -- World Events/Argent Tournament: Exalted Champion of Gnomeregan
-A{"IcecrownGlacier", 2762, criterion=11322} -- Champion of Gnomeregan
+A{"IcecrownGlacier", 2762, criterion=11322, side="alliance"} -- Champion of Gnomeregan
 
 -- World Events/Argent Tournament: Exalted Champion of Ironforge
-A{"IcecrownGlacier", 2763, criterion=11323} -- Champion of Ironforge
+A{"IcecrownGlacier", 2763, criterion=11323, side="alliance"} -- Champion of Ironforge
 
 -- World Events/Argent Tournament: Exalted Champion of Stormwind
-A{"IcecrownGlacier", 2764, criterion=11324} -- Champion of Stormwind
+A{"IcecrownGlacier", 2764, criterion=11324, side="alliance"} -- Champion of Stormwind
 
 -- World Events/Argent Tournament: Exalted Champion of Orgrimmar
-A{"IcecrownGlacier", 2765, criterion=9783} -- Champion of Orgrimmar
+A{"IcecrownGlacier", 2765, criterion=9783, side="horde"} -- Champion of Orgrimmar
 
 -- World Events/Argent Tournament: Exalted Champion of Sen'jin
-A{"IcecrownGlacier", 2766, criterion=11326} -- Champion of Sen'jin
+A{"IcecrownGlacier", 2766, criterion=11326, side="horde"} -- Champion of Sen'jin
 
 -- World Events/Argent Tournament: Exalted Champion of Silvermoon City
-A{"IcecrownGlacier", 2767, criterion=9785} -- Champion of Silvermoon City
+A{"IcecrownGlacier", 2767, criterion=9785, side="horde"} -- Champion of Silvermoon City
 
 -- World Events/Argent Tournament: Exalted Champion of Thunder Bluff
-A{"IcecrownGlacier", 2768, criterion=11328} -- Champion of Thunder Bluff
+A{"IcecrownGlacier", 2768, criterion=11328, side="horde"} -- Champion of Thunder Bluff
 
 -- World Events/Argent Tournament: Exalted Champion of the Undercity
-A{"IcecrownGlacier", 2769, criterion=11329} -- Champion of the Undercity
+A{"IcecrownGlacier", 2769, criterion=11329, side="horde"} -- Champion of the Undercity
 
 -- World Events/Argent Tournament: Exalted Champion of the Alliance
-A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9668} -- Champion of Darnassus
-A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9670} -- Champion of Gnomeregan
-A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9671} -- Champion of Stormwind
-A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9672} -- Champion of Ironforge
-A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9669} -- Champion of the Exodar
+A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9668, side="alliance"} -- Champion of Darnassus
+A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9670, side="alliance"} -- Champion of Gnomeregan
+A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9671, side="alliance"} -- Champion of Stormwind
+A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9672, side="alliance"} -- Champion of Ironforge
+A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9669, side="alliance"} -- Champion of the Exodar
 
 -- World Events/Argent Tournament: Exalted Champion of the Horde
-A{"IcecrownGlacier", 2771, criterion=9673} -- Champion of Orgrimmar
-A{"IcecrownGlacier", 2771, criterion=9674} -- Champion of Sen'jin
-A{"IcecrownGlacier", 2771, criterion=9676} -- Champion of the Undercity
-A{"IcecrownGlacier", 2771, criterion=9677} -- Champion of Thunder Bluff
-A{"IcecrownGlacier", 2771, criterion=9675} -- Champion of Silvermoon City
+A{"IcecrownGlacier", 2771, criterion=9673, side="horde"} -- Champion of Orgrimmar
+A{"IcecrownGlacier", 2771, criterion=9674, side="horde"} -- Champion of Sen'jin
+A{"IcecrownGlacier", 2771, criterion=9676, side="horde"} -- Champion of the Undercity
+A{"IcecrownGlacier", 2771, criterion=9677, side="horde"} -- Champion of Thunder Bluff
+A{"IcecrownGlacier", 2771, criterion=9675, side="horde"} -- Champion of Silvermoon City
 
 -- World Events/Argent Tournament: Tilted!
 A{"IcecrownGlacier", 2772}
@@ -1464,64 +1464,64 @@ A{"IcecrownGlacier", 2772}
 A{"IcecrownGlacier", 2773}
 
 -- World Events/Argent Tournament: Champion of Darnassus
-A{"IcecrownGlacier", 2777, 0.763, 0.195}
+A{"IcecrownGlacier", 2777, 0.763, 0.195, side="alliance"}
 
 -- World Events/Argent Tournament: Champion of the Exodar
-A{"IcecrownGlacier", 2778, 0.763, 0.195}
+A{"IcecrownGlacier", 2778, 0.763, 0.195, side="alliance"}
 
 -- World Events/Argent Tournament: Champion of Gnomeregan
-A{"IcecrownGlacier", 2779, 0.763, 0.195}
+A{"IcecrownGlacier", 2779, 0.763, 0.195, side="alliance"}
 
 -- World Events/Argent Tournament: Champion of Ironforge
-A{"IcecrownGlacier", 2780, 0.763, 0.195}
+A{"IcecrownGlacier", 2780, 0.763, 0.195, side="alliance"}
 
 -- World Events/Argent Tournament: Champion of Stormwind
-A{"IcecrownGlacier", 2781, 0.763, 0.195}
+A{"IcecrownGlacier", 2781, 0.763, 0.195, side="alliance"}
 
 -- World Events/Argent Tournament: Champion of the Alliance
-A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9778} -- Champion of Darnassus
-A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9779} -- Champion of the Exodar
-A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9780} -- Champion of Gnomeregan
-A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9781} -- Champion of Stormwind
-A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9782} -- Champion of Ironforge
+A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9778, side="alliance"} -- Champion of Darnassus
+A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9779, side="alliance"} -- Champion of the Exodar
+A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9780, side="alliance"} -- Champion of Gnomeregan
+A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9781, side="alliance"} -- Champion of Stormwind
+A{"IcecrownGlacier", 2782, 0.763, 0.195, criterion=9782, side="alliance"} -- Champion of Ironforge
 
 -- World Events/Argent Tournament: Champion of Orgrimmar
-A{"IcecrownGlacier", 2783}
+A{"IcecrownGlacier", 2783, side="horde"}
 
 -- World Events/Argent Tournament: Champion of Sen'jin
-A{"IcecrownGlacier", 2784}
+A{"IcecrownGlacier", 2784, side="horde"}
 
 -- World Events/Argent Tournament: Champion of Silvermoon City
-A{"IcecrownGlacier", 2785}
+A{"IcecrownGlacier", 2785, side="horde"}
 
 -- World Events/Argent Tournament: Champion of Thunder Bluff
-A{"IcecrownGlacier", 2786}
+A{"IcecrownGlacier", 2786, side="horde"}
 
 -- World Events/Argent Tournament: Champion of the Undercity
-A{"IcecrownGlacier", 2787}
+A{"IcecrownGlacier", 2787, side="horde"}
 
 -- World Events/Argent Tournament: Champion of the Horde
-A{"IcecrownGlacier", 2788, criterion=9788} -- Champion of Orgrimmar
-A{"IcecrownGlacier", 2788, criterion=9789} -- Champion of Sen'jin
-A{"IcecrownGlacier", 2788, criterion=9790} -- Champion of Silvermoon City
-A{"IcecrownGlacier", 2788, criterion=9791} -- Champion of the Undercity
-A{"IcecrownGlacier", 2788, criterion=9792} -- Champion of Thunder Bluff
+A{"IcecrownGlacier", 2788, criterion=9788, side="horde"} -- Champion of Orgrimmar
+A{"IcecrownGlacier", 2788, criterion=9789, side="horde"} -- Champion of Sen'jin
+A{"IcecrownGlacier", 2788, criterion=9790, side="horde"} -- Champion of Silvermoon City
+A{"IcecrownGlacier", 2788, criterion=9791, side="horde"} -- Champion of the Undercity
+A{"IcecrownGlacier", 2788, criterion=9792, side="horde"} -- Champion of Thunder Bluff
 
 -- World Events/Argent Tournament: Exalted Argent Champion of the Horde
-A{"IcecrownGlacier", 2816, criterion=2024} -- The Argent Crusade
-A{"IcecrownGlacier", 2816, criterion=9673} -- Champion of Orgrimmar
-A{"IcecrownGlacier", 2816, criterion=9674} -- Champion of Sen'jin
-A{"IcecrownGlacier", 2816, criterion=9675} -- Champion of Silvermoon City
-A{"IcecrownGlacier", 2816, criterion=9676} -- Champion of the Undercity
-A{"IcecrownGlacier", 2816, criterion=9677} -- Champion of Thunder Bluff
+A{"IcecrownGlacier", 2816, criterion=2024, side="horde"} -- The Argent Crusade
+A{"IcecrownGlacier", 2816, criterion=9673, side="horde"} -- Champion of Orgrimmar
+A{"IcecrownGlacier", 2816, criterion=9674, side="horde"} -- Champion of Sen'jin
+A{"IcecrownGlacier", 2816, criterion=9675, side="horde"} -- Champion of Silvermoon City
+A{"IcecrownGlacier", 2816, criterion=9676, side="horde"} -- Champion of the Undercity
+A{"IcecrownGlacier", 2816, criterion=9677, side="horde"} -- Champion of Thunder Bluff
 
 -- World Events/Argent Tournament: Exalted Argent Champion of the Alliance
-A{"IcecrownGlacier", 2817, criterion=9670} -- Champion of Gnomeregan
-A{"IcecrownGlacier", 2817, criterion=9671} -- Champion of Stormwind
-A{"IcecrownGlacier", 2817, criterion=9672} -- Champion of Ironforge
-A{"IcecrownGlacier", 2817, criterion=2024} -- The Argent Crusade
-A{"IcecrownGlacier", 2817, criterion=9668} -- Champion of Darnassus
-A{"IcecrownGlacier", 2817, criterion=9669} -- Champion of the Exodar
+A{"IcecrownGlacier", 2817, criterion=9670, side="alliance"} -- Champion of Gnomeregan
+A{"IcecrownGlacier", 2817, criterion=9671, side="alliance"} -- Champion of Stormwind
+A{"IcecrownGlacier", 2817, criterion=9672, side="alliance"} -- Champion of Ironforge
+A{"IcecrownGlacier", 2817, criterion=2024, side="alliance"} -- The Argent Crusade
+A{"IcecrownGlacier", 2817, criterion=9668, side="alliance"} -- Champion of Darnassus
+A{"IcecrownGlacier", 2817, criterion=9669, side="alliance"} -- Champion of the Exodar
 
 -- World Events/Argent Tournament: Lance a Lot
 A{"IcecrownGlacier", 2836, criterion=9919} -- Sen'jin
@@ -1536,34 +1536,34 @@ A{"IcecrownGlacier", 2836, criterion=10227} -- Orgrimmar
 A{"IcecrownGlacier", 2836, criterion=10228} -- Stormwind
 
 -- World Events/Argent Tournament: A Silver Confidant
-A{"IcecrownGlacier", 3676}
+A{"IcecrownGlacier", 3676, side="alliance"}
 
 -- World Events/Argent Tournament: The Sunreavers
-A{"IcecrownGlacier", 3677}
+A{"IcecrownGlacier", 3677, side="horde"}
 
 -- World Events/Argent Tournament: Pony Up!
 A{"IcecrownGlacier", 3736}
 
 -- Garrisons: Ten Hit Tunes
-A{"IcecrownGlacier", 9828, 0.760, 0.220, criterion=27759, note="25 Champion's Seal"} -- The Argent Tournament
+A{"IcecrownGlacier", 9828, 0.760, 0.220, criterion=27759, note="25 Champion's Seal", side="alliance"} -- The Argent Tournament
 
 -- Garrisons: Ten Hit Tunes
-A{"IcecrownGlacier", 9897, 0.760, 0.220, criterion=27759, note="25 Champion's Seal"} -- The Argent Tournament
+A{"IcecrownGlacier", 9897, 0.760, 0.220, criterion=27759, note="25 Champion's Seal", side="horde"} -- The Argent Tournament
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"IcecrownGlacier", 9912, 0.760, 0.220, criterion=27759, note="25 Champion's Seal"} -- The Argent Tournament
+A{"IcecrownGlacier", 9912, 0.760, 0.220, criterion=27759, note="25 Champion's Seal", side="alliance"} -- The Argent Tournament
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"IcecrownGlacier", 9914, 0.760, 0.220, criterion=27759, note="25 Champion's Seal"} -- The Argent Tournament
+A{"IcecrownGlacier", 9914, 0.760, 0.220, criterion=27759, note="25 Champion's Seal", side="horde"} -- The Argent Tournament
 
 -- Exploration: Field Photographer
 A{"IcecrownGlacier", 9924, 0.500, 0.520, criterion=27863, floor=7} -- The Frozen Throne
 
 -- Garrisons: Full Discography
-A{"IcecrownGlacier", 10015, 0.760, 0.220, criterion=27759, note="25 Champion's Seal"} -- The Argent Tournament
+A{"IcecrownGlacier", 10015, 0.760, 0.220, criterion=27759, note="25 Champion's Seal", side="alliance"} -- The Argent Tournament
 
 -- Garrisons: Full Discography
-A{"IcecrownGlacier", 10016, 0.760, 0.220, criterion=27759, note="25 Champion's Seal"} -- The Argent Tournament
+A{"IcecrownGlacier", 10016, 0.760, 0.220, criterion=27759, note="25 Champion's Seal", side="horde"} -- The Argent Tournament
 
 -- Dungeons & Raids/Dungeon Challenges: Iron Docks Challenger
 A{"IronDocks", 8997}
@@ -1602,19 +1602,19 @@ A{"IronDocks", 9838, criterion=27626} -- Skulloc, Son of Gruul
 A{"IronDocks", 10079}
 
 -- Professions/Cooking: A Bunch of Lunch
-A{"Ironforge", 5845, 0.601, 0.364, criterion=11744} -- Let's Do Lunch: Ironforge
+A{"Ironforge", 5845, 0.601, 0.364, criterion=11744, side="alliance"} -- Let's Do Lunch: Ironforge
 
 -- Professions/Fishing: Gone Fishin'
-A{"Ironforge", 5851, criterion=17770} -- Fish or Cut Bait: Ironforge
+A{"Ironforge", 5851, criterion=17770, side="alliance"} -- Fish or Cut Bait: Ironforge
 
 -- Garrisons: Ten Hit Tunes
-A{"Ironforge", 9828, 0.471, 0.137, criterion=27746, note="fishing in Forlorn Cavern"} -- Cold Mountain
+A{"Ironforge", 9828, 0.471, 0.137, criterion=27746, note="fishing in Forlorn Cavern", side="alliance"} -- Cold Mountain
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Ironforge", 9912, 0.471, 0.137, criterion=27746, note="fishing in Forlorn Cavern"} -- Cold Mountain
+A{"Ironforge", 9912, 0.471, 0.137, criterion=27746, note="fishing in Forlorn Cavern", side="alliance"} -- Cold Mountain
 
 -- Garrisons: Full Discography
-A{"Ironforge", 10015, 0.471, 0.137, criterion=27746, note="fishing in Forlorn Cavern"} -- Cold Mountain
+A{"Ironforge", 10015, 0.471, 0.137, criterion=27746, note="fishing in Forlorn Cavern", side="alliance"} -- Cold Mountain
 
 -- Quests/Pandaria: Isle of Thunder
 A{"IsleoftheThunderKing", 8099, criterion=0} -- First Landing
@@ -1689,18 +1689,18 @@ A{"Krasarang", 6350, 0.496, 0.398, criterion="Luyu Moth", note="zone exclusive"}
 A{"Krasarang", 6350, 0.482, 0.398, criterion=20817, note="zone exclusive"} -- Amethyst Spiderling
 
 -- Quests/Pandaria: Mighty Roamin' Krasaranger
-A{"Krasarang", 6535, criterion=0} -- Nayeli Lagoon
-A{"Krasarang", 6535, criterion=19357} -- The Incursion
-A{"Krasarang", 6535, criterion=19358} -- The Waters of Youth
-A{"Krasarang", 6535, criterion=18829} -- Temple of the Red Crane
-A{"Krasarang", 6535, criterion=18824} -- Zhu's Watch
+A{"Krasarang", 6535, criterion=0, side="alliance"} -- Nayeli Lagoon
+A{"Krasarang", 6535, criterion=19357, side="alliance"} -- The Incursion
+A{"Krasarang", 6535, criterion=19358, side="alliance"} -- The Waters of Youth
+A{"Krasarang", 6535, criterion=18829, side="alliance"} -- Temple of the Red Crane
+A{"Krasarang", 6535, criterion=18824, side="alliance"} -- Zhu's Watch
 
 -- Quests/Pandaria: Mighty Roamin' Krasaranger
-A{"Krasarang", 6536, criterion=0} -- Nayeli Lagoon
-A{"Krasarang", 6536, criterion=18825} -- Thunder Cleft
-A{"Krasarang", 6536, criterion=18829} -- Temple of the Red Crane
-A{"Krasarang", 6536, criterion=18830} -- Dawnchaser Retreat
-A{"Krasarang", 6536, criterion=18824} -- Zhu's Watch
+A{"Krasarang", 6536, criterion=0, side="horde"} -- Nayeli Lagoon
+A{"Krasarang", 6536, criterion=18825, side="horde"} -- Thunder Cleft
+A{"Krasarang", 6536, criterion=18829, side="horde"} -- Temple of the Red Crane
+A{"Krasarang", 6536, criterion=18830, side="horde"} -- Dawnchaser Retreat
+A{"Krasarang", 6536, criterion=18824, side="horde"} -- Zhu's Watch
 
 -- Quests/Pandaria: Loremaster of Pandaria
 A{"Krasarang", 6541, criterion=19379} -- Mighty Roamin' Krasaranger
@@ -1815,77 +1815,77 @@ A{"Krasarang", 7614, 0.680, 0.440, criterion=21999, note="possible daily quest"}
 A{"Krasarang", 7614, 0.680, 0.440, criterion=22000, note="possible daily quest"} -- Piranha!
 
 -- Quests/Pandaria: Operation: Shieldwall Campaign
-A{"Krasarang", 7928, criterion=22424} -- Lion's Landing
-A{"Krasarang", 7928, criterion=22425} -- The Man With a Thousand Faces
-A{"Krasarang", 7928, criterion=22426} -- The Voice of the Gods
-A{"Krasarang", 7928, criterion=22427} -- Jaina's Hope
-A{"Krasarang", 7928, criterion=0} -- The Korune
-A{"Krasarang", 7928, criterion=22431} -- Heart of the Alliance
-A{"Krasarang", 7928, criterion=22432} -- Secrets of the Past
-A{"Krasarang", 7928, criterion=22433} -- An Ancient Ally
-A{"Krasarang", 7928, criterion=22538} -- The Purge of Dalaran
-A{"Krasarang", 7928, criterion=22434} -- The Divine Bell
-A{"Krasarang", 7928, criterion=22437} -- Breath of Darkest Shadow
-A{"Krasarang", 7928, criterion=0} -- In Search of Harmony
+A{"Krasarang", 7928, criterion=22424, side="alliance"} -- Lion's Landing
+A{"Krasarang", 7928, criterion=22425, side="alliance"} -- The Man With a Thousand Faces
+A{"Krasarang", 7928, criterion=22426, side="alliance"} -- The Voice of the Gods
+A{"Krasarang", 7928, criterion=22427, side="alliance"} -- Jaina's Hope
+A{"Krasarang", 7928, criterion=0, side="alliance"} -- The Korune
+A{"Krasarang", 7928, criterion=22431, side="alliance"} -- Heart of the Alliance
+A{"Krasarang", 7928, criterion=22432, side="alliance"} -- Secrets of the Past
+A{"Krasarang", 7928, criterion=22433, side="alliance"} -- An Ancient Ally
+A{"Krasarang", 7928, criterion=22538, side="alliance"} -- The Purge of Dalaran
+A{"Krasarang", 7928, criterion=22434, side="alliance"} -- The Divine Bell
+A{"Krasarang", 7928, criterion=22437, side="alliance"} -- Breath of Darkest Shadow
+A{"Krasarang", 7928, criterion=0, side="alliance"} -- In Search of Harmony
 
 -- Quests/Pandaria: Dominance Offensive Campaign
-A{"Krasarang", 7929, criterion=22438} -- Domination Point
-A{"Krasarang", 7929, criterion=22439} -- The Voice of the Gods
-A{"Krasarang", 7929, criterion=22440} -- The Horde Is Family
-A{"Krasarang", 7929, criterion=0} -- Blood For Blood
-A{"Krasarang", 7929, criterion=22448} -- The Korune
-A{"Krasarang", 7929, criterion=22449} -- Pride
-A{"Krasarang", 7929, criterion=22450} -- Rise of the Blood Elves
-A{"Krasarang", 7929, criterion=22451} -- Secrets of the Past
-A{"Krasarang", 7929, criterion=22452} -- The Divine Bell
-A{"Krasarang", 7929, criterion=22453} -- The Darnassus Operation
-A{"Krasarang", 7929, criterion=22454} -- Breath of Darkest Shadow
-A{"Krasarang", 7929, criterion=22539} -- The Purge of Dalaran
+A{"Krasarang", 7929, criterion=22438, side="horde"} -- Domination Point
+A{"Krasarang", 7929, criterion=22439, side="horde"} -- The Voice of the Gods
+A{"Krasarang", 7929, criterion=22440, side="horde"} -- The Horde Is Family
+A{"Krasarang", 7929, criterion=0, side="horde"} -- Blood For Blood
+A{"Krasarang", 7929, criterion=22448, side="horde"} -- The Korune
+A{"Krasarang", 7929, criterion=22449, side="horde"} -- Pride
+A{"Krasarang", 7929, criterion=22450, side="horde"} -- Rise of the Blood Elves
+A{"Krasarang", 7929, criterion=22451, side="horde"} -- Secrets of the Past
+A{"Krasarang", 7929, criterion=22452, side="horde"} -- The Divine Bell
+A{"Krasarang", 7929, criterion=22453, side="horde"} -- The Darnassus Operation
+A{"Krasarang", 7929, criterion=22454, side="horde"} -- Breath of Darkest Shadow
+A{"Krasarang", 7929, criterion=22539, side="horde"} -- The Purge of Dalaran
 
 -- Garrisons: Ten Hit Tunes
-A{"Krasarang", 9828, 0.896, 0.334, criterion=27744, note="from Proveditor Grantley\n500 Domination Point Commission"} -- High Seas
+A{"Krasarang", 9828, 0.896, 0.334, criterion=27744, note="from Proveditor Grantley\n500 Domination Point Commission", side="alliance"} -- High Seas
 
 -- Garrisons: Ten Hit Tunes
-A{"Krasarang", 9897, 0.106, 0.536, criterion=27769, note="from Ongrom Black Tooth\n500 Lion's Landing Comission"} -- War March
+A{"Krasarang", 9897, 0.106, 0.536, criterion=27769, note="from Ongrom Black Tooth\n500 Lion's Landing Comission", side="horde"} -- War March
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Krasarang", 9912, 0.896, 0.334, criterion=27744, note="from Proveditor Grantley\n500 Domination Point Commission"} -- High Seas
+A{"Krasarang", 9912, 0.896, 0.334, criterion=27744, note="from Proveditor Grantley\n500 Domination Point Commission", side="alliance"} -- High Seas
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Krasarang", 9914, 0.106, 0.536, criterion=27769, note="from Ongrom Black Tooth\n500 Lion's Landing Comission"} -- War March
+A{"Krasarang", 9914, 0.106, 0.536, criterion=27769, note="from Ongrom Black Tooth\n500 Lion's Landing Comission", side="horde"} -- War March
 
 -- Exploration: Field Photographer
 A{"Krasarang", 9924, 0.720, 0.310, criterion=27976} -- Turtle Beach
 
 -- Garrisons: Full Discography
-A{"Krasarang", 10015, 0.896, 0.334, criterion=27744, note="from Proveditor Grantley\n500 Domination Point Commission"} -- High Seas
+A{"Krasarang", 10015, 0.896, 0.334, criterion=27744, note="from Proveditor Grantley\n500 Domination Point Commission", side="alliance"} -- High Seas
 
 -- Garrisons: Full Discography
-A{"Krasarang", 10016, 0.106, 0.536, criterion=27769, note="from Ongrom Black Tooth\n500 Lion's Landing Comission"} -- War March
+A{"Krasarang", 10016, 0.106, 0.536, criterion=27769, note="from Ongrom Black Tooth\n500 Lion's Landing Comission", side="horde"} -- War March
 
 -- Quests/Pandaria: Slum It in the Summit
-A{"KunLaiSummit", 6537, criterion=19359} -- Westwind Rest
-A{"KunLaiSummit", 6537, criterion=19360} -- The Yaungol Invasion
-A{"KunLaiSummit", 6537, criterion=22136} -- Inkgill Mere
-A{"KunLaiSummit", 6537, criterion=21869} -- Temple of the White Tiger
-A{"KunLaiSummit", 6537, criterion=19363} -- The Shado-Pan
-A{"KunLaiSummit", 6537, criterion=19364} -- The Burlap Trail
-A{"KunLaiSummit", 6537, criterion=19365} -- Kota Peak
-A{"KunLaiSummit", 6537, criterion=19366} -- The Yak Wash
-A{"KunLaiSummit", 6537, criterion=19367} -- The Thunder King
-A{"KunLaiSummit", 6537, criterion=19369} -- Zouchin Village
+A{"KunLaiSummit", 6537, criterion=19359, side="alliance"} -- Westwind Rest
+A{"KunLaiSummit", 6537, criterion=19360, side="alliance"} -- The Yaungol Invasion
+A{"KunLaiSummit", 6537, criterion=22136, side="alliance"} -- Inkgill Mere
+A{"KunLaiSummit", 6537, criterion=21869, side="alliance"} -- Temple of the White Tiger
+A{"KunLaiSummit", 6537, criterion=19363, side="alliance"} -- The Shado-Pan
+A{"KunLaiSummit", 6537, criterion=19364, side="alliance"} -- The Burlap Trail
+A{"KunLaiSummit", 6537, criterion=19365, side="alliance"} -- Kota Peak
+A{"KunLaiSummit", 6537, criterion=19366, side="alliance"} -- The Yak Wash
+A{"KunLaiSummit", 6537, criterion=19367, side="alliance"} -- The Thunder King
+A{"KunLaiSummit", 6537, criterion=19369, side="alliance"} -- Zouchin Village
 
 -- Quests/Pandaria: Slum It in the Summit
-A{"KunLaiSummit", 6538, criterion=19369} -- Zouchin Village
-A{"KunLaiSummit", 6538, criterion=19361} -- Inkgill Mere
-A{"KunLaiSummit", 6538, criterion=19367} -- The Thunder King
-A{"KunLaiSummit", 6538, criterion=19365} -- Kota Peak
-A{"KunLaiSummit", 6538, criterion=19363} -- The Shado-Pan
-A{"KunLaiSummit", 6538, criterion=19366} -- The Yak Wash
-A{"KunLaiSummit", 6538, criterion=21868} -- Temple of the White Tiger
-A{"KunLaiSummit", 6538, criterion=19364} -- The Burlap Trail
-A{"KunLaiSummit", 6538, criterion=19370} -- Eastwind Rest
-A{"KunLaiSummit", 6538, criterion=19371} -- The Yaungol Invasion
+A{"KunLaiSummit", 6538, criterion=19369, side="horde"} -- Zouchin Village
+A{"KunLaiSummit", 6538, criterion=19361, side="horde"} -- Inkgill Mere
+A{"KunLaiSummit", 6538, criterion=19367, side="horde"} -- The Thunder King
+A{"KunLaiSummit", 6538, criterion=19365, side="horde"} -- Kota Peak
+A{"KunLaiSummit", 6538, criterion=19363, side="horde"} -- The Shado-Pan
+A{"KunLaiSummit", 6538, criterion=19366, side="horde"} -- The Yak Wash
+A{"KunLaiSummit", 6538, criterion=21868, side="horde"} -- Temple of the White Tiger
+A{"KunLaiSummit", 6538, criterion=19364, side="horde"} -- The Burlap Trail
+A{"KunLaiSummit", 6538, criterion=19370, side="horde"} -- Eastwind Rest
+A{"KunLaiSummit", 6538, criterion=19371, side="horde"} -- The Yaungol Invasion
 
 -- Quests/Pandaria: Loremaster of Pandaria
 A{"KunLaiSummit", 6541, criterion=19380} -- Slum It in the Summit
@@ -1998,7 +1998,7 @@ A{"KunLaiSummit", 9924, 0.430, 0.520, criterion=27964} -- Mount Neverest
 A{"LakeWintergrasp", 9924, 0.500, 0.160, criterion=27958} -- Wintergrasp Fortress
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
-A{"LochModan", 1676, criterion=15196} -- Loch Modan+Wetlands/Ghostlands
+A{"LochModan", 1676, criterion=15196, side="alliance"} -- Loch Modan+Wetlands/Ghostlands
 
 -- Professions/Fishing: The Limnologist
 A{"LochModan", 5478, 0.400, 0.390, criterion=15892, note="80% drop rate from Sagefish schools"} -- Sagefish
@@ -2114,14 +2114,14 @@ A{"Nagrand", 939}
 A{"Nagrand", 941, criterion=2009} -- Hills Like White Elekk
 
 -- Quests/Outland: Nagrand Slam
-A{"Nagrand", 1192, criterion=3586} -- 75 Nagrand quests
+A{"Nagrand", 1192, criterion=3586, side="alliance"} -- 75 Nagrand quests
 
 -- Quests/Outland: Loremaster of Outland
-A{"Nagrand", 1262, criterion=3886, note="[criterionID guess]"} -- Nagrand Slam
-A{"Nagrand", 1262, criterion=3918, note="[criterionID guess]"} -- Nagrand Slam
+A{"Nagrand", 1262, criterion=3886, note="[criterionID guess]", side="alliance"} -- Nagrand Slam
+A{"Nagrand", 1262, criterion=3918, note="[criterionID guess]", side="horde"} -- Nagrand Slam
 
 -- Quests/Outland: Nagrand Slam
-A{"Nagrand", 1273, criterion=3586} -- 85 Nagrand quests
+A{"Nagrand", 1273, criterion=3586, side="horde"} -- 85 Nagrand quests
 
 -- Exploration/Outland: Medium Rare
 A{"Nagrand", 1311, criterion=4522} -- Voidhunter Yar
@@ -2138,24 +2138,24 @@ A{"Nagrand", 1576, criterion=5798} -- The Ring of Blood: The Final Challenge
 A{"Nagrand", 4958, 0.428, 0.206, criterion=5798} -- Ring of Blood in Nagrand
 
 -- Quests/Draenor: Nagrandeur
-A{"Nagrand", 8927, criterion=25361} -- The Dark Heart of Oshu'gun
-A{"Nagrand", 8927, criterion=25362} -- The Ring of Trials
-A{"Nagrand", 8927, criterion=25363} -- The Shadow of the Void
-A{"Nagrand", 8927, criterion=25364} -- The Taking of Lok-rath
-A{"Nagrand", 8927, criterion=25365} -- A Blademaster's Honor
-A{"Nagrand", 8927, criterion=25366} -- The Might of Steel and Blood
-A{"Nagrand", 8927, criterion=25367} -- The Legacy of Garrosh Hellscream
-A{"Nagrand", 8927, criterion=26005} -- Trouble at the Overwatch
+A{"Nagrand", 8927, criterion=25361, side="alliance"} -- The Dark Heart of Oshu'gun
+A{"Nagrand", 8927, criterion=25362, side="alliance"} -- The Ring of Trials
+A{"Nagrand", 8927, criterion=25363, side="alliance"} -- The Shadow of the Void
+A{"Nagrand", 8927, criterion=25364, side="alliance"} -- The Taking of Lok-rath
+A{"Nagrand", 8927, criterion=25365, side="alliance"} -- A Blademaster's Honor
+A{"Nagrand", 8927, criterion=25366, side="alliance"} -- The Might of Steel and Blood
+A{"Nagrand", 8927, criterion=25367, side="alliance"} -- The Legacy of Garrosh Hellscream
+A{"Nagrand", 8927, criterion=26005, side="alliance"} -- Trouble at the Overwatch
 
 -- Quests/Draenor: Nagrandeur
-A{"Nagrand", 8928, criterion=25368} -- The Might of Steel and Blood
-A{"Nagrand", 8928, criterion=25369} -- The Taking of Lok-rath
-A{"Nagrand", 8928, criterion=25370} -- Remains of Telaar
-A{"Nagrand", 8928, criterion=25362} -- The Ring of Trials
-A{"Nagrand", 8928, criterion=25363} -- The Shadow of the Void
-A{"Nagrand", 8928, criterion=25371} -- The Dark Heart of Oshu'gun
-A{"Nagrand", 8928, criterion=25372} -- The Legacy of Garrosh Hellscream
-A{"Nagrand", 8928, criterion=26006} -- Trouble at the Overwatch
+A{"Nagrand", 8928, criterion=25368, side="horde"} -- The Might of Steel and Blood
+A{"Nagrand", 8928, criterion=25369, side="horde"} -- The Taking of Lok-rath
+A{"Nagrand", 8928, criterion=25370, side="horde"} -- Remains of Telaar
+A{"Nagrand", 8928, criterion=25362, side="horde"} -- The Ring of Trials
+A{"Nagrand", 8928, criterion=25363, side="horde"} -- The Shadow of the Void
+A{"Nagrand", 8928, criterion=25371, side="horde"} -- The Dark Heart of Oshu'gun
+A{"Nagrand", 8928, criterion=25372, side="horde"} -- The Legacy of Garrosh Hellscream
+A{"Nagrand", 8928, criterion=26006, side="horde"} -- Trouble at the Overwatch
 
 -- Quests/Draenor: With a Nagrand Cherry On Top
 A{"Nagrand", 9615, criterion=26409} -- Bonus Objective: Hemet's Happy Hunting Grounds
@@ -2166,10 +2166,10 @@ A{"Nagrand", 9615, criterion=26428} -- Bonus Objective: Snarlpaw Ledge
 A{"NagrandDraenor", 8935, criterion=24635} -- Explore Nagrand
 
 -- Quests/Draenor: Loremaster of Draenor
-A{"NagrandDraenor", 9833, criterion=27551} -- Nagrandeur
+A{"NagrandDraenor", 9833, criterion=27551, side="alliance"} -- Nagrandeur
 
 -- Quests/Draenor: Loremaster of Draenor
-A{"NagrandDraenor", 9923, criterion=27552} -- Nagrandeur
+A{"NagrandDraenor", 9923, criterion=27552, side="horde"} -- Nagrandeur
 
 -- Exploration: Field Photographer
 A{"NagrandDraenor", 9924, 0.730, 0.210, criterion=27962} -- Throne of the Elements
@@ -2239,13 +2239,13 @@ A{"Orgrimmar", 150, criterion=5274} -- Orgrimmar
 A{"Orgrimmar", 1206, 0.484, 0.482, criterion="Toad", note="also Wetlands"} -- Toad
 
 -- Professions/Cooking: A Bunch of Lunch
-A{"Orgrimmar", 5845, criterion=17748} -- Let's Do Lunch: Orgrimmar
+A{"Orgrimmar", 5845, criterion=17748, side="horde"} -- Let's Do Lunch: Orgrimmar
 
 -- Professions/Fishing: Gone Fishin'
-A{"Orgrimmar", 5851, criterion=17772} -- Fish or Cut Bait: Orgrimmar
+A{"Orgrimmar", 5851, criterion=17772, side="horde"} -- Fish or Cut Bait: Orgrimmar
 
 -- Exploration: Field Photographer
-A{"Orgrimmar", 9924, criterion=27869} -- Orgrimmar
+A{"Orgrimmar", 9924, criterion=27869, side="horde"} -- Orgrimmar
 
 -- Feats of Strength: Ahead of the Curve: Garrosh Hellscream (10 player)
 A{"OrgrimmarRaid", 8398}
@@ -2393,10 +2393,10 @@ A{"OrgrimmarRaid", 8543, criterion=23774} -- Deactivated Missile Turret
 A{"OrgrimmarRaid", 8543, criterion=23775} -- Disassembled Crawler Mines
 
 -- Dungeons & Raids/Pandaria Raid: Conqueror of Orgrimmar
-A{"OrgrimmarRaid", 8679}
+A{"OrgrimmarRaid", 8679, side="alliance"}
 
 -- Dungeons & Raids/Pandaria Raid: Liberator of Orgrimmar
-A{"OrgrimmarRaid", 8680}
+A{"OrgrimmarRaid", 8680, side="horde"}
 
 -- Dungeons & Raids/Dungeon Challenges: The Everbloom Challenger
 A{"OvergrownOutpost", 9001}
@@ -2588,10 +2588,10 @@ A{"Pandaria", 7376, criterion=20669} -- Mogu Coin
 A{"Pandaria", 7377, criterion=20670} -- Worn Monument Ledger
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
-A{"Redridge", 1676, criterion=15198} -- Redridge/Hillsbrad
+A{"Redridge", 1676, criterion=15198, side="alliance"} -- Redridge/Hillsbrad
 
 -- Quests/Eastern Kingdoms: Redridge Mountains Quests
-A{"Redridge", 4902, criterion=13747} -- Redridge Mountains
+A{"Redridge", 4902, criterion=13747, side="alliance"} -- Redridge Mountains
 
 -- Professions/Fishing: The Limnologist
 A{"Redridge", 5478, 0.400, 0.520, criterion=15886, note="60% catch rate"} -- Bristle Whisker Catfish
@@ -2684,46 +2684,46 @@ A{"ShadowmoonValley", 1262, criterion=3889} -- Shadow of the Betrayer
 A{"ShadowmoonValley", 9713, 0.658, 0.865, criterion=26800, note="Netherwing exalted"} -- Purple Netherwing Drake
 
 -- Garrisons: Ten Hit Tunes
-A{"ShadowmoonValley", 9828, 0.573, 0.472, criterion=27756, note="from Warden's Scroll Case\nentrance at 57.2,49.7"} -- The Black Temple
+A{"ShadowmoonValley", 9828, 0.573, 0.472, criterion=27756, note="from Warden's Scroll Case\nentrance at 57.2,49.7", side="alliance"} -- The Black Temple
 
 -- Garrisons: Ten Hit Tunes
-A{"ShadowmoonValley", 9897, 0.573, 0.471, criterion=27756, note="from Warden's Scroll Case"} -- The Black Temple
+A{"ShadowmoonValley", 9897, 0.573, 0.471, criterion=27756, note="from Warden's Scroll Case", side="horde"} -- The Black Temple
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"ShadowmoonValley", 9912, 0.573, 0.471, criterion=27756, note="from Warden's Scroll Case"} -- The Black Temple
+A{"ShadowmoonValley", 9912, 0.573, 0.471, criterion=27756, note="from Warden's Scroll Case", side="alliance"} -- The Black Temple
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"ShadowmoonValley", 9914, 0.573, 0.471, criterion=27756, note="from Warden's Scroll Case"} -- The Black Temple
+A{"ShadowmoonValley", 9914, 0.573, 0.471, criterion=27756, note="from Warden's Scroll Case", side="horde"} -- The Black Temple
 
 -- Garrisons: Full Discography
-A{"ShadowmoonValley", 10015, 0.573, 0.471, criterion=27756, note="from Warden's Scroll Case"} -- The Black Temple
+A{"ShadowmoonValley", 10015, 0.573, 0.471, criterion=27756, note="from Warden's Scroll Case", side="alliance"} -- The Black Temple
 
 -- Garrisons: Full Discography
-A{"ShadowmoonValley", 10016, 0.573, 0.471, criterion=27756, note="from Warden's Scroll Case"} -- The Black Temple
+A{"ShadowmoonValley", 10016, 0.573, 0.471, criterion=27756, note="from Warden's Scroll Case", side="horde"} -- The Black Temple
 
 -- Quests/Draenor: As I Walk Through the Valley of the Shadow of Moon
-A{"ShadowmoonValleyDR", 8845, criterion=24355} -- Establishing a Foothold
-A{"ShadowmoonValleyDR", 8845, criterion=0} -- Dark Side of the Moon
-A{"ShadowmoonValleyDR", 8845, criterion=24358} -- Gloomshade Grove
-A{"ShadowmoonValleyDR", 8845, criterion=24359} -- Shadows Awaken
-A{"ShadowmoonValleyDR", 8845, criterion=24360} -- The Light Prevails
-A{"ShadowmoonValleyDR", 8845, criterion=24713} -- The Pursuit of Justice
-A{"ShadowmoonValleyDR", 8845, criterion=24715} -- Purifying the Gene Pool
+A{"ShadowmoonValleyDR", 8845, criterion=24355, side="alliance"} -- Establishing a Foothold
+A{"ShadowmoonValleyDR", 8845, criterion=0, side="alliance"} -- Dark Side of the Moon
+A{"ShadowmoonValleyDR", 8845, criterion=24358, side="alliance"} -- Gloomshade Grove
+A{"ShadowmoonValleyDR", 8845, criterion=24359, side="alliance"} -- Shadows Awaken
+A{"ShadowmoonValleyDR", 8845, criterion=24360, side="alliance"} -- The Light Prevails
+A{"ShadowmoonValleyDR", 8845, criterion=24713, side="alliance"} -- The Pursuit of Justice
+A{"ShadowmoonValleyDR", 8845, criterion=24715, side="alliance"} -- Purifying the Gene Pool
 
 -- Exploration: Explore Draenor
 A{"ShadowmoonValleyDR", 8935, criterion=24634} -- Explore Shadowmoon Valley
 
 -- Quests/Draenor: On the Shadow's Trail
-A{"ShadowmoonValleyDR", 9528, criterion=26007} -- To Catch a Shadow
+A{"ShadowmoonValleyDR", 9528, criterion=26007, side="alliance"} -- To Catch a Shadow
 
 -- Quests/Draenor: Shoot For the Moon
-A{"ShadowmoonValleyDR", 9602, criterion=26375} -- Bonus Objective: The Burial Fields
-A{"ShadowmoonValleyDR", 9602, criterion=26377} -- Bonus Objective: The Shimmer Moor
-A{"ShadowmoonValleyDR", 9602, criterion=26374} -- Bonus Objective: Bloodthorn Cave
-A{"ShadowmoonValleyDR", 9602, criterion=26376} -- Bonus Objective: The Hills of Valuun
+A{"ShadowmoonValleyDR", 9602, criterion=26375, side="alliance"} -- Bonus Objective: The Burial Fields
+A{"ShadowmoonValleyDR", 9602, criterion=26377, side="alliance"} -- Bonus Objective: The Shimmer Moor
+A{"ShadowmoonValleyDR", 9602, criterion=26374, side="alliance"} -- Bonus Objective: Bloodthorn Cave
+A{"ShadowmoonValleyDR", 9602, criterion=26376, side="alliance"} -- Bonus Objective: The Hills of Valuun
 
 -- Quests/Draenor: Loremaster of Draenor
-A{"ShadowmoonValleyDR", 9833, criterion=27544} -- As I Walk Through The Valley of the Shadow of Moon
+A{"ShadowmoonValleyDR", 9833, criterion=27544, side="alliance"} -- As I Walk Through The Valley of the Shadow of Moon
 
 -- Exploration: Field Photographer
 A{"ShadowmoonValleyDR", 9924, 0.700, 0.500, criterion=27871} -- Temple of Karabor
@@ -2805,42 +2805,42 @@ A{"Silithus", 4934, criterion=13844} -- Silithus
 A{"Silithus", 9924, 0.330, 0.810, criterion=27969} -- The Scarab Dais
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
-A{"Silverpine", 1676, criterion=15215} -- Westfall+Duskwood/Silverpine
+A{"Silverpine", 1676, criterion=15215, side="horde"} -- Westfall+Duskwood/Silverpine
 
 -- Quests/Eastern Kingdoms: Silverpine Forest Quests
-A{"Silverpine", 4894}
+A{"Silverpine", 4894, side="horde"}
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
-A{"SouthernBarrens", 1678, criterion=15226} -- Southern Barrens
-A{"SouthernBarrens", 1678, criterion=15239} -- Southern Barrens
+A{"SouthernBarrens", 1678, criterion=15226, side="alliance"} -- Southern Barrens
+A{"SouthernBarrens", 1678, criterion=15239, side="horde"} -- Southern Barrens
 
 -- Quests/Kalimdor: Southern Barrens Quests
-A{"SouthernBarrens", 4937, criterion=13848} -- Southern Barrens
+A{"SouthernBarrens", 4937, criterion=13848, side="alliance"} -- Southern Barrens
 
 -- Quests/Kalimdor: Southern Barrens Quests
-A{"SouthernBarrens", 4981, criterion=13848} -- Southern Barrens
+A{"SouthernBarrens", 4981, criterion=13848, side="horde"} -- Southern Barrens
 
 -- Quests/Draenor: Between Arak and a Hard Place
-A{"SpiresOfArak", 8925, criterion=26022} -- Admiral Taylor's Garrison
-A{"SpiresOfArak", 8925, criterion=26023} -- Shadows Gather
-A{"SpiresOfArak", 8925, criterion=26024} -- Secrets of the Talonpriests
-A{"SpiresOfArak", 8925, criterion=0} -- The Gods of Arak
-A{"SpiresOfArak", 8925, criterion=26027} -- Legacy of the Apexis
-A{"SpiresOfArak", 8925, criterion=26028} -- Terokk's Legend
-A{"SpiresOfArak", 8925, criterion=26029} -- When the Raven Swallows the Day
-A{"SpiresOfArak", 8925, criterion=26030} -- Pinchwhistle Gearworks
-A{"SpiresOfArak", 8925, criterion=0} -- Securing Southport
+A{"SpiresOfArak", 8925, criterion=26022, side="alliance"} -- Admiral Taylor's Garrison
+A{"SpiresOfArak", 8925, criterion=26023, side="alliance"} -- Shadows Gather
+A{"SpiresOfArak", 8925, criterion=26024, side="alliance"} -- Secrets of the Talonpriests
+A{"SpiresOfArak", 8925, criterion=0, side="alliance"} -- The Gods of Arak
+A{"SpiresOfArak", 8925, criterion=26027, side="alliance"} -- Legacy of the Apexis
+A{"SpiresOfArak", 8925, criterion=26028, side="alliance"} -- Terokk's Legend
+A{"SpiresOfArak", 8925, criterion=26029, side="alliance"} -- When the Raven Swallows the Day
+A{"SpiresOfArak", 8925, criterion=26030, side="alliance"} -- Pinchwhistle Gearworks
+A{"SpiresOfArak", 8925, criterion=0, side="alliance"} -- Securing Southport
 
 -- Quests/Draenor: Between Arak and a Hard Place
-A{"SpiresOfArak", 8926, criterion=26029} -- When the Raven Swallows the Day
-A{"SpiresOfArak", 8926, criterion=26030} -- Pinchwhistle Gearworks
-A{"SpiresOfArak", 8926, criterion=0} -- Establishing Axefall
-A{"SpiresOfArak", 8926, criterion=26023} -- Shadows Gather
-A{"SpiresOfArak", 8926, criterion=26024} -- Secrets of the Talonpriests
-A{"SpiresOfArak", 8926, criterion=0} -- The Gods of Arak
-A{"SpiresOfArak", 8926, criterion=26035} -- Admiral Taylor's Garrison
-A{"SpiresOfArak", 8926, criterion=26027} -- Legacy of the Apexis
-A{"SpiresOfArak", 8926, criterion=26028} -- Terokk's Legend
+A{"SpiresOfArak", 8926, criterion=26029, side="horde"} -- When the Raven Swallows the Day
+A{"SpiresOfArak", 8926, criterion=26030, side="horde"} -- Pinchwhistle Gearworks
+A{"SpiresOfArak", 8926, criterion=0, side="horde"} -- Establishing Axefall
+A{"SpiresOfArak", 8926, criterion=26023, side="horde"} -- Shadows Gather
+A{"SpiresOfArak", 8926, criterion=26024, side="horde"} -- Secrets of the Talonpriests
+A{"SpiresOfArak", 8926, criterion=0, side="horde"} -- The Gods of Arak
+A{"SpiresOfArak", 8926, criterion=26035, side="horde"} -- Admiral Taylor's Garrison
+A{"SpiresOfArak", 8926, criterion=26027, side="horde"} -- Legacy of the Apexis
+A{"SpiresOfArak", 8926, criterion=26028, side="horde"} -- Terokk's Legend
 
 -- Exploration: Explore Draenor
 A{"SpiresOfArak", 8935, criterion=24637} -- Explore Spires of Arak
@@ -2858,13 +2858,13 @@ A{"SpiresOfArak", 9605, criterion=26386} -- The Writhing Mire
 A{"SpiresOfArak", 9605, criterion=26387} -- Bladefist Hold
 
 -- Quests/Draenor: Loremaster of Draenor
-A{"SpiresOfArak", 9833, criterion=27549} -- Between Arak and a Hard Place
+A{"SpiresOfArak", 9833, criterion=27549, side="alliance"} -- Between Arak and a Hard Place
 
 -- Collections: What A Strange, Interdimensional Trip It's Been
 A{"SpiresOfArak", 9838, 0.471, 0.784, criterion=27650} -- Rukhmar
 
 -- Quests/Draenor: Loremaster of Draenor
-A{"SpiresOfArak", 9923, criterion=27550} -- Between Arak and a Hard Place
+A{"SpiresOfArak", 9923, criterion=27550, side="horde"} -- Between Arak and a Hard Place
 
 -- Dungeons & Raids/Draenor Dungeon: Skyreach
 A{"SpiresofArakDungeon", 8843}
@@ -2906,14 +2906,14 @@ A{"SpiresofArakDungeon", 9838, criterion=27630} -- High Sage Viryx
 A{"SpiresofArakDungeon", 10081}
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
-A{"StonetalonMountains", 1678, criterion=15225} -- Stonetalon Mountains
-A{"StonetalonMountains", 1678, criterion=15238} -- Stonetalon Mountains
+A{"StonetalonMountains", 1678, criterion=15225, side="alliance"} -- Stonetalon Mountains
+A{"StonetalonMountains", 1678, criterion=15238, side="horde"} -- Stonetalon Mountains
 
 -- Quests/Kalimdor: Stonetalon Mountains Quests
-A{"StonetalonMountains", 4936, criterion=13845} -- Stonetalon Mountains
+A{"StonetalonMountains", 4936, criterion=13845, side="alliance"} -- Stonetalon Mountains
 
 -- Quests/Kalimdor: Stonetalon Mountains Quests
-A{"StonetalonMountains", 4980, criterion=13845} -- Stonetalon Mountains
+A{"StonetalonMountains", 4980, criterion=13845, side="horde"} -- Stonetalon Mountains
 
 -- Legacy: Stormstout Brewery: Bronze
 A{"StormstoutBrewery", 6889}
@@ -2925,10 +2925,10 @@ A{"StormstoutBrewery", 6890}
 A{"StormstoutBrewery", 6891}
 
 -- Professions/Cooking: A Bunch of Lunch
-A{"Stormwind", 5845, criterion=17745} -- Let's Do Lunch: Stormwind
+A{"Stormwind", 5845, criterion=17745, side="alliance"} -- Let's Do Lunch: Stormwind
 
 -- Professions/Fishing: Gone Fishin'
-A{"Stormwind", 5851, criterion=17771} -- Fish or Cut Bait: Stormwind
+A{"Stormwind", 5851, criterion=17771, side="alliance"} -- Fish or Cut Bait: Stormwind
 
 -- Exploration: Field Photographer
 A{"Stormwind", 9924, 0.690, 0.310, criterion=27873} -- Deeprun Tram
@@ -2940,7 +2940,7 @@ A{"StormwindCity", 150, criterion=5275} -- Stormwind
 A{"StormwindCity", 5478, criterion=15889, note="60% drop rate, open water"} -- Longjaw Mud Snapper
 
 -- Exploration: Field Photographer
-A{"StormwindCity", 9924, criterion=27864} -- Stormwind
+A{"StormwindCity", 9924, criterion=27864, side="alliance"} -- Stormwind
 
 -- Professions/Fishing: Master Angler of Azeroth
 A{"StranglethornJungle", 306}
@@ -2970,16 +2970,16 @@ A{"SwampOfSorrows", 1676, criterion=15216} -- Swamp of Sorrows Quests
 A{"SwampOfSorrows", 4904, criterion=13749} -- Swamp of Sorrows
 
 -- Quests/Draenor: Don't Let the Tala-door Hit You on the Way Out
-A{"Talador", 8919, criterion=24703} -- The Battle for Shattrath
-A{"Talador", 8919, criterion=0} -- Establishing your Outpost
-A{"Talador", 8919, criterion=24699} -- The Plight of the Arakkoa
-A{"Talador", 8919, criterion=24704} -- In the Shadows of Auchindoun
+A{"Talador", 8919, criterion=24703, side="horde"} -- The Battle for Shattrath
+A{"Talador", 8919, criterion=0, side="horde"} -- Establishing your Outpost
+A{"Talador", 8919, criterion=24699, side="horde"} -- The Plight of the Arakkoa
+A{"Talador", 8919, criterion=24704, side="horde"} -- In the Shadows of Auchindoun
 
 -- Quests/Draenor: Don't Let the Tala-door Hit You on the Way Out
-A{"Talador", 8920, criterion=0} -- Establishing your Outpost
-A{"Talador", 8920, criterion=24698} -- The Battle for Shattrath
-A{"Talador", 8920, criterion=24699} -- The Plight of the Arakkoa
-A{"Talador", 8920, criterion=24700} -- In the Shadows of Auchindoun
+A{"Talador", 8920, criterion=0, side="alliance"} -- Establishing your Outpost
+A{"Talador", 8920, criterion=24698, side="alliance"} -- The Battle for Shattrath
+A{"Talador", 8920, criterion=24699, side="alliance"} -- The Plight of the Arakkoa
+A{"Talador", 8920, criterion=24700, side="alliance"} -- In the Shadows of Auchindoun
 
 -- Exploration: Explore Draenor
 A{"Talador", 8935, criterion=24636} -- Explore Talador
@@ -2995,22 +2995,22 @@ A{"Talador", 9674, criterion=26586} -- Bonus Objective: Zorkra's Fall
 A{"Talador", 9674, criterion=0} -- Bonus Objective: Kuuro's Claim or Zangarra
 
 -- Quests/Draenor: Loremaster of Draenor
-A{"Talador", 9833, criterion=27546} -- Don't Let the Tala-door Hit You on the Way Out
+A{"Talador", 9833, criterion=27546, side="alliance"} -- Don't Let the Tala-door Hit You on the Way Out
 
 -- Quests/Draenor: Loremaster of Draenor
-A{"Talador", 9923, criterion=27545} -- Don't Let the Tala-door Hit You on the Way Out
+A{"Talador", 9923, criterion=27545, side="horde"} -- Don't Let the Tala-door Hit You on the Way Out
 
 -- Exploration/Draenor: Draenor Pathfinder
 A{"TanaanJungle", 10018, criterion=28982} -- Tanaan Diplomat
 
 -- Quests/Draenor: Draenor's Last Stand
-A{"TanaanJungle", 10068, criterion=28315} -- Ironhold Harbor
-A{"TanaanJungle", 10068, criterion=28316} -- Ruins of Kra'nak
-A{"TanaanJungle", 10068, criterion=28317} -- Temple of Sha'naar
-A{"TanaanJungle", 10068, criterion=28318} -- The Fel Forge
-A{"TanaanJungle", 10068, criterion=28319} -- The Iron Front
-A{"TanaanJungle", 10068, criterion=28320} -- Throne of Kil'jaeden
-A{"TanaanJungle", 10068, criterion=28321} -- Zeth'gol
+A{"TanaanJungle", 10068, criterion=28315, side="alliance"} -- Ironhold Harbor
+A{"TanaanJungle", 10068, criterion=28316, side="alliance"} -- Ruins of Kra'nak
+A{"TanaanJungle", 10068, criterion=28317, side="alliance"} -- Temple of Sha'naar
+A{"TanaanJungle", 10068, criterion=28318, side="alliance"} -- The Fel Forge
+A{"TanaanJungle", 10068, criterion=28319, side="alliance"} -- The Iron Front
+A{"TanaanJungle", 10068, criterion=28320, side="alliance"} -- Throne of Kil'jaeden
+A{"TanaanJungle", 10068, criterion=28321, side="alliance"} -- Zeth'gol
 
 -- Exploration/Draenor: I Came, I Clawed, I Conquered
 A{"TanaanJungle", 10069, criterion=28378} -- Blackfang Claws
@@ -3081,23 +3081,23 @@ A{"TanaanJungle", 10070, 0.502, 0.434, criterion=28731} -- Commander Org'mok
 A{"TanaanJungle", 10071}
 
 -- Quests/Draenor: Rumble in the Jungle
-A{"TanaanJungle", 10072, criterion=28284} -- In Pursuit of Gul'dan
-A{"TanaanJungle", 10072, criterion=28285} -- Draenor's Last Stand
-A{"TanaanJungle", 10072, criterion=28286} -- Jungle Stalker
-A{"TanaanJungle", 10072, criterion=28287} -- I Came, I Clawed, I Conquered
-A{"TanaanJungle", 10072, criterion=28288} -- The Legion Will NOT Conquer All
-A{"TanaanJungle", 10072, criterion=28732} -- Jungle Treasure Master
-A{"TanaanJungle", 10072, criterion=28733} -- Hellbane
-A{"TanaanJungle", 10072, criterion=28734} -- Explore Tanaan Jungle
+A{"TanaanJungle", 10072, criterion=28284, side="alliance"} -- In Pursuit of Gul'dan
+A{"TanaanJungle", 10072, criterion=28285, side="alliance"} -- Draenor's Last Stand
+A{"TanaanJungle", 10072, criterion=28286, side="alliance"} -- Jungle Stalker
+A{"TanaanJungle", 10072, criterion=28287, side="alliance"} -- I Came, I Clawed, I Conquered
+A{"TanaanJungle", 10072, criterion=28288, side="alliance"} -- The Legion Will NOT Conquer All
+A{"TanaanJungle", 10072, criterion=28732, side="alliance"} -- Jungle Treasure Master
+A{"TanaanJungle", 10072, criterion=28733, side="alliance"} -- Hellbane
+A{"TanaanJungle", 10072, criterion=28734, side="alliance"} -- Explore Tanaan Jungle
 
 -- Quests/Draenor: Draenor's Last Stand
-A{"TanaanJungle", 10075, criterion=28322} -- Ironhold Harbor
-A{"TanaanJungle", 10075, criterion=28326} -- The Iron Front
-A{"TanaanJungle", 10075, criterion=28325} -- The Fel Forge
-A{"TanaanJungle", 10075, criterion=28323} -- Ruins of Kra'nak
-A{"TanaanJungle", 10075, criterion=28328} -- Zeth'gol
-A{"TanaanJungle", 10075, criterion=28327} -- Throne of Kil'jaeden
-A{"TanaanJungle", 10075, criterion=28324} -- Temple of Sha'naar
+A{"TanaanJungle", 10075, criterion=28322, side="horde"} -- Ironhold Harbor
+A{"TanaanJungle", 10075, criterion=28326, side="horde"} -- The Iron Front
+A{"TanaanJungle", 10075, criterion=28325, side="horde"} -- The Fel Forge
+A{"TanaanJungle", 10075, criterion=28323, side="horde"} -- Ruins of Kra'nak
+A{"TanaanJungle", 10075, criterion=28328, side="horde"} -- Zeth'gol
+A{"TanaanJungle", 10075, criterion=28327, side="horde"} -- Throne of Kil'jaeden
+A{"TanaanJungle", 10075, criterion=28324, side="horde"} -- Temple of Sha'naar
 
 -- Exploration/Draenor: Jungle Hunter
 A{"TanaanJungle", 10259, 0.170, 0.430, criterion=28341} -- Rasthe
@@ -3162,14 +3162,14 @@ A{"TanaanJungle", 10259, 0.490, 0.570, criterion=28730} -- Captain Grok'mar
 A{"TanaanJungle", 10259, 0.510, 0.450, criterion=28731} -- Commander Org'mok
 
 -- Quests/Draenor: Rumble in the Jungle
-A{"TanaanJungle", 10265, criterion=28286} -- Jungle Stalker
-A{"TanaanJungle", 10265, criterion=28734} -- Explore Tanaan Jungle
-A{"TanaanJungle", 10265, criterion=28657} -- In Pursuit of Gul'dan
-A{"TanaanJungle", 10265, criterion=28288} -- The Legion Will NOT Conquer All
-A{"TanaanJungle", 10265, criterion=28658} -- Draenor's Last Stand
-A{"TanaanJungle", 10265, criterion=28287} -- I Came, I Clawed, I Conquered
-A{"TanaanJungle", 10265, criterion=28733} -- Hellbane
-A{"TanaanJungle", 10265, criterion=28732} -- Jungle Treasure Master
+A{"TanaanJungle", 10265, criterion=28286, side="horde"} -- Jungle Stalker
+A{"TanaanJungle", 10265, criterion=28734, side="horde"} -- Explore Tanaan Jungle
+A{"TanaanJungle", 10265, criterion=28657, side="horde"} -- In Pursuit of Gul'dan
+A{"TanaanJungle", 10265, criterion=28288, side="horde"} -- The Legion Will NOT Conquer All
+A{"TanaanJungle", 10265, criterion=28658, side="horde"} -- Draenor's Last Stand
+A{"TanaanJungle", 10265, criterion=28287, side="horde"} -- I Came, I Clawed, I Conquered
+A{"TanaanJungle", 10265, criterion=28733, side="horde"} -- Hellbane
+A{"TanaanJungle", 10265, criterion=28732, side="horde"} -- Jungle Treasure Master
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Tanaris", 1678, criterion=15240} -- Tanaris Quests
@@ -3184,14 +3184,14 @@ A{"Tanaris", 9924, 0.600, 0.571, criterion=27967} -- Caverns of Time
 A{"TerokkarForest", 726, 0.660, 0.740, note="or thereabouts.  fished from Highland Mixed Schools.  0.2% chance to get a Mr. Pinchy, who grants 3 wishes, 8% chance the wish yields a Magical Crawdad"}
 
 -- Quests/Outland: Terror of Terokkar
-A{"TerokkarForest", 1191, criterion=3585} -- 63 Terokkar Forest quests
+A{"TerokkarForest", 1191, criterion=3585, side="alliance"} -- 63 Terokkar Forest quests
 
 -- Quests/Outland: Loremaster of Outland
-A{"TerokkarForest", 1262, criterion=3885, note="[criterionID guess]"} -- Terror of Terokkar
-A{"TerokkarForest", 1262, criterion=3917, note="[criterionID guess]"} -- Terror of Terokkar
+A{"TerokkarForest", 1262, criterion=3885, note="[criterionID guess]", side="alliance"} -- Terror of Terokkar
+A{"TerokkarForest", 1262, criterion=3917, note="[criterionID guess]", side="horde"} -- Terror of Terokkar
 
 -- Quests/Outland: Terror of Terokkar
-A{"TerokkarForest", 1272, criterion=3585} -- 68 Terokkar Forest quests
+A{"TerokkarForest", 1272, criterion=3585, side="horde"} -- 68 Terokkar Forest quests
 
 -- Quests/Outland: Bombs Away
 A{"TerokkarForest", 1275}
@@ -3242,22 +3242,22 @@ A{"TerraceOfEndlessSpring", 7487}
 A{"TerraceOfEndlessSpring", 8248}
 
 -- Garrisons: Ten Hit Tunes
-A{"TerraceOfEndlessSpring", 9828, criterion=27741, note="drop from Sha of Fear"} -- Heart of Pandaria
+A{"TerraceOfEndlessSpring", 9828, criterion=27741, note="drop from Sha of Fear", side="alliance"} -- Heart of Pandaria
 
 -- Garrisons: Ten Hit Tunes
-A{"TerraceOfEndlessSpring", 9897, criterion=27741, note="drop from Sha of Fear"} -- Heart of Pandaria
+A{"TerraceOfEndlessSpring", 9897, criterion=27741, note="drop from Sha of Fear", side="horde"} -- Heart of Pandaria
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"TerraceOfEndlessSpring", 9912, criterion=27741, note="drop from Sha of Fear"} -- Heart of Pandaria
+A{"TerraceOfEndlessSpring", 9912, criterion=27741, note="drop from Sha of Fear", side="alliance"} -- Heart of Pandaria
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"TerraceOfEndlessSpring", 9914, criterion=27741, note="drop from Sha of Fear"} -- Heart of Pandaria
+A{"TerraceOfEndlessSpring", 9914, criterion=27741, note="drop from Sha of Fear", side="horde"} -- Heart of Pandaria
 
 -- Garrisons: Full Discography
-A{"TerraceOfEndlessSpring", 10015, criterion=27741, note="drop from Sha of Fear"} -- Heart of Pandaria
+A{"TerraceOfEndlessSpring", 10015, criterion=27741, note="drop from Sha of Fear", side="alliance"} -- Heart of Pandaria
 
 -- Garrisons: Full Discography
-A{"TerraceOfEndlessSpring", 10016, criterion=27741, note="drop from Sha of Fear"} -- Heart of Pandaria
+A{"TerraceOfEndlessSpring", 10016, criterion=27741, note="drop from Sha of Fear", side="horde"} -- Heart of Pandaria
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"TheCapeOfStranglethorn", 1676, criterion=15208} -- Cape of Stranglethorn Quests
@@ -3269,26 +3269,26 @@ A{"TheCapeOfStranglethorn", 4905, criterion=13705} -- The Cape of Stranglethorn
 A{"TheCapeOfStranglethorn", 5548, 0.428, 0.716, criterion="Wharf Rat", note="also Tol Barad"} -- Wharf Rat
 
 -- Garrisons: Ten Hit Tunes
-A{"TheCapeOfStranglethorn", 9828, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest"} -- Angelic
+A{"TheCapeOfStranglethorn", 9828, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest", side="alliance"} -- Angelic
 
 -- Garrisons: Ten Hit Tunes
-A{"TheCapeOfStranglethorn", 9897, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest"} -- Angelic
+A{"TheCapeOfStranglethorn", 9897, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest", side="horde"} -- Angelic
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"TheCapeOfStranglethorn", 9912, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest"} -- Angelic
+A{"TheCapeOfStranglethorn", 9912, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest", side="alliance"} -- Angelic
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"TheCapeOfStranglethorn", 9914, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest"} -- Angelic
+A{"TheCapeOfStranglethorn", 9914, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest", side="horde"} -- Angelic
 
 -- Exploration: Field Photographer
 A{"TheCapeOfStranglethorn", 9924, 0.350, 0.640, criterion=27868} -- Janeiro's Point
 A{"TheCapeOfStranglethorn", 9924, 0.465, 0.261, criterion=27877} -- Battle Ring, Gurubashi Arena
 
 -- Garrisons: Full Discography
-A{"TheCapeOfStranglethorn", 10015, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest"} -- Angelic
+A{"TheCapeOfStranglethorn", 10015, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest", side="alliance"} -- Angelic
 
 -- Garrisons: Full Discography
-A{"TheCapeOfStranglethorn", 10016, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest"} -- Angelic
+A{"TheCapeOfStranglethorn", 10016, 0.465, 0.261, criterion=27752, note="from Arena Treasure Chest", side="horde"} -- Angelic
 
 -- Legacy: Gate of the Setting Sun: Bronze
 A{"TheGreatWall", 6905, 0.490, 0.610, floor=1}
@@ -3303,18 +3303,18 @@ A{"TheGreatWall", 6907, 0.490, 0.610, floor=1}
 A{"TheHiddenPass", 6716, 0.540, 0.150, criterion=19619} -- The Defiant
 
 -- Quests/Pandaria: Upjade Complete
-A{"TheJadeForest", 6300, criterion=19206} -- Terrace of Ten Thunders
-A{"TheJadeForest", 6300, criterion=0} -- Dawn's Blossom
-A{"TheJadeForest", 6300, criterion=19353} -- The Waterspeaking Ceremony
-A{"TheJadeForest", 6300, criterion=0} -- Pearlfin Village
-A{"TheJadeForest", 6300, criterion=22194} -- Overcoming Doubt
-A{"TheJadeForest", 6300, criterion=19331} -- Nectarbreeze Orchard
-A{"TheJadeForest", 6300, criterion=22195} -- The Battle for the Forest
-A{"TheJadeForest", 6300, criterion=19352} -- Paw'don Village
-A{"TheJadeForest", 6300, criterion=19349} -- The Temple of the Jade Serpent
-A{"TheJadeForest", 6300, criterion=19348} -- Greenstone Quarry
-A{"TheJadeForest", 6300, criterion=19354} -- The White Pawn
-A{"TheJadeForest", 6300, criterion=0} -- Tian Monestary
+A{"TheJadeForest", 6300, criterion=19206, side="alliance"} -- Terrace of Ten Thunders
+A{"TheJadeForest", 6300, criterion=0, side="alliance"} -- Dawn's Blossom
+A{"TheJadeForest", 6300, criterion=19353, side="alliance"} -- The Waterspeaking Ceremony
+A{"TheJadeForest", 6300, criterion=0, side="alliance"} -- Pearlfin Village
+A{"TheJadeForest", 6300, criterion=22194, side="alliance"} -- Overcoming Doubt
+A{"TheJadeForest", 6300, criterion=19331, side="alliance"} -- Nectarbreeze Orchard
+A{"TheJadeForest", 6300, criterion=22195, side="alliance"} -- The Battle for the Forest
+A{"TheJadeForest", 6300, criterion=19352, side="alliance"} -- Paw'don Village
+A{"TheJadeForest", 6300, criterion=19349, side="alliance"} -- The Temple of the Jade Serpent
+A{"TheJadeForest", 6300, criterion=19348, side="alliance"} -- Greenstone Quarry
+A{"TheJadeForest", 6300, criterion=19354, side="alliance"} -- The White Pawn
+A{"TheJadeForest", 6300, criterion=0, side="alliance"} -- Tian Monestary
 
 -- General: To All the Squirrels I Once Caressed?
 A{"TheJadeForest", 6350, 0.492, 0.476, criterion="Leopard Tree Frog"} -- Leopard Tree Frog
@@ -3322,18 +3322,18 @@ A{"TheJadeForest", 6350, 0.334, 0.506, criterion="Shrine Fly", note="zone exclus
 A{"TheJadeForest", 6350, 0.666, 0.850, criterion="Coral Adder", note="zone exclusive"} -- Coral Adder
 
 -- Quests/Pandaria: Upjade Complete
-A{"TheJadeForest", 6534, criterion=19332} -- The Remains of Hellscream's Fist
-A{"TheJadeForest", 6534, criterion=19338} -- Strange Bedfellows
-A{"TheJadeForest", 6534, criterion=19349} -- The Temple of the Jade Serpent
-A{"TheJadeForest", 6534, criterion=19339} -- Grookin Hill
-A{"TheJadeForest", 6534, criterion=0} -- Dawn's Blossom
-A{"TheJadeForest", 6534, criterion=19333} -- First Contact
-A{"TheJadeForest", 6534, criterion=19351} -- Overcoming Doubt
-A{"TheJadeForest", 6534, criterion=19348} -- Greenstone Quarry
-A{"TheJadeForest", 6534, criterion=19206} -- Terrace of Ten Thunders
-A{"TheJadeForest", 6534, criterion=19350} -- The Battle for the Forest
-A{"TheJadeForest", 6534, criterion=19331} -- Nectarbreeze Orchard
-A{"TheJadeForest", 6534, criterion=0} -- Tian Monastery
+A{"TheJadeForest", 6534, criterion=19332, side="horde"} -- The Remains of Hellscream's Fist
+A{"TheJadeForest", 6534, criterion=19338, side="horde"} -- Strange Bedfellows
+A{"TheJadeForest", 6534, criterion=19349, side="horde"} -- The Temple of the Jade Serpent
+A{"TheJadeForest", 6534, criterion=19339, side="horde"} -- Grookin Hill
+A{"TheJadeForest", 6534, criterion=0, side="horde"} -- Dawn's Blossom
+A{"TheJadeForest", 6534, criterion=19333, side="horde"} -- First Contact
+A{"TheJadeForest", 6534, criterion=19351, side="horde"} -- Overcoming Doubt
+A{"TheJadeForest", 6534, criterion=19348, side="horde"} -- Greenstone Quarry
+A{"TheJadeForest", 6534, criterion=19206, side="horde"} -- Terrace of Ten Thunders
+A{"TheJadeForest", 6534, criterion=19350, side="horde"} -- The Battle for the Forest
+A{"TheJadeForest", 6534, criterion=19331, side="horde"} -- Nectarbreeze Orchard
+A{"TheJadeForest", 6534, criterion=0, side="horde"} -- Tian Monastery
 
 -- Quests/Pandaria: Loremaster of Pandaria
 A{"TheJadeForest", 6541, criterion=19377} -- Upjade Complete
@@ -3472,19 +3472,19 @@ A{"ThousandNeedles", 1678, criterion=15241} -- Thousand Needles Quests
 A{"ThousandNeedles", 4938, criterion=13849} -- Thousand Needles
 
 -- Professions/Cooking: A Bunch of Lunch
-A{"ThunderBluff", 5845, criterion=17747} -- Let's Do Lunch: Thunder Bluff
+A{"ThunderBluff", 5845, criterion=17747, side="horde"} -- Let's Do Lunch: Thunder Bluff
 
 -- Professions/Fishing: Gone Fishin'
-A{"ThunderBluff", 5851, criterion=17773} -- Fish or Cut Bait: Thunder Bluff
+A{"ThunderBluff", 5851, criterion=17773, side="horde"} -- Fish or Cut Bait: Thunder Bluff
 
 -- Garrisons: Ten Hit Tunes
-A{"ThunderBluff", 9897, 0.256, 0.198, criterion=27771, note="from fishing Pools of Vision"} -- Mulgore Plains
+A{"ThunderBluff", 9897, 0.256, 0.198, criterion=27771, note="from fishing Pools of Vision", side="horde"} -- Mulgore Plains
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"ThunderBluff", 9914, 0.256, 0.198, criterion=27771, note="from fishing Pools of Vision"} -- Mulgore Plains
+A{"ThunderBluff", 9914, 0.256, 0.198, criterion=27771, note="from fishing Pools of Vision", side="horde"} -- Mulgore Plains
 
 -- Garrisons: Full Discography
-A{"ThunderBluff", 10016, 0.256, 0.198, criterion=27771, note="from fishing Pools of Vision"} -- Mulgore Plains
+A{"ThunderBluff", 10016, 0.256, 0.198, criterion=27771, note="from fishing Pools of Vision", side="horde"} -- Mulgore Plains
 
 -- Dungeons & Raids/Pandaria Raid: Genetically Unmodified Organism
 A{"ThunderKingRaid", 8037}
@@ -3851,22 +3851,22 @@ A{"TimelessIsle", 8784, criterion=24142} -- Snowdrift Tiger Talons
 A{"Tirisfal", 5478, 0.680, 0.460, criterion=15895, note="inland, open water"} -- Sickly Looking Fish
 
 -- Garrisons: Ten Hit Tunes
-A{"Tirisfal", 9828, 0.176, 0.676, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event, every 15min"} -- Faerie Dragon
+A{"Tirisfal", 9828, 0.176, 0.676, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event, every 15min", side="alliance"} -- Faerie Dragon
 
 -- Garrisons: Ten Hit Tunes
-A{"Tirisfal", 9897, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event"} -- Faerie Dragon
+A{"Tirisfal", 9897, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event", side="horde"} -- Faerie Dragon
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Tirisfal", 9912, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event"} -- Faerie Dragon
+A{"Tirisfal", 9912, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event", side="alliance"} -- Faerie Dragon
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Tirisfal", 9914, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event"} -- Faerie Dragon
+A{"Tirisfal", 9914, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event", side="horde"} -- Faerie Dragon
 
 -- Garrisons: Full Discography
-A{"Tirisfal", 10015, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event"} -- Faerie Dragon
+A{"Tirisfal", 10015, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event", side="alliance"} -- Faerie Dragon
 
 -- Garrisons: Full Discography
-A{"Tirisfal", 10016, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event"} -- Faerie Dragon
+A{"Tirisfal", 10016, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event", side="horde"} -- Faerie Dragon
 
 -- General: To All the Squirrels Who Cared for Me
 A{"TolBarad", 5548, 0.488, 0.404, criterion=16215, note="zone exclusive"} -- Baradin Fox Kit
@@ -3991,7 +3991,7 @@ A{"TownlongWastes", 7439, 0.590, 0.860, criterion="Yaungol"} -- Siltriss the Sha
 A{"TownlongWastes", 7611, criterion=21964} -- Redbelly Mandarin
 
 -- Quests/Cataclysm: Fading into Twilight
-A{"TwilightHighlands", 4873, criterion=13611} -- Twilight Highlands
+A{"TwilightHighlands", 4873, criterion=13611, side="alliance"} -- Twilight Highlands
 
 -- Quests/Cataclysm: Loremaster of Cataclysm
 A{"TwilightHighlands", 4875, criterion=13667} -- Fading Into Twilight
@@ -4003,30 +4003,30 @@ A{"TwilightHighlands", 4958, 0.506, 0.582, criterion=13918} -- Crucible of Carna
 A{"TwilightHighlands", 4960}
 
 -- Quests/Cataclysm: King of the Mountain
-A{"TwilightHighlands", 5320}
+A{"TwilightHighlands", 5320, side="alliance"}
 
 -- Quests/Cataclysm: King of the Mountain
-A{"TwilightHighlands", 5321}
+A{"TwilightHighlands", 5321, side="horde"}
 
 -- Quests/Cataclysm: Consumed by Nightmare
 A{"TwilightHighlands", 5451}
 
 -- Quests/Cataclysm: Wildhammer Tour of Duty
-A{"TwilightHighlands", 5481, 0.458, 0.316, criterion=15950} -- The Black Recluse spider
-A{"TwilightHighlands", 5481, 0.490, 0.372, criterion=15948} -- Warlord Halthar
-A{"TwilightHighlands", 5481, 0.508, 0.338, criterion=15949} -- Karkrog the Exterminator
-A{"TwilightHighlands", 5481, 0.520, 0.276, criterion=15951} -- Korthalon the Black
+A{"TwilightHighlands", 5481, 0.458, 0.316, criterion=15950, side="alliance"} -- The Black Recluse spider
+A{"TwilightHighlands", 5481, 0.490, 0.372, criterion=15948, side="alliance"} -- Warlord Halthar
+A{"TwilightHighlands", 5481, 0.508, 0.338, criterion=15949, side="alliance"} -- Karkrog the Exterminator
+A{"TwilightHighlands", 5481, 0.520, 0.276, criterion=15951, side="alliance"} -- Korthalon the Black
 
 -- Quests/Cataclysm: Dragonmaw Tour of Duty
-A{"TwilightHighlands", 5482, 0.452, 0.428, criterion=15954} -- Gunwald Greybeard
-A{"TwilightHighlands", 5482, 0.417, 0.274, criterion=15955} -- Cliff Thundermar
-A{"TwilightHighlands", 5482, 0.458, 0.336, criterion=15952, note="or thereabouts"} -- High Shaman MacKilligan
-A{"TwilightHighlands", 5482, 0.465, 0.372, criterion=15953} -- Dillan MacHurley
-A{"TwilightHighlands", 5482, 0.519, 0.275, criterion=15951} -- Korthalon the Black
-A{"TwilightHighlands", 5482, 0.458, 0.316, criterion=15950} -- The Black Recluse spider
+A{"TwilightHighlands", 5482, 0.452, 0.428, criterion=15954, side="horde"} -- Gunwald Greybeard
+A{"TwilightHighlands", 5482, 0.417, 0.274, criterion=15955, side="horde"} -- Cliff Thundermar
+A{"TwilightHighlands", 5482, 0.458, 0.336, criterion=15952, note="or thereabouts", side="horde"} -- High Shaman MacKilligan
+A{"TwilightHighlands", 5482, 0.465, 0.372, criterion=15953, side="horde"} -- Dillan MacHurley
+A{"TwilightHighlands", 5482, 0.519, 0.275, criterion=15951, side="horde"} -- Korthalon the Black
+A{"TwilightHighlands", 5482, 0.458, 0.316, criterion=15950, side="horde"} -- The Black Recluse spider
 
 -- Quests/Cataclysm: Fading into Twilight
-A{"TwilightHighlands", 5501, criterion=13611} -- Twilight Highlands
+A{"TwilightHighlands", 5501, criterion=13611, side="horde"} -- Twilight Highlands
 
 -- General: To All the Squirrels Who Cared for Me
 A{"TwilightHighlands", 5548, 0.460, 0.270, criterion="Yellow-Bellied Marmot", note="zone exclusive"} -- Yellow-Bellied Marmot
@@ -4086,28 +4086,28 @@ A{"Uldum", 5548, 0.516, 0.504, criterion="Mac Frog", note="zone exclusive"} -- M
 A{"Uldum", 9924, 0.720, 0.500, criterion=27978} -- Halls of Origination
 
 -- Professions/Cooking: A Bunch of Lunch
-A{"Undercity", 5845, criterion=17746} -- Let's Do Lunch: Undercity
+A{"Undercity", 5845, criterion=17746, side="horde"} -- Let's Do Lunch: Undercity
 
 -- Professions/Fishing: Gone Fishin'
-A{"Undercity", 5851, criterion=17774} -- Fish or Cut Bait: Undercity
+A{"Undercity", 5851, criterion=17774, side="horde"} -- Fish or Cut Bait: Undercity
 
 -- Garrisons: Ten Hit Tunes
-A{"Undercity", 9828, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox"} -- Lament of the Highborne
+A{"Undercity", 9828, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox", side="alliance"} -- Lament of the Highborne
 
 -- Garrisons: Ten Hit Tunes
-A{"Undercity", 9897, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox"} -- Lament of the Highborne
+A{"Undercity", 9897, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox", side="horde"} -- Lament of the Highborne
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Undercity", 9912, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox"} -- Lament of the Highborne
+A{"Undercity", 9912, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox", side="alliance"} -- Lament of the Highborne
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Undercity", 9914, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox"} -- Lament of the Highborne
+A{"Undercity", 9914, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox", side="horde"} -- Lament of the Highborne
 
 -- Garrisons: Full Discography
-A{"Undercity", 10015, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox"} -- Lament of the Highborne
+A{"Undercity", 10015, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox", side="alliance"} -- Lament of the Highborne
 
 -- Garrisons: Full Discography
-A{"Undercity", 10016, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox"} -- Lament of the Highborne
+A{"Undercity", 10016, 0.586, 0.938, criterion=27760, note="from Sylvanas' Strongbox", side="horde"} -- Lament of the Highborne
 
 -- General: To All The Squirrels I've Loved Before
 A{"UngoroCrater", 1206, 0.706, 0.772, criterion="Parrot"} -- Parrot
@@ -4154,38 +4154,38 @@ A{"ValeofEternalBlossoms", 7324, 0.214, 0.716, criterion=20975} -- Complete The 
 A{"ValeofEternalBlossoms", 7324, 0.214, 0.716, criterion=20979} -- Complete The Thunder Below without taking any damage.
 
 -- General: Pandaren Cuisine
-A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20591, note="from Sway Dish Chef"} -- Toasted Fish Jerky
-A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20596, note="from Sway Dish Chef"} -- Boiled Silkworm Pupa
-A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20597, note="from Sway Dish Chef"} -- Roasted Barley Tea
-A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20601, note="from Sway Dish Chef"} -- Tangy Yogurt
-A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20602, note="from Sway Dish Chef"} -- Peach Pie
-A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20603, note="from Sway Dish Chef"} -- Skewered Peanut Chicken
-A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20604, note="from Sway Dish Chef"} -- Pearl Milk Tea
-A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20591, note="from Mifan"} -- Toasted Fish Jerky
-A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20592} -- Dried Needle Mushrooms
-A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20597, note="from Mifan"} -- Roasted Barley Tea
-A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20601, note="from Mifan"} -- Tangy Yogurt
-A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20602, note="from Mifan"} -- Peach Pie
-A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20603, note="from Mifan"} -- Skewered Peanut Chicken
-A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20604, note="from Mifan"} -- Pearl Milk Tea
+A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20591, note="from Sway Dish Chef", side="alliance"} -- Toasted Fish Jerky
+A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20596, note="from Sway Dish Chef", side="alliance"} -- Boiled Silkworm Pupa
+A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20597, note="from Sway Dish Chef", side="alliance"} -- Roasted Barley Tea
+A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20601, note="from Sway Dish Chef", side="alliance"} -- Tangy Yogurt
+A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20602, note="from Sway Dish Chef", side="alliance"} -- Peach Pie
+A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20603, note="from Sway Dish Chef", side="alliance"} -- Skewered Peanut Chicken
+A{"ValeofEternalBlossoms", 7329, 0.872, 0.694, criterion=20604, note="from Sway Dish Chef", side="alliance"} -- Pearl Milk Tea
+A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20591, note="from Mifan", side="horde"} -- Toasted Fish Jerky
+A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20592, side="horde"} -- Dried Needle Mushrooms
+A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20597, note="from Mifan", side="horde"} -- Roasted Barley Tea
+A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20601, note="from Mifan", side="horde"} -- Tangy Yogurt
+A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20602, note="from Mifan", side="horde"} -- Peach Pie
+A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20603, note="from Mifan", side="horde"} -- Skewered Peanut Chicken
+A{"ValeofEternalBlossoms", 7329, 0.625, 0.139, criterion=20604, note="from Mifan", side="horde"} -- Pearl Milk Tea
 
 -- Garrisons: Ten Hit Tunes
-A{"ValeofEternalBlossoms", 9828, 0.822, 0.294, criterion=27767, note="from Tan Shin Tiao\nLorewalkers revered"} -- Song of Liu Lang
+A{"ValeofEternalBlossoms", 9828, 0.822, 0.294, criterion=27767, note="from Tan Shin Tiao\nLorewalkers revered", side="alliance"} -- Song of Liu Lang
 
 -- Garrisons: Ten Hit Tunes
-A{"ValeofEternalBlossoms", 9897, 0.822, 0.294, criterion=27767, note="from Tan Shin Tiao\nLorewalkers revered"} -- Song of Liu Lang
+A{"ValeofEternalBlossoms", 9897, 0.822, 0.294, criterion=27767, note="from Tan Shin Tiao\nLorewalkers revered", side="horde"} -- Song of Liu Lang
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"ValeofEternalBlossoms", 9912, 0.822, 0.294, criterion=27767, note="from Tan Shin Tiao\nLorewalkers revered"} -- Song of Liu Lang
+A{"ValeofEternalBlossoms", 9912, 0.822, 0.294, criterion=27767, note="from Tan Shin Tiao\nLorewalkers revered", side="alliance"} -- Song of Liu Lang
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"ValeofEternalBlossoms", 9914, 0.822, 0.294, criterion=27767, note="from Tan Shin Tiao\nLorewalkers revered"} -- Song of Liu Lang
+A{"ValeofEternalBlossoms", 9914, 0.822, 0.294, criterion=27767, note="from Tan Shin Tiao\nLorewalkers revered", side="horde"} -- Song of Liu Lang
 
 -- Garrisons: Full Discography
-A{"ValeofEternalBlossoms", 10015, 0.822, 0.294, criterion=27767, note="from Tan Shin Tiao\nLorewalkers revered"} -- Song of Liu Lang
+A{"ValeofEternalBlossoms", 10015, 0.822, 0.294, criterion=27767, note="from Tan Shin Tiao\nLorewalkers revered", side="alliance"} -- Song of Liu Lang
 
 -- Garrisons: Full Discography
-A{"ValeofEternalBlossoms", 10016, 0.822, 0.294, criterion=27767, note="from Tan Shin Tiao\nLorewalkers revered"} -- Song of Liu Lang
+A{"ValeofEternalBlossoms", 10016, 0.822, 0.294, criterion=27767, note="from Tan Shin Tiao\nLorewalkers revered", side="horde"} -- Song of Liu Lang
 
 -- Exploration/Pandaria: The Dark Heart of the Mogu
 A{"ValeOfEternalBlossomsScenario", 6754, 0.400, 0.770, criterion=19665} -- The Thunder King
@@ -4415,7 +4415,7 @@ A{"ValleyoftheFourWinds", 7611, criterion=21955} -- Emperor Salmon
 A{"ValleyoftheFourWinds", 9924, 0.520, 0.480, criterion=27975} -- Sunsong Ranch
 
 -- Quests/Cataclysm: Sinking into Vashj'ir
-A{"Vashjir", 4869}
+A{"Vashjir", 4869, side="alliance"}
 
 -- Quests/Cataclysm: Loremaster of Cataclysm
 A{"Vashjir", 4875, criterion=13663} -- Sinking Into Vashj'ir
@@ -4424,13 +4424,13 @@ A{"Vashjir", 4875, criterion=13663} -- Sinking Into Vashj'ir
 A{"Vashjir", 4975}
 
 -- Quests/Cataclysm: Sinking into Vashj'ir
-A{"Vashjir", 4982}
+A{"Vashjir", 4982, side="horde"}
 
 -- Quests/Cataclysm: 20,000 Leagues Under the Sea
-A{"Vashjir", 5318}
+A{"Vashjir", 5318, side="alliance"}
 
 -- Quests/Cataclysm: 20,000 Leagues Under the Sea
-A{"Vashjir", 5319}
+A{"Vashjir", 5319, side="horde"}
 
 -- Quests/Cataclysm: Visions of Vashj'ir Past
 A{"Vashjir", 5452}
@@ -4459,10 +4459,10 @@ A{"WesternPlaguelands", 9924, 0.520, 0.830, criterion=27972} -- Uther's Tomb
 A{"Westfall", 1206, 0.334, 0.224, criterion="Shore Crab"} -- Shore Crab
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
-A{"Westfall", 1676, criterion=15202} -- Westfall+Duskwood/Silverpine
+A{"Westfall", 1676, criterion=15202, side="alliance"} -- Westfall+Duskwood/Silverpine
 
 -- Quests/Eastern Kingdoms: Westfall and Duskwood Quests
-A{"Westfall", 4903, criterion=0} -- Westfall
+A{"Westfall", 4903, criterion=0, side="alliance"} -- Westfall
 
 -- Exploration: Field Photographer
 A{"Westfall", 9924, 0.380, 0.770, criterion=27878} -- The Deadmines
@@ -4472,7 +4472,7 @@ A{"Westfall", 9924, 0.300, 0.860, criterion=27961} -- Westfall Lighthouse
 A{"Wetlands", 1206, 0.486, 0.700, criterion="Ram"} -- Ram
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
-A{"Wetlands", 1676, criterion=15196} -- Loch Modan+Wetlands/Ghostlands
+A{"Wetlands", 1676, criterion=15196, side="alliance"} -- Loch Modan+Wetlands/Ghostlands
 
 -- Exploration: Field Photographer
 A{"Wetlands", 9924, 0.510, 0.090, criterion=27874} -- Thandol Span
@@ -4493,22 +4493,22 @@ A{"Winterspring", 5443, criterion=16179} -- Frostmaul Giants
 A{"Winterspring", 5443, criterion=15632} -- Winterspring Furbolg
 
 -- Garrisons: Ten Hit Tunes
-A{"Winterspring", 9828, 0.680, 0.739, criterion=27754, note="from Frozen Supplies"} -- Mountains
+A{"Winterspring", 9828, 0.680, 0.739, criterion=27754, note="from Frozen Supplies", side="alliance"} -- Mountains
 
 -- Garrisons: Ten Hit Tunes
-A{"Winterspring", 9897, 0.680, 0.739, criterion=27754, note="from Frozen Supplies"} -- Mountains
+A{"Winterspring", 9897, 0.680, 0.739, criterion=27754, note="from Frozen Supplies", side="horde"} -- Mountains
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Winterspring", 9912, 0.680, 0.739, criterion=27754, note="from Frozen Supplies"} -- Mountains
+A{"Winterspring", 9912, 0.680, 0.739, criterion=27754, note="from Frozen Supplies", side="alliance"} -- Mountains
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Winterspring", 9914, 0.680, 0.739, criterion=27754, note="from Frozen Supplies"} -- Mountains
+A{"Winterspring", 9914, 0.680, 0.739, criterion=27754, note="from Frozen Supplies", side="horde"} -- Mountains
 
 -- Garrisons: Full Discography
-A{"Winterspring", 10015, 0.680, 0.739, criterion=27754, note="from Frozen Supplies"} -- Mountains
+A{"Winterspring", 10015, 0.680, 0.739, criterion=27754, note="from Frozen Supplies", side="alliance"} -- Mountains
 
 -- Garrisons: Full Discography
-A{"Winterspring", 10016, 0.680, 0.739, criterion=27754, note="from Frozen Supplies"} -- Mountains
+A{"Winterspring", 10016, 0.680, 0.739, criterion=27754, note="from Frozen Supplies", side="horde"} -- Mountains
 
 -- Quests/Outland: Mysteries of the Marsh
 A{"Zangarmarsh", 1190, criterion=3584} -- 52 Zangarmarsh quests

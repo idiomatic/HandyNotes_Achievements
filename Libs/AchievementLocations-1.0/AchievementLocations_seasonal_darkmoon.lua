@@ -4,10 +4,10 @@ local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
 -- World Events/Darkmoon Faire: Taking the Show on the Road
-A{"Dalaran", 6030, criterion=27718, note="buy from Boomie Sparks (48.4,71.9)"} -- Dalaran
+A{"Dalaran", 6030, criterion=27718, note="buy from Boomie Sparks (48.4,71.9)", side="alliance"} -- Dalaran
 
 -- World Events/Darkmoon Faire: Taking the Show on the Road
-A{"Dalaran", 6031, criterion=27718, note="buy from Boomie Sparks (48.4,71.9)"} -- Dalaran
+A{"Dalaran", 6031, criterion=27718, note="buy from Boomie Sparks (48.4,71.9)", side="horde"} -- Dalaran
 
 -- World Events/Darkmoon Faire: Come One, Come All!
 A{"DarkmoonFaireIsland", 6019}
@@ -184,23 +184,23 @@ A{"DarkmoonFaireIsland", 9894, 0.615, 0.778}
 A{"DarkmoonFaireIsland", 9983, 0.534, 0.545}
 
 -- World Events/Darkmoon Faire: Taking the Show on the Road
-A{"Darnassus", 6030, criterion=27724, note="buy from Boomie Sparks (48.4,71.9)"} -- Darnassus
-A{"Ironforge", 6030, criterion=27726, note="buy from Boomie Sparks (48.4,71.9)"} -- Ironforge
+A{"Darnassus", 6030, criterion=27724, note="buy from Boomie Sparks (48.4,71.9)", side="alliance"} -- Darnassus
+A{"Ironforge", 6030, criterion=27726, note="buy from Boomie Sparks (48.4,71.9)", side="alliance"} -- Ironforge
 
 -- World Events/Darkmoon Faire: Taking the Show on the Road
-A{"Orgrimmar", 6031, criterion=27719, note="buy from Boomie Sparks (48.4,71.9)"} -- Orgrimmar
+A{"Orgrimmar", 6031, criterion=27719, note="buy from Boomie Sparks (48.4,71.9)", side="horde"} -- Orgrimmar
 
 -- World Events/Darkmoon Faire: Taking the Show on the Road
-A{"ShattrathCity", 6030, criterion=27720, note="buy from Boomie Sparks (48.4,71.9)"} -- Shattrath City
+A{"ShattrathCity", 6030, criterion=27720, note="buy from Boomie Sparks (48.4,71.9)", side="alliance"} -- Shattrath City
 
 -- World Events/Darkmoon Faire: Taking the Show on the Road
-A{"ShattrathCity", 6031, criterion=27720, note="buy from Boomie Sparks (48.4,71.9)"} -- Shattrath City
-A{"SilvermoonCity", 6031, criterion=27721, note="buy from Boomie Sparks (48.4,71.9)"} -- Silvermoon City
+A{"ShattrathCity", 6031, criterion=27720, note="buy from Boomie Sparks (48.4,71.9)", side="horde"} -- Shattrath City
+A{"SilvermoonCity", 6031, criterion=27721, note="buy from Boomie Sparks (48.4,71.9)", side="horde"} -- Silvermoon City
 
 -- World Events/Darkmoon Faire: Taking the Show on the Road
-A{"StormwindCity", 6030, criterion=27727, note="buy from Boomie Sparks (48.4,71.9)"} -- Stormwind City
-A{"TheExodar", 6030, criterion=27725, note="buy from Boomie Sparks (48.4,71.9)"} -- The Exodar
+A{"StormwindCity", 6030, criterion=27727, note="buy from Boomie Sparks (48.4,71.9)", side="alliance"} -- Stormwind City
+A{"TheExodar", 6030, criterion=27725, note="buy from Boomie Sparks (48.4,71.9)", side="alliance"} -- The Exodar
 
 -- World Events/Darkmoon Faire: Taking the Show on the Road
-A{"ThunderBluff", 6031, criterion=27722, note="buy from Boomie Sparks (48.4,71.9)"} -- Thunder Bluff
-A{"Undercity", 6031, criterion=27723, note="buy from Boomie Sparks (48.4,71.9)"} -- Undercity
+A{"ThunderBluff", 6031, criterion=27722, note="buy from Boomie Sparks (48.4,71.9)", side="horde"} -- Thunder Bluff
+A{"Undercity", 6031, criterion=27723, note="buy from Boomie Sparks (48.4,71.9)", side="horde"} -- Undercity

@@ -167,22 +167,22 @@ A{"BlackTemple", 9824, 0.640, 0.474, criterion=27569, floor=1, note="from Suprem
 A{"BlackTemple", 9824, 0.620, 0.870, criterion=27570, floor=4, note="from Reliquary of the Lost"} -- Fragment of Anger
 
 -- Garrisons: Ten Hit Tunes
-A{"BlackTemple", 9828, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage"} -- The Burning Legion
+A{"BlackTemple", 9828, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage", side="alliance"} -- The Burning Legion
 
 -- Garrisons: Ten Hit Tunes
-A{"BlackTemple", 9897, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage"} -- The Burning Legion
+A{"BlackTemple", 9897, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage", side="horde"} -- The Burning Legion
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"BlackTemple", 9912, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage"} -- The Burning Legion
+A{"BlackTemple", 9912, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage", side="alliance"} -- The Burning Legion
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"BlackTemple", 9914, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage"} -- The Burning Legion
+A{"BlackTemple", 9914, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage", side="horde"} -- The Burning Legion
 
 -- Garrisons: Full Discography
-A{"BlackTemple", 10015, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage"} -- The Burning Legion
+A{"BlackTemple", 10015, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage", side="alliance"} -- The Burning Legion
 
 -- Garrisons: Full Discography
-A{"BlackTemple", 10016, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage"} -- The Burning Legion
+A{"BlackTemple", 10016, 0.526, 0.602, criterion=27711, floor=8, note="drop from Illidan Stormrage", side="horde"} -- The Burning Legion
 
 -- Dungeons & Raids/Cataclysm Raid: Blackwing Descent
 A{"BlackwingDescent", 4842, 0.275, 0.574, criterion=13537, floor=1} -- Magmaw
@@ -249,22 +249,22 @@ A{"BlackwingDescent", 5310, 0.714, 0.702, criterion=16014, floor=2} -- Kill 12 A
 A{"BlackwingDescent", 5506, 0.480, 0.702, criterion=16059, floor=2} -- Blackwing Descent
 
 -- Garrisons: Ten Hit Tunes
-A{"BlackwingDescent", 9828, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian"} -- Legends of Azeroth
+A{"BlackwingDescent", 9828, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian", side="alliance"} -- Legends of Azeroth
 
 -- Garrisons: Ten Hit Tunes
-A{"BlackwingDescent", 9897, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian"} -- Legends of Azeroth
+A{"BlackwingDescent", 9897, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian", side="horde"} -- Legends of Azeroth
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"BlackwingDescent", 9912, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian"} -- Legends of Azeroth
+A{"BlackwingDescent", 9912, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian", side="alliance"} -- Legends of Azeroth
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"BlackwingDescent", 9914, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian"} -- Legends of Azeroth
+A{"BlackwingDescent", 9914, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian", side="horde"} -- Legends of Azeroth
 
 -- Garrisons: Full Discography
-A{"BlackwingDescent", 10015, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian"} -- Legends of Azeroth
+A{"BlackwingDescent", 10015, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian", side="alliance"} -- Legends of Azeroth
 
 -- Garrisons: Full Discography
-A{"BlackwingDescent", 10016, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian"} -- Legends of Azeroth
+A{"BlackwingDescent", 10016, 0.480, 0.702, criterion=27710, floor=2, note="drop from Nefarian", side="horde"} -- Legends of Azeroth
 
 -- Dungeons & Raids/Classic: Blackwing Lair
 A{"BlackwingLair", 685, 0.740, 0.704, floor=4}
@@ -457,22 +457,22 @@ A{"DragonSoul", 6180, 0.475, 0.529, criterion=18661, floor=7} -- Ysera Assaulted
 A{"DragonSoul", 9713, 0.475, 0.529, criterion=26688, floor=7} -- Blazing Drake
 
 -- Garrisons: Ten Hit Tunes
-A{"DragonSoul", 9828, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment"} -- The Shattering
+A{"DragonSoul", 9828, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment", side="alliance"} -- The Shattering
 
 -- Garrisons: Ten Hit Tunes
-A{"DragonSoul", 9897, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment"} -- The Shattering
+A{"DragonSoul", 9897, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment", side="horde"} -- The Shattering
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"DragonSoul", 9912, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment"} -- The Shattering
+A{"DragonSoul", 9912, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment", side="alliance"} -- The Shattering
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"DragonSoul", 9914, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment"} -- The Shattering
+A{"DragonSoul", 9914, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment", side="horde"} -- The Shattering
 
 -- Garrisons: Full Discography
-A{"DragonSoul", 10015, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment"} -- The Shattering
+A{"DragonSoul", 10015, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment", side="alliance"} -- The Shattering
 
 -- Garrisons: Full Discography
-A{"DragonSoul", 10016, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment"} -- The Shattering
+A{"DragonSoul", 10016, 0.475, 0.529, criterion=27740, floor=7, note="drop from Elementium Fragment", side="horde"} -- The Shattering
 
 -- Dungeons & Raids/Lich King Dungeon: Drak'Tharon Keep
 A{"DrakTharonKeep", 482, 0.565, 0.182, criterion=5443, floor=1} -- Trollgore
@@ -615,13 +615,13 @@ A{"Gnomeregan", 634, 0.311, 0.303, floor=4}
 A{"Gnomeregan", 1283, 0.311, 0.303, criterion=3945, floor=4} -- Gnomeregan
 
 -- Garrisons: Ten Hit Tunes
-A{"Gnomeregan", 9828, 0.685, 0.625, criterion=27749, floor=2, note="from Sparklematic-Wrapped Box from Sparklematic 5200 machines"} -- Tinkertown
+A{"Gnomeregan", 9828, 0.685, 0.625, criterion=27749, floor=2, note="from Sparklematic-Wrapped Box from Sparklematic 5200 machines", side="alliance"} -- Tinkertown
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Gnomeregan", 9912, 0.685, 0.625, criterion=27749, floor=2, note="from Sparklematic-Wrapped Box from Sparklematic 5200 machines"} -- Tinkertown
+A{"Gnomeregan", 9912, 0.685, 0.625, criterion=27749, floor=2, note="from Sparklematic-Wrapped Box from Sparklematic 5200 machines", side="alliance"} -- Tinkertown
 
 -- Garrisons: Full Discography
-A{"Gnomeregan", 10015, 0.685, 0.625, criterion=27749, floor=2, note="from Sparklematic-Wrapped Box from Sparklematic 5200 machines"} -- Tinkertown
+A{"Gnomeregan", 10015, 0.685, 0.625, criterion=27749, floor=2, note="from Sparklematic-Wrapped Box from Sparklematic 5200 machines", side="alliance"} -- Tinkertown
 
 -- Dungeons & Raids/Cataclysm Dungeon: Grim Batol
 A{"GrimBatol", 4840}
@@ -720,22 +720,22 @@ A{"HallsofLightning", 2136, 0.440, 0.380, criterion=7517, floor=1} -- Lightning 
 A{"HallsofLightning", 2136, 0.200, 0.530, criterion=7516, floor=2} -- Timely Death
 
 -- Garrisons: Ten Hit Tunes
-A{"HallsofLightning", 9828, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken"} -- Mountains of Thunder
+A{"HallsofLightning", 9828, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken", side="alliance"} -- Mountains of Thunder
 
 -- Garrisons: Ten Hit Tunes
-A{"HallsofLightning", 9897, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken"} -- Mountains of Thunder
+A{"HallsofLightning", 9897, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken", side="horde"} -- Mountains of Thunder
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"HallsofLightning", 9912, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken"} -- Mountains of Thunder
+A{"HallsofLightning", 9912, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken", side="alliance"} -- Mountains of Thunder
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"HallsofLightning", 9914, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken"} -- Mountains of Thunder
+A{"HallsofLightning", 9914, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken", side="horde"} -- Mountains of Thunder
 
 -- Garrisons: Full Discography
-A{"HallsofLightning", 10015, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken"} -- Mountains of Thunder
+A{"HallsofLightning", 10015, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken", side="alliance"} -- Mountains of Thunder
 
 -- Garrisons: Full Discography
-A{"HallsofLightning", 10016, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken"} -- Mountains of Thunder
+A{"HallsofLightning", 10016, 0.200, 0.530, criterion=27763, floor=2, note="drop from Loken", side="horde"} -- Mountains of Thunder
 
 -- Dungeons & Raids/Cataclysm Dungeon: Halls of Origination
 A{"HallsofOrigination", 4841}
@@ -1035,22 +1035,22 @@ A{"IcecrownCitadel", 4637, 0.500, 0.500, criterion=13070, floor=7} -- The Light 
 A{"IcecrownCitadel", 4637, criterion=13075} -- Storming the Citadel
 
 -- Garrisons: Ten Hit Tunes
-A{"IcecrownCitadel", 9828, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King"} -- Invincible
+A{"IcecrownCitadel", 9828, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King", side="alliance"} -- Invincible
 
 -- Garrisons: Ten Hit Tunes
-A{"IcecrownCitadel", 9897, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King"} -- Invincible
+A{"IcecrownCitadel", 9897, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King", side="horde"} -- Invincible
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"IcecrownCitadel", 9912, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King"} -- Invincible
+A{"IcecrownCitadel", 9912, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King", side="alliance"} -- Invincible
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"IcecrownCitadel", 9914, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King"} -- Invincible
+A{"IcecrownCitadel", 9914, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King", side="horde"} -- Invincible
 
 -- Garrisons: Full Discography
-A{"IcecrownCitadel", 10015, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King"} -- Invincible
+A{"IcecrownCitadel", 10015, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King", side="alliance"} -- Invincible
 
 -- Garrisons: Full Discography
-A{"IcecrownCitadel", 10016, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King"} -- Invincible
+A{"IcecrownCitadel", 10016, 0.498, 0.528, criterion=27757, floor=8, note="drop from The Lich King", side="horde"} -- Invincible
 
 -- Dungeons & Raids/The Burning Crusade: Karazhan
 A{"Karazhan", 690, 0.544, 0.362, floor=17}
@@ -1068,22 +1068,22 @@ A{"Karazhan", 8293, 0.544, 0.362, criterion=23323, floor=17, note="from Prince M
 A{"Karazhan", 8293, 0.556, 0.762, criterion=23324, floor=11, note="from Terestian Illhoof"} -- Fiendish Imp
 
 -- Garrisons: Ten Hit Tunes
-A{"Karazhan", 9828, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter"} -- Karazhan Opera House
+A{"Karazhan", 9828, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter", side="alliance"} -- Karazhan Opera House
 
 -- Garrisons: Ten Hit Tunes
-A{"Karazhan", 9897, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter"} -- Karazhan Opera House
+A{"Karazhan", 9897, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter", side="horde"} -- Karazhan Opera House
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Karazhan", 9912, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter"} -- Karazhan Opera House
+A{"Karazhan", 9912, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter", side="alliance"} -- Karazhan Opera House
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Karazhan", 9914, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter"} -- Karazhan Opera House
+A{"Karazhan", 9914, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter", side="horde"} -- Karazhan Opera House
 
 -- Garrisons: Full Discography
-A{"Karazhan", 10015, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter"} -- Karazhan Opera House
+A{"Karazhan", 10015, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter", side="alliance"} -- Karazhan Opera House
 
 -- Garrisons: Full Discography
-A{"Karazhan", 10016, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter"} -- Karazhan Opera House
+A{"Karazhan", 10016, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter", side="horde"} -- Karazhan Opera House
 
 -- Dungeons & Raids: Glory of the Cataclysm Hero
 A{"LostCityofTolvir", 4845, 0.670, 0.720, criterion=15256} -- Acrocalypse Now
@@ -1374,22 +1374,22 @@ A{"Naxxramas", 7934, 0.760, 0.290, criterion=22471, floor=4, note="from Loatheb"
 A{"Naxxramas", 7934, 0.460, 0.440, criterion=22473, floor=1, note="from Gluth"} -- Stitched Pup
 
 -- Garrisons: Ten Hit Tunes
-A{"Naxxramas", 9828, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
+A{"Naxxramas", 9828, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad", side="alliance"} -- Wrath of the Lich King
 
 -- Garrisons: Ten Hit Tunes
-A{"Naxxramas", 9897, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
+A{"Naxxramas", 9897, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad", side="horde"} -- Wrath of the Lich King
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Naxxramas", 9912, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
+A{"Naxxramas", 9912, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad", side="alliance"} -- Wrath of the Lich King
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"Naxxramas", 9914, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
+A{"Naxxramas", 9914, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad", side="horde"} -- Wrath of the Lich King
 
 -- Garrisons: Full Discography
-A{"Naxxramas", 10015, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
+A{"Naxxramas", 10015, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad", side="alliance"} -- Wrath of the Lich King
 
 -- Garrisons: Full Discography
-A{"Naxxramas", 10016, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad"} -- Wrath of the Lich King
+A{"Naxxramas", 10016, 0.370, 0.230, criterion=27712, floor=6, note="drop from Kel'Thuzad", side="horde"} -- Wrath of the Lich King
 
 -- Dungeons & Raids/Lich King Dungeon: The Oculus
 A{"Nexus80", 487, 0.469, 0.209, criterion=5462, floor=3} -- Ley-Guardian Eregos
@@ -1738,14 +1738,14 @@ A{"TheArcatraz", 1284, 0.616, 0.307, criterion=3978, floor=3} -- The Arcatraz
 A{"TheArcatraz", 1287, 0.616, 0.307, criterion=4037, floor=3} -- Heroic The Arcatraz
 
 -- Dungeons & Raids/Lich King Dungeon: Trial of the Champion
-A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=13314, floor=1, note="5-man"} -- The Black Knight
-A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=13313, floor=1, note="5-man"} -- Eadric the Pure
-A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=12298, floor=1, note="5-man"} -- Lana Stouthammer
-A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=12299, floor=1, note="5-man"} -- Colosos
-A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=12300, floor=1, note="5-man"} -- Ambrose Boltspark
-A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=12301, floor=1, note="5-man"} -- Jaelyne Evensong
-A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=11420, floor=1, note="5-man"} -- Marshal Jacob Alerius
-A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=13312, floor=1, note="5-man"} -- Argent Confessor Paletress
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=13314, floor=1, note="5-man", side="horde"} -- The Black Knight
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=13313, floor=1, note="5-man", side="horde"} -- Eadric the Pure
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=12298, floor=1, note="5-man", side="horde"} -- Lana Stouthammer
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=12299, floor=1, note="5-man", side="horde"} -- Colosos
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=12300, floor=1, note="5-man", side="horde"} -- Ambrose Boltspark
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=12301, floor=1, note="5-man", side="horde"} -- Jaelyne Evensong
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=11420, floor=1, note="5-man", side="horde"} -- Marshal Jacob Alerius
+A{"TheArgentColiseum", 3778, 0.520, 0.530, criterion=13312, floor=1, note="5-man", side="horde"} -- Argent Confessor Paletress
 
 -- Dungeons & Raids/Lich King Raid: Upper Back Pain (10 player)
 A{"TheArgentColiseum", 3797, 0.520, 0.530, floor=1}
@@ -1818,34 +1818,34 @@ A{"TheArgentColiseum", 3996, 0.520, 0.530, floor=1}
 A{"TheArgentColiseum", 3997, 0.520, 0.530, floor=1}
 
 -- Dungeons & Raids/Lich King Dungeon: Trial of the Champion
-A{"TheArgentColiseum", 4296, criterion=12299, note="5-man"} -- Runok Wildmane
-A{"TheArgentColiseum", 4296, criterion=13314, note="5-man"} -- The Black Knight
-A{"TheArgentColiseum", 4296, criterion=12298, note="5-man"} -- Deathstalker Visceri
-A{"TheArgentColiseum", 4296, criterion=12300, note="5-man"} -- Eressea Dawnsinger
-A{"TheArgentColiseum", 4296, criterion=12301, note="5-man"} -- Zul'tore
-A{"TheArgentColiseum", 4296, criterion=11420, note="5-man"} -- Mokra the Skullcrusher
-A{"TheArgentColiseum", 4296, criterion=13312, note="5-man"} -- Argent Confessor Paletress
-A{"TheArgentColiseum", 4296, criterion=13313, note="5-man"} -- Eadric the Pure
+A{"TheArgentColiseum", 4296, criterion=12299, note="5-man", side="alliance"} -- Runok Wildmane
+A{"TheArgentColiseum", 4296, criterion=13314, note="5-man", side="alliance"} -- The Black Knight
+A{"TheArgentColiseum", 4296, criterion=12298, note="5-man", side="alliance"} -- Deathstalker Visceri
+A{"TheArgentColiseum", 4296, criterion=12300, note="5-man", side="alliance"} -- Eressea Dawnsinger
+A{"TheArgentColiseum", 4296, criterion=12301, note="5-man", side="alliance"} -- Zul'tore
+A{"TheArgentColiseum", 4296, criterion=11420, note="5-man", side="alliance"} -- Mokra the Skullcrusher
+A{"TheArgentColiseum", 4296, criterion=13312, note="5-man", side="alliance"} -- Argent Confessor Paletress
+A{"TheArgentColiseum", 4296, criterion=13313, note="5-man", side="alliance"} -- Eadric the Pure
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: Trial of the Champion
-A{"TheArgentColiseum", 4297, criterion=12539, note="5-man"} -- Marshal Jacob Alerius
-A{"TheArgentColiseum", 4297, criterion=12545, note="5-man"} -- Lana Stouthammer
-A{"TheArgentColiseum", 4297, criterion=12320, note="5-man"} -- Colosos
-A{"TheArgentColiseum", 4297, criterion=12543, note="5-man"} -- Ambrose Boltspark
-A{"TheArgentColiseum", 4297, criterion=12541, note="5-man"} -- Jaelyne Evensong
-A{"TheArgentColiseum", 4297, criterion=12549, note="5-man"} -- Argent Confessor Paletress
-A{"TheArgentColiseum", 4297, criterion=12551, note="5-man"} -- Eadric the Pure
-A{"TheArgentColiseum", 4297, criterion=12553, note="5-man"} -- The Black Knight
+A{"TheArgentColiseum", 4297, criterion=12539, note="5-man", side="horde"} -- Marshal Jacob Alerius
+A{"TheArgentColiseum", 4297, criterion=12545, note="5-man", side="horde"} -- Lana Stouthammer
+A{"TheArgentColiseum", 4297, criterion=12320, note="5-man", side="horde"} -- Colosos
+A{"TheArgentColiseum", 4297, criterion=12543, note="5-man", side="horde"} -- Ambrose Boltspark
+A{"TheArgentColiseum", 4297, criterion=12541, note="5-man", side="horde"} -- Jaelyne Evensong
+A{"TheArgentColiseum", 4297, criterion=12549, note="5-man", side="horde"} -- Argent Confessor Paletress
+A{"TheArgentColiseum", 4297, criterion=12551, note="5-man", side="horde"} -- Eadric the Pure
+A{"TheArgentColiseum", 4297, criterion=12553, note="5-man", side="horde"} -- The Black Knight
 
 -- Dungeons & Raids/Lich King Dungeon: Heroic: Trial of the Champion
-A{"TheArgentColiseum", 4298, criterion=12545, note="5-man"} -- Deathstalker Visceri
-A{"TheArgentColiseum", 4298, criterion=12320, note="5-man"} -- Runok Wildmane
-A{"TheArgentColiseum", 4298, criterion=12543, note="5-man"} -- Eressea Dawnsinger
-A{"TheArgentColiseum", 4298, criterion=12541, note="5-man"} -- Zul'tore
-A{"TheArgentColiseum", 4298, criterion=12549, note="5-man"} -- Argent Confessor Paletress
-A{"TheArgentColiseum", 4298, criterion=12551, note="5-man"} -- Eadric the Pure
-A{"TheArgentColiseum", 4298, criterion=12539, note="5-man"} -- Mokra the Skullcrusher
-A{"TheArgentColiseum", 4298, criterion=12553, note="5-man"} -- The Black Knight
+A{"TheArgentColiseum", 4298, criterion=12545, note="5-man", side="alliance"} -- Deathstalker Visceri
+A{"TheArgentColiseum", 4298, criterion=12320, note="5-man", side="alliance"} -- Runok Wildmane
+A{"TheArgentColiseum", 4298, criterion=12543, note="5-man", side="alliance"} -- Eressea Dawnsinger
+A{"TheArgentColiseum", 4298, criterion=12541, note="5-man", side="alliance"} -- Zul'tore
+A{"TheArgentColiseum", 4298, criterion=12549, note="5-man", side="alliance"} -- Argent Confessor Paletress
+A{"TheArgentColiseum", 4298, criterion=12551, note="5-man", side="alliance"} -- Eadric the Pure
+A{"TheArgentColiseum", 4298, criterion=12539, note="5-man", side="alliance"} -- Mokra the Skullcrusher
+A{"TheArgentColiseum", 4298, criterion=12553, note="5-man", side="alliance"} -- The Black Knight
 
 -- Dungeons & Raids/Cataclysm Raid: The Bastion of Twilight
 A{"TheBastionofTwilight", 4850, 0.539, 0.784, criterion=13576, floor=1} -- Valiona and Theralion
@@ -2995,10 +2995,10 @@ A{"ZulGurub", 5765, 0.480, 0.200, criterion=16861} -- 4 cats fed
 A{"ZulGurub", 5768, 0.485, 0.395}
 
 -- Garrisons: Ten Hit Tunes
-A{"ZulGurub", 9897, 0.485, 0.395, criterion=27773, note="drop from Jin'do the Godbreaker"} -- Zul'Gurub Voo Doo
+A{"ZulGurub", 9897, 0.485, 0.395, criterion=27773, note="drop from Jin'do the Godbreaker", side="horde"} -- Zul'Gurub Voo Doo
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"ZulGurub", 9914, 0.485, 0.395, criterion=27773, note="drop from Jin'do the Godbreaker"} -- Zul'Gurub Voo Doo
+A{"ZulGurub", 9914, 0.485, 0.395, criterion=27773, note="drop from Jin'do the Godbreaker", side="horde"} -- Zul'Gurub Voo Doo
 
 -- Garrisons: Full Discography
-A{"ZulGurub", 10016, 0.485, 0.395, criterion=27773, note="drop from Jin'do the Godbreaker"} -- Zul'Gurub Voo Doo
+A{"ZulGurub", 10016, 0.485, 0.395, criterion=27773, note="drop from Jin'do the Godbreaker", side="horde"} -- Zul'Gurub Voo Doo

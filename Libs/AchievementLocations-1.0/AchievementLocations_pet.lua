@@ -34,7 +34,7 @@ A{"Ashenvale", 6585, 0.700, 0.600, criterion=21691, note="zone exclusive"} -- Fr
 A{"Ashenvale", 6585, 0.130, 0.270, criterion=21703, note="zone exclusive"} -- Rusty Snail
 
 -- Pet Battles: Taming Kalimdor
-A{"Ashenvale", 6602, 0.200, 0.300, criterion=21404} -- Analynn
+A{"Ashenvale", 6602, 0.200, 0.300, criterion=21404, side="horde"} -- Analynn
 
 -- Pet Battles/Collect: Kalimdor Tamer
 A{"Ashenvale", 6612, criterion=21448} -- Ashenvale
@@ -104,7 +104,7 @@ A{"Barrens", 6560, criterion=21390} -- Northern Barrens
 A{"Barrens", 6585, criterion=21737, note="zone exclusive"} -- Cheetah Cub
 
 -- Pet Battles: Taming Kalimdor
-A{"Barrens", 6602, 0.590, 0.530, criterion=21403} -- Dagra the Fierce
+A{"Barrens", 6602, 0.590, 0.530, criterion=21403, side="horde"} -- Dagra the Fierce
 
 -- Pet Battles/Collect: Kalimdor Tamer
 A{"Barrens", 6612, criterion=21460} -- Northern Barrens
@@ -198,7 +198,7 @@ A{"BurningSteppes", 6586, 0.190, 0.650, criterion=21624} -- Ash Viper
 A{"BurningSteppes", 6586, 0.360, 0.530, criterion=21626, note="zone exclusive"} -- Lava Beetle
 
 -- Pet Battles: Taming Eastern Kingdoms
-A{"BurningSteppes", 6603, 0.260, 0.480, criterion=21603, note="At the bottom of the ramp to Blackrock Mountain Pet Level: 17"} -- Durin Darkhammer
+A{"BurningSteppes", 6603, 0.260, 0.480, criterion=21603, note="At the bottom of the ramp to Blackrock Mountain Pet Level: 17", side="alliance"} -- Durin Darkhammer
 
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"BurningSteppes", 6613, criterion=21423} -- Burning Steppes
@@ -259,7 +259,7 @@ A{"Darnassus", 9643, criterion="Great Horned Owl"} -- Great Horned Owl
 A{"DeadwindPass", 6586, 0.450, 0.730, criterion=21628, note="zone exclusive\nspawn exactly at midnight server time and despawn at 9am\nfound underground in the Master's Cellar\nuse either of the cellar entrances in the town"} -- Restless Shadeling
 
 -- Pet Battles: Taming Eastern Kingdoms
-A{"DeadwindPass", 6603, 0.400, 0.760, criterion=21602} -- Lydia Accoste
+A{"DeadwindPass", 6603, 0.400, 0.760, criterion=21602, side="alliance"} -- Lydia Accoste
 
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"DeadwindPass", 6613, criterion=21428} -- Deadwind Pass
@@ -299,7 +299,7 @@ A{"Desolace", 6585, criterion=21715} -- Horny Toad
 A{"Desolace", 6585, 0.720, 0.440, criterion=21717, note="zone exclusive\nat night"} -- Stone Armadillo
 
 -- Pet Battles: Taming Kalimdor
-A{"Desolace", 6602, 0.570, 0.460, criterion=21406} -- Merda Stronghoof
+A{"Desolace", 6602, 0.570, 0.460, criterion=21406, side="horde"} -- Merda Stronghoof
 
 -- Pet Battles/Collect: Kalimdor Tamer
 A{"Desolace", 6612, criterion=21453} -- Desolace
@@ -400,7 +400,7 @@ A{"Durotar", 6560, criterion=21389} -- Durotar
 A{"Durotar", 6585, criterion=21698, note="zone exclusive"} -- Creepy Crawly
 
 -- Pet Battles: Taming Kalimdor
-A{"Durotar", 6602, 0.440, 0.290, criterion=21402} -- Zunta
+A{"Durotar", 6602, 0.440, 0.290, criterion=21402, side="horde"} -- Zunta
 
 -- Pet Battles/Collect: Kalimdor Tamer
 A{"Durotar", 6612, criterion=21454} -- Durotar
@@ -427,7 +427,7 @@ A{"Duskwood", 6586, 0.560, 0.160, criterion=21633} -- Skunk
 A{"Duskwood", 6586, 0.190, 0.410, criterion=21634, note="zone exclusive\neastwards toward Twilight Grove, more common at night"} -- Widow Spiderling
 
 -- Pet Battles: Taming Eastern Kingdoms
-A{"Duskwood", 6603, 0.200, 0.450, criterion=21399, note="Next to the statue. Pet Level: 7"} -- Eric Davidson
+A{"Duskwood", 6603, 0.200, 0.450, criterion=21399, note="Next to the statue. Pet Level: 7", side="alliance"} -- Eric Davidson
 
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"Duskwood", 6613, criterion=21386} -- Duskwood
@@ -454,7 +454,7 @@ A{"Dustwallow", 6559, criterion=21544} -- Dustwallow Marsh
 A{"Dustwallow", 6560, criterion=21544} -- Dustwallow Marsh
 
 -- Pet Battles: Taming Kalimdor
-A{"Dustwallow", 6602, 0.540, 0.750, criterion=21410} -- Grazzle the Great
+A{"Dustwallow", 6602, 0.540, 0.750, criterion=21410, side="horde"} -- Grazzle the Great
 
 -- Pet Battles/Collect: Kalimdor Tamer
 A{"Dustwallow", 6612, criterion=21455} -- Dustwallow Marsh
@@ -478,7 +478,7 @@ A{"EasternPlaguelands", 6586, 0.340, 0.830, criterion=21636, note="zone exclusiv
 A{"EasternPlaguelands", 6586, 0.070, 0.640, criterion=21638} -- Infected Squirrel
 
 -- Pet Battles: Taming Eastern Kingdoms
-A{"EasternPlaguelands", 6603, 0.670, 0.520, criterion=21599, note="on the northeast bank of the lake.  Pet level: 14"} -- Deiza Plaguehorn
+A{"EasternPlaguelands", 6603, 0.670, 0.520, criterion=21599, note="on the northeast bank of the lake.  Pet level: 14", side="alliance"} -- Deiza Plaguehorn
 
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"EasternPlaguelands", 6613, criterion=21430} -- Eastern Plaguelands
@@ -511,7 +511,7 @@ A{"Elwynn", 6586, criterion=22886, note="zone exclusive"} -- Black Lamb
 A{"Elwynn", 6587, criterion=21508} -- Rabbit
 
 -- Pet Battles: Taming Eastern Kingdoms
-A{"Elwynn", 6603, 0.420, 0.840, criterion=21396, note="North-east corner. Pet Level 2"} -- Julia Stevens
+A{"Elwynn", 6603, 0.420, 0.840, criterion=21396, note="North-east corner. Pet Level 2", side="alliance"} -- Julia Stevens
 
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"Elwynn", 6613, criterion=21380} -- Elwynn Forest
@@ -568,7 +568,7 @@ A{"Felwood", 6585, criterion=21725, note="zone exclusive"} -- Tainted Rat
 A{"Felwood", 6585, criterion=21724, note="zone exclusive"} -- Tainted Moth
 
 -- Pet Battles: Taming Kalimdor
-A{"Felwood", 6602, 0.400, 0.570, criterion=21411} -- Zoltan
+A{"Felwood", 6602, 0.400, 0.570, criterion=21411, side="horde"} -- Zoltan
 
 -- Pet Battles/Collect: Kalimdor Tamer
 A{"Felwood", 6612, criterion=21456} -- Felwood
@@ -589,7 +589,7 @@ A{"Feralas", 6560, criterion=21392} -- Feralas
 A{"Feralas", 6585, 0.640, 0.340, criterion=21726, note="zone exclusive"} -- Nether Faerie Dragon
 
 -- Pet Battles: Taming Kalimdor
-A{"Feralas", 6602, 0.600, 0.500, criterion=21407} -- Traitor Gluk
+A{"Feralas", 6602, 0.600, 0.500, criterion=21407, side="horde"} -- Traitor Gluk
 
 -- Pet Battles/Collect: Kalimdor Tamer
 A{"Feralas", 6612, criterion=21457} -- Feralas
@@ -719,7 +719,7 @@ A{"Hinterlands", 6586, criterion=21674, note="eastern half of the zone"} -- Brow
 A{"Hinterlands", 6586, 0.580, 0.410, criterion=21675, note="zone exclusive\ninside the cave and just outside the mouth"} -- Jade Oozeling
 
 -- Pet Battles: Taming Eastern Kingdoms
-A{"Hinterlands", 6603, 0.630, 0.550, criterion=21598, note="between Stormfeather & Jinth'alor Pet Level: 13"} -- David Kosse
+A{"Hinterlands", 6603, 0.630, 0.550, criterion=21598, note="between Stormfeather & Jinth'alor Pet Level: 13", side="alliance"} -- David Kosse
 
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"Hinterlands", 6613, criterion=21437} -- Hinterlands
@@ -891,7 +891,7 @@ A{"LochModan", 6560, criterion=21559} -- Loch Modan
 A{"LochModan", 6613, criterion=21440} -- Loch Modan
 
 -- Pet Battles: Taming Kalimdor
-A{"Moonglade", 6602, 0.460, 0.600, criterion=21408} -- Elena Flutterfly
+A{"Moonglade", 6602, 0.460, 0.600, criterion=21408, side="horde"} -- Elena Flutterfly
 
 -- Pet Battles: The Longest Day
 A{"Moonglade", 8348, 0.460, 0.600, criterion=23466} -- Elena Flutterfly
@@ -983,7 +983,7 @@ A{"Redridge", 6586, 0.250, 0.230, criterion=21662, note="zone exclusive"} -- Fle
 A{"Redridge", 6586, 0.380, 0.670, criterion=21664, note="zone exclusive\nall around Lakeridge Highway"} -- Redridge Rat
 
 -- Pet Battles: Taming Eastern Kingdoms
-A{"Redridge", 6603, 0.330, 0.530, criterion=21398, note="opposite the Flight Master, Pet Level: 5"} -- Lindsay
+A{"Redridge", 6603, 0.330, 0.530, criterion=21398, note="opposite the Flight Master, Pet Level: 5", side="alliance"} -- Lindsay
 
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"Redridge", 6613, criterion=21385} -- Redridge Mountains
@@ -1013,7 +1013,7 @@ A{"SearingGorge", 6586, 0.600, 0.710, criterion=21665} -- Ash Spiderling
 A{"SearingGorge", 6586, criterion=21666, note="zone exclusive\nonly spawns in lava pools, shares spawn with lava crabs"} -- Molten Hatchling
 
 -- Pet Battles: Taming Eastern Kingdoms
-A{"SearingGorge", 6603, 0.350, 0.280, criterion=21600, note="Pet Level: 15"} -- Kortas Darkhammer
+A{"SearingGorge", 6603, 0.350, 0.280, criterion=21600, note="Pet Level: 15", side="alliance"} -- Kortas Darkhammer
 
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"SearingGorge", 6613, criterion=21442} -- Searing Gorge
@@ -1127,7 +1127,7 @@ A{"SouthernBarrens", 6560, criterion=21535} -- Southern Barrens
 A{"SouthernBarrens", 6585, criterion=21742, note="zone exclusive"} -- Giraffe Calf
 
 -- Pet Battles: Taming Kalimdor
-A{"SouthernBarrens", 6602, 0.400, 0.790, criterion=21409} -- Cassandra Kaboom
+A{"SouthernBarrens", 6602, 0.400, 0.790, criterion=21409, side="horde"} -- Cassandra Kaboom
 
 -- Pet Battles/Collect: Kalimdor Tamer
 A{"SouthernBarrens", 6612, criterion=21462} -- Southern Barrens
@@ -1161,7 +1161,7 @@ A{"StonetalonMountains", 6585, 0.410, 0.450, criterion=21743, note="zone exclusi
 A{"StonetalonMountains", 6585, 0.570, 0.720, criterion=21744, note="zone exclusive"} -- Venomspitter Hatchling
 
 -- Pet Battles: Taming Kalimdor
-A{"StonetalonMountains", 6602, 0.600, 0.710, criterion=21405} -- Zonya the Sadist
+A{"StonetalonMountains", 6602, 0.600, 0.710, criterion=21405, side="horde"} -- Zonya the Sadist
 
 -- Pet Battles/Collect: Kalimdor Tamer
 A{"StonetalonMountains", 6612, criterion=21463} -- Stonetalon Mountains
@@ -1202,7 +1202,7 @@ A{"StranglethornJungle", 6586, 0.440, 0.230, criterion=21660} -- Tree Python
 A{"StranglethornJungle", 6586, 0.590, 0.200, criterion=21654, note="only found as a secondary pet\nJaquero Isle is also good"} -- Crimson Moth
 
 -- Pet Battles: Taming Eastern Kingdoms
-A{"StranglethornJungle", 6603, 0.460, 0.400, criterion=21400, note="Between Gromgol & Venture Co [Pet Level: 9]"} -- Steven Lisbane
+A{"StranglethornJungle", 6603, 0.460, 0.400, criterion=21400, note="Between Gromgol & Venture Co [Pet Level: 9]", side="alliance"} -- Steven Lisbane
 
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"StranglethornJungle", 6613, criterion=21441} -- Northern Stranglethorn
@@ -1242,7 +1242,7 @@ A{"SwampOfSorrows", 6586, 0.830, 0.390, criterion=21671, note="zone exclusive"} 
 A{"SwampOfSorrows", 6586, 0.860, 0.240, criterion=21672, note="zone exclusive\noften found as a secondary pet"} -- Swamp Moth
 
 -- Pet Battles: Taming Eastern Kingdoms
-A{"SwampOfSorrows", 6603, 0.770, 0.410, criterion=21601, note="Pet Level: 16"} -- Everessa
+A{"SwampOfSorrows", 6603, 0.770, 0.410, criterion=21601, note="Pet Level: 16", side="alliance"} -- Everessa
 
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"SwampOfSorrows", 6613, criterion=21444} -- Swamp of Sorrows
@@ -1331,7 +1331,7 @@ A{"TheCapeOfStranglethorn", 6586, 0.600, 0.820, criterion=21668, note="only when
 A{"TheCapeOfStranglethorn", 6586, criterion=21670} -- Wharf Rat
 
 -- Pet Battles: Taming Eastern Kingdoms
-A{"TheCapeOfStranglethorn", 6603, 0.510, 0.730, criterion=21401, note="near the path from Booty Bay. Pet Level 11"} -- Bill Buckler
+A{"TheCapeOfStranglethorn", 6603, 0.510, 0.730, criterion=21401, note="near the path from Booty Bay. Pet Level 11", side="alliance"} -- Bill Buckler
 
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"TheCapeOfStranglethorn", 6613, criterion=21427} -- Cape of Stranglethorn
@@ -1421,7 +1421,7 @@ A{"ThousandNeedles", 6560, criterion=21532} -- Thousand Needles
 A{"ThousandNeedles", 6585, 0.330, 0.600, criterion=21749, note="zone exclusive"} -- Twilight Iguana
 
 -- Pet Battles: Taming Kalimdor
-A{"ThousandNeedles", 6602, 0.320, 0.330, criterion=21416} -- Kela Grimtotem
+A{"ThousandNeedles", 6602, 0.320, 0.330, criterion=21416, side="horde"} -- Kela Grimtotem
 
 -- Pet Battles/Collect: Kalimdor Tamer
 A{"ThousandNeedles", 6612, criterion=21465} -- Thousand Needles
@@ -1680,7 +1680,7 @@ A{"Westfall", 6586, 0.580, 0.170, criterion=21519} -- Snake
 A{"Westfall", 6586, 0.540, 0.310, criterion=21687, note="zone exclusive"} -- Tiny Harvester
 
 -- Pet Battles: Taming Eastern Kingdoms
-A{"Westfall", 6603, 0.610, 0.190, criterion=21397, note="Main road Pet Level: 3"} -- Old MacDonald
+A{"Westfall", 6603, 0.610, 0.190, criterion=21397, note="Main road Pet Level: 3", side="alliance"} -- Old MacDonald
 
 -- Pet Battles/Collect: Eastern Kingdoms Tamer
 A{"Westfall", 6613, criterion=21384} -- Westfall
@@ -1731,7 +1731,7 @@ A{"Winterspring", 6585, 0.510, 0.560, criterion=21512, note="zone exclusive"} --
 A{"Winterspring", 6585, criterion=21757, note="zone exclusive"} -- Snowy Owl
 
 -- Pet Battles: Taming Kalimdor
-A{"Winterspring", 6602, 0.660, 0.640, criterion=21415} -- Stone Cold Trixxy
+A{"Winterspring", 6602, 0.660, 0.640, criterion=21415, side="horde"} -- Stone Cold Trixxy
 
 -- Pet Battles/Collect: Kalimdor Tamer
 A{"Winterspring", 6612, criterion=21467} -- Winterspring
