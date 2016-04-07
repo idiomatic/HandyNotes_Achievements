@@ -1,17 +1,5 @@
 -- Copyright 2015-2016, r. brian harrison.  all rights reserved.
 
--- XXX minimap-zoom-sensitive consolidation distance
--- XXX event debouncing
--- XXX onclick improvements: pop up menu
--- XXX variant tooltip styling for completed/justmine
--- XXX tooltip modifier-key
--- XXX exclude achievements tracked by other modules
--- XXX unavailable progressions, e.g. "60 Exalted Reputations"
--- XXX TheArgentColiseum#543 does not get pins in the instance map
--- XXX seasonal icon
--- XXX OnEnable/OnDisable
-
-
 local ADDON_NAME = ...
 local HNA = LibStub("AceAddon-3.0"):NewAddon(ADDON_NAME, "AceEvent-3.0", "AceTimer-3.0")
 if not HNA then return end
@@ -27,20 +15,6 @@ assert(HandyNotes, string.format("%s requires HandyNotes", ADDON_NAME))
 
 local QTip = LibStub("LibQTip-1.0")
 assert(QTip, string.format("%s requires LibQTip-1.0", ADDON_NAME))
-
-local defaults = {
-    profile = {
-        enabled = true,
-        icon_scale = 2.0,
-        icon_alpha = 1.0,
-        just_mine = false,
-        clean_continents = true,
-        completed = false,
-    }
-}
-
-local DB = LibStub("AceDB-3.0"):New("HandyNotesAchievementsDB", defaults)
-assert(DB, string.format("%s requires AceDB-3.0", ADDON_NAME))
 
 HNA.ICON_PATH = "Interface/AchievementFrame/UI-Achievement-TinyShield"
 HNA.NEAR = 0.03
@@ -176,6 +150,19 @@ end
 
 function HNA:OnInitialize()
     self:RegisterEvent("PLAYER_ENTERING_WORLD")
+
+    local defaults = {
+        profile = {
+            enabled = true,
+            icon_scale = 2.0,
+            icon_alpha = 1.0,
+            just_mine = false,
+            clean_continents = true,
+            completed = false,
+        }
+    }
+
+    self.db = LibStub("AceDB-3.0"):New("HandyNotesAchievementsDB", defaults, true)
 end
 
 
@@ -201,10 +188,10 @@ function HNA:PLAYER_ENTERING_WORLD(event)
         type = "group",
         name = "Achievements",
         get = function(info)
-            return DB.profile[info.arg]
+            return self.db.profile[info.arg]
         end,
         set = function(info, v)
-            DB.profile[info.arg] = v
+            self.db.profile[info.arg] = v
             notifyUpdate()
         end,
         args = {
@@ -283,10 +270,10 @@ function HNA:Valid(row)
         return false
     end
     
-    if DB.profile.completed then return true end
+    if self.db.profile.completed then return true end
 
     local _, _, _, completed, _, _, _, _, _, _, _, _, earnedByMe, _ = GetAchievementInfo(achievementID)
-    if completed and (earnedByMe or not DB.profile.just_mine) then return false end
+    if completed and (earnedByMe or not self.db.profile.just_mine) then return false end
 
     if type(row.criterion) == "number" then
         local criteriaDescription, _, completed = GetAchievementCriteriaInfoByID(achievementID, row.criterion)
@@ -329,7 +316,7 @@ function HNA:GetNodes(mapFile, minimap, dungeonLevel)
             local subMapFile = HandyNotes:GetMapIDtoMapFile(subMap)
             -- put this zone's achievements on the world map, all on one pin
             -- overrideMapFile and overrideCoord are likely nil
-            validRows(subMapFile, nil, overrideMapFile, overrideCoord or (DB.profile.clean_continents and self.ZONE_COORD))
+            validRows(subMapFile, nil, overrideMapFile, overrideCoord or (self.db.profile.clean_continents and self.ZONE_COORD))
         end
 
         local instances = InstanceLocations:GetBelow(mapFile)
@@ -362,6 +349,6 @@ function HNA:GetNodes(mapFile, minimap, dungeonLevel)
         table.insert(activeNodes[mF], row)
         -- HandyNotes does iterators wrong: the first value should be a iterator variable (cursor), eliminating the need for a "value" closure or coroutine
         -- added row for OnEnter
-        return coord, mF, self.ICON_PATH, DB.profile.icon_scale, DB.profile.icon_alpha, nil, row
+        return coord, mF, self.ICON_PATH, self.db.profile.icon_scale, self.db.profile.icon_alpha, nil, row
     end, nil
 end

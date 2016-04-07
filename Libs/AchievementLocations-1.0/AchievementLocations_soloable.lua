@@ -110,6 +110,9 @@ A{"BlackfathomDeeps", 1283, 0.855, 0.864, criterion=3943, floor=2} -- Blackfatho
 -- Dungeons & Raids/Cataclysm Dungeon: Blackrock Caverns
 A{"BlackrockCaverns", 4833, floor=2}
 
+-- Dungeons & Raids: Cataclysm Dungeon Hero
+A{"BlackrockCaverns", 4844, criterion=13550} -- Heroic: Blackrock Caverns
+
 -- Dungeons & Raids: Glory of the Cataclysm Hero
 A{"BlackrockCaverns", 4845, criterion=15248, floor=2} -- Too Hot to Handle
 A{"BlackrockCaverns", 4845, criterion=15247, floor=2} -- Arrested Development
@@ -626,6 +629,9 @@ A{"Gnomeregan", 10015, 0.685, 0.625, criterion=27749, floor=2, note="from Sparkl
 -- Dungeons & Raids/Cataclysm Dungeon: Grim Batol
 A{"GrimBatol", 4840, 0.860, 0.750}
 
+-- Dungeons & Raids: Cataclysm Dungeon Hero
+A{"GrimBatol", 4844, criterion=13552} -- Heroic: Grim Batol
+
 -- Dungeons & Raids: Glory of the Cataclysm Hero
 A{"GrimBatol", 4845, 0.405, 0.690, criterion=15262} -- Umbrage for Umbriss
 A{"GrimBatol", 4845, 0.860, 0.750, criterion=15263} -- Don't Need to Break Eggs to Make an Omelet
@@ -739,6 +745,9 @@ A{"HallsofLightning", 10016, 0.200, 0.530, criterion=27763, floor=2, note="drop 
 
 -- Dungeons & Raids/Cataclysm Dungeon: Halls of Origination
 A{"HallsofOrigination", 4841}
+
+-- Dungeons & Raids: Cataclysm Dungeon Hero
+A{"HallsofOrigination", 4844, criterion=13553} -- Heroic: Halls of Origination
 
 -- Dungeons & Raids: Glory of the Cataclysm Hero
 A{"HallsofOrigination", 4845, criterion=15258} -- I Hate That Song
@@ -1084,6 +1093,9 @@ A{"Karazhan", 10015, 0.190, 0.330, criterion=27758, floor=4, note="from Opera en
 
 -- Garrisons: Full Discography
 A{"Karazhan", 10016, 0.190, 0.330, criterion=27758, floor=4, note="from Opera encounter", side="horde"} -- Karazhan Opera House
+
+-- Dungeons & Raids: Cataclysm Dungeon Hero
+A{"LostCityofTolvir", 4844, criterion=13574} -- Heroic: Lost City of the Tol'vir
 
 -- Dungeons & Raids: Glory of the Cataclysm Hero
 A{"LostCityofTolvir", 4845, 0.670, 0.720, criterion=15256} -- Acrocalypse Now
@@ -1581,6 +1593,14 @@ A{"ShadowfangKeep", 631, 0.684, 0.335, floor=6}
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"ShadowfangKeep", 1283, criterion=3942} -- Shadowfang Keep
 
+-- Dungeons & Raids: Cataclysm Dungeon Hero
+A{"ShadowfangKeep", 4844, criterion=14384} -- Heroic: Shadowfang Keep
+
+-- Dungeons & Raids: Glory of the Cataclysm Hero
+A{"ShadowfangKeep", 4845, criterion=16048} -- To the Ground!
+A{"ShadowfangKeep", 4845, criterion=16049} -- Bullet Time
+A{"ShadowfangKeep", 4845, criterion=16047} -- Pardon Denied
+
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: Shadowfang Keep
 A{"ShadowfangKeep", 5093}
 
@@ -1647,6 +1667,9 @@ A{"SiegeofNiuzaoTemple", 6925, 0.570, 0.220, criterion=19910, floor=1} -- Heroic
 
 -- Dungeons & Raids/Pandaria Dungeon: Siege of Niuzao Temple
 A{"SiegeofNiuzaoTemple", 10011, 0.570, 0.220, floor=1}
+
+-- Dungeons & Raids: Cataclysm Dungeon Hero
+A{"Skywall", 4844, criterion=13568} -- Heroic: The Vortex Pinnacle
 
 -- Dungeons & Raids: Glory of the Cataclysm Hero
 A{"Skywall", 4845, criterion=22268} -- Extra Credit Bonus Stage
@@ -1927,8 +1950,14 @@ A{"TheDeadmines", 628, 0.604, 0.455, floor=2}
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"TheDeadmines", 1283, 0.604, 0.455, criterion=3939, floor=2} -- Deadmines
 
+-- Dungeons & Raids: Cataclysm Dungeon Hero
+A{"TheDeadmines", 4844, criterion=14383} -- Heroic: Deadmines
+
 -- Dungeons & Raids: Glory of the Cataclysm Hero
 A{"TheDeadmines", 4845, 0.501, 0.868, criterion=16042, floor=1} -- Rat Pack
+A{"TheDeadmines", 4845, criterion=16046} -- Vigorous VanCleef Vindicator
+A{"TheDeadmines", 4845, criterion=16043} -- Prototype Prodigy
+A{"TheDeadmines", 4845, criterion=16044} -- It's Frost Damage
 A{"TheDeadmines", 4845, 0.604, 0.455, criterion=16045, floor=2} -- I'm on a Diet
 
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: Deadmines
@@ -2192,20 +2221,23 @@ A{"TheStockade", 633, 0.218, 0.262}
 -- Dungeons & Raids: Classic Dungeonmaster
 A{"TheStockade", 1283, 0.218, 0.262, criterion=3944} -- Stormwind Stockade
 
+-- Dungeons & Raids: Cataclysm Dungeon Hero
+A{"TheStonecore", 4844, 0.580, 0.390, criterion=13562} -- Heroic: The Stonecore
+
 -- Dungeons & Raids: Glory of the Cataclysm Hero
-A{"TheStonecore", 4845, criterion=15252} -- Rotten to the Core
+A{"TheStonecore", 4845, 0.580, 0.390, criterion=15252} -- Rotten to the Core
 
 -- Dungeons & Raids/Cataclysm Dungeon: The Stonecore
-A{"TheStonecore", 4846}
+A{"TheStonecore", 4846, 0.580, 0.390}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: The Stonecore
-A{"TheStonecore", 5063}
+A{"TheStonecore", 5063, 0.580, 0.390}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Rotten to the Core
-A{"TheStonecore", 5287, criterion=16010} -- Kill 60 Devout Followers in 10 seconds.
+A{"TheStonecore", 5287, 0.580, 0.390, criterion=16010} -- Kill 60 Devout Followers in 10 seconds.
 
 -- Dungeons & Raids: Defender of a Shattered World
-A{"TheStonecore", 5506, criterion=13562} -- Heroic: The Stonecore
+A{"TheStonecore", 5506, 0.580, 0.390, criterion=13562} -- Heroic: The Stonecore
 
 -- Dungeons & Raids/Classic: Sunken Temple
 A{"TheTempleOfAtalHakkar", 641, 0.670, 0.877}
@@ -2252,6 +2284,9 @@ A{"ThroneoftheFourWinds", 5506, criterion=16060} -- Throne of the Four Winds
 
 -- Dungeons & Raids/Cataclysm Dungeon: Throne of the Tides
 A{"ThroneofTides", 4839}
+
+-- Dungeons & Raids: Cataclysm Dungeon Hero
+A{"ThroneofTides", 4844, criterion=13551} -- Heroic: Throne of the Tides
 
 -- Dungeons & Raids: Glory of the Cataclysm Hero
 A{"ThroneofTides", 4845, criterion=15251} -- Prince of Tides
