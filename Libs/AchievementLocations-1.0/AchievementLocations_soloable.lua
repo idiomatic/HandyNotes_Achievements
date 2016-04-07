@@ -624,23 +624,23 @@ A{"Gnomeregan", 9912, 0.685, 0.625, criterion=27749, floor=2, note="from Sparkle
 A{"Gnomeregan", 10015, 0.685, 0.625, criterion=27749, floor=2, note="from Sparklematic-Wrapped Box from Sparklematic 5200 machines", side="alliance"} -- Tinkertown
 
 -- Dungeons & Raids/Cataclysm Dungeon: Grim Batol
-A{"GrimBatol", 4840}
+A{"GrimBatol", 4840, 0.860, 0.750}
 
 -- Dungeons & Raids: Glory of the Cataclysm Hero
-A{"GrimBatol", 4845, criterion=15262} -- Umbrage for Umbriss
-A{"GrimBatol", 4845, criterion=15263} -- Don't Need to Break Eggs to Make an Omelet
+A{"GrimBatol", 4845, 0.405, 0.690, criterion=15262} -- Umbrage for Umbriss
+A{"GrimBatol", 4845, 0.860, 0.750, criterion=15263} -- Don't Need to Break Eggs to Make an Omelet
 
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: Grim Batol
-A{"GrimBatol", 5062}
+A{"GrimBatol", 5062, 0.860, 0.750}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Umbrage for Umbriss
-A{"GrimBatol", 5297}
+A{"GrimBatol", 5297, 0.405, 0.690}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Don't Need to Break Eggs to Make an Omelet
-A{"GrimBatol", 5298}
+A{"GrimBatol", 5298, 0.860, 0.750}
 
 -- Dungeons & Raids: Defender of a Shattered World
-A{"GrimBatol", 5506, criterion=13552} -- Heroic: Grim Batol
+A{"GrimBatol", 5506, 0.860, 0.750, criterion=13552} -- Heroic: Grim Batol
 
 -- Dungeons & Raids/The Burning Crusade: Gruul's Lair
 A{"GruulsLair", 692, 0.210, 0.290}

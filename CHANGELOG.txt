@@ -1,0 +1,4 @@
+* config panel
+* default to clean (zone-aggregate) pins
+* Children's Week
+* Grim Batol

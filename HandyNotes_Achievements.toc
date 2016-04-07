@@ -1,22 +1,20 @@
 ## Interface: 60200
 ## Title: HandyNotes: Achievements
 ## Description: Shows location of incomplete achievements
-## Version: 0.4.10
+## Version: 0.4.11
 ## Author: rbrian
 ## Dependencies: HandyNotes
-## SavedVariablesPerCharacter: HandyNotes_Achievements_CleanContinents
-## SavedVariablesPerCharacter: HandyNotes_Achievements_ShowCompleted
-## SavedVariablesPerCharacter: HandyNotes_Achievements_ShowJustMine
+## SavedVariables: HandyNotesAchievementsDB
 ## X-Category: Map & Minimap
 ## X-Curse-Project-Name: HandyNotes: Achievements
 ## X-Email: brian@rbrian.com
 ## X-Website: https://github.com/idiomatic/HandyNotes_Achievements
-## X-License: MIT
+## X-License: Apache
 
 Libs/LibStub/LibStub.lua
 Libs/CallbackHandler-1.0/CallbackHandler-1.0.lua
 Libs/AceAddon-3.0/AceAddon-3.0.lua
-#Libs/AceDB-3.0/AceDB-3.0.lua
+Libs/AceDB-3.0/AceDB-3.0.lua
 Libs/AceEvent-3.0/AceEvent-3.0.lua
 Libs/AceTimer-3.0/AceTimer-3.0.lua
 Libs/LibQTip-1.0/LibQTip-1.0.lua

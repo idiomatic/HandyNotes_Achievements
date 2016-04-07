@@ -18,3 +18,7 @@ ignore:
   - Site
 required-dependencies:
   - handynotes
+manual-changelog:
+  filename: CHANGELOG.txt
+  markup-type: creole
+enable-nolib-creation: no

@@ -1,7 +1,8 @@
 ## Interface: 60200
 ## Title: Lib AchievementLocations-1.0
-## Version: 0.3.0
+## Version: 0.4.11
 ## Author: rbrian
+## X-License: Apache
 
 AchievementLocations-1.0.lua
 AchievementLocations_data.lua
