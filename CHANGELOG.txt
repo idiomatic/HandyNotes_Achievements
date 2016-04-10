@@ -1,6 +1,7 @@
 == v0.4.13 ==
 
 * added seasonal awareness
+* added Brewfest (and its out-of-seasonal vendor)
 
 == v0.4.12 ==
 
