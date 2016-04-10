@@ -10,6 +10,9 @@ assert(AchievementLocations, string.format("%s requires AchievementLocations-1.0
 local InstanceLocations = LibStub:GetLibrary("InstanceLocations-1.0")
 assert(InstanceLocations, string.format("%s requires InstanceLocations-1.0", ADDON_NAME))
 
+local InSeason = LibStub:GetLibrary("InSeason-1.0")
+assert(InSeason, string.format("%s requires InSeason-1.0", ADDON_NAME))
+
 local HandyNotes = LibStub("AceAddon-3.0"):GetAddon("HandyNotes", true)
 assert(HandyNotes, string.format("%s requires HandyNotes", ADDON_NAME))
 
@@ -157,6 +160,7 @@ function HNA:OnInitialize()
             icon_scale = 2.0,
             icon_alpha = 1.0,
             just_mine = false,
+            season_warning = 14,
             clean_continents = true,
             completed = false,
         }
@@ -213,7 +217,7 @@ function HNA:PLAYER_ENTERING_WORLD(event)
             },
             completed = {
                 type = "toggle",
-                name = "Show completed",
+                name = "Show Completed",
                 desc = "Show map pins for achievements you have completed.",
                 width = "full",
                 arg = "completed",
@@ -234,6 +238,14 @@ function HNA:PLAYER_ENTERING_WORLD(event)
                 width = "full",
                 arg = "just_mine",
                 order = 5,
+            },
+            season_warning = {
+                type = "range",
+                name = "Season Warning",
+                desc = "Days in advance to show pins for seasonal holiday achievements.",
+                min = 0, max = 60, step = 1,
+                arg = "season_warning",
+                order = 6,
             },
         },
     }
@@ -292,6 +304,11 @@ function HNA:Valid(row)
         local _, _, standing = GetFactionInfoByID(row.faction)
         completed = (standing == 8)
         if completed then return false end
+    end
+
+    if row.season then
+        local days = InSeason:TimeUntilHoliday(row.season)
+        if days > self.db.profile.season_warning then return false end
     end
 
     return true

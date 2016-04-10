@@ -1,16 +1,20 @@
-## v0.4.12
+== v0.4.13 ==
+
+* added seasonal awareness
+
+== v0.4.12 ==
 
 * config panel setting persistence
 * added Stonecore
 
-## v0.4.11
+== v0.4.11 ==
 
 * added config panel
 * default to clean zones
 * added Children's Week
 * added Grim Batol
 
-## v0.4.10
+== v0.4.10 ==
 
 * omit "other" faction
 * added reputations, some with locations
@@ -37,20 +41,18 @@
 * criterion is now non-positional row property
 * bugfix for empty tooltips
 
-## v0.4
+== v0.4 ==
 
-* made a HandyNotes module, based on https://github.com/idiomatic/Achiever
+made a HandyNotes module, based on https://github.com/idiomatic/Achiever
 
-## v0.3
+== v0.3 ==
 
-* we shall never speak of this version again
+we shall never speak of this version again
 
-## v0.2
+== v0.2 ==
 
-* rewrote using coroutines and denormalized locations rows
+rewrote using coroutines and denormalized locations rows
 
-## v0.1
+== v0.1 ==
 
-* prototype, directly using HereBeDragons
-
-
+prototype, directly using HereBeDragons

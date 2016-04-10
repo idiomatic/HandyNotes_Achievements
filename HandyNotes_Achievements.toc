@@ -1,7 +1,7 @@
 ## Interface: 60200
 ## Title: HandyNotes: Achievements
 ## Description: Shows location of incomplete achievements
-## Version: 0.4.12
+## Version: 0.4.13
 ## Author: rbrian
 ## Dependencies: HandyNotes
 ## SavedVariables: HandyNotesAchievementsDB
@@ -19,11 +19,11 @@ Libs/AceEvent-3.0/AceEvent-3.0.lua
 Libs/AceTimer-3.0/AceTimer-3.0.lua
 Libs/LibQTip-1.0/LibQTip-1.0.lua
 
-#Libs/GarbageCollect-1.0/GarbageCollect-1.0.lua
-#Libs/Memoize-1.0/Memoize-1.0.lua
+# first-party libraries
 Libs/MapExcursion-1.0/MapExcursion-1.0.lua
 Libs/MapMap-1.0/MapMap-1.0.lua
 Libs/InstanceLocations-1.0/InstanceLocations-1.0.lua
+Libs/InSeason-1.0/InSeason-1.0.lua
 
 Libs/AchievementLocations-1.0/AchievementLocations-1.0.lua
 Libs/AchievementLocations-1.0/AchievementLocations_data.lua
@@ -41,6 +41,7 @@ Libs/AchievementLocations-1.0/AchievementLocations_seasonal_love.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_lunar.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_mid.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_noble.lua
+Libs/AchievementLocations-1.0/AchievementLocations_seasonal_pilgrim.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_winter.lua
 
 HandyNotes_Achievements.lua

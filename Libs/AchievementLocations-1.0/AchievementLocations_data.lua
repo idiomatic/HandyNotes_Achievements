@@ -2632,9 +2632,6 @@ A{"SearingGorge", 2557, 0.420, 0.370, criterion=0} -- Lava Crab
 -- Quests/Eastern Kingdoms: Searing Gorge Quests
 A{"SearingGorge", 4910, criterion=13748} -- Searing Gorge
 
--- World Events: Pilgrim
-A{"SethekkHalls", 3478, 0.326, 0.276, criterion=11272, floor=2} -- Terokkar Turkey Time
-
 -- Feats of Strength: Big Love Rocket
 A{"ShadowfangKeep", 4627}
 
