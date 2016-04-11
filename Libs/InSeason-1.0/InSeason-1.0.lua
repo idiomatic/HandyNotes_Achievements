@@ -1,12 +1,9 @@
 -- Copyright (c) 2016, r. brian harrison.  All rights reserved.
 
--- XXX slightly buggy if playing across a month
-
 local LIB_NAME = "InSeason-1.0"
 assert(LibStub, string.format("%s requires LibStub", LIB_NAME))
 
---local
-InSeason = LibStub:NewLibrary(LIB_NAME, 1)
+local InSeason = LibStub:NewLibrary(LIB_NAME, 1)
 if not InSeason then return end
 
 --function InSeason:OnEnable()
