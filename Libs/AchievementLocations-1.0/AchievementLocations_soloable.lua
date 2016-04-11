@@ -519,22 +519,29 @@ A{"DrakTharonKeep", 2151, 0.565, 0.182, floor=1}
 A{"EastTemple", 6460, 0.444, 0.188, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Cleaning Up
-A{"EastTemple", 6475, 0.606, 0.596}
+A{"EastTemple", 6475, 0.608, 0.590, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Seeds of Doubt
 A{"EastTemple", 6671, 0.606, 0.596, floor=1}
 
+-- Dungeons & Raids/Pandaria Dungeon: Polyformic Acid Science
+A{"EastTemple", 6715, 0.480, 0.531, criterion=19605, floor=1} -- Liu Flameheart
+
 -- Dungeons & Raids/Pandaria Dungeon: Temple of the Jade Serpent
-A{"EastTemple", 6757, 0.606, 0.596}
+A{"EastTemple", 6757, 0.606, 0.596, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Temple of the Jade Serpent
-A{"EastTemple", 6758, 0.606, 0.596}
+A{"EastTemple", 6758, 0.606, 0.596, floor=1}
 
 -- Dungeons & Raids: Pandaria Dungeon Hero
 A{"EastTemple", 6925, criterion=19902} -- Heroic: Temple of the Jade Serpent
 
+-- Dungeons & Raids: Tranquil Master
+A{"EastTemple", 6926, 0.608, 0.590, criterion=19668, floor=1} -- Sha of Doubt (Heroic)
+
 -- Dungeons & Raids: Glory of the Pandaria Hero
 A{"EastTemple", 6927, 0.444, 0.188, criterion=19915, floor=1} -- Hydrophobia
+A{"EastTemple", 6927, 0.606, 0.596, criterion=19916} -- Cleaning Up
 A{"EastTemple", 6927, 0.606, 0.596, criterion=19917, floor=1} -- Seeds of Doubt
 
 -- Dungeons & Raids/Cataclysm Dungeon: Moon Guard
@@ -610,6 +617,9 @@ A{"Firelands", 5829, 0.644, 0.566, criterion=17778, floor=1} -- The Ridge of Anc
 
 -- Dungeons & Raids/Cataclysm Raid: Share the Pain
 A{"Firelands", 5830, 0.495, 0.309, floor=1}
+
+-- Dungeons & Raids/Cataclysm Raid: Ragnar-O's
+A{"Firelands", 5855}
 
 -- Dungeons & Raids/Classic: Gnomeregan
 A{"Gnomeregan", 634, 0.311, 0.303, floor=4}
@@ -1168,6 +1178,9 @@ A{"MogushanPalace", 6713, 0.266, 0.307, floor=2}
 A{"MogushanPalace", 6713, 0.453, 0.917, floor=2}
 A{"MogushanPalace", 6713, 0.575, 0.464, floor=3}
 
+-- Dungeons & Raids/Pandaria Dungeon: Polyformic Acid Science
+A{"MogushanPalace", 6715, 0.401, 0.704, criterion=19609, floor=1} -- Trial of the King
+
 -- Dungeons & Raids/Pandaria Dungeon: Mogu'shan Palace
 A{"MogushanPalace", 6755, 0.404, 0.711, floor=3}
 
@@ -1176,6 +1189,14 @@ A{"MogushanPalace", 6756, 0.404, 0.711, floor=3}
 
 -- Dungeons & Raids: Pandaria Dungeon Hero
 A{"MogushanPalace", 6925, criterion=19904} -- Heroic: Mogu'shan Palace
+
+-- Dungeons & Raids: Glory of the Pandaria Hero
+A{"MogushanPalace", 6927, 0.448, 0.758, criterion=19922, floor=2} -- Glintrok N' Roll
+A{"MogushanPalace", 6927, 0.525, 0.185, criterion=19923, floor=1} -- Quarrelsome Quilen Quintet
+A{"MogushanPalace", 6927, 0.403, 0.708, criterion=19923, floor=1} -- Quarrelsome Quilen Quintet
+A{"MogushanPalace", 6927, 0.266, 0.307, criterion=19923, floor=2} -- Quarrelsome Quilen Quintet
+A{"MogushanPalace", 6927, 0.453, 0.917, criterion=19923, floor=2} -- Quarrelsome Quilen Quintet
+A{"MogushanPalace", 6927, 0.575, 0.464, criterion=19923, floor=3} -- Quarrelsome Quilen Quintet
 
 -- Dungeons & Raids/Classic: Molten Core
 A{"MoltenCore", 686, 0.554, 0.552}
@@ -1513,16 +1534,20 @@ A{"RuinsofAhnQiraj", 689, 0.398, 0.754}
 A{"RuinsofAhnQiraj", 1285, 0.398, 0.754, criterion=4013} -- Ruins of Ahn'Qiraj
 
 -- Dungeons & Raids/Pandaria Dungeon: Mosh Pit
-A{"ScarletHalls", 6427}
+A{"ScarletHalls", 6427, 0.618, 0.447, floor=2}
 
 -- Dungeons & Raids/Pandaria Dungeon: Humane Society
-A{"ScarletHalls", 6684}
+A{"ScarletHalls", 6684, 0.548, 0.288, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Scarlet Halls
-A{"ScarletHalls", 6760}
+A{"ScarletHalls", 6760, 0.393, 0.156, floor=2}
 
 -- Dungeons & Raids: Pandaria Dungeon Hero
 A{"ScarletHalls", 6925, criterion=19907} -- Heroic: Scarlet Halls
+
+-- Dungeons & Raids: Glory of the Pandaria Hero
+A{"ScarletHalls", 6927, 0.548, 0.288, criterion=19929, floor=1} -- Humane Society
+A{"ScarletHalls", 6927, 0.618, 0.447, criterion=19930, floor=2} -- Mosh Pit
 
 -- Dungeons & Raids/Classic: Scarlet Halls
 A{"ScarletHalls", 7413}
@@ -1538,6 +1563,10 @@ A{"ScarletMonastery", 6761, 0.490, 0.804, floor=2}
 
 -- Dungeons & Raids: Pandaria Dungeon Hero
 A{"ScarletMonastery", 6925, criterion=19908} -- Heroic: Scarlet Monastery
+
+-- Dungeons & Raids: Glory of the Pandaria Hero
+A{"ScarletMonastery", 6927, 0.493, 0.524, criterion=19937, floor=2} -- Burning Man
+A{"ScarletMonastery", 6927, 0.490, 0.804, criterion=19938, floor=2} -- And Stay Dead!
 
 -- Dungeons & Raids/Pandaria Dungeon: Burning Man
 A{"ScarletMonastery", 6928, 0.493, 0.524, floor=2}
@@ -1555,19 +1584,23 @@ A{"Scholomance", 645}
 A{"Scholomance", 1283, criterion=3956} -- Scholomance
 
 -- Dungeons & Raids/Pandaria Dungeon: Rattle No More
-A{"Scholomance", 6394}
+A{"Scholomance", 6394, 0.484, 0.261}
 
 -- Dungeons & Raids/Pandaria Dungeon: Sanguinarian
-A{"Scholomance", 6396}
+A{"Scholomance", 6396, 0.380, 0.340}
 
 -- Dungeons & Raids/Pandaria Dungeon: Attention to Detail
-A{"Scholomance", 6531}
+A{"Scholomance", 6531, 0.599, 0.183}
 
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Scholomance
-A{"Scholomance", 6762}
+A{"Scholomance", 6762, 0.501, 0.326}
 
 -- Dungeons & Raids: Pandaria Dungeon Hero
 A{"Scholomance", 6925, criterion=19909} -- Heroic: Scholomance
+
+-- Dungeons & Raids: Glory of the Pandaria Hero
+A{"Scholomance", 6927, 0.484, 0.261, criterion=19932} -- Rattle No More
+A{"Scholomance", 6927, 0.380, 0.340, criterion=19933, note="or thereabouts"} -- Sanguinarian
 
 -- Dungeons & Raids/The Burning Crusade: Sethekk Halls
 A{"SethekkHalls", 653, 0.326, 0.276, floor=2}
@@ -1629,11 +1662,17 @@ A{"ShadowLabyrinth", 1284, 0.808, 0.391, criterion=3971} -- Shadow Labyrinth
 -- Dungeons & Raids: Outland Dungeon Hero
 A{"ShadowLabyrinth", 1287, 0.808, 0.391, criterion=4030} -- Heroic Shadow Labyrinth
 
+-- Reputation/The Burning Crusade: Skyshattered
+A{"ShadowmoonValley", 1638, 0.658, 0.865}
+
+-- Collections/Mounts: Awake the Drakes
+A{"ShadowmoonValley", 9713, 0.658, 0.865, criterion=26800, note="Netherwing exalted"} -- Purple Netherwing Drake
+
 -- Dungeons & Raids/Pandaria Dungeon: Shado-Pan Monastery
-A{"ShadowpanHideout", 6469}
+A{"ShadowpanHideout", 6469, 0.720, 0.480, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Shado-Pan Monastery
-A{"ShadowpanHideout", 6470}
+A{"ShadowpanHideout", 6470, 0.720, 0.480, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Hate Leads to Suffering
 A{"ShadowpanHideout", 6471, 0.720, 0.480, floor=1}
@@ -1644,17 +1683,30 @@ A{"ShadowpanHideout", 6472, 0.473, 0.607, floor=4}
 -- Dungeons & Raids/Pandaria Dungeon: Respect
 A{"ShadowpanHideout", 6477, 0.600, 0.640, criterion=19133, floor=3} -- Bow to 20 Shado-pan Initiates.
 
+-- Dungeons & Raids/Pandaria Dungeon: Polyformic Acid Science
+A{"ShadowpanHideout", 6715, 0.649, 0.691, criterion=19606, floor=1} -- Gu Cloudstrike
+
 -- Dungeons & Raids: Pandaria Dungeon Hero
 A{"ShadowpanHideout", 6925, criterion=19905} -- Heroic: Shado-Pan Monastery
 
+-- Dungeons & Raids: Tranquil Master
+A{"ShadowpanHideout", 6926, 0.425, 0.292, criterion=22274, floor=1} -- Sha of Violence (Heroic)
+
 -- Dungeons & Raids: Glory of the Pandaria Hero
-A{"ShadowpanHideout", 6927, criterion=19924} -- Respect
+A{"ShadowpanHideout", 6927, 0.600, 0.640, criterion=19924, floor=3} -- Respect
+A{"ShadowpanHideout", 6927, 0.473, 0.607, criterion=19925, floor=4} -- The Obvious Solution
+A{"ShadowpanHideout", 6927, 0.720, 0.480, criterion=19926, floor=1} -- Hate Leads to Suffering
+A{"Sholomance", 6927, 0.599, 0.183, criterion=19931} -- Attention to Detail
+A{"Sholomance", 6927, 0.826, 0.322, criterion=19936} -- School's Out Forever
 
 -- Dungeons & Raids/Pandaria Dungeon: Return to Sender
 A{"SiegeofNiuzaoTemple", 6485, 0.550, 0.460, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Where's My Air Support?
 A{"SiegeofNiuzaoTemple", 6688, 0.360, 0.760, criterion=21277, floor=1} -- Defeat Commander Vo'jak after having killed the Sik'thik Amberwing
+
+-- Dungeons & Raids/Pandaria Dungeon: Polyformic Acid Science
+A{"SiegeofNiuzaoTemple", 6715, 0.470, 0.521, criterion=19604, floor=2} -- Vizier Jin'bak
 
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Siege of Niuzao Temple
 A{"SiegeofNiuzaoTemple", 6763, 0.570, 0.220, floor=1}
@@ -1664,6 +1716,11 @@ A{"SiegeofNiuzaoTemple", 6822, 0.570, 0.220, floor=1}
 
 -- Dungeons & Raids: Pandaria Dungeon Hero
 A{"SiegeofNiuzaoTemple", 6925, 0.570, 0.220, criterion=19910, floor=1} -- Heroic: Siege of Niuzao Temple
+
+-- Dungeons & Raids: Glory of the Pandaria Hero
+A{"SiegeofNiuzaoTemple", 6927, 0.360, 0.760, criterion=19939, floor=1} -- Where's My Air Support?
+A{"SiegeofNiuzaoTemple", 6927, 0.550, 0.460, criterion=19940, floor=1} -- Return to Sender
+A{"SiegeofNiuzaoTemple", 6927, 0.570, 0.220, criterion=19941, floor=1} -- Run With the Wind
 
 -- Dungeons & Raids/Pandaria Dungeon: Siege of Niuzao Temple
 A{"SiegeofNiuzaoTemple", 10011, 0.570, 0.220, floor=1}
@@ -1708,12 +1765,16 @@ A{"StormstoutBrewery", 6456, 0.490, 0.520, floor=4}
 -- Dungeons & Raids/Pandaria Dungeon: Stormstout Brewery
 A{"StormstoutBrewery", 6457, 0.490, 0.520, floor=4}
 
+-- Dungeons & Raids/Pandaria Dungeon: Polyformic Acid Science
+A{"StormstoutBrewery", 6715, 0.488, 0.517, criterion=19608, floor=4} -- Yan-Zhu the Uncasked
+
 -- Dungeons & Raids: Pandaria Dungeon Hero
 A{"StormstoutBrewery", 6925, criterion=19903} -- Heroic: Stormstout Brewery
 
 -- Dungeons & Raids: Glory of the Pandaria Hero
-A{"StormstoutBrewery", 6927, criterion=19919} -- Keep Rollin' Rollin' Rollin'
-A{"StormstoutBrewery", 6927, criterion=19920} -- How Did He Get Up There?
+A{"StormstoutBrewery", 6927, 0.790, 0.820, criterion=19918, floor=2} -- Hopocalypse Now!
+A{"StormstoutBrewery", 6927, 0.550, 0.490, criterion=19919, floor=2} -- Keep Rollin' Rollin' Rollin'
+A{"StormstoutBrewery", 6927, 0.230, 0.670, criterion=19920, floor=3} -- How Did He Get Up There?
 A{"StormstoutBrewery", 6927, criterion=19921} -- Ling-Ting's Herbal Journey
 
 -- Dungeons & Raids/Classic: Stratholme
@@ -2050,6 +2111,9 @@ A{"TheGreatWall", 6476, 0.537, 0.530, floor=1}
 -- Dungeons & Raids/Pandaria Dungeon: Bomberman
 A{"TheGreatWall", 6479, 0.462, 0.879, criterion=19135, floor=1} -- Trigger 15 explosions within 15 seconds.
 
+-- Dungeons & Raids/Pandaria Dungeon: Polyformic Acid Science
+A{"TheGreatWall", 6715, 0.462, 0.237, criterion=19603, floor=1} -- Commander Ri'mok
+
 -- Dungeons & Raids/Pandaria Dungeon: Heroic: Gate of the Setting Sun
 A{"TheGreatWall", 6759, 0.490, 0.610, floor=1}
 
@@ -2059,6 +2123,9 @@ A{"TheGreatWall", 6925, 0.490, 0.610, criterion=19906, floor=1} -- Heroic: Gate 
 -- Dungeons & Raids: Glory of the Pandaria Hero
 A{"TheGreatWall", 6927, 0.462, 0.879, criterion=19927, floor=1} -- Bomberman
 A{"TheGreatWall", 6927, 0.537, 0.530, criterion=19928, floor=1} -- Conscriptinator
+
+-- Dungeons & Raids/Pandaria Dungeon: Mantid Swarm
+A{"TheGreatWall", 6945, 0.441, 0.606, floor=1}
 
 -- Dungeons & Raids/Pandaria Dungeon: Gate of the Setting Sun
 A{"TheGreatWall", 10010, 0.490, 0.610, floor=1}

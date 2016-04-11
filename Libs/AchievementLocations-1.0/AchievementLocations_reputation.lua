@@ -18,10 +18,11 @@ A{"Barrens", 6742, criterion=982, faction=369, note="Fray Island"} -- Gadgetzan
 A{"BlackTemple", 6742, criterion=982, faction=1012} -- Ashtongue Deathsworn
 
 -- Reputation/The Burning Crusade: A Quest a Day Keeps the Ogres at Bay
-A{"BladesEdgeMountains", 896, faction=1038}
+A{"BladesEdgeMountains", 896, 0.285, 0.575, faction=1038}
 
 -- Reputation: 60 Exalted Reputations
-A{"BladesEdgeMountains", 6742, criterion=982, faction=1038} -- Ogri'la
+A{"BladesEdgeMountains", 6742, 0.285, 0.575, criterion=982, faction=1038} -- Ogri'la
+A{"BladesEdgeMountains", 6742, 0.278, 0.527, criterion=982, faction=1031} -- Sha'tari Skyguard
 A{"BoreanTundra", 6742, criterion=982, faction=1064, side="horde"} -- The Taunka
 A{"CoTHillsbradFoothills", 6742, criterion=982, faction=989} -- Keepers of Time
 A{"CoTTheBlackMorass", 6742, 0.480, 0.745, criterion=982, faction=989} -- Keepers of Time
@@ -140,10 +141,10 @@ A{"SearingGorge", 6742, criterion=982, faction=59} -- Thorium Brotherhood
 A{"SethekkHalls", 6742, criterion=982, faction=1011} -- Lower City
 
 -- Reputation/The Burning Crusade: On Wings of Nether
-A{"ShadowmoonValley", 898, faction=1015}
+A{"ShadowmoonValley", 898, 0.660, 0.860, faction=1015}
 
 -- Reputation: 60 Exalted Reputations
-A{"ShadowmoonValley", 6742, criterion=982, faction=1015} -- Netherwing
+A{"ShadowmoonValley", 6742, 0.660, 0.830, criterion=982, faction=1015} -- Netherwing
 A{"ShadowmoonValleyDR", 6742, criterion=982, faction=1731, side="alliance"} -- Council of Exarchs
 A{"ShattrathCity", 6742, criterion=982, faction=932} -- The Aldor
 A{"ShattrathCity", 6742, criterion=982, faction=934} -- The Scryers
@@ -177,7 +178,7 @@ A{"Tanaris", 6742, criterion=982, faction=470} -- Ratchet
 A{"TerokkarForest", 894, faction=1031}
 
 -- Reputation: 60 Exalted Reputations
-A{"TerokkarForest", 6742, criterion=982, faction=1031} -- Sha'tari Skyguard
+A{"TerokkarForest", 6742, 0.645, 0.664, criterion=982, faction=1031} -- Sha'tari Skyguard
 A{"TheArcatraz", 6742, criterion=982, faction=935} -- The Sha'tar
 A{"TheBloodFurnace", 6742, criterion=982, faction=946, side="alliance"} -- Honor Hold
 A{"TheBloodFurnace", 6742, criterion=982, faction=947, side="horde"} -- Thrallmar

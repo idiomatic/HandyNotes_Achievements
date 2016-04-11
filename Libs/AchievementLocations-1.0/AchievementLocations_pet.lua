@@ -1199,7 +1199,7 @@ A{"StranglethornJungle", 6586, 0.590, 0.200, criterion=21656} -- Lizard Hatchlin
 A{"StranglethornJungle", 6586, 0.590, 0.200, criterion=21658, note="zone exclusive"} -- Polly
 A{"StranglethornJungle", 6586, 0.520, 0.350, criterion=21659} -- Strand Crab
 A{"StranglethornJungle", 6586, 0.440, 0.230, criterion=21660} -- Tree Python
-A{"StranglethornJungle", 6586, 0.590, 0.200, criterion=21654, note="only found as a secondary pet\nJaquero Isle is also good"} -- Crimson Moth
+A{"StranglethornJungle", 6586, 0.420, 0.400, criterion=21654, note="only found as a secondary pet\nJaquero Isle is also good"} -- Crimson Moth
 
 -- Pet Battles: Taming Eastern Kingdoms
 A{"StranglethornJungle", 6603, 0.460, 0.400, criterion=21400, note="Between Gromgol & Venture Co [Pet Level: 9]", side="alliance"} -- Steven Lisbane
@@ -1215,7 +1215,7 @@ A{"StranglethornJungle", 8397, criterion=23588} -- Panther Cub
 
 -- Pet Battles/Collect: So. Many. Pets.
 A{"StranglethornJungle", 9643, criterion="Polly"} -- Polly
-A{"StranglethornJungle", 9643, criterion="Crimson Moth"} -- Crimson Moth
+A{"StranglethornJungle", 9643, 0.420, 0.400, criterion="Crimson Moth"} -- Crimson Moth
 A{"StranglethornJungle", 9643, criterion="Forest Spiderling"} -- Forest Spiderling
 A{"StranglethornJungle", 9643, criterion="Lizard Hatchling"} -- Lizard Hatchling
 A{"StranglethornJungle", 9643, criterion="Beetle"} -- Beetle
@@ -1328,7 +1328,7 @@ A{"TerokkarForest", 6614, criterion=21471} -- Terokkar Forest
 
 -- Pet Battles/Collect: Eastern Kingdoms Safari
 A{"TheCapeOfStranglethorn", 6586, 0.600, 0.820, criterion=21668, note="only when it's raining\nJaquero has its own weather"} -- Baby Ape
-A{"TheCapeOfStranglethorn", 6586, criterion=21670} -- Wharf Rat
+A{"TheCapeOfStranglethorn", 6586, 0.428, 0.716, criterion=21670} -- Wharf Rat
 
 -- Pet Battles: Taming Eastern Kingdoms
 A{"TheCapeOfStranglethorn", 6603, 0.510, 0.730, criterion=21401, note="near the path from Booty Bay. Pet Level 11", side="alliance"} -- Bill Buckler

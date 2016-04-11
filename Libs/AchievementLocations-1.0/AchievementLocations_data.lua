@@ -132,7 +132,7 @@ A{"BladesEdgeMountains", 1193, criterion=3587} -- 86 Blade's Edge Mountains ques
 A{"BladesEdgeMountains", 1262, criterion=3887} -- On the Blade's Edge
 
 -- Quests/Outland: Blade's Edge Bomberman
-A{"BladesEdgeMountains", 1276}
+A{"BladesEdgeMountains", 1276, 0.278, 0.527}
 
 -- Exploration/Outland: Medium Rare
 A{"BladesEdgeMountains", 1311, criterion=4504} -- Ambassador Jerrikar
@@ -203,6 +203,14 @@ A{"BoreanTundra", 2557, 0.620, 0.680, criterion=0} -- Tundra Penguin
 
 -- Professions/Fishing: The Oceanographer
 A{"BoreanTundra", 5479, criterion=15911} -- Borean Man O' War
+
+-- Scenarios/Mists of Pandaria: Binan Village All-Star
+A{"BrewmasterScenario01", 6931, criterion=21330} -- Briaw Shan
+A{"BrewmasterScenario01", 6931, criterion=21331} -- Barrel of Fireworks
+A{"BrewmasterScenario01", 6931, criterion=21335} -- Vale Marksman
+A{"BrewmasterScenario01", 6931, criterion=21332} -- Krasarang Wild Brew
+A{"BrewmasterScenario01", 6931, criterion=21334} -- Tian Disciple
+A{"BrewmasterScenario01", 6931, criterion=21333} -- Derpa Derpa
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"BurningSteppes", 1676, criterion=15207} -- Burning Steppes Quests
@@ -322,7 +330,7 @@ A{"Darkshore", 4928, criterion=13839, side="alliance"} -- Darkshore
 A{"Darkshore", 5453, 0.530, 0.320, side="alliance"}
 
 -- Professions/Fishing: The Oceanographer
-A{"Darkshore", 5479, criterion=15914} -- Darkshore Grouper
+A{"Darkshore", 5479, 0.500, 0.180, criterion=15914} -- Darkshore Grouper
 
 -- Professions/Cooking: A Bunch of Lunch
 A{"Darnassus", 5845, criterion=17743, side="alliance"} -- Let's Do Lunch: Darnassus
@@ -1006,48 +1014,65 @@ A{"GrizzlylHills", 10015, criterion=27762, note="from Remington Brode\n1. Breath
 A{"GrizzlylHills", 10016, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness.", side="horde"} -- Totems of the Grizzlemaw
 
 -- Dungeons & Raids/Pandaria Raid: I Heard You Like Amber...
-A{"HeartofFear", 6518}
+A{"HeartofFear", 6518, 0.441, 0.736, floor=2}
 
 -- Dungeons & Raids/Pandaria Raid: Like an Arrow to the Face
-A{"HeartofFear", 6553}
+A{"HeartofFear", 6553, 0.665, 0.167, floor=2}
 
 -- Dungeons & Raids/Pandaria Raid: Less Than Three
-A{"HeartofFear", 6683}
+A{"HeartofFear", 6683, 0.665, 0.328, floor=2}
 
 -- Dungeons & Raids/Pandaria Raid: The Dread Approach
-A{"HeartofFear", 6718, criterion=19628} -- Imperial Vizier Zor'lok
-A{"HeartofFear", 6718, criterion=19629} -- Blade Lord Ta'yak
-A{"HeartofFear", 6718, criterion=19632} -- Garalon
+A{"HeartofFear", 6718, 0.690, 0.744, criterion=19628, floor=1} -- Imperial Vizier Zor'lok
+A{"HeartofFear", 6718, 0.600, 0.196, criterion=19629, floor=1} -- Blade Lord Ta'yak
+A{"HeartofFear", 6718, 0.665, 0.167, criterion=19632, floor=2} -- Garalon
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Imperial Vizier Zor'lok
-A{"HeartofFear", 6725}
+A{"HeartofFear", 6725, 0.690, 0.744, floor=1}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Blade Lord Ta'yak
-A{"HeartofFear", 6726}
+A{"HeartofFear", 6726, 0.600, 0.196, floor=1}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Garalon
-A{"HeartofFear", 6727}
+A{"HeartofFear", 6727, 0.665, 0.167, floor=2}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Wind Lord Mel'jarak
-A{"HeartofFear", 6728}
+A{"HeartofFear", 6728, 0.665, 0.328, floor=2}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Amber-Shaper Un'sok
-A{"HeartofFear", 6729}
+A{"HeartofFear", 6729, 0.441, 0.736, floor=2}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Grand Empress Shek'zeer
-A{"HeartofFear", 6730}
+A{"HeartofFear", 6730, 0.267, 0.736, floor=2}
 
 -- Dungeons & Raids/Pandaria Raid: Nightmare of Shek'zeer
-A{"HeartofFear", 6845, criterion=19631} -- Wind Lord Mel'jarak
-A{"HeartofFear", 6845, criterion=19633} -- Amber-Shaper Un'sok
-A{"HeartofFear", 6845, criterion=19634} -- Grand Empress Shek'zeer
+A{"HeartofFear", 6845, 0.665, 0.328, criterion=19631, floor=2} -- Wind Lord Mel'jarak
+A{"HeartofFear", 6845, 0.441, 0.736, criterion=19633, floor=2} -- Amber-Shaper Un'sok
+A{"HeartofFear", 6845, 0.267, 0.736, criterion=19634, floor=2} -- Grand Empress Shek'zeer
 
 -- Dungeons & Raids/Pandaria Raid: Timing is Everything
-A{"HeartofFear", 6922, criterion=21107} -- Defeat Grand Empress Shek'zeer
-A{"HeartofFear", 6922, criterion=21105} -- Defeat 2 Kor'thik Reavers within 10 seconds of each other
+A{"HeartofFear", 6922, 0.267, 0.736, criterion=21107, floor=2} -- Defeat Grand Empress Shek'zeer
+A{"HeartofFear", 6922, 0.267, 0.736, criterion=21105, floor=2} -- Defeat 2 Kor'thik Reavers within 10 seconds of each other
+
+-- Dungeons & Raids: Glory of the Pandaria Raider
+A{"HeartofFear", 6932, 0.690, 0.744, criterion=19950, floor=1} -- Overzealous
+A{"HeartofFear", 6932, 0.600, 0.196, criterion=19952, floor=1} -- Candle in the Wind
+A{"HeartofFear", 6932, 0.665, 0.167, criterion=19953, floor=2} -- Like an Arrow to the Face
+A{"HeartofFear", 6932, 0.665, 0.328, criterion=19954, floor=2} -- Less Than Three
+A{"HeartofFear", 6932, 0.441, 0.736, criterion=19955, floor=2} -- I Heard You Like Amber...
+A{"HeartofFear", 6932, 0.267, 0.736, criterion=19956, floor=2} -- Timing is Everything
+A{"HeartofFear", 6932, 0.690, 0.744, criterion=19967, floor=1} -- Heroic: Imperial Vizier Zor'lok
+A{"HeartofFear", 6932, 0.600, 0.196, criterion=19968, floor=1} -- Heroic: Blade Lord Ta'yak
+A{"HeartofFear", 6932, 0.665, 0.167, criterion=19969, floor=2} -- Heroic: Garalon
+A{"HeartofFear", 6932, criterion=19970} -- Heroic: Wind Lord Mel'jarak
+A{"HeartofFear", 6932, criterion=19971} -- Heroic: Amber-Shaper Un'sok
+A{"HeartofFear", 6932, criterion=19972} -- Heroic: Shek'zeer
 
 -- Dungeons & Raids/Pandaria Raid: Candle in the Wind
-A{"HeartofFear", 6936}
+A{"HeartofFear", 6936, 0.600, 0.196, floor=1}
+
+-- Dungeons & Raids/Pandaria Raid: Overzealous
+A{"HeartofFear", 6937, 0.690, 0.744, floor=1}
 
 -- Feats of Strength: Cutting Edge: Grand Empress Shek'zeer
 A{"HeartofFear", 7486}
@@ -1616,6 +1641,9 @@ A{"Ironforge", 9912, 0.471, 0.137, criterion=27746, note="fishing in Forlorn Cav
 -- Garrisons: Full Discography
 A{"Ironforge", 10015, 0.471, 0.137, criterion=27746, note="fishing in Forlorn Cavern", side="alliance"} -- Cold Mountain
 
+-- Dungeons & Raids/Pandaria Raid: Praise the Sun!
+A{"IsleoftheThunderKing", 8028, 0.605, 0.373}
+
 -- Quests/Pandaria: Isle of Thunder
 A{"IsleoftheThunderKing", 8099, criterion=0} -- First Landing
 A{"IsleoftheThunderKing", 8099, criterion=0} -- Build a Base
@@ -1722,6 +1750,9 @@ A{"Krasarang", 6855, 0.400, 0.560, criterion=19787} -- The Emperor's Burden - Pa
 
 -- Exploration/Pandaria: Ballad of Liu Lang
 A{"Krasarang", 6856, 0.720, 0.300, criterion=19796} -- Waiting for the Turtle
+
+-- Dungeons & Raids: Tranquil Master
+A{"Krasarang", 6926, 0.404, 0.546, criterion=0} -- Sha of Despair
 
 -- Exploration/Pandaria: Lost and Found
 A{"Krasarang", 7281, 0.523, 0.887, quest=31411} -- Barrel of Banana Infused Rum
@@ -1863,6 +1894,9 @@ A{"Krasarang", 10015, 0.896, 0.334, criterion=27744, note="from Proveditor Grant
 -- Garrisons: Full Discography
 A{"Krasarang", 10016, 0.106, 0.536, criterion=27769, note="from Ongrom Black Tooth\n500 Lion's Landing Comission", side="horde"} -- War March
 
+-- Dungeons & Raids/Pandaria Raid: Settle Down, Bro
+A{"KunLaiSummit", 6480, 0.676, 0.746}
+
 -- Quests/Pandaria: Slum It in the Summit
 A{"KunLaiSummit", 6537, criterion=19359, side="alliance"} -- Westwind Rest
 A{"KunLaiSummit", 6537, criterion=19360, side="alliance"} -- The Yaungol Invasion
@@ -1910,6 +1944,9 @@ A{"KunLaiSummit", 6855, 0.410, 0.420, criterion=19791} -- The Emperor's Burden -
 
 -- Exploration/Pandaria: What Is Worth Fighting For
 A{"KunLaiSummit", 6858, 0.630, 0.400, criterion=19809} -- Victory in Kun-Lai
+
+-- Dungeons & Raids: Tranquil Master
+A{"KunLaiSummit", 6926, 0.676, 0.746, criterion=19136} -- Sha of Anger
 
 -- Exploration/Pandaria: Legend of the Brewfathers
 A{"KunLaiSummit", 7230, 0.440, 0.530, criterion=20417} -- Ren Yun the Blind
@@ -2017,47 +2054,71 @@ A{"MogushanPalace", 6900, 0.404, 0.711, floor=3}
 A{"MogushanPalace", 6901, 0.404, 0.711, floor=3}
 
 -- Dungeons & Raids/Pandaria Raid: Show Me Your Moves!
-A{"MogushanVaults", 6455}
+A{"MogushanVaults", 6455, 0.688, 0.819, floor=3}
 
 -- Dungeons & Raids/Pandaria Raid: Guardians of Mogu'shan
-A{"MogushanVaults", 6458, criterion=19110} -- Stone Guard
-A{"MogushanVaults", 6458, criterion=19111} -- Feng the Accursed
-A{"MogushanVaults", 6458, criterion=19112} -- Gara'jal the Spiritbinder
+A{"MogushanVaults", 6458, 0.459, 0.641, criterion=19110, floor=1} -- Stone Guard
+A{"MogushanVaults", 6458, 0.319, 0.328, criterion=19111, floor=1} -- Feng the Accursed
+A{"MogushanVaults", 6458, 0.778, 0.344, criterion=19112, floor=2} -- Gara'jal the Spiritbinder
+
+-- Dungeons & Raids/Pandaria Raid: Anything You Can Do, I Can Do Better...
+A{"MogushanVaults", 6674, 0.319, 0.328, criterion=19501, floor=1} -- Epicenter
+A{"MogushanVaults", 6674, 0.319, 0.328, criterion=19502, floor=1} -- Lightning Fists
+A{"MogushanVaults", 6674, 0.319, 0.328, criterion=19504, floor=1} -- Wildfire Spark
+A{"MogushanVaults", 6674, 0.319, 0.328, criterion=19506, floor=1} -- Arcane Velocity
+A{"MogushanVaults", 6674, 0.319, 0.328, criterion=19507, floor=1} -- Arcane Resonance
 
 -- Dungeons & Raids/Pandaria Raid: Straight Six
-A{"MogushanVaults", 6686}
+A{"MogushanVaults", 6686, 0.207, 0.511, floor=3}
+
+-- Dungeons & Raids/Pandaria Raid: Getting Hot In Here
+A{"MogushanVaults", 6687, 0.189, 0.515, floor=2}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Stone Guard
-A{"MogushanVaults", 6719}
+A{"MogushanVaults", 6719, 0.459, 0.641, floor=1}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Feng the Accursed
-A{"MogushanVaults", 6720}
+A{"MogushanVaults", 6720, 0.319, 0.328, floor=1}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Gara'jal the Spiritbinder
-A{"MogushanVaults", 6721}
+A{"MogushanVaults", 6721, 0.778, 0.344, floor=2}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Four Kings
 A{"MogushanVaults", 6722}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Elegon
-A{"MogushanVaults", 6723}
+A{"MogushanVaults", 6723, 0.207, 0.511, floor=3}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Will of the Emperor
-A{"MogushanVaults", 6724}
+A{"MogushanVaults", 6724, 0.688, 0.819, floor=3}
 
 -- Dungeons & Raids/Pandaria Raid: Must Love Dogs
-A{"MogushanVaults", 6823}
+A{"MogushanVaults", 6823, 0.459, 0.641, floor=1}
 
 -- Dungeons & Raids/Pandaria Raid: The Vault of Mysteries
 A{"MogushanVaults", 6844, criterion=19113} -- Four Kings
-A{"MogushanVaults", 6844, criterion=19767} -- Elegon
-A{"MogushanVaults", 6844, criterion=19115} -- Will of the Emperor
+A{"MogushanVaults", 6844, 0.207, 0.511, criterion=19767, floor=3} -- Elegon
+A{"MogushanVaults", 6844, 0.688, 0.819, criterion=19115, floor=3} -- Will of the Emperor
+
+-- Dungeons & Raids: Glory of the Pandaria Raider
+A{"MogushanVaults", 6932, 0.459, 0.641, criterion=19945, floor=1} -- Must Love Dog
+A{"MogushanVaults", 6932, 0.319, 0.328, criterion=19946, floor=1} -- Anything You Can Do, I Can Do Better...
+A{"MogushanVaults", 6932, 0.189, 0.515, criterion=19947, floor=2} -- Getting Hot in Here
+A{"MogushanVaults", 6932, 0.207, 0.511, criterion=19948, floor=3} -- Straight Six
+A{"MogushanVaults", 6932, 0.688, 0.819, criterion=19949, floor=3} -- Show Me Your Moves!
+A{"MogushanVaults", 6932, 0.778, 0.344, criterion=19951, floor=2} -- Sorry, Were You Looking for This?
+A{"MogushanVaults", 6932, 0.459, 0.641, criterion=19961, floor=1} -- Heroic: Stone Guard
+A{"MogushanVaults", 6932, criterion=19962} -- Heroic: Feng the Accursed
+A{"MogushanVaults", 6932, criterion=19963} -- Heroic: Gara'jal the Spiritbinder
+A{"MogushanVaults", 6932, criterion=19964} -- Heroic: Four Kings
+A{"MogushanVaults", 6932, criterion=19965} -- Heroic: Elegon
+A{"MogushanVaults", 6932, criterion=19966} -- Heroic: Will of the Emperor
 
 -- Feats of Strength: Ahead of the Curve: Will of the Emperor
 A{"MogushanVaults", 6954}
 
 -- Dungeons & Raids/Pandaria Raid: Sorry, Were You Looking for This?
-A{"MogushanVaults", 7056, criterion=20244} -- Activate the Ancient Mogu Artifact.
+A{"MogushanVaults", 7056, 0.778, 0.344, criterion=20244, floor=2} -- Activate the Ancient Mogu Artifact.
 
 -- Feats of Strength: Cutting Edge: Will of the Emperor
 A{"MogushanVaults", 7485}
@@ -2260,10 +2321,10 @@ A{"OrgrimmarRaid", 8400}
 A{"OrgrimmarRaid", 8401}
 
 -- Dungeons & Raids/Pandaria Raid: Gamon Will Save Us!
-A{"OrgrimmarRaid", 8448}
+A{"OrgrimmarRaid", 8448, 0.652, 0.735, floor=7}
 
 -- Dungeons & Raids/Pandaria Raid: Rescue Raiders
-A{"OrgrimmarRaid", 8453}
+A{"OrgrimmarRaid", 8453, 0.475, 0.609, floor=5}
 
 -- Dungeons & Raids: Glory of the Orgrimmar Raider
 A{"OrgrimmarRaid", 8454, criterion=23665} -- Rescue Raiders
@@ -2676,9 +2737,6 @@ A{"ShadowmoonValley", 1195, criterion=3589} -- 90 Shadowmoon Valley quests
 
 -- Quests/Outland: Loremaster of Outland
 A{"ShadowmoonValley", 1262, criterion=3889} -- Shadow of the Betrayer
-
--- Collections/Mounts: Awake the Drakes
-A{"ShadowmoonValley", 9713, 0.658, 0.865, criterion=26800, note="Netherwing exalted"} -- Purple Netherwing Drake
 
 -- Garrisons: Ten Hit Tunes
 A{"ShadowmoonValley", 9828, 0.573, 0.472, criterion=27756, note="from Warden's Scroll Case\nentrance at 57.2,49.7", side="alliance"} -- The Black Temple
@@ -3204,57 +3262,45 @@ A{"TerokkarForest", 1312, criterion=4520} -- Okrek
 A{"TerokkarForest", 1312, criterion=4510} -- Doomsayer Jurim
 
 -- Dungeons & Raids/Pandaria Raid: Terrace of Endless Spring
-A{"TerraceOfEndlessSpring", 6689, criterion=19518} -- Protectors of the Endless
-A{"TerraceOfEndlessSpring", 6689, criterion=19519} -- Tsulong
-A{"TerraceOfEndlessSpring", 6689, criterion=19520} -- Lei Shi
-A{"TerraceOfEndlessSpring", 6689, criterion=19521} -- Sha of Fear
+A{"TerraceOfEndlessSpring", 6689, 0.790, 0.464, criterion=19518} -- Protectors of the Endless
+A{"TerraceOfEndlessSpring", 6689, 0.691, 0.482, criterion=19519} -- Tsulong
+A{"TerraceOfEndlessSpring", 6689, 0.538, 0.493, criterion=19520} -- Lei Shi
+A{"TerraceOfEndlessSpring", 6689, 0.390, 0.480, criterion=19521} -- Sha of Fear
 
 -- Dungeons & Raids/Pandaria Raid: Power Overwhelming
-A{"TerraceOfEndlessSpring", 6717, criterion=19624} -- Protector Kaolan defeated last
-A{"TerraceOfEndlessSpring", 6717, criterion=19625} -- Elder Regail defeated last
-A{"TerraceOfEndlessSpring", 6717, criterion=19626} -- Elder Asani defeated last
+A{"TerraceOfEndlessSpring", 6717, 0.790, 0.464, criterion=19624} -- Protector Kaolan defeated last
+A{"TerraceOfEndlessSpring", 6717, 0.790, 0.464, criterion=19625} -- Elder Regail defeated last
+A{"TerraceOfEndlessSpring", 6717, 0.790, 0.464, criterion=19626} -- Elder Asani defeated last
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Protectors of the Endless
-A{"TerraceOfEndlessSpring", 6731}
+A{"TerraceOfEndlessSpring", 6731, 0.790, 0.464}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Tsulong
-A{"TerraceOfEndlessSpring", 6732}
+A{"TerraceOfEndlessSpring", 6732, 0.691, 0.482}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Lei Shi
-A{"TerraceOfEndlessSpring", 6733}
-
--- Dungeons & Raids/Pandaria Raid: Heroic: Sha of Fear
-A{"TerraceOfEndlessSpring", 6734}
+A{"TerraceOfEndlessSpring", 6733, 0.538, 0.493}
 
 -- Dungeons & Raids/Pandaria Raid: Face Clutchers
-A{"TerraceOfEndlessSpring", 6824}
+A{"TerraceOfEndlessSpring", 6824, 0.538, 0.493}
 
--- Dungeons & Raids/Pandaria Raid: The Mind-Killer
-A{"TerraceOfEndlessSpring", 6825}
+-- Dungeons & Raids: Glory of the Pandaria Raider
+A{"TerraceOfEndlessSpring", 6932, 0.538, 0.493, criterion=19957} -- Face Clutchers
+A{"TerraceOfEndlessSpring", 6932, 0.790, 0.464, criterion=19958} -- Power Overwhelming
+A{"TerraceOfEndlessSpring", 6932, 0.691, 0.482, criterion=19959} -- Who's Got Two Green Thumbs
+A{"TerraceOfEndlessSpring", 6932, 0.390, 0.480, criterion=19960} -- The Mind-Killer
+A{"TerraceOfEndlessSpring", 6932, 0.691, 0.482, criterion=19973} -- Heroic: Tsulong
+A{"TerraceOfEndlessSpring", 6932, 0.538, 0.493, criterion=19974} -- Heroic: Lei Shi
+A{"TerraceOfEndlessSpring", 6932, 0.790, 0.464, criterion=19975} -- Heroic: Protectors of the Endless
+
+-- Dungeons & Raids/Pandaria Raid: Who's Got Two Green Thumbs?
+A{"TerraceOfEndlessSpring", 6933, 0.691, 0.482}
 
 -- Feats of Strength: Cutting Edge: Sha of Fear
-A{"TerraceOfEndlessSpring", 7487}
-
--- Feats of Strength: Ahead of the Curve: Sha of Fear
-A{"TerraceOfEndlessSpring", 8248}
-
--- Garrisons: Ten Hit Tunes
-A{"TerraceOfEndlessSpring", 9828, criterion=27741, note="drop from Sha of Fear", side="alliance"} -- Heart of Pandaria
-
--- Garrisons: Ten Hit Tunes
-A{"TerraceOfEndlessSpring", 9897, criterion=27741, note="drop from Sha of Fear", side="horde"} -- Heart of Pandaria
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"TerraceOfEndlessSpring", 9912, criterion=27741, note="drop from Sha of Fear", side="alliance"} -- Heart of Pandaria
-
--- Garrisons: Azeroth's Top Twenty Tunes
-A{"TerraceOfEndlessSpring", 9914, criterion=27741, note="drop from Sha of Fear", side="horde"} -- Heart of Pandaria
+A{"TerraceOfEndlessSpring", 7487, 0.390, 0.480}
 
 -- Garrisons: Full Discography
-A{"TerraceOfEndlessSpring", 10015, criterion=27741, note="drop from Sha of Fear", side="alliance"} -- Heart of Pandaria
-
--- Garrisons: Full Discography
-A{"TerraceOfEndlessSpring", 10016, criterion=27741, note="drop from Sha of Fear", side="horde"} -- Heart of Pandaria
+A{"TerraceOfEndlessSpring", 10016, 0.390, 0.480, criterion=27741, note="drop from Sha of Fear", side="horde"} -- Heart of Pandaria
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"TheCapeOfStranglethorn", 1676, criterion=15208} -- Cape of Stranglethorn Quests
@@ -3484,134 +3530,134 @@ A{"ThunderBluff", 9914, 0.256, 0.198, criterion=27771, note="from fishing Pools 
 A{"ThunderBluff", 10016, 0.256, 0.198, criterion=27771, note="from fishing Pools of Vision", side="horde"} -- Mulgore Plains
 
 -- Dungeons & Raids/Pandaria Raid: Genetically Unmodified Organism
-A{"ThunderKingRaid", 8037}
+A{"ThunderKingRaid", 8037, 0.572, 0.782, floor=5}
 
 -- Dungeons & Raids/Pandaria Raid: Cretaceous Collector
-A{"ThunderKingRaid", 8038}
+A{"ThunderKingRaid", 8038, 0.268, 0.787, floor=2}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Jin'rokh the Breaker
-A{"ThunderKingRaid", 8056}
+A{"ThunderKingRaid", 8056, 0.594, 0.256, floor=1}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Horridon
-A{"ThunderKingRaid", 8057}
+A{"ThunderKingRaid", 8057, 0.268, 0.787, floor=2}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Council of Elders
-A{"ThunderKingRaid", 8058}
+A{"ThunderKingRaid", 8058, 0.499, 0.191, floor=2}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Tortos
-A{"ThunderKingRaid", 8059}
+A{"ThunderKingRaid", 8059, 0.315, 0.820, floor=3}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Megaera
-A{"ThunderKingRaid", 8060}
+A{"ThunderKingRaid", 8060, 0.721, 0.253, floor=3}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Ji-Kun
-A{"ThunderKingRaid", 8061}
+A{"ThunderKingRaid", 8061, 0.497, 0.416, floor=4}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Durumu the Forgotten
-A{"ThunderKingRaid", 8062}
+A{"ThunderKingRaid", 8062, 0.711, 0.344, floor=5}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Primordius
-A{"ThunderKingRaid", 8063}
+A{"ThunderKingRaid", 8063, 0.572, 0.782, floor=5}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Dark Animus
-A{"ThunderKingRaid", 8064}
+A{"ThunderKingRaid", 8064, 0.430, 0.571, floor=5}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Iron Qon
-A{"ThunderKingRaid", 8065}
+A{"ThunderKingRaid", 8065, 0.346, 0.589, floor=6}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Twin Consorts
-A{"ThunderKingRaid", 8066}
+A{"ThunderKingRaid", 8066, 0.787, 0.380, floor=6}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Lei Shen
-A{"ThunderKingRaid", 8067}
+A{"ThunderKingRaid", 8067, 0.507, 0.510, floor=7}
 
 -- Dungeons & Raids/Pandaria Raid: Heroic: Ra-den
-A{"ThunderKingRaid", 8068}
+A{"ThunderKingRaid", 8068, 0.522, 0.810, floor=8}
 
 -- Dungeons & Raids/Pandaria Raid: Last Stand of the Zandalari
-A{"ThunderKingRaid", 8069, criterion=22912} -- Jin'rokh the Breaker
-A{"ThunderKingRaid", 8069, criterion=22984} -- Horridon
-A{"ThunderKingRaid", 8069, criterion=22963} -- Council of Elders
+A{"ThunderKingRaid", 8069, 0.594, 0.256, criterion=22912, floor=1} -- Jin'rokh the Breaker
+A{"ThunderKingRaid", 8069, 0.268, 0.787, criterion=22984, floor=2} -- Horridon
+A{"ThunderKingRaid", 8069, 0.499, 0.191, criterion=22963, floor=2} -- Council of Elders
 
 -- Dungeons & Raids/Pandaria Raid: Forgotten Depths
-A{"ThunderKingRaid", 8070, criterion=22985} -- Tortos
-A{"ThunderKingRaid", 8070, criterion=22986} -- Megaera
-A{"ThunderKingRaid", 8070, criterion=22987} -- Ji-Kun
+A{"ThunderKingRaid", 8070, 0.315, 0.820, criterion=22985, floor=3} -- Tortos
+A{"ThunderKingRaid", 8070, 0.721, 0.253, criterion=22986, floor=3} -- Megaera
+A{"ThunderKingRaid", 8070, 0.497, 0.416, criterion=22987, floor=4} -- Ji-Kun
 
 -- Dungeons & Raids/Pandaria Raid: Halls of Flesh-Shaping
-A{"ThunderKingRaid", 8071, criterion=22988} -- Durumu the Forgotten
-A{"ThunderKingRaid", 8071, criterion=22989} -- Primordius
-A{"ThunderKingRaid", 8071, criterion=22990} -- Dark Animus
+A{"ThunderKingRaid", 8071, 0.711, 0.344, criterion=22988, floor=5} -- Durumu the Forgotten
+A{"ThunderKingRaid", 8071, 0.572, 0.782, criterion=22989, floor=5} -- Primordius
+A{"ThunderKingRaid", 8071, 0.430, 0.571, criterion=22990, floor=5} -- Dark Animus
 
 -- Dungeons & Raids/Pandaria Raid: Pinnacle of Storms
-A{"ThunderKingRaid", 8072, criterion=22991} -- Iron Qon
-A{"ThunderKingRaid", 8072, criterion=22965} -- Twin Consorts
-A{"ThunderKingRaid", 8072, criterion=23317} -- Lei Shen
+A{"ThunderKingRaid", 8072, 0.346, 0.589, criterion=22991, floor=6} -- Iron Qon
+A{"ThunderKingRaid", 8072, 0.787, 0.380, criterion=22965, floor=6} -- Twin Consorts
+A{"ThunderKingRaid", 8072, 0.507, 0.510, criterion=23317, floor=7} -- Lei Shen
 
 -- Dungeons & Raids/Pandaria Raid: Cage Match
-A{"ThunderKingRaid", 8073, criterion=22729} -- No creature has left the center ring.
+A{"ThunderKingRaid", 8073, 0.499, 0.191, criterion=22729, floor=2} -- No creature has left the center ring.
 
 -- Dungeons & Raids/Pandaria Raid: One-Up
-A{"ThunderKingRaid", 8077}
+A{"ThunderKingRaid", 8077, 0.315, 0.820, floor=3}
 
 -- Dungeons & Raids/Pandaria Raid: Ritualist Who?
-A{"ThunderKingRaid", 8081, criterion=22765} -- Aridian
-A{"ThunderKingRaid", 8081, criterion=22766} -- Auton
-A{"ThunderKingRaid", 8081, criterion=22767} -- Bandril
-A{"ThunderKingRaid", 8081, criterion=22768} -- Drahvin
-A{"ThunderKingRaid", 8081, criterion=22769} -- Drashig
-A{"ThunderKingRaid", 8081, criterion=22770} -- Fendahl
-A{"ThunderKingRaid", 8081, criterion=22771} -- Gond
-A{"ThunderKingRaid", 8081, criterion=22772} -- Jagaroth
-A{"ThunderKingRaid", 8081, criterion=22773} -- Kroll
-A{"ThunderKingRaid", 8081, criterion=22774} -- Kitling
-A{"ThunderKingRaid", 8081, criterion=22775} -- Malus
-A{"ThunderKingRaid", 8081, criterion=22776} -- Mandrel
-A{"ThunderKingRaid", 8081, criterion=22777} -- Megara
-A{"ThunderKingRaid", 8081, criterion=22778} -- Morok
-A{"ThunderKingRaid", 8081, criterion=22779} -- Ogri
-A{"ThunderKingRaid", 8081, criterion=22780} -- Ogron
-A{"ThunderKingRaid", 8081, criterion=22781} -- Rill
-A{"ThunderKingRaid", 8081, criterion=22782} -- Rutan
-A{"ThunderKingRaid", 8081, criterion=22783} -- Sirian
-A{"ThunderKingRaid", 8081, criterion=22784} -- Tetrap
-A{"ThunderKingRaid", 8081, criterion=22785} -- Thal
-A{"ThunderKingRaid", 8081, criterion=22786} -- Voord
-A{"ThunderKingRaid", 8081, criterion=22787} -- Wirrn
-A{"ThunderKingRaid", 8081, criterion=22788} -- Xeron
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22765, floor=5} -- Aridian
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22766, floor=5} -- Auton
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22767, floor=5} -- Bandril
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22768, floor=5} -- Drahvin
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22769, floor=5} -- Drashig
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22770, floor=5} -- Fendahl
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22771, floor=5} -- Gond
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22772, floor=5} -- Jagaroth
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22773, floor=5} -- Kroll
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22774, floor=5} -- Kitling
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22775, floor=5} -- Malus
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22776, floor=5} -- Mandrel
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22777, floor=5} -- Megara
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22778, floor=5} -- Morok
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22779, floor=5} -- Ogri
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22780, floor=5} -- Ogron
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22781, floor=5} -- Rill
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22782, floor=5} -- Rutan
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22783, floor=5} -- Sirian
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22784, floor=5} -- Tetrap
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22785, floor=5} -- Thal
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22786, floor=5} -- Voord
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22787, floor=5} -- Wirrn
+A{"ThunderKingRaid", 8081, 0.430, 0.571, criterion=22788, floor=5} -- Xeron
 
 -- Dungeons & Raids/Pandaria Raid: Head Case
-A{"ThunderKingRaid", 8082, criterion=22744} -- Flaming
-A{"ThunderKingRaid", 8082, criterion=22746} -- Frozen
-A{"ThunderKingRaid", 8082, criterion=22747} -- Venomous
+A{"ThunderKingRaid", 8082, 0.721, 0.253, criterion=22744, floor=3} -- Flaming
+A{"ThunderKingRaid", 8082, 0.721, 0.253, criterion=22746, floor=3} -- Frozen
+A{"ThunderKingRaid", 8082, 0.721, 0.253, criterion=22747, floor=3} -- Venomous
 
 -- Dungeons & Raids/Pandaria Raid: From Dusk 'til Dawn
-A{"ThunderKingRaid", 8086}
+A{"ThunderKingRaid", 8086, 0.787, 0.380, floor=6}
 
 -- Dungeons & Raids/Pandaria Raid: Can't Touch This
-A{"ThunderKingRaid", 8087, criterion=22791} -- Burning Cinders
-A{"ThunderKingRaid", 8087, criterion=22792} -- Frozen Blood
-A{"ThunderKingRaid", 8087, criterion=22793} -- Storm Cloud
-A{"ThunderKingRaid", 8087, criterion=22794} -- Frozen Solid!
-A{"ThunderKingRaid", 8087, criterion=22795} -- Rushing Winds
+A{"ThunderKingRaid", 8087, 0.346, 0.589, criterion=22791, floor=6} -- Burning Cinders
+A{"ThunderKingRaid", 8087, 0.346, 0.589, criterion=22792, floor=6} -- Frozen Blood
+A{"ThunderKingRaid", 8087, 0.346, 0.589, criterion=22793, floor=6} -- Storm Cloud
+A{"ThunderKingRaid", 8087, 0.346, 0.589, criterion=22794, floor=6} -- Frozen Solid!
+A{"ThunderKingRaid", 8087, 0.346, 0.589, criterion=22795, floor=6} -- Rushing Winds
 
 -- Feats of Strength: I Thought He Was Supposed to Be Hard?
 A{"ThunderKingRaid", 8089}
 
 -- Dungeons & Raids/Pandaria Raid: A Complete Circuit
-A{"ThunderKingRaid", 8090, criterion=22797} -- Static Shock Conduit Disabled First
-A{"ThunderKingRaid", 8090, criterion=22996} -- Diffusion Chain Conduit Disabled First
-A{"ThunderKingRaid", 8090, criterion=22997} -- Overcharge Conduit Disabled First
-A{"ThunderKingRaid", 8090, criterion=22998} -- Bouncing Bolt Conduit Disabled First
+A{"ThunderKingRaid", 8090, 0.507, 0.510, criterion=22797, floor=7} -- Static Shock Conduit Disabled First
+A{"ThunderKingRaid", 8090, 0.507, 0.510, criterion=22996, floor=7} -- Diffusion Chain Conduit Disabled First
+A{"ThunderKingRaid", 8090, 0.507, 0.510, criterion=22997, floor=7} -- Overcharge Conduit Disabled First
+A{"ThunderKingRaid", 8090, 0.507, 0.510, criterion=22998, floor=7} -- Bouncing Bolt Conduit Disabled First
 
 -- Dungeons & Raids/Pandaria Raid: Lightning Overload
-A{"ThunderKingRaid", 8094}
+A{"ThunderKingRaid", 8094, 0.594, 0.256, floor=1}
 
 -- Dungeons & Raids/Pandaria Raid: Soft Hands
-A{"ThunderKingRaid", 8097}
+A{"ThunderKingRaid", 8097, 0.497, 0.416, floor=4}
 
 -- Dungeons & Raids/Pandaria Raid: You Said Crossing the Streams Was Bad
-A{"ThunderKingRaid", 8098}
+A{"ThunderKingRaid", 8098, 0.711, 0.344, floor=5}
 
 -- Dungeons & Raids: Glory of the Thundering Raider
 A{"ThunderKingRaid", 8124, criterion=22887} -- Heroic: Jin'rokh the Breaker
@@ -3876,7 +3922,7 @@ A{"TownlongWastes", 6350, 0.786, 0.780, criterion="Yakrat", note="zone exclusive
 -- Quests/Pandaria: One Steppe Forward, Two Steppes Back
 A{"TownlongWastes", 6539, criterion=19372} -- Fire Camp Osul
 A{"TownlongWastes", 6539, criterion=19373} -- On Hatred's Path
-A{"TownlongWastes", 6539, criterion=19374} -- The Sha of Hatred
+A{"TownlongWastes", 6539, 0.460, 0.826, criterion=19374} -- The Sha of Hatred
 A{"TownlongWastes", 6539, criterion=19375} -- Mistlurkers in the Sumprushes
 A{"TownlongWastes", 6539, criterion=19376} -- Tai Ho's Investigation
 
@@ -3889,6 +3935,9 @@ A{"TownlongWastes", 6847, 0.840, 0.720, criterion=19776} -- Trapped in a Strange
 
 -- Exploration/Pandaria: The Seven Burdens of Shaohao
 A{"TownlongWastes", 6855, 0.370, 0.620, criterion=19789} -- The Emperor's Burden - Part 5
+
+-- Dungeons & Raids: Tranquil Master
+A{"TownlongWastes", 6926, 0.460, 0.826, criterion=0} -- Sha of Hatred
 
 -- Exploration/Pandaria: Lost and Found
 A{"TownlongWastes", 7281, 0.660, 0.450, quest=31425} -- Yaungol Fire Carrier
@@ -4258,6 +4307,9 @@ A{"ValleyoftheFourWinds", 6350, 0.650, 0.436, criterion="Bandicoon"} -- Bandicoo
 A{"ValleyoftheFourWinds", 6350, 0.556, 0.326, criterion="Sifang Otter"} -- Sifang Otter
 A{"ValleyoftheFourWinds", 6350, 0.422, 0.460, criterion="Marsh Fiddler", note="zone exclusive"} -- Marsh Fiddler
 A{"ValleyoftheFourWinds", 6350, 0.228, 0.616, criterion="Malayan Quillrat"} -- Malayan Quillrat
+
+-- Dungeons & Raids/Pandaria Raid: Extinction Event
+A{"ValleyoftheFourWinds", 6517, 0.716, 0.644}
 
 -- Quests/Pandaria: Loremaster of Pandaria
 A{"ValleyoftheFourWinds", 6541, criterion=19378} -- Rally the Valley
