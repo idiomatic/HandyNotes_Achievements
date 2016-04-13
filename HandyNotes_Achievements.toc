@@ -44,5 +44,13 @@ Libs/AchievementLocations-1.0/AchievementLocations_seasonal_noble.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_pilgrim.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_winter.lua
 
+Locale/deDE.lua
 Locale/enUS.lua
+Locale/esES.lua
+Locale/frFR.lua
+Locale/koKR.lua
+Locale/ruRU.lua
+Locale/zhCN.lua
+Locale/zhTW.lua
+
 HandyNotes_Achievements.lua
