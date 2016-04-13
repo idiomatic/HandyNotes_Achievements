@@ -4,20 +4,29 @@ local ADDON_NAME = ...
 local HNA = LibStub("AceAddon-3.0"):NewAddon(ADDON_NAME, "AceEvent-3.0", "AceTimer-3.0")
 if not HNA then return end
 
+local AceLocale = LibStub:GetLibrary("AceLocale-3.0")
+assert(AceLocale, string.format("%s requires %s", ADDON_NAME, "AceLocale-3.0")) -- not localizable
+
+local L = AceLocale:GetLocale(ADDON_NAME)
+assert(L, string.format("%s requires %s", ADDON_NAME, GetLocale())) -- not localizable
+
+local AceDB = LibStub:GetLibrary("AceDB-3.0")
+assert(AceDB, string.format(L["%s requires %s"], ADDON_NAME, "AceDB-3.0"))
+
 local AchievementLocations = LibStub:GetLibrary("AchievementLocations-1.0")
-assert(AchievementLocations, string.format("%s requires AchievementLocations-1.0", ADDON_NAME))
+assert(AchievementLocations, string.format(L["%s requires %s"], ADDON_NAME, "AchievementLocations-1.0"))
 
 local InstanceLocations = LibStub:GetLibrary("InstanceLocations-1.0")
-assert(InstanceLocations, string.format("%s requires InstanceLocations-1.0", ADDON_NAME))
+assert(InstanceLocations, string.format(L["%s requires %s"], ADDON_NAME, "InstanceLocations-1.0"))
 
 local InSeason = LibStub:GetLibrary("InSeason-1.0")
-assert(InSeason, string.format("%s requires InSeason-1.0", ADDON_NAME))
+assert(InSeason, string.format(L["%s requires %s"], ADDON_NAME, "InSeason-1.0"))
 
 local HandyNotes = LibStub("AceAddon-3.0"):GetAddon("HandyNotes", true)
-assert(HandyNotes, string.format("%s requires HandyNotes", ADDON_NAME))
+assert(HandyNotes, string.format(L["%s requires %s"], ADDON_NAME, "HandyNotes"))
 
-local QTip = LibStub("LibQTip-1.0")
-assert(QTip, string.format("%s requires LibQTip-1.0", ADDON_NAME))
+local QTip = LibStub:GetLibrary("LibQTip-1.0")
+assert(QTip, string.format(L["%s requires %s"], ADDON_NAME, "LibQTip-1.0"))
 
 HNA.ICON_PATH = "Interface/AchievementFrame/UI-Achievement-TinyShield"
 HNA.NEAR = 0.03
@@ -166,7 +175,7 @@ function HNA:OnInitialize()
         }
     }
 
-    self.db = LibStub("AceDB-3.0"):New("HandyNotesAchievementsDB", defaults, true)
+    self.db = AceDB:New("HandyNotesAchievementsDB", defaults, true)
 end
 
 
@@ -201,48 +210,48 @@ function HNA:PLAYER_ENTERING_WORLD(event)
         args = {
             icon_scale = {
                 type = "range",
-                name = "Icon Scale",
-                desc = "The size of the icons.",
+                name = L["Icon Scale"],
+                desc = L["The size of the icons."],
                 min = 0.3, max = 5, step = 0.1,
                 arg = "icon_scale",
                 order = 1,
             },
             icon_alpha = {
                 type = "range",
-                name = "Icon Alpha",
-                desc = "The transparency of the icons.",
+                name = L["Icon Alpha"],
+                desc = L["The transparency of the icons."],
                 min = 0, max = 1, step = 0.01,
                 arg = "icon_alpha",
                 order = 2,
             },
             completed = {
                 type = "toggle",
-                name = "Show Completed",
-                desc = "Show map pins for achievements you have completed.",
+                name = L["Show Completed"],
+                desc = L["Show map pins for achievements you have completed."],
                 width = "full",
                 arg = "completed",
                 order = 3,
             },
             clean_continents = {
                 type = "toggle",
-                name = "Consolidate Zone Pins",
-                desc = "Show fewer map pins.",
+                name = L["Consolidate Zone Pins"],
+                desc = L["Show fewer map pins."],
                 width = "full",
                 arg = "clean_continents",
                 order = 4,
             },
             just_mine = {
                 type = "toggle",
-                name = "Just Mine",
-                desc = "Show more map pins by including achievements completed only by other characters.",
+                name = L["Just Mine"],
+                desc = L["Show more map pins by including achievements completed only by other characters."],
                 width = "full",
                 arg = "just_mine",
                 order = 5,
             },
             season_warning = {
                 type = "range",
-                name = "Season Warning",
-                desc = "Days in advance to show pins for seasonal holiday achievements.",
+                name = L["Season Warning"],
+                desc = L["Days in advance to show pins for seasonal holiday achievements."],
                 min = 0, max = 60, step = 1,
                 arg = "season_warning",
                 order = 6,

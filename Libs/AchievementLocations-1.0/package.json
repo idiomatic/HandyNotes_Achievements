@@ -1,6 +1,6 @@
 {
   "name": "AchievementLocations",
-  "version": "0.4.13",
+  "version": "0.4.14",
   "description": "Shows location of incomplete World of Warcraft achievements and criteria.",
   "main": "make.coffee",
   "scripts": {

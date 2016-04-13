@@ -1,7 +1,7 @@
 ## Interface: 60200
 ## Title: HandyNotes: Achievements
 ## Description: Shows location of incomplete achievements
-## Version: 0.4.13
+## Version: 0.4.14
 ## Author: rbrian
 ## Dependencies: HandyNotes
 ## SavedVariables: HandyNotesAchievementsDB
@@ -44,4 +44,5 @@ Libs/AchievementLocations-1.0/AchievementLocations_seasonal_noble.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_pilgrim.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_winter.lua
 
+Locale/enUS.lua
 HandyNotes_Achievements.lua
