@@ -7,6 +7,9 @@ local function A(row) AL:AddLocation(row) end
 A{"ArathiBasin", 1704, criterion=6345, season="Love is in the Air"} -- Arathi Basin Blacksmith
 A{"CoTStratholme", 1704, criterion=6346, season="Love is in the Air"} -- The Culling of Stratholme
 
+-- World Events/Love is in the Air: Lonely?
+A{"Dalaran", 1291, season="Love is in the Air"}
+
 -- World Events/Love is in the Air: Nation of Adoration
 A{"Darnassus", 1697, criterion=12838, side="alliance", season="Love is in the Air"} -- A Gift for the High Priestess of Elune
 A{"Ironforge", 1697, criterion=12840, side="alliance", season="Love is in the Air"} -- A Gift for the Lord of Ironforge

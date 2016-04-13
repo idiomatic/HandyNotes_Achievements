@@ -19,6 +19,9 @@ A{"Ashenvale", 965, 0.386, 0.423, criterion=17610, side="horde", season="Hallow'
 A{"Ashenvale", 965, 0.130, 0.341, criterion=17612, side="horde", season="Hallow's End"} -- Ashenvale, Zoram'gar Outpost
 A{"Aszhara", 965, 0.571, 0.501, criterion=17613, side="horde", season="Hallow's End"} -- Azshara, Bilgewater Harbor
 
+-- World Events/Hallow's End: Tricks and Treats of Azeroth
+A{"Azeroth", 971, criterion=2226, season="Hallow's End"} -- Tricks and Treats of Eastern Kingdoms
+
 -- World Events/Hallow's End: Tricks and Treats of Kalimdor
 A{"AzuremystIsle", 963, 0.484, 0.490, criterion=2073, side="alliance", season="Hallow's End"} -- Azuremyst Isle, Azure Watch
 
@@ -143,9 +146,15 @@ A{"EasternPlaguelands", 967, 0.755, 0.523, criterion=2143, side="horde", season=
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"Elwynn", 966, 0.437, 0.658, criterion=2134, side="alliance", season="Hallow's End"} -- Elwynn Forest, Goldshire
 
+-- World Events/Hallow's End: Rotten Hallow
+A{"Elwynn", 1040, criterion=3217, side="alliance", season="Hallow's End"} -- Clean Up In Stormwind
+
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"EversongWoods", 967, 0.482, 0.478, criterion=2150, side="horde", season="Hallow's End"} -- Eversong Woods, Falconwing Square
 A{"EversongWoods", 967, 0.437, 0.710, criterion=2149, side="horde", season="Hallow's End"} -- Eversong Woods, Fairbreeze Village
+
+-- World Events/Hallow's End: Tricks and Treats of Azeroth
+A{"Expansion01", 971, criterion=2227, season="Hallow's End"} -- Tricks and Treats of Outland
 
 -- World Events/Hallow's End: Tricks and Treats of Kalimdor
 A{"Felwood", 963, 0.445, 0.289, criterion=18397, side="alliance", season="Hallow's End"} -- Felwood - Whisperwind Grove
@@ -218,6 +227,9 @@ A{"Hyjal", 5838, criterion=17685, side="horde", season="Hallow's End"} -- Mount 
 
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"Ironforge", 966, 0.183, 0.509, criterion=2137, note="/chicken", side="alliance", season="Hallow's End"} -- Ironforge, The Commons
+
+-- World Events/Hallow's End: Tricks and Treats of Azeroth
+A{"Kalimdor", 971, criterion=2225, season="Hallow's End"} -- Tricks and Treats of Kalimdor
 
 -- World Events/Hallow's End: Tricks and Treats of Pandaria
 A{"Krasarang", 7601, criterion=21934, side="alliance", season="Hallow's End"} -- Krasarang Wilds, Marista
@@ -448,6 +460,9 @@ A{"Uldum", 5838, criterion=17691, side="horde", season="Hallow's End"} -- Uldum,
 
 -- World Events/Hallow's End: Tricks and Treats of Eastern Kingdoms
 A{"Undercity", 967, 0.677, 0.373, criterion=2160, side="horde", season="Hallow's End"} -- Undercity, The Trade Quarter
+
+-- World Events/Hallow's End: Rotten Hallow
+A{"Undercity", 1041, criterion=3219, side="horde", season="Hallow's End"} -- Clean Up in Undercity
 
 -- World Events/Hallow's End: Tricks and Treats of Kalimdor
 A{"UngoroCrater", 963, 0.552, 0.621, criterion=18417, side="alliance", season="Hallow's End"} -- Un'Goro Crater, Marshal's Stand

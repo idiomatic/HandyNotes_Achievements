@@ -135,7 +135,7 @@ A{"BladesEdgeMountains", 1262, criterion=3887} -- On the Blade's Edge
 A{"BladesEdgeMountains", 1276, 0.278, 0.527}
 
 -- Exploration/Outland: Medium Rare
-A{"BladesEdgeMountains", 1311, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, criterion=4504, note="[various]"} -- Ambassador Jerrikar
 A{"BladesEdgeMountains", 1311, criterion=4508} -- Collidus the Warp-Watcher
 A{"BladesEdgeMountains", 1311, criterion=4514} -- Hemathion
 A{"BladesEdgeMountains", 1311, criterion=4518} -- Morcrush
@@ -175,7 +175,7 @@ A{"BoreanTundra", 33, criterion=0, side="alliance"} -- Complete 130 quests in Bo
 A{"BoreanTundra", 41, criterion=82} -- Nothing Boring About Borean
 
 -- Quests/Northrend: D.E.H.T.A's Little P.I.T.A.
-A{"BoreanTundra", 561}
+A{"BoreanTundra", 561, 0.570, 0.442}
 
 -- General: To All The Squirrels I've Loved Before
 A{"BoreanTundra", 1206, 0.686, 0.404, criterion=3739, note="zone exclusive"} -- Steam Frog
@@ -2037,6 +2037,9 @@ A{"LakeWintergrasp", 9924, 0.500, 0.160, criterion=27958} -- Wintergrasp Fortres
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"LochModan", 1676, criterion=15196, side="alliance"} -- Loch Modan+Wetlands/Ghostlands
 
+-- Quests/Eastern Kingdoms: Loch Modan and Wetlands Quests
+A{"LochModan", 4899, side="alliance"}
+
 -- Professions/Fishing: The Limnologist
 A{"LochModan", 5478, 0.400, 0.390, criterion=15892, note="80% drop rate from Sagefish schools"} -- Sagefish
 A{"LochModan", 5478, 0.400, 0.390, criterion=15888, note="30% drop rate from open water"} -- Loch Frenzy
@@ -2169,10 +2172,10 @@ A{"MoltenFront", 5879, criterion=17877} -- Ready for Raiding II
 A{"Moonglade", 9924, 0.440, 0.470, criterion=27965} -- Moonglade
 
 -- Quests/Outland: Hills Like White Elekk
-A{"Nagrand", 939}
+A{"Nagrand", 939, 0.716, 0.408}
 
 -- Quests: Hemet Nesingwary: The Collected Quests
-A{"Nagrand", 941, criterion=2009} -- Hills Like White Elekk
+A{"Nagrand", 941, 0.716, 0.408, criterion=2009} -- Hills Like White Elekk
 
 -- Quests/Outland: Nagrand Slam
 A{"Nagrand", 1192, criterion=3586, side="alliance"} -- 75 Nagrand quests
@@ -2298,6 +2301,20 @@ A{"Orgrimmar", 150, criterion=5274} -- Orgrimmar
 
 -- General: To All The Squirrels I've Loved Before
 A{"Orgrimmar", 1206, 0.484, 0.482, criterion="Toad", note="also Wetlands"} -- Toad
+
+-- Professions/Cooking: Let's Do Lunch: Orgrimmar
+A{"Orgrimmar", 5475, criterion=15808, side="horde"} -- Crawfish Creole
+A{"Orgrimmar", 5475, criterion=15807, side="horde"} -- Careful, This Fruit Bites Back
+A{"Orgrimmar", 5475, criterion=15809, side="horde"} -- Even Thieves Get Hungry
+A{"Orgrimmar", 5475, criterion=15810, side="horde"} -- Everything is Better with Bacon
+A{"Orgrimmar", 5475, criterion=16244, side="horde"} -- Stealing From Our Own
+
+-- Professions/Fishing: Fish or Cut Bait: Orgrimmar
+A{"Orgrimmar", 5477, criterion=15818, side="horde"} -- No Dumping Allowed
+A{"Orgrimmar", 5477, criterion=15820, side="horde"} -- A Furious Catch
+A{"Orgrimmar", 5477, criterion=15817, side="horde"} -- Clammy Hands
+A{"Orgrimmar", 5477, criterion=15819, side="horde"} -- A Staggering Effort
+A{"Orgrimmar", 5477, criterion=15821, side="horde"} -- A Golden Opportunity
 
 -- Professions/Cooking: A Bunch of Lunch
 A{"Orgrimmar", 5845, criterion=17748, side="horde"} -- Let's Do Lunch: Orgrimmar
@@ -2799,14 +2816,10 @@ A{"SholazarBasin", 39, criterion=80} -- Complete 75 Sholazar Basin quests.
 A{"SholazarBasin", 41, criterion=88} -- Into the Basin
 
 -- Quests/Northrend: The Snows of Northrend
-A{"SholazarBasin", 938}
+A{"SholazarBasin", 938, 0.422, 0.288}
 
 -- Quests: Hemet Nesingwary: The Collected Quests
-A{"SholazarBasin", 941, criterion=2010} -- The Snows of Northrend
-
--- Reputation/Wrath of the Lich King: Mercenary of Sholazar
-A{"SholazarBasin", 952, criterion=2040} -- Frenzyheart Tribe
-A{"SholazarBasin", 952, criterion=2039} -- The Oracles
+A{"SholazarBasin", 941, 0.422, 0.288, criterion=2010} -- The Snows of Northrend
 
 -- Quests/Northrend: Honorary Frenzyheart
 A{"SholazarBasin", 961, criterion=2054} -- Chicken Party!
@@ -2991,6 +3004,20 @@ A{"Stormwind", 9924, 0.690, 0.310, criterion=27873} -- Deeprun Tram
 -- Professions/Fishing: The Fishing Diplomat
 A{"StormwindCity", 150, criterion=5275} -- Stormwind
 
+-- Professions/Cooking: Let's Do Lunch: Stormwind
+A{"StormwindCity", 5474, criterion=15802, side="alliance"} -- A Fisherman's Feast
+A{"StormwindCity", 5474, criterion=15805, side="alliance"} -- Penny's Pumpkin Pancakes
+A{"StormwindCity", 5474, criterion=15806, side="alliance"} -- The King's Cider
+A{"StormwindCity", 5474, criterion=15803, side="alliance"} -- Feeling Crabby?
+A{"StormwindCity", 5474, criterion=15804, side="alliance"} -- Orphans Like Cookies Too!
+
+-- Professions/Fishing: Fish or Cut Bait: Stormwind
+A{"StormwindCity", 5476, criterion=15815, side="alliance"} -- Big Gulp
+A{"StormwindCity", 5476, criterion=15814, side="alliance"} -- Rock Lobster
+A{"StormwindCity", 5476, criterion=15812, side="alliance"} -- Hitting a Walleye
+A{"StormwindCity", 5476, criterion=15813, side="alliance"} -- Diggin' for Worms
+A{"StormwindCity", 5476, criterion=15816, side="alliance"} -- Thunder Falls
+
 -- Professions/Fishing: The Limnologist
 A{"StormwindCity", 5478, criterion=15889, note="60% drop rate, open water"} -- Longjaw Mud Snapper
 
@@ -3001,10 +3028,10 @@ A{"StormwindCity", 9924, criterion=27864, side="alliance"} -- Stormwind
 A{"StranglethornJungle", 306}
 
 -- Quests/Eastern Kingdoms: The Green Hills of Stranglethorn
-A{"StranglethornJungle", 940}
+A{"StranglethornJungle", 940, 0.440, 0.232}
 
 -- Quests: Hemet Nesingwary: The Collected Quests
-A{"StranglethornJungle", 941, criterion=2008} -- The Green Hills of Stranglethorn
+A{"StranglethornJungle", 941, 0.440, 0.232, criterion=2008} -- The Green Hills of Stranglethorn
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"StranglethornJungle", 1676, criterion=15213} -- Northern Stranglethorn Quests
@@ -3911,6 +3938,9 @@ A{"Tirisfal", 10015, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nes
 -- Garrisons: Full Discography
 A{"Tirisfal", 10016, 0.176, 0.675, criterion=27761, note="from Faerie Dragon Nest during Fey-Drunk Darter event", side="horde"} -- Faerie Dragon
 
+-- Quests/Cataclysm: Breaking Out of Tol Barad
+A{"TolBarad", 4874}
+
 -- General: To All the Squirrels Who Cared for Me
 A{"TolBarad", 5548, 0.488, 0.404, criterion=16215, note="zone exclusive"} -- Baradin Fox Kit
 A{"TolBaradDailyArea", 5548, 0.688, 0.342, criterion=16223, note="zone exclusive"} -- Sassy Cat
@@ -4096,12 +4126,6 @@ A{"Ulduar", 3004, 0.800, 0.470, floor=2}
 
 -- Feats of Strength: He Feeds On Your Tears (25 player)
 A{"Ulduar", 3005, 0.800, 0.470, floor=2}
-
--- Feats of Strength: Realm First! Death's Demise
-A{"Ulduar", 3117, 0.690, 0.410, floor=4}
-
--- Feats of Strength: Realm First! Celestial Defender
-A{"Ulduar", 3259, 0.800, 0.470, floor=2}
 
 -- Feats of Strength: Herald of the Titans
 A{"Ulduar", 3316, 0.800, 0.470, floor=2}
@@ -4522,6 +4546,9 @@ A{"Wetlands", 1206, 0.486, 0.700, criterion="Ram"} -- Ram
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Wetlands", 1676, criterion=15196, side="alliance"} -- Loch Modan+Wetlands/Ghostlands
+
+-- Quests/Eastern Kingdoms: Loch Modan and Wetlands Quests
+A{"Wetlands", 4899, side="alliance"}
 
 -- Exploration: Field Photographer
 A{"Wetlands", 9924, 0.510, 0.090, criterion=27874} -- Thandol Span

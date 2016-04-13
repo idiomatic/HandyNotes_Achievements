@@ -72,6 +72,9 @@ A{"Aszhara", 852, 0.350, 0.740, criterion=1441} -- Lake Mennar
 A{"Aszhara", 852, 0.680, 0.690, criterion=1439} -- Southridge Beach
 A{"Aszhara", 852, 0.580, 0.900, criterion=1442} -- The Ruined Reaches
 
+-- Exploration: World Explorer
+A{"Azeroth", 46, criterion=94} -- Eastern Kingdoms
+
 -- Exploration: Explore Kalimdor
 A{"AzuremystIsle", 43, criterion=1600} -- Azuremyst Isle
 
@@ -288,18 +291,18 @@ A{"DeadwindPass", 777, 0.580, 0.670, criterion=1159} -- The Vice
 A{"DeadwindPass", 777, 0.450, 0.730, criterion=1160} -- Karazhan
 
 -- Exploration/Cataclysm: Explore Deepholm
-A{"Deepholm", 4864, criterion=15125} -- Stonehearth
-A{"Deepholm", 4864, criterion=15129} -- Therazane's Throne
-A{"Deepholm", 4864, criterion=15128} -- The Pale Roost
-A{"Deepholm", 4864, criterion=15132} -- Masters' Gate
-A{"Deepholm", 4864, criterion=15133} -- Crimson Expanse
-A{"Deepholm", 4864, criterion=15123} -- Needlerock Chasm
-A{"Deepholm", 4864, criterion=15124} -- Needlerock Slag
-A{"Deepholm", 4864, criterion=15126} -- Storm's Fury Wreckage
-A{"Deepholm", 4864, criterion=15127} -- Temple of Earth
-A{"Deepholm", 4864, criterion=15130} -- The Quaking Fields
-A{"Deepholm", 4864, criterion=13780} -- Deathwing's Fall
-A{"Deepholm", 4864, criterion=15131} -- Twilight Overlook
+A{"Deepholm", 4864, 0.260, 0.700, criterion=15125} -- Stonehearth
+A{"Deepholm", 4864, 0.560, 0.130, criterion=15129} -- Therazane's Throne
+A{"Deepholm", 4864, 0.410, 0.180, criterion=15128} -- The Pale Roost
+A{"Deepholm", 4864, 0.390, 0.690, criterion=15132} -- Masters' Gate
+A{"Deepholm", 4864, 0.720, 0.410, criterion=15133} -- Crimson Expanse
+A{"Deepholm", 4864, 0.260, 0.330, criterion=15123} -- Needlerock Chasm
+A{"Deepholm", 4864, 0.220, 0.480, criterion=15124} -- Needlerock Slag
+A{"Deepholm", 4864, 0.560, 0.760, criterion=15126} -- Storm's Fury Wreckage
+A{"Deepholm", 4864, 0.490, 0.490, criterion=15127} -- Temple of Earth
+A{"Deepholm", 4864, 0.350, 0.820, criterion=15130} -- The Quaking Fields
+A{"Deepholm", 4864, 0.620, 0.590, criterion=13780} -- Deathwing's Fall
+A{"Deepholm", 4864, 0.680, 0.780, criterion=15131} -- Twilight Overlook
 
 -- Exploration: Explore Cataclysm
 A{"Deepholm", 4868, criterion=13596} -- Deepholm
@@ -354,18 +357,18 @@ A{"Dragonblight", 1265, 0.590, 0.540, criterion=4172} -- Wyrmrest Temple
 A{"DreadWastes", 6974, criterion=20127} -- Dread Wastes
 
 -- Exploration/Pandaria: Explore Dread Wastes
-A{"DreadWastes", 6978, criterion=20963} -- Heart of Fear
-A{"DreadWastes", 6978, criterion=20964} -- Klaxxi'vess
-A{"DreadWastes", 6978, criterion=20965} -- Kypari Vor
-A{"DreadWastes", 6978, criterion=20966} -- Kypari Zar
-A{"DreadWastes", 6978, criterion=20967} -- Rikkitun Village
-A{"DreadWastes", 6978, criterion=20968} -- Soggy's Gamble
-A{"DreadWastes", 6978, criterion=20969} -- Terrace of Gurthan
-A{"DreadWastes", 6978, criterion=20970} -- The Briny Muck
-A{"DreadWastes", 6978, criterion=20971} -- The Clutches of Shek'zeer
-A{"DreadWastes", 6978, criterion=20972} -- The Sunset Brewgarden
-A{"DreadWastes", 6978, criterion=20973} -- Writhingwood
-A{"DreadWastes", 6978, criterion=20974} -- Zan'vess
+A{"DreadWastes", 6978, 0.400, 0.340, criterion=20963} -- Heart of Fear
+A{"DreadWastes", 6978, 0.550, 0.350, criterion=20964} -- Klaxxi'vess
+A{"DreadWastes", 6978, 0.570, 0.170, criterion=20965} -- Kypari Vor
+A{"DreadWastes", 6978, 0.590, 0.570, criterion=20966} -- Kypari Zar
+A{"DreadWastes", 6978, 0.350, 0.190, criterion=20967} -- Rikkitun Village
+A{"DreadWastes", 6978, 0.560, 0.700, criterion=20968} -- Soggy's Gamble
+A{"DreadWastes", 6978, 0.700, 0.250, criterion=20969} -- Terrace of Gurthan
+A{"DreadWastes", 6978, 0.390, 0.650, criterion=20970} -- The Briny Muck
+A{"DreadWastes", 6978, 0.470, 0.350, criterion=20971} -- The Clutches of Shek'zeer
+A{"DreadWastes", 6978, 0.500, 0.110, criterion=20972} -- The Sunset Brewgarden
+A{"DreadWastes", 6978, 0.660, 0.440, criterion=20973} -- Writhingwood
+A{"DreadWastes", 6978, 0.300, 0.750, criterion=20974} -- Zan'vess
 
 -- Exploration: Explore Eastern Kingdoms
 A{"DunMorogh", 42, criterion=1283} -- Dun Morogh
@@ -513,6 +516,9 @@ A{"EversongWoods", 859, 0.600, 0.620, criterion=1514} -- Farstrider Retreat
 A{"EversongWoods", 859, 0.330, 0.780, criterion=1524} -- Goldenbough Pass
 A{"EversongWoods", 859, 0.230, 0.750, criterion=1529} -- Golden Strand
 
+-- Exploration: World Explorer
+A{"Expansion01", 46, criterion=96} -- Outland
+
 -- Exploration: Explore Kalimdor
 A{"Felwood", 43, criterion=1499} -- Felwood
 
@@ -549,21 +555,21 @@ A{"Feralas", 849, 0.313, 0.446, criterion=1371} -- Ruins of Feathermoon
 A{"Feralas", 849, 0.463, 0.175, criterion=1372} -- The Twin Colossals
 
 -- Exploration/Draenor: Explore Frostfire Ridge
-A{"FrostfireRidge", 8937, criterion=26734} -- Bladespire Citadel
-A{"FrostfireRidge", 8937, criterion=26735} -- Bloodmaul Stronghold
-A{"FrostfireRidge", 8937, criterion=26736} -- Bones of Agurak
-A{"FrostfireRidge", 8937, criterion=26737} -- Colossal's Fall
-A{"FrostfireRidge", 8937, criterion=26738} -- Daggermaw Ravine
-A{"FrostfireRidge", 8937, criterion=26739} -- Frostwind Crag
-A{"FrostfireRidge", 8937, criterion=26740} -- Grimfrost Hill
-A{"FrostfireRidge", 8937, criterion=26741} -- Grom'gar
-A{"FrostfireRidge", 8937, criterion=26742} -- Iron Siegeworks
-A{"FrostfireRidge", 8937, criterion=26743} -- Iron Waystation
-A{"FrostfireRidge", 8937, criterion=26744} -- Magnarok
-A{"FrostfireRidge", 8937, criterion=26745} -- Stonefang Outpost
-A{"FrostfireRidge", 8937, criterion=26746} -- The Boneslag
-A{"FrostfireRidge", 8937, criterion=26747} -- The Cracking Plains
-A{"FrostfireRidge", 8937, criterion=26748} -- Wor'gol
+A{"FrostfireRidge", 8937, 0.300, 0.410, criterion=26734} -- Bladespire Citadel
+A{"FrostfireRidge", 8937, 0.417, 0.198, criterion=26735} -- Bloodmaul Stronghold
+A{"FrostfireRidge", 8937, 0.825, 0.604, criterion=26736} -- Bones of Agurak
+A{"FrostfireRidge", 8937, 0.583, 0.314, criterion=26737} -- Colossal's Fall
+A{"FrostfireRidge", 8937, 0.446, 0.312, criterion=26738} -- Daggermaw Ravine
+A{"FrostfireRidge", 8937, 0.312, 0.235, criterion=26739} -- Frostwind Crag
+A{"FrostfireRidge", 8937, 0.654, 0.473, criterion=26740} -- Grimfrost Hill
+A{"FrostfireRidge", 8937, 0.599, 0.585, criterion=26741} -- Grom'gar
+A{"FrostfireRidge", 8937, 0.820, 0.574, criterion=26742} -- Iron Siegeworks
+A{"FrostfireRidge", 8937, 0.747, 0.612, criterion=26743} -- Iron Waystation
+A{"FrostfireRidge", 8937, 0.680, 0.320, criterion=26744} -- Magnarok
+A{"FrostfireRidge", 8937, 0.464, 0.522, criterion=26745} -- Stonefang Outpost
+A{"FrostfireRidge", 8937, 0.487, 0.468, criterion=26746} -- The Boneslag
+A{"FrostfireRidge", 8937, 0.522, 0.455, criterion=26747} -- The Cracking Plains
+A{"FrostfireRidge", 8937, 0.234, 0.541, criterion=26748} -- Wor'gol
 
 -- Exploration: Explore Eastern Kingdoms
 A{"Ghostlands", 42, criterion=1551} -- Ghostlands
@@ -587,20 +593,20 @@ A{"Ghostlands", 858, 0.760, 0.640, criterion=1543} -- Amani Pass
 A{"Ghostlands", 858, 0.130, 0.550, criterion=1544} -- Windrunner Spire
 
 -- Exploration/Draenor: Explore Gorgrond
-A{"Gorgrond", 8939, criterion=26691} -- Bastion Rise
-A{"Gorgrond", 8939, criterion=26692} -- Beastwatch
-A{"Gorgrond", 8939, criterion=26693} -- Grimrail Depot
-A{"Gorgrond", 8939, criterion=26695} -- Crimson Fen
-A{"Gorgrond", 8939, criterion=26696} -- Deadgrin
-A{"Gorgrond", 8939, criterion=26697} -- Everbloom Wilds
-A{"Gorgrond", 8939, criterion=26703} -- Evermorn Springs
-A{"Gorgrond", 8939, criterion=26707} -- Gronn Canyon
-A{"Gorgrond", 8939, criterion=26711} -- Highpass
-A{"Gorgrond", 8939, criterion=26713} -- Iyun Weald
-A{"Gorgrond", 8939, criterion=26714} -- Stonemaul Arena
-A{"Gorgrond", 8939, criterion=26715} -- Tangleheart
-A{"Gorgrond", 8939, criterion=26716} -- The Iron Approach
-A{"Gorgrond", 8939, criterion=0} -- The Pit
+A{"Gorgrond", 8939, 0.505, 0.778, criterion=26691} -- Bastion Rise
+A{"Gorgrond", 8939, 0.454, 0.708, criterion=26692} -- Beastwatch
+A{"Gorgrond", 8939, 0.556, 0.335, criterion=26693} -- Grimrail Depot
+A{"Gorgrond", 8939, 0.549, 0.635, criterion=26695} -- Crimson Fen
+A{"Gorgrond", 8939, 0.414, 0.740, criterion=26696} -- Deadgrin
+A{"Gorgrond", 8939, 0.545, 0.447, criterion=26697} -- Everbloom Wilds
+A{"Gorgrond", 8939, 0.448, 0.768, criterion=26703} -- Evermorn Springs
+A{"Gorgrond", 8939, 0.482, 0.427, criterion=26707} -- Gronn Canyon
+A{"Gorgrond", 8939, 0.523, 0.597, criterion=26711} -- Highpass
+A{"Gorgrond", 8939, 0.613, 0.512, criterion=26713} -- Iyun Weald
+A{"Gorgrond", 8939, 0.431, 0.665, criterion=26714} -- Stonemaul Arena
+A{"Gorgrond", 8939, 0.578, 0.655, criterion=26715} -- Tangleheart
+A{"Gorgrond", 8939, 0.434, 0.207, criterion=26716} -- The Iron Approach
+A{"Gorgrond", 8939, 0.474, 0.383, criterion=0} -- The Pit
 
 -- Exploration: Explore Northrend
 A{"GrizzlyHills", 45, criterion=3907} -- Grizzly Hills
@@ -724,17 +730,17 @@ A{"HowlingFjord", 1263, 0.600, 0.150, criterion=4148} -- Fort Wildervar
 A{"HowlingFjord", 1263, 0.570, 0.360, criterion=4137} -- Cauldros Isle
 
 -- Exploration/Cataclysm: Explore Hyjal
-A{"Hyjal", 4863, criterion=16089} -- The Circle of Cinders
-A{"Hyjal", 4863, criterion=13796} -- Ashen Lake
-A{"Hyjal", 4863, criterion=13805} -- The Throne of Flame
-A{"Hyjal", 4863, criterion=13795} -- Rim of the World
-A{"Hyjal", 4863, criterion=13797} -- Darkwhisper Gorge
-A{"Hyjal", 4863, criterion=13799} -- Gates of Sothann
-A{"Hyjal", 4863, criterion=13800} -- Nordrassil
-A{"Hyjal", 4863, criterion=13801} -- Sethria's Roost
-A{"Hyjal", 4863, criterion=13802} -- Shrine of Goldrinn
-A{"Hyjal", 4863, criterion=13804} -- The Scorched Plain
-A{"Hyjal", 4863, criterion=13803} -- The Flamewake
+A{"Hyjal", 4863, 0.438, 0.278, criterion=16089} -- The Circle of Cinders
+A{"Hyjal", 4863, 0.195, 0.501, criterion=13796} -- Ashen Lake
+A{"Hyjal", 4863, 0.508, 0.735, criterion=13805} -- The Throne of Flame
+A{"Hyjal", 4863, 0.224, 0.380, criterion=13795} -- Rim of the World
+A{"Hyjal", 4863, 0.761, 0.634, criterion=13797} -- Darkwhisper Gorge
+A{"Hyjal", 4863, 0.720, 0.744, criterion=13799} -- Gates of Sothann
+A{"Hyjal", 4863, 0.629, 0.240, criterion=13800} -- Nordrassil
+A{"Hyjal", 4863, 0.329, 0.706, criterion=13801} -- Sethria's Roost
+A{"Hyjal", 4863, 0.291, 0.329, criterion=13802} -- Shrine of Goldrinn
+A{"Hyjal", 4863, 0.508, 0.735, criterion=13804} -- The Scorched Plain
+A{"Hyjal", 4863, 0.392, 0.584, criterion=13803} -- The Flamewake
 
 -- Exploration: Explore Cataclysm
 A{"Hyjal", 4868, criterion=13595} -- Hyjal
@@ -759,45 +765,48 @@ A{"IcecrownGlacier", 1270, 0.530, 0.890, criterion=5860} -- Icecrown Citadel
 A{"IcecrownGlacier", 1270, 0.520, 0.470, criterion=5864} -- Aldur'thar: The Desolation Gate
 A{"IcecrownGlacier", 1270, 0.110, 0.500, criterion=5861} -- Onslaught Harbor
 
+-- Exploration: World Explorer
+A{"Kalimdor", 46, criterion=95} -- Kalimdor
+
 -- Exploration: Explore Pandaria
 A{"Krasarang", 6974, criterion=20123} -- Krasarang Wilds
 
 -- Exploration/Pandaria: Explore Krasarang Wilds
-A{"Krasarang", 6975, criterion=20130} -- Anglers Wharf
-A{"Krasarang", 6975, criterion=20131} -- Cradle of Chi-Ji
-A{"Krasarang", 6975, criterion=20132} -- Dojani River
-A{"Krasarang", 6975, criterion=20133} -- Fallsong Village
-A{"Krasarang", 6975, criterion=20134} -- Krasarang Cove
-A{"Krasarang", 6975, criterion=20135} -- The Krasari Ruins
-A{"Krasarang", 6975, criterion=20136} -- Nayeli Lagoon
-A{"Krasarang", 6975, criterion=20137} -- Crane Wing Refuge
-A{"Krasarang", 6975, criterion=20138} -- Ruins of Dojan
-A{"Krasarang", 6975, criterion=20139} -- Ruins of Korja
-A{"Krasarang", 6975, criterion=20140} -- Temple of the Red Crane
-A{"Krasarang", 6975, criterion=20141} -- The Deepwild
-A{"Krasarang", 6975, criterion=20142} -- The Forbidden Jungle
-A{"Krasarang", 6975, criterion=20143} -- The Southern Isles
-A{"Krasarang", 6975, criterion=20144} -- Unga Ingoo
-A{"Krasarang", 6975, criterion=20145} -- Zhu's Watch
+A{"Krasarang", 6975, 0.670, 0.440, criterion=20130} -- Anglers Wharf
+A{"Krasarang", 6975, 0.330, 0.700, criterion=20131} -- Cradle of Chi-Ji
+A{"Krasarang", 6975, 0.640, 0.310, criterion=20132} -- Dojani River
+A{"Krasarang", 6975, 0.290, 0.380, criterion=20133} -- Fallsong Village
+A{"Krasarang", 6975, 0.820, 0.260, criterion=20134} -- Krasarang Cove
+A{"Krasarang", 6975, 0.700, 0.220, criterion=20135} -- The Krasari Ruins
+A{"Krasarang", 6975, 0.410, 0.750, criterion=20136} -- Nayeli Lagoon
+A{"Krasarang", 6975, 0.400, 0.330, criterion=20137} -- Crane Wing Refuge
+A{"Krasarang", 6975, 0.550, 0.340, criterion=20138} -- Ruins of Dojan
+A{"Krasarang", 6975, 0.240, 0.450, criterion=20139} -- Ruins of Korja
+A{"Krasarang", 6975, 0.400, 0.550, criterion=20140} -- Temple of the Red Crane
+A{"Krasarang", 6975, 0.460, 0.380, criterion=20141} -- The Deepwild
+A{"Krasarang", 6975, 0.210, 0.350, criterion=20142} -- The Forbidden Jungle
+A{"Krasarang", 6975, 0.160, 0.560, criterion=20143} -- The Southern Isles
+A{"Krasarang", 6975, 0.470, 0.900, criterion=20144} -- Unga Ingoo
+A{"Krasarang", 6975, 0.770, 0.100, criterion=20145} -- Zhu's Watch
 
 -- Exploration: Explore Pandaria
 A{"KunLaiSummit", 6974, criterion=20125} -- Kun-Lai Summit
 
 -- Exploration/Pandaria: Explore Kun-Lai Summit
-A{"KunLaiSummit", 6976, criterion=20146} -- Binan Village
-A{"KunLaiSummit", 6976, criterion=20147} -- Firebough Nook
-A{"KunLaiSummit", 6976, criterion=20148} -- Gate of the August Celestials
-A{"KunLaiSummit", 6976, criterion=20149} -- Isle of Reckoning
-A{"KunLaiSummit", 6976, criterion=20150} -- Kota Peak
-A{"KunLaiSummit", 6976, criterion=20151} -- Mogujia
-A{"KunLaiSummit", 6976, criterion=20152} -- Mount Neverest
-A{"KunLaiSummit", 6976, criterion=20153} -- Muskpaw Ranch
-A{"KunLaiSummit", 6976, criterion=20154} -- Peak of Serenity
-A{"KunLaiSummit", 6976, criterion=20155} -- Shado-Pan Monastery
-A{"KunLaiSummit", 6976, criterion=20156} -- Temple of the White Tiger
-A{"KunLaiSummit", 6976, criterion=20157} -- The Burlap Trail
-A{"KunLaiSummit", 6976, criterion=20158} -- Valley of Emperors
-A{"KunLaiSummit", 6976, criterion=20159} -- Zouchin Village
+A{"KunLaiSummit", 6976, 0.720, 0.910, criterion=20146} -- Binan Village
+A{"KunLaiSummit", 6976, 0.440, 0.860, criterion=20147} -- Firebough Nook
+A{"KunLaiSummit", 6976, 0.550, 0.910, criterion=20148} -- Gate of the August Celestials
+A{"KunLaiSummit", 6976, 0.750, 0.130, criterion=20149} -- Isle of Reckoning
+A{"KunLaiSummit", 6976, 0.350, 0.650, criterion=20150} -- Kota Peak
+A{"KunLaiSummit", 6976, 0.590, 0.720, criterion=20151} -- Mogujia
+A{"KunLaiSummit", 6976, 0.450, 0.510, criterion=20152} -- Mount Neverest
+A{"KunLaiSummit", 6976, 0.680, 0.730, criterion=20153} -- Muskpaw Ranch
+A{"KunLaiSummit", 6976, 0.490, 0.400, criterion=20154} -- Peak of Serenity
+A{"KunLaiSummit", 6976, 0.340, 0.470, criterion=20155} -- Shado-Pan Monastery
+A{"KunLaiSummit", 6976, 0.680, 0.480, criterion=20156} -- Temple of the White Tiger
+A{"KunLaiSummit", 6976, 0.470, 0.670, criterion=20157} -- The Burlap Trail
+A{"KunLaiSummit", 6976, 0.570, 0.470, criterion=20158} -- Valley of Emperors
+A{"KunLaiSummit", 6976, 0.620, 0.290, criterion=20159} -- Zouchin Village
 
 -- Exploration: Explore Eastern Kingdoms
 A{"LochModan", 42, criterion=1288} -- Loch Modan
@@ -870,21 +879,21 @@ A{"Nagrand", 866, 0.490, 0.550, criterion=1723} -- Southwind Cleft
 A{"Nagrand", 866, 0.090, 0.430, criterion=1724} -- The Twilight Ridge
 
 -- Exploration/Draenor: Explore Nagrand
-A{"Nagrand", 8942, criterion=26719} -- Ancestral Grounds
-A{"Nagrand", 8942, criterion=26720} -- Broken Precipice
-A{"Nagrand", 8942, criterion=26721} -- Gates of Grommashar
-A{"Nagrand", 8942, criterion=26722} -- Hallvalor
-A{"Nagrand", 8942, criterion=26723} -- Highmaul Harbor
-A{"Nagrand", 8942, criterion=26724} -- Ironfist Harbor
-A{"Nagrand", 8942, criterion=26725} -- Lok-rath
-A{"Nagrand", 8942, criterion=26726} -- Mar'gok's Overwatch
-A{"Nagrand", 8942, criterion=26727} -- Mok'gol Watchpost
-A{"Nagrand", 8942, criterion=26728} -- Oshu'gun
-A{"Nagrand", 8942, criterion=26729} -- Telaar
-A{"Nagrand", 8942, criterion=26730} -- The Ring of Blood
-A{"Nagrand", 8942, criterion=26731} -- The Ring of Trials
-A{"Nagrand", 8942, criterion=26732} -- Throne of the Elements
-A{"Nagrand", 8942, criterion=26733} -- Zangar Shore
+A{"NagrandDraenor", 8942, 0.380, 0.501, criterion=26719} -- Ancestral Grounds
+A{"NagrandDraenor", 8942, 0.422, 0.273, criterion=26720} -- Broken Precipice
+A{"NagrandDraenor", 8942, 0.762, 0.684, criterion=26721} -- Gates of Grommashar
+A{"NagrandDraenor", 8942, 0.847, 0.604, criterion=26722} -- Hallvalor
+A{"NagrandDraenor", 8942, 0.258, 0.196, criterion=26723} -- Highmaul Harbor
+A{"NagrandDraenor", 8942, 0.416, 0.694, criterion=26724} -- Ironfist Harbor
+A{"NagrandDraenor", 8942, 0.519, 0.477, criterion=26725} -- Lok-rath
+A{"NagrandDraenor", 8942, 0.804, 0.673, criterion=26726} -- Mar'gok's Overwatch
+A{"NagrandDraenor", 8942, 0.427, 0.414, criterion=26727} -- Mok'gol Watchpost
+A{"NagrandDraenor", 8942, 0.470, 0.608, criterion=26728} -- Oshu'gun
+A{"NagrandDraenor", 8942, 0.692, 0.642, criterion=26729} -- Telaar
+A{"NagrandDraenor", 8942, 0.559, 0.152, criterion=26730} -- The Ring of Blood
+A{"NagrandDraenor", 8942, 0.807, 0.523, criterion=26731} -- The Ring of Trials
+A{"NagrandDraenor", 8942, 0.730, 0.206, criterion=26732} -- Throne of the Elements
+A{"NagrandDraenor", 8942, 0.854, 0.265, criterion=26733} -- Zangar Shore
 
 -- Exploration: Explore Outland
 A{"Netherstorm", 44, criterion=1787} -- Netherstorm
@@ -912,6 +921,10 @@ A{"Netherstorm", 843, 0.320, 0.560, criterion=1772} -- Ruins of Enkaat
 A{"Netherstorm", 843, 0.550, 0.420, criterion=1778} -- Ethereum Staging Grounds
 A{"Netherstorm", 843, 0.720, 0.400, criterion=1768} -- Celestial Ridge
 A{"Netherstorm", 843, 0.490, 0.180, criterion=1771} -- Netherstone
+
+-- Exploration: World Explorer
+A{"Northrend", 46, criterion=97} -- Northrend
+A{"Pandaria", 46, criterion=20129} -- Pandaria
 
 -- Exploration: Explore Eastern Kingdoms
 A{"Redridge", 42, criterion=1289} -- Redridge Mountains
@@ -963,17 +976,17 @@ A{"ShadowmoonValley", 864, 0.601, 0.487, criterion=1672} -- Warden's Cage
 A{"ShadowmoonValley", 864, 0.358, 0.580, criterion=1673} -- Wildhammer Stronghold
 
 -- Exploration/Draenor: Explore Shadowmoon Valley
-A{"ShadowmoonValleyDR", 8938, criterion=26698} -- Anguish Fortress
-A{"ShadowmoonValleyDR", 8938, criterion=26699} -- Darktide Roost
-A{"ShadowmoonValleyDR", 8938, criterion=26700} -- Elodor
-A{"ShadowmoonValleyDR", 8938, criterion=26701} -- Embaari Village
-A{"ShadowmoonValleyDR", 8938, criterion=26704} -- Gloomshade Grove
-A{"ShadowmoonValleyDR", 8938, criterion=26705} -- Gul'var
-A{"ShadowmoonValleyDR", 8938, criterion=26706} -- Karabor
-A{"ShadowmoonValleyDR", 8938, criterion=26708} -- Shaz'gul
-A{"ShadowmoonValleyDR", 8938, criterion=26709} -- The Shimmer Moor
-A{"ShadowmoonValleyDR", 8938, criterion=26710} -- Socrethar's Rise
-A{"ShadowmoonValleyDR", 8938, criterion=26712} -- Isle of Shadows
+A{"ShadowmoonValleyDR", 8938, 0.388, 0.427, criterion=26698} -- Anguish Fortress
+A{"ShadowmoonValleyDR", 8938, 0.584, 0.790, criterion=26699} -- Darktide Roost
+A{"ShadowmoonValleyDR", 8938, 0.585, 0.282, criterion=26700} -- Elodor
+A{"ShadowmoonValleyDR", 8938, 0.472, 0.414, criterion=26701} -- Embaari Village
+A{"ShadowmoonValleyDR", 8938, 0.368, 0.278, criterion=26704} -- Gloomshade Grove
+A{"ShadowmoonValleyDR", 8938, 0.227, 0.295, criterion=26705} -- Gul'var
+A{"ShadowmoonValleyDR", 8938, 0.714, 0.468, criterion=26706} -- Karabor
+A{"ShadowmoonValleyDR", 8938, 0.414, 0.580, criterion=26708} -- Shaz'gul
+A{"ShadowmoonValleyDR", 8938, 0.580, 0.599, criterion=26709} -- The Shimmer Moor
+A{"ShadowmoonValleyDR", 8938, 0.468, 0.699, criterion=26710} -- Socrethar's Rise
+A{"ShadowmoonValleyDR", 8938, 0.411, 0.802, criterion=26712} -- Isle of Shadows
 
 -- Exploration: Explore Northrend
 A{"SholazarBasin", 45, criterion=3909} -- Sholazar Basin
@@ -1035,36 +1048,36 @@ A{"SouthernBarrens", 43, criterion=16066} -- Southern Barrens
 A{"SouthernBarrens", 4827, 0.460, 0.680, criterion=14068} -- The Battlescar in Southern Barrens
 
 -- Exploration/Kalimdor: Explore Southern Barrens
-A{"SouthernBarrens", 4996, criterion=14067} -- Bael Modan
-A{"SouthernBarrens", 4996, criterion=14068} -- Battlescar
-A{"SouthernBarrens", 4996, criterion=14072} -- Hunter's Hill
-A{"SouthernBarrens", 4996, criterion=14075} -- Ruins of Taurajo
-A{"SouthernBarrens", 4996, criterion=14077} -- Vendetta Point
-A{"SouthernBarrens", 4996, criterion=14074} -- Razorfen Kraul
-A{"SouthernBarrens", 4996, criterion=14071} -- Honor's Stand
-A{"SouthernBarrens", 4996, criterion=14070} -- Frazzlecraz Motherlode
-A{"SouthernBarrens", 4996, criterion=14069} -- Forward Command
-A{"SouthernBarrens", 4996, criterion=14073} -- Northwatch Hold
-A{"SouthernBarrens", 4996, criterion=14076} -- The Overgrowth
+A{"SouthernBarrens", 4996, 0.493, 0.854, criterion=14067} -- Bael Modan
+A{"SouthernBarrens", 4996, 0.455, 0.699, criterion=14068} -- Battlescar
+A{"SouthernBarrens", 4996, 0.394, 0.201, criterion=14072} -- Hunter's Hill
+A{"SouthernBarrens", 4996, 0.447, 0.517, criterion=14075} -- Ruins of Taurajo
+A{"SouthernBarrens", 4996, 0.415, 0.468, criterion=14077} -- Vendetta Point
+A{"SouthernBarrens", 4996, 0.413, 0.946, criterion=14074} -- Razorfen Kraul
+A{"SouthernBarrens", 4996, 0.384, 0.133, criterion=14071} -- Honor's Stand
+A{"SouthernBarrens", 4996, 0.424, 0.774, criterion=14070} -- Frazzlecraz Motherlode
+A{"SouthernBarrens", 4996, 0.494, 0.493, criterion=14069} -- Forward Command
+A{"SouthernBarrens", 4996, 0.664, 0.470, criterion=14073} -- Northwatch Hold
+A{"SouthernBarrens", 4996, 0.454, 0.359, criterion=14076} -- The Overgrowth
 
 -- Exploration/Draenor: Explore Spires of Arak
-A{"SpiresOfArak", 8941, criterion=26754} -- Skettis
-A{"SpiresOfArak", 8941, criterion=26755} -- The Howling Crag
-A{"SpiresOfArak", 8941, criterion=26756} -- The Writhing Mire
-A{"SpiresOfArak", 8941, criterion=26757} -- Pinchwhistle Point
-A{"SpiresOfArak", 8941, criterion=26758} -- Veil Zekk
-A{"SpiresOfArak", 8941, criterion=26759} -- Veil Akraz
-A{"SpiresOfArak", 8941, criterion=26760} -- Southport
-A{"SpiresOfArak", 8941, criterion=26762} -- Windswept Terrace
-A{"SpiresOfArak", 8941, criterion=26763} -- Terrace of Dawn
-A{"SpiresOfArak", 8941, criterion=26764} -- Sethekk Hollow
-A{"SpiresOfArak", 8941, criterion=26765} -- Bladefist Hold
-A{"SpiresOfArak", 8941, criterion=26766} -- Admiral Taylor's Garrison
-A{"SpiresOfArak", 8941, criterion=26767} -- Lost Veil Anzu
-A{"SpiresOfArak", 8941, criterion=26769} -- Pinchwhistle Gearworks
-A{"SpiresOfArak", 8941, criterion=26770} -- Ravenskar
-A{"SpiresOfArak", 8941, criterion=26771} -- Bloodmane Valley
-A{"SpiresOfArak", 8941, criterion=26772} -- Axefall
+A{"SpiresOfArak", 8941, 0.509, 0.126, criterion=26754} -- Skettis
+A{"SpiresOfArak", 8941, 0.616, 0.246, criterion=26755} -- The Howling Crag
+A{"SpiresOfArak", 8941, 0.365, 0.444, criterion=26756} -- The Writhing Mire
+A{"SpiresOfArak", 8941, 0.565, 0.864, criterion=26757} -- Pinchwhistle Point
+A{"SpiresOfArak", 8941, 0.579, 0.552, criterion=26758} -- Veil Zekk
+A{"SpiresOfArak", 8941, 0.448, 0.241, criterion=26759} -- Veil Akraz
+A{"SpiresOfArak", 8941, 0.416, 0.588, criterion=26760} -- Southport
+A{"SpiresOfArak", 8941, 0.474, 0.526, criterion=26762} -- Windswept Terrace
+A{"SpiresOfArak", 8941, 0.505, 0.469, criterion=26763} -- Terrace of Dawn
+A{"SpiresOfArak", 8941, 0.608, 0.451, criterion=26764} -- Sethekk Hollow
+A{"SpiresOfArak", 8941, 0.309, 0.291, criterion=26765} -- Bladefist Hold
+A{"SpiresOfArak", 8941, 0.399, 0.496, criterion=26766} -- Admiral Taylor's Garrison
+A{"SpiresOfArak", 8941, 0.722, 0.403, criterion=26767} -- Lost Veil Anzu
+A{"SpiresOfArak", 8941, 0.610, 0.703, criterion=26769} -- Pinchwhistle Gearworks
+A{"SpiresOfArak", 8941, 0.538, 0.513, criterion=26770} -- Ravenskar
+A{"SpiresOfArak", 8941, 0.490, 0.556, criterion=26771} -- Bloodmane Valley
+A{"SpiresOfArak", 8941, 0.413, 0.459, criterion=26772} -- Axefall
 
 -- Exploration: Explore Kalimdor
 A{"StonetalonMountains", 43, criterion=1493} -- Stonetalon Mountains
@@ -1133,21 +1146,21 @@ A{"SwampOfSorrows", 782, 0.680, 0.360, criterion=14164} -- Marshtide Watch
 A{"SwampOfSorrows", 782, 0.180, 0.660, criterion=14163} -- Purespring Cavern
 
 -- Exploration/Draenor: Explore Talador
-A{"Talador", 8940, criterion=26192} -- Aruuna
-A{"Talador", 8940, criterion=26193} -- Auchindoun
-A{"Talador", 8940, criterion=26194} -- Duskfall Island
-A{"Talador", 8940, criterion=26195} -- Court of Souls
-A{"Talador", 8940, criterion=26196} -- Fort Wrynn
-A{"Talador", 8940, criterion=26197} -- Gordal Fortress
-A{"Talador", 8940, criterion=26198} -- Gul'rok
-A{"Talador", 8940, criterion=26199} -- The Path of Glory
-A{"Talador", 8940, criterion=26200} -- Orunai Coast
-A{"Talador", 8940, criterion=26201} -- Anchorite's Sojourn
-A{"Talador", 8940, criterion=26202} -- Shattrath City
-A{"Talador", 8940, criterion=26203} -- Telmor
-A{"Talador", 8940, criterion=26204} -- Tomb of Lights
-A{"Talador", 8940, criterion=26205} -- Tuurem
-A{"Talador", 8940, criterion=26206} -- Zangarra
+A{"Talador", 8940, 0.754, 0.432, criterion=26192} -- Aruuna
+A{"Talador", 8940, 0.497, 0.606, criterion=26193} -- Auchindoun
+A{"Talador", 8940, 0.621, 0.502, criterion=26194} -- Duskfall Island
+A{"Talador", 8940, 0.422, 0.581, criterion=26195} -- Court of Souls
+A{"Talador", 8940, 0.687, 0.223, criterion=26196} -- Fort Wrynn
+A{"Talador", 8940, 0.679, 0.686, criterion=26197} -- Gordal Fortress
+A{"Talador", 8940, 0.357, 0.701, criterion=26198} -- Gul'rok
+A{"Talador", 8940, 0.665, 0.103, criterion=26199} -- The Path of Glory
+A{"Talador", 8940, 0.514, 0.262, criterion=26200} -- Orunai Coast
+A{"Talador", 8940, 0.777, 0.555, criterion=26201} -- Anchorite's Sojourn
+A{"Talador", 8940, 0.497, 0.351, criterion=26202} -- Shattrath City
+A{"Talador", 8940, 0.465, 0.890, criterion=26203} -- Telmor
+A{"Talador", 8940, 0.586, 0.651, criterion=26204} -- Tomb of Lights
+A{"Talador", 8940, 0.586, 0.395, criterion=26205} -- Tuurem
+A{"Talador", 8940, 0.786, 0.279, criterion=26206} -- Zangarra
 
 -- Exploration/Draenor: Explore Tanaan Jungle
 A{"TanaanJungle", 10260, 0.730, 0.690, criterion=28661} -- Zeth'Kur
@@ -1251,23 +1264,23 @@ A{"TheCapeOfStranglethorn", 4995, 0.410, 0.500, criterion=14056} -- Nek'mani Wel
 A{"TheCapeOfStranglethorn", 4995, 0.620, 0.430, criterion=14057} -- Ruins of Aboraz
 
 -- Exploration/Pandaria: Explore Jade Forest
-A{"TheJadeForest", 6351, criterion=20087} -- Dawn's Blossom
-A{"TheJadeForest", 6351, criterion=20088} -- Tian Monastery
-A{"TheJadeForest", 6351, criterion=20089} -- Dreamer's Pavillion
-A{"TheJadeForest", 6351, criterion=20090} -- Emperor's Omen
-A{"TheJadeForest", 6351, criterion=20091} -- Pearl Lake
-A{"TheJadeForest", 6351, criterion=20092} -- Grookin Hill
-A{"TheJadeForest", 6351, criterion=20094} -- Greenstone Quarry
-A{"TheJadeForest", 6351, criterion=20095} -- Nectarbreeze Orchard
-A{"TheJadeForest", 6351, criterion=20096} -- Camp Nooka Nooka
-A{"TheJadeForest", 6351, criterion=20097} -- Terrace of Ten Thunders
-A{"TheJadeForest", 6351, criterion=20098} -- Serpent's Heart
-A{"TheJadeForest", 6351, criterion=20099} -- Slingtail Pits
-A{"TheJadeForest", 6351, criterion=20100} -- Temple of the Jade Serpent
-A{"TheJadeForest", 6351, criterion=20101} -- The Arboretum
-A{"TheJadeForest", 6351, criterion=20102} -- Garrosh'ar Point
-A{"TheJadeForest", 6351, criterion=20103} -- Windward Isle
-A{"TheJadeForest", 6351, criterion=22165} -- Honeydew Village
+A{"TheJadeForest", 6351, 0.480, 0.450, criterion=20087} -- Dawn's Blossom
+A{"TheJadeForest", 6351, 0.410, 0.210, criterion=20088} -- Tian Monastery
+A{"TheJadeForest", 6351, 0.520, 0.910, criterion=20089} -- Dreamer's Pavillion
+A{"TheJadeForest", 6351, 0.500, 0.260, criterion=20090} -- Emperor's Omen
+A{"TheJadeForest", 6351, 0.580, 0.800, criterion=20091} -- Pearl Lake
+A{"TheJadeForest", 6351, 0.250, 0.480, criterion=20092} -- Grookin Hill
+A{"TheJadeForest", 6351, 0.460, 0.290, criterion=20094} -- Greenstone Quarry
+A{"TheJadeForest", 6351, 0.400, 0.730, criterion=20095} -- Nectarbreeze Orchard
+A{"TheJadeForest", 6351, 0.250, 0.370, criterion=20096} -- Camp Nooka Nooka
+A{"TheJadeForest", 6351, 0.400, 0.130, criterion=20097} -- Terrace of Ten Thunders
+A{"TheJadeForest", 6351, 0.470, 0.600, criterion=20098} -- Serpent's Heart
+A{"TheJadeForest", 6351, 0.520, 0.820, criterion=20099} -- Slingtail Pits
+A{"TheJadeForest", 6351, 0.570, 0.570, criterion=20100} -- Temple of the Jade Serpent
+A{"TheJadeForest", 6351, 0.570, 0.440, criterion=20101} -- The Arboretum
+A{"TheJadeForest", 6351, 0.460, 0.900, criterion=20102} -- Garrosh'ar Point
+A{"TheJadeForest", 6351, 0.650, 0.300, criterion=20103} -- Windward Isle
+A{"TheJadeForest", 6351, 0.290, 0.130, criterion=22165} -- Honeydew Village
 
 -- Exploration: Explore Pandaria
 A{"TheJadeForest", 6974, criterion=20121} -- Jade Forest
@@ -1338,73 +1351,73 @@ A{"Tirisfal", 768, 0.440, 0.530, criterion=14155} -- Calston Estate
 A{"TownlongWastes", 6974, criterion=20126} -- Townlong Steppes
 
 -- Exploration/Pandaria: Explore Townlong Steppes
-A{"TownlongWastes", 6977, criterion=20160} -- Gao-Ran Battlefront
-A{"TownlongWastes", 6977, criterion=20161} -- Kri'vess
-A{"TownlongWastes", 6977, criterion=20162} -- Rensai's Watchpost
-A{"TownlongWastes", 6977, criterion=20163} -- Niuzao Temple
-A{"TownlongWastes", 6977, criterion=20164} -- Fire Camp Osul
-A{"TownlongWastes", 6977, criterion=20165} -- Hatred's Vice
-A{"TownlongWastes", 6977, criterion=20166} -- Shado-Pan Garrison
-A{"TownlongWastes", 6977, criterion=20167} -- Shan'ze Dao
-A{"TownlongWastes", 6977, criterion=20168} -- Sik'vess
-A{"TownlongWastes", 6977, criterion=20169} -- The Sumprushes
-A{"TownlongWastes", 6977, criterion=22167} -- Sra'vess
+A{"TownlongWastes", 6977, 0.760, 0.820, criterion=20160} -- Gao-Ran Battlefront
+A{"TownlongWastes", 6977, 0.560, 0.560, criterion=20161} -- Kri'vess
+A{"TownlongWastes", 6977, 0.540, 0.780, criterion=20162} -- Rensai's Watchpost
+A{"TownlongWastes", 6977, 0.410, 0.630, criterion=20163} -- Niuzao Temple
+A{"TownlongWastes", 6977, 0.670, 0.470, criterion=20164} -- Fire Camp Osul
+A{"TownlongWastes", 6977, 0.840, 0.720, criterion=20165} -- Hatred's Vice
+A{"TownlongWastes", 6977, 0.480, 0.700, criterion=20166} -- Shado-Pan Garrison
+A{"TownlongWastes", 6977, 0.290, 0.270, criterion=20167} -- Shan'ze Dao
+A{"TownlongWastes", 6977, 0.450, 0.860, criterion=20168} -- Sik'vess
+A{"TownlongWastes", 6977, 0.660, 0.650, criterion=20169} -- The Sumprushes
+A{"TownlongWastes", 6977, 0.220, 0.520, criterion=22167} -- Sra'vess
 
 -- Exploration/Cataclysm: Explore Twilight Highlands
-A{"TwilightHighlands", 4866, criterion=15147} -- Gorshak War Camp
-A{"TwilightHighlands", 4866, criterion=15150} -- Highland Forest
-A{"TwilightHighlands", 4866, criterion=15153} -- Obsidian Forest
-A{"TwilightHighlands", 4866, criterion=15160} -- Thundermar
-A{"TwilightHighlands", 4866, criterion=15146} -- Glopgut's Hollow
-A{"TwilightHighlands", 4866, criterion=15163} -- Victor's Point
-A{"TwilightHighlands", 4866, criterion=15165} -- The Maw of Madness
-A{"TwilightHighlands", 4866, criterion=15143} -- Dragonmaw Port
-A{"TwilightHighlands", 4866, criterion=15142} -- Dragonmaw Pass
-A{"TwilightHighlands", 4866, criterion=15149} -- Highbank
-A{"TwilightHighlands", 4866, criterion=15159} -- The Twilight Breach
-A{"TwilightHighlands", 4866, criterion=15139} -- Bloodgulch
-A{"TwilightHighlands", 4866, criterion=15140} -- Crucible of Carnage
-A{"TwilightHighlands", 4866, criterion=15144} -- Dunwald Ruins
-A{"TwilightHighlands", 4866, criterion=15145} -- Firebeard's Patrol
-A{"TwilightHighlands", 4866, criterion=15148} -- Grim Batol
-A{"TwilightHighlands", 4866, criterion=15141} -- Crushblow
-A{"TwilightHighlands", 4866, criterion=15164} -- Wyrms' Bend
-A{"TwilightHighlands", 4866, criterion=15161} -- Twilight Shore
-A{"TwilightHighlands", 4866, criterion=15162} -- Vermillion Redoubt
-A{"TwilightHighlands", 4866, criterion=15151} -- Humboldt Conflagration
-A{"TwilightHighlands", 4866, criterion=15152} -- Kirthaven
-A{"TwilightHighlands", 4866, criterion=15154} -- Ruins of Drakgor
-A{"TwilightHighlands", 4866, criterion=15155} -- Slithering Cove
-A{"TwilightHighlands", 4866, criterion=15156} -- The Black Breach
-A{"TwilightHighlands", 4866, criterion=15157} -- The Gullet
-A{"TwilightHighlands", 4866, criterion=15158} -- The Krazzworks
+A{"TwilightHighlands", 4866, 0.616, 0.485, criterion=15147} -- Gorshak War Camp
+A{"TwilightHighlands", 4866, 0.549, 0.639, criterion=15150} -- Highland Forest
+A{"TwilightHighlands", 4866, 0.641, 0.766, criterion=15153} -- Obsidian Forest
+A{"TwilightHighlands", 4866, 0.490, 0.298, criterion=15160} -- Thundermar
+A{"TwilightHighlands", 4866, 0.375, 0.282, criterion=15146} -- Glopgut's Hollow
+A{"TwilightHighlands", 4866, 0.433, 0.582, criterion=15163} -- Victor's Point
+A{"TwilightHighlands", 4866, 0.482, 0.144, criterion=15165} -- The Maw of Madness
+A{"TwilightHighlands", 4866, 0.753, 0.533, criterion=15143} -- Dragonmaw Port
+A{"TwilightHighlands", 4866, 0.281, 0.417, criterion=15142} -- Dragonmaw Pass
+A{"TwilightHighlands", 4866, 0.801, 0.758, criterion=15149} -- Highbank
+A{"TwilightHighlands", 4866, 0.408, 0.465, criterion=15159} -- The Twilight Breach
+A{"TwilightHighlands", 4866, 0.543, 0.439, criterion=15139} -- Bloodgulch
+A{"TwilightHighlands", 4866, 0.511, 0.573, criterion=15140} -- Crucible of Carnage
+A{"TwilightHighlands", 4866, 0.501, 0.694, criterion=15144} -- Dunwald Ruins
+A{"TwilightHighlands", 4866, 0.600, 0.571, criterion=15145} -- Firebeard's Patrol
+A{"TwilightHighlands", 4866, 0.192, 0.541, criterion=15148} -- Grim Batol
+A{"TwilightHighlands", 4866, 0.450, 0.764, criterion=15141} -- Crushblow
+A{"TwilightHighlands", 4866, 0.253, 0.549, criterion=15164} -- Wyrms' Bend
+A{"TwilightHighlands", 4866, 0.779, 0.648, criterion=15161} -- Twilight Shore
+A{"TwilightHighlands", 4866, 0.289, 0.234, criterion=15162} -- Vermillion Redoubt
+A{"TwilightHighlands", 4866, 0.428, 0.241, criterion=15151} -- Humboldt Conflagration
+A{"TwilightHighlands", 4866, 0.549, 0.174, criterion=15152} -- Kirthaven
+A{"TwilightHighlands", 4866, 0.431, 0.170, criterion=15154} -- Ruins of Drakgor
+A{"TwilightHighlands", 4866, 0.708, 0.433, criterion=15155} -- Slithering Cove
+A{"TwilightHighlands", 4866, 0.588, 0.331, criterion=15156} -- The Black Breach
+A{"TwilightHighlands", 4866, 0.394, 0.380, criterion=15157} -- The Gullet
+A{"TwilightHighlands", 4866, 0.760, 0.168, criterion=15158} -- The Krazzworks
 
 -- Exploration: Explore Cataclysm
 A{"TwilightHighlands", 4868, criterion=13598} -- Twilight Highlands
 
 -- Exploration/Cataclysm: Explore Uldum
-A{"Uldum", 4865, criterion=15170} -- Lost City of the Tol'vir
-A{"Uldum", 4865, criterion=15166} -- Akhenet Fields
-A{"Uldum", 4865, criterion=15183} -- Temple of Uldum
-A{"Uldum", 4865, criterion=15168} -- Tombs of the Precursors
-A{"Uldum", 4865, criterion=15181} -- Schnottz's Landing
-A{"Uldum", 4865, criterion=15169} -- Khartut's Tomb
-A{"Uldum", 4865, criterion=15182} -- Tahret Grounds
-A{"Uldum", 4865, criterion=15184} -- The Cursed Landing
-A{"Uldum", 4865, criterion=15176} -- Obelisk of the Sun
-A{"Uldum", 4865, criterion=15186} -- The Trail of Devastation
-A{"Uldum", 4865, criterion=15167} -- Cradle of the Ancients
-A{"Uldum", 4865, criterion=15171} -- Mar'at
-A{"Uldum", 4865, criterion=15172} -- Nahom
-A{"Uldum", 4865, criterion=15173} -- Neferset City
-A{"Uldum", 4865, criterion=15174} -- Obelisk of the Moon
-A{"Uldum", 4865, criterion=15175} -- Obelisk of the Stars
-A{"Uldum", 4865, criterion=15177} -- Orsis
-A{"Uldum", 4865, criterion=15178} -- Ramkahen
-A{"Uldum", 4865, criterion=15179} -- Ruins of Ahmtul
-A{"Uldum", 4865, criterion=15180} -- Ruins of Ammon
-A{"Uldum", 4865, criterion=15185} -- The Gate of Unending Cycles
-A{"Uldum", 4865, criterion=15187} -- Vir'naal Dam
+A{"Uldum", 4865, 0.622, 0.740, criterion=15170} -- Lost City of the Tol'vir
+A{"Uldum", 4865, 0.558, 0.514, criterion=15166} -- Akhenet Fields
+A{"Uldum", 4865, 0.345, 0.296, criterion=15183} -- Temple of Uldum
+A{"Uldum", 4865, 0.722, 0.444, criterion=15168} -- Tombs of the Precursors
+A{"Uldum", 4865, 0.237, 0.606, criterion=15181} -- Schnottz's Landing
+A{"Uldum", 4865, 0.634, 0.220, criterion=15169} -- Khartut's Tomb
+A{"Uldum", 4865, 0.599, 0.395, criterion=15182} -- Tahret Grounds
+A{"Uldum", 4865, 0.842, 0.553, criterion=15184} -- The Cursed Landing
+A{"Uldum", 4865, 0.456, 0.575, criterion=15176} -- Obelisk of the Sun
+A{"Uldum", 4865, 0.804, 0.562, criterion=15186} -- The Trail of Devastation
+A{"Uldum", 4865, 0.420, 0.687, criterion=15167} -- Cradle of the Ancients
+A{"Uldum", 4865, 0.494, 0.389, criterion=15171} -- Mar'at
+A{"Uldum", 4865, 0.668, 0.419, criterion=15172} -- Nahom
+A{"Uldum", 4865, 0.511, 0.823, criterion=15173} -- Neferset City
+A{"Uldum", 4865, 0.396, 0.235, criterion=15174} -- Obelisk of the Moon
+A{"Uldum", 4865, 0.644, 0.299, criterion=15175} -- Obelisk of the Stars
+A{"Uldum", 4865, 0.392, 0.411, criterion=15177} -- Orsis
+A{"Uldum", 4865, 0.549, 0.343, criterion=15178} -- Ramkahen
+A{"Uldum", 4865, 0.455, 0.150, criterion=15179} -- Ruins of Ahmtul
+A{"Uldum", 4865, 0.322, 0.645, criterion=15180} -- Ruins of Ammon
+A{"Uldum", 4865, 0.610, 0.227, criterion=15185} -- The Gate of Unending Cycles
+A{"Uldum", 4865, 0.556, 0.432, criterion=15187} -- Vir'naal Dam
 
 -- Exploration: Explore Cataclysm
 A{"Uldum", 4868, criterion=13597} -- Uldum
@@ -1430,66 +1443,66 @@ A{"UngoroCrater", 854, 0.299, 0.371, criterion=14123} -- The Screaming Reaches
 A{"ValeOfEternalBlossomsScenario", 6974, criterion=20128} -- Vale of Eternal Blossoms
 
 -- Exploration/Pandaria: Explore Vale of Eternal Blossoms
-A{"ValeOfEternalBlossomsScenario", 6979, criterion=20320} -- Ruins of Guo-Lai
-A{"ValeOfEternalBlossomsScenario", 6979, criterion=20321} -- Mistfall Village
-A{"ValeOfEternalBlossomsScenario", 6979, criterion=20322} -- Mogu'shan Palace
-A{"ValeOfEternalBlossomsScenario", 6979, criterion=20323} -- Setting Sun Garrison
-A{"ValeOfEternalBlossomsScenario", 6979, criterion=20324} -- The Golden Stair
-A{"ValeOfEternalBlossomsScenario", 6979, criterion=20325} -- Shrine of Seven Stars
-A{"ValeOfEternalBlossomsScenario", 6979, criterion=20326} -- The Golden Pagoda
-A{"ValeOfEternalBlossomsScenario", 6979, criterion=20327} -- Tu Shen Burial Ground
-A{"ValeOfEternalBlossomsScenario", 6979, criterion=20328} -- Shrine of Two Moons
-A{"ValeOfEternalBlossomsScenario", 6979, criterion=20329} -- Whitepetal Lake
-A{"ValeOfEternalBlossomsScenario", 6979, criterion=20330} -- The Five Sisters
+A{"ValeOfEternalBlossomsScenario", 6979, 0.290, 0.370, criterion=20320} -- Ruins of Guo-Lai
+A{"ValeOfEternalBlossomsScenario", 6979, 0.380, 0.730, criterion=20321} -- Mistfall Village
+A{"ValeOfEternalBlossomsScenario", 6979, 0.800, 0.340, criterion=20322} -- Mogu'shan Palace
+A{"ValeOfEternalBlossomsScenario", 6979, 0.210, 0.710, criterion=20323} -- Setting Sun Garrison
+A{"ValeOfEternalBlossomsScenario", 6979, 0.460, 0.160, criterion=20324} -- The Golden Stair
+A{"ValeOfEternalBlossomsScenario", 6979, 0.860, 0.650, criterion=20325} -- Shrine of Seven Stars
+A{"ValeOfEternalBlossomsScenario", 6979, 0.560, 0.430, criterion=20326} -- The Golden Pagoda
+A{"ValeOfEternalBlossomsScenario", 6979, 0.470, 0.720, criterion=20327} -- Tu Shen Burial Ground
+A{"ValeOfEternalBlossomsScenario", 6979, 0.620, 0.200, criterion=20328} -- Shrine of Two Moons
+A{"ValeOfEternalBlossomsScenario", 6979, 0.410, 0.460, criterion=20329} -- Whitepetal Lake
+A{"ValeOfEternalBlossomsScenario", 6979, 0.170, 0.450, criterion=20330} -- The Five Sisters
 
 -- Exploration/Pandaria: Explore Valley of the Four Winds
-A{"ValleyoftheFourWinds", 6969, criterion=20105} -- Winds' Edge
-A{"ValleyoftheFourWinds", 6969, criterion=20106} -- Dustback Gorge
-A{"ValleyoftheFourWinds", 6969, criterion=20107} -- Gilded Fan
-A{"ValleyoftheFourWinds", 6969, criterion=20108} -- The Imperial Granary
-A{"ValleyoftheFourWinds", 6969, criterion=20109} -- Halfhill
-A{"ValleyoftheFourWinds", 6969, criterion=20110} -- Stoneplow
-A{"ValleyoftheFourWinds", 6969, criterion=20111} -- Kunzen Village
-A{"ValleyoftheFourWinds", 6969, criterion=20112} -- Mudmug's Place
-A{"ValleyoftheFourWinds", 6969, criterion=20113} -- Nesingwary Safari
-A{"ValleyoftheFourWinds", 6969, criterion=20114} -- Paoquan Hollow
-A{"ValleyoftheFourWinds", 6969, criterion=20115} -- Pools of Purity
-A{"ValleyoftheFourWinds", 6969, criterion=20116} -- Rumbling Terrace
-A{"ValleyoftheFourWinds", 6969, criterion=20117} -- Silken Fields
-A{"ValleyoftheFourWinds", 6969, criterion=20118} -- Singing Marshes
-A{"ValleyoftheFourWinds", 6969, criterion=20119} -- Stormstout Brewery
-A{"ValleyoftheFourWinds", 6969, criterion=20120} -- The Heartland
-A{"ValleyoftheFourWinds", 6969, criterion=22138} -- Thunderfoot Ranch
-A{"ValleyoftheFourWinds", 6969, criterion=22139} -- Zhu's Descent
+A{"ValleyoftheFourWinds", 6969, 0.510, 0.770, criterion=20105} -- Winds' Edge
+A{"ValleyoftheFourWinds", 6969, 0.130, 0.760, criterion=20106} -- Dustback Gorge
+A{"ValleyoftheFourWinds", 6969, 0.560, 0.360, criterion=20107} -- Gilded Fan
+A{"ValleyoftheFourWinds", 6969, 0.507, 0.637, criterion=20108} -- The Imperial Granary
+A{"ValleyoftheFourWinds", 6969, 0.540, 0.460, criterion=20109} -- Halfhill
+A{"ValleyoftheFourWinds", 6969, 0.180, 0.550, criterion=20110} -- Stoneplow
+A{"ValleyoftheFourWinds", 6969, 0.301, 0.357, criterion=20111} -- Kunzen Village
+A{"ValleyoftheFourWinds", 6969, 0.680, 0.430, criterion=20112} -- Mudmug's Place
+A{"ValleyoftheFourWinds", 6969, 0.180, 0.810, criterion=20113} -- Nesingwary Safari
+A{"ValleyoftheFourWinds", 6969, 0.160, 0.350, criterion=20114} -- Paoquan Hollow
+A{"ValleyoftheFourWinds", 6969, 0.600, 0.270, criterion=20115} -- Pools of Purity
+A{"ValleyoftheFourWinds", 6969, 0.742, 0.638, criterion=20116} -- Rumbling Terrace
+A{"ValleyoftheFourWinds", 6969, 0.630, 0.570, criterion=20117} -- Silken Fields
+A{"ValleyoftheFourWinds", 6969, 0.250, 0.430, criterion=20118} -- Singing Marshes
+A{"ValleyoftheFourWinds", 6969, 0.340, 0.700, criterion=20119} -- Stormstout Brewery
+A{"ValleyoftheFourWinds", 6969, 0.390, 0.390, criterion=20120} -- The Heartland
+A{"ValleyoftheFourWinds", 6969, 0.750, 0.250, criterion=22138} -- Thunderfoot Ranch
+A{"ValleyoftheFourWinds", 6969, 0.813, 0.479, criterion=22139} -- Zhu's Descent
 
 -- Exploration: Explore Pandaria
 A{"ValleyoftheFourWinds", 6974, criterion=20122} -- Valley of the Four Winds
 
--- Exploration/Cataclysm: Explore Vashj'ir
-A{"Vashjir", 4825, criterion=14124} -- Abandoned Reef
-A{"Vashjir", 4825, criterion=14125} -- Abyssal Breach
-A{"Vashjir", 4825, criterion=14127} -- Deepfin Ridge
-A{"Vashjir", 4825, criterion=14129} -- Korthun's End
-A{"Vashjir", 4825, criterion=14130} -- L'ghorek
-A{"Vashjir", 4825, criterion=14133} -- Glimmerdeep Gorge
-A{"Vashjir", 4825, criterion=14134} -- Gnaws' Boneyard
-A{"Vashjir", 4825, criterion=14131} -- Seabrush
-A{"Vashjir", 4825, criterion=14135} -- Gurboggle's Ledge
-A{"Vashjir", 4825, criterion=14136} -- The Clutch
-A{"Vashjir", 4825, criterion=14138} -- Legion's Fate
-A{"Vashjir", 4825, criterion=14140} -- Beth'mora Ridge
-A{"Vashjir", 4825, criterion=14141} -- Nespirah
-A{"Vashjir", 4825, criterion=14143} -- Ruins of Vashj'ir
-A{"Vashjir", 4825, criterion=14145} -- Silver Tide Hollow
-A{"Vashjir", 4825, criterion=14126} -- Underlight Canyon
-A{"Vashjir", 4825, criterion=14139} -- The Skeletal Reef
-A{"Vashjir", 4825, criterion=14137} -- Seafarer's Tomb
-A{"Vashjir", 4825, criterion=14142} -- Ruins of Thelserai Temple
-A{"Vashjir", 4825, criterion=14132} -- The Scalding Chasm
-A{"Vashjir", 4825, criterion=14144} -- Shimmering Grotto
-
 -- Exploration: Explore Cataclysm
 A{"Vashjir", 4868, criterion=13594} -- Vashj'ir
+
+-- Exploration/Cataclysm: Explore Vashj'ir
+A{"VashjirDepths", 4825, 0.330, 0.730, criterion=14124} -- Abandoned Reef
+A{"VashjirDepths", 4825, 0.700, 0.300, criterion=14125} -- Abyssal Breach
+A{"VashjirDepths", 4825, 0.430, 0.260, criterion=14127} -- Deepfin Ridge
+A{"VashjirDepths", 4825, 0.550, 0.670, criterion=14129} -- Korthun's End
+A{"VashjirDepths", 4825, 0.350, 0.520, criterion=14130} -- L'ghorek
+A{"VashjirDepths", 4825, 0.570, 0.330, criterion=14131} -- Seabrush
+A{"VashjirDepths", 4825, 0.430, 0.500, criterion=14126} -- Underlight Canyon
+A{"VashjirDepths", 4825, 0.470, 0.240, criterion=14132} -- The Scalding Chasm
+A{"VashjirKelpForest", 4825, 0.600, 0.580, criterion=14134} -- Gnaws' Boneyard
+A{"VashjirKelpForest", 4825, 0.520, 0.510, criterion=14135} -- Gurboggle's Ledge
+A{"VashjirKelpForest", 4825, 0.580, 0.780, criterion=14136} -- The Clutch
+A{"VashjirKelpForest", 4825, 0.400, 0.300, criterion=14138} -- Legion's Fate
+A{"VashjirKelpForest", 4825, 0.600, 0.460, criterion=14139} -- The Skeletal Reef
+A{"VashjirKelpForest", 4825, 0.510, 0.280, criterion=14137} -- Seafarer's Tomb
+A{"VashjirRuins", 4825, 0.480, 0.470, criterion=14133} -- Glimmerdeep Gorge
+A{"VashjirRuins", 4825, 0.505, 0.764, criterion=14140} -- Beth'mora Ridge
+A{"VashjirRuins", 4825, 0.510, 0.480, criterion=14141} -- Nespirah
+A{"VashjirRuins", 4825, 0.350, 0.780, criterion=14143} -- Ruins of Vashj'ir
+A{"VashjirRuins", 4825, 0.500, 0.412, criterion=14145} -- Silver Tide Hollow
+A{"VashjirRuins", 4825, 0.660, 0.450, criterion=14142} -- Ruins of Thelserai Temple
+A{"VashjirRuins", 4825, 0.490, 0.220, criterion=14144} -- Shimmering Grotto
 
 -- Exploration: Explore Eastern Kingdoms
 A{"WesternPlaguelands", 42, criterion=1296} -- Western Plaguelands

@@ -33,6 +33,18 @@ A{"Aszhara", 1026, 0.600, 0.530, criterion=23471, side="horde", season="Midsumme
 -- World Events/Midsummer: Extinguishing Kalimdor
 A{"Aszhara", 1029, 0.604, 0.535, criterion=23476, side="alliance", season="Midsummer Fire Festival"} -- Azshara
 
+-- World Events/Midsummer: The Fires of Azeroth
+A{"Azeroth", 1034, criterion=3193, side="alliance", season="Midsummer Fire Festival"} -- Flame Warden of Eastern Kingdoms
+
+-- World Events/Midsummer: Desecration of the Horde
+A{"Azeroth", 1035, criterion=3196, side="alliance", season="Midsummer Fire Festival"} -- Extinguishing Eastern Kingdoms
+
+-- World Events/Midsummer: The Fires of Azeroth
+A{"Azeroth", 1036, criterion=3199, side="horde", season="Midsummer Fire Festival"} -- Flame Keeper of Eastern Kingdoms
+
+-- World Events/Midsummer: Desecration of the Alliance
+A{"Azeroth", 1037, criterion=3202, side="horde", season="Midsummer Fire Festival"} -- Extinguishing Eastern Kingdoms
+
 -- World Events/Midsummer: Flame Warden of Kalimdor
 A{"AzuremystIsle", 1023, 0.440, 0.520, criterion=3077, side="alliance", season="Midsummer Fire Festival"} -- Azuremyst Isle
 
@@ -207,6 +219,18 @@ A{"EversongWoods", 1025, 0.460, 0.500, criterion=3104, side="horde", season="Mid
 -- World Events/Midsummer: Extinguishing Eastern Kingdoms
 A{"EversongWoods", 1028, 0.463, 0.503, criterion=3134, side="alliance", season="Midsummer Fire Festival"} -- Eversong Woods
 
+-- World Events/Midsummer: The Fires of Azeroth
+A{"Expansion01", 1034, criterion=3195, side="alliance", season="Midsummer Fire Festival"} -- Flame Warden of Outland
+
+-- World Events/Midsummer: Desecration of the Horde
+A{"Expansion01", 1035, criterion=3198, side="alliance", season="Midsummer Fire Festival"} -- Extinguishing Outland
+
+-- World Events/Midsummer: The Fires of Azeroth
+A{"Expansion01", 1036, criterion=3201, side="horde", season="Midsummer Fire Festival"} -- Flame Keeper of Outland
+
+-- World Events/Midsummer: Desecration of the Alliance
+A{"Expansion01", 1037, criterion=3204, side="horde", season="Midsummer Fire Festival"} -- Extinguishing Outland
+
 -- World Events/Midsummer: Flame Warden of Kalimdor
 A{"Feralas", 1023, 0.470, 0.440, criterion=3082, side="alliance", season="Midsummer Fire Festival"} -- Feralas
 
@@ -282,6 +306,18 @@ A{"HowlingFjord", 6010, 0.577, 0.157, criterion=18191, side="horde", season="Mid
 -- World Events/Midsummer: Flame Keeper of Cataclysm
 A{"Hyjal", 6012, 0.628, 0.226, criterion=18198, side="horde", season="Midsummer Fire Festival"} -- Hyjal
 
+-- World Events/Midsummer: The Fires of Azeroth
+A{"Kalimdor", 1034, criterion=3194, side="alliance", season="Midsummer Fire Festival"} -- Flame Warden of Kalimdor
+
+-- World Events/Midsummer: Desecration of the Horde
+A{"Kalimdor", 1035, criterion=3197, side="alliance", season="Midsummer Fire Festival"} -- Extinguishing Kalimdor
+
+-- World Events/Midsummer: The Fires of Azeroth
+A{"Kalimdor", 1036, criterion=3200, side="horde", season="Midsummer Fire Festival"} -- Flame Keeper of Kalimdor
+
+-- World Events/Midsummer: Desecration of the Alliance
+A{"Kalimdor", 1037, criterion=3203, side="horde", season="Midsummer Fire Festival"} -- Extinguishing Kalimdor
+
 -- World Events/Midsummer: Flame Keeper of Pandaria
 A{"Krasarang", 8044, 0.740, 0.094, criterion=22690, side="horde", season="Midsummer Fire Festival"} -- Krasarang Wilds
 
@@ -329,6 +365,18 @@ A{"Netherstorm", 1030, 0.323, 0.685, criterion=3157, side="alliance", season="Mi
 
 -- World Events/Midsummer: Extinguishing Outland
 A{"Netherstorm", 1033, 0.311, 0.627, criterion=3189, side="horde", season="Midsummer Fire Festival"} -- Netherstorm
+
+-- World Events/Midsummer: The Fires of Azeroth
+A{"Northrend", 1034, criterion=18219, side="alliance", season="Midsummer Fire Festival"} -- Flame Warden of Northrend
+
+-- World Events/Midsummer: Desecration of the Horde
+A{"Northrend", 1035, criterion=18215, side="alliance", season="Midsummer Fire Festival"} -- Extinguishing Northrend
+
+-- World Events/Midsummer: The Fires of Azeroth
+A{"Northrend", 1036, criterion=18217, side="horde", season="Midsummer Fire Festival"} -- Flame Keeper of Northrend
+
+-- World Events/Midsummer: Desecration of the Alliance
+A{"Northrend", 1037, criterion=18213, side="horde", season="Midsummer Fire Festival"} -- Extinguishing Northrend
 
 -- World Events/Midsummer: Flame Warden of Eastern Kingdoms
 A{"Redridge", 1022, 0.249, 0.536, criterion=3071, side="alliance", season="Midsummer Fire Festival"} -- Redridge Mountains

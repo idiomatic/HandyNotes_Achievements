@@ -231,6 +231,12 @@ A{"TheGreatWall", 8434, 0.490, 0.610, floor=1}
 -- Feats of Strength: Realm First! Obsidian Slayer
 A{"TheObsidianSanctum", 456, 0.508, 0.478}
 
+-- Feats of Strength: Realm First! Death's Demise
+A{"Ulduar", 3117, 0.690, 0.410, floor=4}
+
+-- Feats of Strength: Realm First! Celestial Defender
+A{"Ulduar", 3259, 0.800, 0.470, floor=2}
+
 -- Legacy: Deadliest Catch
 A{"ZulGurub", 560, note="unavailable"}
 

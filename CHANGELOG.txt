@@ -2,6 +2,10 @@
 
 * added seasonal awareness
 * added Brewfest (and its out-of-seasonal vendor)
+* added MoP locations
+* added Cataclysm, MoP, and Draenor exploration locations [check Vashjir]
+* added capitol cooking & fishing locations
+* added some Hallow's End, Midsummer locations
 
 == v0.4.12 ==
 
@@ -20,7 +24,7 @@
 * omit "other" faction
 * added reputations, some with locations
 * match criterion column with criteriaDescription
-* Pandaria dungeons - Mogushan Palace - Stormstout Brewery
+* added Mogushan Palace, Stormstout Brewery
 * shrink icon to reasonable size
 * added non-exalted reputations in tooltip
 * added pet

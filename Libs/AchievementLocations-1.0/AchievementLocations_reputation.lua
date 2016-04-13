@@ -148,6 +148,18 @@ A{"ShadowmoonValley", 6742, 0.660, 0.830, criterion=982, faction=1015} -- Nether
 A{"ShadowmoonValleyDR", 6742, criterion=982, faction=1731, side="alliance"} -- Council of Exarchs
 A{"ShattrathCity", 6742, criterion=982, faction=932} -- The Aldor
 A{"ShattrathCity", 6742, criterion=982, faction=934} -- The Scryers
+
+-- Reputation/Wrath of the Lich King: Frenzyheart Tribe
+A{"SholazarBasin", 950, faction=1104}
+
+-- Reputation/Wrath of the Lich King: The Oracles
+A{"SholazarBasin", 951, faction=1105}
+
+-- Reputation/Wrath of the Lich King: Mercenary of Sholazar
+A{"SholazarBasin", 952, criterion=2040} -- Frenzyheart Tribe
+A{"SholazarBasin", 952, criterion=2039} -- The Oracles
+
+-- Reputation: 60 Exalted Reputations
 A{"SholazarBasin", 6742, criterion=982, faction=1104} -- The Frenzyheart
 A{"SholazarBasin", 6742, criterion=982, faction=1105} -- The Oracles
 A{"SpiresOfArak", 6742, criterion=982, faction=1515} -- Arakkoa Outcasts

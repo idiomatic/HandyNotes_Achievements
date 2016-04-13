@@ -277,7 +277,7 @@ A{"Darnassus", 603, criterion=6638, side="horde"} -- Darnassus
 A{"Darnassus", 617, 0.430, 0.790, side="horde"}
 
 -- Player vs. Player: For The Horde!
-A{"Darnassus", 619, criterion=494, side="horde"} -- Immortal No More
+A{"Darnassus", 619, 0.430, 0.790, criterion=494, side="horde"} -- Immortal No More
 
 -- Player vs. Player: Grizzled Veteran
 A{"GrizzlyHills", 2016, criterion=7279, side="alliance"} -- Pieces Parts
@@ -308,7 +308,7 @@ A{"Ironforge", 603, criterion=6637, side="horde"} -- Ironforge
 A{"Ironforge", 616, 0.400, 0.550, side="horde"}
 
 -- Player vs. Player: For The Horde!
-A{"Ironforge", 619, criterion=493, side="horde"} -- Overthrow the Council
+A{"Ironforge", 619, 0.400, 0.550, criterion=493, side="horde"} -- Overthrow the Council
 
 -- Player vs. Player/Isle of Conquest: Isle of Conquest Victory
 A{"IsleofConquest", 3776}
@@ -542,7 +542,7 @@ A{"StormwindCity", 603, criterion=6640, side="horde"} -- Stormwind City
 A{"StormwindCity", 615, 0.860, 0.320, side="horde"}
 
 -- Player vs. Player: For The Horde!
-A{"StormwindCity", 619, criterion=492, side="horde"} -- Storming Stormwind
+A{"StormwindCity", 619, 0.860, 0.320, criterion=492, side="horde"} -- Storming Stormwind
 
 -- Player vs. Player/Strand of the Ancients: Strand of the Ancients Victory
 A{"StrandoftheAncients", 1308}
@@ -620,7 +620,7 @@ A{"TheExodar", 603, criterion=6639, side="horde"} -- The Exodar
 A{"TheExodar", 618, 0.330, 0.550, side="horde"}
 
 -- Player vs. Player: For The Horde!
-A{"TheExodar", 619, criterion=495, side="horde"} -- Putting Out the Light
+A{"TheExodar", 619, 0.330, 0.550, criterion=495, side="horde"} -- Putting Out the Light
 
 -- Player vs. Player: Wrath of the Alliance
 A{"ThunderBluff", 604, criterion=6633, side="alliance"} -- Thunder Bluff
