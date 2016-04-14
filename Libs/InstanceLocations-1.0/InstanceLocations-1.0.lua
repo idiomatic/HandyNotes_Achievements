@@ -1,7 +1,7 @@
 -- Copyright (c) 2015-2016, r. brian harrison.  All rights reserved.
 
 local LIB_NAME = "InstanceLocations-1.0"
-assert(LibStub, string.format("%s requires LibStub", LIB_NAME))
+assert(LibStub, string.format("%s requires %s", LIB_NAME, "LibStub"))
 
 -- inlined:
 -- local MapMap = LibStub:GetLibrary("MapMap-1.0")
@@ -163,7 +163,7 @@ function InstanceLocations:BuildNumericTable()
     if not self.instancesByID then
         self.instancesByID = {}
         local MapMap = LibStub("MapMap-1.0")
-        assert(MapMap, string.format("%s requires MapMap-1.0", LIB_NAME))
+        assert(MapMap, string.format("%s requires %s", LIB_NAME, "MapMap-1.0"))
         MapMap:Survey()
         for mapFile, data in pairs(self.instances) do
             local mapID = MapMap.mapFileToID[mapFile]

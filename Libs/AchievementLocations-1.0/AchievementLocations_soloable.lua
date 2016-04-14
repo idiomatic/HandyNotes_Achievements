@@ -1801,6 +1801,9 @@ A{"SunwellPlateau", 9824, 0.650, 0.328, criterion=27578, floor=1, note="from Gra
 -- Dungeons & Raids/The Burning Crusade: Tempest Keep
 A{"TempestKeep", 696, 0.500, 0.150}
 
+-- Feats of Strength: Ashes of Al'ar
+A{"TempestKeep", 885, 0.506, 0.152}
+
 -- Dungeons & Raids: Outland Raider
 A{"TempestKeep", 1286, criterion=4020} -- Tempest Keep
 
@@ -3039,7 +3042,7 @@ A{"ZulAman", 691, 0.900, 0.530}
 A{"ZulAman", 5750}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Ring Out!
-A{"ZulAman", 5760}
+A{"ZulAman", 5760, 0.904, 0.529}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Hex Mix
 A{"ZulAman", 5761, criterion=16836} -- Rosa saved.
@@ -3056,7 +3059,7 @@ A{"ZulAman", 5761, criterion=16846} -- Mawago saved.
 A{"ZulAman", 5761, criterion=16847} -- Melissa saved.
 
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: Zul'Aman
-A{"ZulAman", 5769}
+A{"ZulAman", 5769, 0.904, 0.529}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Bear-ly Made It
 A{"ZulAman", 5858}

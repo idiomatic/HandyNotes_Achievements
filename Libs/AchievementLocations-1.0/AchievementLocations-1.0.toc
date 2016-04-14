@@ -11,6 +11,7 @@ AchievementLocations_soloable.lua
 AchievementLocations_group.lua
 AchievementLocations_pvp.lua
 
+AchievementLocations_seasonal.lua
 AchievementLocations_seasonal_brew.lua
 AchievementLocations_seasonal_children.lua
 AchievementLocations_seasonal_darkmoon.lua

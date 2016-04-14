@@ -27,6 +27,12 @@ A{"BoreanTundra", 6742, criterion=982, faction=1064, side="horde"} -- The Taunka
 A{"CoTHillsbradFoothills", 6742, criterion=982, faction=989} -- Keepers of Time
 A{"CoTTheBlackMorass", 6742, 0.480, 0.745, criterion=982, faction=989} -- Keepers of Time
 
+-- Reputation/Wrath of the Lich King: The Kirin Tor
+A{"Dalaran", 1008, faction=1090}
+
+-- Reputation/Wrath of the Lich King: Northrend Vanguard
+A{"Dalaran", 1010, criterion=4742, faction=1090} -- The Kirin Tor
+
 -- Feats of Strength: Insane in the Membrane
 A{"DarkmoonFaireIsland", 2336, quest=909} -- Darkmoon Faire
 
@@ -35,6 +41,17 @@ A{"DarkmoonFaireIsland", 6742, criterion=982, faction=909} -- Darkmoon Faire
 A{"Deepholm", 6742, criterion=982, faction=1171} -- Therazane
 A{"Desolace", 6742, criterion=982, faction=92} -- Gelkis Clan Centaur
 A{"Desolace", 6742, criterion=982, faction=93} -- Magram Clan Centaur
+
+-- Reputation/Wrath of the Lich King: Tuskarrmageddon
+A{"Dragonblight", 949, faction=1073}
+
+-- Reputation/Wrath of the Lich King: The Wyrmrest Accord
+A{"Dragonblight", 1007, faction=1091}
+
+-- Reputation/Wrath of the Lich King: Northrend Vanguard
+A{"Dragonblight", 1010, criterion=4741, faction=1091} -- The Wyrmrest Accord
+
+-- Reputation: 60 Exalted Reputations
 A{"Dragonblight", 6742, criterion=982, faction=1091} -- The Wyrmrest Accord
 
 -- Reputation: The Argent Champion
@@ -83,6 +100,13 @@ A{"Hyjal", 960, faction=967}
 A{"Hyjal", 6742, criterion=982, faction=990} -- The Scale of Sands
 A{"Hyjal", 6742, criterion=982, faction=1158} -- Guardians of Hyjal
 A{"IcecrownCitadel", 6742, criterion=982, faction=1156} -- The Ashen Verdict
+
+-- Reputation/Wrath of the Lich King: Knights of the Ebon Blade
+A{"IcecrownGlacier", 1009, faction=1098}
+
+-- Reputation/Wrath of the Lich King: Northrend Vanguard
+A{"IcecrownGlacier", 1010, criterion=4743, faction=1098} -- Knights of the Ebon Blade
+A{"IcecrownGlacier", 1010, criterion=4737, faction=1106} -- The Argent Crusade
 
 -- World Events/Argent Tournament: Exalted Champion of Darnassus
 A{"IcecrownGlacier", 2760, criterion=5328, faction=69, side="alliance"} -- Exalted with Darnassus
@@ -196,6 +220,9 @@ A{"TheBloodFurnace", 6742, criterion=982, faction=946, side="alliance"} -- Honor
 A{"TheBloodFurnace", 6742, criterion=982, faction=947, side="horde"} -- Thrallmar
 A{"TheBotanica", 6742, criterion=982, faction=935} -- The Sha'tar
 
+-- Feats of Strength: Avast Ye, Admiral!
+A{"TheCapeOfStranglethorn", 871, 0.466, 0.952}
+
 -- Feats of Strength: Insane in the Membrane
 A{"TheCapeOfStranglethorn", 2336, quest=87} -- Bloodsail Buckaneers
 
@@ -234,6 +261,9 @@ A{"VioletHold", 6742, criterion=982, faction=1126, side="alliance"} -- The Frost
 A{"WarsongGulch", 6742, criterion=982, faction=890, side="alliance"} -- Silverwing Sentinels
 A{"WarsongGulch", 6742, criterion=982, faction=889, side="horde"} -- Warsong Outriders
 A{"Winterspring", 6742, criterion=982, faction=589} -- Wintersaber Trainers
+
+-- Reputation/The Burning Crusade: Cenarion War Hippogryph
+A{"Zangarmarsh", 893, 0.792, 0.638}
 
 -- Reputation/The Burning Crusade: The Czar of Sporeggar
 A{"Zangarmarsh", 900, faction=970}

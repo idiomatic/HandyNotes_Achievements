@@ -30,8 +30,14 @@ A{"EastTemple", 6920, criterion=19862} -- Temple of the Jade Serpent
 -- Feats of Strength: Challenge Master: Temple of the Jade Serpent
 A{"EastTemple", 8430}
 
+-- Feats of Strength: Boldly, You Sought the Power of Ragnaros
+A{"Firelands", 9550}
+
 -- Feats of Strength: Realm First! Fall of the Lich King
 A{"IcecrownCitadel", 4576, 0.498, 0.528, floor=8}
+
+-- Feats of Strength: Vampire Hunter
+A{"Karazhan", 2456}
 
 -- Legacy: Challenge Conqueror: Bronze
 A{"MogushanPalace", 6374, criterion=19876} -- Mogu'shan Palace
@@ -236,6 +242,9 @@ A{"Ulduar", 3117, 0.690, 0.410, floor=4}
 
 -- Feats of Strength: Realm First! Celestial Defender
 A{"Ulduar", 3259, 0.800, 0.470, floor=2}
+
+-- Legacy: Upper Blackrock Spire (Classic)
+A{"UpperBlackrockSpire", 1307}
 
 -- Legacy: Deadliest Catch
 A{"ZulGurub", 560, note="unavailable"}

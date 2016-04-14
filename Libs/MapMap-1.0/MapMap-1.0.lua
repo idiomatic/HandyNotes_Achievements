@@ -1,10 +1,10 @@
 -- Copyright (c) 2015-2016, r. brian harrison.  All rights reserved.
 
 local LIB_NAME = "MapMap-1.0"
-assert(LibStub, string.format("%s requires LibStub", LIB_NAME))
+assert(LibStub, string.format("%s requires %s", LIB_NAME, "LibStub"))
 
 local MapExcursion = LibStub("MapExcursion-1.0")
-assert(MapExcursion, string.format("%s requires MapExcursion", LIB_NAME))
+assert(MapExcursion, string.format("%s requires %s", LIB_NAME, "MapExcursion"))
 
 local MapMap = LibStub:NewLibrary(LIB_NAME, 1)
 if not MapMap then return end

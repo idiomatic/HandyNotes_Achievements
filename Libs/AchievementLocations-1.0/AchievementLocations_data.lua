@@ -3,11 +3,17 @@
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
 local function A(row) AL:AddLocation(row) end
 
+-- Professions/Cooking: Dinner Impossible
+A{"AlteracValley", 1785, criterion=6626} -- Alterac Valley
+
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"Arathi", 1676, criterion=15204} -- Arathi Highlands Quests
 
 -- Quests/Eastern Kingdoms: Arathi Highlands Quests
 A{"Arathi", 4896, criterion=13706} -- Arathi Highlands
+
+-- Professions/Cooking: Dinner Impossible
+A{"ArathiBasin", 1785, criterion=6627} -- Arathi Basin
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Ashenvale", 1678, criterion=15218, side="alliance"} -- Ashenvale
@@ -713,6 +719,9 @@ A{"Feralas", 4932, criterion=13980, side="alliance"} -- Feralas
 -- Quests/Kalimdor: Feralas Quests
 A{"Feralas", 4979, criterion=13980, side="horde"} -- Feralas
 
+-- Feats of Strength: Scourer of the Eternal Sands
+A{"Feralas", 5767, 0.696, 0.732}
+
 -- Exploration: Field Photographer
 A{"Feralas", 9924, 0.480, 0.160, criterion=27963} -- The Twin Colossals
 
@@ -950,6 +959,36 @@ A{"Gorgrond", 8924, criterion=0, side="horde"} -- The Iron Approach
 
 -- Exploration: Explore Draenor
 A{"Gorgrond", 8935, criterion=24633} -- Explore Gorgrond
+
+-- Exploration/Draenor: Gorgrond Monster Hunter
+A{"Gorgrond", 9400, criterion=25568} -- Biolante
+A{"Gorgrond", 9400, criterion=25569} -- Roardan the Sky Terror
+A{"Gorgrond", 9400, criterion=25570} -- Crater Lord Igneous
+A{"Gorgrond", 9400, criterion=25571} -- Dessicus of the Dead Pools
+A{"Gorgrond", 9400, criterion=25572} -- Khargax the Devourer
+A{"Gorgrond", 9400, criterion=25573} -- Erosian the Violent
+A{"Gorgrond", 9400, criterion=25574} -- Charl Doomwing
+A{"Gorgrond", 9400, criterion=25575} -- Fungal Praetorian
+
+-- Exploration/Draenor: Shredder Maniac
+A{"Gorgrond", 9401}
+
+-- Exploration/Draenor: Prove Your Strength
+A{"Gorgrond", 9402, criterion="Ancient Branch"} -- Ancient Branch
+A{"Gorgrond", 9402, criterion="Basilisk Scale"} -- Basilisk Scale
+A{"Gorgrond", 9402, criterion="Botani Bloom"} -- Botani Bloom
+A{"Gorgrond", 9402, criterion="Elemental Crystal"} -- Elemental Crystal
+A{"Gorgrond", 9402, criterion="Goren Tooth"} -- Goren Tooth
+A{"Gorgrond", 9402, criterion="Gronn Eye"} -- Gronn Eye
+A{"Gorgrond", 9402, criterion="Gronnling Scale"} -- Gronnling Scale
+A{"Gorgrond", 9402, criterion="Ogron Horn"} -- Ogron Horn
+A{"Gorgrond", 9402, criterion="Orc Thorn"} -- Orc Thorn
+A{"Gorgrond", 9402, criterion="Ravager Claw"} -- Ravager Claw
+A{"Gorgrond", 9402, criterion="Wasp Stinger"} -- Wasp Stinger
+
+-- Dungeons & Raids/Draenor Raid: Goliaths of Gorgrond
+A{"Gorgrond", 9423, criterion=25767} -- Tarlna the Ageless
+A{"Gorgrond", 9423, criterion=25768} -- Drov the Ruiner
 
 -- Quests/Draenor: Make It a Bonus
 A{"Gorgrond", 9607, criterion=26391} -- Bonus Objective: Brimstone Springs
@@ -1626,6 +1665,9 @@ A{"IronDocks", 9838, criterion=27626} -- Skulloc, Son of Gruul
 -- Dungeons & Raids/Draenor Dungeon: Mythic: Iron Docks
 A{"IronDocks", 10079}
 
+-- Professions/Fishing: Old Ironjaw
+A{"Ironforge", 1837}
+
 -- Professions/Cooking: A Bunch of Lunch
 A{"Ironforge", 5845, 0.601, 0.364, criterion=11744, side="alliance"} -- Let's Do Lunch: Ironforge
 
@@ -1996,6 +2038,9 @@ A{"KunLaiSummit", 7286, criterion=20449} -- Healiss
 A{"KunLaiSummit", 7286, criterion=20450} -- Tankiss
 A{"KunLaiSummit", 7286, criterion=20451} -- Ken-Ken
 
+-- Collections/Mounts: Grand Expedition Yak
+A{"KunLaiSummit", 7386, 0.654, 0.616}
+
 -- Exploration/Pandaria: A Worthy Opponent
 A{"KunLaiSummit", 7437, 0.460, 0.620, criterion="Hozen", note="or thereabouts"} -- Scritch
 A{"KunLaiSummit", 7437, 0.740, 0.770, criterion="Jinyu"} -- Zai the Outcast
@@ -2257,6 +2302,9 @@ A{"Netherstorm", 1312, criterion=4511} -- Ever-Core the Punisher
 -- Exploration: Field Photographer
 A{"Netherstorm", 9924, 0.450, 0.350, criterion=27966} -- The Stormspire
 
+-- Professions/Cooking: Dinner Impossible
+A{"NetherstormArena", 1785, criterion=6630} -- Eye of the Storm
+
 -- Dungeons & Raids/Dungeon Challenges: Bloodmaul Slag Mines Challenger
 A{"OgreMines", 8875}
 
@@ -2301,6 +2349,9 @@ A{"Orgrimmar", 150, criterion=5274} -- Orgrimmar
 
 -- General: To All The Squirrels I've Loved Before
 A{"Orgrimmar", 1206, 0.484, 0.482, criterion="Toad", note="also Wetlands"} -- Toad
+
+-- Professions/Fishing: Old Crafty
+A{"Orgrimmar", 1836}
 
 -- Professions/Cooking: Let's Do Lunch: Orgrimmar
 A{"Orgrimmar", 5475, criterion=15808, side="horde"} -- Crawfish Creole
@@ -3024,6 +3075,9 @@ A{"StormwindCity", 5478, criterion=15889, note="60% drop rate, open water"} -- L
 -- Exploration: Field Photographer
 A{"StormwindCity", 9924, criterion=27864, side="alliance"} -- Stormwind
 
+-- Professions/Cooking: Dinner Impossible
+A{"StrandoftheAncients", 1785, criterion=6629} -- Strand of the Ancients
+
 -- Professions/Fishing: Master Angler of Azeroth
 A{"StranglethornJungle", 306}
 
@@ -3252,6 +3306,9 @@ A{"TanaanJungle", 10265, criterion=28658, side="horde"} -- Draenor's Last Stand
 A{"TanaanJungle", 10265, criterion=28287, side="horde"} -- I Came, I Clawed, I Conquered
 A{"TanaanJungle", 10265, criterion=28733, side="horde"} -- Hellbane
 A{"TanaanJungle", 10265, criterion=28732, side="horde"} -- Jungle Treasure Master
+
+-- Feats of Strength: Predator
+A{"TanaanJungle", 10334}
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Tanaris", 1678, criterion=15240} -- Tanaris Quests
@@ -4185,6 +4242,9 @@ A{"UngoroCrater", 1206, 0.706, 0.772, criterion="Parrot"} -- Parrot
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"UngoroCrater", 1678, criterion=15242} -- Un'Goro Crater Quests
 
+-- Feats of Strength: Venomhide Ravasaur
+A{"UngoroCrater", 3357, 0.714, 0.738, side="horde"}
+
 -- Quests/Kalimdor: Un'Goro Crater Quests
 A{"UngoroCrater", 4939, criterion=13850} -- Un'Goro Crater
 
@@ -4481,6 +4541,9 @@ A{"ValleyoftheFourWinds", 7439, 0.890, 0.180, criterion="Pandaren"} -- Nasra Spo
 A{"ValleyoftheFourWinds", 7439, 0.350, 0.600, criterion="Saurok", note="or thereabouts"} -- Blackhoof
 A{"ValleyoftheFourWinds", 7439, 0.700, 0.530, criterion="Yaungol", note="or thereabouts"} -- Salyin Warscout
 
+-- Quests/Pandaria: Savior of Stoneplow
+A{"ValleyoftheFourWinds", 7502}
+
 -- Professions/Fishing: Pandarian Angler
 A{"ValleyoftheFourWinds", 7611, criterion=21955} -- Emperor Salmon
 
@@ -4517,6 +4580,9 @@ A{"Vashjir", 9924, criterion=27959} -- Vashj'ir
 -- General: To All the Squirrels Who Cared for Me
 A{"VashjirRuins", 5548, 0.540, 0.416, criterion=16222} -- Rockchewer Whelk
 A{"VashjirRuins", 5548, 0.536, 0.416, criterion=16224} -- Sea Cucumber
+
+-- Professions/Cooking: Dinner Impossible
+A{"WarsongGulch", 1785, criterion=6628} -- Warsong Gulch
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"WesternPlaguelands", 1676, criterion=15217} -- Western Plaguelands Quests
@@ -4555,6 +4621,9 @@ A{"Wetlands", 9924, 0.510, 0.090, criterion=27874} -- Thandol Span
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"Winterspring", 1678, criterion=15243} -- Winterspring Quests
+
+-- Feats of Strength: Winterspring Frostsaber
+A{"Winterspring", 3356, 0.466, 0.176, side="alliance"}
 
 -- Quests/Kalimdor: Winterspring Quests
 A{"Winterspring", 4940, criterion=13851} -- Winterspring

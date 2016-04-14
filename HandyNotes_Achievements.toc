@@ -33,6 +33,7 @@ Libs/AchievementLocations-1.0/AchievementLocations_group.lua
 Libs/AchievementLocations-1.0/AchievementLocations_pvp.lua
 Libs/AchievementLocations-1.0/AchievementLocations_reputation.lua
 Libs/AchievementLocations-1.0/AchievementLocations_pet.lua
+Libs/AchievementLocations-1.0/AchievementLocations_seasonal.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_brew.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_children.lua
 Libs/AchievementLocations-1.0/AchievementLocations_seasonal_darkmoon.lua
