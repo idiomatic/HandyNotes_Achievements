@@ -141,20 +141,116 @@ A{"BladesEdgeMountains", 1262, criterion=3887} -- On the Blade's Edge
 A{"BladesEdgeMountains", 1276, 0.278, 0.527}
 
 -- Exploration/Outland: Medium Rare
-A{"BladesEdgeMountains", 1311, criterion=4504, note="[various]"} -- Ambassador Jerrikar
-A{"BladesEdgeMountains", 1311, criterion=4508} -- Collidus the Warp-Watcher
-A{"BladesEdgeMountains", 1311, criterion=4514} -- Hemathion
-A{"BladesEdgeMountains", 1311, criterion=4518} -- Morcrush
-A{"BladesEdgeMountains", 1311, criterion=4515} -- Kraator
-A{"BladesEdgeMountains", 1311, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1311, 0.306, 0.586, criterion=4504, note="[various]"} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.298, 0.522, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.282, 0.480, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.466, 0.660, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.456, 0.680, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.480, 0.684, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.468, 0.708, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.716, 0.632, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.680, 0.614, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.596, 0.372, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.562, 0.386, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.570, 0.342, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.456, 0.312, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.468, 0.266, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1311, 0.456, 0.522, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1311, 0.386, 0.424, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1311, 0.364, 0.454, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1311, 0.592, 0.220, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1311, 0.668, 0.218, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1311, 0.674, 0.286, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1311, 0.738, 0.292, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1311, 0.558, 0.736, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1311, 0.582, 0.736, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1311, 0.626, 0.626, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1311, 0.716, 0.666, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1311, 0.646, 0.680, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1311, 0.308, 0.718, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1311, 0.290, 0.682, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1311, 0.308, 0.678, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1311, 0.298, 0.644, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1311, 0.320, 0.548, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1311, 0.296, 0.508, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1311, 0.300, 0.448, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1311, 0.686, 0.738, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1311, 0.680, 0.650, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1311, 0.618, 0.540, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1311, 0.708, 0.428, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1311, 0.590, 0.254, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1311, 0.620, 0.196, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1311, 0.684, 0.328, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1311, 0.776, 0.240, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1311, 0.456, 0.126, criterion=4515} -- Kraator
+A{"BladesEdgeMountains", 1311, 0.420, 0.400, criterion=4515} -- Kraator
+A{"BladesEdgeMountains", 1311, 0.312, 0.456, criterion=4515} -- Kraator
+A{"BladesEdgeMountains", 1311, 0.596, 0.466, criterion=4515} -- Kraator
+A{"BladesEdgeMountains", 1311, 0.420, 0.688, criterion=4515} -- Kraator
+A{"BladesEdgeMountains", 1311, 0.668, 0.268, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1311, 0.644, 0.192, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1311, 0.578, 0.330, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1311, 0.564, 0.244, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1311, 0.426, 0.502, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1311, 0.398, 0.570, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1311, 0.468, 0.764, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1311, 0.428, 0.812, criterion=4521} -- Speaker Mar'grom
 
 -- Exploration/Outland: Bloody Rare
-A{"BladesEdgeMountains", 1312, criterion=4504} -- Ambassador Jerrikar
-A{"BladesEdgeMountains", 1312, criterion=4514} -- Hemathion
-A{"BladesEdgeMountains", 1312, criterion=4518} -- Morcrush
-A{"BladesEdgeMountains", 1312, criterion=4521} -- Speaker Mar'grom
-A{"BladesEdgeMountains", 1312, criterion=4508} -- Collidus the Warp-Watcher
-A{"BladesEdgeMountains", 1312, criterion=4515} -- Kraator
+A{"BladesEdgeMountains", 1312, 0.306, 0.586, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.298, 0.522, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.282, 0.480, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.466, 0.660, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.456, 0.680, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.480, 0.684, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.468, 0.708, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.716, 0.632, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.680, 0.614, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.596, 0.372, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.562, 0.386, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.570, 0.342, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.456, 0.312, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.468, 0.266, criterion=4504} -- Ambassador Jerrikar
+A{"BladesEdgeMountains", 1312, 0.308, 0.718, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1312, 0.290, 0.682, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1312, 0.308, 0.678, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1312, 0.298, 0.644, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1312, 0.320, 0.548, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1312, 0.296, 0.508, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1312, 0.300, 0.448, criterion=4514} -- Hemathion
+A{"BladesEdgeMountains", 1312, 0.686, 0.738, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1312, 0.680, 0.650, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1312, 0.618, 0.540, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1312, 0.708, 0.428, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1312, 0.590, 0.254, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1312, 0.620, 0.196, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1312, 0.684, 0.328, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1312, 0.776, 0.240, criterion=4518} -- Morcrush
+A{"BladesEdgeMountains", 1312, 0.668, 0.268, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1312, 0.644, 0.192, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1312, 0.578, 0.330, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1312, 0.564, 0.244, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1312, 0.426, 0.502, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1312, 0.398, 0.570, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1312, 0.468, 0.764, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1312, 0.428, 0.812, criterion=4521} -- Speaker Mar'grom
+A{"BladesEdgeMountains", 1312, 0.456, 0.522, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1312, 0.386, 0.424, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1312, 0.364, 0.454, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1312, 0.592, 0.220, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1312, 0.668, 0.218, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1312, 0.674, 0.286, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1312, 0.738, 0.292, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1312, 0.558, 0.736, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1312, 0.582, 0.736, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1312, 0.626, 0.626, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1312, 0.716, 0.666, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1312, 0.646, 0.680, criterion=4508} -- Collidus the Warp-Watcher
+A{"BladesEdgeMountains", 1312, 0.456, 0.126, criterion=4515} -- Kraator
+A{"BladesEdgeMountains", 1312, 0.420, 0.400, criterion=4515} -- Kraator
+A{"BladesEdgeMountains", 1312, 0.312, 0.456, criterion=4515} -- Kraator
+A{"BladesEdgeMountains", 1312, 0.596, 0.466, criterion=4515} -- Kraator
+A{"BladesEdgeMountains", 1312, 0.420, 0.688, criterion=4515} -- Kraator
 
 -- Professions/Fishing: One That Didn't Get Away
 A{"BlastedLands", 878, 0.658, 0.845, criterion=1838, note="coastal waters"} -- 22 Pound Lobster
@@ -1130,14 +1226,58 @@ A{"Hellfire", 1262, criterion=3915, note="[criterionID guess]", side="horde"} --
 A{"Hellfire", 1271, criterion=3912, side="horde"} -- 84 Hellfire quests
 
 -- Exploration/Outland: Medium Rare
-A{"Hellfire", 1311, criterion=4512} -- Fulgorge
-A{"Hellfire", 1311, criterion=4517} -- Mekthorg the Wild
-A{"Hellfire", 1311, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1311, 0.242, 0.636, criterion=4512} -- Fulgorge
+A{"Hellfire", 1311, 0.248, 0.496, criterion=4512} -- Fulgorge
+A{"Hellfire", 1311, 0.310, 0.368, criterion=4512} -- Fulgorge
+A{"Hellfire", 1311, 0.276, 0.698, criterion=4512} -- Fulgorge
+A{"Hellfire", 1311, 0.324, 0.606, criterion=4512} -- Fulgorge
+A{"Hellfire", 1311, 0.406, 0.516, criterion=4512} -- Fulgorge
+A{"Hellfire", 1311, 0.586, 0.716, criterion=4512} -- Fulgorge
+A{"Hellfire", 1311, 0.472, 0.696, criterion=4512} -- Fulgorge
+A{"Hellfire", 1311, 0.414, 0.710, criterion=4512} -- Fulgorge
+A{"Hellfire", 1311, 0.402, 0.648, criterion=4512} -- Fulgorge
+A{"Hellfire", 1311, 0.418, 0.718, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1311, 0.472, 0.576, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1311, 0.480, 0.544, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1311, 0.556, 0.504, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1311, 0.478, 0.468, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1311, 0.452, 0.406, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1311, 0.676, 0.768, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1311, 0.674, 0.682, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1311, 0.728, 0.572, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1311, 0.710, 0.468, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1311, 0.744, 0.396, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1311, 0.656, 0.306, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1311, 0.536, 0.294, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1311, 0.426, 0.318, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1311, 0.384, 0.298, criterion=4523} -- Vorakem Doomspeaker
 
 -- Exploration/Outland: Bloody Rare
-A{"Hellfire", 1312, criterion=4512} -- Fulgorge
-A{"Hellfire", 1312, criterion=4523} -- Vorakem Doomspeaker
-A{"Hellfire", 1312, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1312, 0.242, 0.636, criterion=4512} -- Fulgorge
+A{"Hellfire", 1312, 0.248, 0.496, criterion=4512} -- Fulgorge
+A{"Hellfire", 1312, 0.310, 0.368, criterion=4512} -- Fulgorge
+A{"Hellfire", 1312, 0.276, 0.698, criterion=4512} -- Fulgorge
+A{"Hellfire", 1312, 0.324, 0.606, criterion=4512} -- Fulgorge
+A{"Hellfire", 1312, 0.406, 0.516, criterion=4512} -- Fulgorge
+A{"Hellfire", 1312, 0.586, 0.716, criterion=4512} -- Fulgorge
+A{"Hellfire", 1312, 0.472, 0.696, criterion=4512} -- Fulgorge
+A{"Hellfire", 1312, 0.414, 0.710, criterion=4512} -- Fulgorge
+A{"Hellfire", 1312, 0.402, 0.648, criterion=4512} -- Fulgorge
+A{"Hellfire", 1312, 0.728, 0.572, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1312, 0.710, 0.468, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1312, 0.744, 0.396, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1312, 0.656, 0.306, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1312, 0.536, 0.294, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1312, 0.426, 0.318, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1312, 0.384, 0.298, criterion=4523} -- Vorakem Doomspeaker
+A{"Hellfire", 1312, 0.418, 0.718, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1312, 0.472, 0.576, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1312, 0.480, 0.544, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1312, 0.556, 0.504, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1312, 0.478, 0.468, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1312, 0.452, 0.406, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1312, 0.676, 0.768, criterion=4517} -- Mekthorg the Wild
+A{"Hellfire", 1312, 0.674, 0.682, criterion=4517} -- Mekthorg the Wild
 
 -- Exploration: Field Photographer
 A{"Hellfire", 9924, 0.640, 0.210, criterion=27974} -- Throne of Kil'jaeden
@@ -2233,12 +2373,26 @@ A{"Nagrand", 1262, criterion=3918, note="[criterionID guess]", side="horde"} -- 
 A{"Nagrand", 1273, criterion=3586, side="horde"} -- 85 Nagrand quests
 
 -- Exploration/Outland: Medium Rare
-A{"Nagrand", 1311, criterion=4522} -- Voidhunter Yar
-A{"Nagrand", 1311, criterion=4513} -- Goretooth
+A{"Nagrand", 1311, 0.358, 0.656, criterion=4522} -- Voidhunter Yar
+A{"Nagrand", 1311, 0.346, 0.768, criterion=4522} -- Voidhunter Yar
+A{"Nagrand", 1311, 0.326, 0.716, criterion=4522} -- Voidhunter Yar
+A{"Nagrand", 1311, 0.398, 0.710, criterion=4522} -- Voidhunter Yar
+A{"Nagrand", 1311, 0.054, 0.472, criterion=4513} -- Goretooth
+A{"Nagrand", 1311, 0.428, 0.478, criterion=4513} -- Goretooth
+A{"Nagrand", 1311, 0.422, 0.400, criterion=4513} -- Goretooth
+A{"Nagrand", 1311, 0.588, 0.288, criterion=4513} -- Goretooth
+A{"Nagrand", 1311, 0.766, 0.788, criterion=4513} -- Goretooth
 
 -- Exploration/Outland: Bloody Rare
-A{"Nagrand", 1312, criterion=4513} -- Goretooth
-A{"Nagrand", 1312, criterion=4522} -- Voidhunter Yar
+A{"Nagrand", 1312, 0.054, 0.472, criterion=4513} -- Goretooth
+A{"Nagrand", 1312, 0.428, 0.478, criterion=4513} -- Goretooth
+A{"Nagrand", 1312, 0.422, 0.400, criterion=4513} -- Goretooth
+A{"Nagrand", 1312, 0.588, 0.288, criterion=4513} -- Goretooth
+A{"Nagrand", 1312, 0.766, 0.788, criterion=4513} -- Goretooth
+A{"Nagrand", 1312, 0.358, 0.656, criterion=4522} -- Voidhunter Yar
+A{"Nagrand", 1312, 0.346, 0.768, criterion=4522} -- Voidhunter Yar
+A{"Nagrand", 1312, 0.326, 0.716, criterion=4522} -- Voidhunter Yar
+A{"Nagrand", 1312, 0.398, 0.710, criterion=4522} -- Voidhunter Yar
 
 -- Quests: Of Blood and Anguish
 A{"Nagrand", 1576, criterion=5798} -- The Ring of Blood: The Final Challenge
@@ -2290,14 +2444,52 @@ A{"Netherstorm", 1194, criterion=3588} -- 120 Netherstorm quests
 A{"Netherstorm", 1262, criterion=3888} -- Into the Nether
 
 -- Exploration/Outland: Medium Rare
-A{"Netherstorm", 1311, criterion=4506} -- Chief Engineer Lorthander
-A{"Netherstorm", 1311, criterion=4511} -- Ever-Core the Punisher
-A{"Netherstorm", 1311, criterion=4519} -- Nuramoc
+A{"Netherstorm", 1311, 0.266, 0.420, criterion=4506} -- Chief Engineer Lorthander
+A{"Netherstorm", 1311, 0.270, 0.372, criterion=4506} -- Chief Engineer Lorthander
+A{"Netherstorm", 1311, 0.586, 0.640, criterion=4506} -- Chief Engineer Lorthander
+A{"Netherstorm", 1311, 0.610, 0.654, criterion=4506} -- Chief Engineer Lorthander
+A{"Netherstorm", 1311, 0.466, 0.832, criterion=4506} -- Chief Engineer Lorthander
+A{"Netherstorm", 1311, 0.462, 0.808, criterion=4506} -- Chief Engineer Lorthander
+A{"Netherstorm", 1311, 0.230, 0.646, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1311, 0.234, 0.758, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1311, 0.206, 0.700, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1311, 0.278, 0.708, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1311, 0.628, 0.324, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1311, 0.616, 0.468, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1311, 0.576, 0.404, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1311, 0.676, 0.392, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1311, 0.308, 0.418, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1311, 0.244, 0.406, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1311, 0.250, 0.824, criterion=4519} -- Nuramoc
+A{"Netherstorm", 1311, 0.460, 0.734, criterion=4519} -- Nuramoc
+A{"Netherstorm", 1311, 0.676, 0.610, criterion=4519} -- Nuramoc
+A{"Netherstorm", 1311, 0.528, 0.578, criterion=4519} -- Nuramoc
+A{"Netherstorm", 1311, 0.350, 0.332, criterion=4519} -- Nuramoc
+A{"Netherstorm", 1311, 0.358, 0.208, criterion=4519} -- Nuramoc
 
 -- Exploration/Outland: Bloody Rare
-A{"Netherstorm", 1312, criterion=4519} -- Nuramoc
-A{"Netherstorm", 1312, criterion=4506} -- Chief Engineer Lorthander
-A{"Netherstorm", 1312, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1312, 0.250, 0.824, criterion=4519} -- Nuramoc
+A{"Netherstorm", 1312, 0.460, 0.734, criterion=4519} -- Nuramoc
+A{"Netherstorm", 1312, 0.676, 0.610, criterion=4519} -- Nuramoc
+A{"Netherstorm", 1312, 0.528, 0.578, criterion=4519} -- Nuramoc
+A{"Netherstorm", 1312, 0.350, 0.332, criterion=4519} -- Nuramoc
+A{"Netherstorm", 1312, 0.358, 0.208, criterion=4519} -- Nuramoc
+A{"Netherstorm", 1312, 0.266, 0.420, criterion=4506} -- Chief Engineer Lorthander
+A{"Netherstorm", 1312, 0.270, 0.372, criterion=4506} -- Chief Engineer Lorthander
+A{"Netherstorm", 1312, 0.586, 0.640, criterion=4506} -- Chief Engineer Lorthander
+A{"Netherstorm", 1312, 0.610, 0.654, criterion=4506} -- Chief Engineer Lorthander
+A{"Netherstorm", 1312, 0.466, 0.832, criterion=4506} -- Chief Engineer Lorthander
+A{"Netherstorm", 1312, 0.462, 0.808, criterion=4506} -- Chief Engineer Lorthander
+A{"Netherstorm", 1312, 0.230, 0.646, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1312, 0.234, 0.758, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1312, 0.206, 0.700, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1312, 0.278, 0.708, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1312, 0.628, 0.324, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1312, 0.616, 0.468, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1312, 0.576, 0.404, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1312, 0.676, 0.392, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1312, 0.308, 0.418, criterion=4511} -- Ever-Core the Punisher
+A{"Netherstorm", 1312, 0.244, 0.406, criterion=4511} -- Ever-Core the Punisher
 
 -- Exploration: Field Photographer
 A{"Netherstorm", 9924, 0.450, 0.350, criterion=27966} -- The Stormspire
@@ -3336,14 +3528,64 @@ A{"TerokkarForest", 1272, criterion=3585, side="horde"} -- 68 Terokkar Forest qu
 A{"TerokkarForest", 1275}
 
 -- Exploration/Outland: Medium Rare
-A{"TerokkarForest", 1311, criterion=4510} -- Doomsayer Jurim
-A{"TerokkarForest", 1311, criterion=4520} -- Okrek
-A{"TerokkarForest", 1311, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.580, 0.336, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1311, 0.680, 0.466, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1311, 0.366, 0.420, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1311, 0.358, 0.358, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1311, 0.416, 0.262, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1311, 0.476, 0.268, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1311, 0.558, 0.198, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1311, 0.496, 0.182, criterion=4520} -- Okrek
+A{"TerokkarForest", 1311, 0.310, 0.430, criterion=4520} -- Okrek
+A{"TerokkarForest", 1311, 0.592, 0.242, criterion=4520} -- Okrek
+A{"TerokkarForest", 1311, 0.566, 0.678, criterion=4520} -- Okrek
+A{"TerokkarForest", 1311, 0.466, 0.788, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.516, 0.666, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.506, 0.624, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.454, 0.624, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.486, 0.558, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.468, 0.522, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.434, 0.570, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.392, 0.492, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.408, 0.626, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.388, 0.676, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.412, 0.658, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.390, 0.636, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.324, 0.510, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.354, 0.560, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.294, 0.556, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.324, 0.634, criterion=4509} -- Crippler
+A{"TerokkarForest", 1311, 0.286, 0.634, criterion=4509} -- Crippler
 
 -- Exploration/Outland: Bloody Rare
-A{"TerokkarForest", 1312, criterion=4509} -- Crippler
-A{"TerokkarForest", 1312, criterion=4520} -- Okrek
-A{"TerokkarForest", 1312, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1312, 0.466, 0.788, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.516, 0.666, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.506, 0.624, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.454, 0.624, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.486, 0.558, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.468, 0.522, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.434, 0.570, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.392, 0.492, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.408, 0.626, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.388, 0.676, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.412, 0.658, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.390, 0.636, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.324, 0.510, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.354, 0.560, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.294, 0.556, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.324, 0.634, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.286, 0.634, criterion=4509} -- Crippler
+A{"TerokkarForest", 1312, 0.496, 0.182, criterion=4520} -- Okrek
+A{"TerokkarForest", 1312, 0.310, 0.430, criterion=4520} -- Okrek
+A{"TerokkarForest", 1312, 0.592, 0.242, criterion=4520} -- Okrek
+A{"TerokkarForest", 1312, 0.566, 0.678, criterion=4520} -- Okrek
+A{"TerokkarForest", 1312, 0.580, 0.336, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1312, 0.680, 0.466, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1312, 0.366, 0.420, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1312, 0.358, 0.358, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1312, 0.416, 0.262, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1312, 0.476, 0.268, criterion=4510} -- Doomsayer Jurim
+A{"TerokkarForest", 1312, 0.558, 0.198, criterion=4510} -- Doomsayer Jurim
 
 -- Dungeons & Raids/Pandaria Raid: Terrace of Endless Spring
 A{"TerraceOfEndlessSpring", 6689, 0.790, 0.464, criterion=19518} -- Protectors of the Endless
@@ -4662,14 +4904,52 @@ A{"Zangarmarsh", 1190, criterion=3584} -- 52 Zangarmarsh quests
 A{"Zangarmarsh", 1262, criterion=3884} -- Mysteries of the Marsh
 
 -- Exploration/Outland: Medium Rare
-A{"Zangarmarsh", 1311, criterion=4516} -- Marticar
-A{"Zangarmarsh", 1311, criterion=4505} -- Bog Lurker
-A{"Zangarmarsh", 1311, criterion=4507} -- Coilfang Emissary
+A{"Zangarmarsh", 1311, 0.100, 0.524, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1311, 0.186, 0.314, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1311, 0.796, 0.536, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1311, 0.698, 0.400, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1311, 0.552, 0.340, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1311, 0.480, 0.300, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1311, 0.430, 0.354, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1311, 0.394, 0.332, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1311, 0.380, 0.382, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1311, 0.224, 0.214, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1311, 0.228, 0.284, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1311, 0.268, 0.276, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1311, 0.276, 0.212, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1311, 0.408, 0.622, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1311, 0.506, 0.596, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1311, 0.864, 0.890, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1311, 0.844, 0.792, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1311, 0.258, 0.426, criterion=4507} -- Coilfang Emissary
+A{"Zangarmarsh", 1311, 0.630, 0.380, criterion=4507} -- Coilfang Emissary
+A{"Zangarmarsh", 1311, 0.620, 0.696, criterion=4507} -- Coilfang Emissary
+A{"Zangarmarsh", 1311, 0.722, 0.760, criterion=4507} -- Coilfang Emissary
+A{"Zangarmarsh", 1311, 0.736, 0.822, criterion=4507} -- Coilfang Emissary
 
 -- Exploration/Outland: Bloody Rare
-A{"Zangarmarsh", 1312, criterion=4505} -- Bog Lurker
-A{"Zangarmarsh", 1312, criterion=4516} -- Marticar
-A{"Zangarmarsh", 1312, criterion=4507} -- Coilfang Emissary
+A{"Zangarmarsh", 1312, 0.224, 0.214, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1312, 0.228, 0.284, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1312, 0.268, 0.276, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1312, 0.276, 0.212, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1312, 0.408, 0.622, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1312, 0.506, 0.596, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1312, 0.864, 0.890, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1312, 0.844, 0.792, criterion=4505} -- Bog Lurker
+A{"Zangarmarsh", 1312, 0.100, 0.524, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1312, 0.186, 0.314, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1312, 0.796, 0.536, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1312, 0.698, 0.400, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1312, 0.552, 0.340, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1312, 0.480, 0.300, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1312, 0.430, 0.354, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1312, 0.394, 0.332, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1312, 0.380, 0.382, criterion=4516} -- Marticar
+A{"Zangarmarsh", 1312, 0.258, 0.426, criterion=4507} -- Coilfang Emissary
+A{"Zangarmarsh", 1312, 0.630, 0.380, criterion=4507} -- Coilfang Emissary
+A{"Zangarmarsh", 1312, 0.620, 0.696, criterion=4507} -- Coilfang Emissary
+A{"Zangarmarsh", 1312, 0.722, 0.760, criterion=4507} -- Coilfang Emissary
+A{"Zangarmarsh", 1312, 0.736, 0.822, criterion=4507} -- Coilfang Emissary
 
 -- Quests/Northrend: The Empire of Zul'Drak
 A{"ZulDrak", 36, criterion=77} -- Complete 100 Zul'Drak Quests
