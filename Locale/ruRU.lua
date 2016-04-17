@@ -4,7 +4,7 @@ local ADDON_NAME = ...
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0")
 assert(AceLocale, string.format("%s requires %s", ADDON_NAME, "AceLocale-3.0"))
 
-local L = AceLocale:NewLocale(ADDON_NAME, "ruRU", true)
+local L = AceLocale:NewLocale(ADDON_NAME, "ruRU")
 if not L then return end
 
 -- import
