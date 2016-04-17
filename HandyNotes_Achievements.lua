@@ -316,7 +316,7 @@ function HNA:Valid(row)
     end
 
     if row.season then
-        local days = InSeason:TimeUntilHoliday(row.season)
+        local days = InSeason:TimeUntilHoliday(row.season) or 365
         if days > self.db.profile.season_warning then return false end
     end
 

@@ -1,7 +1,7 @@
 ## Interface: 60200
 ## Title: HandyNotes: Achievements
 ## Description: Shows location of incomplete achievements
-## Version: 0.4.14
+## Version: 0.4.15
 ## Author: rbrian
 ## Dependencies: HandyNotes
 ## SavedVariables: HandyNotesAchievementsDB

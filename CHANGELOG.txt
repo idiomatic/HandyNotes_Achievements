@@ -1,3 +1,10 @@
+== v0.4.15 ==
+
+* added other locales (thanks pas06!) [more help wanted]
+* renamed Winter Veil
+* added Medium Rare and Bloody Rare locations
+* fixed bug for calendar limits
+
 == v0.4.14 ==
 
 * added enUS locale

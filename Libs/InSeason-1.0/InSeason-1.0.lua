@@ -84,7 +84,7 @@ function InSeason:TimeUntilHoliday(title, type)
     end
 
     if self.holidayStart[title] == nil then
-        DEFAULT_CHAT_FRAME:AddMessage(string.format("don't know when next %s is", title))
+        --DEFAULT_CHAT_FRAME:AddMessage(string.format("don't know when next %s is", title))
         return nil
     end
 
