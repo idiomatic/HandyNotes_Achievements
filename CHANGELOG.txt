@@ -1,3 +1,7 @@
+== v0.4.16 ==
+
+* trick WowAce to rebuild
+
 == v0.4.15 ==
 
 * added other locales (thanks pas06!) [more help wanted]
