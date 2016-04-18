@@ -1,4 +1,4 @@
-== v0.4.16 ==
+== v0.4.16 & v0.4.17 ==
 
 * trick WowAce to rebuild
 

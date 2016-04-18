@@ -1,6 +1,6 @@
 ## Interface: 60200
 ## Title: Lib AchievementLocations-1.0
-## Version: 0.4.16
+## Version: 0.4.17
 ## Author: rbrian
 ## X-License: Apache
 
