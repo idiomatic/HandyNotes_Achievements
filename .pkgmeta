@@ -20,6 +20,14 @@ externals:
 ignore:
   - Makefile
   - Site
+  - Libs/LibStub
+  - Libs/CallbackHandler-1.0
+  - Libs/AceAddon-3.0
+  - Libs/AceDB-3.0
+  - Libs/AceEvent-3.0
+  - Libs/AceLocale-3.0
+  - Libs/AceTimer-3.0
+  - Libs/LibQTip-1.0
 required-dependencies:
   - handynotes
 manual-changelog:
