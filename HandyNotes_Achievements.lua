@@ -56,10 +56,11 @@ function HNA:RGBToColorCode(rgba)
 end
 
 function HNA:HandyNotesCoordsNear(c, coord)
-    --return c == coord
     -- within 3% of the map
-    local dx = (c - coord) / 1e8
-    local dy = (c % 1e4 - coord % 1e4) / 1e4
+    local x, y = HandyNotes:getXY(c)
+    local x2, y2 = HandyNotes:getXY(coord)
+    local dx = x - x2
+    local dy = y - y2
     return dx * dx + dy * dy < self.NEAR * self.NEAR
 end
 
@@ -77,7 +78,7 @@ function HNA:OnEnter(mapFile, nearCoord)
             local criterion = row.criterion
 
             local _, name, points, completed, _, _, _, description, _, _, _, _, _, _ = GetAchievementInfo(achievementID)
-            
+
             if achievementID ~= previousAchievementID then
                 if not firstRow then
                     tooltip:AddSeparator(2, 0, 0, 0, 0)
@@ -184,7 +185,7 @@ local function notifyUpdate(frame, event)
     HNA:UpdateVisible()
     HNA:SendMessage("HandyNotes_NotifyUpdate", ADDON_NAME)
 end
-    
+
 
 function HNA:PLAYER_ENTERING_WORLD(event)
     self:UnregisterEvent("PLAYER_ENTERING_WORLD")
@@ -290,7 +291,7 @@ function HNA:Valid(row)
     if row.side ~= nil and row.side ~= "both" and row.side ~= string.lower(factionGroup) then
         return false
     end
-    
+
     if self.db.profile.completed then return true end
 
     local _, _, _, completed, _, _, _, _, _, _, _, _, earnedByMe, _ = GetAchievementInfo(achievementID)
@@ -331,7 +332,7 @@ function HNA:GetNodes(mapFile, minimap, dungeonLevel)
         for _, row in ipairs(rows or EMPTY) do
             if (dungeonLevel or row.floor) == (row.floor or dungeonLevel) then
                 if self:Valid(row) then
-                    local coord = row[2] and row[3] and row[2] * 1e8 + row[3] * 1e4
+                    local coord = row[2] and row[3] and HandyNotes:getCoord(row[2], row[3])
                     coroutine.yield(overrideMapFile or mapFile, overrideCoord or coord or self.DEFAULT_COORD, row)
                 end
             end
@@ -348,7 +349,7 @@ function HNA:GetNodes(mapFile, minimap, dungeonLevel)
         local instances = InstanceLocations:GetBelow(mapFile)
         for _, instanceMapFile in ipairs(instances or EMPTY) do
             local overrideMapFile, instanceX, instanceY = unpack(InstanceLocations:GetLocation(instanceMapFile))
-            local coord = instanceX and instanceY and instanceX * 1e8 + instanceY * 1e4
+            local coord = instanceX and instanceY and HandyNotes:getCoord(instanceX, instanceY)
             validRows(instanceMapFile, nil, overrideMapFile, overrideCoord or coord)
         end
     end
