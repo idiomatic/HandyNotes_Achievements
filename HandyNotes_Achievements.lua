@@ -70,11 +70,11 @@ function HNA:OnEnter(mapFile, nearCoord)
     local firstRow = true
     local previousAchievementID
 
-    for nodeIndex = 1, #activeNodes[mapFile], 2 do
-        local nodes = activeNodes[mapFile]
+    local nodes = activeNodes[mapFile]
+    for nodeIndex = 1, #nodes, 2 do
         local coord, row = nodes[nodeIndex], nodes[nodeIndex + 1]
         if HNA:HandyNotesCoordsNear(coord, nearCoord) and HNA:Valid(row) then
-            local achievementID = row[1]
+            local achievementID = row[2]
             local criterion = row.criterion
 
             local _, name, points, completed, _, _, _, description, _, _, _, _, _, _ = GetAchievementInfo(achievementID)
@@ -148,7 +148,7 @@ function HNA:OnClick(button, down, mapFile, nearCoord)
             local nodes = activeNodes[mapFile]
             local coord, row = nodes[nodeIndex], nodes[nodeIndex + 1]
             if HNA:HandyNotesCoordsNear(coord, nearCoord) and HNA:Valid(row) then
-                local achievementID = row[1]
+                local achievementID = row[2]
                 if not shown[achievementID] then
                     shown[achievementID] = true
                     print(GetAchievementLink(achievementID))
@@ -284,7 +284,7 @@ end
 
 
 function HNA:Valid(row)
-    local achievementID = row[1]
+    local achievementID = row[2]
     if not visible[achievementID] then return false end
 
     local factionGroup = UnitFactionGroup("player")
@@ -332,7 +332,7 @@ function HNA:GetNodes(mapFile, minimap, dungeonLevel)
         for _, row in ipairs(rows or EMPTY) do
             if (dungeonLevel or row.floor) == (row.floor or dungeonLevel) then
                 if self:Valid(row) then
-                    local coord = row[2] and row[3] and HandyNotes:getCoord(row[2], row[3])
+                    local coord = row[3] and row[4] and HandyNotes:getCoord(row[3], row[4])
                     coroutine.yield(overrideMapFile or mapFile, overrideCoord or coord or self.DEFAULT_COORD, row)
                 end
             end
