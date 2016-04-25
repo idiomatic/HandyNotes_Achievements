@@ -300,8 +300,8 @@ A{"BoreanTundra", 2257, 0.670, 0.370, criterion=8104, note="or thereabouts"} -- 
 A{"BoreanTundra", 2257, 0.270, 0.360, criterion=8103, note="or thereabouts"} -- Old Crystalbark
 
 -- General: To All The Squirrels Who Shared My Life
-A{"BoreanTundra", 2557, 0.510, 0.730, criterion=0} -- Borean Marmot
-A{"BoreanTundra", 2557, 0.620, 0.680, criterion=0} -- Tundra Penguin
+A{"BoreanTundra", 2557, 0.510, 0.730, criterion="Borean Marmot"} -- Borean Marmot
+A{"BoreanTundra", 2557, 0.620, 0.680, criterion="Tundra Penguin"} -- Tundra Penguin
 
 -- Professions/Fishing: The Oceanographer
 A{"BoreanTundra", 5479, criterion=15911} -- Borean Man O' War
@@ -544,7 +544,7 @@ A{"Dragonblight", 2257, 0.306, 0.586, criterion=8110} -- Crazed Indu'le Survivor
 A{"Dragonblight", 2257, 0.730, 0.260, criterion=8111, note="or thereabouts"} -- Scarlet Highlord Daion
 
 -- General: To All The Squirrels Who Shared My Life
-A{"Dragonblight", 2557, 0.280, 0.500, criterion=0} -- Arctic Hare
+A{"Dragonblight", 2557, 0.280, 0.500, criterion="Arctic Hare"} -- Arctic Hare
 
 -- Collections/Mounts: Awake the Drakes
 A{"Dragonblight", 9713, 0.598, 0.530, criterion=26685, note="from Cielstrasza\nThe Wyrmrest Accord exalted"} -- Red Drake
@@ -1127,8 +1127,8 @@ A{"GrizzlyHills", 2257, 0.340, 0.500, criterion=8113, note="or thereabouts"} -- 
 A{"GrizzlyHills", 2257, 0.710, 0.340, criterion=8114, note="or thereabouts"} -- Syreian the Bonecarver
 
 -- General: To All The Squirrels Who Shared My Life
-A{"GrizzlyHills", 2557, 0.430, 0.480, criterion=0} -- Grizzly Squirrel
-A{"GrizzlyHills", 2557, 0.570, 0.350, criterion=0} -- Mountain Skunk
+A{"GrizzlyHills", 2557, 0.430, 0.480, criterion="Grizzly Squirrel"} -- Grizzly Squirrel
+A{"GrizzlyHills", 2557, 0.570, 0.350, criterion="Mountain Skunk"} -- Mountain Skunk
 
 -- Garrisons: Ten Hit Tunes
 A{"GrizzlyHills", 9828, criterion=27762, note="from Remington Brode\n1. Breathe deeply.\n2. I'm looking for a song...\n3. A song about the wilderness.", side="alliance"} -- Totems of the Grizzlemaw
@@ -1481,7 +1481,7 @@ A{"HighmaulRaid", 9838, criterion=27633, note="in Imperator's Rise"} -- Imperato
 A{"HillsbradFoothills", 1676, criterion=15211, side="horde"} -- Redridge/Hillsbrad
 
 -- General: To All The Squirrels Who Shared My Life
-A{"HillsbradFoothills", 2557, 0.566, 0.612, criterion=0} -- Huge Toad
+A{"HillsbradFoothills", 2557, 0.566, 0.612, criterion="Huge Toad"} -- Huge Toad
 
 -- Quests/Eastern Kingdoms: Hillsbrad Foothills Quests
 A{"HillsbradFoothills", 4895, criterion=13712, side="horde"} -- Hillsbrad Foothills
@@ -1618,19 +1618,19 @@ A{"IcecrownGlacier", 2756}
 A{"IcecrownGlacier", 2758}
 
 -- World Events/Argent Tournament: Exalted Champion of Darnassus
-A{"IcecrownGlacier", 2760, criterion=11320, side="alliance"} -- Champion of Darnassus
+A{"IcecrownGlacier", 2760, 0.763, 0.191, criterion=11320, side="alliance"} -- Champion of Darnassus
 
 -- World Events/Argent Tournament: Exalted Champion of the Exodar
-A{"IcecrownGlacier", 2761, criterion=11321, side="alliance"} -- Champion of the Exodar
+A{"IcecrownGlacier", 2761, 0.761, 0.191, criterion=11321, side="alliance"} -- Champion of the Exodar
 
 -- World Events/Argent Tournament: Exalted Champion of Gnomeregan
-A{"IcecrownGlacier", 2762, criterion=11322, side="alliance"} -- Champion of Gnomeregan
+A{"IcecrownGlacier", 2762, 0.765, 0.198, criterion=11322, side="alliance"} -- Champion of Gnomeregan
 
 -- World Events/Argent Tournament: Exalted Champion of Ironforge
-A{"IcecrownGlacier", 2763, criterion=11323, side="alliance"} -- Champion of Ironforge
+A{"IcecrownGlacier", 2763, 0.766, 0.195, criterion=11323, side="alliance"} -- Champion of Ironforge
 
 -- World Events/Argent Tournament: Exalted Champion of Stormwind
-A{"IcecrownGlacier", 2764, criterion=11324, side="alliance"} -- Champion of Stormwind
+A{"IcecrownGlacier", 2764, 0.766, 0.192, criterion=11324, side="alliance"} -- Champion of Stormwind
 
 -- World Events/Argent Tournament: Exalted Champion of Orgrimmar
 A{"IcecrownGlacier", 2765, criterion=9783, side="horde"} -- Champion of Orgrimmar
@@ -1648,11 +1648,11 @@ A{"IcecrownGlacier", 2768, criterion=11328, side="horde"} -- Champion of Thunder
 A{"IcecrownGlacier", 2769, criterion=11329, side="horde"} -- Champion of the Undercity
 
 -- World Events/Argent Tournament: Exalted Champion of the Alliance
-A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9668, side="alliance"} -- Champion of Darnassus
-A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9670, side="alliance"} -- Champion of Gnomeregan
-A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9671, side="alliance"} -- Champion of Stormwind
-A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9672, side="alliance"} -- Champion of Ironforge
-A{"IcecrownGlacier", 2770, 0.763, 0.195, criterion=9669, side="alliance"} -- Champion of the Exodar
+A{"IcecrownGlacier", 2770, 0.763, 0.191, criterion=9668, side="alliance"} -- Champion of Darnassus
+A{"IcecrownGlacier", 2770, 0.765, 0.198, criterion=9670, side="alliance"} -- Champion of Gnomeregan
+A{"IcecrownGlacier", 2770, 0.766, 0.192, criterion=9671, side="alliance"} -- Champion of Stormwind
+A{"IcecrownGlacier", 2770, 0.766, 0.195, criterion=9672, side="alliance"} -- Champion of Ironforge
+A{"IcecrownGlacier", 2770, 0.761, 0.191, criterion=9669, side="alliance"} -- Champion of the Exodar
 
 -- World Events/Argent Tournament: Exalted Champion of the Horde
 A{"IcecrownGlacier", 2771, criterion=9673, side="horde"} -- Champion of Orgrimmar
@@ -1746,7 +1746,7 @@ A{"IcecrownGlacier", 3676, side="alliance"}
 A{"IcecrownGlacier", 3677, side="horde"}
 
 -- World Events/Argent Tournament: Pony Up!
-A{"IcecrownGlacier", 3736}
+A{"IcecrownGlacier", 3736, 0.694, 0.232}
 
 -- Garrisons: Ten Hit Tunes
 A{"IcecrownGlacier", 9828, 0.760, 0.220, criterion=27759, note="25 Champion's Seal", side="alliance"} -- The Argent Tournament
@@ -2948,7 +2948,7 @@ A{"Scholomance", 6916}
 A{"SearingGorge", 1676, criterion=15214} -- Searing Gorge Quests
 
 -- General: To All The Squirrels Who Shared My Life
-A{"SearingGorge", 2557, 0.420, 0.370, criterion=0} -- Lava Crab
+A{"SearingGorge", 2557, 0.420, 0.370, criterion="Lava Crab"} -- Lava Crab
 
 -- Quests/Eastern Kingdoms: Searing Gorge Quests
 A{"SearingGorge", 4910, criterion=13748} -- Searing Gorge

@@ -268,7 +268,7 @@ A{"Ashran", 9715, side="horde"}
 
 -- Player vs. Player/Arena: World Wide Winner
 A{"BladesEdgeMountains", 699, 0.530, 0.440, criterion=5739} -- Blade's Edge Arena
-A{"Dalaran", 699, criterion=8587} -- Dalaran Sewers
+A{"Dalaran", 699, criterion=8587, floor=2} -- Dalaran Sewers
 
 -- Player vs. Player: Wrath of the Horde
 A{"Darnassus", 603, criterion=6638, side="horde"} -- Darnassus

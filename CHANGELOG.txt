@@ -1,6 +1,11 @@
+== v0.4.19 ==
+
+* Children's Week tweaks
+* Tranditional Chinese (zhTW) localization (thanks gaspy10!) [more translation help wanted]
+
 == v0.4.18 ==
 
-* bugfix for mapFile row column coherency [Bagmer] (or "why you don't work on new features in the same directory as you use for making unrelated updates".)
+* bugfix for adding mapFile column to rows [Bagmer] (or "why you don't work on new features in the same directory as you use for making unrelated updates".)
 
 == v0.4.17-1 ==
 
@@ -12,7 +17,7 @@
 
 == v0.4.15 ==
 
-* added other locales (thanks pas06!) [more help wanted]
+* added other locales (thanks pas06!)
 * renamed Winter Veil
 * added Medium Rare and Bloody Rare locations
 * fixed bug for calendar limits

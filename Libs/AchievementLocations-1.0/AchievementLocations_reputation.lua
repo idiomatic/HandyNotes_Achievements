@@ -87,7 +87,7 @@ A{"HillsbradFoothills", 2336, quest=349} -- Ravenholdt
 
 -- Reputation: 60 Exalted Reputations
 A{"HillsbradFoothills", 6742, criterion=982, faction=349, note="may need a level 60 rogue for pickpocketing Heavy Junkbox"} -- Ravenholdt
-A{"HowlingFjord", 6742, criterion=982, faction=1068, side="alliance"} -- Explorer's League
+A{"HowlingFjord", 6742, 0.308, 0.286, criterion=982, faction=1068, side="alliance"} -- Explorer's League
 A{"HowlingFjord", 6742, criterion=982, faction=1067, side="horde"} -- The Hand of Vengeance
 
 -- Reputation/The Burning Crusade: The Scale of the Sands
@@ -109,19 +109,19 @@ A{"IcecrownGlacier", 1010, criterion=4743, faction=1098} -- Knights of the Ebon 
 A{"IcecrownGlacier", 1010, criterion=4737, faction=1106} -- The Argent Crusade
 
 -- World Events/Argent Tournament: Exalted Champion of Darnassus
-A{"IcecrownGlacier", 2760, criterion=5328, faction=69, side="alliance"} -- Exalted with Darnassus
+A{"IcecrownGlacier", 2760, 0.763, 0.191, criterion=5328, faction=69, side="alliance"} -- Exalted with Darnassus
 
 -- World Events/Argent Tournament: Exalted Champion of the Exodar
-A{"IcecrownGlacier", 2761, criterion=5332, faction=930, side="alliance"} -- Exalted with Exodar
+A{"IcecrownGlacier", 2761, 0.761, 0.191, criterion=5332, faction=930, side="alliance"} -- Exalted with Exodar
 
 -- World Events/Argent Tournament: Exalted Champion of Gnomeregan
-A{"IcecrownGlacier", 2762, criterion=5329, faction=54, side="alliance"} -- Exalted with Gnomeregan Exiles
+A{"IcecrownGlacier", 2762, 0.765, 0.198, criterion=5329, faction=54, side="alliance"} -- Exalted with Gnomeregan Exiles
 
 -- World Events/Argent Tournament: Exalted Champion of Ironforge
-A{"IcecrownGlacier", 2763, criterion=5330, faction=47, side="alliance"} -- Exalted with Ironforge
+A{"IcecrownGlacier", 2763, 0.766, 0.195, criterion=5330, faction=47, side="alliance"} -- Exalted with Ironforge
 
 -- World Events/Argent Tournament: Exalted Champion of Stormwind
-A{"IcecrownGlacier", 2764, criterion=5331, faction=72, side="alliance"} -- Exalted with Stormwind
+A{"IcecrownGlacier", 2764, 0.766, 0.192, criterion=5331, faction=72, side="alliance"} -- Exalted with Stormwind
 
 -- World Events/Argent Tournament: Exalted Champion of Orgrimmar
 A{"IcecrownGlacier", 2765, criterion=5314, faction=76, side="horde"} -- Exalted with Orgrimmar
@@ -147,13 +147,13 @@ A{"ManaTombs", 6742, criterion=982, faction=933} -- The Consortium
 A{"MoltenCore", 6742, criterion=982, faction=749} -- Hydraxian Waterlords
 
 -- Reputation/The Burning Crusade: Oh My, Kurenai
-A{"Nagrand", 899, faction=978, side="alliance"}
+A{"Nagrand", 899, 0.740, 0.670, faction=978, side="alliance"}
 
 -- Reputation/The Burning Crusade: Mag'har of Draenor
 A{"Nagrand", 901, faction=941, side="horde"}
 
 -- Reputation: 60 Exalted Reputations
-A{"Nagrand", 6742, criterion=982, faction=978, side="alliance"} -- Kurenai
+A{"Nagrand", 6742, 0.740, 0.670, criterion=982, faction=978, side="alliance"} -- Kurenai
 A{"Nagrand", 6742, criterion=982, faction=941, side="horde"} -- The Mag'har
 A{"NagrandDraenor", 6742, criterion=982, faction=1711} -- Steamwheedle Preservation Society
 
