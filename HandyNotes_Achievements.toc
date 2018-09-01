@@ -2,12 +2,12 @@
 ## Title: HandyNotes: Achievements
 ## Description: Shows location of incomplete achievements
 ## Version: 0.4.20
-## Author: rbrian
+## Author: idiomatiq
 ## Dependencies: HandyNotes
 ## SavedVariables: HandyNotesAchievementsDB
 ## X-Category: Map & Minimap
 ## X-Curse-Project-Name: HandyNotes: Achievements
-## X-Email: brian@rbrian.com
+## X-Email: idiomatiq@rbrian.com
 ## X-Website: https://github.com/idiomatic/HandyNotes_Achievements
 ## X-License: Apache
 

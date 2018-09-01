@@ -1,7 +1,7 @@
 ## Interface: 80000
 ## Title: Lib AchievementLocations-1.0
 ## Version: 0.4.20
-## Author: rbrian
+## Author: idiomatiq
 ## X-License: Apache
 
 AchievementLocations-1.0.lua
