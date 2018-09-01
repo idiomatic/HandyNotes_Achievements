@@ -1,7 +1,7 @@
-## Interface: 60200
+## Interface: 80000
 ## Title: HandyNotes: Achievements
 ## Description: Shows location of incomplete achievements
-## Version: 0.4.19
+## Version: 0.4.20
 ## Author: rbrian
 ## Dependencies: HandyNotes
 ## SavedVariables: HandyNotesAchievementsDB
@@ -23,7 +23,7 @@ Libs/LibQTip-1.0/LibQTip-1.0.lua
 Libs/MapExcursion-1.0/MapExcursion-1.0.lua
 Libs/MapMap-1.0/MapMap-1.0.lua
 Libs/InstanceLocations-1.0/InstanceLocations-1.0.lua
-Libs/InSeason-1.0/InSeason-1.0.lua
+Libs/InSeason-1.1/InSeason-1.1.lua
 
 Libs/AchievementLocations-1.0/AchievementLocations-1.0.lua
 Libs/AchievementLocations-1.0/AchievementLocations_data.lua

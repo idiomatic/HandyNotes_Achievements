@@ -31,7 +31,25 @@ A{"EastTemple", 6920, criterion=19862} -- Temple of the Jade Serpent
 A{"EastTemple", 8430}
 
 -- Feats of Strength: Boldly, You Sought the Power of Ragnaros
-A{"Firelands", 9550}
+A{"Firelands", 9550, 0.507, 0.153}
+
+-- Feats of Strength: Cutting Edge: Blackhand's Crucible
+A{"FoundryRaid", 9443, 0.484, 0.345}
+
+-- Feats of Strength: Ahead of the Curve: Blackhand's Crucible
+A{"FoundryRaid", 9444, 0.484, 0.345}
+
+-- Feats of Strength: Cutting Edge: Grand Empress Shek'zeer
+A{"HeartofFear", 7486}
+
+-- Feats of Strength: Ahead of the Curve: Grand Empress Shek'zeer
+A{"HeartofFear", 8246}
+
+-- Feats of Strength: Ahead of the Curve: Imperator's Fall
+A{"HighmaulRaid", 9441, 0.453, 0.752}
+
+-- Feats of Strength: Cutting Edge: Imperator's Fall
+A{"HighmaulRaid", 9442, 0.453, 0.752}
 
 -- Feats of Strength: Realm First! Fall of the Lich King
 A{"IcecrownCitadel", 4576, 0.498, 0.528, floor=8}
@@ -57,6 +75,12 @@ A{"MogushanPalace", 6920, criterion=19864} -- Mogu'shan Palace
 -- Feats of Strength: Challenge Master: Mogu'shan Palace
 A{"MogushanPalace", 8433}
 
+-- Feats of Strength: Ahead of the Curve: Will of the Emperor
+A{"MogushanVaults", 6954}
+
+-- Feats of Strength: Cutting Edge: Will of the Emperor
+A{"MogushanVaults", 7485}
+
 -- Feats of Strength: Realm First! Conqueror of Naxxramas
 A{"Naxxramas", 1402, 0.370, 0.230, floor=6}
 
@@ -65,6 +89,18 @@ A{"Naxxramas", 2186}
 
 -- Legacy: The Undying
 A{"Naxxramas", 2187}
+
+-- Feats of Strength: Ahead of the Curve: Garrosh Hellscream (10 player)
+A{"OrgrimmarRaid", 8398, 0.494, 0.713}
+
+-- Feats of Strength: Ahead of the Curve: Garrosh Hellscream (25 player)
+A{"OrgrimmarRaid", 8399, 0.494, 0.713}
+
+-- Feats of Strength: Cutting Edge: Garrosh Hellscream (10 player)
+A{"OrgrimmarRaid", 8400, 0.494, 0.713}
+
+-- Feats of Strength: Cutting Edge: Garrosh Hellscream (25 player)
+A{"OrgrimmarRaid", 8401, 0.494, 0.713}
 
 -- Legacy: Challenge Conqueror: Bronze
 A{"ScarletHalls", 6374, criterion=19879} -- Scarlet Halls
@@ -103,22 +139,22 @@ A{"ScarletMonastery", 6920, 0.490, 0.804, criterion=19868, floor=2} -- Scarlet M
 A{"ScarletMonastery", 8437, 0.490, 0.804, floor=2}
 
 -- Legacy: Challenge Conqueror: Bronze
-A{"Scholomance", 6374, criterion=19881} -- Scholomance
+A{"Scholomance", 6374, 0.501, 0.326, criterion=19881} -- Scholomance
 
 -- Legacy: Challenge Conqueror: Silver
-A{"Scholomance", 6375, criterion=19890} -- Scholomance
+A{"Scholomance", 6375, 0.501, 0.326, criterion=19890} -- Scholomance
 
 -- Legacy: Challenge Conqueror: Gold
-A{"Scholomance", 6378, criterion=19899} -- Scholomance
+A{"Scholomance", 6378, 0.501, 0.326, criterion=19899} -- Scholomance
 
 -- Legacy: Scholomance Challenger
-A{"Scholomance", 6897}
+A{"Scholomance", 6897, 0.501, 0.326}
 
 -- Legacy: Challenge Conqueror
-A{"Scholomance", 6920, criterion=19869} -- Scholomance
+A{"Scholomance", 6920, 0.501, 0.326, criterion=19869} -- Scholomance
 
 -- Feats of Strength: Challenge Master: Scholomance
-A{"Scholomance", 8438}
+A{"Scholomance", 8438, 0.501, 0.326}
 
 -- Legacy: Challenge Conqueror: Bronze
 A{"ShadowpanHideout", 6374, criterion=19877} -- Shado-Pan Monastery
@@ -183,6 +219,12 @@ A{"StormstoutBrewery", 6920, criterion=19863} -- Stormstout Brewery
 -- Feats of Strength: Challenge Master: Stormstout Brewery
 A{"StormstoutBrewery", 8431}
 
+-- Feats of Strength: Cutting Edge: Sha of Fear
+A{"TerraceOfEndlessSpring", 7487, 0.390, 0.480}
+
+-- Feats of Strength: Ahead of the Curve: Sha of Fear
+A{"TerraceOfEndlessSpring", 8248, 0.390, 0.480}
+
 -- Legacy: A Tribute to Skill (10 player)
 A{"TheArgentColiseum", 3808}
 
@@ -236,6 +278,15 @@ A{"TheGreatWall", 8434, 0.490, 0.610, floor=1}
 
 -- Feats of Strength: Realm First! Obsidian Slayer
 A{"TheObsidianSanctum", 456, 0.508, 0.478}
+
+-- Feats of Strength: Cutting Edge: Lei Shen
+A{"ThunderKingRaid", 8238}
+
+-- Feats of Strength: Ahead of the Curve: Lei Shen
+A{"ThunderKingRaid", 8249}
+
+-- Feats of Strength: Cutting Edge: Ra-den
+A{"ThunderKingRaid", 8260}
 
 -- Feats of Strength: Realm First! Death's Demise
 A{"Ulduar", 3117, 0.690, 0.410, floor=4}

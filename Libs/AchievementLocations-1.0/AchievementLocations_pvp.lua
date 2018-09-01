@@ -280,21 +280,21 @@ A{"Darnassus", 617, 0.430, 0.790, side="horde"}
 A{"Darnassus", 619, 0.430, 0.790, criterion=494, side="horde"} -- Immortal No More
 
 -- Player vs. Player: Grizzled Veteran
-A{"GrizzlyHills", 2016, criterion=7279, side="alliance"} -- Pieces Parts
-A{"GrizzlyHills", 2016, criterion=7280, side="alliance"} -- Life or Death
-A{"GrizzlyHills", 2016, criterion=7281, side="alliance"} -- Shredder Repair
-A{"GrizzlyHills", 2016, criterion=7283, side="alliance"} -- Keep Them at Bay!
-A{"GrizzlyHills", 2016, criterion=7284, side="alliance"} -- Down With Captain Zorna!
-A{"GrizzlyHills", 2016, criterion=7278, side="alliance"} -- Blackriver Skirmish
-A{"GrizzlyHills", 2016, criterion=7285, side="alliance"} -- Smoke 'Em Out
-A{"GrizzlyHills", 2016, criterion=7286, side="alliance"} -- Riding the Red Rocket
-A{"GrizzlyHills", 2016, criterion=7282, side="alliance"} -- Kick 'Em While They're Down
+A{"GrizzlyHills", 2016, 0.397, 0.434, criterion=7279, side="alliance"} -- Pieces Parts
+A{"GrizzlyHills", 2016, 0.405, 0.427, criterion=7280, side="alliance"} -- Life or Death
+A{"GrizzlyHills", 2016, 0.395, 0.436, criterion=7281, side="alliance"} -- Shredder Repair
+A{"GrizzlyHills", 2016, 0.221, 0.813, criterion=7283, side="alliance"} -- Keep Them at Bay!
+A{"GrizzlyHills", 2016, 0.221, 0.813, criterion=7284, side="alliance"} -- Down With Captain Zorna!
+A{"GrizzlyHills", 2016, 0.299, 0.598, criterion=7278, side="alliance"} -- Blackriver Skirmish
+A{"GrizzlyHills", 2016, 0.220, 0.807, criterion=7285, side="alliance"} -- Smoke 'Em Out
+A{"GrizzlyHills", 2016, 0.148, 0.866, criterion=7286, side="alliance"} -- Riding the Red Rocket
+A{"GrizzlyHills", 2016, 0.394, 0.439, criterion=7282, side="alliance"} -- Kick 'Em While They're Down
 
 -- Player vs. Player: Grizzled Veteran
 A{"GrizzlyHills", 2017, criterion=7294, side="horde"} -- Keep Them at Bay
 A{"GrizzlyHills", 2017, criterion=7288, side="horde"} -- Shred the Alliance
 A{"GrizzlyHills", 2017, criterion=7295, side="horde"} -- Smoke 'Em Out
-A{"GrizzlyHills", 2017, criterion=7287, side="horde"} -- Blackriver Brawl
+A{"GrizzlyHills", 2017, 0.264, 0.658, criterion=7287, side="horde"} -- Blackriver Brawl
 A{"GrizzlyHills", 2017, criterion=7289, side="horde"} -- Making Repairs
 A{"GrizzlyHills", 2017, criterion=7292, side="horde"} -- Riding the Red Rocket
 A{"GrizzlyHills", 2017, criterion=7290, side="horde"} -- Keep 'Em on their Heels

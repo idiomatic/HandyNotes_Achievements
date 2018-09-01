@@ -17,9 +17,12 @@ local function A(row) AL:AddLocation(row) end
 
 sheet = new GoogleSpreadsheet(sheetID)
 
+dosify = (s) ->
+    return s.replace(/\n/, "\r\n")
+
 createModule = (module) ->
     out = fs.createWriteStream("#{app}_#{module}.lua", mode:0o644)
-    out.write header
+    out.write dosify header
     return out
 
 sheet.getRows achievementWorksheet, {query: 'mapfile != ""', orderby: 'mapfile'}, (err, data) ->
@@ -34,7 +37,7 @@ sheet.getRows achievementWorksheet, {query: 'mapfile != ""', orderby: 'mapfile'}
         out = outs[module] or= createModule(module)
 
         if priorAchievementID[module] isnt achievement
-            out.write "\n-- #{category}: #{name}\n"
+            out.write dosify "\n-- #{category}: #{name}\n"
             priorAchievementID[module] = achievement
         out.write "A{#{JSON.stringify mapfile}"
         out.write ", #{achievement}"
@@ -55,4 +58,4 @@ sheet.getRows achievementWorksheet, {query: 'mapfile != ""', orderby: 'mapfile'}
 
         out.write "}"
         out.write " -- #{criteria}" if criteria
-        out.write "\n"
+        out.write dosify "\n"

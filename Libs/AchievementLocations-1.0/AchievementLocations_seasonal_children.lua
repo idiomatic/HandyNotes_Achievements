@@ -26,9 +26,9 @@ A{"Orgrimmar", 1788, 0.532, 0.790, criterion=6651, side="horde", season="Childre
 A{"Orgrimmar", 1792, 0.580, 0.576, side="horde", season="Children's Week"}
 
 -- World Events/Children's Week: Veteran Nanny
-A{"ShattrathCity", 275, 0.750, 0.470, criterion=9167, season="Children's Week"} -- Peanut
-A{"ShattrathCity", 275, 0.750, 0.470, criterion=9168, season="Children's Week"} -- Willy
-A{"ShattrathCity", 275, 0.750, 0.470, criterion=9169, season="Children's Week"} -- Egbert
+A{"ShattrathCity", 275, 0.751, 0.479, criterion=9167, season="Children's Week"} -- Peanut
+A{"ShattrathCity", 275, 0.751, 0.479, criterion=9168, season="Children's Week"} -- Willy
+A{"ShattrathCity", 275, 0.751, 0.479, criterion=9169, season="Children's Week"} -- Egbert
 
 -- World Events/Children's Week: Aw, Isn't It Cute?
 A{"ShattrathCity", 1792, 0.750, 0.470, season="Children's Week"}

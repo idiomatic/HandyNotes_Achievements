@@ -822,124 +822,118 @@ A{"Feralas", 5767, 0.696, 0.732}
 A{"Feralas", 9924, 0.480, 0.160, criterion=27963} -- The Twin Colossals
 
 -- Dungeons & Raids/Draenor Raid: The Steel Has Been Brought
-A{"FoundryRaid", 8929}
+A{"FoundryRaid", 8929, 0.195, 0.768}
 
 -- Dungeons & Raids/Draenor Raid: Ya, We've Got Time...
-A{"FoundryRaid", 8930}
+A{"FoundryRaid", 8930, 0.459, 0.534}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Flamebender Ka'graz
-A{"FoundryRaid", 8932}
+A{"FoundryRaid", 8932, 0.195, 0.768}
 
 -- Dungeons & Raids/Draenor Raid: Ashes, Ashes...
-A{"FoundryRaid", 8952}
+A{"FoundryRaid", 8952, 0.484, 0.345}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Beastlord Darmac
-A{"FoundryRaid", 8956}
+A{"FoundryRaid", 8956, 0.663, 0.721}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Gruul
-A{"FoundryRaid", 8966}
+A{"FoundryRaid", 8966, 0.393, 0.205}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Oregorger
-A{"FoundryRaid", 8967}
+A{"FoundryRaid", 8967, 0.371, 0.823}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Hans'gar and Franzok
-A{"FoundryRaid", 8968}
+A{"FoundryRaid", 8968, 0.474, 0.767}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Operator Thogar
-A{"FoundryRaid", 8969}
+A{"FoundryRaid", 8969, 0.461, 0.220}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Blast Furnace
-A{"FoundryRaid", 8970}
+A{"FoundryRaid", 8970, 0.459, 0.534}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Kromog
-A{"FoundryRaid", 8971}
+A{"FoundryRaid", 8971, 0.332, 0.431}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Iron Maidens
-A{"FoundryRaid", 8972}
+A{"FoundryRaid", 8972, 0.823, 0.283}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Blackhand's Crucible
-A{"FoundryRaid", 8973}
+A{"FoundryRaid", 8973, 0.484, 0.345}
 
 -- Dungeons & Raids/Draenor Raid: The Iron Price
-A{"FoundryRaid", 8978}
+A{"FoundryRaid", 8978, 0.393, 0.205}
 
 -- Dungeons & Raids/Draenor Raid: He Shoots, He Ores
-A{"FoundryRaid", 8979}
+A{"FoundryRaid", 8979, 0.371, 0.823}
 
 -- Dungeons & Raids/Draenor Raid: Stamp Stamp Revolution
-A{"FoundryRaid", 8980}
+A{"FoundryRaid", 8980, 0.474, 0.767}
 
 -- Dungeons & Raids/Draenor Raid: Fain Would Lie Down
-A{"FoundryRaid", 8981, criterion=24675} -- Dreadwing Mounted First
-A{"FoundryRaid", 8981, criterion=24676} -- Ironcrusher Mounted First
-A{"FoundryRaid", 8981, criterion=24677} -- Cruelfang Mounted First
+A{"FoundryRaid", 8981, 0.663, 0.721, criterion=24675} -- Dreadwing Mounted First
+A{"FoundryRaid", 8981, 0.663, 0.721, criterion=24676} -- Ironcrusher Mounted First
+A{"FoundryRaid", 8981, 0.663, 0.721, criterion=24677} -- Cruelfang Mounted First
 
 -- Dungeons & Raids/Draenor Raid: There's Always a Bigger Train
-A{"FoundryRaid", 8982}
+A{"FoundryRaid", 8982, 0.461, 0.220}
 
 -- Dungeons & Raids/Draenor Raid: Would You Give Me a Hand?
-A{"FoundryRaid", 8983}
+A{"FoundryRaid", 8983, 0.332, 0.431}
 
 -- Dungeons & Raids/Draenor Raid: Be Quick or Be Dead
-A{"FoundryRaid", 8984}
+A{"FoundryRaid", 8984, 0.823, 0.283}
 
 -- Dungeons & Raids/Draenor Raid: Slagworks
-A{"FoundryRaid", 8989, criterion=25019} -- Gruul
-A{"FoundryRaid", 8989, criterion=25020} -- Oregorger
-A{"FoundryRaid", 8989, criterion=25021} -- Blast Furnace
+A{"FoundryRaid", 8989, 0.393, 0.205, criterion=25019} -- Gruul
+A{"FoundryRaid", 8989, 0.371, 0.823, criterion=25020} -- Oregorger
+A{"FoundryRaid", 8989, 0.459, 0.534, criterion=25021} -- Blast Furnace
 
 -- Dungeons & Raids/Draenor Raid: Black Forge
-A{"FoundryRaid", 8990, criterion=25022} -- Hans'gar and Franzok
-A{"FoundryRaid", 8990, criterion=25023} -- Flamebender Ka'graz
-A{"FoundryRaid", 8990, criterion=25024} -- Kromog
+A{"FoundryRaid", 8990, 0.474, 0.767, criterion=25022} -- Hans'gar and Franzok
+A{"FoundryRaid", 8990, 0.195, 0.768, criterion=25023} -- Flamebender Ka'graz
+A{"FoundryRaid", 8990, 0.332, 0.431, criterion=25024} -- Kromog
 
 -- Dungeons & Raids/Draenor Raid: Iron Assembly
-A{"FoundryRaid", 8991, criterion=25025} -- Beastlord Darmac
-A{"FoundryRaid", 8991, criterion=25026} -- Operator Thogar
-A{"FoundryRaid", 8991, criterion=25027} -- Iron Maidens
+A{"FoundryRaid", 8991, 0.663, 0.721, criterion=25025} -- Beastlord Darmac
+A{"FoundryRaid", 8991, 0.461, 0.220, criterion=25026} -- Operator Thogar
+A{"FoundryRaid", 8991, 0.823, 0.283, criterion=25027} -- Iron Maidens
 
 -- Dungeons & Raids/Draenor Raid: Blackhand's Crucible
-A{"FoundryRaid", 8992}
-
--- Feats of Strength: Cutting Edge: Blackhand's Crucible
-A{"FoundryRaid", 9443}
-
--- Feats of Strength: Ahead of the Curve: Blackhand's Crucible
-A{"FoundryRaid", 9444}
+A{"FoundryRaid", 8992, 0.484, 0.345}
 
 -- Quests/Draenor: Chapter III: The Foundry Falls
-A{"FoundryRaid", 9642, criterion=26487} -- Complete Quest "Blackhand's Secret."
-A{"FoundryRaid", 9642, criterion=26488} -- Complete Quest "Might of the Elemental Lords."
+A{"FoundryRaid", 9642, 0.852, 0.316, criterion=26487} -- Complete Quest "Blackhand's Secret."
+A{"FoundryRaid", 9642, 0.852, 0.316, criterion=26488} -- Complete Quest "Might of the Elemental Lords."
 
 -- Garrisons: Ten Hit Tunes
-A{"FoundryRaid", 9828, criterion=27742, note="drop from Blackhand", side="alliance"} -- A Siege of Worlds
+A{"FoundryRaid", 9828, 0.484, 0.345, criterion=27742, side="alliance"} -- A Siege of Worlds
 
 -- Collections: What A Strange, Interdimensional Trip It's Been
-A{"FoundryRaid", 9838, criterion=27642, note="in Slagworks"} -- Oregorger the Devourer
-A{"FoundryRaid", 9838, criterion=27641, note="in Slagworks"} -- Gruul
-A{"FoundryRaid", 9838, criterion=27643, note="in the Black Forge"} -- Hans'gar & Franzok
-A{"FoundryRaid", 9838, criterion=27644, note="in the Black Forge"} -- Flamebender Ka'graz
-A{"FoundryRaid", 9838, criterion=27645, note="in Iron Assembly"} -- Beastlord Darmac
-A{"FoundryRaid", 9838, criterion=27646, note="in Iron Assembly"} -- Operator Thogar
-A{"FoundryRaid", 9838, criterion=27647} -- Blast Furnace
-A{"FoundryRaid", 9838, criterion=27648, note="in Iron Assembly"} -- Kromog, Legend of the Mountain
-A{"FoundryRaid", 9838, criterion=27649} -- The Iron Maidens
-A{"FoundryRaid", 9838, criterion=27634, note="in Blackhand's Crucible"} -- Blackhand
+A{"FoundryRaid", 9838, 0.371, 0.823, criterion=27642} -- Oregorger the Devourer
+A{"FoundryRaid", 9838, 0.393, 0.205, criterion=27641} -- Gruul
+A{"FoundryRaid", 9838, 0.474, 0.767, criterion=27643} -- Hans'gar & Franzok
+A{"FoundryRaid", 9838, 0.195, 0.768, criterion=27644} -- Flamebender Ka'graz
+A{"FoundryRaid", 9838, 0.663, 0.721, criterion=27645} -- Beastlord Darmac
+A{"FoundryRaid", 9838, 0.461, 0.220, criterion=27646} -- Operator Thogar
+A{"FoundryRaid", 9838, 0.459, 0.534, criterion=27647} -- Blast Furnace
+A{"FoundryRaid", 9838, 0.332, 0.431, criterion=27648} -- Kromog, Legend of the Mountain
+A{"FoundryRaid", 9838, 0.823, 0.283, criterion=27649} -- The Iron Maidens
+A{"FoundryRaid", 9838, 0.484, 0.345, criterion=27634} -- Blackhand
 
 -- Garrisons: Ten Hit Tunes
-A{"FoundryRaid", 9897, criterion=27742, note="drop from Blackhand", side="horde"} -- A Siege of Worlds
+A{"FoundryRaid", 9897, 0.484, 0.345, criterion=27742, side="horde"} -- A Siege of Worlds
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"FoundryRaid", 9912, criterion=27742, note="drop from Blackhand", side="alliance"} -- A Siege of Worlds
+A{"FoundryRaid", 9912, 0.484, 0.345, criterion=27742, side="alliance"} -- A Siege of Worlds
 
 -- Garrisons: Azeroth's Top Twenty Tunes
-A{"FoundryRaid", 9914, criterion=27742, note="drop from Blackhand", side="horde"} -- A Siege of Worlds
+A{"FoundryRaid", 9914, 0.484, 0.345, criterion=27742, side="horde"} -- A Siege of Worlds
 
 -- Garrisons: Full Discography
-A{"FoundryRaid", 10015, criterion=27742, note="drop from Blackhand", side="alliance"} -- A Siege of Worlds
+A{"FoundryRaid", 10015, 0.484, 0.345, criterion=27742, side="alliance"} -- A Siege of Worlds
 
 -- Garrisons: Full Discography
-A{"FoundryRaid", 10016, criterion=27742, note="drop from Blackhand", side="horde"} -- A Siege of Worlds
+A{"FoundryRaid", 10016, 0.484, 0.345, criterion=27742, side="horde"} -- A Siege of Worlds
 
 -- Quests/Draenor: You'll Get Caught Up In The... Frostfire!
 A{"FrostfireRidge", 8671, criterion=24705, side="horde"} -- Thunder's Fall
@@ -1209,12 +1203,6 @@ A{"HeartofFear", 6936, 0.600, 0.196, floor=1}
 -- Dungeons & Raids/Pandaria Raid: Overzealous
 A{"HeartofFear", 6937, 0.690, 0.744, floor=1}
 
--- Feats of Strength: Cutting Edge: Grand Empress Shek'zeer
-A{"HeartofFear", 7486}
-
--- Feats of Strength: Ahead of the Curve: Grand Empress Shek'zeer
-A{"HeartofFear", 8246}
-
 -- Quests/Outland: To Hellfire and Back
 A{"Hellfire", 1189, criterion=3912, side="alliance"} -- 76 Hellfire quests
 
@@ -1283,93 +1271,93 @@ A{"Hellfire", 1312, 0.674, 0.682, criterion=4517} -- Mekthorg the Wild
 A{"Hellfire", 9924, 0.640, 0.210, criterion=27974} -- Throne of Kil'jaeden
 
 -- Dungeons & Raids/Draenor Raid: A Race Against Slime
-A{"HellfireRaid", 9972}
+A{"HellfireRaid", 9972, 0.512, 0.334}
 
 -- Dungeons & Raids/Draenor Raid: Get In My Belly!
-A{"HellfireRaid", 9979}
+A{"HellfireRaid", 9979, 0.176, 0.451}
 
 -- Dungeons & Raids/Draenor Raid: Pro Toss
-A{"HellfireRaid", 9988}
+A{"HellfireRaid", 9988, 0.401, 0.761}
 
 -- Dungeons & Raids/Draenor Raid: Non-Lethal Enforcer
-A{"HellfireRaid", 9989}
+A{"HellfireRaid", 9989, 0.293, 0.514}
 
 -- Dungeons & Raids/Draenor Raid: This Land Was Green and Good Until...
-A{"HellfireRaid", 10012}
+A{"HellfireRaid", 10012, 0.498, 0.182}
 
 -- Dungeons & Raids/Draenor Raid: Waves Came Crashing Down All Around
-A{"HellfireRaid", 10013}
+A{"HellfireRaid", 10013, 0.522, 0.451}
 
 -- Dungeons & Raids/Draenor Raid: The Black Gate
-A{"HellfireRaid", 10019}
+A{"HellfireRaid", 10019, 0.584, 0.533}
 
 -- Dungeons & Raids/Draenor Raid: Destructor's Rise
-A{"HellfireRaid", 10020, criterion=28067} -- Fel Lord Zakuun
-A{"HellfireRaid", 10020, criterion=28068} -- Xhul'horac
-A{"HellfireRaid", 10020, criterion=28069} -- Mannoroth
+A{"HellfireRaid", 10020, 0.498, 0.182, criterion=28067} -- Fel Lord Zakuun
+A{"HellfireRaid", 10020, 0.483, 0.507, criterion=28068} -- Xhul'horac
+A{"HellfireRaid", 10020, 0.510, 0.480, criterion=28069} -- Mannoroth
 
 -- Dungeons & Raids/Draenor Raid: Hellbreach
-A{"HellfireRaid", 10023, criterion=28077} -- Kormrok
-A{"HellfireRaid", 10023, criterion=28076} -- Iron Reaver
-A{"HellfireRaid", 10023, criterion=28075} -- Hellfire Assault
+A{"HellfireRaid", 10023, 0.522, 0.451, criterion=28077} -- Kormrok
+A{"HellfireRaid", 10023, 0.433, 0.505, criterion=28076} -- Iron Reaver
+A{"HellfireRaid", 10023, 0.609, 0.450, criterion=28075} -- Hellfire Assault
 
 -- Dungeons & Raids/Draenor Raid: Halls of Blood
-A{"HellfireRaid", 10024, criterion=28079} -- Kilrogg Deadeye
-A{"HellfireRaid", 10024, criterion=28080} -- Gorefiend
-A{"HellfireRaid", 10024, criterion=28078} -- Hellfire High Council
+A{"HellfireRaid", 10024, 0.512, 0.334, criterion=28079} -- Kilrogg Deadeye
+A{"HellfireRaid", 10024, 0.176, 0.451, criterion=28080} -- Gorefiend
+A{"HellfireRaid", 10024, 0.717, 0.676, criterion=28078} -- Hellfire High Council
 
 -- Dungeons & Raids/Draenor Raid: Bastion of Shadows
-A{"HellfireRaid", 10025, criterion=28083} -- Tyrant Velhari
-A{"HellfireRaid", 10025, criterion=28081} -- Shadow-Lord Iskar
-A{"HellfireRaid", 10025, criterion=28082} -- Socrethar the Eternal
+A{"HellfireRaid", 10025, 0.293, 0.514, criterion=28083} -- Tyrant Velhari
+A{"HellfireRaid", 10025, 0.401, 0.761, criterion=28081} -- Shadow-Lord Iskar
+A{"HellfireRaid", 10025, 0.595, 0.529, criterion=28082} -- Socrethar the Eternal
 
 -- Dungeons & Raids/Draenor Raid: Nearly Indestructible
-A{"HellfireRaid", 10026, criterion=28084} -- Keep Hellfire Cannons above 90% health
+A{"HellfireRaid", 10026, 0.609, 0.450, criterion=28084} -- Keep Hellfire Cannons above 90% health
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Hellfire Assault
-A{"HellfireRaid", 10027}
+A{"HellfireRaid", 10027, 0.609, 0.450}
 
 -- Dungeons & Raids/Draenor Raid: Bad Manner(oth)
-A{"HellfireRaid", 10030, criterion=28097} -- Kill a Doom Lord using Empowered Felseeker, then defeat Mannoroth.
+A{"HellfireRaid", 10030, 0.510, 0.480, criterion=28097} -- Kill a Doom Lord using Empowered Felseeker, then defeat Mannoroth.
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Iron Reaver
-A{"HellfireRaid", 10032}
+A{"HellfireRaid", 10032, 0.433, 0.505}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Kormrok
-A{"HellfireRaid", 10033}
+A{"HellfireRaid", 10033, 0.522, 0.451}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Hellfire High Council
-A{"HellfireRaid", 10034}
+A{"HellfireRaid", 10034, 0.717, 0.676}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Kilrogg Deadeye
-A{"HellfireRaid", 10035}
+A{"HellfireRaid", 10035, 0.512, 0.334}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Shadow-Lord Iskar
-A{"HellfireRaid", 10037}
+A{"HellfireRaid", 10037, 0.401, 0.761}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Fel Lord Zakuun
-A{"HellfireRaid", 10038}
+A{"HellfireRaid", 10038, 0.498, 0.182}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Xhul'horac
-A{"HellfireRaid", 10039}
+A{"HellfireRaid", 10039, 0.483, 0.507}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Socrethar the Eternal
-A{"HellfireRaid", 10040}
+A{"HellfireRaid", 10040, 0.595, 0.529}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Tyrant Velhari
-A{"HellfireRaid", 10041}
+A{"HellfireRaid", 10041, 0.293, 0.514}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Mannoroth
-A{"HellfireRaid", 10042}
+A{"HellfireRaid", 10042, 0.510, 0.480}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Archimonde
-A{"HellfireRaid", 10043}
+A{"HellfireRaid", 10043, 0.584, 0.533}
 
 -- Dungeons & Raids/Draenor Raid: Don't Fear the Reaper
-A{"HellfireRaid", 10054}
+A{"HellfireRaid", 10054, 0.717, 0.676}
 
 -- Dungeons & Raids/Draenor Raid: Turning the Tide
-A{"HellfireRaid", 10057, criterion=28199} -- Kill 10 Hellfire Guardians and defeat Iron Reaver
+A{"HellfireRaid", 10057, 0.433, 0.505, criterion=28199} -- Kill 10 Hellfire Guardians and defeat Iron Reaver
 
 -- Exploration/Draenor: Hellbane
 A{"HellfireRaid", 10061, criterion=28221} -- Terrorfist, Son of Kormrok
@@ -1378,104 +1366,98 @@ A{"HellfireRaid", 10061, criterion=28219} -- Vengeance, Avatar of Velhari
 A{"HellfireRaid", 10061, criterion=28218} -- Doomroller, Mar'tak's Creation
 
 -- Dungeons & Raids/Draenor Raid: Echoes of Doomfire
-A{"HellfireRaid", 10073}
+A{"HellfireRaid", 10073, 0.584, 0.533}
 
 -- Dungeons & Raids/Draenor Raid: I'm a Soul Man
-A{"HellfireRaid", 10086}
+A{"HellfireRaid", 10086, 0.595, 0.529}
 
 -- Dungeons & Raids/Draenor Raid: You Gotta Keep 'em Separated
-A{"HellfireRaid", 10087}
+A{"HellfireRaid", 10087, 0.483, 0.507}
 
 -- Dungeons & Raids: Glory of the Hellfire Raider
-A{"HellfireRaid", 10149, criterion=28495} -- Nearly Indestructible
-A{"HellfireRaid", 10149, criterion=28496} -- Echoes of Doomfire
-A{"HellfireRaid", 10149, criterion=28497} -- Turning the Tide
-A{"HellfireRaid", 10149, criterion=28498} -- Bad Manner(oth)
-A{"HellfireRaid", 10149, criterion=28499} -- Waves Came Crashing Down All Around
-A{"HellfireRaid", 10149, criterion=28500} -- This Land Was Green and Good Until...
-A{"HellfireRaid", 10149, criterion=28501} -- Non-Lethal Enforcer
-A{"HellfireRaid", 10149, criterion=28502} -- Pro Toss
-A{"HellfireRaid", 10149, criterion=28503} -- Get In My Belly!
-A{"HellfireRaid", 10149, criterion=28504} -- A Race Against Slime
-A{"HellfireRaid", 10149, criterion=28505} -- Don't Fear the Reaper
-A{"HellfireRaid", 10149, criterion=28506} -- You Gotta Keep 'em Separated
-A{"HellfireRaid", 10149, criterion=28507} -- I'm a Soul Man
+A{"HellfireRaid", 10149, 0.609, 0.450, criterion=28495} -- Nearly Indestructible
+A{"HellfireRaid", 10149, 0.584, 0.533, criterion=28496} -- Echoes of Doomfire
+A{"HellfireRaid", 10149, 0.433, 0.505, criterion=28497} -- Turning the Tide
+A{"HellfireRaid", 10149, 0.510, 0.480, criterion=28498} -- Bad Manner(oth)
+A{"HellfireRaid", 10149, 0.522, 0.451, criterion=28499} -- Waves Came Crashing Down All Around
+A{"HellfireRaid", 10149, 0.498, 0.182, criterion=28500} -- This Land Was Green and Good Until...
+A{"HellfireRaid", 10149, 0.293, 0.514, criterion=28501} -- Non-Lethal Enforcer
+A{"HellfireRaid", 10149, 0.401, 0.761, criterion=28502} -- Pro Toss
+A{"HellfireRaid", 10149, 0.176, 0.451, criterion=28503} -- Get In My Belly!
+A{"HellfireRaid", 10149, 0.512, 0.334, criterion=28504} -- A Race Against Slime
+A{"HellfireRaid", 10149, 0.717, 0.676, criterion=28505} -- Don't Fear the Reaper
+A{"HellfireRaid", 10149, 0.483, 0.507, criterion=28506} -- You Gotta Keep 'em Separated
+A{"HellfireRaid", 10149, 0.595, 0.529, criterion=28507} -- I'm a Soul Man
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Gorefiend
-A{"HellfireRaid", 10253}
+A{"HellfireRaid", 10253, 0.176, 0.451}
 
 -- Dungeons & Raids/Draenor Raid: Hurry Up, Maggot!
-A{"HighmaulRaid", 8947}
+A{"HighmaulRaid", 8947, 0.578, 0.550}
 
 -- Dungeons & Raids/Draenor Raid: Flame On!
-A{"HighmaulRaid", 8948}
+A{"HighmaulRaid", 8948, 0.547, 0.576}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Kargath Bladefist
-A{"HighmaulRaid", 8949}
+A{"HighmaulRaid", 8949, 0.547, 0.576}
 
 -- Dungeons & Raids/Draenor Raid: Brothers in Arms
-A{"HighmaulRaid", 8958}
+A{"HighmaulRaid", 8958, 0.551, 0.363}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: The Butcher
-A{"HighmaulRaid", 8960}
+A{"HighmaulRaid", 8960, 0.578, 0.550}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Tectus
-A{"HighmaulRaid", 8961}
+A{"HighmaulRaid", 8961, 0.370, 0.748}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Brackenspore
-A{"HighmaulRaid", 8962}
+A{"HighmaulRaid", 8962, 0.508, 0.164}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Twin Ogron
-A{"HighmaulRaid", 8963}
+A{"HighmaulRaid", 8963, 0.551, 0.363}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Ko'ragh
-A{"HighmaulRaid", 8964}
+A{"HighmaulRaid", 8964, 0.378, 0.654}
 
 -- Dungeons & Raids/Draenor Raid: Mythic: Imperator's Fall
-A{"HighmaulRaid", 8965}
+A{"HighmaulRaid", 8965, 0.453, 0.752}
 
 -- Dungeons & Raids/Draenor Raid: More Like Wrecked-us
-A{"HighmaulRaid", 8974}
+A{"HighmaulRaid", 8974, 0.370, 0.748}
 
 -- Dungeons & Raids/Draenor Raid: A Fungus Among Us
-A{"HighmaulRaid", 8975}
+A{"HighmaulRaid", 8975, 0.508, 0.164}
 
 -- Dungeons & Raids/Draenor Raid: Pair Annihilation
-A{"HighmaulRaid", 8976}
+A{"HighmaulRaid", 8976, 0.378, 0.654}
 
 -- Dungeons & Raids/Draenor Raid: Lineage of Power
-A{"HighmaulRaid", 8977}
+A{"HighmaulRaid", 8977, 0.453, 0.752}
 
 -- Dungeons & Raids/Draenor Raid: The Walled City
-A{"HighmaulRaid", 8986, criterion=25010} -- Kargath Bladefist
-A{"HighmaulRaid", 8986, criterion=25016} -- Brackenspore
-A{"HighmaulRaid", 8986, criterion=25012} -- The Butcher
+A{"HighmaulRaid", 8986, 0.547, 0.576, criterion=25010} -- Kargath Bladefist
+A{"HighmaulRaid", 8986, 0.508, 0.164, criterion=25016} -- Brackenspore
+A{"HighmaulRaid", 8986, 0.578, 0.550, criterion=25012} -- The Butcher
 
 -- Dungeons & Raids/Draenor Raid: Arcane Sanctum
-A{"HighmaulRaid", 8987, criterion=25011} -- Tectus
-A{"HighmaulRaid", 8987, criterion=25014} -- Twin Ogron
-A{"HighmaulRaid", 8987, criterion=25015} -- Ko'ragh
+A{"HighmaulRaid", 8987, 0.370, 0.748, criterion=25011} -- Tectus
+A{"HighmaulRaid", 8987, 0.551, 0.363, criterion=25014} -- Twin Ogron
+A{"HighmaulRaid", 8987, 0.378, 0.654, criterion=25015} -- Ko'ragh
 
 -- Dungeons & Raids/Draenor Raid: Imperator's Fall
-A{"HighmaulRaid", 8988}
-
--- Feats of Strength: Ahead of the Curve: Imperator's Fall
-A{"HighmaulRaid", 9441}
-
--- Feats of Strength: Cutting Edge: Imperator's Fall
-A{"HighmaulRaid", 9442}
+A{"HighmaulRaid", 8988, 0.453, 0.752}
 
 -- Quests/Draenor: Chapter II: Gul'dan Strikes Back
-A{"HighmaulRaid", 9641, criterion=26486} -- Complete Quest "Hunter: Hunted."
+A{"HighmaulRaid", 9641, 0.848, 0.314, criterion=26486} -- Complete Quest "Hunter: Hunted."
 
 -- Collections: What A Strange, Interdimensional Trip It's Been
-A{"HighmaulRaid", 9838, criterion=27635, note="in Walled City"} -- Kargath Bladefist
-A{"HighmaulRaid", 9838, criterion=27636, note="in Walled City"} -- The Butcher
-A{"HighmaulRaid", 9838, criterion=27637, note="in Walled City"} -- Brackenspore
-A{"HighmaulRaid", 9838, criterion=27638, note="in Arcane Sanctum"} -- Tectus, The Living Mountain
-A{"HighmaulRaid", 9838, criterion=27639, note="in Arcane Sanctum"} -- Twin Ogron
-A{"HighmaulRaid", 9838, criterion=27640, note="in Arcane Sanctum"} -- Ko'ragh
-A{"HighmaulRaid", 9838, criterion=27633, note="in Imperator's Rise"} -- Imperator Mar'gok
+A{"HighmaulRaid", 9838, 0.547, 0.576, criterion=27635, note="in Walled City"} -- Kargath Bladefist
+A{"HighmaulRaid", 9838, 0.578, 0.550, criterion=27636, note="in Walled City"} -- The Butcher
+A{"HighmaulRaid", 9838, 0.508, 0.164, criterion=27637, note="in Walled City"} -- Brackenspore
+A{"HighmaulRaid", 9838, 0.370, 0.748, criterion=27638, note="in Arcane Sanctum"} -- Tectus, The Living Mountain
+A{"HighmaulRaid", 9838, 0.551, 0.363, criterion=27639, note="in Arcane Sanctum"} -- Twin Ogron
+A{"HighmaulRaid", 9838, 0.378, 0.654, criterion=27640, note="in Arcane Sanctum"} -- Ko'ragh
+A{"HighmaulRaid", 9838, 0.453, 0.752, criterion=27633, note="in Imperator's Rise"} -- Imperator Mar'gok
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"HillsbradFoothills", 1676, criterion=15211, side="horde"} -- Redridge/Hillsbrad
@@ -1806,7 +1788,7 @@ A{"IronDocks", 9838, criterion=27626} -- Skulloc, Son of Gruul
 A{"IronDocks", 10079}
 
 -- Professions/Fishing: Old Ironjaw
-A{"Ironforge", 1837}
+A{"Ironforge", 1837, 0.474, 0.151}
 
 -- Professions/Cooking: A Bunch of Lunch
 A{"Ironforge", 5845, 0.601, 0.364, criterion=11744, side="alliance"} -- Let's Do Lunch: Ironforge
@@ -2302,14 +2284,8 @@ A{"MogushanVaults", 6932, criterion=19964} -- Heroic: Four Kings
 A{"MogushanVaults", 6932, criterion=19965} -- Heroic: Elegon
 A{"MogushanVaults", 6932, criterion=19966} -- Heroic: Will of the Emperor
 
--- Feats of Strength: Ahead of the Curve: Will of the Emperor
-A{"MogushanVaults", 6954}
-
 -- Dungeons & Raids/Pandaria Raid: Sorry, Were You Looking for This?
 A{"MogushanVaults", 7056, 0.778, 0.344, criterion=20244, floor=2} -- Activate the Ancient Mogu Artifact.
-
--- Feats of Strength: Cutting Edge: Will of the Emperor
-A{"MogushanVaults", 7485}
 
 -- Dungeons & Raids/Pandaria Raid: And... It's Good!
 A{"MogushanVaults", 7933}
@@ -2568,18 +2544,6 @@ A{"Orgrimmar", 5851, criterion=17772, side="horde"} -- Fish or Cut Bait: Orgrimm
 -- Exploration: Field Photographer
 A{"Orgrimmar", 9924, criterion=27869, side="horde"} -- Orgrimmar
 
--- Feats of Strength: Ahead of the Curve: Garrosh Hellscream (10 player)
-A{"OrgrimmarRaid", 8398}
-
--- Feats of Strength: Ahead of the Curve: Garrosh Hellscream (25 player)
-A{"OrgrimmarRaid", 8399}
-
--- Feats of Strength: Cutting Edge: Garrosh Hellscream (10 player)
-A{"OrgrimmarRaid", 8400}
-
--- Feats of Strength: Cutting Edge: Garrosh Hellscream (25 player)
-A{"OrgrimmarRaid", 8401}
-
 -- Dungeons & Raids/Pandaria Raid: Gamon Will Save Us!
 A{"OrgrimmarRaid", 8448, 0.652, 0.735, floor=7}
 
@@ -2587,137 +2551,137 @@ A{"OrgrimmarRaid", 8448, 0.652, 0.735, floor=7}
 A{"OrgrimmarRaid", 8453, 0.475, 0.609, floor=5}
 
 -- Dungeons & Raids: Glory of the Orgrimmar Raider
-A{"OrgrimmarRaid", 8454, criterion=23665} -- Rescue Raiders
-A{"OrgrimmarRaid", 8454, criterion=23666} -- Gamon Will Save Us!
-A{"OrgrimmarRaid", 8454, criterion=23734} -- Go Long
-A{"OrgrimmarRaid", 8454, criterion=23735} -- Swallow Your Pride
-A{"OrgrimmarRaid", 8454, criterion=23736} -- The Immortal Vanguard
-A{"OrgrimmarRaid", 8454, criterion=23737} -- Fire in the Hole!
-A{"OrgrimmarRaid", 8454, criterion=23738} -- Criss Cross
-A{"OrgrimmarRaid", 8454, criterion=23739} -- Mega Snail Vs. Giant Dinosaur
-A{"OrgrimmarRaid", 8454, criterion=23779} -- No More Tears
-A{"OrgrimmarRaid", 8454, criterion=23780} -- Unlimited Potential
-A{"OrgrimmarRaid", 8454, criterion=23781} -- Lasers and Drills and Magnets! Oh My!
-A{"OrgrimmarRaid", 8454, criterion=23782} -- Now We Are the Paragon
-A{"OrgrimmarRaid", 8454, criterion=23783} -- Strike!
-A{"OrgrimmarRaid", 8454, criterion=23915} -- None Shall Pass
+A{"OrgrimmarRaid", 8454, 0.475, 0.609, criterion=23665} -- Rescue Raiders
+A{"OrgrimmarRaid", 8454, 0.652, 0.735, criterion=23666} -- Gamon Will Save Us!
+A{"OrgrimmarRaid", 8454, 0.258, 0.187, criterion=23734} -- Go Long
+A{"OrgrimmarRaid", 8454, 0.293, 0.669, criterion=23735} -- Swallow Your Pride
+A{"OrgrimmarRaid", 8454, 0.772, 0.296, criterion=23736} -- The Immortal Vanguard
+A{"OrgrimmarRaid", 8454, 0.306, 0.385, criterion=23737} -- Fire in the Hole!
+A{"OrgrimmarRaid", 8454, 0.527, 0.292, criterion=23738} -- Criss Cross
+A{"OrgrimmarRaid", 8454, 0.513, 0.821, criterion=23739} -- Mega Snail Vs. Giant Dinosaur
+A{"OrgrimmarRaid", 8454, 0.419, 0.452, criterion=23779} -- No More Tears
+A{"OrgrimmarRaid", 8454, 0.416, 0.423, criterion=23780} -- Unlimited Potential
+A{"OrgrimmarRaid", 8454, 0.587, 0.465, criterion=23781} -- Lasers and Drills and Magnets! Oh My!
+A{"OrgrimmarRaid", 8454, 0.683, 0.353, criterion=23782} -- Now We Are the Paragon
+A{"OrgrimmarRaid", 8454, 0.475, 0.609, criterion=23783} -- Strike!
+A{"OrgrimmarRaid", 8454, 0.542, 0.592, criterion=23915} -- None Shall Pass
 
 -- Dungeons & Raids/Pandaria Raid: Vale of Eternal Sorrows
-A{"OrgrimmarRaid", 8458, criterion=23651} -- Immerseus
-A{"OrgrimmarRaid", 8458, criterion=23654} -- Norushen
-A{"OrgrimmarRaid", 8458, criterion=23653} -- Fallen Protectors
-A{"OrgrimmarRaid", 8458, criterion=23652} -- Sha of Pride
+A{"OrgrimmarRaid", 8458, 0.419, 0.452, criterion=23651} -- Immerseus
+A{"OrgrimmarRaid", 8458, 0.542, 0.592, criterion=23654} -- Norushen
+A{"OrgrimmarRaid", 8458, 0.258, 0.187, criterion=23653} -- Fallen Protectors
+A{"OrgrimmarRaid", 8458, 0.293, 0.669, criterion=23652} -- Sha of Pride
 
 -- Dungeons & Raids/Pandaria Raid: Gates of Retribution
-A{"OrgrimmarRaid", 8459, criterion=23655} -- Galakras
-A{"OrgrimmarRaid", 8459, criterion=23656} -- Iron Juggernaut
-A{"OrgrimmarRaid", 8459, criterion=23657} -- Kor'kron Dark Shaman
-A{"OrgrimmarRaid", 8459, criterion=23658} -- General Nazgrim
+A{"OrgrimmarRaid", 8459, 0.772, 0.296, criterion=23655} -- Galakras
+A{"OrgrimmarRaid", 8459, 0.306, 0.385, criterion=23656} -- Iron Juggernaut
+A{"OrgrimmarRaid", 8459, 0.475, 0.609, criterion=23657} -- Kor'kron Dark Shaman
+A{"OrgrimmarRaid", 8459, 0.652, 0.735, criterion=23658} -- General Nazgrim
 
 -- Dungeons & Raids/Pandaria Raid: The Underhold
-A{"OrgrimmarRaid", 8461, criterion=23659} -- Malkorok
-A{"OrgrimmarRaid", 8461, criterion=23660} -- Spoils of Pandaria
-A{"OrgrimmarRaid", 8461, criterion=23661} -- Thok the Bloodthirsty
+A{"OrgrimmarRaid", 8461, 0.416, 0.423, criterion=23659} -- Malkorok
+A{"OrgrimmarRaid", 8461, 0.527, 0.292, criterion=23660} -- Spoils of Pandaria
+A{"OrgrimmarRaid", 8461, 0.513, 0.821, criterion=23661} -- Thok the Bloodthirsty
 
 -- Dungeons & Raids/Pandaria Raid: Downfall
-A{"OrgrimmarRaid", 8462, criterion=23906} -- Paragons of the Klaxxi
-A{"OrgrimmarRaid", 8462, criterion=23664} -- Garrosh Hellscream
-A{"OrgrimmarRaid", 8462, criterion=23662} -- Siegecrafter Blackfuse
+A{"OrgrimmarRaid", 8462, 0.494, 0.713, criterion=23906} -- Paragons of the Klaxxi
+A{"OrgrimmarRaid", 8462, 0.494, 0.713, criterion=23664} -- Garrosh Hellscream
+A{"OrgrimmarRaid", 8462, 0.494, 0.713, criterion=23662} -- Siegecrafter Blackfuse
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: Immerseus
-A{"OrgrimmarRaid", 8463}
+A{"OrgrimmarRaid", 8463, 0.419, 0.452}
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: Fallen Protectors
-A{"OrgrimmarRaid", 8465}
+A{"OrgrimmarRaid", 8465, 0.258, 0.187}
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: Norushen
-A{"OrgrimmarRaid", 8466}
+A{"OrgrimmarRaid", 8466, 0.542, 0.592}
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: Sha of Pride
-A{"OrgrimmarRaid", 8467}
+A{"OrgrimmarRaid", 8467, 0.293, 0.669}
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: Galakras
-A{"OrgrimmarRaid", 8468}
+A{"OrgrimmarRaid", 8468, 0.772, 0.296}
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: Iron Juggernaut
-A{"OrgrimmarRaid", 8469}
+A{"OrgrimmarRaid", 8469, 0.306, 0.385}
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: Kor'kron Dark Shaman
-A{"OrgrimmarRaid", 8470}
+A{"OrgrimmarRaid", 8470, 0.475, 0.609}
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: General Nazgrim
-A{"OrgrimmarRaid", 8471}
+A{"OrgrimmarRaid", 8471, 0.652, 0.735}
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: Malkorok
-A{"OrgrimmarRaid", 8472}
+A{"OrgrimmarRaid", 8472, 0.416, 0.423}
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: Spoils of Pandaria
-A{"OrgrimmarRaid", 8478}
+A{"OrgrimmarRaid", 8478, 0.527, 0.292}
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: Thok the Bloodthirsty
-A{"OrgrimmarRaid", 8479}
+A{"OrgrimmarRaid", 8479, 0.513, 0.821}
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: Siegecrafter Blackfuse
-A{"OrgrimmarRaid", 8480}
+A{"OrgrimmarRaid", 8480, 0.587, 0.465}
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: Paragons of the Klaxxi
-A{"OrgrimmarRaid", 8481}
+A{"OrgrimmarRaid", 8481, 0.683, 0.353}
 
 -- Dungeons & Raids/Pandaria Raid: Mythic: Garrosh Hellscream
-A{"OrgrimmarRaid", 8482}
+A{"OrgrimmarRaid", 8482, 0.494, 0.713}
 
 -- Dungeons & Raids/Pandaria Raid: Fire in the Hole!
-A{"OrgrimmarRaid", 8520, criterion=23722} -- Sufficient Superheated Mines Stomped
+A{"OrgrimmarRaid", 8520, 0.306, 0.385, criterion=23722} -- Sufficient Superheated Mines Stomped
 
 -- Dungeons & Raids/Pandaria Raid: Swallow Your Pride
-A{"OrgrimmarRaid", 8521, criterion=23723} -- No Pride Gained from Manifestations of Pride
+A{"OrgrimmarRaid", 8521, 0.293, 0.669, criterion=23723} -- No Pride Gained from Manifestations of Pride
 
 -- Dungeons & Raids/Pandaria Raid: Giant Dinosaur vs. Mega Snail
-A{"OrgrimmarRaid", 8527}
+A{"OrgrimmarRaid", 8527, 0.513, 0.821}
 
 -- Dungeons & Raids/Pandaria Raid: Go Long
-A{"OrgrimmarRaid", 8528}
+A{"OrgrimmarRaid", 8528, 0.258, 0.187}
 
 -- Dungeons & Raids/Pandaria Raid: Criss Cross
-A{"OrgrimmarRaid", 8529}
+A{"OrgrimmarRaid", 8529, 0.527, 0.292}
 
 -- Dungeons & Raids/Pandaria Raid: The Immortal Vanguard
-A{"OrgrimmarRaid", 8530}
+A{"OrgrimmarRaid", 8530, 0.772, 0.296}
 
 -- Dungeons & Raids/Pandaria Raid: Now We are the Paragon
-A{"OrgrimmarRaid", 8531, criterion=0} -- Become the Wind-Reaver
-A{"OrgrimmarRaid", 8531, criterion=0} -- Become the Bloodseeker
-A{"OrgrimmarRaid", 8531, criterion=0} -- Become the Prime
-A{"OrgrimmarRaid", 8531, criterion=0} -- Become the Swarmkeeper
-A{"OrgrimmarRaid", 8531, criterion=0} -- Become the Dissector
-A{"OrgrimmarRaid", 8531, criterion=0} -- Become the Manipulator
-A{"OrgrimmarRaid", 8531, criterion=0} -- Become the Lucid
-A{"OrgrimmarRaid", 8531, criterion=0} -- Become the Poisoned Mind
-A{"OrgrimmarRaid", 8531, criterion=0} -- Become the Locust
+A{"OrgrimmarRaid", 8531, 0.683, 0.353, criterion=0} -- Become the Wind-Reaver
+A{"OrgrimmarRaid", 8531, 0.683, 0.353, criterion=0} -- Become the Bloodseeker
+A{"OrgrimmarRaid", 8531, 0.683, 0.353, criterion=0} -- Become the Prime
+A{"OrgrimmarRaid", 8531, 0.683, 0.353, criterion=0} -- Become the Swarmkeeper
+A{"OrgrimmarRaid", 8531, 0.683, 0.353, criterion=0} -- Become the Dissector
+A{"OrgrimmarRaid", 8531, 0.683, 0.353, criterion=0} -- Become the Manipulator
+A{"OrgrimmarRaid", 8531, 0.683, 0.353, criterion=0} -- Become the Lucid
+A{"OrgrimmarRaid", 8531, 0.683, 0.353, criterion=0} -- Become the Poisoned Mind
+A{"OrgrimmarRaid", 8531, 0.683, 0.353, criterion=0} -- Become the Locust
 
 -- Dungeons & Raids/Pandaria Raid: None Shall Pass
-A{"OrgrimmarRaid", 8532}
+A{"OrgrimmarRaid", 8532, 0.542, 0.592}
 
 -- Dungeons & Raids/Pandaria Raid: No More Tears
-A{"OrgrimmarRaid", 8536}
+A{"OrgrimmarRaid", 8536, 0.419, 0.452}
 
 -- Dungeons & Raids/Pandaria Raid: Strike!
-A{"OrgrimmarRaid", 8537, criterion=23893} -- Kill 18 Kor'kron Warbringers with a single Iron Star.
+A{"OrgrimmarRaid", 8537, 0.475, 0.609, criterion=23893} -- Kill 18 Kor'kron Warbringers with a single Iron Star.
 
 -- Dungeons & Raids/Pandaria Raid: Unlimited Potential
-A{"OrgrimmarRaid", 8538}
+A{"OrgrimmarRaid", 8538, 0.416, 0.423}
 
 -- Dungeons & Raids/Pandaria Raid: Lasers and Magnets and Drills! Oh My!
-A{"OrgrimmarRaid", 8543, criterion=23772} -- Deactivated Laser Turret
-A{"OrgrimmarRaid", 8543, criterion=23773} -- Deactivated Electromagnet
-A{"OrgrimmarRaid", 8543, criterion=23774} -- Deactivated Missile Turret
-A{"OrgrimmarRaid", 8543, criterion=23775} -- Disassembled Crawler Mines
+A{"OrgrimmarRaid", 8543, 0.587, 0.465, criterion=23772} -- Deactivated Laser Turret
+A{"OrgrimmarRaid", 8543, 0.587, 0.465, criterion=23773} -- Deactivated Electromagnet
+A{"OrgrimmarRaid", 8543, 0.587, 0.465, criterion=23774} -- Deactivated Missile Turret
+A{"OrgrimmarRaid", 8543, 0.587, 0.465, criterion=23775} -- Disassembled Crawler Mines
 
 -- Dungeons & Raids/Pandaria Raid: Conqueror of Orgrimmar
-A{"OrgrimmarRaid", 8679, side="alliance"}
+A{"OrgrimmarRaid", 8679, 0.494, 0.713, side="alliance"}
 
 -- Dungeons & Raids/Pandaria Raid: Liberator of Orgrimmar
-A{"OrgrimmarRaid", 8680, side="horde"}
+A{"OrgrimmarRaid", 8680, 0.494, 0.713, side="horde"}
 
 -- Dungeons & Raids/Dungeon Challenges: The Everbloom Challenger
 A{"OvergrownOutpost", 9001}
@@ -2936,13 +2900,13 @@ A{"ScarletMonastery", 6912, 0.490, 0.804, floor=2}
 A{"ScarletMonastery", 6913, 0.490, 0.804, floor=2}
 
 -- Legacy: Scholomance: Bronze
-A{"Scholomance", 6914}
+A{"Scholomance", 6914, 0.501, 0.326}
 
 -- Legacy: Scholomance: Silver
-A{"Scholomance", 6915}
+A{"Scholomance", 6915, 0.501, 0.326}
 
 -- Legacy: Scholomance: Gold
-A{"Scholomance", 6916}
+A{"Scholomance", 6916, 0.501, 0.326}
 
 -- Quests/Eastern Kingdoms: Loremaster of Eastern Kingdoms
 A{"SearingGorge", 1676, criterion=15214} -- Searing Gorge Quests
@@ -3178,43 +3142,43 @@ A{"SpiresOfArak", 9838, 0.471, 0.784, criterion=27650} -- Rukhmar
 A{"SpiresOfArak", 9923, criterion=27550, side="horde"} -- Between Arak and a Hard Place
 
 -- Dungeons & Raids/Draenor Dungeon: Skyreach
-A{"SpiresofArakDungeon", 8843}
+A{"SpiresofArakDungeon", 8843, 0.511, 0.274}
 
 -- Dungeons & Raids/Draenor Dungeon: Heroic: Skyreach
-A{"SpiresofArakDungeon", 8844}
+A{"SpiresofArakDungeon", 8844, 0.511, 0.274}
 
 -- Dungeons & Raids/Dungeon Challenges: Skyreach Challenger
-A{"SpiresofArakDungeon", 8871}
+A{"SpiresofArakDungeon", 8871, 0.511, 0.274}
 
 -- Dungeons & Raids/Dungeon Challenges: Skyreach: Bronze
-A{"SpiresofArakDungeon", 8872}
+A{"SpiresofArakDungeon", 8872, 0.511, 0.274}
 
 -- Dungeons & Raids/Dungeon Challenges: Skyreach: Silver
-A{"SpiresofArakDungeon", 8873}
+A{"SpiresofArakDungeon", 8873, 0.511, 0.274}
 
 -- Dungeons & Raids/Dungeon Challenges: Skyreach: Gold
-A{"SpiresofArakDungeon", 8874}
+A{"SpiresofArakDungeon", 8874, 0.511, 0.274}
 
 -- Dungeons & Raids/Draenor Dungeon: Ready for Raiding IV
-A{"SpiresofArakDungeon", 9033}
+A{"SpiresofArakDungeon", 9033, 0.511, 0.274}
 
 -- Dungeons & Raids/Draenor Dungeon: Magnify... Enhance
-A{"SpiresofArakDungeon", 9034}
+A{"SpiresofArakDungeon", 9034, 0.511, 0.274}
 
 -- Dungeons & Raids/Draenor Dungeon: I Saw Solis
-A{"SpiresofArakDungeon", 9035}
+A{"SpiresofArakDungeon", 9035, 0.427, 0.819}
 
 -- Dungeons & Raids/Draenor Dungeon: Monomania
-A{"SpiresofArakDungeon", 9036}
+A{"SpiresofArakDungeon", 9036, 0.511, 0.274}
 
 -- Feats of Strength: Challenge Master: Skyreach
-A{"SpiresofArakDungeon", 9623}
+A{"SpiresofArakDungeon", 9623, 0.511, 0.274}
 
 -- Collections: What A Strange, Interdimensional Trip It's Been
-A{"SpiresofArakDungeon", 9838, criterion=27630} -- High Sage Viryx
+A{"SpiresofArakDungeon", 9838, 0.511, 0.274, criterion=27630} -- High Sage Viryx
 
 -- Dungeons & Raids/Draenor Dungeon: Mythic: Skyreach
-A{"SpiresofArakDungeon", 10081}
+A{"SpiresofArakDungeon", 10081, 0.511, 0.274}
 
 -- Quests/Kalimdor: Loremaster of Kalimdor
 A{"StonetalonMountains", 1678, criterion=15225, side="alliance"} -- Stonetalon Mountains
@@ -3622,9 +3586,6 @@ A{"TerraceOfEndlessSpring", 6932, 0.790, 0.464, criterion=19975} -- Heroic: Prot
 -- Dungeons & Raids/Pandaria Raid: Who's Got Two Green Thumbs?
 A{"TerraceOfEndlessSpring", 6933, 0.691, 0.482}
 
--- Feats of Strength: Cutting Edge: Sha of Fear
-A{"TerraceOfEndlessSpring", 7487, 0.390, 0.480}
-
 -- Garrisons: Full Discography
 A{"TerraceOfEndlessSpring", 10016, 0.390, 0.480, criterion=27741, note="drop from Sha of Fear", side="horde"} -- Heart of Pandaria
 
@@ -4009,15 +3970,6 @@ A{"ThunderKingRaid", 8124, criterion=22906} -- Heroic: Twin Consorts
 A{"ThunderKingRaid", 8124, criterion=22907} -- A Complete Circuit
 A{"ThunderKingRaid", 8124, criterion=22976} -- Lightning Overload
 A{"ThunderKingRaid", 8124, criterion=22977} -- From Dusk 'til Dawn
-
--- Feats of Strength: Cutting Edge: Lei Shen
-A{"ThunderKingRaid", 8238}
-
--- Feats of Strength: Ahead of the Curve: Lei Shen
-A{"ThunderKingRaid", 8249}
-
--- Feats of Strength: Cutting Edge: Ra-den
-A{"ThunderKingRaid", 8260}
 
 -- Professions/Fishing: Pandarian Angler
 A{"TimelessIsle", 7611, criterion=21962} -- Jewel Danio
@@ -4846,7 +4798,7 @@ A{"Westfall", 1676, criterion=15202, side="alliance"} -- Westfall+Duskwood/Silve
 A{"Westfall", 4903, criterion=0, side="alliance"} -- Westfall
 
 -- Exploration: Field Photographer
-A{"Westfall", 9924, 0.380, 0.770, criterion=27878} -- The Deadmines
+A{"Westfall", 9924, criterion=27878} -- The Deadmines
 A{"Westfall", 9924, 0.300, 0.860, criterion=27961} -- Westfall Lighthouse
 
 -- General: To All The Squirrels I've Loved Before

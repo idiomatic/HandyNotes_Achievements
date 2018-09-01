@@ -38,9 +38,6 @@ A{"TerraceOfEndlessSpring", 6825, 0.390, 0.480}
 -- Dungeons & Raids: Tranquil Master
 A{"TerraceOfEndlessSpring", 6926, 0.390, 0.480, criterion=19913} -- Sha of Fear (Normal or Heroic)
 
--- Feats of Strength: Ahead of the Curve: Sha of Fear
-A{"TerraceOfEndlessSpring", 8248, 0.390, 0.480}
-
 -- Garrisons: Ten Hit Tunes
 A{"TerraceOfEndlessSpring", 9828, 0.390, 0.480, criterion=27741, note="drop from Sha of Fear", side="alliance"} -- Heart of Pandaria
 

@@ -8,15 +8,15 @@ A{"Ashenvale", 911, 0.350, 0.490, criterion=1954, season="Lunar Festival"} -- El
 A{"Aszhara", 911, 0.650, 0.790, criterion=1917, season="Lunar Festival"} -- Elder Skygleam in Azshara
 
 -- World Events/Lunar Festival: Elders of the Dungeons
-A{"AzjolNerub", 910, criterion=5261, season="Lunar Festival"} -- Elder Nurgen in Azjol-Nerub
+A{"AzjolNerub", 910, 0.220, 0.440, criterion=5261, season="Lunar Festival"} -- Elder Nurgen in Azjol-Nerub
 
 -- World Events/Lunar Festival: Elders of Kalimdor
 A{"Barrens", 911, 0.490, 0.590, criterion=1918, season="Lunar Festival"} -- Elder Moonwarden in The Crossroads
 A{"Barrens", 911, 0.680, 0.700, criterion=1920, season="Lunar Festival"} -- Elder Windtotem in Ratchet
 
 -- World Events/Lunar Festival: Elders of the Dungeons
-A{"BlackrockDepths", 910, criterion=1914, season="Lunar Festival"} -- Elder Morndeep in Blackrock Depths
-A{"BlackrockSpire", 910, criterion=1913, season="Lunar Festival"} -- Elder Stonefort in Blackrock Spire
+A{"BlackrockDepths", 910, 0.506, 0.638, criterion=1914, season="Lunar Festival"} -- Elder Morndeep in Blackrock Depths
+A{"BlackrockSpire", 910, 0.619, 0.405, criterion=1913, season="Lunar Festival"} -- Elder Stonefort in Blackrock Spire
 
 -- World Events/Lunar Festival: Elders of Eastern Kingdoms
 A{"BlastedLands", 912, 0.540, 0.500, criterion=1923, season="Lunar Festival"} -- Elder Bellowrage in Blasted Lands
@@ -47,7 +47,7 @@ A{"Dragonblight", 1396, 0.350, 0.484, criterion=5159, season="Lunar Festival"} -
 A{"Dragonblight", 1396, 0.298, 0.558, criterion=5143, season="Lunar Festival"} -- Elder Morthie in Star's Rest
 
 -- World Events/Lunar Festival: Elders of the Dungeons
-A{"DrakTharonKeep", 910, criterion=5262, season="Lunar Festival"} -- Elder Kilias in Drak'Tharon Keep
+A{"DrakTharonKeep", 910, 0.682, 0.788, criterion=5262, season="Lunar Festival"} -- Elder Kilias in Drak'Tharon Keep
 
 -- World Events/Lunar Festival: Elders of Eastern Kingdoms
 A{"DunMorogh", 912, 0.540, 0.500, criterion=1922, season="Lunar Festival"} -- Elder Goldwell in Kharanos
@@ -69,7 +69,7 @@ A{"GrizzlyHills", 1396, 0.642, 0.470, criterion=5158, season="Lunar Festival"} -
 A{"GrizzlyHills", 1396, 0.606, 0.276, criterion=5142, season="Lunar Festival"} -- Elder Beldak in Westfall Brigade
 
 -- World Events/Lunar Festival: Elders of the Dungeons
-A{"Gundrak", 910, criterion=5263, season="Lunar Festival"} -- Elder Ohanzee in Gundrak
+A{"Gundrak", 910, 0.458, 0.620, criterion=5263, season="Lunar Festival"} -- Elder Ohanzee in Gundrak
 
 -- World Events/Lunar Festival: Elders of Eastern Kingdoms
 A{"Hinterlands", 912, 0.490, 0.480, criterion=1941, season="Lunar Festival"} -- Elder Highpeak in The Hinterlands
@@ -88,7 +88,7 @@ A{"LakeWintergrasp", 1396, 0.490, 0.140, criterion=5150, season="Lunar Festival"
 A{"LochModan", 912, 0.330, 0.460, criterion=1937, season="Lunar Festival"} -- Elder Silvervein in Thelsamar
 
 -- World Events/Lunar Festival: Elders of the Dungeons
-A{"Maraudon", 910, criterion=1912, season="Lunar Festival"} -- Elder Splitrock in Maraudon
+A{"Maraudon", 910, 0.515, 0.937, criterion=1912, season="Lunar Festival"} -- Elder Splitrock in Maraudon
 
 -- World Events/Lunar Festival: Elune's Blessing
 A{"Moonglade", 937, 0.540, 0.360, season="Lunar Festival"}
@@ -121,7 +121,7 @@ A{"SouthernBarrens", 911, 0.420, 0.480, criterion=1919, season="Lunar Festival"}
 A{"StranglethornJungle", 912, 0.710, 0.340, criterion=1926, season="Lunar Festival"} -- Elder Starglade in Zul'Gurub
 
 -- World Events/Lunar Festival: Elders of the Dungeons
-A{"Stratholme", 910, criterion=1915, season="Lunar Festival"} -- Elder Farwhisper in Stratholme
+A{"Stratholme", 910, 0.790, 0.218, criterion=1915, season="Lunar Festival"} -- Elder Farwhisper in Stratholme
 
 -- World Events/Lunar Festival: Elders of Kalimdor
 A{"Tanaris", 911, 0.510, 0.290, criterion=1961, season="Lunar Festival"} -- Elder Dreamseer in Gadgetzan
@@ -132,7 +132,7 @@ A{"Teldrassil", 911, 0.570, 0.530, criterion=1951, season="Lunar Festival"} -- E
 A{"TheCapeOfStranglethorn", 912, 0.400, 0.730, criterion=1927, season="Lunar Festival"} -- Elder Winterhoof in Booty Bay
 
 -- World Events/Lunar Festival: Elders of the Dungeons
-A{"TheNexus", 910, criterion=5260, season="Lunar Festival"} -- Elder Igasho in The Nexus
+A{"TheNexus", 910, 0.554, 0.648, criterion=5260, season="Lunar Festival"} -- Elder Igasho in The Nexus
 
 -- World Events/Lunar Festival: Elders of Northrend
 A{"TheStormPeaks", 1396, 0.288, 0.736, criterion=5144, season="Lunar Festival"} -- Elder Fargal in Frosthold
@@ -141,7 +141,7 @@ A{"TheStormPeaks", 1396, 0.410, 0.846, criterion=5155, season="Lunar Festival"} 
 A{"TheStormPeaks", 1396, 0.312, 0.376, criterion=5156, season="Lunar Festival"} -- Elder Stonebeard in Bouldercrag's Refuge
 
 -- World Events/Lunar Festival: Elders of the Dungeons
-A{"TheTempleOfAtalHakkar", 910, criterion=1911, season="Lunar Festival"} -- Elder Starsong in the Sunken Temple
+A{"TheTempleOfAtalHakkar", 910, 0.624, 0.344, criterion=1911, season="Lunar Festival"} -- Elder Starsong in the Sunken Temple
 
 -- World Events/Lunar Festival: Elders of Kalimdor
 A{"ThousandNeedles", 911, 0.460, 0.510, criterion=1958, season="Lunar Festival"} -- Elder Skyseer in Freewind Post
@@ -158,7 +158,7 @@ A{"TwilightHighlands", 6006, 0.508, 0.704, criterion=18161, season="Lunar Festiv
 A{"TwilightHighlands", 6006, 0.518, 0.330, criterion=18162, season="Lunar Festival"} -- Elder Darkfeather in Twilight Highlands
 
 -- World Events/Lunar Festival: Elders of the Dungeons
-A{"Ulduar77", 910, criterion=5264, season="Lunar Festival"} -- Elder Yurauk in the Halls of Stone
+A{"Ulduar77", 910, 0.296, 0.616, criterion=5264, season="Lunar Festival"} -- Elder Yurauk in the Halls of Stone
 
 -- World Events/Lunar Festival: Elders of Cataclysm
 A{"Uldum", 6006, 0.654, 0.186, criterion=18159, season="Lunar Festival"} -- Elder Menkhaf in Uldum
@@ -171,8 +171,8 @@ A{"Undercity", 914, 0.670, 0.390, criterion=1993, season="Lunar Festival"} -- El
 A{"UngoroCrater", 911, 0.500, 0.760, criterion=1962, season="Lunar Festival"} -- Elder Thunderhorn in Un'Goro
 
 -- World Events/Lunar Festival: Elders of the Dungeons
-A{"UtgardeKeep", 910, criterion=5259, season="Lunar Festival"} -- Elder Jarten in Utgarde Keep
-A{"UtgardePinnacle", 910, criterion=5265, season="Lunar Festival"} -- Elder Chogan'gada in Utgarde Pinnacle
+A{"UtgardeKeep", 910, 0.474, 0.700, criterion=5259, season="Lunar Festival"} -- Elder Jarten in Utgarde Keep
+A{"UtgardePinnacle", 910, 0.486, 0.222, criterion=5265, season="Lunar Festival"} -- Elder Chogan'gada in Utgarde Pinnacle
 
 -- World Events/Lunar Festival: Elders of Cataclysm
 A{"Vashjir", 6006, 0.572, 0.862, criterion=18154, season="Lunar Festival"} -- Elder Moonlance in Vashj'ir
@@ -190,4 +190,4 @@ A{"Winterspring", 911, 0.530, 0.570, criterion=1963, season="Lunar Festival"} --
 A{"ZulDrak", 1396, 0.588, 0.560, criterion=5151, season="Lunar Festival"} -- Elder Tauros in Zim'Torga
 
 -- World Events/Lunar Festival: Elders of the Dungeons
-A{"ZulFarrak", 910, criterion=1910, season="Lunar Festival"} -- Elder Wildmane in Zul'Farrak
+A{"ZulFarrak", 910, 0.344, 0.396, criterion=1910, season="Lunar Festival"} -- Elder Wildmane in Zul'Farrak

@@ -28,6 +28,7 @@ ignore:
   - Libs/AceLocale-3.0
   - Libs/AceTimer-3.0
   - Libs/LibQTip-1.0
+  - Libs/AchievementLocations-1.0/node_modules
 required-dependencies:
   - handynotes
 manual-changelog:

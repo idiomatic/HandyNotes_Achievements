@@ -150,7 +150,7 @@ A{"BlackrockSpire", 643, 0.557, 0.566, floor=6}
 A{"BlackrockSpire", 1283, 0.557, 0.566, criterion=3954, floor=6} -- Blackrock Spire
 
 -- Legacy: Leeeeeeeeeeeeeroy!
-A{"BlackrockSpire", 2188, criterion=7622} -- Kill 50 rookery whelps within 15 seconds
+A{"BlackrockSpire", 2188, 0.331, 0.400, criterion=7622} -- Kill 50 rookery whelps within 15 seconds
 
 -- Dungeons & Raids/The Burning Crusade: The Black Temple
 A{"BlackTemple", 697, 0.526, 0.602, floor=8}
@@ -276,7 +276,7 @@ A{"BlackwingLair", 685, 0.740, 0.704, floor=4}
 A{"BlackwingLair", 1285, 0.740, 0.704, criterion=4009, floor=4} -- Blackwing Lair
 
 -- Pet Battles/Collect: Raiding with Leashes
-A{"BlackwingLair", 7934, 0.360, 0.668, criterion=22477, floor=1, note="from Razormore the Untamed"} -- Untamed Hatchling
+A{"BlackwingLair", 7934, 0.360, 0.668, criterion=22477, floor=1, note="from Razorgore the Untamed"} -- Untamed Hatchling
 A{"BlackwingLair", 7934, 0.468, 0.656, criterion=22478, floor=4, note="from Chromaggus"} -- Chrominius
 A{"BlackwingLair", 7934, 0.484, 0.572, criterion=22479, floor=3, note="from Broodlord Lashlayer"} -- Death Talon Whelpguard
 
@@ -551,7 +551,7 @@ A{"EndTime", 5995, 0.515, 0.433, floor=5}
 A{"EndTime", 6117, 0.484, 0.323, floor=6}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Severed Ties
-A{"EndTime", 6130, 0.559, 0.392, floor=3, note="in Ruby Dragonshrine"}
+A{"EndTime", 6130, 0.559, 0.392, floor=3}
 
 -- Dungeons & Raids/Cataclysm Raid: Firelands
 A{"Firelands", 5802, 0.495, 0.309, criterion=17432, floor=1} -- Baleroc
@@ -619,7 +619,7 @@ A{"Firelands", 5829, 0.644, 0.566, criterion=17778, floor=1} -- The Ridge of Anc
 A{"Firelands", 5830, 0.495, 0.309, floor=1}
 
 -- Dungeons & Raids/Cataclysm Raid: Ragnar-O's
-A{"Firelands", 5855}
+A{"Firelands", 5855, 0.507, 0.153}
 
 -- Dungeons & Raids/Classic: Gnomeregan
 A{"Gnomeregan", 634, 0.311, 0.303, floor=4}
@@ -812,10 +812,10 @@ A{"HellfireRamparts", 1284, 0.390, 0.204, criterion=3964} -- Hellfire Ramparts
 A{"HellfireRamparts", 1287, 0.390, 0.204, criterion=4023} -- Heroic Hellfire Ramparts
 
 -- Dungeons & Raids/Cataclysm Dungeon: Heroic: Hour of Twilight
-A{"HourofTwilight", 6119, 0.500, 0.500, floor=2, note="in Wyrmrest Temple"}
+A{"HourofTwilight", 6119, 0.500, 0.500, floor=2}
 
 -- Dungeons & Raids/Cataclysm Dungeon: Eclipse
-A{"HourofTwilight", 6132, 0.500, 0.500, criterion=18669, floor=2, note="in Wyrmrest Temple"} -- Twilight Spark
+A{"HourofTwilight", 6132, 0.500, 0.500, criterion=18669, floor=2} -- Twilight Spark
 
 -- Dungeons & Raids/Lich King Raid: The Frostwing Halls (10 player)
 A{"IcecrownCitadel", 4527, 0.366, 0.234, criterion=12758, floor=4} -- Sindragosa
@@ -999,7 +999,7 @@ A{"IcecrownCitadel", 4621, 0.498, 0.528, floor=8, note="soloable with Manual of 
 A{"IcecrownCitadel", 4622, 0.498, 0.528, floor=8}
 
 -- Feats of Strength: Invincible's Reins
-A{"IcecrownCitadel", 4625}
+A{"IcecrownCitadel", 4625, 0.498, 0.528}
 
 -- Dungeons & Raids/Lich King Raid: Heroic: Storming the Citadel (10 player)
 A{"IcecrownCitadel", 4628, 0.390, 0.590, criterion=13090, floor=1} -- Lord Marrowgar
@@ -1578,10 +1578,10 @@ A{"ScarletMonastery", 6929, 0.490, 0.804, criterion=20284, floor=2} -- Defeat Wh
 A{"ScarletMonastery", 6946, 0.262, 0.456, floor=1}
 
 -- Dungeons & Raids/Classic: Scholomance
-A{"Scholomance", 645}
+A{"Scholomance", 645, 0.501, 0.326}
 
 -- Dungeons & Raids: Classic Dungeonmaster
-A{"Scholomance", 1283, criterion=3956} -- Scholomance
+A{"Scholomance", 1283, 0.501, 0.326, criterion=3956} -- Scholomance
 
 -- Dungeons & Raids/Pandaria Dungeon: Rattle No More
 A{"Scholomance", 6394, 0.484, 0.261}
@@ -1596,7 +1596,7 @@ A{"Scholomance", 6531, 0.599, 0.183}
 A{"Scholomance", 6762, 0.501, 0.326}
 
 -- Dungeons & Raids: Pandaria Dungeon Hero
-A{"Scholomance", 6925, criterion=19909} -- Heroic: Scholomance
+A{"Scholomance", 6925, 0.501, 0.326, criterion=19909} -- Heroic: Scholomance
 
 -- Dungeons & Raids: Glory of the Pandaria Hero
 A{"Scholomance", 6927, 0.484, 0.261, criterion=19932} -- Rattle No More

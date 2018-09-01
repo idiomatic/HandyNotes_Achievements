@@ -1,9 +1,10 @@
 APP =		HandyNotes-Achievements
-TOC =		HandyNotes_Achievements
+TOC =		HandyNotes_Achievements.toc
 VERSION =	$(shell sed -ne 's/^\#\# Version: //p' $(TOC))
 FILES = 	HandyNotes_Achievements/HandyNotes_Achievements* \
 		HandyNotes_Achievements/Libs/* \
-		HandyNotes_Achievements/Locales/*
+		HandyNotes_Achievements/Locales/* \
+		CHANGELOG.txt
 
 
 all:
@@ -12,7 +13,7 @@ all:
 release: chmod
 	-rm ../$(APP)-$(VERSION).zip
 	find . -name .DS_Store -exec rm {} \;
-	(cd .. && zip -r $(APP)-$(VERSION).zip $(FILES))
+	(cd .. && zip -r $(APP)-$(VERSION).zip $(FILES) -x '*/Makefile' -x '*/package*.json' -x '*/node_modules/*' -x '*.coffee' -x '*/.git*')
 
 chmod:
 	find . -type f -exec chmod a-x {} \;

@@ -1,4 +1,4 @@
--- Copyright 2015-2016, r. brian harrison.  all rights reserved.
+-- Copyright 2015-2018, r. brian harrison.  all rights reserved.
 
 local ADDON_NAME = ...
 local HNA = LibStub("AceAddon-3.0"):NewAddon(ADDON_NAME, "AceEvent-3.0", "AceTimer-3.0")
@@ -19,8 +19,8 @@ assert(AchievementLocations, string.format(L["%s requires %s"], ADDON_NAME, "Ach
 local InstanceLocations = LibStub:GetLibrary("InstanceLocations-1.0")
 assert(InstanceLocations, string.format(L["%s requires %s"], ADDON_NAME, "InstanceLocations-1.0"))
 
-local InSeason = LibStub:GetLibrary("InSeason-1.0")
-assert(InSeason, string.format(L["%s requires %s"], ADDON_NAME, "InSeason-1.0"))
+local InSeason = LibStub:GetLibrary("InSeason-1.1")
+assert(InSeason, string.format(L["%s requires %s"], ADDON_NAME, "InSeason-1.1"))
 
 local HandyNotes = LibStub("AceAddon-3.0"):GetAddon("HandyNotes", true)
 assert(HandyNotes, string.format(L["%s requires %s"], ADDON_NAME, "HandyNotes"))
