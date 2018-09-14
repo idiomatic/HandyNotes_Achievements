@@ -1,3 +1,7 @@
+== v0.4.21 ==
+
+* removed MapMap/MapExcursion dead code [journeym]
+
 == v0.4.20 ==
 
 * updated to 8.0 Battle for Azeroth Calendar API [axnd3r, chelpixie, noadtome]

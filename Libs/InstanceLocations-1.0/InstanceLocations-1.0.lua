@@ -159,28 +159,6 @@ function InstanceLocations:GetLocation(mapFile)
 end
 
 
-function InstanceLocations:BuildNumericTable()
-    if not self.instancesByID then
-        self.instancesByID = {}
-        local MapMap = LibStub("MapMap-1.0")
-        assert(MapMap, string.format("%s requires %s", LIB_NAME, "MapMap-1.0"))
-        MapMap:Survey()
-        for mapFile, data in pairs(self.instances) do
-            local mapID = MapMap.mapFileToID[mapFile]
-            assert(mapID, string.format("mapFile %s has no id", mapFile))
-            local numericData = {MapMap.mapFileToID[data[1]], data[2], data[3]}
-            self.instancesByID[mapID] = numericData
-        end
-    end
-end
-
-
-function InstanceLocations:GetLocationByID(mapID)
-    self:BuildNumericTable()
-    return self.instancesByID[mapID]
-end
-
-
 function InstanceLocations:GetBelow(mapFile)
     return self.below[mapFile]
 end
