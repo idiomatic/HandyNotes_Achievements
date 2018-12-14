@@ -18,7 +18,7 @@ local function A(row) AL:AddLocation(row) end
 sheet = new GoogleSpreadsheet(sheetID)
 
 dosify = (s) ->
-    return s.replace(/\n/, "\r\n")
+    return s.replace(/\n/g, "\r\n")
 
 createModule = (module) ->
     out = fs.createWriteStream("#{app}_#{module}.lua", mode:0o644)

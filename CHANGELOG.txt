@@ -1,3 +1,7 @@
+== v0.4.22 ==
+
+* moved some bloody rares [ldeveber]
+
 == v0.4.21 ==
 
 * removed MapMap/MapExcursion dead code [journeym]

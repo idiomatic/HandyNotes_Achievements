@@ -1,6 +1,6 @@
-## Interface: 80000
+## Interface: 80100
 ## Title: Lib AchievementLocations-1.0
-## Version: 0.4.20
+## Version: 0.4.22
 ## Author: idiomatiq
 ## X-License: Apache
 
