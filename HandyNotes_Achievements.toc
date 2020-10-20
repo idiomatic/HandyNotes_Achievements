@@ -1,6 +1,7 @@
-## Interface: 80100
+## Interface: 90001
+## X-Min-Interface: 90001
 ## Title: HandyNotes: Achievements
-## Description: Shows location of incomplete achievements
+## Notes: Shows location of incomplete achievements
 ## Version: 0.4.22
 ## Author: idiomatiq
 ## Dependencies: HandyNotes
