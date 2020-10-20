@@ -1,0 +1,26 @@
+name: Derive
+
+on:
+  workflow_dispatch:
+
+jobs:
+  # TODO move node/coffeescript dependency into the cloud
+  achievement_locations:
+    runs-on: debian-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: dependencies
+        run: |
+          apt-get -y update
+          apt-get -y install nodejs npm
+          npm install
+
+      - name: derive
+        run: |
+          cd Libs/AchievementLocations
+          coffee make.coffee
+          # TODO inherit version from HandyNotes_Achievements.toc
+          # TODO commit changes

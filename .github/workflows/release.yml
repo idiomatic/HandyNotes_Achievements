@@ -8,26 +8,30 @@ on:
       - '**'
     branches: [ master ]
   pull_request:
+    tags:
+      - '**'
     branches: [ master ]
 
 jobs:
   release:
-    runs-on: ubuntu-latest
+    runs-on: debian-latest
 
     env:
-      APP: HandyNotes-Achievements
       CF_API_KEY: ${{ secrets.CF_API_KEY }}
       WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
       GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+      APP: HandyNotes-Achievements
+      BASE: HandyNotes_Achievements
 
     steps:
-      - name: clone
+      - name: checkout_dir_wrapped
         uses: actions/checkout@v2
+        path: ${{ BASE }}
 
       - name: zip
         run: |
-          VERSION=$(sed -ne ''s/^\#\# Version: //p' HandyNotes_Achievements.toc)
-          echo "version $v"
-          base=$(basename $(pwd))
-          cd ..
-          zip -r ${APP}-${VERSION}.zip $base/HandyNotes_Achievements* $base/Libs/* $base/Locales/* $base/CHANGELOG.txt -x '*/Makefile' -x '*/package*.json' -x '*/node_modules/*' -x '*.coffee' -x '*/.git*'
+          echo "base $BASE"
+          ls -la $BASE
+          VERSION=$(sed -ne 's/^\#\# Version: //p' $BASE/HandyNotes_Achievements.toc)
+          echo "version $VERSION"
+          zip -r ${APP}-${VERSION}.zip $BASE/HandyNotes_Achievements* $BASE/Libs/* $BASE/Locales/* $BASE/CHANGELOG.txt -x '*/Makefile' -x '*/package*.json' -x '*/node_modules/*' -x '*.coffee' -x '*/.git*'
