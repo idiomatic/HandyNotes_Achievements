@@ -1,0 +1,3 @@
+[submodule "Libs/LibQTip-1.0"]
+	path = Libs/LibQTip-1.0
+	url = https://repos.curseforge.com/wow/libqtip-1-0
