@@ -28,7 +28,7 @@ jobs:
       - name: checkout_dir_wrapped
         uses: actions/checkout@v2
         with:
-          path: ${{ BASE }}
+          path: ${{ env.BASE }}
           submodules: true
 
       - name: secretstest
