@@ -20,13 +20,19 @@ jobs:
       CF_API_KEY: ${{ secrets.CF_API_KEY }}
       WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
       GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+      TEST_SECRET: ${{ secrets.TEST_SECRET }}
       APP: HandyNotes-Achievements
       BASE: HandyNotes_Achievements
 
     steps:
       - name: checkout_dir_wrapped
         uses: actions/checkout@v2
-        path: ${{ BASE }}
+        with:
+          path: ${{ BASE }}
+          submodules: true
+
+      - name: secretstest
+        run: echo "secret $TEST_SECRET"
 
       - name: zip
         run: |
