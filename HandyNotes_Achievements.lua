@@ -111,7 +111,7 @@ function HNA:OnEnter(mapFile, nearCoord)
                 else
                     criterionDescription, _, _, _, _, _, _, _, quantityString, _ = HNA:GetAchievementCriteriaInfoByDescription(achievementID, criterion)
                 end
-                
+
                 if quantityString == "0" then
                     quantityString = ""
                 end
@@ -306,7 +306,7 @@ function HNA:Valid(row)
     end
 
     if row.quest then
-        completed = IsQuestFlaggedCompleted(row.quest)
+        completed = C_QuestLog.IsQuestFlaggedCompleted(row.quest)
         if completed then return false end
     end
 
