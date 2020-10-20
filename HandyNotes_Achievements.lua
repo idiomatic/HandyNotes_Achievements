@@ -1,4 +1,4 @@
--- Copyright 2015-2018, r. brian harrison.  all rights reserved.
+-- Copyright 2015-2020, r. brian harrison.  all rights reserved.
 
 local ADDON_NAME = ...
 local HNA = LibStub("AceAddon-3.0"):NewAddon(ADDON_NAME, "AceEvent-3.0", "AceTimer-3.0")
