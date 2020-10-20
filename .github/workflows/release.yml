@@ -1,0 +1,33 @@
+# borrowing liberally from https://github.com/BigWigsMods/packager/wiki/GitHub-Actions-workflow
+
+name: Release
+
+on:
+  push:
+    tags:
+      - '**'
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    env:
+      APP: HandyNotes-Achievements
+      CF_API_KEY: ${{ secrets.CF_API_KEY }}
+      WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
+      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: clone
+        uses: actions/checkout@v2
+
+      - name: zip
+        run: |
+          VERSION=$(sed -ne ''s/^\#\# Version: //p' HandyNotes_Achievements.toc)
+          echo "version $v"
+          base=$(basename $(pwd))
+          cd ..
+          zip -r ${APP}-${VERSION}.zip $base/HandyNotes_Achievements* $base/Libs/* $base/Locales/* $base/CHANGELOG.txt -x '*/Makefile' -x '*/package*.json' -x '*/node_modules/*' -x '*.coffee' -x '*/.git*'
