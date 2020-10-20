@@ -14,7 +14,7 @@ on:
 
 jobs:
   release:
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
 
     env:
       CF_API_KEY: ${{ secrets.CF_API_KEY }}
