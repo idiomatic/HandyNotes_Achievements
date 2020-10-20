@@ -14,8 +14,12 @@ jobs:
 
       - name: dependencies
         run: |
-          apt-get -y update
-          apt-get -y install nodejs npm
+          sudo apt-get -y update
+          sudo apt-get -y install nodejs npm
+
+      - name: npm
+        run: |
+          cd Libs/AchievementLocations
           npm install
 
       - name: derive
@@ -24,3 +28,4 @@ jobs:
           coffee make.coffee
           # TODO inherit version from HandyNotes_Achievements.toc
           # TODO commit changes
+          git diff
