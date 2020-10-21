@@ -19,7 +19,10 @@ jobs:
         working-directory: Libs/AchievementLocations-1.0
 
       - name: derive
-        run: coffee make.coffee
+        run: |
+          ls -a node_modules
+          ls -a node_modules/.bin
+          node_modules/.bin/coffee make.coffee
         working-directory: Libs/AchievementLocations-1.0
 
       - name: compare
