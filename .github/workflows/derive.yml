@@ -7,6 +7,9 @@ jobs:
   achievement_locations:
     runs-on: ubuntu-latest
 
+    env:
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+
     steps:
       - uses: actions/checkout@v2
 
