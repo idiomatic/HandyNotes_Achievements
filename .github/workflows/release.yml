@@ -1,4 +1,4 @@
-# borrowing liberally from https://github.com/BigWigsMods/packager/wiki/GitHub-Actions-workflow
+# borrowing liberally from https://github.com/BigWigsMods/packager
 
 name: Release
 
@@ -14,13 +14,36 @@ name: Release
 
 on:
   workflow_dispatch:
+    inputs:
+      release-type:
+        description: alpha, beta, or release
+        default: alpha
 
 jobs:
   derive:
     runs-on: ubuntu-latest
+
+    env:
+      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+
     steps:
-      - name: tbd
-        run: true
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+
+      - name: node_modules
+        run: npm install
+        working-directory: Libs/AchievementLocations-1.0
+
+      - name: derive
+        run: node_modules/.bin/coffee make.coffee
+        working-directory: Libs/AchievementLocations-1.0
+
+      - name: compare
+        run: git diff
+        working-directory: Libs/AchievementLocations-1.0
 
   package:
     needs: derive
@@ -34,7 +57,7 @@ jobs:
       TOC: HandyNotes_Achievements.toc
       CHANGELOG: CHANGELOG.txt
       CHANGELOG_TYPE: markdown
-      RELEASE_TYPE: alpha
+      RELEASE_TYPE: ${{ github.event.inputs.release-type }}
       RELEASE: .release
 
     steps:
@@ -91,3 +114,10 @@ jobs:
           echo "{\"displayName\":\"$DISPLAY_NAME\", \"gameVersions\":[$GAME_VERSION_ID], \"releaseType\":\"$RELEASE_TYPE\", \"changelogType\":\"$CHANGELOG_TYPE\", \"changelog\":\"$CHANGELOG_QUOTED\"}" > metadata
           cat metadata
           cat metadata | curl -s -H "x-api-token: $CURSEFORGE_API_TOKEN" -F "metadata=<-" -F "file=@$ARCHIVE" "https://wow.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file"
+
+# TODO parse upload status
+# TODO fail on redundant version + release type combo?
+# TODO or overwrite redundant version + release type combo?
+# TODO or auto subminor version bump?
+# TODO run on push of new tag
+# TODO release to github?
