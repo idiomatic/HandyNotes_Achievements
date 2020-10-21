@@ -17,15 +17,19 @@ jobs:
           sudo apt-get -y install nodejs npm
 
       - name: node_modules
-        run: npm install
+        run: |
+          which npm
+          npm install
         working-directory: Libs/AchievementLocations
 
       - name: derive
-        run: coffee make.coffee
+        run: |
+          which coffee
+          coffee make.coffee
         working-directory: Libs/AchievementLocations
 
       - name: compare
-        run: git diff
+        run: /usr/bin/git diff
         working-directory: Libs/AchievementLocations
 
 # TODO move node/coffeescript dependency into the cloud
