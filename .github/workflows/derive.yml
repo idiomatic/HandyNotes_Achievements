@@ -15,17 +15,14 @@ jobs:
           node-version: '12'
 
       - name: node_modules
-        run: |
-          cd Libs/AchievementLocations
-          npm install
-          ls -a node_modules
+        run: npm install
+        working-directory: Libs/AchievementLocations-1.0
 
       - name: derive
-        run: |
-          cd Libs/AchievementLocations
-          coffee make.coffee
+        run: coffee make.coffee
+        working-directory: Libs/AchievementLocations-1.0
 
       - name: compare
         run: git diff
-        working-directory: Libs/AchievementLocations
+        working-directory: Libs/AchievementLocations-1.0
 
