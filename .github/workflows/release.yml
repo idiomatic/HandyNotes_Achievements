@@ -48,12 +48,12 @@ jobs:
       - name: version
         run: |
           sed -ne 's/^\#\# Version: //p' $TOC | tr -d '\n' > $RELEASE/version
-          echo "version $(cat version)"
+          echo "version $(cat $RELEASE/version)"
 
       - name: game_version
         run: |
           sed -ne '/^\#\# Interface/{s/^\#\# Interface: \([0-9]*\)\([0-9][0-9]\)\([0-9][0-9]\)/\1.\2.\3/;s/\.0/./gp;q;}' $TOC | tr -d '\n' > $RELEASE/game_version
-          echo "game_version $(cat game_version)"
+          echo "game_version $(cat $RELEASE/game_version)"
 
       - name: archive
         working-directory: release
