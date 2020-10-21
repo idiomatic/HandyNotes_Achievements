@@ -1,16 +1,19 @@
 # borrowing liberally from https://github.com/BigWigsMods/packager/wiki/GitHub-Actions-workflow
 
-name: CI
+name: Release
+
+#on:
+#  push:
+#    tags:
+#      - '**'
+#    branches: [ master ]
+#  pull_request:
+#    tags:
+#      - '**'
+#    branches: [ master ]
 
 on:
-  push:
-    tags:
-      - '**'
-    branches: [ master ]
-  pull_request:
-    tags:
-      - '**'
-    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   derive:
