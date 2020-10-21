@@ -2,11 +2,12 @@
 # dump https://docs.google.com/spreadsheets/d/1_s6zu-xXIqjUelmZO3ZdWB_C2fj-MFAxxMJkUbBwjxU/edit#gid=1492531208 into Lua
 
 fs = require 'fs'
-GoogleSpreadsheet = require 'google-spreadsheet'
+process = require 'process'
+{ GoogleSpreadsheet } = require 'google-spreadsheet'
 
 app = "AchievementLocations"
 sheetID = '1_s6zu-xXIqjUelmZO3ZdWB_C2fj-MFAxxMJkUbBwjxU'
-achievementWorksheet = 'ooom4sy'
+achievementWorksheetId = 1492531208
 header = """-- this file is machine generated.  do not edit.
 
 local AL = LibStub:GetLibrary("AchievementLocations-1.0")
@@ -14,8 +15,6 @@ local function A(row) AL:AddLocation(row) end
 
 """
 
-
-sheet = new GoogleSpreadsheet(sheetID)
 
 dosify = (s) ->
     return s.replace(/\n/g, "\r\n")
@@ -25,14 +24,32 @@ createModule = (module) ->
     out.write dosify header
     return out
 
-sheet.getRows achievementWorksheet, {query: 'mapfile != ""', orderby: 'mapfile'}, (err, data) ->
-    # XXX exit status?
-    return console.error err if err
+do ->
+    doc = new GoogleSpreadsheet(sheetID)
+    if process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL
+        await doc.useServiceAccountAuth {
+            client_email: process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL
+            private_key: process.env.GOOGLE_PRIVATE_KEY
+        }
+    else
+        await doc.useApiKey process.env.GOOGLE_API_KEY
+
+    await doc.loadInfo()
+    sheet = doc.sheetsById[achievementWorksheetId]
+    rows = await sheet.getRows()
 
     outs = {}
     priorAchievementID = {}
 
-    for {module, mapfile, achievement, criterion, x, y, floor, action, item, quest, faction, note, criteria, name, category, side, season} in data
+    rows = rows.filter (row) -> row.mapfile
+    rows.sort (a, b) ->
+        ma = a.mapfile.toLowerCase()
+        mb = b.mapfile.toLowerCase()
+        return 0 if ma == mb
+        return -1 if ma < mb
+        return 1
+
+    for {module, mapfile, achievement, criterion, x, y, floor, action, item, quest, faction, note, criteria, name, category, side, season} in rows
         module or= 'data'
         out = outs[module] or= createModule(module)
 
@@ -59,3 +76,4 @@ sheet.getRows achievementWorksheet, {query: 'mapfile != ""', orderby: 'mapfile'}
         out.write "}"
         out.write " -- #{criteria}" if criteria
         out.write dosify "\n"
+
