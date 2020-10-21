@@ -28,7 +28,7 @@ jobs:
       CURSEFORGE_PROJECT_ID: ${{ secrets.CURSEFORGE_PROJECT_ID }}
       APP: HandyNotes-Achievements
       PACKAGE: HandyNotes_Achievements
-      TOC: ${{ env.PACKAGE }}.toc
+      TOC: HandyNotes_Achievements.toc
       CHANGELOG: CHANGELOG.txt
       CHANGELOG_TYPE: markdown
       RELEASE_TYPE: alpha
