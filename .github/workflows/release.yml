@@ -42,7 +42,7 @@ jobs:
 
       - name: collectivize
         run: |
-          sed -e 's/#.*//' $TOC | cpio -pdv --quiet $RELEASE/$PACKAGE
+          tr -d '\r' < $TOC | sed -e 's/#.*//;/^$/d' | tr '\n' '\0' | cpio -0pdv --quiet $RELEASE/$PACKAGE
           cp $CHANGELOG $TOC $RELEASE/$PACKAGE/
 
       - name: version
