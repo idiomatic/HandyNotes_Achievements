@@ -8,27 +8,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-      - name: deps
-        run: |
-          sudo apt-get -qq -y update
-          sudo apt-get -y install nodejs npm
+      - uses: actions/setup-node@v1
 
       - name: node_modules
-        run: |
-          find / -name npm -ls
-          npm install
+        run: npm install
         working-directory: Libs/AchievementLocations
 
       - name: derive
-        run: |
-          coffee make.coffee
+        run: node_modules/.bin/coffee make.coffee
         working-directory: Libs/AchievementLocations
 
       - name: compare
-        run: |
-          git diff
+        run: git diff
         working-directory: Libs/AchievementLocations
 
