@@ -39,7 +39,7 @@ jobs:
         run: |
           mkdir -p release/$PACKAGE
           cp CHANGELOG.txt HandyNotes_Achievements* release/$PACKAGE/
-          cp -r Locales release/$PACKAGE/
+          cp -r Locale release/$PACKAGE/
           find Libs -depth -name '.git*' -prune -o -name Makefile -prune -o -name 'package*.json' -prune -o -name node_modules -prune -o -name '*.coffee' -prune -o -print0 | cpio -0pdv --quiet release/$PACKAGE
 
       - name: debug_release_dir
