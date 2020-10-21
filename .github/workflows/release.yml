@@ -44,6 +44,7 @@ jobs:
         run: |
           tr -d '\r' < $TOC | sed -e 's/#.*//;/^$/d' | tr '\n' '\0' | cpio -0pdv --quiet $RELEASE/$PACKAGE
           cp $CHANGELOG $TOC $RELEASE/$PACKAGE/
+          cp $CHANGELOG $RELEASE/changelog
 
       - name: version
         run: |
@@ -72,6 +73,7 @@ jobs:
           GAME_VERSION=$(cat game_version)
           ARCHIVE=$(cat archive)
           DISPLAY_NAME=v$VERSION
-          CHANGELOG_QUOTED=$(cat $CHANGELOG | sed -e 's/"/\\"/g')
+          CHANGELOG_QUOTED=$(cat changelog | sed -e 's/"/\\"/g')
           echo "{" \"displayName\":\""$DISPLAY_NAME"\", \"gameVersions\":\""$GAME_VERSION"\", \"releaseType\":\""$RELEASE_TYPE"\", \"changelogType\":\""$CHANGELOG_TYPE"\", \"changelog\":\""$CHANGELOG_QUOTED"\" "}" > metadata
+          cat metadata
           cat metadata | curl -H "x-api-token: $CURSEFORGE_API_TOKEN" -F "metadata=<-" -F "file=@$ARCHIVE" "https://wow.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file"
