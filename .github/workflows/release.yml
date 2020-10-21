@@ -56,8 +56,9 @@ jobs:
           echo "game_version $(cat $RELEASE/game_version)"
 
       - name: archive
-        working-directory: release
+        working-directory: ${{ env.RELEASE }}
         run: |
+          pwd
           VERSION=$(cat version)
           ARCHIVE=${APP}-${VERSION}.zip
           zip -r $ARCHIVE $PACKAGE
@@ -65,7 +66,7 @@ jobs:
           echo "archive $ARCHIVE"
 
       - name: upload
-        working-directory: release
+        working-directory: ${{ env.RELEASE }}
         run: |
           VERSION=$(cat version)
           GAME_VERSION=$(cat game_version)
