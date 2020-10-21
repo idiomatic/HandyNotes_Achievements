@@ -13,18 +13,22 @@ jobs:
 
       - name: deps
         run: |
-          sudo apt-get -y update
+          sudo apt-get -qq -y update
           sudo apt-get -y install nodejs npm
 
       - name: node_modules
-        run: /usr/bin/npm install
+        run: |
+          find / -name npm -ls
+          npm install
         working-directory: Libs/AchievementLocations
 
       - name: derive
-        run: /usr/bin/coffee make.coffee
+        run: |
+          coffee make.coffee
         working-directory: Libs/AchievementLocations
 
       - name: compare
-        run: /usr/bin/git diff
+        run: |
+          git diff
         working-directory: Libs/AchievementLocations
 

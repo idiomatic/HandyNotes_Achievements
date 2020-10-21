@@ -63,7 +63,7 @@ jobs:
 
       - name: game_version_id
         run: |
-          GAME_VERSION=$(cat game_version)
+          GAME_VERSION=$(cat $RELEASE/game_version)
           curl -s -H "x-api-token: $CURSEFORGE_API_TOKEN" https://wow.curseforge.com/api/game/versions | jq "map(select(.name==\"$GAME_VERSION\")) | .[0] | .id" | tr -d '\n\r' > $RELEASE/game_version_id
           echo "game_version_id $(cat $RELEASE/game_version_id)"
 
