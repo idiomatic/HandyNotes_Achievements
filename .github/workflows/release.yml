@@ -1,6 +1,6 @@
 # borrowing liberally from https://github.com/BigWigsMods/packager/wiki/GitHub-Actions-workflow
 
-name: Release
+name: CI
 
 on:
   push:
@@ -13,27 +13,64 @@ on:
     branches: [ master ]
 
 jobs:
-  release:
+  derive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: tbd
+        run: true
+
+  package:
+    needs: derive
     runs-on: ubuntu-latest
 
     env:
-      CF_API_KEY: ${{ secrets.CF_API_KEY }}
-      WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
-      GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
+      CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
+      CURSEFORGE_PROJECT_ID: ${{ secrets.CURSEFORGE_PROJECT_ID }}
       APP: HandyNotes-Achievements
-      BASE: HandyNotes_Achievements
+      PACKAGE: HandyNotes_Achievements
 
     steps:
-      - name: checkout_dir_wrapped
+      - name: checkout
         uses: actions/checkout@v2
         with:
-          path: ${{ env.BASE }}
           submodules: true
 
-      - name: zip
+      - name: collectivize
         run: |
-          echo "base $BASE"
-          ls -la $BASE
-          VERSION=$(sed -ne 's/^\#\# Version: //p' $BASE/HandyNotes_Achievements.toc)
-          echo "version $VERSION"
-          zip -r ${APP}-${VERSION}.zip $BASE/HandyNotes_Achievements* $BASE/Libs/* $BASE/Locales/* $BASE/CHANGELOG.txt -x '*/Makefile' -x '*/package*.json' -x '*/node_modules/*' -x '*.coffee' -x '*/.git*'
+          mkdir -p release/$PACKAGE
+          cp CHANGELOG.txt HandyNotes_Achievements* release/$PACKAGE/
+          cp -r Locales release/$PACKAGE/
+          find Libs -depth -name '.git*' -prune -o -name Makefile -prune -o -name 'package*.json' -prune -o -name node_modules -prune -o -name '*.coffee' -prune -o -print0 | cpio -0pdv --quiet release/$PACKAGE
+
+      - name: debug_release_dir
+        run: find release/$PACKAGE -type f
+
+      - name: version
+        run: sed -ne 's/^\#\# Version: //p' HandyNotes_Achievements.toc > release/version
+
+      - name: game_version
+        run: sed -ne '/^\#\# Interface/{s/^\#\# Interface: \([0-9]*\)\([0-9][0-9]\)\([0-9][0-9]\)/\1.\2.\3/;s/\.0/./gp;q;}' HandyNotes_Achievements.toc > release/game_version
+
+      - name: archive
+        working-directory: release
+        run: |
+          VERSION=$(cat version)
+          ARCHIVE=${APP}-${VERSION}.zip
+          zip -r $ARCHIVE $PACKAGE
+          echo $ARCHIVE > archive
+
+      - name: upload
+        working-directory: release
+        run: |
+          VERSION=$(cat version)
+          GAME_VERSION=$(cat game_version)
+          ARCHIVE=$(cat archive)
+          echo "archive $ARCHIVE"
+          DISPLAY_NAME=v$VERSION
+          RELEASE_TYPE=alpha
+          CHANGELOG_TYPE=markdown
+          CHANGELOG=tbd
+          echo "{" \"displayName\":\""$DISPLAY_NAME"\", \"gameVersions\":\""$GAME_VERSION"\", \"releaseType\":\""$RELEASE_TYPE"\", \"changelogType\":\""$CHANGELOG_TYPE"\", \"changelog\":\""$CHANGELOG"\" "}" > metadata
+          echo "metadata:"
+          cat metadata
+          echo cat metadata \| curl -H "x-api-token: $CURSEFORGE_API_TOKEN" -F "metadata=<-" -F "file=@$ARCHIVE" "https://wow.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file"

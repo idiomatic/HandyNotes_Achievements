@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  # TODO move node/coffeescript dependency into the cloud
   achievement_locations:
     runs-on: ubuntu-latest
 
@@ -12,20 +11,23 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
 
-      - name: dependencies
+      - name: deps
         run: |
           sudo apt-get -y update
           sudo apt-get -y install nodejs npm
 
-      - name: npm
-        run: |
-          cd Libs/AchievementLocations
-          npm install
+      - name: node_modules
+        run: npm install
+        working-directory: Libs/AchievementLocations
 
       - name: derive
-        run: |
-          cd Libs/AchievementLocations
-          coffee make.coffee
-          # TODO inherit version from HandyNotes_Achievements.toc
-          # TODO commit changes
-          git diff
+        run: coffee make.coffee
+        working-directory: Libs/AchievementLocations
+
+      - name: compare
+        run: git diff
+        working-directory: Libs/AchievementLocations
+
+# TODO move node/coffeescript dependency into the cloud
+# TODO commit changes?
+# TODO upload artifacts for package job
