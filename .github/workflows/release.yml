@@ -28,6 +28,11 @@ jobs:
       CURSEFORGE_PROJECT_ID: ${{ secrets.CURSEFORGE_PROJECT_ID }}
       APP: HandyNotes-Achievements
       PACKAGE: HandyNotes_Achievements
+      TOC: ${{ env.PACKAGE }}.toc
+      CHANGELOG: CHANGELOG.txt
+      CHANGELOG_TYPE: markdown
+      RELEASE_TYPE: alpha
+      RELEASE: .release
 
     steps:
       - name: checkout
@@ -37,21 +42,18 @@ jobs:
 
       - name: collectivize
         run: |
-          mkdir -p release/$PACKAGE
-          cp CHANGELOG.txt HandyNotes_Achievements* release/$PACKAGE/
-          cp -r Locale release/$PACKAGE/
-          find Libs -depth -name '.git*' -prune -o -name Makefile -prune -o -name 'package*.json' -prune -o -name node_modules -prune -o -name '*.coffee' -prune -o -print0 | cpio -0pdv --quiet release/$PACKAGE
-
-      - name: debug_release_dir
-        run: find release/$PACKAGE -type f
+          sed -e 's/#.*//' $TOC | cpio -pdv --quiet $RELEASE/$PACKAGE
+          cp $CHANGELOG $TOC $RELEASE/$PACKAGE/
 
       - name: version
         run: |
-          sed -ne 's/^\#\# Version: //p' HandyNotes_Achievements.toc > release/version
+          sed -ne 's/^\#\# Version: //p' $TOC | tr -d '\n' > $RELEASE/version
+          echo "version $(cat version)"
 
       - name: game_version
         run: |
-          sed -ne '/^\#\# Interface/{s/^\#\# Interface: \([0-9]*\)\([0-9][0-9]\)\([0-9][0-9]\)/\1.\2.\3/;s/\.0/./gp;q;}' HandyNotes_Achievements.toc > release/game_version
+          sed -ne '/^\#\# Interface/{s/^\#\# Interface: \([0-9]*\)\([0-9][0-9]\)\([0-9][0-9]\)/\1.\2.\3/;s/\.0/./gp;q;}' $TOC | tr -d '\n' > $RELEASE/game_version
+          echo "game_version $(cat game_version)"
 
       - name: archive
         working-directory: release
@@ -60,6 +62,7 @@ jobs:
           ARCHIVE=${APP}-${VERSION}.zip
           zip -r $ARCHIVE $PACKAGE
           echo $ARCHIVE > archive
+          echo "archive $ARCHIVE"
 
       - name: upload
         working-directory: release
@@ -67,12 +70,7 @@ jobs:
           VERSION=$(cat version)
           GAME_VERSION=$(cat game_version)
           ARCHIVE=$(cat archive)
-          echo "archive $ARCHIVE"
           DISPLAY_NAME=v$VERSION
-          RELEASE_TYPE=alpha
-          CHANGELOG_TYPE=markdown
-          CHANGELOG=tbd
-          echo "{" \"displayName\":\""$DISPLAY_NAME"\", \"gameVersions\":\""$GAME_VERSION"\", \"releaseType\":\""$RELEASE_TYPE"\", \"changelogType\":\""$CHANGELOG_TYPE"\", \"changelog\":\""$CHANGELOG"\" "}" > metadata
-          echo "metadata:"
-          cat metadata
-          echo cat metadata \| curl -H "x-api-token: $CURSEFORGE_API_TOKEN" -F "metadata=<-" -F "file=@$ARCHIVE" "https://wow.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file"
+          CHANGELOG_QUOTED=$(cat $CHANGELOG | sed -e 's/"/\\"/g')
+          echo "{" \"displayName\":\""$DISPLAY_NAME"\", \"gameVersions\":\""$GAME_VERSION"\", \"releaseType\":\""$RELEASE_TYPE"\", \"changelogType\":\""$CHANGELOG_TYPE"\", \"changelog\":\""$CHANGELOG_QUOTED"\" "}" > metadata
+          cat metadata | curl -H "x-api-token: $CURSEFORGE_API_TOKEN" -F "metadata=<-" -F "file=@$ARCHIVE" "https://wow.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file"
