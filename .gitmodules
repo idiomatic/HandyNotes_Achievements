@@ -1,3 +1,7 @@
-[submodule "Libs/LibQTip-1.0"]
+[submodule "LibQTip"]
 	path = Libs/LibQTip-1.0
 	url = https://repos.curseforge.com/wow/libqtip-1-0
+
+[submodule "AchievementLocations"]
+	path = Libs/AchievementLocations-1.0
+	url = https://github.com/idiomatic/AchievementLocations
