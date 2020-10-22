@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      PACKAGE: HandyNotes_Achievements
-      TOC: HandyNotes_Achievements.toc
+      RELEASE: .release
       ARCHIVE: HandyNotes-Achievements.zip
 
     steps:
@@ -21,16 +20,10 @@ jobs:
         with:
           submodules: true
 
-      - name: collectivize
-        run: |
-          tr -d '\r' < $TOC | sed -e 's/#.*//;/^$/d' | tr '\n' '\0' | cpio -0pdv --quiet .release/$PACKAGE
-          cp CHANGELOG.txt $TOC .release/$PACKAGE/
-
       - name: archive
-        working-directory: .release
-        run: zip -r $ARCHIVE $PACKAGE
+        run: make archive
 
       - uses: actions/upload-artifact@v2
         with:
           name: ${{ env.ARCHIVE }}
-          path: .release/${{ env.ARCHIVE }}
+          path: ${{ env.RELEASE }}/${{ env.ARCHIVE }}
