@@ -80,7 +80,7 @@ jobs:
           CHANGELOG_QUOTED=$(cat .changelog | sed -e 's/"/\\"/g')
           echo "{\"displayName\":\"$DISPLAY_NAME\", \"gameVersions\":[$GAME_VERSION_ID], \"releaseType\":\"$RELEASE_TYPE\", \"changelogType\":\"$CHANGELOG_TYPE\", \"changelog\":\"$CHANGELOG_QUOTED\"}" > .metadata
           cat .metadata
-          cat .metadata | curl -s -H "x-api-token: $CURSEFORGE_API_TOKEN" -F "metadata=<-" -F "file=@$ARCHIVE" "https://wow.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file"
+          cat .metadata | curl -s -H "x-api-token: $CURSEFORGE_API_TOKEN" -F "metadata=<-" -F "file=@.release/$ARCHIVE" "https://wow.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file"
 
 # TODO parse upload status
 # TODO fail on redundant version + release type combo?
