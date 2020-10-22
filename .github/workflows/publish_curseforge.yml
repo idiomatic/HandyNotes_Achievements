@@ -25,7 +25,6 @@ jobs:
       RELEASE_TYPE: ${{ github.event.inputs.release-type }}
       CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
       CURSEFORGE_PROJECT_ID: ${{ secrets.CURSEFORGE_PROJECT_ID }}
-      APP: HandyNotes-Achievements
       ARCHIVE: HandyNotes-Achievements.zip
       PACKAGE: HandyNotes_Achievements
       TOC: HandyNotes_Achievements.toc
@@ -71,7 +70,7 @@ jobs:
 
       - name: changelog
         run: |
-          cp CHANGELOG.txt changelog
+          cp CHANGELOG.txt .changelog
 
       - name: upload
         run: |
