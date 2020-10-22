@@ -19,9 +19,8 @@ CHANGELOG_TYPE ?= markdown
 all:
 	(cd Libs/AchievementLocations-1.0 && make)
 
-pull:
-	git pull
-	git submodule update --remote
+update:
+	git submodule update --remote --merge
 
 SOURCES ?= $(TOC) $(CHANGELOG) $(shell sed -e '/^\#/d' $(TOC))
 

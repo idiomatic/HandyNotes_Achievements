@@ -20,6 +20,10 @@ jobs:
         with:
           submodules: true
 
+      # disregard specific commit hash, and honor .gitmodule branch
+      - name: update
+        run: make update
+
       - name: archive
         run: make archive
 

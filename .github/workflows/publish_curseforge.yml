@@ -41,6 +41,10 @@ jobs:
           #sudo apt-get -y update
           sudo apt-get -y install jq
 
+      # disregard specific commit hash, and honor .gitmodule branch
+      - name: update
+        run: make update
+
       - name: archive
         run: make archive
 
@@ -52,5 +56,5 @@ jobs:
 # TODO or overwrite redundant version + release type combo?
 # TODO or auto subminor version bump?
 # TODO run on push of new tag
-# TODO artifacty archive on every commit to github
+
 
