@@ -1,0 +1,39 @@
+name: Archive
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+
+    env:
+      PACKAGE: HandyNotes_Achievements
+      TOC: HandyNotes_Achievements.toc
+      CHANGELOG: CHANGELOG.txt
+      ARCHIVE: HandyNotes-Achievements.zip
+      REF: ${{ github.ref }}
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - name: collectivize
+        run: |
+          tr -d '\r' < $TOC | sed -e 's/#.*//;/^$/d' | tr '\n' '\0' | cpio -0pdv --quiet release/$PACKAGE
+          cp $CHANGELOG $TOC release/$PACKAGE/
+          echo ref $REF
+
+      - name: archive
+        working-directory: release
+        run: zip -r $ARCHIVE $PACKAGE
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: archive.zip
+          path: release/${{ env.ARCHIVE }}
