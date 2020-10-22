@@ -19,9 +19,6 @@ on:
 
 jobs:
   publish:
-
-    needs: archive
-
     runs-on: ubuntu-latest
 
     env:
@@ -35,49 +32,56 @@ jobs:
       CHANGELOG_TYPE: markdown
 
     steps:
+      # copied from archive
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      # copied from archive
+      - name: collectivize
+        run: |
+          tr -d '\r' < $TOC | sed -e 's/#.*//;/^$/d' | tr '\n' '\0' | cpio -0pdv --quiet .release/$PACKAGE
+          cp CHANGELOG.txt $TOC .release/$PACKAGE/
+
+      - name: archive
+        working-directory: .release
+        run: zip -r $ARCHIVE $PACKAGE
+
       - name: toolchain
         run: |
           #sudo apt-get -y update
           sudo apt-get -y install jq
 
-      - uses: actions/download-artifact@v2
-        with:
-          name: ${{ env.ARCHIVE }}
-
-      - name: unarchive
-        run: |
-          ls -lR
-          unzip $ARCHIVE
-
       - name: version
         run: |
-          sed -ne 's/^\#\# Version: //p' $PACKAGE/$TOC | tr -d '\r\n' > version
-          echo "version $(cat version)"
+          sed -ne 's/^\#\# Version: //p' $TOC | tr -d '\r\n' > .version
+          echo "version $(cat .version)"
 
       - name: game_version
         run: |
-          sed -ne '/^\#\# Interface/{s/^\#\# Interface: \([0-9]*\)\([0-9][0-9]\)\([0-9][0-9]\)/\1.\2.\3/;s/\.0/./gp;q;}' $PACKAGE/$TOC | tr -d '\r\n' > game_version
-          echo "game_version $(cat game_version)"
+          sed -ne '/^\#\# Interface/{s/^\#\# Interface: \([0-9]*\)\([0-9][0-9]\)\([0-9][0-9]\)/\1.\2.\3/;s/\.0/./gp;q;}' $TOC | tr -d '\r\n' > .game_version
+          echo "game_version $(cat .game_version)"
 
       - name: game_version_id
         run: |
-          GAME_VERSION=$(cat game_version)
-          curl -s -H "x-api-token: $CURSEFORGE_API_TOKEN" https://wow.curseforge.com/api/game/versions | jq "map(select(.name==\"$GAME_VERSION\")) | .[0] | .id" | tr -d '\n\r' > game_version_id
-          echo "game_version_id $(cat game_version_id)"
+          GAME_VERSION=$(cat .game_version)
+          curl -s -H "x-api-token: $CURSEFORGE_API_TOKEN" https://wow.curseforge.com/api/game/versions | jq "map(select(.name==\"$GAME_VERSION\")) | .[0] | .id" | tr -d '\n\r' > .game_version_id
+          echo "game_version_id $(cat .game_version_id)"
 
       - name: changelog
         run: |
-          cp $PACKAGE/CHANGELOG.txt changelog
+          cp CHANGELOG.txt changelog
 
       - name: upload
         run: |
-          VERSION=$(cat version)
-          GAME_VERSION_ID=$(cat game_version_id)
+          VERSION=$(cat .version)
+          GAME_VERSION_ID=$(cat .game_version_id)
           DISPLAY_NAME=v$VERSION
-          CHANGELOG_QUOTED=$(cat changelog | sed -e 's/"/\\"/g')
-          echo "{\"displayName\":\"$DISPLAY_NAME\", \"gameVersions\":[$GAME_VERSION_ID], \"releaseType\":\"$RELEASE_TYPE\", \"changelogType\":\"$CHANGELOG_TYPE\", \"changelog\":\"$CHANGELOG_QUOTED\"}" > metadata
-          cat metadata
-          cat metadata | curl -s -H "x-api-token: $CURSEFORGE_API_TOKEN" -F "metadata=<-" -F "file=@$ARCHIVE" "https://wow.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file"
+          CHANGELOG_QUOTED=$(cat .changelog | sed -e 's/"/\\"/g')
+          echo "{\"displayName\":\"$DISPLAY_NAME\", \"gameVersions\":[$GAME_VERSION_ID], \"releaseType\":\"$RELEASE_TYPE\", \"changelogType\":\"$CHANGELOG_TYPE\", \"changelog\":\"$CHANGELOG_QUOTED\"}" > .metadata
+          cat .metadata
+          cat .metadata | curl -s -H "x-api-token: $CURSEFORGE_API_TOKEN" -F "metadata=<-" -F "file=@$ARCHIVE" "https://wow.curseforge.com/api/projects/$CURSEFORGE_PROJECT_ID/upload-file"
 
 # TODO parse upload status
 # TODO fail on redundant version + release type combo?
