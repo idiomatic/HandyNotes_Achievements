@@ -9,3 +9,6 @@
 [submodule "Libs/LibStub"]
 	path = Libs/LibStub
 	url = git@github.com:wowace-clone/LibStub.git
+[submodule "Libs/Ace3"]
+	path = Libs/Ace3
+	url = git@github.com:wowace-clone/Ace3.git
