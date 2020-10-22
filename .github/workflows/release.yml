@@ -20,33 +20,7 @@ on:
         default: alpha
 
 jobs:
-  derive:
-    runs-on: ubuntu-latest
-
-    env:
-      GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '12'
-
-      - name: node_modules
-        run: npm install
-        working-directory: Libs/AchievementLocations-1.0
-
-      - name: derive
-        run: node_modules/.bin/coffee make.coffee
-        working-directory: Libs/AchievementLocations-1.0
-
-      - name: compare
-        run: git diff
-        working-directory: Libs/AchievementLocations-1.0
-
   package:
-    needs: derive
     runs-on: ubuntu-latest
 
     env:
