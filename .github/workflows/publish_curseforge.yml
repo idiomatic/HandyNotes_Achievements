@@ -1,6 +1,4 @@
-# borrowing liberally from https://github.com/BigWigsMods/packager
-
-name: Release
+name: Publish to CurseForge
 
 #on:
 #  push:
@@ -20,69 +18,61 @@ on:
         default: alpha
 
 jobs:
-  package:
+  publish:
+
+    needs: archive
+
     runs-on: ubuntu-latest
 
     env:
+      RELEASE_TYPE: ${{ github.event.inputs.release-type }}
       CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
       CURSEFORGE_PROJECT_ID: ${{ secrets.CURSEFORGE_PROJECT_ID }}
       APP: HandyNotes-Achievements
+      ARCHIVE: HandyNotes-Achievements.zip
       PACKAGE: HandyNotes_Achievements
       TOC: HandyNotes_Achievements.toc
-      CHANGELOG: CHANGELOG.txt
       CHANGELOG_TYPE: markdown
-      RELEASE_TYPE: ${{ github.event.inputs.release-type }}
-      RELEASE: .release
 
     steps:
-      - name: deps
+      - name: toolchain
         run: |
           #sudo apt-get -y update
           sudo apt-get -y install jq
 
-      - name: checkout
-        uses: actions/checkout@v2
+      - uses: actions/download-artifact@v2
         with:
-          submodules: true
+          name: ${{ env.ARCHIVE }}
 
-      - name: collectivize
+      - name: unarchive
         run: |
-          tr -d '\r' < $TOC | sed -e 's/#.*//;/^$/d' | tr '\n' '\0' | cpio -0pdv --quiet $RELEASE/$PACKAGE
-          cp $CHANGELOG $TOC $RELEASE/$PACKAGE/
-          cp $CHANGELOG $RELEASE/changelog
+          ls -lR
+          unzip $ARCHIVE
 
       - name: version
         run: |
-          sed -ne 's/^\#\# Version: //p' $TOC | tr -d '\r\n' > $RELEASE/version
-          echo "version $(cat $RELEASE/version)"
+          sed -ne 's/^\#\# Version: //p' $PACKAGE/$TOC | tr -d '\r\n' > version
+          echo "version $(cat version)"
 
       - name: game_version
         run: |
-          sed -ne '/^\#\# Interface/{s/^\#\# Interface: \([0-9]*\)\([0-9][0-9]\)\([0-9][0-9]\)/\1.\2.\3/;s/\.0/./gp;q;}' $TOC | tr -d '\r\n' > $RELEASE/game_version
-          echo "game_version $(cat $RELEASE/game_version)"
+          sed -ne '/^\#\# Interface/{s/^\#\# Interface: \([0-9]*\)\([0-9][0-9]\)\([0-9][0-9]\)/\1.\2.\3/;s/\.0/./gp;q;}' $PACKAGE/$TOC | tr -d '\r\n' > game_version
+          echo "game_version $(cat game_version)"
 
       - name: game_version_id
         run: |
-          GAME_VERSION=$(cat $RELEASE/game_version)
-          curl -s -H "x-api-token: $CURSEFORGE_API_TOKEN" https://wow.curseforge.com/api/game/versions | jq "map(select(.name==\"$GAME_VERSION\")) | .[0] | .id" | tr -d '\n\r' > $RELEASE/game_version_id
-          echo "game_version_id $(cat $RELEASE/game_version_id)"
+          GAME_VERSION=$(cat game_version)
+          curl -s -H "x-api-token: $CURSEFORGE_API_TOKEN" https://wow.curseforge.com/api/game/versions | jq "map(select(.name==\"$GAME_VERSION\")) | .[0] | .id" | tr -d '\n\r' > game_version_id
+          echo "game_version_id $(cat game_version_id)"
 
-      - name: archive
-        working-directory: ${{ env.RELEASE }}
+      - name: changelog
         run: |
-          pwd
-          VERSION=$(cat version)
-          ARCHIVE=${APP}-${VERSION}.zip
-          zip -r $ARCHIVE $PACKAGE
-          echo $ARCHIVE > archive
-          echo "archive $ARCHIVE"
+          cp $PACKAGE/CHANGELOG.txt changelog
 
       - name: upload
-        working-directory: ${{ env.RELEASE }}
         run: |
           VERSION=$(cat version)
           GAME_VERSION_ID=$(cat game_version_id)
-          ARCHIVE=$(cat archive)
           DISPLAY_NAME=v$VERSION
           CHANGELOG_QUOTED=$(cat changelog | sed -e 's/"/\\"/g')
           echo "{\"displayName\":\"$DISPLAY_NAME\", \"gameVersions\":[$GAME_VERSION_ID], \"releaseType\":\"$RELEASE_TYPE\", \"changelogType\":\"$CHANGELOG_TYPE\", \"changelog\":\"$CHANGELOG_QUOTED\"}" > metadata
@@ -94,4 +84,5 @@ jobs:
 # TODO or overwrite redundant version + release type combo?
 # TODO or auto subminor version bump?
 # TODO run on push of new tag
-# TODO release to github?
+# TODO artifacty archive on every commit to github
+
