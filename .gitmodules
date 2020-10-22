@@ -6,3 +6,6 @@
 	path = Libs/AchievementLocations-1.0
 	url = https://github.com/idiomatic/AchievementLocations
 	branch = master
+[submodule "Libs/LibStub"]
+	path = Libs/LibStub
+	url = git@github.com:wowace-clone/LibStub.git
