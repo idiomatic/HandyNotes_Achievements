@@ -13,6 +13,7 @@ GAME_VERSION_ID ?= $(shell curl -s -H "x-api-token: $(CURSEFORGE_API_TOKEN)" htt
 
 DISPLAY_NAME ?=	v$(VERSION)
 RELEASE_TYPE ?=	alpha
+CHANGELOG ?= CHANGELOG.txt
 CHANGELOG_TYPE ?= markdown
 
 all:
@@ -22,21 +23,23 @@ pull:
 	git pull
 	git submodule update --remote
 
-collect:
-	tr -d "\r" < $(TOC) | sed -e "s/#.*//;/^$$/d" | tr "\n" "\0" | cpio -0pdv --quiet $(RELEASE)/$(PACKAGE)
-	cp CHANGELOG.txt $(TOC) $(RELEASE)/$(PACKAGE)/
+SOURCES ?= $(TOC) $(CHANGELOG) $(shell sed -e '/^\#/d' $(TOC))
+
+sources:
+	@echo "$(SOURCES)"
 
 archive: $(RELEASE)/$(ARCHIVE)
 
-$(RELEASE)/$(ARCHIVE): collect
+$(RELEASE)/$(ARCHIVE): $(SOURCES)
+	echo $(SOURCES) | tr " \n\r" "\0" | cpio -0pdvl --quiet $(RELEASE)/$(PACKAGE)
 	( cd $(RELEASE) && zip -r $(ARCHIVE) $(PACKAGE) )
 
-upload_curseforge: $(RELEASE)/$(ARCHIVE) CHANGELOG.txt
+upload_curseforge: $(RELEASE)/$(ARCHIVE) $(CHANGELOG)
 	jq -n --arg dn $(DISPLAY_NAME) \
 	      --arg gvi $(GAME_VERSION_ID) \
 	      --arg rt $(RELEASE_TYPE) \
 	      --arg clt $(CHANGELOG_TYPE) \
-	      --rawfile cl CHANGELOG.txt \
+	      --rawfile cl $(CHANGELOG) \
 	'{displayName:$$dn, gameVersions:[$$gvi], releaseType:$$rt, changelogType:$$clt, changelog:$$cl}' \
 	| curl -s -H "x-api-token: $(CURSEFORGE_API_TOKEN)" \
 	       -F "metadata=<-" \
