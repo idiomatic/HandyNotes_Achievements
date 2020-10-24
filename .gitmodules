@@ -8,7 +8,7 @@
 	branch = master
 [submodule "Libs/LibStub"]
 	path = Libs/LibStub
-	url = git@github.com:wowace-clone/LibStub.git
+	url = git@github.com:wowads/LibStub.git
 [submodule "Libs/Ace3"]
 	path = Libs/Ace3
-	url = git@github.com:wowace-clone/Ace3.git
+	url = git@github.com:wowads/Ace3.git
