@@ -1,7 +1,7 @@
 PACKAGE ?=	HandyNotes_Achievements
 TOC ?=		HandyNotes_Achievements.toc
 ARCHIVE ?=	HandyNotes-Achievements.zip
-RELEASE ?=	.release
+BUILD ?=	.build
 CURSEFORGE_PROJECT_ID ?= 99064
 CURSEFORGE_API_TOKEN ?= sekrit
 
@@ -24,16 +24,13 @@ update:
 
 SOURCES ?= $(TOC) $(CHANGELOG) $(shell sed -e '/^\#/d' $(TOC))
 
-sources:
-	@echo "$(SOURCES)"
+archive: $(BUILD)/$(ARCHIVE)
 
-archive: $(RELEASE)/$(ARCHIVE)
+$(BUILD)/$(ARCHIVE): $(SOURCES)
+	echo $(SOURCES) | tr " \n\r" "\0" | cpio -0pdvl --quiet $(BUILD)/$(PACKAGE)
+	( cd $(BUILD) && zip -r $(ARCHIVE) $(PACKAGE) )
 
-$(RELEASE)/$(ARCHIVE): $(SOURCES)
-	echo $(SOURCES) | tr " \n\r" "\0" | cpio -0pdvl --quiet $(RELEASE)/$(PACKAGE)
-	( cd $(RELEASE) && zip -r $(ARCHIVE) $(PACKAGE) )
-
-upload_curseforge: $(RELEASE)/$(ARCHIVE) $(CHANGELOG)
+upload_curseforge: $(BUILD)/$(ARCHIVE) $(CHANGELOG)
 	jq -n --arg dn $(DISPLAY_NAME) \
 	      --arg gvi $(GAME_VERSION_ID) \
 	      --arg rt $(RELEASE_TYPE) \
@@ -42,10 +39,10 @@ upload_curseforge: $(RELEASE)/$(ARCHIVE) $(CHANGELOG)
 	'{displayName:$$dn, gameVersions:[$$gvi], releaseType:$$rt, changelogType:$$clt, changelog:$$cl}' \
 	| curl -s -H "x-api-token: $(CURSEFORGE_API_TOKEN)" \
 	       -F "metadata=<-" \
-	       -F file=@$(RELEASE)/$(ARCHIVE) \
+	       -F file=@$(BUILD)/$(ARCHIVE) \
 	       https://wow.curseforge.com/api/projects/$(CURSEFORGE_PROJECT_ID)/upload-file
 
 clean:
-	-rm -rf $(RELEASE)
+	-rm -rf $(BUILD)
 
 .PHONY: all collect archive upload_curseforge clean

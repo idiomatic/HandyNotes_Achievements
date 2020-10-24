@@ -26,7 +26,6 @@ jobs:
       CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
       CURSEFORGE_PROJECT_ID: ${{ secrets.CURSEFORGE_PROJECT_ID }}
       ARCHIVE: HandyNotes-Achievements.zip
-      RELEASE: .release
       TOC: HandyNotes_Achievements.toc
       CHANGELOG_TYPE: markdown
 

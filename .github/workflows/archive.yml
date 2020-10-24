@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      RELEASE: .release
+      BUILD: .build
       ARTIFACT: HandyNotes-Achievements
       ARCHIVE: HandyNotes-Achievements.zip
 
@@ -31,4 +31,4 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: ${{ env.ARTIFACT }}
-          path: ${{ env.RELEASE }}/${{ env.ARCHIVE }}
+          path: ${{ env.BUILD }}/${{ env.ARCHIVE }}
