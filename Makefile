@@ -35,7 +35,7 @@ upload_curseforge: $(BUILD)/$(ARCHIVE) $(CHANGELOG)
 	      --arg gvi $(GAME_VERSION_ID) \
 	      --arg rt $(RELEASE_TYPE) \
 	      --arg clt $(CHANGELOG_TYPE) \
-	      --rawfile cl $(CHANGELOG) \
+	      --arg cl "`cat $(CHANGELOG)`" \
 	'{displayName:$$dn, gameVersions:[$$gvi], releaseType:$$rt, changelogType:$$clt, changelog:$$cl}' \
 	| curl -s -H "x-api-token: $(CURSEFORGE_API_TOKEN)" \
 	       -F "metadata=<-" \
