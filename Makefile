@@ -36,7 +36,7 @@ upload_curseforge: $(BUILD)/$(ARCHIVE) $(CHANGELOG)
 	      --arg rt $(RELEASE_TYPE) \
 	      --arg clt $(CHANGELOG_TYPE) \
 	      --arg cl "`cat $(CHANGELOG)`" \
-	'{displayName:$$dn, gameVersions:[$$gvi], releaseType:$$rt, changelogType:$$clt, changelog:$$cl}' \
+	'{displayName:$$dn, gameVersions:[$$gvi | tonumber], releaseType:$$rt, changelogType:$$clt, changelog:$$cl}' \
 	| curl -s -H "x-api-token: $(CURSEFORGE_API_TOKEN)" \
 	       -F "metadata=<-" \
 	       -F file=@$(BUILD)/$(ARCHIVE) \
