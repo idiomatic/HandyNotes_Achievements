@@ -3,15 +3,17 @@
 ## [Unreleased]
 
 ## [v0.5.0]
+### Added
+- German localization [lulukmr]
+
 ### Changed
 - updated Ace3, LibStub, and LibQTip [JanGalek]
 
-### Fixed
-- German localization [lulukmr]
-
 ## [v0.4.23]
-### Fixed
+### Added
 - Russian localization [Makemeloco]
+
+### Fixed
 - updated for 8.1.0: fixed GetCurrentCalendarTime [JanGalek]
 - updated for 8.2.5: fixed IsQuestFlagCompleted [JanGalek]
 
