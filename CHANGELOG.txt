@@ -1,6 +1,6 @@
 == v0.5.0 ==
 
-* updated Ace3 and LibStub [JanGalek]
+* updated Ace3, LibStub, and LibQTip [JanGalek]
 * German localization [lulukmr]
 
 == v0.4.23 ==
