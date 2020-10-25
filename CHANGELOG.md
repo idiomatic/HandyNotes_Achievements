@@ -4,26 +4,26 @@
 
 ## [v0.5.0]
 ### Added
-- German localization [lulukmr]
+- German localization [[@lulukmr](https://github.com/lulukmr)]
 
 ### Changed
-- updated Ace3, LibStub, and LibQTip [JanGalek]
+- updated Ace3, LibStub, and LibQTip [[@JanGalek](https://github.com/JanGalek)]
 
 ## [v0.4.23]
 ### Added
-- Russian localization [Makemeloco]
+- Russian localization [[@Makemeloco](https://github.com/Makemeloco)]
 
 ### Fixed
-- updated for 8.1.0: fixed GetCurrentCalendarTime [JanGalek]
-- updated for 8.2.5: fixed IsQuestFlagCompleted [JanGalek]
+- updated for 8.1.0: fixed GetCurrentCalendarTime [[@JanGalek](https://github.com/JanGalek)]
+- updated for 8.2.5: fixed IsQuestFlagCompleted [[@JanGalek](https://github.com/JanGalek)]
 
 ## [v0.4.22]
 ### Changed
-- moved some bloody rares [ldeveber]
+- moved some bloody rares [[@ldeveber](https://github.com/ldeveber)]
 
 ## [v0.4.21]
 ### Removed
-- MapMap/MapExcursion dead code [journeym]
+- MapMap/MapExcursion dead code [[@journeym](https://github.com/journeym)]
 
 ## [v0.4.20]
 ### Added
@@ -35,7 +35,7 @@
 - Leeeeeeeeeeeeeroy!
 
 ### Changed
-- updated to 8.0 Battle for Azeroth Calendar API [axnd3r, chelpixie, noadtome]
+- updated to 8.0 Battle for Azeroth Calendar API [[@axnd3r](https://github.com/axnd3r), [@chelpixie](https://github.com/chelpixie), [@noadtome](https://github.com/noadtome)]
 - nudged Field Photographer in Deadmines
 - nudged Children's Week in Shattrath
 
@@ -144,7 +144,7 @@
 - made a HandyNotes module, based on https://github.com/idiomatic/Achiever
 
 ## [v0.3]
-### Changed
+### Removed
 - we shall never speak of this version again
 
 ## [v0.2]
