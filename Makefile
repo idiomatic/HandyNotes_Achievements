@@ -13,7 +13,7 @@ GAME_VERSION_ID ?= $(shell curl -s -H "x-api-token: $(CURSEFORGE_API_TOKEN)" htt
 
 DISPLAY_NAME ?=	v$(VERSION)
 RELEASE_TYPE ?=	alpha
-CHANGELOG ?= CHANGELOG.txt
+CHANGELOG ?= CHANGELOG.md
 CHANGELOG_TYPE ?= markdown
 
 all:
