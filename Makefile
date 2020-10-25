@@ -20,7 +20,7 @@ all:
 	(cd Libs/AchievementLocations-1.0 && make)
 
 update:
-	git submodule update --remote --merge
+	git submodule update --remote --merge Libs/AchievementLocations-1.0
 
 SOURCES ?= $(TOC) $(CHANGELOG) $(shell sed -e '/^\#/d' $(TOC))
 
