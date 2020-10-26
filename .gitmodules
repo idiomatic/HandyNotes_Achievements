@@ -9,8 +9,7 @@
 
 [submodule "Libs/LibStub"]
 	path = Libs/LibStub
-	url = https://github.com/wowads/LibStub
-
+	url = git@github.com:wowmua/LibStub.git
 [submodule "Libs/Ace3"]
 	path = Libs/Ace3
-	url = https://github.com/wowads/Ace3
+	url = git@github.com:wowmua/Ace3.git
