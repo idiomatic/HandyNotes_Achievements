@@ -1,6 +1,6 @@
 PACKAGE ?=	HandyNotes_Achievements
 TOC ?=		HandyNotes_Achievements.toc
-ARCHIVE ?=	HandyNotes-Achievements.zip
+ARCHIVE ?=	HandyNotes-Achievements-$(VERSION).zip
 BUILD ?=	.build
 CURSEFORGE_PROJECT_ID ?= 99064
 CURSEFORGE_API_TOKEN ?= sekrit
