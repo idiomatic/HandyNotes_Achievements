@@ -26,6 +26,7 @@ jobs:
       CURSEFORGE_API_TOKEN: ${{ secrets.CURSEFORGE_API_TOKEN }}
       CURSEFORGE_PROJECT_ID: ${{ secrets.CURSEFORGE_PROJECT_ID }}
       ARCHIVE: HandyNotes-Achievements.zip
+      ARCHIVE_VERSION: HandyNotes-Achievements-${{ steps.version.outputs.VERSION }}.zip
       TOC: HandyNotes_Achievements.toc
       CHANGELOG_TYPE: markdown
 
@@ -43,6 +44,17 @@ jobs:
       # disregard specific commit hash, and honor .gitmodule branch
       - name: update
         run: make update
+
+      - name: version
+        run: echo "::set-output name=VERSION::$(make version)"
+
+      - name: version-diagnostics
+        run: |
+          echo VERSION $(make version)
+          echo VERSION ${{ steps.version.outputs.VERSION }}
+          echo ARCHIVE ${{ env.ARCHIVE }}
+          echo ARCHIVE_VERSION ${{ env.ARCHIVE_VERSION }}
+          false
 
       - name: archive
         run: make archive

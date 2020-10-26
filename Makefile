@@ -23,6 +23,9 @@ all:
 update:
 	git submodule update --remote --merge Libs/AchievementLocations-1.0
 
+version:
+	@echo $(VERSION)
+
 SOURCES ?= $(TOC) $(CHANGELOG) $(shell sed -e '/^\#/d' $(TOC))
 
 archive: $(BUILD)/$(ARCHIVE)
