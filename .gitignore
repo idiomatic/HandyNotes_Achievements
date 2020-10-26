@@ -1,4 +1,4 @@
 .idea/
-.release/
+.build/
 *~
 .DS_Store

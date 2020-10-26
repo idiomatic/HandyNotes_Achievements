@@ -15,6 +15,7 @@ DISPLAY_NAME ?=	v$(VERSION)
 RELEASE_TYPE ?=	alpha
 CHANGELOG ?= CHANGELOG.md
 CHANGELOG_TYPE ?= markdown
+MINI_CHANGELOG ?= CHANGELOG.md
 
 all:
 	(cd Libs/AchievementLocations-1.0 && make)
@@ -30,12 +31,16 @@ $(BUILD)/$(ARCHIVE): $(SOURCES)
 	echo $(SOURCES) | tr " \n\r" "\0" | cpio -0pdvl --quiet $(BUILD)/$(PACKAGE)
 	( cd $(BUILD) && zip -r $(ARCHIVE) $(PACKAGE) )
 
-upload_curseforge: $(BUILD)/$(ARCHIVE) $(CHANGELOG)
+$(BUILD)/$(MINI_CHANGELOG): $(CHANGELOG)
+	-mkdir -p $(BUILD)
+	sed -n "/^##* *\[*v${VERSION}/,/v/p" < $(CHANGELOG) | sed -e '$$d' > $@
+
+upload_curseforge: $(BUILD)/$(ARCHIVE) $(BUILD)/$(MINI_CHANGELOG)
 	jq -n --arg dn $(DISPLAY_NAME) \
 	      --arg gvi $(GAME_VERSION_ID) \
 	      --arg rt $(RELEASE_TYPE) \
 	      --arg clt $(CHANGELOG_TYPE) \
-	      --arg cl "`cat $(CHANGELOG)`" \
+	      --arg cl "`cat $(BUILD)/$(MINI_CHANGELOG)`" \
 	'{displayName:$$dn, gameVersions:[$$gvi | tonumber], releaseType:$$rt, changelogType:$$clt, changelog:$$cl}' \
 	| curl -s -H "x-api-token: $(CURSEFORGE_API_TOKEN)" \
 	       -F "metadata=<-" \
@@ -43,6 +48,9 @@ upload_curseforge: $(BUILD)/$(ARCHIVE) $(CHANGELOG)
 	       https://wow.curseforge.com/api/projects/$(CURSEFORGE_PROJECT_ID)/upload-file
 
 clean:
-	-rm -rf $(BUILD)
+	-rm -r $(BUILD)/$(PACKAGE)
+	-rm $(BUILD)/$(MINI_CHANGELOG)
+	-rm $(BUILD)/$(ARCHIVE)
+	-rmdir $(BUILD)
 
-.PHONY: all collect archive upload_curseforge clean
+.PHONY: all update version archive upload_curseforge clean
