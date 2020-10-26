@@ -3,6 +3,7 @@
 ## [Unreleased]
 
 ## [v0.5.0]
+
 ### Added
 - German localization [[@lulukmr](https://github.com/lulukmr)]
 
@@ -10,6 +11,7 @@
 - updated Ace3, LibStub, and LibQTip [[@JanGalek](https://github.com/JanGalek)]
 
 ## [v0.4.23]
+
 ### Added
 - Russian localization [[@Makemeloco](https://github.com/Makemeloco)]
 
@@ -18,14 +20,17 @@
 - updated for 8.2.5: fixed IsQuestFlagCompleted [[@JanGalek](https://github.com/JanGalek)]
 
 ## [v0.4.22]
+
 ### Changed
 - moved some bloody rares [[@ldeveber](https://github.com/ldeveber)]
 
 ## [v0.4.21]
+
 ### Removed
 - MapMap/MapExcursion dead code [[@journeym](https://github.com/journeym)]
 
 ## [v0.4.20]
+
 ### Added
 - Hellfire Citadel, Blackrock Foundry, Highmaul, Siege of Orgrimmar, Firelands, Spires of Arak, Scholomance
 - Grizzly Hills PvP
@@ -43,23 +48,33 @@
 - holiday calendar scanning range
 
 ## [v0.4.19]
+
 ### Added
 - Children's Week tweaks
 - Tranditional Chinese (zhTW) localization [gaspy10].  More translation help wanted.
 
 ## [v0.4.18]
+
 ### Fixed
 - bugfix for adding mapFile column to rows [Bagmer] (or "why you don't work on new features in the same directory as you use for making unrelated updates".)
 
 ## [v0.4.17-1]
+
 ### Changed
 - deduplicate imported libraries [DarkWanderer33]
 
-## [v0.4.16 & v0.4.17]
+## [v0.4.17]
+
+### Changed
+- trick WowAce to rebuild
+
+## [v0.4.16]
+
 ### Changed
 - trick WowAce to rebuild
 
 ## [v0.4.15]
+
 ### Added
 - added other locales [pas06]
 - added Medium Rare and Bloody Rare locations
@@ -71,10 +86,12 @@
 - fixed bug for calendar limits
 
 ## [v0.4.14]
+
 ### Added
 - added enUS locale
 
 ## [v0.4.13]
+
 ### Added
 - added seasonal awareness
 - added Brewfest (and its out-of-seasonal vendor)
@@ -84,6 +101,7 @@
 - added some Hallow's End, Midsummer locations
 
 ## [v0.4.12]
+
 ### Added
 - added Stonecore
 
@@ -91,6 +109,7 @@
 - config panel setting persistence
 
 ## [v0.4.11]
+
 ### Added
 - added config panel
 - added Children's Week
@@ -100,6 +119,7 @@
 - default to clean zones
 
 ## [v0.4.10]
+
 ### Added
 - added reputations, some with locations
 - match criterion column with criteriaDescription
@@ -140,17 +160,21 @@
 - bugfix for empty tooltips
 
 ## [v0.4]
+
 ### Changed
 - made a HandyNotes module, based on https://github.com/idiomatic/Achiever
 
 ## [v0.3]
+
 ### Removed
 - we shall never speak of this version again
 
 ## [v0.2]
+
 ### Changed
 - rewrote using coroutines and denormalized locations rows
 
 ## [v0.1]
+
 ### Changed
 - prototype, directly using HereBeDragons
