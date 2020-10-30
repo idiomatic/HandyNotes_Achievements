@@ -2,6 +2,15 @@
 
 ## [Unreleased]
 
+## [v0.5.1]
+
+### Added
+- added Pest Control critters
+
+### Fixed
+- found Westfall Field Photographer
+- added some Tricks and Treats in Twilight Highlands
+
 ## [v0.5.0]
 
 ### Added
