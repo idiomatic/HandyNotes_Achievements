@@ -65,14 +65,70 @@ function HNA:HandyNotesCoordsNear(c, coord)
 end
 
 
+function SortByTrackedAchievement(nodes, enabled)
+    if enabled == false then
+        return nodes
+    end
+
+    function getTrackedAchievements()
+        id1, id2, id3, id4, id5, id6, id7, id8, id9, id10 = GetTrackedAchievements()
+
+        local result = {}
+
+        function add(id, result)
+            if id ~= nil then
+                result[tonumber(id)] = tonumber(id)
+            end
+        end
+
+        add(id1, result)
+        add(id2, result)
+        add(id3, result)
+        add(id4, result)
+        add(id5, result)
+        add(id6, result)
+        add(id7, result)
+        add(id8, result)
+        add(id9, result)
+        add(id10, result)
+
+        return result
+    end
+    local trackedAchievements = getTrackedAchievements()
+    local sortedNodes = {}
+    local notTrackedNodes = {}
+
+    for nodeIndex = 1, #nodes, 2 do
+        local row = nodes[nodeIndex + 1]
+        local achievementID = row[2]
+
+        if trackedAchievements[achievementID] then
+            table.insert(sortedNodes, nodes[nodeIndex])
+            table.insert(sortedNodes, nodes[nodeIndex + 1])
+        else
+            table.insert(notTrackedNodes, nodes[nodeIndex])
+            table.insert(notTrackedNodes, nodes[nodeIndex + 1])
+        end
+    end
+
+    for nodeIndex = 1, #notTrackedNodes, 2 do
+        table.insert(sortedNodes, notTrackedNodes[nodeIndex])
+        table.insert(sortedNodes, notTrackedNodes[nodeIndex + 1])
+    end
+
+    return sortedNodes
+end
+
 function HNA:OnEnter(mapFile, nearCoord)
     tooltip = QTip:Acquire(ADDON_NAME, 2, "LEFT", "RIGHT")
     local firstRow = true
     local previousAchievementID
 
     local nodes = activeNodes[mapFile]
-    for nodeIndex = 1, #nodes, 2 do
-        local coord, row = nodes[nodeIndex], nodes[nodeIndex + 1]
+    local sortedNodes = SortByTrackedAchievement(nodes, HNA.db.profile.sort_by_tracked)
+
+    for nodeIndex = 1, #sortedNodes, 2 do
+        local coord, row = sortedNodes[nodeIndex], sortedNodes[nodeIndex + 1]
         if HNA:HandyNotesCoordsNear(coord, nearCoord) and HNA:Valid(row) then
             local achievementID = row[2]
             local criterion = row.criterion
@@ -173,6 +229,7 @@ function HNA:OnInitialize()
             season_warning = 14,
             clean_continents = true,
             completed = false,
+            sort_by_tracked = false,
         }
     }
 
@@ -257,6 +314,14 @@ function HNA:PLAYER_ENTERING_WORLD(event)
                 arg = "season_warning",
                 order = 6,
             },
+            sort_by_tracked = {
+                type = "toggle",
+                name = L["Sort by tracked"],
+                desc = L["Sort achievements by tracked"],
+                width = "full",
+                arg = "sort_by_tracked",
+                order = 7
+            }
         },
     }
     HandyNotes:RegisterPluginDB(ADDON_NAME, self, options)
