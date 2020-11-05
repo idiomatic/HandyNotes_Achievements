@@ -65,11 +65,7 @@ function HNA:HandyNotesCoordsNear(c, coord)
 end
 
 
-function SortByTrackedAchievement(nodes, enabled)
-    if enabled == false then
-        return nodes
-    end
-
+function SortByTrackedAchievement(nodes)
     function getTrackedAchievements()
         id1, id2, id3, id4, id5, id6, id7, id8, id9, id10 = GetTrackedAchievements()
 
@@ -125,10 +121,13 @@ function HNA:OnEnter(mapFile, nearCoord)
     local previousAchievementID
 
     local nodes = activeNodes[mapFile]
-    local sortedNodes = SortByTrackedAchievement(nodes, HNA.db.profile.sort_by_tracked)
 
-    for nodeIndex = 1, #sortedNodes, 2 do
-        local coord, row = sortedNodes[nodeIndex], sortedNodes[nodeIndex + 1]
+    if HNA.db.profile.sort_by_tracked == true then
+        nodes = SortByTrackedAchievement(nodes)
+    end
+
+    for nodeIndex = 1, #nodes, 2 do
+        local coord, row = nodes[nodeIndex], nodes[nodeIndex + 1]
         if HNA:HandyNotesCoordsNear(coord, nearCoord) and HNA:Valid(row) then
             local achievementID = row[2]
             local criterion = row.criterion
