@@ -6,6 +6,7 @@
 
 ### Added
 - added Pest Control critters
+- Sort by tracked achievements (you can see tracked achievements on top of list, need turn on in settings)
 
 ### Fixed
 - found Westfall Field Photographer
