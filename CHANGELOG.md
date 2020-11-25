@@ -12,6 +12,9 @@
 - found Westfall Field Photographer
 - added some Tricks and Treats in Twilight Highlands
 
+### Changed
+- updated to AchievementLocations v0.6.0
+
 ## [v0.5.0]
 
 ### Added
