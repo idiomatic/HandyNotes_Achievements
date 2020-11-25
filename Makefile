@@ -18,7 +18,7 @@ CHANGELOG_TYPE ?= markdown
 MINI_CHANGELOG ?= CHANGELOG.md
 
 all:
-	(cd Libs/AchievementLocations-1.0 && make)
+	@true
 
 update:
 	git submodule update --remote --merge Libs/AchievementLocations-1.0
