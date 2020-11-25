@@ -2,11 +2,11 @@
 
 ## [Unreleased]
 
-## [v0.5.1]
+## [v0.6.0]
 
 ### Added
 - added Pest Control critters
-- Sort by tracked achievements (you can see tracked achievements on top of list, need turn on in settings)
+- Sort by tracked achievements: when enabled, tracked achievements appear at top of tooltip
 
 ### Fixed
 - found Westfall Field Photographer

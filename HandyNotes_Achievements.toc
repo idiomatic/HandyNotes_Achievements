@@ -2,7 +2,7 @@
 ## X-Min-Interface: 90001
 ## Title: HandyNotes: Achievements
 ## Notes: Shows location of incomplete achievements
-## Version: 0.5.1
+## Version: 0.6.0
 ## Author: idiomatiq
 ## Dependencies: HandyNotes
 ## SavedVariables: HandyNotesAchievementsDB
