@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [v0.6.1]
+
+### Changed
+- updated LibQTip
+
 ## [v0.6.0]
 
 ### Added
