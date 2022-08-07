@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [v0.6.2]
+
+### Fixed
+- added a fifteenth return value from GetAchievementInfo() [[@sidrat](https://github.com/sidrat)]
+
 ## [v0.6.1]
 
 ### Changed

@@ -132,7 +132,7 @@ function HNA:OnEnter(mapFile, nearCoord)
             local achievementID = row[2]
             local criterion = row.criterion
 
-            local _, name, points, completed, _, _, _, description, _, _, _, _, _, _ = GetAchievementInfo(achievementID)
+            local _, name, points, completed, _, _, _, description, _, _, _, _, _, _, _ = GetAchievementInfo(achievementID)
 
             if achievementID ~= previousAchievementID then
                 if not firstRow then
