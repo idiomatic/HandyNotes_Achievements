@@ -151,7 +151,7 @@ function HNA:OnEnter(mapFile, nearCoord)
             end
 
             if row.faction then
-                local name, _, standing = GetFactionInfoByID(row.faction)
+                local name, _, standing = C_Reputation.GetFactionDataByID(row.faction)
                 tooltip:AddSeparator(2, 0, 0, 0, 0)
                 tooltip:SetFont(GameTooltipTextSmall)
                 local genderSuffix = (UnitSex("player") == 3 and "_FEMALE") or ""
@@ -375,7 +375,7 @@ function HNA:Valid(row)
     end
 
     if row.faction then
-        local _, _, standing = GetFactionInfoByID(row.faction)
+        local _, _, standing = C_Reputation.GetFactionDataByID(row.faction)
         completed = (standing == 8)
         if completed then return false end
     end
