@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [v0.6.4]
+
+- updated deprecated API GetFactionInfoByID() and added FACTION_STANDING_LABELS [[@Psykotik](https://github.com/psykotik)]
+
 ## [v0.6.3]
 
 - update API GetFactionInfoByID() API [[@Psykotik](https://github.com/psykotik)]
