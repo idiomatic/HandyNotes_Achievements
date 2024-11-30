@@ -38,6 +38,35 @@ local visible = {}
 local tooltip
 local activeNodes = {}
 
+local _, ns = ...
+
+local GetFactionInfoByID = GetFactionInfoByID or function(factionID)
+    if not factionID then return nil end
+
+    local fi = C_Reputation.GetFactionDataByID(factionID)
+    if fi then
+        return fi.name, fi.description, fi.reaction,
+            fi.currentReactionThreshold, fi.nextReactionThreshold,
+            fi.currentStanding, fi.atWarWith, fi.canToggleAtWar, fi.isHeader,
+            fi.isCollapsed, nil, fi.isWatched, fi.isChild, fi.factionID,
+            fi.hasBonusRepGain, nil,
+            -- 11.0 and above
+            fi.isAccountWide, fi.isHeaderWithRep, fi.canSetInactive
+    end
+end
+
+local FACTION_STANDING_LABELS = {
+    [1] = "Hated",
+    [2] = "Hostile",
+    [3] = "Unfriendly",
+    [4] = "Neutral",
+    [5] = "Friendly",
+    [6] = "Honored",
+    [7] = "Revered",
+    [8] = "Exalted"
+}
+
+ns.api = {GetFactionInfoByID = GetFactionInfoByID}
 
 function HNA:GetAchievementCriteriaInfoByDescription(achievementID, description)
     for i = 1, GetAchievementNumCriteria(achievementID) do
@@ -151,11 +180,11 @@ function HNA:OnEnter(mapFile, nearCoord)
             end
 
             if row.faction then
-                local name, _, standing = C_Reputation.GetFactionDataByID(row.faction)
+                local name, _, standing = ns.api.GetFactionInfoByID(row.faction)
                 tooltip:AddSeparator(2, 0, 0, 0, 0)
                 tooltip:SetFont(GameTooltipTextSmall)
-                local genderSuffix = (UnitSex("player") == 3 and "_FEMALE") or ""
-                local reputation = HNA:RGBToColorCode(FACTION_BAR_COLORS[standing]) .. _G["FACTION_STANDING_LABEL" .. standing .. genderSuffix] .. "|r"
+                --local genderSuffix = (UnitSex("player") == 3 and "_FEMALE") or ""
+                local reputation = HNA:RGBToColorCode(FACTION_BAR_COLORS[standing]) .. (FACTION_STANDING_LABELS[standing] or "Unknown") .. "|r"
                 tooltip:AddLine(name, reputation)
             end
 
