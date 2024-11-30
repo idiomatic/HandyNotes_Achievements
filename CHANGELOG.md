@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [v0.6.3]
+
+- update API GetFactionInfoByID() API [[@Psykotik](https://github.com/psykotik)]
+
 ## [v0.6.2]
 
 ### Fixed
