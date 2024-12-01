@@ -1,7 +1,8 @@
-## Interface: 90002
-## X-Min-Interface: 90001
+## Interface: 110007
+## X-Min-Interface: 110005
 ## Title: HandyNotes: Achievements
 ## Notes: Shows location of incomplete achievements
+## Notes-ruRU: Показывает расположение незавершенных достижений
 ## Version: 0.6.4
 ## Author: idiomatiq
 ## Dependencies: HandyNotes
