@@ -1,5 +1,5 @@
-## Interface: 110105, 110107
-## X-Min-Interface: 110105
+## Interface: 110200
+## X-Min-Interface: 110200
 ## Title: HandyNotes: Achievements
 ## Notes: Shows location of incomplete achievements
 ## Notes-ruRU: Показывает расположение незавершенных достижений
