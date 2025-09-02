@@ -1,4 +1,4 @@
-## Interface: 110200, 110205
+## Interface: 110205
 ## X-Min-Interface: 110200
 ## Title: HandyNotes: Achievements
 ## Notes: Shows location of incomplete achievements
