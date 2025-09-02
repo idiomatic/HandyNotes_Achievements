@@ -15,7 +15,7 @@ on:
     inputs:
       release-type:
         description: alpha, beta, or release
-        default: alpha
+        default: release
 
 jobs:
   publish:
@@ -28,14 +28,13 @@ jobs:
 
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           submodules: true
 
       - name: toolchain
         run: |
-          #sudo apt-get -y update
-          sudo apt-get -y install jq
+          which jq > /dev/null || sudo apt-get -y install jq
 
       - name: archive
         run: make archive

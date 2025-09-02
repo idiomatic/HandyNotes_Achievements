@@ -3,7 +3,7 @@
 ## Title: HandyNotes: Achievements
 ## Notes: Shows location of incomplete achievements
 ## Notes-ruRU: Показывает расположение незавершенных достижений
-## Version: 0.6.4
+## Version: 0.6.5
 ## Author: idiomatiq
 ## Dependencies: HandyNotes
 ## SavedVariables: HandyNotesAchievementsDB
