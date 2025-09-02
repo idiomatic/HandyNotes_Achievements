@@ -1,4 +1,4 @@
-## Interface: 110200
+## Interface: 110200, 110205
 ## X-Min-Interface: 110200
 ## Title: HandyNotes: Achievements
 ## Notes: Shows location of incomplete achievements
@@ -12,6 +12,18 @@
 ## X-Email: idiomatiq@rbrian.com
 ## X-Website: https://github.com/idiomatic/HandyNotes_Achievements
 ## X-License: Apache
+
+## Category-enUS: Map
+## Category-deDE: Karte
+## Category-esES: Mapa
+## Category-esMX: Mapa
+## Category-frFR: Carte
+## Category-itIT: Mappa
+## Category-koKR: 지도
+## Category-ptBR: Mapa
+## Category-ruRU: Карта
+## Category-zhCN: 地图
+## Category-zhTW: 地圖
 
 Libs/LibStub/LibStub.lua
 Libs/Ace3/CallbackHandler-1.0/CallbackHandler-1.0.lua
